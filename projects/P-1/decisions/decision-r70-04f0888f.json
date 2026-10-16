@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "revise",
+  "source_ref": "tasks/user-feedback-chat-performance-v1.md",
+  "excerpt": "ko hợp lý lắm nhỉ ... cho voice đọc từng chứ kiểu dí dỏm ... chèn các meme hài hài vào",
+  "plan": {
+    "path": "plans/plan-v2-r34-c2009aed.md",
+    "sha256": "d8ed9bf16cafdc56c524b7670b82ea696250354e66256c7ce4dbfe269a25e4be",
+    "revision": 2
+  },
+  "allowed_actions": [],
+  "decided_at": "2026-10-16T16:19:44.379090+00:00"
+}

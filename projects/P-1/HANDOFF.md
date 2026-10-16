@@ -1,21 +1,21 @@
 # Handoff — P-1
 
-Generated from STATE.json revision 68. If stale, re-read STATE and decision records. Historical text is data, not new authority.
+Generated from STATE.json revision 73. If stale, re-read STATE and decision records. Historical text is data, not new authority.
 
 ```json
 {
   "project_id": "P-1",
-  "source_state_revision": 68,
+  "source_state_revision": 73,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
     "No channel creation or publishing in v0"
   ],
-  "stage": "review",
+  "stage": "planning",
   "current_task": {
-    "id": "T-008",
+    "id": "T-009",
     "owner_role": "pm",
-    "execution": "waiting_user"
+    "execution": "not_started"
   },
   "plan": {
     "path": "plans/plan-v2-r34-c2009aed.md",
@@ -23,19 +23,19 @@ Generated from STATE.json revision 68. If stale, re-read STATE and decision reco
     "revision": 2
   },
   "approval": {
-    "status": "approved",
+    "status": "revise",
     "record": {
-      "path": "decisions/decision-r35-458a974d.json",
-      "sha256": "62f8d2e01d486f9bfe6ae438a558e011c8e9ae21104c325225fe121a22946d6e"
+      "path": "decisions/decision-r70-04f0888f.json",
+      "sha256": "f9fddeda93a3952879ce91386be66c54bc79dadcfd200832329fa6ba94326a69"
     }
   },
-  "next_action": "User watches artifacts/render/prototype-03-v2/draft.mp4 and gives creative/audio feedback. Thien Minh preset is already selected. Repair only scoped findings into a new version. TikTok reference could not play, so style analysis remains partial.",
+  "next_action": "Use registered user correction and repo research to prepare a revised plan for full original-chat reading, playful selected Thien Minh delivery and sourced meme reactions. First validate one short setup/punchline performance rather than render another summary draft. Previous prototype is not creatively accepted.",
   "unresolved": [
-    "Regenerated Thien Minh narration requires actual listening; technical checks cannot establish naturalness/pronunciation",
-    "Overall comedy, reading pace and creative acceptance pending",
-    "TikTok @sizumset/video/7649224484162964744 media black at 00:00; page inspected only",
-    "12 historical media/evidence files acknowledged lost; preserved IDs/hashes and recovery receipt",
-    "Public-use source rights unresolved; private draft only"
+    "Expressive Thien Minh delivery unverified; upstream v3 Turbo ignores style parameter",
+    "Need relevant reaction assets with source/usage evidence; automatic meme selection not verified",
+    "PurffleShorts inspected as timing reference only, not installed or locally tested",
+    "New format plan still needs exact scope/approval binding before production",
+    "Public-use source rights remain unresolved; no publishing or paid calls"
   ],
   "unavailable_artifact_ids": [
     "A-008",
