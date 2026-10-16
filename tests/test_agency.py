@@ -149,7 +149,12 @@ class Records(unittest.TestCase):
                 agency.inside(self.project, value)
 
     def test_symlink_escape_is_rejected(self):
-        (self.project / "escape").symlink_to(self.root, target_is_directory=True)
+        try:
+            (self.project / "escape").symlink_to(self.root, target_is_directory=True)
+        except OSError as exc:
+            if getattr(exc, "winerror", None) == 1314:
+                self.skipTest("Windows host does not grant symlink creation")
+            raise
         with self.assertRaises(agency.AgencyError):
             agency.inside(self.project, "escape/file.txt")
 

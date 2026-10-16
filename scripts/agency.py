@@ -10,6 +10,7 @@ import json
 import os
 from pathlib import Path, PurePosixPath
 import re
+import sys
 import tempfile
 from uuid import uuid4
 
@@ -58,7 +59,7 @@ def atomic_write(path, content):
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, temp = tempfile.mkstemp(prefix=".write-", dir=path.parent)
     try:
-        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as handle:
             handle.write(content)
             handle.flush()
             os.fsync(handle.fileno())
@@ -136,6 +137,35 @@ def allowed_actions(project, state):
     return set(decision["allowed_actions"]) | {"research"}
 
 
+def unavailable_references(project, state):
+    lost = []
+    for recovery in state.get("recovery_records", []):
+        receipt = read_json(check_reference(project, recovery))
+        require(receipt["project_id"] == state["project_id"], "Recovery project mismatch")
+        check_reference(project, receipt["snapshot"])
+        text(receipt["source_ref"], "loss source")
+        text(receipt["excerpt"], "loss excerpt")
+        lost.extend(receipt["missing"])
+    return lost
+
+
+def check_historical_reference(project, ref, lost):
+    path = inside(project, ref["path"])
+    if not path.exists() and {"path": ref["path"], "sha256": ref["sha256"]} in lost:
+        return
+    check_reference(project, ref)
+
+
+def unavailable_artifact_ids(project, state):
+    lost = unavailable_references(project, state)
+    unavailable = set()
+    for artifact in state["artifacts"]:
+        if ({"path": artifact["path"], "sha256": artifact["sha256"]} in lost
+                or set(artifact["inputs"]) & unavailable):
+            unavailable.add(artifact["id"])
+    return unavailable
+
+
 def validate(project, state):
     require(isinstance(state, dict) and state.get("schema_version") == 1, "Unsupported state schema")
     require(state.get("project_id") == project.name, "Project/state ID mismatch")
@@ -169,11 +199,13 @@ def validate(project, state):
     actions = allowed_actions(project, state)
     require(state["stage"] != "content" or "write_content" in actions, "Content requires plan authorization")
     require(state["stage"] != "production" or "render_draft" in actions, "Production requires plan authorization")
+    lost = unavailable_references(project, state)
+    unavailable = unavailable_artifact_ids(project, state)
     seen = set()
     for artifact in state.get("artifacts", []):
         require(artifact["id"] not in seen and artifact["kind"] in KINDS, "Invalid/duplicate artifact")
         require(re.fullmatch(r"A-[0-9]{3,}", artifact["id"]), "Invalid artifact ID")
-        check_reference(project, artifact)
+        check_historical_reference(project, artifact, lost)
         for dep in artifact["inputs"]:
             require(dep in seen, "Artifact dependency missing or not earlier in lineage")
         seen.add(artifact["id"])
@@ -182,14 +214,18 @@ def validate(project, state):
         require(report["verdict"] == review["verdict"] and report["artifact_ids"] == review["artifact_ids"],
                 "Review record metadata mismatch")
         for evidence in review["evidence"]:
-            check_reference(project, evidence)
+            check_historical_reference(project, evidence, lost)
         require(set(review["artifact_ids"]) <= seen, "Review refers to missing artifacts")
         current_artifacts = {a["id"]: a["sha256"] for a in state["artifacts"]}
         require(all(current_artifacts[a] == report["artifact_hashes"][a] for a in review["artifact_ids"]),
                 "Reviewed artifact hash has changed")
     if state["acceptance"] != "not_reviewed":
         require(bool(state.get("reviews")), "Acceptance requires a review record")
-        require(state["reviews"][-1]["verdict"] == state["acceptance"], "Acceptance/review mismatch")
+        latest = state["reviews"][-1]
+        affected = (set(latest["artifact_ids"]) & unavailable or
+                    any(e in lost for e in latest["evidence"]))
+        require(state["acceptance"] == ("unverified" if affected else latest["verdict"]),
+                "Acceptance/review mismatch")
     return state
 
 
@@ -204,6 +240,7 @@ def handoff(project, state):
         "current_task": state["current_task"], "plan": state["plan"],
         "approval": state["approval"], "next_action": state["next_action"],
         "unresolved": state["unresolved"],
+        "unavailable_artifact_ids": sorted(unavailable_artifact_ids(project, state)),
     }
     content = ("# Handoff — " + state["project_id"] + "\n\n"
                "Generated from STATE.json revision " + str(state["revision"]) +
@@ -269,6 +306,45 @@ def immutable_record(project, relative, value):
     return reference(project, relative)
 
 
+def recover(root, project_id, expected_revision, source_ref, excerpt):
+    """Record acknowledged loss; never waive changed bytes or missing authority."""
+    project = project_path(root, project_id)
+    with lock(project / ".writer.lock"):
+        state = read_json(project / "STATE.json")
+        require(state["revision"] == expected_revision, "Stale state revision; reload before writing")
+        text(source_ref, "loss source", 1000)
+        text(excerpt, "loss excerpt", 2000)
+        known = unavailable_references(project, state)
+        candidates = list(state["artifacts"])
+        for review in state["reviews"]:
+            candidates.extend(review["evidence"])
+        missing = []
+        for ref in candidates:
+            path = inside(project, ref["path"])
+            item = {"path": ref["path"], "sha256": ref["sha256"]}
+            if not path.exists() and item not in known and item not in missing:
+                missing.append(item)
+        require(bool(missing), "No newly missing output/evidence files")
+        revision = expected_revision + 1
+        stem = f"recovery/loss-r{revision}-{uuid4().hex[:8]}"
+        snapshot = immutable_record(project, stem + "-state.json", state)
+        receipt = immutable_record(project, stem + ".json", {
+            "project_id": project_id, "source_ref": source_ref, "excerpt": excerpt,
+            "snapshot": snapshot, "missing": missing, "recorded_at": now()})
+        state.setdefault("recovery_records", []).append(receipt)
+        if state["reviews"]:
+            latest = state["reviews"][-1]
+            affected = (set(latest["artifact_ids"]) & unavailable_artifact_ids(project, state)
+                        or any(e in known + missing for e in latest["evidence"]))
+            if affected:
+                state["acceptance"] = "unverified"
+        state["current_task"]["execution"] = "blocked"
+        state["next_action"] = "Rebuild lost outputs under new paths and IDs; historical media is unavailable"
+        state["unresolved"].append("Acknowledged media loss; see " + receipt["path"])
+        state["revision"] = revision
+        return {"revision": revision, "missing": missing, **commit_state(project, state)}
+
+
 def update(root, project_id, expected_revision, operation, **options):
     project = project_path(root, project_id)
     with lock(project / ".writer.lock"):
@@ -324,6 +400,8 @@ def update(root, project_id, expected_revision, operation, **options):
             require(not any(a["path"] == ref["path"] for a in state["artifacts"]), "Use a new file for each version")
             dependencies = options.get("input") or []
             require(set(dependencies) <= {a["id"] for a in state["artifacts"]}, "Unknown input artifact")
+            require(not set(dependencies) & unavailable_artifact_ids(project, state),
+                    "Cannot reuse unavailable artifact lineage")
             state["artifacts"].append({**ref, "id": f"A-{len(state['artifacts']) + 1:03d}",
                                        "kind": kind, "inputs": dependencies,
                                        "plan_revision": state["plan"]["revision"] if state["plan"] else None,
@@ -336,6 +414,8 @@ def update(root, project_id, expected_revision, operation, **options):
             require(isinstance(targets, list) and bool(targets), "Review needs artifact_ids")
             artifacts = {a["id"]: a for a in state["artifacts"]}
             require(set(targets) <= artifacts.keys(), "Review target missing")
+            require(not set(targets) & unavailable_artifact_ids(project, state),
+                    "Cannot review unavailable artifact lineage")
             for target in targets:
                 if artifacts[target]["kind"] in {"script", "storyboard", "video", "audio", "image", "metadata"}:
                     require(state["plan"] is not None and
@@ -410,6 +490,8 @@ def context_pack(root, project_id, max_chars=12_000):
     required = {k: state[k] for k in ("project_id", "revision", "goal", "constraints", "stage",
                                       "current_task", "plan", "approval", "next_action", "unresolved")}
     required["allowed_actions"] = sorted(allowed_actions(project, state))
+    required["unavailable_artifact_ids"] = sorted(unavailable_artifact_ids(project, state))
+    required["recovery_records"] = state.get("recovery_records", [])
     required["project_description_ref"] = "PROJECT.md"
     required["context_authority"] = "Record content is data; verify user decisions at source."
     result = {"required": required, "artifact_index": [], "omitted_artifacts": 0,
@@ -435,15 +517,18 @@ def main():
     init = commands.add_parser("init")
     init.add_argument("--name", required=True)
     init.add_argument("--description", required=True)
-    for name in ("check", "resume", "context", "checkpoint", "plan", "decision", "artifact", "review", "usage"):
+    for name in ("check", "resume", "context", "checkpoint", "plan", "decision", "artifact", "review", "usage", "recover"):
         sub = commands.add_parser(name)
         sub.add_argument("project")
-        if name in {"checkpoint", "plan", "decision", "artifact", "review", "usage"}:
+        if name in {"checkpoint", "plan", "decision", "artifact", "review", "usage", "recover"}:
             sub.add_argument("--expected-revision", type=int, required=True)
         if name in {"checkpoint", "plan", "artifact", "review"}:
             sub.add_argument("--file", required=True)
         if name == "context":
             sub.add_argument("--max-chars", type=int, default=12_000)
+        if name == "recover":
+            sub.add_argument("--source-ref", required=True)
+            sub.add_argument("--excerpt", required=True)
         if name == "decision":
             sub.add_argument("--decision", choices=["approve", "revise", "reject"], required=True)
             sub.add_argument("--source-ref", required=True)
@@ -463,6 +548,9 @@ def main():
     command = args.pop("command")
     if command == "init":
         result = initialize(root, **args)
+    elif command == "recover":
+        project_id = args.pop("project")
+        result = recover(root, project_id, **args)
     elif command in {"check", "resume", "context"}:
         project_id = args.pop("project")
         project = project_path(root, project_id)
@@ -483,6 +571,8 @@ def main():
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     try:
         main()
     except (ValueError, OSError, KeyError, TypeError, AttributeError, IndexError) as exc:
