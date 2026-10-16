@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-1",
-  "revision": 82,
+  "revision": 94,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "stage": "review",
   "constraints": [
@@ -9,20 +9,20 @@
     "No channel creation or publishing in v0"
   ],
   "current_task": {
-    "id": "T-009",
+    "id": "T-010",
     "owner_role": "pm",
     "execution": "waiting_user"
   },
   "plan": {
-    "path": "plans/plan-v3-r74-ca3b03d1.md",
-    "sha256": "388bf29c287e6de079538c0241928e02451c0425882e60612dcce670c0d5cfd9",
-    "revision": 3
+    "path": "plans/plan-v4-r84-894f76d5.md",
+    "sha256": "3c28709fa543bc6211cbe0824eef0ed0b0e52575215e21fcf833351a5cefc74d",
+    "revision": 4
   },
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r75-01ce9f06.json",
-      "sha256": "d4f6076574523f0c8772e48f9debd2885a211b361e21ebcb4869d4d84588be70"
+      "path": "decisions/decision-r85-9af9997c.json",
+      "sha256": "8f61e54c5e156cace062c0fca68ff7c5e25393f52dd305b2cc953b4e9c923066"
     }
   },
   "decision_records": [
@@ -45,6 +45,10 @@
     {
       "path": "decisions/decision-r75-01ce9f06.json",
       "sha256": "d4f6076574523f0c8772e48f9debd2885a211b361e21ebcb4869d4d84588be70"
+    },
+    {
+      "path": "decisions/decision-r85-9af9997c.json",
+      "sha256": "8f61e54c5e156cace062c0fca68ff7c5e25393f52dd305b2cc953b4e9c923066"
     }
   ],
   "artifacts": [
@@ -673,6 +677,77 @@
       ],
       "plan_revision": 3,
       "created_at": "2026-10-16T16:26:07.101622+00:00"
+    },
+    {
+      "path": "tasks/user-feedback-hemthreads-v1.md",
+      "sha256": "33d70eac93d180b3cd3c2e5d3559c1d8e2faa1a8f3ac20dd0d40286cb84815f5",
+      "id": "A-055",
+      "kind": "other",
+      "inputs": [
+        "A-054"
+      ],
+      "plan_revision": 3,
+      "created_at": "2026-10-16T16:38:21.829240+00:00"
+    },
+    {
+      "path": "artifacts/content/prototype-05-script-v1.json",
+      "sha256": "832608328159834399873dd91255372aff8df5c3f96b70823b7f04b7831a904c",
+      "id": "A-056",
+      "kind": "script",
+      "inputs": [
+        "A-055",
+        "A-053"
+      ],
+      "plan_revision": 4,
+      "created_at": "2026-10-16T16:41:21.747495+00:00"
+    },
+    {
+      "path": "artifacts/content/prototype-05-storyboard-v1.md",
+      "sha256": "d1baec8d0b9252cc0b5b1ebcbe635ee7149c1d4c6005168a8cdcd8f707bf658e",
+      "id": "A-057",
+      "kind": "storyboard",
+      "inputs": [
+        "A-056"
+      ],
+      "plan_revision": 4,
+      "created_at": "2026-10-16T16:41:22.878312+00:00"
+    },
+    {
+      "path": "research/hemthreads-observations-v1.md",
+      "sha256": "a1eff935c552d4f27211138c07f3f71e0f97e2422e721611731639ddf4c970c7",
+      "id": "A-058",
+      "kind": "research",
+      "inputs": [
+        "A-055"
+      ],
+      "plan_revision": 4,
+      "created_at": "2026-10-16T16:42:14.955441+00:00"
+    },
+    {
+      "path": "artifacts/render/prototype-05-v1/manifest.json",
+      "sha256": "6be8ba106e42462baec80b0efea179b39607694b857be687beeb1ba87438e3ab",
+      "id": "A-059",
+      "kind": "other",
+      "inputs": [
+        "A-056",
+        "A-057",
+        "A-058"
+      ],
+      "plan_revision": 4,
+      "created_at": "2026-10-16T16:42:37.300659+00:00"
+    },
+    {
+      "path": "artifacts/render/prototype-05-v1/draft.mp4",
+      "sha256": "e324c05adaae836f196475cc872b6084a922e97653c2f8562433aa80221b866d",
+      "id": "A-060",
+      "kind": "video",
+      "inputs": [
+        "A-056",
+        "A-057",
+        "A-059"
+      ],
+      "plan_revision": 4,
+      "created_at": "2026-10-16T16:44:38.263692+00:00"
     }
   ],
   "reviews": [
@@ -801,16 +876,60 @@
         }
       ],
       "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r91-1c69fed7.json",
+      "sha256": "b304e607c16b9d0100c0389afcc506f41df5dde526e0004f2fccdfddbe7bee52",
+      "artifact_ids": [
+        "A-060"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/render/prototype-05-v1/manifest.json",
+          "sha256": "6be8ba106e42462baec80b0efea179b39607694b857be687beeb1ba87438e3ab"
+        },
+        {
+          "path": "artifacts/render/prototype-05-v1/visual-review.md",
+          "sha256": "f4e55c993387bc547857fb0c58e4e2f85b28d8845e4f9c723036fb3b8bb7b578"
+        },
+        {
+          "path": "artifacts/render/prototype-05-v1/technical-qa.json",
+          "sha256": "a1787d5d82d0ad14d068e87e69cb3d1213d88194f2fe5e14a5e5f8c5d0300b46"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r93-3c33cbd7.json",
+      "sha256": "617b322db2332451b83845a1329551f2d9708292b106e5673ee4d3d8a7a3dfa1",
+      "artifact_ids": [
+        "A-060"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/render/prototype-05-v1/manifest.json",
+          "sha256": "6be8ba106e42462baec80b0efea179b39607694b857be687beeb1ba87438e3ab"
+        },
+        {
+          "path": "artifacts/render/prototype-05-v1/visual-review-supplement-v1.md",
+          "sha256": "d1085a1e19a1cdb2fd3f8d1fee61631398374de2e3a47b6636ff6335c2808f48"
+        },
+        {
+          "path": "artifacts/render/prototype-05-v1/technical-qa.json",
+          "sha256": "a1787d5d82d0ad14d068e87e69cb3d1213d88194f2fe5e14a5e5f8c5d0300b46"
+        }
+      ],
+      "verdict": "unverified"
     }
   ],
   "acceptance": "unverified",
   "release": "not_requested",
-  "next_action": "User watches artifacts/render/prototype-04-v2/draft.mp4, the15.4s full-chat line-reading and two-meme demo, and gives feedback on selected Thien Minh delivery, pauses and reaction timing. Repair scoped feedback into a new version; do not repeat voice selection.",
+  "next_action": "User watches artifacts/render/prototype-05-v1/draft.mp4:19.53s source-card/idea-crop revision with real username headers, original connective narration, selected Thien Minh and original background music. Collect feedback on music mix and cohesion, then repair only scoped findings.",
   "unresolved": [
-    "Human listening and comedic/creative acceptance pending; Full HP pronunciation unverified",
-    "Public-use rights of original chat screenshots and borrowed reaction templates unresolved; private demo only",
-    "Historical missing media remain explicitly unavailable under recovery receipt",
-    "TikTok reference playback remains unverified; repo research informed timing only"
+    "Actual listening and human creative acceptance pending; music/voice balance not verified by agent",
+    "Public-use rights for chat and meme assets unresolved; private demo only",
+    "Historical media loss remains recorded; use new IDs/paths",
+    "HẻmThreads inspected through sampled visual frames; reference audio not heard"
   ],
   "usage": {
     "input_tokens": 0,
@@ -821,7 +940,7 @@
     "available": false
   },
   "created_at": "2026-10-16T07:42:46.989392+00:00",
-  "updated_at": "2026-10-16T16:26:33.167388+00:00",
+  "updated_at": "2026-10-16T16:45:11.760349+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r55-07b5f2fc.json",

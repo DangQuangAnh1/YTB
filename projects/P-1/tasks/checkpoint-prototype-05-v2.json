@@ -1,0 +1,15 @@
+{
+  "stage": "review",
+  "current_task": {
+    "id": "T-010",
+    "owner_role": "pm",
+    "execution": "waiting_user"
+  },
+  "next_action": "User watches artifacts/render/prototype-05-v1/draft.mp4:19.53s source-card/idea-crop revision with real username headers, original connective narration, selected Thien Minh and original background music. Collect feedback on music mix and cohesion, then repair only scoped findings.",
+  "unresolved": [
+    "Actual listening and human creative acceptance pending; music/voice balance not verified by agent",
+    "Public-use rights for chat and meme assets unresolved; private demo only",
+    "Historical media loss remains recorded; use new IDs/paths",
+    "HẻmThreads inspected through sampled visual frames; reference audio not heard"
+  ]
+}

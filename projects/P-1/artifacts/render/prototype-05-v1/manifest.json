@@ -1,0 +1,109 @@
+{
+  "plan_revision": 4,
+  "script": "A-056",
+  "storyboard": "A-057",
+  "voice": "Thiện Minh",
+  "duration": 19.533333333333335,
+  "added_provider_spend": 0,
+  "release": "private demo only",
+  "files": [
+    {
+      "path": "production/prototype-05/src/index.tsx",
+      "sha256": "595d941b50d703092b37927d4f8762d8f14e727a680abd664265c3ab828b47ce"
+    },
+    {
+      "path": "production/prototype-05/generate-audio.py",
+      "sha256": "f59d60fb5eead40ee2b890151b3834a8b81f0a2cc58b6ffb33be85bb4781e9de"
+    },
+    {
+      "path": "media/prototype-05/a1.wav",
+      "sha256": "322a87a04ae1f7b135ba0c0dcba14a60a96ba697ce039373411ff1e3b563e0cd"
+    },
+    {
+      "path": "media/prototype-05/a2.wav",
+      "sha256": "8629b996f5a467388fd2e8e19db98f5deb099cbc184b346fae22f86c8da4f9a9"
+    },
+    {
+      "path": "media/prototype-05/a3.wav",
+      "sha256": "0b3ea961fb01b0a4742460bca690ecac4d1c140c4883e20baf77b53e20e2fb2e"
+    },
+    {
+      "path": "media/prototype-05/a4.wav",
+      "sha256": "bd20ee410339a6ec887caed6128d61fb6b16dafa85e87cadcd998c143548f422"
+    },
+    {
+      "path": "media/prototype-05/bridge.wav",
+      "sha256": "a6edefbe870981ee694419af89815139c4473a698c7681db49f0a6fbb71b9ed1"
+    },
+    {
+      "path": "media/prototype-05/intro.wav",
+      "sha256": "e7d74603bd8428d9ffe26a56311ba845a1f90aa659c028663a316b36a63e8464"
+    },
+    {
+      "path": "media/prototype-05/music.wav",
+      "sha256": "8947d16d99d982cf003f1875695dfadf07ba8a0d6685be298c5fd81362a06551"
+    },
+    {
+      "path": "media/prototype-05/q1.wav",
+      "sha256": "f333206b95edcb718de2bf8af2f5aefe84b5a65b735926edba9e4e608f8d6363"
+    },
+    {
+      "path": "media/prototype-05/q2.wav",
+      "sha256": "7ef71bde0b2cf1cae4adf9b4e0bb2b3859be72f17af54b2357e60ff5cebcac77"
+    },
+    {
+      "path": "media/prototype-05/q3.wav",
+      "sha256": "df52e458e12170fa4c5758ec620e20bcc342b45e8a55d7190399f6a733f7a635"
+    },
+    {
+      "path": "media/prototype-05/reaction.wav",
+      "sha256": "0c23285b1f3755afd241cc54095ae3f47c750798b864a90c9da6d9942be163e5"
+    },
+    {
+      "path": "media/prototype-05/post-source-v2.png",
+      "sha256": "3f041a2d25e52f70bd8aead06ac159d75969af5be68f23af6a7bc3907b2cf001"
+    },
+    {
+      "path": "media/prototype-05/comment-source-v2.png",
+      "sha256": "b661eb9d6f87f66859373bcac363a8b4030fc3d46f3df9e79ba129a0786fd277"
+    },
+    {
+      "path": "media/prototype-05/confused.jpg",
+      "sha256": "aef82d6ec10adca860c4314446ec76c5e88bf6e535a37aa77a52ab6ee6c52344"
+    },
+    {
+      "path": "media/prototype-05/monkey.jpg",
+      "sha256": "b96b310871d8e75c69d8c8f197bdc56875a34660f93a6e0534b4f51218bd18de"
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@biu_sub70/post/DegajokEbO2",
+    "https://www.threads.com/@nhtp.1907_/post/DegbtOsGB1G"
+  ],
+  "meme_sources": [
+    {
+      "name": "confused",
+      "source": "https://imgflip.com/memetemplate/99201418/Confused-Nick-Young",
+      "asset": "https://i.imgflip.com/1n28ay.jpg",
+      "sha256": "aef82d6ec10adca860c4314446ec76c5e88bf6e535a37aa77a52ab6ee6c52344",
+      "use": "private demo; public-use rights unresolved"
+    },
+    {
+      "name": "monkey",
+      "source": "https://imgflip.com/memetemplate/Monkey-Puppet",
+      "asset": "https://imgflip.com/s/meme/Monkey-Puppet.jpg",
+      "sha256": "b96b310871d8e75c69d8c8f197bdc56875a34660f93a6e0534b4f51218bd18de",
+      "use": "private demo; public-use rights unresolved"
+    }
+  ],
+  "music": {
+    "origin": "locally synthesized original loop",
+    "bpm": 92,
+    "instruments": "plucked sine harmonics, soft bass, seeded noise percussion",
+    "voice_duck": 0.27,
+    "gap_level": 0.43,
+    "copied_reference_audio": false
+  },
+  "listening_review": "unverified",
+  "reference_observation": "sampled screenshots and playback states only; reference music not heard"
+}

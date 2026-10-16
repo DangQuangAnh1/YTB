@@ -1,0 +1,133 @@
+{
+  "plan_revision": 4,
+  "voice": "Thiện Minh",
+  "fps": 30,
+  "frames": 586,
+  "duration": 19.533333333333335,
+  "events": [
+    {
+      "name": "intro",
+      "text": "Có bạn đăng đoạn chat hỏi thăm mẹ mùa lũ.",
+      "start": 0.25,
+      "end": 2.75,
+      "rate": 0.96,
+      "source": "post",
+      "group": "full"
+    },
+    {
+      "name": "q1",
+      "text": "Lũ lên nhà mình có sao không mẹ?",
+      "rate": 0.94,
+      "source": "post",
+      "group": "setup",
+      "start": 3.05,
+      "end": 5.093
+    },
+    {
+      "name": "a1",
+      "text": "Chết ba con gà.",
+      "rate": 0.96,
+      "source": "post",
+      "group": "setup",
+      "start": 5.343,
+      "end": 6.343
+    },
+    {
+      "name": "q2",
+      "text": "Nước ngập vào chuồng hả mẹ?",
+      "rate": 0.94,
+      "source": "post",
+      "group": "payoff",
+      "start": 6.863,
+      "end": 8.48
+    },
+    {
+      "name": "a2",
+      "text": "Thịt ra nấu lẩu!",
+      "rate": 0.96,
+      "source": "post",
+      "group": "payoff",
+      "start": 8.73,
+      "end": 9.813
+    },
+    {
+      "name": "reaction-a2",
+      "meme": "confused",
+      "caption": "ỦA… MẸ TÍNH HẾT RỒI?!",
+      "source": "post",
+      "group": "payoff",
+      "start": 10.063,
+      "end": 10.813
+    },
+    {
+      "name": "bridge",
+      "text": "Xuống bình luận, một bạn khác còn hỏi thăm bà ngoại kiểu này.",
+      "start": 10.963,
+      "end": 14.065,
+      "rate": 0.98,
+      "source": "comment",
+      "group": "full"
+    },
+    {
+      "name": "q3",
+      "text": "Bà ngoại khỏe chưa mẹ?",
+      "rate": 0.94,
+      "source": "comment",
+      "group": "setup",
+      "start": 14.365,
+      "end": 15.727
+    },
+    {
+      "name": "a3",
+      "text": "Rồi.",
+      "rate": 0.96,
+      "source": "comment",
+      "group": "setup",
+      "start": 15.977,
+      "end": 16.477
+    },
+    {
+      "name": "a4",
+      "text": "Full H P!",
+      "rate": 0.88,
+      "source": "comment",
+      "group": "payoff",
+      "start": 16.997,
+      "end": 18.178
+    },
+    {
+      "name": "reaction-a4",
+      "meme": "monkey",
+      "caption": "BÀ NGOẠI: SẴN SÀNG VÀO TRẬN",
+      "source": "comment",
+      "group": "payoff",
+      "start": 18.428,
+      "end": 19.178
+    }
+  ],
+  "creative": "source identity retained in each idea crop; original bridges plus original light background music; no reference audio/footage copied",
+  "crop_groups": {
+    "post": {
+      "header": 36,
+      "setup": [
+        200,
+        338
+      ],
+      "payoff": [
+        330,
+        500
+      ]
+    },
+    "comment": {
+      "header": 44,
+      "setup": [
+        225,
+        366
+      ],
+      "payoff": [
+        360,
+        485
+      ]
+    }
+  }
+}
