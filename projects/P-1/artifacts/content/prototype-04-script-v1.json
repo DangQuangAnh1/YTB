@@ -1,0 +1,125 @@
+{
+  "plan_revision": 3,
+  "voice": "Thiện Minh",
+  "fps": 30,
+  "frames": 462,
+  "duration": 15.4,
+  "events": [
+    {
+      "name": "q1",
+      "text": "Lũ lên nhà mình có sao không mẹ?",
+      "start": 0.35,
+      "end": 2.393,
+      "rate": 0.94,
+      "source": "post",
+      "region": [
+        175,
+        166,
+        290,
+        57
+      ]
+    },
+    {
+      "name": "a1",
+      "text": "Chết ba con gà.",
+      "start": 2.773,
+      "end": 3.773,
+      "rate": 0.96,
+      "source": "post",
+      "region": [
+        50,
+        231,
+        162,
+        72
+      ]
+    },
+    {
+      "name": "q2",
+      "text": "Nước ngập vào chuồng hả mẹ?",
+      "start": 4.423,
+      "end": 6.04,
+      "rate": 0.94,
+      "source": "post",
+      "region": [
+        178,
+        311,
+        290,
+        70
+      ]
+    },
+    {
+      "name": "a2",
+      "text": "Thịt ra nấu lẩu!",
+      "start": 6.42,
+      "end": 7.503,
+      "rate": 0.96,
+      "source": "post",
+      "region": [
+        50,
+        396,
+        185,
+        73
+      ]
+    },
+    {
+      "name": "reaction-a2",
+      "start": 7.883,
+      "end": 9.033,
+      "meme": "confused",
+      "caption": "ỦA… MẸ TÍNH HẾT RỒI?!"
+    },
+    {
+      "name": "q3",
+      "text": "Bà ngoại khỏe chưa mẹ?",
+      "start": 9.383,
+      "end": 10.745,
+      "rate": 0.94,
+      "source": "comment",
+      "region": [
+        318,
+        220,
+        308,
+        72
+      ]
+    },
+    {
+      "name": "a3",
+      "text": "Rồi.",
+      "start": 11.125,
+      "end": 11.625,
+      "rate": 0.96,
+      "source": "comment",
+      "region": [
+        65,
+        307,
+        132,
+        72
+      ]
+    },
+    {
+      "name": "a4",
+      "text": "Full H P!",
+      "start": 12.275,
+      "end": 13.456,
+      "rate": 0.88,
+      "source": "comment",
+      "region": [
+        65,
+        382,
+        135,
+        98
+      ]
+    },
+    {
+      "name": "reaction-a4",
+      "start": 13.836,
+      "end": 14.986,
+      "meme": "monkey",
+      "caption": "BÀ NGOẠI: SẴN SÀNG VÀO TRẬN"
+    }
+  ],
+  "source_note": "research/rebuild-source-check-v1.json",
+  "approval_source": "tasks/user-demo-go-ahead-v1.md",
+  "creative": "read actual full chat line by line; short reaction inserts; no summary narration",
+  "human_listening": "unverified"
+}

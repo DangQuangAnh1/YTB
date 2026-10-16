@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-demo-go-ahead-v1.md",
+  "excerpt": "Cứ thử rồi đưa tôi bản demo là đc",
+  "plan": {
+    "path": "plans/plan-v3-r74-ca3b03d1.md",
+    "sha256": "388bf29c287e6de079538c0241928e02451c0425882e60612dcce670c0d5cfd9",
+    "revision": 3
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-16T16:21:29.396594+00:00"
+}

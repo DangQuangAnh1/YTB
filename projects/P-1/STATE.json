@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "project_id": "P-1",
-  "revision": 73,
+  "revision": 82,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
-  "stage": "planning",
+  "stage": "review",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
     "No channel creation or publishing in v0"
@@ -11,18 +11,18 @@
   "current_task": {
     "id": "T-009",
     "owner_role": "pm",
-    "execution": "not_started"
+    "execution": "waiting_user"
   },
   "plan": {
-    "path": "plans/plan-v2-r34-c2009aed.md",
-    "sha256": "d8ed9bf16cafdc56c524b7670b82ea696250354e66256c7ce4dbfe269a25e4be",
-    "revision": 2
+    "path": "plans/plan-v3-r74-ca3b03d1.md",
+    "sha256": "388bf29c287e6de079538c0241928e02451c0425882e60612dcce670c0d5cfd9",
+    "revision": 3
   },
   "approval": {
-    "status": "revise",
+    "status": "approved",
     "record": {
-      "path": "decisions/decision-r70-04f0888f.json",
-      "sha256": "f9fddeda93a3952879ce91386be66c54bc79dadcfd200832329fa6ba94326a69"
+      "path": "decisions/decision-r75-01ce9f06.json",
+      "sha256": "d4f6076574523f0c8772e48f9debd2885a211b361e21ebcb4869d4d84588be70"
     }
   },
   "decision_records": [
@@ -41,6 +41,10 @@
     {
       "path": "decisions/decision-r70-04f0888f.json",
       "sha256": "f9fddeda93a3952879ce91386be66c54bc79dadcfd200832329fa6ba94326a69"
+    },
+    {
+      "path": "decisions/decision-r75-01ce9f06.json",
+      "sha256": "d4f6076574523f0c8772e48f9debd2885a211b361e21ebcb4869d4d84588be70"
     }
   ],
   "artifacts": [
@@ -610,6 +614,65 @@
       ],
       "plan_revision": 2,
       "created_at": "2026-10-16T16:19:46.081663+00:00"
+    },
+    {
+      "path": "artifacts/content/prototype-04-script-v1.json",
+      "sha256": "344ae7cf39f15e3539fc8d60e9aaa6a77a908272496d64527be31eae0cd7a472",
+      "id": "A-050",
+      "kind": "script",
+      "inputs": [
+        "A-039",
+        "A-047",
+        "A-048"
+      ],
+      "plan_revision": 3,
+      "created_at": "2026-10-16T16:23:24.476240+00:00"
+    },
+    {
+      "path": "artifacts/content/prototype-04-storyboard-v1.md",
+      "sha256": "f55f933ad1dbce9ccb91bc6970d4a2e434c88ab8729acc1397ad78e87454b52e",
+      "id": "A-051",
+      "kind": "storyboard",
+      "inputs": [
+        "A-050"
+      ],
+      "plan_revision": 3,
+      "created_at": "2026-10-16T16:23:25.309868+00:00"
+    },
+    {
+      "path": "tasks/user-demo-go-ahead-v1.md",
+      "sha256": "0688b4a7b70eaf33fafbfffddbef7305b46298e4ed9ee684b50013e751c49b53",
+      "id": "A-052",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 3,
+      "created_at": "2026-10-16T16:24:25.721354+00:00"
+    },
+    {
+      "path": "artifacts/render/prototype-04-v2/manifest.json",
+      "sha256": "6c57634a0edcb263bd569c64a35c75787e53f20b43f270d569d423e2327ee3bc",
+      "id": "A-053",
+      "kind": "other",
+      "inputs": [
+        "A-050",
+        "A-051",
+        "A-052"
+      ],
+      "plan_revision": 3,
+      "created_at": "2026-10-16T16:25:37.476889+00:00"
+    },
+    {
+      "path": "artifacts/render/prototype-04-v2/draft.mp4",
+      "sha256": "ebc9775ee5df4c0d37bf7bbc328e7701aa3f98023b33b0a76cbe00d9e15e0b3d",
+      "id": "A-054",
+      "kind": "video",
+      "inputs": [
+        "A-050",
+        "A-051",
+        "A-053"
+      ],
+      "plan_revision": 3,
+      "created_at": "2026-10-16T16:26:07.101622+00:00"
     }
   ],
   "reviews": [
@@ -716,17 +779,38 @@
         }
       ],
       "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r81-e3c06b5d.json",
+      "sha256": "fc05f35be7e57a5004e389c8de69a5a494ccc3963898aa5696db138860e092a4",
+      "artifact_ids": [
+        "A-054"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/render/prototype-04-v2/manifest.json",
+          "sha256": "6c57634a0edcb263bd569c64a35c75787e53f20b43f270d569d423e2327ee3bc"
+        },
+        {
+          "path": "artifacts/render/prototype-04-v2/visual-review.md",
+          "sha256": "4c04839891635108e05c7629f48ecc62e18778d0f55be34be928fca400cd8e2e"
+        },
+        {
+          "path": "artifacts/render/prototype-04-v2/technical-qa.json",
+          "sha256": "add56aadc32b94b303fa42ac660649ab747a037b18082a30bad010f2181044ac"
+        }
+      ],
+      "verdict": "unverified"
     }
   ],
-  "acceptance": "not_reviewed",
+  "acceptance": "unverified",
   "release": "not_requested",
-  "next_action": "Use registered user correction and repo research to prepare a revised plan for full original-chat reading, playful selected Thien Minh delivery and sourced meme reactions. First validate one short setup/punchline performance rather than render another summary draft. Previous prototype is not creatively accepted.",
+  "next_action": "User watches artifacts/render/prototype-04-v2/draft.mp4, the15.4s full-chat line-reading and two-meme demo, and gives feedback on selected Thien Minh delivery, pauses and reaction timing. Repair scoped feedback into a new version; do not repeat voice selection.",
   "unresolved": [
-    "Expressive Thien Minh delivery unverified; upstream v3 Turbo ignores style parameter",
-    "Need relevant reaction assets with source/usage evidence; automatic meme selection not verified",
-    "PurffleShorts inspected as timing reference only, not installed or locally tested",
-    "New format plan still needs exact scope/approval binding before production",
-    "Public-use source rights remain unresolved; no publishing or paid calls"
+    "Human listening and comedic/creative acceptance pending; Full HP pronunciation unverified",
+    "Public-use rights of original chat screenshots and borrowed reaction templates unresolved; private demo only",
+    "Historical missing media remain explicitly unavailable under recovery receipt",
+    "TikTok reference playback remains unverified; repo research informed timing only"
   ],
   "usage": {
     "input_tokens": 0,
@@ -737,7 +821,7 @@
     "available": false
   },
   "created_at": "2026-10-16T07:42:46.989392+00:00",
-  "updated_at": "2026-10-16T16:19:47.001279+00:00",
+  "updated_at": "2026-10-16T16:26:33.167388+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r55-07b5f2fc.json",

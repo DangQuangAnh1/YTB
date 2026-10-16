@@ -1,0 +1,145 @@
+{
+  "plan_revision": 3,
+  "script": "A-050",
+  "storyboard": "A-051",
+  "voice": "Thiện Minh",
+  "duration": 15.4,
+  "added_provider_spend": 0,
+  "release": "private demo only",
+  "files": [
+    {
+      "path": "production/prototype-04/src/index.tsx",
+      "sha256": "11d774c2a4c63e9e1d6d04b70dda0c97b4ef4446e4acf225415bf57bd191248e"
+    },
+    {
+      "path": "production/prototype-04/generate-audio.py",
+      "sha256": "80eb96a9eece554a2c1dab0de35067c197384c939354083a915901485f85c132"
+    },
+    {
+      "path": "media/prototype-04/a1.wav",
+      "sha256": "322a87a04ae1f7b135ba0c0dcba14a60a96ba697ce039373411ff1e3b563e0cd"
+    },
+    {
+      "path": "media/prototype-04/a2.wav",
+      "sha256": "8629b996f5a467388fd2e8e19db98f5deb099cbc184b346fae22f86c8da4f9a9"
+    },
+    {
+      "path": "media/prototype-04/a3.wav",
+      "sha256": "0b3ea961fb01b0a4742460bca690ecac4d1c140c4883e20baf77b53e20e2fb2e"
+    },
+    {
+      "path": "media/prototype-04/a4.wav",
+      "sha256": "bd20ee410339a6ec887caed6128d61fb6b16dafa85e87cadcd998c143548f422"
+    },
+    {
+      "path": "media/prototype-04/q1.wav",
+      "sha256": "f333206b95edcb718de2bf8af2f5aefe84b5a65b735926edba9e4e608f8d6363"
+    },
+    {
+      "path": "media/prototype-04/q2.wav",
+      "sha256": "7ef71bde0b2cf1cae4adf9b4e0bb2b3859be72f17af54b2357e60ff5cebcac77"
+    },
+    {
+      "path": "media/prototype-04/q3.wav",
+      "sha256": "df52e458e12170fa4c5758ec620e20bcc342b45e8a55d7190399f6a733f7a635"
+    },
+    {
+      "path": "media/prototype-04/reaction.wav",
+      "sha256": "0c23285b1f3755afd241cc54095ae3f47c750798b864a90c9da6d9942be163e5"
+    },
+    {
+      "path": "media/prototype-04/comment.jpg",
+      "sha256": "9e3d4454f75d9069c9e8a2f07fe45ab2511002628a42f4e1985367f97d7cb4de"
+    },
+    {
+      "path": "media/prototype-04/confused.jpg",
+      "sha256": "aef82d6ec10adca860c4314446ec76c5e88bf6e535a37aa77a52ab6ee6c52344"
+    },
+    {
+      "path": "media/prototype-04/monkey.jpg",
+      "sha256": "b96b310871d8e75c69d8c8f197bdc56875a34660f93a6e0534b4f51218bd18de"
+    },
+    {
+      "path": "media/prototype-04/post.jpg",
+      "sha256": "89ead7ce3dcc39440f94aaf77f9ca08a907481b6105aab5ff7e0d5f8903d47c2"
+    }
+  ],
+  "meme_sources": [
+    {
+      "name": "confused",
+      "source": "https://imgflip.com/memetemplate/99201418/Confused-Nick-Young",
+      "asset": "https://i.imgflip.com/1n28ay.jpg",
+      "sha256": "aef82d6ec10adca860c4314446ec76c5e88bf6e535a37aa77a52ab6ee6c52344",
+      "use": "private demo; public-use rights unresolved"
+    },
+    {
+      "name": "monkey",
+      "source": "https://imgflip.com/memetemplate/Monkey-Puppet",
+      "asset": "https://imgflip.com/s/meme/Monkey-Puppet.jpg",
+      "sha256": "b96b310871d8e75c69d8c8f197bdc56875a34660f93a6e0534b4f51218bd18de",
+      "use": "private demo; public-use rights unresolved"
+    }
+  ],
+  "audio_generation": {
+    "voice": "Thiện Minh",
+    "sdk": "vieneu 3.8.3",
+    "samples": [
+      {
+        "file": "q1.wav",
+        "text": "Lũ lên nhà mình có sao không mẹ?",
+        "duration": 1.92,
+        "fits_slot": true,
+        "sha256": "f333206b95edcb718de2bf8af2f5aefe84b5a65b735926edba9e4e608f8d6363"
+      },
+      {
+        "file": "a1.wav",
+        "text": "Chết ba con gà.",
+        "duration": 0.96,
+        "fits_slot": true,
+        "sha256": "322a87a04ae1f7b135ba0c0dcba14a60a96ba697ce039373411ff1e3b563e0cd"
+      },
+      {
+        "file": "q2.wav",
+        "text": "Nước ngập vào chuồng hả mẹ?",
+        "duration": 1.52,
+        "fits_slot": true,
+        "sha256": "7ef71bde0b2cf1cae4adf9b4e0bb2b3859be72f17af54b2357e60ff5cebcac77"
+      },
+      {
+        "file": "a2.wav",
+        "text": "Thịt ra nấu lẩu!",
+        "duration": 1.04,
+        "fits_slot": true,
+        "sha256": "8629b996f5a467388fd2e8e19db98f5deb099cbc184b346fae22f86c8da4f9a9"
+      },
+      {
+        "file": "q3.wav",
+        "text": "Bà ngoại khỏe chưa mẹ?",
+        "duration": 1.28,
+        "fits_slot": true,
+        "sha256": "df52e458e12170fa4c5758ec620e20bcc342b45e8a55d7190399f6a733f7a635"
+      },
+      {
+        "file": "a3.wav",
+        "text": "Rồi.",
+        "duration": 0.48,
+        "fits_slot": true,
+        "sha256": "0b3ea961fb01b0a4742460bca690ecac4d1c140c4883e20baf77b53e20e2fb2e"
+      },
+      {
+        "file": "a4.wav",
+        "text": "Full H P!",
+        "duration": 1.04,
+        "fits_slot": true,
+        "sha256": "bd20ee410339a6ec887caed6128d61fb6b16dafa85e87cadcd998c143548f422"
+      }
+    ],
+    "human_listening": "unverified",
+    "added_provider_spend": 0
+  },
+  "reuse": "Existing local Remotion runtime; dialogue timing inspired by repo research, no external framework installed",
+  "listening": "unverified",
+  "version": "prototype-04-v2",
+  "visual_changes": "Crop empty space in final reaction through CSS; hold final reaction through ending",
+  "qa_status": "technical and sampled visual checks pending final export; listening unverified"
+}

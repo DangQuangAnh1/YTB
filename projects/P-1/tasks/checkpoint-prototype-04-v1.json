@@ -1,0 +1,11 @@
+{
+  "stage":"review",
+  "current_task":{"id":"T-009","owner_role":"pm","execution":"waiting_user"},
+  "next_action":"User watches artifacts/render/prototype-04-v2/draft.mp4, the15.4s full-chat line-reading and two-meme demo, and gives feedback on selected Thien Minh delivery, pauses and reaction timing. Repair scoped feedback into a new version; do not repeat voice selection.",
+  "unresolved":[
+    "Human listening and comedic/creative acceptance pending; Full HP pronunciation unverified",
+    "Public-use rights of original chat screenshots and borrowed reaction templates unresolved; private demo only",
+    "Historical missing media remain explicitly unavailable under recovery receipt",
+    "TikTok reference playback remains unverified; repo research informed timing only"
+  ]
+}
