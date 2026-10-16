@@ -14,3 +14,5 @@ Read [planning](references/planning.md) for plan/decision changes or [resume](re
 Keep execution, acceptance and release separate. Record real user scope against a plan revision; silence or exhausted retries are not approval. Helpers record evidence but cannot authenticate the human behind it. Use expected revisions and protected-field commands; do not bypass a conflict by editing STATE.
 
 Checkpoint next action/uncertainty after decisions and stages. Return result first, actual checks and gaps second. v0 ends at a draft; do not advertise publishing/analytics tools that are absent.
+
+At a material correction, demonstrated process failure, or project milestone/close, route useful lessons to [creator-improve](../creator-improve/SKILL.md). Small evidenced kit fixes may be applied during execution under standing scope; major changes return for a scope decision. Keep project-only preferences local, preserve the current plan and resume the original work after the improvement. A completed project need not produce a shared rule.

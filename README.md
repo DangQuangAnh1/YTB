@@ -4,7 +4,7 @@ Bộ skill vận hành dự án content/video trong Codex, ưu tiên công cụ 
 
 ## Bắt đầu
 
-Clone repo này, mở thư mục checkout trong Codex và bắt đầu chat ở đó. Năm skill nằm tại `.agents/skills/`; không cần cài toàn cục hoặc đưa chúng vào mọi dự án. Nếu skill chưa xuất hiện, mở lại project/chat và kiểm discovery của host. Bộ kit cần cả scripts/contracts/templates cùng checkout, không chỉ một thư mục skill.
+Clone repo này, mở thư mục checkout trong Codex và bắt đầu chat ở đó. Sáu skill nằm tại `.agents/skills/`; không cần cài toàn cục hoặc đưa chúng vào mọi dự án. Nếu skill chưa xuất hiện, mở lại project/chat và kiểm discovery của host. Bộ kit cần cả scripts/contracts/templates cùng checkout, không chỉ một thư mục skill.
 
 Ví dụ yêu cầu:
 
@@ -29,8 +29,19 @@ Hoặc khi tiếp tục:
 - `creator-content`: script, storyboard, title/thumbnail brief và SEO phù hợp.
 - `creator-production`: dựng bằng code, kiểm technical output, bảo toàn artifact/lineage.
 - `creator-review`: kiểm đầu ra thật và phần sửa; ghi passed/failed/unverified, khai báo self-review khi phù hợp.
+- `creator-improve`: rút kinh nghiệm trong lúc làm và khi kết thúc dự án; sửa bộ kit có bằng chứng, kiểm tra và lưu bài học dùng lại.
 
 Vai không bắt buộc là agent riêng. Bản đầu có thể làm tuần tự trong một chat để tránh overhead. Chỉ tách worker khi được phép và có lợi ích rõ ràng.
+
+## Bộ skill phát triển qua từng dự án
+
+PM gọi `creator-improve` khi có góp ý quan trọng, lỗi quy trình/công cụ có bằng chứng, phát hiện hữu ích hoặc tới mốc tổng kết. Bạn cũng có thể nói: “Dùng $creator-improve rút kinh nghiệm từ P-1 và cập nhật bộ skill”. Không phải chờ dự án kết thúc mới sửa.
+
+Luồng: phát hiện → kiểm bằng chứng → phân loại bài học riêng/dùng chung → sửa nhỏ và kiểm tra, hoặc trình thay đổi lớn → lưu kết quả → tiếp tục dự án. Các sửa nhỏ, có thể hoàn tác được làm trong phạm vi bạn đã giao; thay đổi lớn về cách vận hành, quyền duyệt, chi phí hoặc dữ liệu cần quyết định phạm vi trước khi áp dụng.
+
+Bài học dùng chung lưu tại `improvements/` theo [mẫu](templates/LESSON.md); sở thích/ngách riêng giữ trong dự án. Chỉ mở bài học liên quan, không nạp cả lịch sử. Không bắt buộc mỗi dự án phải sinh thêm quy tắc. Mỗi thay đổi ghi nguồn, lý do, kiểm tra, phần chưa xác minh và cách hoàn tác.
+
+Đây là hướng dẫn thực thi trong session, chưa phải dịch vụ tự học chạy nền. Chat đang mở có thể cần đọc lại skill đã sửa; không tự thay kế hoạch hoặc migration trạng thái dự án đang làm. [Chi tiết](.agents/skills/creator-improve/SKILL.md).
 
 ## Helper chạy bằng Python chuẩn
 
@@ -82,6 +93,6 @@ Lệnh đầu dùng standard library cho core, skip encoder integration nếu th
 
 ## Phạm vi hiện tại
 
-Đã có năm skill, project registry, quyết định gắn plan/hash/revision, artifact/QA evidence, checkpoint/resume, bounded context, usage accounting và renderer local tối thiểu. Helper không xác thực được người đứng sau một trích dẫn, không chứng minh review đúng và không ngăn shell/browser bên ngoài nó.
+Đã có sáu skill, project registry, quyết định gắn plan/hash/revision, artifact/QA evidence, checkpoint/resume, bounded context, usage accounting và renderer local tối thiểu. Helper không xác thực được người đứng sau một trích dẫn, không chứng minh review đúng và không ngăn shell/browser bên ngoài nó.
 
 Chưa có publish/channel/analytics adapter hoặc lịch tự chạy; đây là các chặng tiếp theo sau pilot. Không gọi dịch vụ trả phí. Không chỉnh hai kênh video cũ. Nguồn thiết kế: [research provenance](docs/research-provenance.md). Không nhập 23 source repo tham khảo vào kit này.

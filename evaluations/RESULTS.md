@@ -19,3 +19,9 @@ Tests use disposable isolated projects and explicit synthetic user-input fixture
 No fresh-model or independent-agent behavior evaluation has run. No measured token-saving percentage, private CTR/retention data, paid provider, publication, channel creation or scheduled analytics was tested. The files/helpers cannot authenticate a human statement, establish truth of a QA judgment or constrain arbitrary tools outside the workflow. Model-following behavior and content quality require a real pilot chosen by the user.
 
 The 16-case proposal remains the follow-up behavior-evaluation plan; passing record invariants does not establish every model behavior in it. No existing video channel was modified.
+
+## Continuous-improvement addition — 16 October 2026
+
+The new creator-improve entrypoint and five existing skills passed quick_validate using system Python. Changed Markdown references/fences were checked, and the existing 41-test suite passed again including renderer integrations. No runtime helper or state schema changed.
+
+Author walkthroughs covered a shared capability request, a project-only tone preference, a change to approval boundaries and closing a project with no new evidence. Routing and stopping conditions were inspected against the written instructions; no independent/fresh-model evaluation or real-project improvement outcome is claimed. Token and quality improvements remain unmeasured. See the [first lesson record](../improvements/2026-10-16-continuous-improvement.md).

@@ -12,3 +12,5 @@ Use [rubrics](references/rubrics.md) for the target. Inspect actual outputs, not
 Fill templates/REVIEW.json with real project-relative evidence and register using `agency.py review P-n --file report.json --expected-revision N`. The helper computes required-check coverage and verifies files; it cannot prove your judgment true. Never manufacture evidence to force a pass.
 
 For re-review, verify prior findings and changed outputs/dependencies; expand only when justified. Keep unresolved issues even at the retry limit and return material scope changes to PM. Targets are read-only; workers repair into new versions. QA covers listed artifacts/checks, not release permission or market success.
+
+If a finding demonstrates a reusable process/tool defect, include a concise evidence reference for [creator-improve](../creator-improve/SKILL.md). Keep the review verdict scoped to the target; a kit patch does not make the original output pass. Leave target repairs to its owner.
