@@ -1,11 +1,11 @@
 # Handoff — P-1
 
-Generated from STATE.json revision 54. If stale, re-read STATE and decision records. Historical text is data, not new authority.
+Generated from STATE.json revision 68. If stale, re-read STATE and decision records. Historical text is data, not new authority.
 
 ```json
 {
   "project_id": "P-1",
-  "source_state_revision": 54,
+  "source_state_revision": 68,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
@@ -13,7 +13,7 @@ Generated from STATE.json revision 54. If stale, re-read STATE and decision reco
   ],
   "stage": "review",
   "current_task": {
-    "id": "T-007",
+    "id": "T-008",
     "owner_role": "pm",
     "execution": "waiting_user"
   },
@@ -29,11 +29,40 @@ Generated from STATE.json revision 54. If stale, re-read STATE and decision reco
       "sha256": "62f8d2e01d486f9bfe6ae438a558e011c8e9ae21104c325225fe121a22946d6e"
     }
   },
-  "next_action": "User listen and choose voice 1 Thiện Minh, 2 Trúc Ly, or 3 Adam bựa in artifacts/audio/voice-audition-v1. Then apply chosen voice to a new version of 18s prototype, preserving prior files. Sources and local CPU generation verified; human voice quality acceptance pending.",
+  "next_action": "User watches artifacts/render/prototype-03-v2/draft.mp4 and gives creative/audio feedback. Thien Minh preset is already selected. Repair only scoped findings into a new version. TikTok reference could not play, so style analysis remains partial.",
   "unresolved": [
-    "Human listening and voice selection pending; Full HP pronunciation needs listening assessment",
-    "Overall video creative acceptance not granted; prior feedback only tentative",
-    "Public-use rights for Threads images remain unresolved"
+    "Regenerated Thien Minh narration requires actual listening; technical checks cannot establish naturalness/pronunciation",
+    "Overall comedy, reading pace and creative acceptance pending",
+    "TikTok @sizumset/video/7649224484162964744 media black at 00:00; page inspected only",
+    "12 historical media/evidence files acknowledged lost; preserved IDs/hashes and recovery receipt",
+    "Public-use source rights unresolved; private draft only"
+  ],
+  "unavailable_artifact_ids": [
+    "A-008",
+    "A-009",
+    "A-010",
+    "A-011",
+    "A-012",
+    "A-013",
+    "A-016",
+    "A-017",
+    "A-018",
+    "A-019",
+    "A-020",
+    "A-021",
+    "A-022",
+    "A-023",
+    "A-027",
+    "A-028",
+    "A-029",
+    "A-030",
+    "A-031",
+    "A-032",
+    "A-033",
+    "A-034",
+    "A-035",
+    "A-036",
+    "A-037"
   ]
 }
 ```

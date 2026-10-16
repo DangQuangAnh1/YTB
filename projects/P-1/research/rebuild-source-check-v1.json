@@ -1,0 +1,27 @@
+{
+  "observed_date": "2026-10-16",
+  "sources": [
+    "https://www.threads.com/@biu_sub70/post/DegajokEbO2",
+    "https://www.threads.com/@nhtp.1907_/post/DegbtOsGB1G"
+  ],
+  "method": "Direct authenticated browser reading and rendered image asset export; fresh captures, not restored old files",
+  "post": "Screenshot asks about flooding; mother replies about dead chickens and cooking",
+  "comment": "Screenshot: bà ngoại khoẻ chưa mẹ / Rồi / Full HP",
+  "assets": [
+    {
+      "path": "media/prototype-03/comment.jpg",
+      "sha256": "9e3d4454f75d9069c9e8a2f07fe45ab2511002628a42f4e1985367f97d7cb4de",
+      "bytes": 21732
+    },
+    {
+      "path": "media/prototype-03/post.jpg",
+      "sha256": "89ead7ce3dcc39440f94aaf77f9ca08a907481b6105aab5ff7e0d5f8903d47c2",
+      "bytes": 21868
+    }
+  ],
+  "rights": "private draft only; public use unresolved",
+  "tiktok_reference": {
+    "url": "https://www.tiktok.com/@sizumset/video/7649224484162964744",
+    "status": "Page read, video black at 00:00. No viewing/listening or style conclusions."
+  }
+}

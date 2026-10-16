@@ -1,0 +1,12 @@
+{
+  "stage": "production",
+  "current_task": {"id": "T-008", "owner_role": "production", "execution": "waiting_user"},
+  "next_action": "User signs into Threads in retained browser tab; then recapture original source media/comment and rebuild private prototype with selected Thien Minh voice using new output paths and IDs. Reference TikTok @sizumset video 7649224484162964744 is not yet playable.",
+  "unresolved": [
+    "12 historical media/evidence files acknowledged lost; recovery receipt preserves hashes/history",
+    "Thien Minh voice selected by direct user confirmation; local runtime needs restoration",
+    "Threads login pending for reliable source/comment inspection",
+    "TikTok reference page readable but video black at 00:00; style analysis unverified",
+    "Overall creative acceptance, regenerated audio QA and public source rights remain unresolved"
+  ]
+}

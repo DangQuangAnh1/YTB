@@ -1,0 +1,28 @@
+{
+  "duration": 18,
+  "language": "vi",
+  "voice": "Thiện Minh, VieNeu 3.8.3, user-selected sample 1",
+  "segments": [
+    {
+      "name": "hook",
+      "start": 0.167,
+      "text": "Khi bạn hỏi thăm mẹ, nhưng mẹ lại quá bình tĩnh."
+    },
+    {
+      "name": "bridge",
+      "start": 7.3,
+      "text": "Xuống bình luận, còn có mẹ hệ game."
+    },
+    {
+      "name": "end",
+      "start": 14,
+      "text": "Bà ngoại hồi đầy máu, sẵn sàng vào trận."
+    }
+  ],
+  "sources": [
+    "https://www.threads.com/@biu_sub70/post/DegajokEbO2",
+    "https://www.threads.com/@nhtp.1907_/post/DegbtOsGB1G"
+  ],
+  "scope": "private prototype rebuild under plan v2; no added provider spend",
+  "acceptance": "new audio and visual QA pending"
+}

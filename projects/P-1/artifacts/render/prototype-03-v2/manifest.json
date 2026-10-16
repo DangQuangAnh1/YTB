@@ -1,0 +1,53 @@
+{
+  "plan_revision": 2,
+  "script": "A-040",
+  "storyboard": "A-041",
+  "voice": "Thiện Minh, user-selected sample 1",
+  "audio_artifact_ids": [
+    "A-042",
+    "A-043",
+    "A-044"
+  ],
+  "duration_target": 18,
+  "added_provider_spend": 0,
+  "release": "private review only",
+  "runtime": "Remotion 4.0.536 / vieneu 3.8.3 / Windows CPU",
+  "files": [
+    {
+      "path": "production/prototype-03/src/index.tsx",
+      "sha256": "6deac0cb4f9fbf6527cb411d81f74726ab11b48860cf7b689f67cd7c9e457fa7"
+    },
+    {
+      "path": "production/prototype-03/package-lock.json",
+      "sha256": "16e7457e837f9ab95afc8db7da04e5946f8acb46d72a1e383762ca903dae371f"
+    },
+    {
+      "path": "production/prototype-03/requirements-win.txt",
+      "sha256": "f537f1b4a46bf766d2c6b0e012a56c72b5673acf0d75f45cd74a59b68f8f4dbb"
+    },
+    {
+      "path": "media/prototype-03/comment.jpg",
+      "sha256": "9e3d4454f75d9069c9e8a2f07fe45ab2511002628a42f4e1985367f97d7cb4de"
+    },
+    {
+      "path": "media/prototype-03/post.jpg",
+      "sha256": "89ead7ce3dcc39440f94aaf77f9ca08a907481b6105aab5ff7e0d5f8903d47c2"
+    },
+    {
+      "path": "media/prototype-03/bridge.wav",
+      "sha256": "9a19252857558e8b7ff69b7c9076a982649c2df7f88e2a6f6d3df6025b536a10"
+    },
+    {
+      "path": "media/prototype-03/end.wav",
+      "sha256": "43134b8c0e32dcbb8a130ccf5e911a88a0ac0ab598816b930f1a5f4692d72932"
+    },
+    {
+      "path": "media/prototype-03/hook.wav",
+      "sha256": "9971ff6a7e7aaf88eefeccdff4fb2c36fdd6741eb7ef24a52aeedc6730083a95"
+    }
+  ],
+  "source_note": "research/rebuild-source-check-v1.json",
+  "tiktok_reference_status": "not playable; no style assessment",
+  "changes": "Fresh source assets and selected voice; v2 repairs clipped Rồi before Full HP reveal",
+  "audio_quality_acceptance": "unverified"
+}

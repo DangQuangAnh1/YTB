@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "revision": 54,
+  "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
+  "stage": "review",
+  "constraints": [
+    "Prefer existing tools; no additional paid services without user authorization",
+    "No channel creation or publishing in v0"
+  ],
+  "current_task": {
+    "id": "T-007",
+    "owner_role": "pm",
+    "execution": "waiting_user"
+  },
+  "plan": {
+    "path": "plans/plan-v2-r34-c2009aed.md",
+    "sha256": "d8ed9bf16cafdc56c524b7670b82ea696250354e66256c7ce4dbfe269a25e4be",
+    "revision": 2
+  },
+  "approval": {
+    "status": "approved",
+    "record": {
+      "path": "decisions/decision-r35-458a974d.json",
+      "sha256": "62f8d2e01d486f9bfe6ae438a558e011c8e9ae21104c325225fe121a22946d6e"
+    }
+  },
+  "decision_records": [
+    {
+      "path": "decisions/decision-r8-d472eefe.json",
+      "sha256": "be60845b358e7efdafedfe4aa76fad877aa2d31c34f982839170adb4bb517bc8"
+    },
+    {
+      "path": "decisions/decision-r28-6e063b07.json",
+      "sha256": "f26fe09ff0d779878ead9cb40e8fb0d367694f957d5d3533dd9938a1eb764568"
+    },
+    {
+      "path": "decisions/decision-r35-458a974d.json",
+      "sha256": "62f8d2e01d486f9bfe6ae438a558e011c8e9ae21104c325225fe121a22946d6e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "tasks/intake-v1.md",
+      "sha256": "1de969028ba60c8bb8de05d8a906f199c095de9ba3135dde5b72ffb76f5cdb69",
+      "id": "A-001",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": null,
+      "created_at": "2026-10-16T07:43:17.933254+00:00"
+    },
+    {
+      "path": "tasks/user-clarifications-v1.md",
+      "sha256": "8908efe259969dae791bbe07f6b83aca9206f5c49883e94e08cb8050e6809185",
+      "id": "A-002",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": null,
+      "created_at": "2026-10-16T07:54:06.235732+00:00"
+    },
+    {
+      "path": "research/threads-feasibility-v1.md",
+      "sha256": "2f9040f682770185e08577c214e9c922ea4ffb6de7e33c85646c006050e2f762",
+      "id": "A-003",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": null,
+      "created_at": "2026-10-16T07:54:06.318717+00:00"
+    },
+    {
+      "path": "research/session-01-source-and-tools-v1.md",
+      "sha256": "02ed4a45b82e13952f721631a74f069457014ef75f71c25ce04361d16f0b5f3d",
+      "id": "A-004",
+      "kind": "research",
+      "inputs": [
+        "A-003"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:05:53.616587+00:00"
+    },
+    {
+      "path": "artifacts/content/draft-01-script-v1.json",
+      "sha256": "9866122fa57e4fd6040f65ec59246effa95371a15fcf8afd18041d46a58f24da",
+      "id": "A-005",
+      "kind": "script",
+      "inputs": [
+        "A-004"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:07:05.899728+00:00"
+    },
+    {
+      "path": "artifacts/content/draft-01-storyboard-v1.md",
+      "sha256": "4b7dd6015f35995bea6abca95c9a44ebcd3ae9c9da46c1ac479a986cb74a8152",
+      "id": "A-006",
+      "kind": "storyboard",
+      "inputs": [
+        "A-005"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:07:05.984504+00:00"
+    },
+    {
+      "path": "artifacts/content/draft-01-metadata-v1.md",
+      "sha256": "6c67dfc1af5bdcb1c527715e415e9d3947c9b43cf3d3bbf0c1ce41b5f52828fa",
+      "id": "A-007",
+      "kind": "metadata",
+      "inputs": [
+        "A-005",
+        "A-004"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:07:06.072907+00:00"
+    },
+    {
+      "path": "artifacts/render/threads-7f043c7fa9/narration.wav",
+      "sha256": "87e9bb208e299ed02c4b511804982975a777c39c31bf6cc298ceedf73d14f9d0",
+      "id": "A-008",
+      "kind": "audio",
+      "inputs": [
+        "A-005"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:10:17.412481+00:00"
+    },
+    {
+      "path": "artifacts/render/threads-7f043c7fa9/draft-01-v1.mp4",
+      "sha256": "e5c03cf3fe14ef6dffadf110d4b925eba40ab123624a17b7290d6b98c8d2e8b0",
+      "id": "A-009",
+      "kind": "video",
+      "inputs": [
+        "A-005",
+        "A-006",
+        "A-008"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:10:17.522418+00:00"
+    },
+    {
+      "path": "artifacts/render/threads-7f043c7fa9/manifest.json",
+      "sha256": "60f997f5c45c6b043625a1e24c882c3bd0cd3dbcc5adaa15e1f3c9972ca44cc8",
+      "id": "A-010",
+      "kind": "other",
+      "inputs": [
+        "A-009",
+        "A-008"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:10:17.637759+00:00"
+    },
+    {
+      "path": "artifacts/render/threads-32ea2b3460/narration.wav",
+      "sha256": "c7aff279af8810e0ccb80150e2a395a92ea057d6b7b9545d6e200374a717e9d5",
+      "id": "A-011",
+      "kind": "audio",
+      "inputs": [
+        "A-005"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:11:48.038526+00:00"
+    },
+    {
+      "path": "artifacts/render/threads-32ea2b3460/draft.mp4",
+      "sha256": "2f09c4422dc4c50c02737057612b5d543b27d7cd1c60a613da28448d24e5609f",
+      "id": "A-012",
+      "kind": "video",
+      "inputs": [
+        "A-005",
+        "A-006",
+        "A-011"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:11:48.186184+00:00"
+    },
+    {
+      "path": "artifacts/render/threads-32ea2b3460/manifest.json",
+      "sha256": "9ce9dac88092ff24c0988fea4488134979b1f2a34d6454c8f9394e75ce09217c",
+      "id": "A-013",
+      "kind": "other",
+      "inputs": [
+        "A-012",
+        "A-011"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:11:48.363996+00:00"
+    },
+    {
+      "path": "artifacts/content/draft-01-script-v2.json",
+      "sha256": "3cf741e614afef44225bee54ff2c25f99ecdefc9234196a151c62a286223dc0a",
+      "id": "A-014",
+      "kind": "script",
+      "inputs": [
+        "A-005",
+        "A-004"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:13:23.201903+00:00"
+    },
+    {
+      "path": "artifacts/content/draft-01-storyboard-v2.md",
+      "sha256": "395243595fadb4549140b785e3645f7db1142ff81b741424ee59d457d38712c7",
+      "id": "A-015",
+      "kind": "storyboard",
+      "inputs": [
+        "A-014",
+        "A-006"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:13:23.340519+00:00"
+    },
+    {
+      "path": "artifacts/render/threads-61af090977/narration.wav",
+      "sha256": "0c310faac7ed271a10de9dbef79d191c688612b542f69598512cceac697a370b",
+      "id": "A-016",
+      "kind": "audio",
+      "inputs": [
+        "A-014"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:14:18.695183+00:00"
+    },
+    {
+      "path": "artifacts/render/threads-61af090977/draft.mp4",
+      "sha256": "c9b3e53316038bb05c8146361386518852530a7d5e7d6e8aac9924a37e039a9a",
+      "id": "A-017",
+      "kind": "video",
+      "inputs": [
+        "A-014",
+        "A-015",
+        "A-016"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:14:18.901973+00:00"
+    },
+    {
+      "path": "artifacts/render/threads-61af090977/manifest.json",
+      "sha256": "51793903747c833500bf103ec2a59ae733a8196b7abd6d9b2cbae2d7339457a4",
+      "id": "A-018",
+      "kind": "other",
+      "inputs": [
+        "A-017",
+        "A-016"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:14:19.117886+00:00"
+    },
+    {
+      "path": "tasks/session-01-outcome-v1.md",
+      "sha256": "80de7b392abe8e93a544e5e83002c2cd72936678dfecdfbb669c2cf1b22f1963",
+      "id": "A-019",
+      "kind": "other",
+      "inputs": [
+        "A-017",
+        "A-018"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:16:42.140886+00:00"
+    },
+    {
+      "path": "tasks/user-feedback-format-v2.md",
+      "sha256": "b33ac7b31b37572ffcd1afc28bf498973390c2305e34e3b6d262097bc2d52305",
+      "id": "A-020",
+      "kind": "other",
+      "inputs": [
+        "A-017"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:30:57.006302+00:00"
+    },
+    {
+      "path": "research/remotion-install-receipt-v1.json",
+      "sha256": "0b31f501b19e870f488737eaeed152c3eb6080a2967e83adf3a9932fb6df1512",
+      "id": "A-021",
+      "kind": "other",
+      "inputs": [
+        "A-020"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:37:47.412173+00:00"
+    },
+    {
+      "path": "research/tool-readiness-v1.json",
+      "sha256": "9400c23e88b0c1e525710603e12f453ad0b2b3c0ff083333b4944c7c7e4d85b4",
+      "id": "A-022",
+      "kind": "other",
+      "inputs": [
+        "A-017"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:37:47.574564+00:00"
+    },
+    {
+      "path": "research/tooling-audit-v1.md",
+      "sha256": "02a4f375192bf0390ee7d41368d93e23250fd0b1c3ff671fd4137b1559ba9d8d",
+      "id": "A-023",
+      "kind": "research",
+      "inputs": [
+        "A-021",
+        "A-022"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-16T08:37:47.730586+00:00"
+    },
+    {
+      "path": "artifacts/content/prototype-02-script-v1.json",
+      "sha256": "d4ea792a93c84783c1ad7b38088a0d11669ff1eebd7e8279f713714f842bbfa8",
+      "id": "A-024",
+      "kind": "script",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T08:57:27.311761+00:00"
+    },
+    {
+      "path": "artifacts/content/prototype-02-storyboard-v1.md",
+      "sha256": "40673ee2064f034d2f1b002fdf8604494f3118848f4d6c3cdfa1495323921c8d",
+      "id": "A-025",
+      "kind": "storyboard",
+      "inputs": [
+        "A-024"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T08:57:33.067170+00:00"
+    },
+    {
+      "path": "artifacts/content/prototype-02-inputs-v1.json",
+      "sha256": "e815d60a4f5925717d145355eadad9b2f20f33f818a2840baa9cc6223e6fdd77",
+      "id": "A-026",
+      "kind": "metadata",
+      "inputs": [
+        "A-024",
+        "A-025"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T08:57:54.742764+00:00"
+    },
+    {
+      "path": "artifacts/render/prototype-02-v1/narration-and-effect.wav",
+      "sha256": "5712a4897806857c5615195ba5f706cb5eae67b86228e516428c2a6a201377ab",
+      "id": "A-027",
+      "kind": "audio",
+      "inputs": [
+        "A-024",
+        "A-026"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T08:59:27.509779+00:00"
+    },
+    {
+      "path": "artifacts/render/prototype-02-v1/draft.mp4",
+      "sha256": "8c62988b54abcf8096b8f86fb81d8762b5477ea4afcda3f460af846e4c1623a1",
+      "id": "A-028",
+      "kind": "video",
+      "inputs": [
+        "A-024",
+        "A-025",
+        "A-026",
+        "A-027"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T08:59:35.295392+00:00"
+    },
+    {
+      "path": "artifacts/render/prototype-02-v1/manifest.json",
+      "sha256": "38e3253372738a988c8eb6de3de3c03f3a0188baa35133fbf5911aa770209d29",
+      "id": "A-029",
+      "kind": "other",
+      "inputs": [
+        "A-024",
+        "A-025",
+        "A-026",
+        "A-027",
+        "A-028"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T08:59:42.883103+00:00"
+    },
+    {
+      "path": "tasks/voice-feedback-v1.md",
+      "sha256": "d27e1cd7a7bace005827238a0cbf69000f624635aa8dfbd35bf406a823bad1a8",
+      "id": "A-030",
+      "kind": "other",
+      "inputs": [
+        "A-028"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T09:20:22.218020+00:00"
+    },
+    {
+      "path": "research/voice-alternatives-v1.md",
+      "sha256": "548acd0f0b9e0f74de96179ca84aa13b56f43f837e998726a5f201e70ff2adb2",
+      "id": "A-031",
+      "kind": "research",
+      "inputs": [
+        "A-030"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T09:20:29.711325+00:00"
+    },
+    {
+      "path": "artifacts/audio/voice-audition-v1/voice-1.wav",
+      "sha256": "0564558c3269355a33955c1a643987797257ca6fdef3fd7dc3b042a5a9edff90",
+      "id": "A-032",
+      "kind": "audio",
+      "inputs": [
+        "A-030",
+        "A-031"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T09:20:51.154907+00:00"
+    },
+    {
+      "path": "artifacts/audio/voice-audition-v1/voice-2.wav",
+      "sha256": "8c8c6a2814aa36d9250b4e60172a97ccd8c2968dabdba1cc15dbfa5215686c41",
+      "id": "A-033",
+      "kind": "audio",
+      "inputs": [
+        "A-030",
+        "A-031"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T09:21:08.269547+00:00"
+    },
+    {
+      "path": "artifacts/audio/voice-audition-v1/voice-3.wav",
+      "sha256": "b4cbb51c79cc8f19b10c840b8f5b3a5b50a24871e6fe16380b616e0bd6e46824",
+      "id": "A-034",
+      "kind": "audio",
+      "inputs": [
+        "A-030",
+        "A-031"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T09:21:08.467516+00:00"
+    },
+    {
+      "path": "artifacts/audio/voice-audition-v1/manifest.json",
+      "sha256": "d944ad267ac584181771cdac004c7ac29d79c3fbc24eaabd76e49baab757d04d",
+      "id": "A-035",
+      "kind": "metadata",
+      "inputs": [
+        "A-032",
+        "A-033",
+        "A-034"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T09:21:08.716945+00:00"
+    },
+    {
+      "path": "artifacts/audio/voice-audition-v1/qa.json",
+      "sha256": "b02109016323843d5c20f979251cf8d001eae75b32f06604cf600e476e012884",
+      "id": "A-036",
+      "kind": "other",
+      "inputs": [
+        "A-032",
+        "A-033",
+        "A-034"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T09:21:08.945694+00:00"
+    },
+    {
+      "path": "tasks/lesson-voice-audition-first.md",
+      "sha256": "38ee7caf5e3d77bc56d33d6634beb7a46c0df5fa35b29fd207117dabab765960",
+      "id": "A-037",
+      "kind": "other",
+      "inputs": [
+        "A-030",
+        "A-035",
+        "A-036"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-16T09:21:40.879439+00:00"
+    }
+  ],
+  "reviews": [
+    {
+      "path": "artifacts/reviews/review-r24-5116cd80.json",
+      "sha256": "af92fc27c869e007dbd0c962b2f4229520c29f1d513179920544b3695ddc6391",
+      "artifact_ids": [
+        "A-014",
+        "A-017"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/draft-01-self-review-v1.md",
+          "sha256": "29bff3b55c3ca8233855577915b598bc103eed43960c0c6d7becfdb259ed8d12"
+        },
+        {
+          "path": "research/session-01-source-and-tools-v1.md",
+          "sha256": "02ed4a45b82e13952f721631a74f069457014ef75f71c25ce04361d16f0b5f3d"
+        },
+        {
+          "path": "tasks/draft-01-self-review-v1.md",
+          "sha256": "29bff3b55c3ca8233855577915b598bc103eed43960c0c6d7becfdb259ed8d12"
+        },
+        {
+          "path": "artifacts/render/threads-61af090977/encoded-contact-sheet.png",
+          "sha256": "5676e26792c7bc27d356dd9d764dcde329dc067dc3e124b4cd5e4c71ce6539cc"
+        },
+        {
+          "path": "artifacts/render/threads-61af090977/technical-check-v1.json",
+          "sha256": "cbf5fd1fd0bf92cd2f723526e27528cb15740c415ba52dee436536d187cda09b"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r42-f01403e7.json",
+      "sha256": "9bd5861c072251843814ca9a295ec8f1808aabbe9a0e10ba5c0da4c226755ebf",
+      "artifact_ids": [
+        "A-024",
+        "A-028"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/content/prototype-02-storyboard-v1.md",
+          "sha256": "40673ee2064f034d2f1b002fdf8604494f3118848f4d6c3cdfa1495323921c8d"
+        },
+        {
+          "path": "artifacts/render/prototype-02-v1/visual-review.md",
+          "sha256": "407fc64561e2ca4dff3679503331c17823d10ceac4908d03fa05701ef728fe96"
+        },
+        {
+          "path": "artifacts/content/prototype-02-storyboard-v1.md",
+          "sha256": "40673ee2064f034d2f1b002fdf8604494f3118848f4d6c3cdfa1495323921c8d"
+        },
+        {
+          "path": "artifacts/render/prototype-02-v1/visual-review.md",
+          "sha256": "407fc64561e2ca4dff3679503331c17823d10ceac4908d03fa05701ef728fe96"
+        },
+        {
+          "path": "artifacts/render/prototype-02-v1/technical-qa.json",
+          "sha256": "ce3c0a27d0bff03c970ae88ca0407c9a417cddd21bb3157d810dd3a29b4b2794"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r52-1dd98ed9.json",
+      "sha256": "836e74cdbb3da7b7d6bba4713990ff694cc1241ba3f4199c50ef90ac6e856549",
+      "artifact_ids": [
+        "A-032",
+        "A-033",
+        "A-034"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/audio/voice-audition-v1/manifest.json",
+          "sha256": "d944ad267ac584181771cdac004c7ac29d79c3fbc24eaabd76e49baab757d04d"
+        },
+        {
+          "path": "artifacts/audio/voice-audition-v1/qa.json",
+          "sha256": "b02109016323843d5c20f979251cf8d001eae75b32f06604cf600e476e012884"
+        }
+      ],
+      "verdict": "unverified"
+    }
+  ],
+  "acceptance": "not_reviewed",
+  "release": "not_requested",
+  "next_action": "User listen and choose voice 1 Thiện Minh, 2 Trúc Ly, or 3 Adam bựa in artifacts/audio/voice-audition-v1. Then apply chosen voice to a new version of 18s prototype, preserving prior files. Sources and local CPU generation verified; human voice quality acceptance pending.",
+  "unresolved": [
+    "Human listening and voice selection pending; Full HP pronunciation needs listening assessment",
+    "Overall video creative acceptance not granted; prior feedback only tentative",
+    "Public-use rights for Threads images remain unresolved"
+  ],
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0,
+    "samples": {},
+    "baselines": {},
+    "available": false
+  },
+  "created_at": "2026-10-16T07:42:46.989392+00:00",
+  "updated_at": "2026-10-16T09:21:44.645132+00:00"
+}

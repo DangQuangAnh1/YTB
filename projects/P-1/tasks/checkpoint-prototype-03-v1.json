@@ -1,0 +1,12 @@
+{
+  "stage": "review",
+  "current_task": {"id":"T-008","owner_role":"pm","execution":"waiting_user"},
+  "next_action":"User watches artifacts/render/prototype-03-v2/draft.mp4 and gives creative/audio feedback. Thien Minh preset is already selected. Repair only scoped findings into a new version. TikTok reference could not play, so style analysis remains partial.",
+  "unresolved":[
+    "Regenerated Thien Minh narration requires actual listening; technical checks cannot establish naturalness/pronunciation",
+    "Overall comedy, reading pace and creative acceptance pending",
+    "TikTok @sizumset/video/7649224484162964744 media black at 00:00; page inspected only",
+    "12 historical media/evidence files acknowledged lost; preserved IDs/hashes and recovery receipt",
+    "Public-use source rights unresolved; private draft only"
+  ]
+}

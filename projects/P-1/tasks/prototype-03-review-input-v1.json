@@ -1,0 +1,12 @@
+{
+  "artifact_ids": ["A-045"],
+  "reviewer": "Codex",
+  "mode": "self_review",
+  "checks": [
+    {"name":"brief_alignment","status":"passed","detail":"Private 18s screenshot-led Vietnamese rebuild under plan v2 with selected Thien Minh preset and real source images; no extra provider spend or publishing.","evidence_path":"artifacts/render/prototype-03-v2/manifest.json"},
+    {"name":"visual_review","status":"passed","detail":"Sampled actual decoded frames across opening, pre-reveal, 12s reveal and ending; complete Roi bubble now visible, Full HP concealed until reveal, captions/source labels fit. Sampled coverage only, not continuous playback.","evidence_path":"artifacts/render/prototype-03-v2/visual-review.md"},
+    {"name":"media_decode","status":"passed","detail":"Entire file decoded without errors; 1080x1920, about 18s, H264 video with AAC audio. Audio peak about 0.709; this does not establish voice quality.","evidence_path":"artifacts/render/prototype-03-v2/technical-qa.json"},
+    {"name":"audio_review","status":"unverified","detail":"Generated selected preset successfully and measured durations, but no listening performed. User should judge clarity, pronunciation and fit of the regenerated narration."}
+  ],
+  "note":"No overall creative acceptance or public-use clearance inferred. Historical missing media remain unavailable."
+}

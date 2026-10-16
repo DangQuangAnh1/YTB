@@ -1,0 +1,60 @@
+{
+  "project_id": "P-1",
+  "source_ref": "direct-user-chat:2026-10-16:media-loss-and-go-ahead",
+  "excerpt": "bị mất rồi; Okie, tiếp tục triển khai, tham khảo thêm thằng này, thiếu tài khoản thread bảo tôi tôi login",
+  "snapshot": {
+    "path": "recovery/loss-r55-07b5f2fc-state.json",
+    "sha256": "0e00aaa72d1f83cc97751bfc8aa2dbebbf1279c2daa69a81a9af234aa3ed3947"
+  },
+  "missing": [
+    {
+      "path": "artifacts/render/threads-7f043c7fa9/narration.wav",
+      "sha256": "87e9bb208e299ed02c4b511804982975a777c39c31bf6cc298ceedf73d14f9d0"
+    },
+    {
+      "path": "artifacts/render/threads-7f043c7fa9/draft-01-v1.mp4",
+      "sha256": "e5c03cf3fe14ef6dffadf110d4b925eba40ab123624a17b7290d6b98c8d2e8b0"
+    },
+    {
+      "path": "artifacts/render/threads-32ea2b3460/narration.wav",
+      "sha256": "c7aff279af8810e0ccb80150e2a395a92ea057d6b7b9545d6e200374a717e9d5"
+    },
+    {
+      "path": "artifacts/render/threads-32ea2b3460/draft.mp4",
+      "sha256": "2f09c4422dc4c50c02737057612b5d543b27d7cd1c60a613da28448d24e5609f"
+    },
+    {
+      "path": "artifacts/render/threads-61af090977/narration.wav",
+      "sha256": "0c310faac7ed271a10de9dbef79d191c688612b542f69598512cceac697a370b"
+    },
+    {
+      "path": "artifacts/render/threads-61af090977/draft.mp4",
+      "sha256": "c9b3e53316038bb05c8146361386518852530a7d5e7d6e8aac9924a37e039a9a"
+    },
+    {
+      "path": "artifacts/render/prototype-02-v1/narration-and-effect.wav",
+      "sha256": "5712a4897806857c5615195ba5f706cb5eae67b86228e516428c2a6a201377ab"
+    },
+    {
+      "path": "artifacts/render/prototype-02-v1/draft.mp4",
+      "sha256": "8c62988b54abcf8096b8f86fb81d8762b5477ea4afcda3f460af846e4c1623a1"
+    },
+    {
+      "path": "artifacts/audio/voice-audition-v1/voice-1.wav",
+      "sha256": "0564558c3269355a33955c1a643987797257ca6fdef3fd7dc3b042a5a9edff90"
+    },
+    {
+      "path": "artifacts/audio/voice-audition-v1/voice-2.wav",
+      "sha256": "8c8c6a2814aa36d9250b4e60172a97ccd8c2968dabdba1cc15dbfa5215686c41"
+    },
+    {
+      "path": "artifacts/audio/voice-audition-v1/voice-3.wav",
+      "sha256": "b4cbb51c79cc8f19b10c840b8f5b3a5b50a24871e6fe16380b616e0bd6e46824"
+    },
+    {
+      "path": "artifacts/render/threads-61af090977/encoded-contact-sheet.png",
+      "sha256": "5676e26792c7bc27d356dd9d764dcde329dc067dc3e124b4cd5e4c71ce6539cc"
+    }
+  ],
+  "recorded_at": "2026-10-16T16:02:34.488810+00:00"
+}
