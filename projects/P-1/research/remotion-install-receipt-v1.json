@@ -1,0 +1,63 @@
+{
+  "repo": "remotion-dev/skills",
+  "upstream_commit_checked": "1441a11e95db35443bd76bb318386c0d3ca00053",
+  "skills": [
+    {
+      "name": "remotion-best-practices",
+      "path": "/home/bss-group/.codex/skills/remotion-best-practices/SKILL.md",
+      "sha256": "4e9123f17ee753af08d8a32d011c05e0d3a012d134f46ea5e63afbb4bea1c725",
+      "upstream_matches": true
+    },
+    {
+      "name": "remotion-create",
+      "path": "/home/bss-group/.codex/skills/remotion-create/SKILL.md",
+      "sha256": "42fecaf2295364fdcef089ed07aa516a7e060e16d90b672cc94f4a0436984b3b",
+      "upstream_matches": true
+    },
+    {
+      "name": "remotion-markup",
+      "path": "/home/bss-group/.codex/skills/remotion-markup/SKILL.md",
+      "sha256": "0aec470b43251832adb0eafddc4402cf04d42dcbc19fba320449c41abd3f36ed",
+      "upstream_matches": true
+    },
+    {
+      "name": "remotion-captions",
+      "path": "/home/bss-group/.codex/skills/remotion-captions/SKILL.md",
+      "sha256": "283282776ca781b94bdff88a065e6599dcc0008e482a9dd15ddf8663f0c31ae9",
+      "upstream_matches": true
+    },
+    {
+      "name": "remotion-multimedia",
+      "path": "/home/bss-group/.codex/skills/remotion-multimedia/SKILL.md",
+      "sha256": "56605add808a2b71e1f987843dc734a2c436e8f3e201b0941d08223dcdd3aa67",
+      "upstream_matches": true
+    },
+    {
+      "name": "remotion-render",
+      "path": "/home/bss-group/.codex/skills/remotion-render/SKILL.md",
+      "sha256": "f986a1d12807b1279ca54194ac6f154e97795d71ce66ddd9484bbe034977af7f",
+      "upstream_matches": true
+    },
+    {
+      "name": "remotion-studio",
+      "path": "/home/bss-group/.codex/skills/remotion-studio/SKILL.md",
+      "sha256": "d6fa60691f3f4ce094caac9904698470b240f7aedc17a311f9d47b964ad11dbd",
+      "upstream_matches": true
+    },
+    {
+      "name": "remotion-docs",
+      "path": "/home/bss-group/.codex/skills/remotion-docs/SKILL.md",
+      "sha256": "d93460e741718f88b24f162cc5e4174cbe9200e68bdce43084b5140c9342c068",
+      "upstream_matches": true
+    }
+  ],
+  "activation": "Automatically discoverable on the next user turn; selected instructions manually read/applied during audit",
+  "runtime_path": "/home/bss-group/.cache/creator-agency/remotion-runtime",
+  "runtime_tools": [
+    "remotion",
+    "@remotion/cli",
+    "@remotion/captions",
+    "mediabunny"
+  ],
+  "extra_spend": 0
+}

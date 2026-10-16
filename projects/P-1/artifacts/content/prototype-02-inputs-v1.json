@@ -1,0 +1,43 @@
+{
+  "assets": [
+    {
+      "path": "media/prototype-02/bridge.wav",
+      "sha256": "bfce85184a588c4b0846fd41a40840e99efd540e47e4718263f586e0ea23a8ee",
+      "bytes": 84524
+    },
+    {
+      "path": "media/prototype-02/hook.wav",
+      "sha256": "5180df4c13037c9adee9a73a62127fa966d9597155a44b27e9bce1cb8aae8f8d",
+      "bytes": 102444
+    },
+    {
+      "path": "media/prototype-02/comment.png",
+      "sha256": "509a9dbcf8fd30673de45c329d8903ca4b9f5598deeb689bcea951ad837afbcf",
+      "bytes": 92987
+    },
+    {
+      "path": "media/prototype-02/end.wav",
+      "sha256": "d2f36c493eb7b69181d0ba8ab5d9eac129384719fed13271e6479a666c44754d",
+      "bytes": 90668
+    },
+    {
+      "path": "media/prototype-02/post.jpg",
+      "sha256": "89ead7ce3dcc39440f94aaf77f9ca08a907481b6105aab5ff7e0d5f8903d47c2",
+      "bytes": 21868
+    },
+    {
+      "path": "media/prototype-02/audio-timings.json",
+      "sha256": "ef5c68b963526e36be2907db0980926d701ff828638d41f3614402fe572dd5f9",
+      "bytes": 463
+    },
+    {
+      "path": "media/prototype-02/mix.wav",
+      "sha256": "5712a4897806857c5615195ba5f706cb5eae67b86228e516428c2a6a201377ab",
+      "bytes": 793844
+    }
+  ],
+  "adapter": "production/prototype-02",
+  "remotion": "4.0.536",
+  "cost_added": 0,
+  "rights_status": "private evaluation only; public-use clearance unresolved"
+}

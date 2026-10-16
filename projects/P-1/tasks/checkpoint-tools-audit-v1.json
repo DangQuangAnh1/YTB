@@ -1,0 +1,6 @@
+{
+  "stage": "planning",
+  "current_task": {"id": "T-005", "owner_role": "pm", "execution": "complete"},
+  "next_action": "Tool audit complete: official Remotion skills/runtime installed, selected instructions applied and existing-file/timing/caption tests passed. Read research/tooling-audit-v1.md and receipts. Preserve user's requested 10–20s source/comment prototype; prepare matching revised plan/binding from actual user instructions before production. No new prototype rendered during requested preflight.",
+  "unresolved": ["Better Vietnamese voice within no-added-spend constraint not yet verified/accepted", "Actual source captures, asset-use basis and prototype-specific script still needed", "Remotion composition/bundling/Studio/render smoke not yet performed", "Adobe was suggested only, not installed or connected; optional and not blocking local work"]
+}

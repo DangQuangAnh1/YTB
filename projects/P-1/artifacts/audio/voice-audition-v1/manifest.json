@@ -1,0 +1,59 @@
+{
+  "sdk": "vieneu 3.8.3",
+  "model": "pnnbao-ump/VieNeu-TTS-v3-Turbo",
+  "backend": "ONNX CPU fp32, 4 threads",
+  "text": "Khi bạn hỏi thăm mẹ, nhưng mẹ lại quá bình tĩnh. Xuống bình luận, còn có mẹ hệ game. Mẹ trả lời: Rồi. Full HP! Bà ngoại hồi đầy máu, sẵn sàng vào trận.",
+  "samples": [
+    {
+      "file": "artifacts/audio/voice-audition-v1/voice-1.wav",
+      "preset": "Thiện Minh",
+      "seconds": 8.24,
+      "sample_rate": 48000,
+      "peak": 0.6750143766403198,
+      "rms": 0.10352283716201782,
+      "generation_seconds": 6.06,
+      "sha256": "0564558c3269355a33955c1a643987797257ca6fdef3fd7dc3b042a5a9edff90"
+    },
+    {
+      "file": "artifacts/audio/voice-audition-v1/voice-2.wav",
+      "preset": "Trúc Ly",
+      "seconds": 7.36,
+      "sample_rate": 48000,
+      "peak": 0.7255071401596069,
+      "rms": 0.09731411933898926,
+      "generation_seconds": 4.13,
+      "sha256": "8c8c6a2814aa36d9250b4e60172a97ccd8c2968dabdba1cc15dbfa5215686c41"
+    },
+    {
+      "file": "artifacts/audio/voice-audition-v1/voice-3.wav",
+      "preset": "Adam bựa",
+      "seconds": 9.76,
+      "sample_rate": 48000,
+      "peak": 0.6672396063804626,
+      "rms": 0.09776628017425537,
+      "generation_seconds": 6.39,
+      "sha256": "b4cbb51c79cc8f19b10c840b8f5b3a5b50a24871e6fe16380b616e0bd6e46824"
+    }
+  ],
+  "cost_added": 0,
+  "rights_source": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo#-usage-rights--licensing-faq",
+  "source_author": "Phạm Nguyễn Ngọc Bảo / pnnbao97; MOSS codec OpenMOSS-Team",
+  "license": "Apache-2.0 per publisher model card, including shipped presets and commercial synthetic output",
+  "cloning": "No custom reference or voice cloning; built-in presets only",
+  "acceptance": "Human listening review pending",
+  "model_revisions": {
+    "models--pnnbao-ump--VieNeu-TTS-v3-Turbo": [
+      "61b85e3d937fbbacb387714180e8182823512523"
+    ],
+    "models--OpenMOSS-Team--MOSS-Audio-Tokenizer-Nano-ONNX": [
+      "ceff0d0749bfb3fa2d61149794ec6feef0d1e1ae"
+    ]
+  },
+  "local_compatibility_fix": "ONNX Runtime 1.31 rejects symlinked external model data outside graph directory. Copied downloaded snapshot symlink targets into regular colocated files in cache; retained all path validation, did not disable security checks.",
+  "preset_descriptions": {
+    "Thiện Minh": "Nam · Bắc · kể chuyện (SDK metadata)",
+    "Trúc Ly": "Nữ · Bắc · tự nhiên (SDK metadata)",
+    "Adam bựa": "Nam · Bắc · tự nhiên (SDK metadata)"
+  },
+  "source_code_sha256": "af86c43600da7359653db48d0676610567e2f9d8e7e3cfe0445b5732f1b41c70"
+}

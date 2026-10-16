@@ -1,0 +1,7 @@
+# Prototype 02 — 18 seconds
+0–7s: actual post chat screenshot, source @biu_sub70, title Nhắn tin hỏi thăm mẹ. Narration 0.15–2.47s: Khi bạn hỏi thăm mẹ, nhưng mẹ lại quá bình tĩnh. Remaining time lets viewer read chat.
+7–18s: actual user-provided Full HP comment capture, source @nhtp.1907_. Image progressively revealed without rewriting quote. 7–10.2s question; 10.2–12s Rồi; 12s full answer Full HP. Short original synthesized arcade effect at 12s with original health bar annotation below screenshot. Narrator 7.3–9.22s bridge; 14–16.05s original reaction. Final pause 16.1–18s.
+Caption blocks track known generated narration segment windows. No fake comments or fabricated counters. Images not altered, only framed/revealed. Review source screenshots, all reveal boundaries, MP4 decode, audio peaks and ASR. Voice naturalness requires human review.
+Sources: https://www.threads.com/@biu_sub70/post/DegajokEbO2 ; https://www.threads.com/@nhtp.1907_/post/DegbtOsGB1G
+Rights/use basis: private review prototype explicitly requested using these examples and user-supplied screenshot. Public availability and attribution do not establish reuse permission; no public release/monetization clearance asserted. Source media ignored by Git. No assertion that chat is verified news.
+Voice credit: Piper/rhasspy vi_VN-vais1000-medium, VAIS1000 data CC BY 4.0; model collection MIT. Existing local model; not a cloned speaker. Original generated sine-wave effect; no music.

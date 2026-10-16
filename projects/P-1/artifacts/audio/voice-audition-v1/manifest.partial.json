@@ -1,0 +1,32 @@
+[
+  {
+    "file": "artifacts/audio/voice-audition-v1/voice-1.wav",
+    "preset": "Thiện Minh",
+    "seconds": 8.24,
+    "sample_rate": 48000,
+    "peak": 0.6750143766403198,
+    "rms": 0.10352283716201782,
+    "generation_seconds": 6.06,
+    "sha256": "0564558c3269355a33955c1a643987797257ca6fdef3fd7dc3b042a5a9edff90"
+  },
+  {
+    "file": "artifacts/audio/voice-audition-v1/voice-2.wav",
+    "preset": "Trúc Ly",
+    "seconds": 7.36,
+    "sample_rate": 48000,
+    "peak": 0.7255071401596069,
+    "rms": 0.09731411933898926,
+    "generation_seconds": 4.13,
+    "sha256": "8c8c6a2814aa36d9250b4e60172a97ccd8c2968dabdba1cc15dbfa5215686c41"
+  },
+  {
+    "file": "artifacts/audio/voice-audition-v1/voice-3.wav",
+    "preset": "Adam bựa",
+    "seconds": 9.76,
+    "sample_rate": 48000,
+    "peak": 0.6672396063804626,
+    "rms": 0.09776628017425537,
+    "generation_seconds": 6.39,
+    "sha256": "b4cbb51c79cc8f19b10c840b8f5b3a5b50a24871e6fe16380b616e0bd6e46824"
+  }
+]

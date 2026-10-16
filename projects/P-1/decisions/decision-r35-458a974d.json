@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/prototype-02-user-go-ahead.md",
+  "excerpt": "okie, dựng nào",
+  "plan": {
+    "path": "plans/plan-v2-r34-c2009aed.md",
+    "sha256": "d8ed9bf16cafdc56c524b7670b82ea696250354e66256c7ce4dbfe269a25e4be",
+    "revision": 2
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-16T08:55:06.163090+00:00"
+}

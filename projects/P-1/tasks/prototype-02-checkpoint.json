@@ -1,0 +1,14 @@
+{
+  "stage": "review",
+  "current_task": {
+    "id": "T-006",
+    "owner_role": "pm",
+    "execution": "waiting_user"
+  },
+  "next_action": "User review A-028: 18-second prototype at artifacts/render/prototype-02-v1/draft.mp4. Gather feedback on screenshot selection, comic timing and Vietnamese voice. Preserve exact plan v2 and existing authorization; no publication.",
+  "unresolved": [
+    "Human listening/voice acceptance pending; ASR has bridge pronunciation ambiguity",
+    "Human creative/reading-pace acceptance pending",
+    "Public-use rights and monetization eligibility not established"
+  ]
+}

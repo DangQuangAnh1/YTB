@@ -1,0 +1,6 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-003", "owner_role": "pm", "execution": "waiting_user"},
+  "next_action": "Trình draft 01 hiện hành A-017 (artifacts/render/threads-61af090977/draft.mp4), 65.833s, để người dùng xem/nghe và phản hồi giọng/nhịp/cách kể. Approval plan v1 vẫn hiệu lực; không cần xin lại quyền sửa trong phạm vi. Phiên 2/3 tiếp tục vào các ngày làm việc/chat hoạt động kế tiếp, không tự tạo lịch.",
+  "unresolved": ["Audio listening/naturalness/phát âm chưa có đánh giá nghe; self-review incomplete", "Chưa có người dùng chấp nhận draft 01", "Pilot mới có 1 draft trong 1 ngày, còn phiên 2 và 3", "Chưa đo ổn định Threads nhiều ngày hoặc velocity qua snapshot 60–120 phút", "Thời gian người dùng duyệt và dữ liệu thị trường chưa được đo; chưa đăng"]
+}

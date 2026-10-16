@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-approval-plan-v1.md",
+  "excerpt": "okie triển khai",
+  "plan": {
+    "path": "plans/plan-v1-r6-18900404.md",
+    "sha256": "68a7dae47403ccac6185cefacd29f6331f09e6aabd6e9e87e8db91eea2d4e087",
+    "revision": 1
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-16T07:57:59.214318+00:00"
+}

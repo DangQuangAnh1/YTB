@@ -1,0 +1,3 @@
+# Direct human feedback and scoped voice revision
+2026-10-16, direct message in this chat: “cũng tàm tạm nhưng còn lỏ lắm =))) kiếm giọng đọc khác đi”.
+Interpretation: current overall draft has provisional mixed feedback; voice is not accepted. User explicitly requests another voice. This authorizes a bounded no-added-cost voice replacement audition within existing private prototype scope, replacing plan v2's Piper implementation choice. It does not approve the old voice, overall creative acceptance, publication or paid usage. Research and generate 2–3 short samples of the same original narration using built-in licensed presets. No arbitrary third-party voice cloning.

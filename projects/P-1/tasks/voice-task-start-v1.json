@@ -1,0 +1,14 @@
+{
+  "stage": "production",
+  "current_task": {
+    "id": "T-007",
+    "owner_role": "production",
+    "execution": "running"
+  },
+  "next_action": "Find a different Vietnamese voice and generate comparable short private samples under direct voice-feedback-v1.md instruction; preserve A-028 and other registered outputs.",
+  "unresolved": [
+    "Voice rejected by user; replacement needs listening review",
+    "No added spending; no external paid calls",
+    "Public-use rights for post assets remain unresolved"
+  ]
+}

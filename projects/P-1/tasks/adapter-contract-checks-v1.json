@@ -1,0 +1,34 @@
+{
+  "contract": "threads-cards-1",
+  "checks": [
+    {
+      "case": "unsupported_scene",
+      "passed": true,
+      "error": "Unsupported or duplicate scene"
+    },
+    {
+      "case": "missing_sources",
+      "passed": true,
+      "error": "Source URLs required"
+    },
+    {
+      "case": "unknown_voice",
+      "passed": true,
+      "error": "Unsupported voice/speed"
+    },
+    {
+      "case": "duplicate_scene",
+      "passed": true,
+      "error": "Unsupported or duplicate scene"
+    },
+    {
+      "case": "stale_revision",
+      "passed": true,
+      "error": "Stale state revision",
+      "state_unchanged": true
+    }
+  ],
+  "valid_project_script": true,
+  "final_script_checked": "artifacts/content/draft-01-script-v2.json",
+  "final_script_sha256": "3cf741e614afef44225bee54ff2c25f99ecdefc9234196a151c62a286223dc0a"
+}

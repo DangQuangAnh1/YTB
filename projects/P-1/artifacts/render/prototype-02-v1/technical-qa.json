@@ -1,0 +1,14 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "duration": 18.005,
+  "codec": "h264",
+  "decoded_frames": 540,
+  "audio_peak": 0.8699774742126465,
+  "audio_rms": 0.10143028180984402,
+  "audio_codec": "aac",
+  "ffmpeg_full_decode_exit": 0,
+  "ffmpeg_error": "",
+  "sha256": "8c62988b54abcf8096b8f86fb81d8762b5477ea4afcda3f460af846e4c1623a1"
+}

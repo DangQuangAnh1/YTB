@@ -1,0 +1,52 @@
+{
+  "artifact_ids": [
+    "A-014",
+    "A-017"
+  ],
+  "reviewer": "Codex, same-chat creator-review",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "One Vietnamese private draft, direction B, 65.833s, original diagrams, no incremental paid calls; only session 1 of 3.",
+      "evidence_path": "tasks/draft-01-self-review-v1.md"
+    },
+    {
+      "name": "source_accuracy",
+      "status": "passed",
+      "detail": "Compared final script to source post/reply and ledger; meme clarification attributed, personal interpretation labeled, no unverified physical event or viral-start claim.",
+      "evidence_path": "research/session-01-source-and-tools-v1.md"
+    },
+    {
+      "name": "story_coherence",
+      "status": "passed",
+      "detail": "Question, early clarification, context, original perspective and viewer question; inspected script v2 and actual scene samples.",
+      "evidence_path": "tasks/draft-01-self-review-v1.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Inspected 12 encoded midpoint frames across all six scenes and both narration beats; Vietnamese text, source attribution and illustration labels visible. Continuous motion was not watched in full.",
+      "evidence_path": "artifacts/render/threads-61af090977/encoded-contact-sheet.png"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "Full A/V decode exit 0, 1975 frames at 1080x1920/30fps, AAC48k; measured -16.47 LUFS and -1.45 dBTP on encoded audio.",
+      "evidence_path": "artifacts/render/threads-61af090977/technical-check-v1.json"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "No complete listening assessment. Automated ASR recovers core meaning but has residual word/tone differences; needs listener judgment for clarity, pronunciation, naturalness and perceptual sync."
+    }
+  ],
+  "note": "Self-review only. Incomplete audio listening remains unresolved. Older video versions A-009/A-012 are superseded by A-017; no release permission or market outcome implied.",
+  "artifact_hashes": {
+    "A-014": "3cf741e614afef44225bee54ff2c25f99ecdefc9234196a151c62a286223dc0a",
+    "A-017": "c9b3e53316038bb05c8146361386518852530a7d5e7d6e8aac9924a37e039a9a"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-16T08:15:59.525170+00:00"
+}

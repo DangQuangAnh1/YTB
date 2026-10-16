@@ -1,0 +1,46 @@
+{
+  "artifact_ids": [
+    "A-024",
+    "A-028"
+  ],
+  "reviewer": "Codex self-review",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "18s private screenshot-led Vietnamese prototype, actual requested source and Full HP comment, original short reaction. No upload or paid call.",
+      "evidence_path": "artifacts/content/prototype-02-storyboard-v1.md"
+    },
+    {
+      "name": "source_accuracy",
+      "status": "passed",
+      "detail": "Quoted screenshot text preserved; comic editorial reaction distinct from source. No claim that chat is verified reality.",
+      "evidence_path": "artifacts/render/prototype-02-v1/visual-review.md"
+    },
+    {
+      "name": "story_coherence",
+      "status": "passed",
+      "detail": "Parent chat establishes theme, bridge leads into comment question, delayed answer and original health-bar reaction complete 18s arc. Human creative acceptance remains pending.",
+      "evidence_path": "artifacts/content/prototype-02-storyboard-v1.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Sampled actual MP4 frames cover both scenes, reveal boundaries and end; screenshot text and original captions fit; 480px source softness noted.",
+      "evidence_path": "artifacts/render/prototype-02-v1/visual-review.md"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "540 frames, 1080x1920, 30fps, H264/AAC, 18.005s; FFmpeg full decode exit 0 without error; audio peak .870.",
+      "evidence_path": "artifacts/render/prototype-02-v1/technical-qa.json"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "AAC decodes and non-clipping levels measured. Local ASR misrecognizes parts of bridge; voice naturalness/comedy/synchronization require human listening. ASR is not listening."
+    }
+  ],
+  "note": "Technical and sampled visual checks only; no human acceptance or publication permission."
+}

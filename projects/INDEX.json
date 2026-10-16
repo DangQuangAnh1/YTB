@@ -1,4 +1,10 @@
 {
   "schema_version": 1,
-  "projects": []
+  "projects": [
+    {
+      "id": "P-1",
+      "name": "Bình luận Threads mỗi ngày",
+      "path": "P-1/PROJECT.md"
+    }
+  ]
 }

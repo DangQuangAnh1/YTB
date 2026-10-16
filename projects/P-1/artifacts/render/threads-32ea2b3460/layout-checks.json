@@ -1,0 +1,110 @@
+[
+  {
+    "scene": "S01",
+    "beat": 0,
+    "heading_lines": 2,
+    "caption_lines": 3,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S01",
+    "beat": 1,
+    "heading_lines": 2,
+    "caption_lines": 3,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S02",
+    "beat": 0,
+    "heading_lines": 2,
+    "caption_lines": 3,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S02",
+    "beat": 1,
+    "heading_lines": 2,
+    "caption_lines": 3,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S03",
+    "beat": 0,
+    "heading_lines": 2,
+    "caption_lines": 4,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S03",
+    "beat": 1,
+    "heading_lines": 2,
+    "caption_lines": 3,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S04",
+    "beat": 0,
+    "heading_lines": 2,
+    "caption_lines": 4,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S04",
+    "beat": 1,
+    "heading_lines": 2,
+    "caption_lines": 4,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S05",
+    "beat": 0,
+    "heading_lines": 3,
+    "caption_lines": 3,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S05",
+    "beat": 1,
+    "heading_lines": 3,
+    "caption_lines": 4,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S06",
+    "beat": 0,
+    "heading_lines": 2,
+    "caption_lines": 3,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  },
+  {
+    "scene": "S06",
+    "beat": 1,
+    "heading_lines": 2,
+    "caption_lines": 3,
+    "caption_font_px": 47,
+    "safe_text_right": 996,
+    "safe_text_bottom": 1738
+  }
+]

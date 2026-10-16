@@ -1,0 +1,6 @@
+{
+  "stage": "planning",
+  "current_task": {"id": "T-002", "owner_role": "pm", "execution": "waiting_user"},
+  "next_action": "Trình bản kế hoạch v1 bất biến: đề xuất hướng B và 3 draft riêng tư qua 3 phiên chủ động, 0 đồng tăng thêm. Chờ người dùng duyệt/sửa; chưa viết nội dung, render, tạo lịch hoặc đăng.",
+  "unresolved": ["Người dùng duyệt hoặc sửa plan v1", "Voice Việt miễn phí/quyền thương mại và adapter dựng dọc chưa kiểm chứng", "Ngân sách thời gian người dùng duyệt mỗi phiên chưa xác nhận", "Độ ổn định truy cập Threads nhiều ngày và thời điểm bắt đầu viral chưa được đo"]
+}

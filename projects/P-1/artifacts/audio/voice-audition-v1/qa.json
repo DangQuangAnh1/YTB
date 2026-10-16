@@ -1,0 +1,67 @@
+{
+  "mode": "technical decode and ASR, not listening review",
+  "human_acceptance": "pending",
+  "checks": [
+    {
+      "file": "voice-1.wav",
+      "duration": 8.24,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width": 2,
+      "peak": 0.67498779296875,
+      "rms": 0.10352282986900029,
+      "finite": true,
+      "asr": [
+        {
+          "start": 0.0,
+          "end": 5.5,
+          "text": " Khi bạn hỏi tham mẹ nhưng mẹ lại quá bình tĩnh, xuống bình luận, còn có mẹ hệ game mẹ trả lời rồi,"
+        },
+        {
+          "start": 5.5,
+          "end": 8.16,
+          "text": " Furepi bà ngoại hồi đầy máu sẵn sàng vào chận."
+        }
+      ]
+    },
+    {
+      "file": "voice-2.wav",
+      "duration": 7.36,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width": 2,
+      "peak": 0.725494384765625,
+      "rms": 0.0973141375434842,
+      "finite": true,
+      "asr": [
+        {
+          "start": 0.0,
+          "end": 7.28,
+          "text": " Khi bạn hỏi tham mẹ, nhưng mẹ lại quá bình tĩnh, xuống bình luận còn có mẹ hệ game, mẹ trả lời rồi full happy và ngoại hồi đầy máu sẵn sàng vào trận."
+        }
+      ]
+    },
+    {
+      "file": "voice-3.wav",
+      "duration": 9.76,
+      "sample_rate": 48000,
+      "channels": 1,
+      "sample_width": 2,
+      "peak": 0.667236328125,
+      "rms": 0.09776628829740917,
+      "finite": true,
+      "asr": [
+        {
+          "start": 0.0,
+          "end": 5.08,
+          "text": " Khi bạn hỏi thăm mẹ, nhưng mẹ lại quá bình tĩnh, xuống bình luận còn có mẹ hệ game,"
+        },
+        {
+          "start": 5.08,
+          "end": 9.68,
+          "text": " mẹ trả lời rồi Phu Lê P bà ngoại hồi đầy máu, sẵn sàng và trận."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-16T08:36:04.538Z",
+  "purpose": "Tool-readiness check on existing draft only; no new video rendered",
+  "versions": {
+    "remotion": "4.0.536",
+    "@remotion/cli": "4.0.536",
+    "@remotion/captions": "4.0.536",
+    "mediabunny": "1.61.5"
+  },
+  "media_probe": {
+    "duration_seconds": 65.83333333333333,
+    "width": 1080,
+    "height": 1920
+  },
+  "animation_math": {
+    "midpoint": 0.5,
+    "passed": true
+  },
+  "caption_contract": {
+    "count": 12,
+    "ordered_positive_intervals": true,
+    "type": "Caption JSON per official skill",
+    "word_alignment": false
+  },
+  "cli_smoke": {
+    "command": "remotion versions",
+    "exit_code": 0,
+    "all_remotion_packages_match": "4.0.536",
+    "note": "--version printed usage and exited 1; used the documented versions command successfully instead"
+  },
+  "new_video_produced": false
+}

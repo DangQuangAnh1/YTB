@@ -1,0 +1,6 @@
+{
+  "stage": "planning",
+  "current_task": {"id": "T-004", "owner_role": "pm", "execution": "running"},
+  "next_action": "Revise plan from user feedback in tasks/user-feedback-format-v2.md: select entertaining post plus funny replies, actual readable captures, brief connective narration and a short voice proof before full production. Inspected biu_sub70 source and matched Full HP comment; no replacement rendered. Do not continue old explanatory drafts unchanged.",
+  "unresolved": ["Concrete revised plan and capture/voice proof scope still to prepare", "Rights/privacy/use basis for each selected screenshot asset", "Clean crop/capture pipeline on live thread not yet verified", "Voice choice not accepted; exact length/comment count remain proposals", "Old draft A-017 is not creatively accepted; technical QA is not user acceptance"]
+}

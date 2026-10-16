@@ -1,0 +1,14 @@
+{
+  "stage": "review",
+  "current_task": {
+    "id": "T-007",
+    "owner_role": "pm",
+    "execution": "waiting_user"
+  },
+  "next_action": "User listen and choose voice 1 Thiện Minh, 2 Trúc Ly, or 3 Adam bựa in artifacts/audio/voice-audition-v1. Then apply chosen voice to a new version of 18s prototype, preserving prior files. Sources and local CPU generation verified; human voice quality acceptance pending.",
+  "unresolved": [
+    "Human listening and voice selection pending; Full HP pronunciation needs listening assessment",
+    "Overall video creative acceptance not granted; prior feedback only tentative",
+    "Public-use rights for Threads images remain unresolved"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "duration": 18,
+  "language": "vi",
+  "segments": [
+    {
+      "name": "hook",
+      "start": 0.15,
+      "duration": 2.3219954648526078,
+      "text": "Khi bạn hỏi thăm mẹ, nhưng mẹ lại quá bình tĩnh."
+    },
+    {
+      "name": "bridge",
+      "start": 7.3,
+      "duration": 1.9156462585034013,
+      "text": "Xuống bình luận, còn có mẹ hệ game."
+    },
+    {
+      "name": "end",
+      "start": 14.0,
+      "duration": 2.0549659863945577,
+      "text": "Bà ngoại hồi đầy máu, sẵn sàng vào trận."
+    }
+  ],
+  "caption_format": "Remotion Caption",
+  "creative": "actual chat post to Full HP comment; original reaction framing, no truth claim about chat event",
+  "voice": "Piper vi_VN-vais1000-medium, length_scale .94; acceptance pending",
+  "sources": [
+    "https://www.threads.com/@biu_sub70/post/DegajokEbO2",
+    "https://www.threads.com/@nhtp.1907_/post/DegbtOsGB1G"
+  ]
+}

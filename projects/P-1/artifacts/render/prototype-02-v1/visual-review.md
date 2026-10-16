@@ -1,0 +1,7 @@
+# Self-review of A-028
+Exact MP4 SHA256: 8c62988b54abcf8096b8f86fb81d8762b5477ea4afcda3f460af846e4c1623a1.
+Inspected actual decoded frames 30,200,240,315,359,360,390,450,539 via contact-sheet.png, and full-size frame-450.png; also Studio opening scene. This is sampled review, not continuous playback/listening.
+0–7s: real original chat, source label, original opening narration caption. Visible Vietnamese marks and lines fit frame; chat remains on screen for 7 seconds. Main source image is 480x498, so enlargement is somewhat soft; no enhanced resolution claimed.
+7–10.2s: source comment header and question visible, answers hidden by video viewport. 10.2–12s: Rồi visible. At 12.00s: Full HP becomes visible; health bar appears below screenshot and fills. 15s: original reaction subtitle fits two lines; source is visible; full last frame contains screenshot and health bar.
+No invented comment or retouched source wording. Counters are part of user's screenshot, not presented as live counts. Narrative describes humorous screenshot; no authenticity/news verification claim. Independent editorial value is connection, timing and own reaction, not evidence of platform monetization eligibility.
+Open limitations: human must judge comedy and reading pace on a phone; voice naturalness not listened to by this agent. ASR confirms hook, but misrecognizes part of bridge (Súng / hệ thêm) and bà as bàn; could be ASR error or pronunciation weakness, unresolved. Do not mark audio_review passed. No public release rights established.

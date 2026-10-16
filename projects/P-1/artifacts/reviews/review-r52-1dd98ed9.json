@@ -1,0 +1,36 @@
+{
+  "artifact_ids": [
+    "A-032",
+    "A-033",
+    "A-034"
+  ],
+  "reviewer": "Codex",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Three different built-in Vietnamese voice presets generated locally on the same original test text at zero added provider cost; existing video preserved.",
+      "evidence_path": "artifacts/audio/voice-audition-v1/manifest.json"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "All WAVs decoded as 48kHz mono PCM16; durations 8.24/7.36/9.76s and peaks below .726, no clipping in samples.",
+      "evidence_path": "artifacts/audio/voice-audition-v1/qa.json"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "ASR largely follows the Vietnamese test text but Full HP yields differing transcriptions; cannot infer naturalness or pronunciation quality from ASR. Human listening/choice pending."
+    }
+  ],
+  "note": "Publisher claims commercial permission for bundled presets; no custom voice clone. This is self-review, not listening acceptance.",
+  "artifact_hashes": {
+    "A-032": "0564558c3269355a33955c1a643987797257ca6fdef3fd7dc3b042a5a9edff90",
+    "A-033": "8c8c6a2814aa36d9250b4e60172a97ccd8c2968dabdba1cc15dbfa5215686c41",
+    "A-034": "b4cbb51c79cc8f19b10c840b8f5b3a5b50a24871e6fe16380b616e0bd6e46824"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-16T09:21:36.679835+00:00"
+}

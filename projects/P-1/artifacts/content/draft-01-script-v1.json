@@ -1,0 +1,17 @@
+{
+  "adapter_contract": "threads-cards-1",
+  "title": "Bọc cây hoa sữa: đọc thêm mới rõ",
+  "episode": "01",
+  "language": "vi-VN",
+  "source_label": "tc86_daily · Threads · 15/10/2026",
+  "source_urls": ["https://www.threads.com/@tc86_daily/post/DegzHSTAbxH", "https://www.threads.com/@tc86_daily/post/DehMH_ngQc3"],
+  "voice": {"name": "vi_VN-vais1000-medium", "length_scale": 1.25},
+  "scenes": [
+    {"id": "S01", "kind": "tree", "kicker": "CHUYỆN HOA SỮA", "title": "Bọc cả cây\nvì mùi hoa?", "body": ["Hình minh họa", "Đọc tiếp trước khi tin"], "beats": ["Một hàng cây bị bọc kín vì hoa quá nồng? Nhìn bức ảnh trong bài đăng này, rất dễ tưởng đó là chuyện thật.", "Nhưng ngay dưới bài, chính người đăng đã làm rõ: đây là ảnh meme. Câu chuyện đổi hướng từ chỗ đó."]},
+    {"id": "S02", "kind": "post", "kicker": "BÀI ĐĂNG NGÀY 15/10", "title": "Một câu hỏi,\nmột tấm ảnh vui", "body": ["Hỏi về mùi hoa sữa", "Ảnh cây bọc kín"], "beats": ["Bài viết trên Threads hỏi mùi hoa sữa có nồng không, kèm hình những tán cây nằm trong túi trong suốt.", "Phần hình rất dễ kéo mắt mình lại. Còn lời giải thích của tác giả thì nằm ở một câu trả lời phía dưới."]},
+    {"id": "S03", "kind": "reply", "kicker": "TÁC GIẢ LÀM RÕ", "title": "“Ảnh meme\nthôi bồ”", "body": ["tc86_daily · 15/10/2026", "Trích ngắn từ phản hồi tác giả"], "beats": ["Vì vậy, mình chỉ kể đây là một câu đùa về hoa sữa. Chưa có cơ sở lấy bức ảnh làm bằng chứng bọc cây ngoài đời.", "Một chi tiết nhỏ trong phần trả lời, nhưng thiếu nó thì câu chuyện rất dễ bị kể sai."]},
+    {"id": "S04", "kind": "contrast", "kicker": "GÓC NHÌN CỦA KÊNH", "title": "Một mùi hương,\nhai trải nghiệm", "body": ["Gợi nhớ mùa thu", "Cảm thấy quá nồng"], "beats": ["Theo mình, cái duyên của câu đùa nằm ở hai trải nghiệm: có người nhớ mùa thu, có người chỉ muốn mùi hoa nhẹ đi.", "Hai cảm giác ấy có thể cùng tồn tại. Thích hay không thích một mùi hương đâu cần biến thành cuộc thi ai yêu Hà Nội hơn."]},
+    {"id": "S05", "kind": "distinction", "kicker": "TRƯỚC KHI CHIA SẺ", "title": "Cười vì câu đùa.\nKiểm tra chuyện thật.", "body": ["Ý kiến: mình cảm thấy gì", "Sự kiện: điều gì đã xảy ra"], "beats": ["Mình vẫn có thể thấy ảnh buồn cười, đồng thời hỏi thêm: đây là ảnh vui, hay hình ghi lại một việc đã xảy ra?", "Đọc thêm phản hồi của người đăng giúp tách câu đùa khỏi thông tin, trước khi mình kể lại cho người khác."]},
+    {"id": "S06", "kind": "question", "kicker": "BẠN NGHĨ SAO?", "title": "Bạn hiểu là đùa\nngay từ đầu?", "body": ["Hay cần đọc thêm mới rõ?", "Nguồn đầy đủ đi kèm bản nháp"], "beats": ["Nếu chỉ thấy bức ảnh lướt qua, bạn nhận ra đây là meme ngay, hay cũng phải đọc thêm mới rõ?", "Với mình, phần đáng đọc nhất của chuyện này lại nằm ngay dưới bài đăng."]}
+  ]
+}

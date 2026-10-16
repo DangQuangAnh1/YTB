@@ -1,0 +1,50 @@
+{
+  "video_sha256": "c9b3e53316038bb05c8146361386518852530a7d5e7d6e8aac9924a37e039a9a",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 1
+    }
+  ],
+  "decoded_video_frames": 1975,
+  "expected_frames": 1975,
+  "frames_match": true,
+  "duration_seconds": 65.83333333333333,
+  "encoded_loudness": {
+    "input_i": "-16.47",
+    "input_tp": "-1.45",
+    "input_lra": "2.60",
+    "input_thresh": "-26.47",
+    "output_i": "-16.26",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-26.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.26"
+  },
+  "sampled_frames": [
+    "S01-0",
+    "S01-1",
+    "S02-0",
+    "S02-1",
+    "S03-0",
+    "S03-1",
+    "S04-0",
+    "S04-1",
+    "S05-0",
+    "S05-1",
+    "S06-0",
+    "S06-1"
+  ],
+  "listening": "unverified",
+  "full_av_decode_exit": 0
+}

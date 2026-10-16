@@ -1,0 +1,151 @@
+{
+  "adapter": "threads-cards-1.0",
+  "adapter_sha256": "73311ee677e2e83f5f84c8527d31a0a7fba3ebb72d5a4f7d10197cce82f1b43c",
+  "project_id": "P-1",
+  "expected_revision": 12,
+  "plan_revision": 1,
+  "script_id": "A-005",
+  "script_sha256": "9866122fa57e4fd6040f65ec59246effa95371a15fcf8afd18041d46a58f24da",
+  "storyboard_id": "A-006",
+  "storyboard_sha256": "4b7dd6015f35995bea6abca95c9a44ebcd3ae9c9da46c1ac479a986cb74a8152",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frame_count": 1957,
+  "duration_seconds": 65.23333333333333,
+  "audio_metrics": {
+    "sample_rate": 22050,
+    "channels": 1,
+    "duration_seconds": 65.23333333333333,
+    "peak_dbfs": -1.4121828334625561,
+    "rms_dbfs": -16.93658472764742,
+    "clipped_samples": 0
+  },
+  "voice_model_sha256": "ec7c89e2c85f4d1edc24b6120c18aaf1bda614f06b511567eb9c7c0de15e2dab",
+  "voice_config_sha256": "fafb9da1354ed4b77c31af228ed41fb41cd825c14cffa105454b25e6ae751ee0",
+  "versions": {
+    "piper-tts": "1.8.0",
+    "imageio-ffmpeg": "0.6.0",
+    "pillow": "12.3.0",
+    "numpy": "2.5.4",
+    "onnxruntime": "1.31.0"
+  },
+  "video_sha256": "e5c03cf3fe14ef6dffadf110d4b925eba40ab123624a17b7290d6b98c8d2e8b0",
+  "audio_sha256": "87e9bb208e299ed02c4b511804982975a777c39c31bf6cc298ceedf73d14f9d0",
+  "segments": [
+    {
+      "scene_id": "S01",
+      "beat": 0,
+      "text": "Một hàng cây bị bọc kín vì hoa quá nồng? Nhìn bức ảnh trong bài đăng này, rất dễ tưởng đó là chuyện thật.",
+      "start_frame": 0,
+      "frames": 168,
+      "start_seconds": 0.0,
+      "duration_seconds": 5.6
+    },
+    {
+      "scene_id": "S01",
+      "beat": 1,
+      "text": "Nhưng ngay dưới bài, chính người đăng đã làm rõ: đây là ảnh meme. Câu chuyện đổi hướng từ chỗ đó.",
+      "start_frame": 168,
+      "frames": 154,
+      "start_seconds": 5.6,
+      "duration_seconds": 5.133333333333334
+    },
+    {
+      "scene_id": "S02",
+      "beat": 0,
+      "text": "Bài viết trên Threads hỏi mùi hoa sữa có nồng không, kèm hình những tán cây nằm trong túi trong suốt.",
+      "start_frame": 322,
+      "frames": 158,
+      "start_seconds": 10.733333333333333,
+      "duration_seconds": 5.266666666666667
+    },
+    {
+      "scene_id": "S02",
+      "beat": 1,
+      "text": "Phần hình rất dễ kéo mắt mình lại. Còn lời giải thích của tác giả thì nằm ở một câu trả lời phía dưới.",
+      "start_frame": 480,
+      "frames": 167,
+      "start_seconds": 16.0,
+      "duration_seconds": 5.566666666666666
+    },
+    {
+      "scene_id": "S03",
+      "beat": 0,
+      "text": "Vì vậy, mình chỉ kể đây là một câu đùa về hoa sữa. Chưa có cơ sở lấy bức ảnh làm bằng chứng bọc cây ngoài đời.",
+      "start_frame": 647,
+      "frames": 187,
+      "start_seconds": 21.566666666666666,
+      "duration_seconds": 6.233333333333333
+    },
+    {
+      "scene_id": "S03",
+      "beat": 1,
+      "text": "Một chi tiết nhỏ trong phần trả lời, nhưng thiếu nó thì câu chuyện rất dễ bị kể sai.",
+      "start_frame": 834,
+      "frames": 141,
+      "start_seconds": 27.8,
+      "duration_seconds": 4.7
+    },
+    {
+      "scene_id": "S04",
+      "beat": 0,
+      "text": "Theo mình, cái duyên của câu đùa nằm ở hai trải nghiệm: có người nhớ mùa thu, có người chỉ muốn mùi hoa nhẹ đi.",
+      "start_frame": 975,
+      "frames": 182,
+      "start_seconds": 32.5,
+      "duration_seconds": 6.066666666666666
+    },
+    {
+      "scene_id": "S04",
+      "beat": 1,
+      "text": "Hai cảm giác ấy có thể cùng tồn tại. Thích hay không thích một mùi hương đâu cần biến thành cuộc thi ai yêu Hà Nội hơn.",
+      "start_frame": 1157,
+      "frames": 180,
+      "start_seconds": 38.56666666666667,
+      "duration_seconds": 6.0
+    },
+    {
+      "scene_id": "S05",
+      "beat": 0,
+      "text": "Mình vẫn có thể thấy ảnh buồn cười, đồng thời hỏi thêm: đây là ảnh vui, hay hình ghi lại một việc đã xảy ra?",
+      "start_frame": 1337,
+      "frames": 192,
+      "start_seconds": 44.56666666666667,
+      "duration_seconds": 6.4
+    },
+    {
+      "scene_id": "S05",
+      "beat": 1,
+      "text": "Đọc thêm phản hồi của người đăng giúp tách câu đùa khỏi thông tin, trước khi mình kể lại cho người khác.",
+      "start_frame": 1529,
+      "frames": 156,
+      "start_seconds": 50.96666666666667,
+      "duration_seconds": 5.2
+    },
+    {
+      "scene_id": "S06",
+      "beat": 0,
+      "text": "Nếu chỉ thấy bức ảnh lướt qua, bạn nhận ra đây là meme ngay, hay cũng phải đọc thêm mới rõ?",
+      "start_frame": 1685,
+      "frames": 158,
+      "start_seconds": 56.166666666666664,
+      "duration_seconds": 5.266666666666667
+    },
+    {
+      "scene_id": "S06",
+      "beat": 1,
+      "text": "Với mình, phần đáng đọc nhất của chuyện này lại nằm ngay dưới bài đăng.",
+      "start_frame": 1843,
+      "frames": 114,
+      "start_seconds": 61.43333333333333,
+      "duration_seconds": 3.8
+    }
+  ],
+  "full_decode_exit_code": 0,
+  "elapsed_seconds": 23.95,
+  "audio_listening": "unverified",
+  "content_review": "unverified",
+  "extra_spend": 0,
+  "registration": "Register outputs with agency.py using current expected revision; this renderer does not edit STATE"
+}

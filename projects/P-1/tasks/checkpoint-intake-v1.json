@@ -1,0 +1,6 @@
+{
+  "stage": "intake",
+  "current_task": {"id": "T-001", "owner_role": "pm", "execution": "waiting_user"},
+  "next_action": "Trao đổi làm rõ ý tưởng; sau câu trả lời, chuyển BA nghiên cứu theo tasks/intake-v1.md rồi trình 2–3 hướng và kế hoạch thử nghiệm để duyệt.",
+  "unresolved": ["Mục tiêu và khán giả/ngôn ngữ", "Chủ đề và giới hạn biên tập", "Định dạng và phong cách", "Nguồn lực hằng ngày và khả năng cung cấp bài Threads", "Điểm muốn tham khảo từ video mẫu"]
+}

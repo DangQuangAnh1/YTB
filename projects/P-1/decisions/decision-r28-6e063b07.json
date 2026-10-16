@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "revise",
+  "source_ref": "tasks/user-feedback-format-v2.md",
+  "excerpt": "ko phù hợp để triển khai lắm, thứ nhất về việc chọn content bài nào để làm video. thứ 2 phải có ảnh đoạn text thread để làm trong video, thứ 3 là cách dẫn chuyện, thứ 4 là giọng đọc...vv.",
+  "plan": {
+    "path": "plans/plan-v1-r6-18900404.md",
+    "sha256": "68a7dae47403ccac6185cefacd29f6331f09e6aabd6e9e87e8db91eea2d4e087",
+    "revision": 1
+  },
+  "allowed_actions": [],
+  "decided_at": "2026-10-16T08:30:57.171236+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "video_sha256": "2f09c4422dc4c50c02737057612b5d543b27d7cd1c60a613da28448d24e5609f",
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 1
+    }
+  ],
+  "decoded_video_frames": 1954,
+  "expected_frames": 1954,
+  "frames_match": true,
+  "duration_seconds": 65.13333333333334,
+  "encoded_loudness": {
+    "input_i": "-16.62",
+    "input_tp": "-1.27",
+    "input_lra": "2.90",
+    "input_thresh": "-26.62",
+    "output_i": "-16.40",
+    "output_tp": "-1.50",
+    "output_lra": "2.70",
+    "output_thresh": "-26.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.40"
+  },
+  "probe_method": "PyAV full video decode + FFmpeg full A/V decode + loudnorm analysis",
+  "sampled_frames": [
+    "S01-0",
+    "S01-1",
+    "S02-0",
+    "S02-1",
+    "S03-0",
+    "S03-1",
+    "S04-0",
+    "S04-1",
+    "S05-0",
+    "S05-1",
+    "S06-0",
+    "S06-1"
+  ],
+  "listening": "unverified"
+}

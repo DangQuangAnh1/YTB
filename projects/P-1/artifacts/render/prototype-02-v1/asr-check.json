@@ -1,0 +1,16 @@
+{
+  "tool": "faster-whisper small CPU int8",
+  "not_listening_review": true,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.04,
+      "text": " Khi bạn hỏi thăm mẹ nhưng mẹ lại quá bình tĩnh."
+    },
+    {
+      "start": 7.04,
+      "end": 16.57,
+      "text": " Súng bình luận còn có mẹ hệ thêm, bàn ngoại hồi đầy máu sẵn sàng vào trận."
+    }
+  ]
+}

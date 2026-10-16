@@ -1,0 +1,38 @@
+{
+  "plan_revision": 2,
+  "script": "A-024",
+  "storyboard": "A-025",
+  "inputs": "A-026",
+  "adapter": "Remotion screenshot-led custom composition; actual H264 export verified",
+  "runtime": "4.0.536",
+  "command": "remotion render src/index.ts ThreadsShort ../../artifacts/render/prototype-02-v1/draft.mp4 --codec=h264 --crf=20 --concurrency=2",
+  "files": [
+    {
+      "path": "production/prototype-02/src/Composition.tsx",
+      "sha256": "6adfd452c3f5a83d717e5fb43044efaa0406b11a595bccf91f9e23b1ca44114e"
+    },
+    {
+      "path": "production/prototype-02/src/Root.tsx",
+      "sha256": "0886284677d46f66a3a883555685dc375f9f73744adaa15209f2fbcc7657da92"
+    },
+    {
+      "path": "production/prototype-02/src/index.ts",
+      "sha256": "957e481dd33a29b4a55ae0e95dbf763b7e48c37c427ca4bd1275faf34bc07a74"
+    },
+    {
+      "path": "production/prototype-02/package.json",
+      "sha256": "b4c8380238473338615e82b4267ab83bebcf6c126879b89c55f4d5df2ea48c76"
+    },
+    {
+      "path": "artifacts/render/prototype-02-v1/draft.mp4",
+      "sha256": "8c62988b54abcf8096b8f86fb81d8762b5477ea4afcda3f460af846e4c1623a1"
+    },
+    {
+      "path": "artifacts/render/prototype-02-v1/narration-and-effect.wav",
+      "sha256": "5712a4897806857c5615195ba5f706cb5eae67b86228e516428c2a6a201377ab"
+    }
+  ],
+  "added_spend": 0,
+  "release": "private review only",
+  "audio_review": "technical decode and ASR only; human listening/creative acceptance pending"
+}

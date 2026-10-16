@@ -1,0 +1,8 @@
+{
+  "sample_rate": 22050,
+  "channels": 1,
+  "duration_seconds": 65.23333333333333,
+  "peak_dbfs": -1.4121828334625561,
+  "rms_dbfs": -16.93658472764742,
+  "clipped_samples": 0
+}

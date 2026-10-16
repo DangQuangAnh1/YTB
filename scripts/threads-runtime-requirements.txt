@@ -1,0 +1,9 @@
+# Local production adapter. Install in a dedicated venv, not system Python.
+piper-tts==1.8.0
+imageio-ffmpeg==0.6.0
+Pillow==12.3.0
+numpy==2.5.4
+onnxruntime==1.31.0
+# Optional automated speech QA; never equivalent to human listening.
+faster-whisper==1.2.1
+av==16.0.1
