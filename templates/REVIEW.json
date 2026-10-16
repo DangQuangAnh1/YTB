@@ -1,0 +1,7 @@
+{
+  "artifact_ids": [],
+  "reviewer": null,
+  "mode": "self_review",
+  "checks": [],
+  "note": "Each check: name, status passed/failed/unverified, detail, and evidence_path for passed/failed. Use actual project-relative files."
+}

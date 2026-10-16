@@ -1,0 +1,10 @@
+{
+  "stage": "planning",
+  "current_task": {
+    "id": "T-001",
+    "owner_role": "pm",
+    "execution": "waiting_user"
+  },
+  "next_action": "Present the current plan for a decision",
+  "unresolved": []
+}

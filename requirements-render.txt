@@ -1,0 +1,3 @@
+# Optional local renderer; core uses Python standard library.
+Pillow==12.3.0
+imageio-ffmpeg==0.6.0

@@ -1,0 +1,15 @@
+{
+  "title": "Queue renderer demo",
+  "scenes": [
+    {
+      "kind": "queue",
+      "caption": "Scene 1: local shapes, motion and a caption.",
+      "seconds": 2
+    },
+    {
+      "kind": "queue",
+      "caption": "Scene 2: a versioned draft ready for review.",
+      "seconds": 2
+    }
+  ]
+}

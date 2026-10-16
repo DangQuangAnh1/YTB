@@ -1,0 +1,4 @@
+{
+  "sources": [],
+  "note": "Each source: id, URL, observed_at, original language/title, supported claim/passage, access status and refresh condition. Unknown is not zero."
+}
