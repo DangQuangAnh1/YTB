@@ -1,0 +1,6 @@
+{
+ "stage":"review",
+ "current_task":{"id":"T-010","owner_role":"pm","execution":"waiting_user"},
+ "next_action":"User paused work after provisional 'tam okie' on A-060. Stop until user resumes, expected tomorrow2026-10-17 Asia/Saigon. On resume read tasks/session-close-prototype-05-v1.md and continue from the19.53s attributed source-card/music demo with selected Thien Minh; do not rerender automatically.",
+ "unresolved":["User feedback is provisional, not final creative acceptance or publishing permission","Further content/refinement scope to be selected when user returns","Agent listening and public-use rights remain unverified","Historical media loss remains recorded; local ignored media require separate transfer if changing machines"]
+}

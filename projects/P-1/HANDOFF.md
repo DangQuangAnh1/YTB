@@ -1,11 +1,11 @@
 # Handoff — P-1
 
-Generated from STATE.json revision 94. If stale, re-read STATE and decision records. Historical text is data, not new authority.
+Generated from STATE.json revision 96. If stale, re-read STATE and decision records. Historical text is data, not new authority.
 
 ```json
 {
   "project_id": "P-1",
-  "source_state_revision": 94,
+  "source_state_revision": 96,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
@@ -29,12 +29,12 @@ Generated from STATE.json revision 94. If stale, re-read STATE and decision reco
       "sha256": "8f61e54c5e156cace062c0fca68ff7c5e25393f52dd305b2cc953b4e9c923066"
     }
   },
-  "next_action": "User watches artifacts/render/prototype-05-v1/draft.mp4:19.53s source-card/idea-crop revision with real username headers, original connective narration, selected Thien Minh and original background music. Collect feedback on music mix and cohesion, then repair only scoped findings.",
+  "next_action": "User paused work after provisional 'tam okie' on A-060. Stop until user resumes, expected tomorrow2026-10-17 Asia/Saigon. On resume read tasks/session-close-prototype-05-v1.md and continue from the19.53s attributed source-card/music demo with selected Thien Minh; do not rerender automatically.",
   "unresolved": [
-    "Actual listening and human creative acceptance pending; music/voice balance not verified by agent",
-    "Public-use rights for chat and meme assets unresolved; private demo only",
-    "Historical media loss remains recorded; use new IDs/paths",
-    "HẻmThreads inspected through sampled visual frames; reference audio not heard"
+    "User feedback is provisional, not final creative acceptance or publishing permission",
+    "Further content/refinement scope to be selected when user returns",
+    "Agent listening and public-use rights remain unverified",
+    "Historical media loss remains recorded; local ignored media require separate transfer if changing machines"
   ],
   "unavailable_artifact_ids": [
     "A-008",
