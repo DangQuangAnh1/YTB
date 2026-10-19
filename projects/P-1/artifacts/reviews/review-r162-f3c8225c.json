@@ -1,0 +1,50 @@
+{
+  "artifact_ids": [
+    "A-106",
+    "A-108"
+  ],
+  "reviewer": "PM self-review of fixes for the v7 reviewer findings (frames, automated checks); no human viewing or listening",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "Both decode fully (exit 0), 1080x1920 H.264 crf 18. p08 51.3s, peak 0.728. p09 47.3s, peak 0.598.",
+      "evidence_path": "artifacts/render/prototype-08-v2/technical-qa.json"
+    },
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Fixes for the v7 review findings:\n- p08 opens cold on the punchline (laugh at 3.1s, was 8.6s), uses a topic-fit sky background and has no triple premise.\n- p09 opens cold with the question, and b4/b5 now agree with the source.\n- Channel placeholder no longer contains 'Threads'.",
+      "evidence_path": "artifacts/content/prototype-08-v2-lines.json"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Inspected 12 sampled frames per video, all now clean:\n- avatar blur clipped to the circle (no halo or blob);\n- collapsed strips show the header only;\n- strips move with chain scroll (no header overlap);\n- fade captions wrap after the fix, verified on re-render.\nSampled frames do not prove every transition.",
+      "evidence_path": "artifacts/render/prototype-09-v2/contact-sheet.png"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "No human listening. Flagged lines use best-of-N takes, which raised whisper intelligibility on single clips. Final-mix WER: p08 0.079 (v1 0.118), p09 0.075 (v1 0.085). In the mix, 'có nắng' can still read as 'con nắng'."
+    },
+    {
+      "name": "rights_protocol",
+      "status": "passed",
+      "detail": "Both p08 and p09 pass:\n- 3 quotes each, the longest 25 and 19 words;\n- verbatim share 0.31 (cap 0.35);\n- original share 0.69.\nAvatars are blurred. Handles are still visible without consent (the user accepts the risk for private drafts).",
+      "evidence_path": "artifacts/render/prototype-08-v2/props.json"
+    },
+    {
+      "name": "hook_retention",
+      "status": "unverified",
+      "detail": "Hooks were restructured per review, but retention needs real viewing. The reviewer agents did not re-review v2."
+    }
+  ],
+  "artifact_hashes": {
+    "A-106": "2d17b508e272be714b2e29d3454049f0c3e79b894e60dbff0141025076825963",
+    "A-108": "88d23e51a5c86d53926121de36837dfda9e4456fd76b7b0d72508d50158cdbfe"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-17T01:41:21.173627+00:00"
+}

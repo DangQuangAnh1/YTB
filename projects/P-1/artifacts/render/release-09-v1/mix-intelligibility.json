@@ -1,0 +1,79 @@
+{
+ "video": "release-09-v1",
+ "overall_wer": 0.256,
+ "per_line": [
+  {
+   "id": "p1",
+   "wer": 0.25,
+   "script": "Người tôi thương đấy. Ngố ngố mà kiu.",
+   "heard": "Người tôi thường đấy, ngố ngố mà kêu."
+  },
+  {
+   "id": "p2",
+   "wer": 0.5,
+   "script": "Lạc ơi.",
+   "heard": "Lạc ơi. Dạ."
+  },
+  {
+   "id": "p3",
+   "wer": 1,
+   "script": "Dạ.",
+   "heard": "Dạ. Bàn"
+  },
+  {
+   "id": "p4",
+   "wer": 0.286,
+   "script": "Bàn phím tao bị liệt nút a. Mày nhắn cho tao cóp pi cái.",
+   "heard": "phím tao bị liệt nút A, mày nhắn cho tao copy cái. À,"
+  },
+  {
+   "id": "p5",
+   "wer": 2,
+   "script": "A.",
+   "heard": "khoan liệt"
+  },
+  {
+   "id": "a1",
+   "wer": 0.4,
+   "script": "Khoan. Liệt nút a, mà vẫn gõ được chữ a?",
+   "heard": "nút A mà vẫn gó được chữ A. Cói"
+  },
+  {
+   "id": "a2",
+   "wer": 0.8,
+   "script": "Cõi mạng thì tan chảy:",
+   "heard": "tan chảy. Lạc"
+  },
+  {
+   "id": "c1",
+   "wer": 0.333,
+   "script": "Lạc ơi. Dạ. Êu ôi, mấy cái bọn yêu nhau, sao mà đáng yêu thế.",
+   "heard": "ơi, dạ. Eo ôi, mấy cái mọn yêu nhau, sao mà đang yêu thế? Tao"
+  },
+  {
+   "id": "c2",
+   "wer": 1,
+   "script": "Tao cười đến sáng mai.",
+   "heard": "sáng mày. Người"
+  },
+  {
+   "id": "c3",
+   "wer": 0.4,
+   "script": "Người ngố đó là tui.",
+   "heard": "mố đó là tui."
+  },
+  {
+   "id": "a3",
+   "wer": 0.333,
+   "script": "Còn phe thực tế thì phán:",
+   "heard": "phê thực tế thì phán."
+  },
+  {
+   "id": "c4",
+   "wer": 0.5,
+   "script": "May quá, nắng mưa biết chạy vào nhà, không thì toang đời sau mất.",
+   "heard": "Mấy quả, nắng mưa biệt chay vào nhà, không thì toán đôi sống mất."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

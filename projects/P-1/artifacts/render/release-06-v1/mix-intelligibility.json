@@ -1,0 +1,67 @@
+{
+ "video": "release-06-v1",
+ "overall_wer": 0.19,
+ "per_line": [
+  {
+   "id": "cold",
+   "wer": 0.316,
+   "script": "Có người vừa nhận ra một sự thật: chưa từng thấy con co-gi nào ốm và sờ lim.",
+   "heard": "người vừa nhận ra một sự thật chưa từng thấy con con nào ổn và sờ liêm. Thế"
+  },
+  {
+   "id": "b1",
+   "wer": 0.316,
+   "script": "Thế là một chiếc co-gi sờ lim xuất hiện. Cạo lông xong, lộ nguyên thân hình người mẫu.",
+   "heard": "là một chiếc con sờ liêm xuất hiện, cạo lông xong lộ nguyên thân hình người mẫu. Ghen tị"
+  },
+  {
+   "id": "q1",
+   "wer": 0.545,
+   "script": "Ganh tị với bo-đi sờ lim phít của anh chưa?",
+   "heard": "đi sờ liêm phít của anh chưa? Nhưng"
+  },
+  {
+   "id": "b2",
+   "wer": 0.235,
+   "script": "Nhưng mắt cư dân mạng rất tinh: sao cái mông lại mẻ mất một miếng thế kia?",
+   "heard": "mắt cứ dân mạng rất tinh, sao cái mông lại mẽ mất một miếng thế kia. Anh"
+  },
+  {
+   "id": "q2",
+   "wer": 0.833,
+   "script": "Anh bị chó cắn, hu hu.",
+   "heard": "bị cho cắn hù hù. Còn"
+  },
+  {
+   "id": "b3",
+   "wer": 0.364,
+   "script": "Còn ánh mắt kia là ánh mắt uất hận, vì bị cắt khẩu phần phô mai với sữa chua ngày ba cữ.",
+   "heard": "là anh mắt ớt hận vì bị cắt khẩu phần phô mai với sữa chua ngày ba cử. Có"
+  },
+  {
+   "id": "b4",
+   "wer": 0.364,
+   "script": "Có người còn soi tiếp: anh có gốc hớt-ki à?",
+   "heard": "người còn xoay tiếp, anh có gốc hớt kia. Chắc"
+  },
+  {
+   "id": "q3",
+   "wer": 0.5,
+   "script": "Chắc tổ tiên anh là hớt-ki, mắt con đậu con bay, hu hu.",
+   "heard": "tổ tiên nành là hết kỳ, mắt còn đậu con bay, hù hù."
+  },
+  {
+   "id": "b5",
+   "wer": 0.278,
+   "script": "Một mắt xanh, một mắt nâu, đội thêm mũ đỏ. Sờ lim nhưng vẫn cực kỳ tự tin.",
+   "heard": "xanh, một mắt nâu, lội thêm mũ đỏ, sờ liêm nhưng vẫn cực kỳ tự tin. Boss"
+  },
+  {
+   "id": "cta",
+   "wer": 0.048,
+   "script": "Boss nhà bạn từng có pha biến hình nào như này chưa? Kể nghe đi, câu hay nhất lên tập sau.",
+   "heard": "nhà bạn từng có pha biến hình nào như này chưa? Kể nghe đi, câu hay nhất lên tập sau."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

@@ -1,0 +1,8 @@
+{"artifact_ids": ["A-100"], "reviewer": "PM consolidation of two simulated reviewer agents (Gen Z audience persona; SEO/marketing) plus automated checks; not human; agents saw frames and text only", "mode": "self_review",
+ "checks": [
+  {"name": "media_decode", "status": "passed", "detail": "Full decode exit 0; 1080x1920 H.264 (crf 18); 43.7s; peak 0.639.", "evidence_path": "artifacts/render/prototype-09-v1/technical-qa.json"},
+  {"name": "brief_alignment", "status": "passed", "detail": "Plan v7: Scout pick #2 on a new topic; ấm áp mood; Ngọc Linh (the user's choice) at 1.1x; chain format; avatars blurred.", "evidence_path": "artifacts/render/prototype-09-v1/review-packet.md"},
+  {"name": "visual_review", "status": "failed", "detail": "Header texts overlap at 20s. Avatar halo. Fade captions show 1–3 words, one off-centre.", "evidence_path": "tasks/review-agents-v7.md"},
+  {"name": "audio_review", "status": "unverified", "detail": "No human listening. Final-mix whisper WER 0.085; 'quen' heard as 'quên' flips the meaning of b5."},
+  {"name": "source_accuracy", "status": "failed", "detail": "b4/b5 reframe the post's joke and overstate a 26-like comment ('cả topic chùng xuống'). The post is part 1/2.", "evidence_path": "tasks/review-agents-v7.md"},
+  {"name": "rights_protocol", "status": "failed", "detail": "Verbatim time share 0.39 against the 0.35 cap (pass=false); 3 quotes of 24 words or fewer; original 0.61. User accepted risk for private drafts.", "evidence_path": "artifacts/render/prototype-09-v1/props.json"}]}

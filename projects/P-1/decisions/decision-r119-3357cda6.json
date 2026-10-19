@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-feedback-p06v2-v1.md",
+  "excerpt": "Cứ nghiên cứu các kiểu sau khi thấy okie tạo thêm 1 video demo, tách ra 1 agent khán giá và 1 agent Seo mkt để review video nhé. Cuối cùng cho tối kết quả cuối.",
+  "plan": {
+    "path": "plans/plan-v6-r118-5f3158d2.md",
+    "sha256": "469a86cc38556f0fa6316ffe498c038cad55848e696cdf7fd9ddfc03090e1c11",
+    "revision": 6
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-16T17:51:20.400302+00:00"
+}

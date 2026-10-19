@@ -1,0 +1,183 @@
+{
+  "media": "release-04",
+  "mood": "hai",
+  "source_handle": "minnwox_o9",
+  "hook": "mua squishy mà shop bắt chọn… vai",
+  "cta": "bạn chọn phong cách số mấy?",
+  "chains": [
+    [
+      "c1-nosquishynolife._",
+      "c1a-minnwox_o9",
+      "c1b-pth_tp08"
+    ],
+    [
+      "c2-nh.tragn_",
+      "c2a-minnwox_o9"
+    ]
+  ],
+  "note": "Overnight batch video 1 (tasks/user-request-overnight-batch-v1.md; scout pick #1 in tasks/scout-2026-10-18.md). Source: https://www.threads.com/@minnwox_o9/post/DelFl4mkujs (18.9K likes / 360 replies / 369K views at about 18h). The chat screenshots are the poster's own; the shop's anime picture is cropped out. Profanity on cards is blurred and never voiced. There are 3 verbatim quotes (q1–q3, chat shorthand expanded) and paraphrased bridges. Foreign words are spelled for the Vietnamese voice (sờ-quít-si, ca-oai, chít, síp, Thờ-rét), which is safe because word captions are off. Meme beats: 3 hits and 5 micro, under the overnight density approval. Meme why-tags copied from the independent review (tasks/review-agents-overnight-v1.md).",
+  "lines": [
+    {
+      "id": "cold",
+      "card": "post-minnwox_o9",
+      "kind": "bridge",
+      "takes": 4,
+      "text": "Mua sờ-quít-si thôi mà, shop đã bắt khách chọn… phong cách phục vụ.",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "thinking",
+            "at_word": "phong",
+            "why": "aside: mua squishy mà phải chọn phong cách phục vụ?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1",
+      "card": "chat1-minnwox_o9",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Năm lựa chọn: tổng tài, ca-oai, mèo, gâu, nghiêm túc. Khách hỏi lại một tiếng dạ, rồi chọn bừa số hai.",
+      "beat": {
+        "micro": [
+          {
+            "text": "Hả???",
+            "at_word": "dạ",
+            "sfx": "question",
+            "why": "awkward: khách hỏi lại dạ??"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q1",
+      "card": "chat2-minnwox_o9",
+      "kind": "read",
+      "takes": 5,
+      "text": "Ô ha dô, em chào cô chủ nhỏ ạ, hem biết, cô chủ muốn hỏi sản phẩm nào hãy nói cho em nghe nha, ừm ya, xen xây.",
+      "beat": {
+        "reaction": "scream",
+        "sfx": [
+          {
+            "type": "boom",
+            "at": "end"
+          }
+        ],
+        "why": "reveal: shop chuyển giọng anime"
+      }
+    },
+    {
+      "id": "b2",
+      "card": "chat2-minnwox_o9",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Và khách quyết định… diễn theo luôn."
+    },
+    {
+      "id": "q2",
+      "card": "chat2-minnwox_o9",
+      "kind": "read",
+      "takes": 5,
+      "text": "Cho tôi một bơ rộp và chít dẻo nhé, bé cưng ngoan. Cười khẩy.",
+      "beat": {
+        "reaction": "joy",
+        "sfx": [
+          {
+            "type": "punch",
+            "at": "end"
+          }
+        ],
+        "why": "punchline: khách diễn theo, bé cưng ngoan"
+      }
+    },
+    {
+      "id": "b3",
+      "card": "chat2-minnwox_o9",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Shop đỏ mặt nhận đơn, còn thả thêm mặt cún.",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "melting",
+            "at": 0.85,
+            "why": "awkward: shop ngại đỏ mặt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4",
+      "card": "chat3-minnwox_o9",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Khách chơi lớn: síp hàng, síp luôn cả người bán."
+    },
+    {
+      "id": "b5",
+      "card": "c1-nosquishynolife._",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Chính chủ shop vào xác nhận: ai thích kiểu nào, shop chiều kiểu đó.",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "tea",
+            "at_word": "xác",
+            "why": "hóng: chính chủ shop xác nhận"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "card": "c1a-minnwox_o9",
+      "kind": "read",
+      "takes": 5,
+      "text": "Ừm, bé ngoan, chị không muốn ai phát hiện ra em đâu.",
+      "beat": {
+        "reaction": "sus",
+        "why": "turn: tác giả bé ngoan, chị không muốn ai phát hiện"
+      }
+    },
+    {
+      "id": "b6",
+      "card": "c1b-pth_tp08",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Cư dân mạng kết luận: bà cũng bệnh lắm.",
+      "beat": {
+        "micro": [
+          {
+            "text": "Cạn lời",
+            "at_word": "bệnh",
+            "sfx": "awkward",
+            "why": "aside: cmt bà cũng bệnh lắm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7",
+      "card": "c2-nh.tragn_",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Bạn thân thì sốc toàn tập."
+    },
+    {
+      "id": "b8",
+      "card": "c2a-minnwox_o9",
+      "kind": "bridge",
+      "takes": 4,
+      "text": "Tác giả thanh minh: shop kêu chọn thì chọn thử thôi."
+    },
+    {
+      "id": "cta",
+      "card": "c2a-minnwox_o9",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Bạn sẽ chọn phong cách số mấy? Kể nghe đi, câu hay nhất lên tập sau."
+    }
+  ]
+}

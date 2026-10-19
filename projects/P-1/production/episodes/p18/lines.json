@@ -1,0 +1,145 @@
+{
+  "format": "v2",
+  "media": "release-09",
+  "mood": "hai_v2",
+  "source_handle": "pwnpminn",
+  "hook": null,
+  "cta": null,
+  "chains": [],
+  "cast": {
+    "narrator": "Adam bựa",
+    "pwnpminn": "Trúc Ly",
+    "lac": "Thiện Minh",
+    "moo.moo.calf": "Ngọc Huyền",
+    "h.m6l_": "Thái Sơn",
+    "nkhanhlinh_26": "Mai Anh",
+    "dao_chien123": "Thiền Tâm Đức"
+  },
+  "cast_note": "The poster calls her boyfriend 'người tôi thương' / 'ẻm', so she gets the female poster voice and the boyfriend ('Lạc', shown as posted under the names rule) a male voice. Commenter voices are guesses that alternate so neighbours sound different. Quang Sơn has not yet been heard by the user. Revised after the first render: Quang Sơn (dao_chien123) was misheard by ASR in every take, so dao_chien123 moved to Thiền Tâm Đức and h.m6l_ to Thái Sơn (not yet heard by the user).",
+  "note": "Batch 2026-10-19 #1 (scout run 2, pick #2). Format v2 with a multi-voice cast. The chat bubbles are voiced as dialogue. Commenters' attached chat screenshots are hidden, and profanity ('Dm') is blurred and not read.",
+  "lines": [
+    {
+      "id": "p1",
+      "card": "post-pwnpminn",
+      "kind": "read",
+      "text": "Người tôi thương đấy. Ngố ngố mà dễ thương."
+    },
+    {
+      "id": "p2",
+      "card": "post-pwnpminn",
+      "kind": "read",
+      "text": "Lạc ơi."
+    },
+    {
+      "id": "p3",
+      "card": "post-pwnpminn",
+      "kind": "read",
+      "speaker": "lac",
+      "text": "Dạ?",
+      "takes": 6
+    },
+    {
+      "id": "p4",
+      "card": "post-pwnpminn",
+      "kind": "read",
+      "text": "Bàn phím tao bị liệt nút a. Mày nhắn cho tao cóp pi cái."
+    },
+    {
+      "id": "p5",
+      "card": "post-pwnpminn",
+      "kind": "read",
+      "speaker": "lac",
+      "text": "A."
+    },
+    {
+      "id": "a1",
+      "card": "post-pwnpminn",
+      "kind": "bridge",
+      "text": "Khoan. Liệt nút a, mà vẫn gõ được chữ a?",
+      "beat": {
+        "big": {
+          "reaction": "eyes",
+          "enter": "slam",
+          "fx": "zoom",
+          "sfx": "scratch",
+          "pause": 1.9,
+          "label": "Bị test rồi",
+          "label_style": "meme",
+          "why": "the reveal: she typed 'a' all along"
+        }
+      }
+    },
+    {
+      "id": "a2",
+      "card": "c1-moo.moo.calf",
+      "kind": "bridge",
+      "text": "Dân mạng thì thả tim liên tục:"
+    },
+    {
+      "id": "c1",
+      "card": "c1-moo.moo.calf",
+      "kind": "read",
+      "text": "Lạc ơi. Dạ. Êu ôi, mấy cái bọn yêu nhau, sao mà đáng yêu thế.",
+      "beat": {
+        "big": {
+          "reaction": "pleading",
+          "enter": "rise",
+          "sfx": "ting",
+          "pause": 1.6,
+          "label": "Iu ghê",
+          "label_style": "meme",
+          "why": "cute couple"
+        }
+      }
+    },
+    {
+      "id": "c2",
+      "card": "c2-h.m6l_",
+      "kind": "read",
+      "text": "Tao cười đến sáng mai."
+    },
+    {
+      "id": "a2b",
+      "card": "c3-nkhanhlinh_26",
+      "kind": "bridge",
+      "text": "Có người tự thú luôn:"
+    },
+    {
+      "id": "c3",
+      "card": "c3-nkhanhlinh_26",
+      "kind": "read",
+      "text": "Người ngố đó là tui.",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.6,
+        "sfx": "boing",
+        "why": "self-own"
+      }
+    },
+    {
+      "id": "a3",
+      "card": "c4-dao_chien123",
+      "kind": "bridge",
+      "text": "Còn phe thực tế thì phán:"
+    },
+    {
+      "id": "c4",
+      "card": "c4-dao_chien123",
+      "kind": "read",
+      "text": "May quá, nắng mưa biết chạy vào nhà, không thì toang đời sau mất.",
+      "beat": {
+        "big": {
+          "reaction": "skull",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 2.1,
+          "label": "Toang",
+          "label_style": "meme",
+          "why": "ending punchline"
+        }
+      }
+    }
+  ]
+}

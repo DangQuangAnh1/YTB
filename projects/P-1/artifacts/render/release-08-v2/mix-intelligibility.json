@@ -1,0 +1,85 @@
+{
+ "video": "release-08-v2",
+ "overall_wer": 0.081,
+ "per_line": [
+  {
+   "id": "p1",
+   "wer": 0.071,
+   "script": "Tôi đã mất cả buổi chiều để điều tra xem người con gái nào tên là Minh Hà, mà chồng tôi lại để tên YouTube là Minh Hà.",
+   "heard": "\"Tôi đã mất cả buổi chiều để điều tra xem người con gái nào tên là Minh Ha, mà chồng tôi lại để tên Youtube là Minh Ha."
+  },
+  {
+   "id": "p2",
+   "wer": 0.143,
+   "script": "Và tôi vừa hốt hoảng nhớ ra, tên chồng mình là Hà Văn Minh.",
+   "heard": "Và tôi vừa hút hoảng nhớ ra, tên chồng mình là Hà Văn Minh.\" \"Tên"
+  },
+  {
+   "id": "a1",
+   "wer": 0.5,
+   "script": "Tên chồng đọc ngược thôi mà chị ơi.",
+   "heard": "thôi mà chị ơi.\""
+  },
+  {
+   "id": "p3",
+   "wer": 0.083,
+   "script": "Ôi, đầu óc của mẹ bỉm sữa thật là một cái gì đó khó tả. May là chưa có án mạng nào xảy ra.",
+   "heard": "\"Ôi, đầu óc của mẹ mình xứa thật là một cái gì đó khó tả, may là chưa có án mạng nào xảy ra.\""
+  },
+  {
+   "id": "a2",
+   "wer": 0.111,
+   "script": "Cư dân mạng lập tức dựng lại hiện trường:",
+   "heard": "\"Cứ dân mạng lập tức dựng lại hiện trường.\""
+  },
+  {
+   "id": "c1w",
+   "wer": 0.2,
+   "script": "Con nào là Minh Hà?",
+   "heard": "\"Con nào là Minh Ha?\""
+  },
+  {
+   "id": "c1h",
+   "wer": 0.286,
+   "script": "Con này nè! Hà Văn Minh nè!",
+   "heard": "\"Con này nè, Hà Văn"
+  },
+  {
+   "id": "a3",
+   "wer": 0,
+   "script": "Chị tác giả thú nhận:",
+   "heard": "\"Chị tác giả thú nhận.\""
+  },
+  {
+   "id": "c1a",
+   "wer": 0.095,
+   "script": "Đang soạn sẵn kịch bản: ôi trời ơi, không ai khổ được bằng mình, trong đầu, thì nhận ra tên chồng.",
+   "heard": "\"Tang soạn sẵn kịch bản, ôi chời ơi, không ai khổ được bằng mình trong đầu thì nhận ra tên chồng.\""
+  },
+  {
+   "id": "a4",
+   "wer": 0,
+   "script": "Phòng điều tra kết luận:",
+   "heard": "Phòng điều tra kết luận."
+  },
+  {
+   "id": "c2",
+   "wer": 0.1,
+   "script": "Khi bạn dành cả buổi chiều phá án ngoại tình, nhưng hung thủ và nạn nhân lại là một người.",
+   "heard": "\"Khi bạn dành cả buổi chiều phá án ngoại tình, nhưng không thủ và nạn nhân lại là một"
+  },
+  {
+   "id": "a5",
+   "wer": 0.143,
+   "script": "Và danh hiệu dành riêng cho chị:",
+   "heard": "Và dành hiệu dành riêng cho chị."
+  },
+  {
+   "id": "c3",
+   "wer": 0.286,
+   "script": "Sơ lốc Hôm phiên bản thiếu ngủ.",
+   "heard": "Sở lóc hôm phiên bản thiếu ngủ."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

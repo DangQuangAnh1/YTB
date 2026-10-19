@@ -1,0 +1,41 @@
+{
+  "artifact_ids": ["A-138", "A-139", "A-140", "A-141"],
+  "reviewer": "PM self-review of release-03-v1 (technical checks, sampled frames, whisper on the final mix); no human viewing or listening",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "The draft decodes fully (exit 0): 1080x1920 H.264 at crf 18, 30fps, AAC 48k stereo, 54.0s, peak 0.865. final.mp4 is the loudness-mastered copy (65.5 MB). phone-1080p.mp4 is 27.5 MB at 1080p.",
+      "evidence_path": "artifacts/render/release-03-v1/technical-qa.json"
+    },
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Made from the post the user saved (x.pine), as requested. Funny mood, Adam bựa voice at 1.1x, brand identity and outro, no in-video source footer. The reply chains could not be opened, so each comment is its own card.",
+      "evidence_path": "artifacts/content/release-03-lines-v1.json"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Inspected 11 sampled frames after the rebuild. The fixes are visible: the sunny-clouds background is brightened (0.8, was 0.5 and read as gloomy), and the hook fits on one line. Cards are fresh 1080px captures with avatars blurred, the dangling reply-connector lines masked and the page bleed cropped. Minor: a one-word caption page ('mưu.') at about 14s. Sampled frames do not prove every transition.",
+      "evidence_path": "artifacts/render/release-03-v1/contact-sheet.png"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "No human listening yet. Final mix at -14.21 LUFS, true peak -1.31 dB. Whisper overall WER on the final mix is 0.045. Per-line figures are inflated by segment edges. Whisper consistently hears 'tang vật' as 'tăng vật' and 'mái' as 'máy' in the cold open, across 5 takes; this may be ASR rather than TTS. Best-of-N fixed q1 ('chụp', WER 0) and b1."
+    },
+    {
+      "name": "rights_protocol",
+      "status": "passed",
+      "detail": "Pass: 3 quotes (the longest 18 words), verbatim 21% of voice time, original 79%. Avatars are blurred. Handles are visible (user decision). The post photo belongs to the poster and is shown only inside the quoted card, credited in package.md. The underwear topic is kept light. Spam/betting accounts were skipped.",
+      "evidence_path": "artifacts/render/release-03-v1/props.json"
+    },
+    {
+      "name": "hook_retention",
+      "status": "unverified",
+      "detail": "The cold open states the situation within 0.5s, and the photo reveal lands by about 3s. There is no audience test. At 54s it runs longer than release-01/02 (46–47s)."
+    }
+  ]
+}

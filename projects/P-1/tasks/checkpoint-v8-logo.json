@@ -1,0 +1,11 @@
+{
+  "stage": "production",
+  "current_task": {"id": "T-017", "owner_role": "launch", "execution": "waiting_user"},
+  "next_action": "Waiting for the user to choose a channel name and logo concept (A Hóng Cmt @hong.cmt, B Lướt Giùm @luotgium, C Rep Gì Đây @repgiday; artifacts/brand/logo-concepts-v1.png). Then write production/engine-v1/brand.json (id, name, handle, font, weight, accent, cta, outro_s≈2.4), export avatar 800×800 and banner, render the outro and re-render p08/p09 v3 with the outro, and produce release packages with creator-launch.",
+  "unresolved": [
+    "Handle availability checked read-only only; it may still be reserved",
+    "Human listening pending for all drafts",
+    "Release gate: handles kept visible (user decision), consent not requested; minors check p08; Freesound receipts; VieNeu watermark; AI-disclosure flags",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

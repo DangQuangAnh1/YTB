@@ -1,0 +1,135 @@
+{
+  "media": "release-03",
+  "mood": "hai",
+  "source_handle": "x.pine",
+  "hook": "mèo tha đồ lót nhà hàng xóm…",
+  "cta": "boss nhà bạn từng tha gì về?",
+  "look": {
+    "background": "library/backgrounds/sunny-clouds-12222644.mp4",
+    "bg_brightness": 0.8,
+    "bg_saturate": 1.1
+  },
+  "note": "Release video 3 (user-saved post, tasks/user-request-release-03-v1.md). Source: https://www.threads.com/@x.pine/post/Dek09bumc8F (photo post, 2.3K likes / 110 replies / 48.5K views at about 6 hours old). Comments: thaonguyen1601x (24 likes), loadingbluetooth (6), horrorkumani (19), cu_2_ca (2). Their visible replies could not be opened, so each comment is its own card. 3 verbatim quotes, with chat shorthand expanded for the voice (M → Mày, t → tao, sr → sorry, n → nó). The loadingbluetooth and horrorkumani comments are paraphrased by the narrator while their cards are on screen. The topic is kept light. The sunny-clouds background fits a daytime rooftop story.",
+  "lines": [
+    {
+      "id": "cold",
+      "card": "post-x.pine",
+      "kind": "bridge",
+      "text": "Giữa ban ngày, một bé mèo bị bắt quả tang trên mái nhà, miệng còn ngậm nguyên tang vật.",
+      "takes": 5
+    },
+    {
+      "id": "q1",
+      "card": "post-x.pine",
+      "kind": "read",
+      "text": "May chụp kịp tấm hình làm bằng chứng.",
+      "takes": 6,
+      "beat": {
+        "reaction": "smirk",
+        "sfx": [
+          {
+            "type": "ting",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1",
+      "card": "post-x.pine",
+      "kind": "bridge",
+      "text": "Vòng cổ đỏ, ánh mắt bình thản. Nhìn là biết không phải lần đầu.",
+      "takes": 4
+    },
+    {
+      "id": "b2",
+      "card": "c1-thaonguyen1601x",
+      "kind": "bridge",
+      "text": "Cư dân mạng lập tức truy ra kẻ chủ mưu.",
+      "takes": 2
+    },
+    {
+      "id": "q2",
+      "card": "c1-thaonguyen1601x",
+      "kind": "read",
+      "text": "Mày huấn luyện mèo trộm đồ lót phải không?",
+      "takes": 4,
+      "beat": {
+        "reaction": "rolleyes",
+        "sfx": [
+          {
+            "type": "boing",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "card": "c2-loadingbluetooth",
+      "kind": "bridge",
+      "text": "Rồi nạn nhân xuất hiện: sáng nay vừa phơi xong, quay đi một cái là bốc hơi.",
+      "takes": 2
+    },
+    {
+      "id": "b4",
+      "card": "c3-horrorkumani",
+      "kind": "bridge",
+      "text": "Nhưng giả thuyết hay nhất là: mèo không trộm, mèo đang đi mai mối, kiếm người yêu cho chủ.",
+      "takes": 2
+    },
+    {
+      "id": "b5",
+      "card": "c3-horrorkumani",
+      "kind": "bridge",
+      "text": "Vì từng có bé chó trộm đồ nhà hàng xóm, anh chủ mang sang trả, thế là hai người xin số nhau luôn.",
+      "takes": 3,
+      "beat": {
+        "reaction": "rofl",
+        "sfx": [
+          {
+            "type": "laugh",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6",
+      "card": "c4-cu_2_ca",
+      "kind": "bridge",
+      "text": "Đúng lúc đó, chủ mưu tự thú.",
+      "takes": 2
+    },
+    {
+      "id": "q3",
+      "card": "c4-cu_2_ca",
+      "kind": "read",
+      "text": "Mèo nhà tao đấy, sorry nha, tao bảo nó làm thế đấy thôi, xóa ảnh đi hộ tao.",
+      "takes": 4,
+      "beat": {
+        "reaction": "skull",
+        "sfx": [
+          {
+            "type": "scratch",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7",
+      "card": "c4-cu_2_ca",
+      "kind": "bridge",
+      "text": "Tự thú xong còn đòi xóa bằng chứng. Đúng là mèo nào chủ nấy.",
+      "takes": 2
+    },
+    {
+      "id": "cta",
+      "card": "c4-cu_2_ca",
+      "kind": "bridge",
+      "text": "Boss nhà bạn từng tha món gì về nhà chưa? Kể nghe đi, câu hay nhất lên tập sau.",
+      "takes": 2
+    }
+  ]
+}

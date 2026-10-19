@@ -1,0 +1,97 @@
+{
+ "video": "prototype-06-v2",
+ "overall_wer": 0.135,
+ "per_line": [
+  {
+   "id": "intro",
+   "wer": 0.273,
+   "script": "Mẹ vừa chuyển tiền tiêu tháng này, bạn này lên Threads nhờ cả mạng nghĩ giùm một câu cảm ơn cho ngầu.",
+   "heard": "vừa chuyển tiền tiêu tháng này, bạn này lên Thred nhờ cảm ảnh nghĩ dùm một câu cảm ơn cho ngầu. Câu"
+  },
+  {
+   "id": "b1",
+   "wer": 0.286,
+   "script": "Câu được thả tim nhiều nhất là.",
+   "heard": "được thả tim nhiều nhất là \"Nào"
+  },
+  {
+   "id": "c1",
+   "wer": 0.75,
+   "script": "Nào rảnh cà phê.",
+   "heard": "dành cà phê, bà"
+  },
+  {
+   "id": "c1r",
+   "wer": 0.5,
+   "script": "Bà cố nội này.",
+   "heard": "cuốn nội này\"."
+  },
+  {
+   "id": "b2",
+   "wer": 0.286,
+   "script": "Có người còn sửa luôn ca dao.",
+   "heard": "người còn sửa luôn ca rào."
+  },
+  {
+   "id": "c2a",
+   "wer": 0,
+   "script": "Công cha như núi Thái Sơn, nghĩa mẹ như nước trong nguồn chảy ra. Một lòng thờ mẹ kính cha.",
+   "heard": "Công cha như núi thái sơn, nghĩa mẹ như nước trong nguồn chảy ra. Một lòng thờ mẹ kính cha,"
+  },
+  {
+   "id": "c2b",
+   "wer": 0.125,
+   "script": "Tiền con con giữ, tiền mẹ con xin.",
+   "heard": "con con giữ, tiền mẹ con xin."
+  },
+  {
+   "id": "b3",
+   "wer": 0.286,
+   "script": "Bản ngắn gọn có vần thì đây.",
+   "heard": "ngắn gọn có vần kì đây."
+  },
+  {
+   "id": "c3",
+   "wer": 0.167,
+   "script": "Tiền đã về ví, lòng cho về nhà, cảm ơn mẹ nha!",
+   "heard": "Tiền đã về ví, lòng cho về nhà, cảm ơn mẹ nhà. Khe"
+  },
+  {
+   "id": "b4",
+   "wer": 0.143,
+   "script": "Phe cổ trang cũng không chịu thua.",
+   "heard": "cổ trang cũng không chịu thua."
+  },
+  {
+   "id": "c5",
+   "wer": 0.385,
+   "script": "Tạ ơn mẫu thân đã ban thưởng, hài nhi xin phép cáo lui.",
+   "heard": "Tại ơn mẫu thần đã ban thưởng, Hải Nhi xin phép"
+  },
+  {
+   "id": "b5",
+   "wer": 0.063,
+   "script": "Nhưng đỉnh nhất là người không có mẫu cảm ơn, mà có sẵn mẫu xin tiền.",
+   "heard": "Nhưng định nhất là người không có mẫu cảm ơn mà có sẵn mẫu xin tiền."
+  },
+  {
+   "id": "c4",
+   "wer": 0.214,
+   "script": "Mẹ ơi mẹ đẹp như tiên, mẹ thêm dấu huyền mẹ gửi cho con.",
+   "heard": "\"Mẹ ơi mẹ đẹp như tiền, mẹ thêm dấu huyền mẹ gửi"
+  },
+  {
+   "id": "c6",
+   "wer": 0.2,
+   "script": "Bác đừng xoá post nhé, để mỗi lần xin tiền tui vào lấy một câu.",
+   "heard": "Vát đừng xóa cốt nhé để mỗi lần xin tiền tui vào lấy một câu,"
+  },
+  {
+   "id": "cta",
+   "wer": 0.714,
+   "script": "Còn bạn, sẽ rep mẹ câu nào?",
+   "heard": "ồn bạn sẽ dép"
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

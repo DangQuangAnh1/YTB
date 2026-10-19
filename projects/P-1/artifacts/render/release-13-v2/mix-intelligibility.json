@@ -1,0 +1,79 @@
+{
+ "video": "release-13-v2",
+ "overall_wer": 0.236,
+ "per_line": [
+  {
+   "id": "p1",
+   "wer": 0.167,
+   "script": "Tôi hết tiền. Bạn hết cứt.",
+   "heard": "\"Tôi hết tiền, bạn hết,"
+  },
+  {
+   "id": "p2",
+   "wer": 0,
+   "script": "Hết tiền, đi đâu hết.",
+   "heard": "hết tiền đi đâu hết\","
+  },
+  {
+   "id": "p3",
+   "wer": 1,
+   "script": "Tao bao.",
+   "heard": "tạo bầu,"
+  },
+  {
+   "id": "a1",
+   "wer": 0.1,
+   "script": "Và câu trả lời đến chỉ trong một nốt nhạc:",
+   "heard": "và câu trả lời đến chỉ trong một nốt nhạc, \"đùa"
+  },
+  {
+   "id": "p4",
+   "wer": 0.6,
+   "script": "Đùa. Bạn ỉa bao nhiêu cứt, tôi cũng ăn hết.",
+   "heard": "b*** bao nhiêu c*** cũng ăn hết\". Bình"
+  },
+  {
+   "id": "a2",
+   "wer": 0.583,
+   "script": "Bình luận nhiều tim nhất còn đưa ra hẳn bằng chứng thép:",
+   "heard": "còn đưa ra hạn bằng chứng thép, thiếu"
+  },
+  {
+   "id": "c1",
+   "wer": 0.5,
+   "script": "Thiếu nước lạy nó một cái.",
+   "heard": "nước lại nói một cái,"
+  },
+  {
+   "id": "f1",
+   "wer": 0.571,
+   "script": "Tối đi ăn đi. Tối bác rảnh.",
+   "heard": "\"Tôi đi ăn đi, tối bác rắn\", \"Tôi phải"
+  },
+  {
+   "id": "f2",
+   "wer": 0.375,
+   "script": "Tao phải để tiền đi cà phê học.",
+   "heard": "đi tiền đi cà phê học\","
+  },
+  {
+   "id": "f3",
+   "wer": 0.5,
+   "script": "Tiền bác.",
+   "heard": "\"Tình bác\","
+  },
+  {
+   "id": "f4",
+   "wer": 1.5,
+   "script": "Ô kê!",
+   "heard": "\"Ok, ok\", \"Nhanh"
+  },
+  {
+   "id": "f5",
+   "wer": 0.5,
+   "script": "Nhanh thế!",
+   "heard": "thế\"."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

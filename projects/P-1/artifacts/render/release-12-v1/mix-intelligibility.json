@@ -1,0 +1,73 @@
+{
+ "video": "release-12-v1",
+ "overall_wer": 0.138,
+ "per_line": [
+  {
+   "id": "a0",
+   "wer": 0.125,
+   "script": "Một bạn đi khám vì sốt, gặp ngay anh bác sĩ trẻ, lại còn đẹp trai.",
+   "heard": "Một bạn đi khám vì sốt, gặp ngay anh Bác sĩ trẻ, lại còn đẹp trai. Em bị"
+  },
+  {
+   "id": "p2",
+   "wer": 0.5,
+   "script": "Em bị sốt bao lâu rồi?",
+   "heard": "sốt bao lâu rồi? Dạ,"
+  },
+  {
+   "id": "p3",
+   "wer": 0.25,
+   "script": "Dạ, em bị từ hồi chiều hôm qua.",
+   "heard": "em bị từ hồi chiều hôm qua. Hồi"
+  },
+  {
+   "id": "p4",
+   "wer": 0.667,
+   "script": "Hồi chiều... hả?",
+   "heard": "chiều hả? Bác"
+  },
+  {
+   "id": "a1",
+   "wer": 0.455,
+   "script": "Bác sĩ trầm ngâm hồi lâu. Bệnh nhân bắt đầu run.",
+   "heard": "sĩ chầm ngâm hồi lâu, bệnh nhân bắt đầu dùn. Hồi chiều,"
+  },
+  {
+   "id": "p6",
+   "wer": 0.333,
+   "script": "Hồi chiều... hồi chiều trời mưa.",
+   "heard": "chiều, hồi chiều trời mưa. Sau"
+  },
+  {
+   "id": "p7",
+   "wer": 0.45,
+   "script": "Sau khi thấy tui đơ mặt ra, ổng cười hihi, xong kêu: khám xong rồi, ra lấy thuốc đi em.",
+   "heard": "mặt ra, ông cười hy hy xong kêu, khám xong rồi, ra lấy thuốc đi em. Dân"
+  },
+  {
+   "id": "a2",
+   "wer": 0.8,
+   "script": "Dân mạng cười muốn xỉu:",
+   "heard": "mạng cười muốn xíu. Tao mãi"
+  },
+  {
+   "id": "c1",
+   "wer": 0.333,
+   "script": "Tao mà là bà, chắc tao cười banh phòng khám. Bác sĩ cũng tranh thủ bắt tren tí.",
+   "heard": "là bà, chắc tao cười banh phòng khám. Bác sĩ cũng chân thủ bắt trên tí. Và chủ"
+  },
+  {
+   "id": "a3",
+   "wer": 0.375,
+   "script": "Và chủ bài kể thêm một chi tiết:",
+   "heard": "chủ bay kể thêm một chi tiết. Đang"
+  },
+  {
+   "id": "c1a",
+   "wer": 0.318,
+   "script": "Đang bệnh, cái đầu lâng lâng nên hơi đơ. Ổng còn ráng nhìn tui ba giây, kiểu: anh đợi em cười đó.",
+   "heard": "vậy, cái đầu lưng lưng nên hơi đơ, ông còn dáng nhìn tui 3 giây kiểu anh đợi em cười đó."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

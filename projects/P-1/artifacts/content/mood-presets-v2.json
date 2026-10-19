@@ -1,0 +1,284 @@
+{
+ "note": "Engine v1 mood presets. The Content role sets `mood` in each episode's lines.json; the user may override it. A preset drives the voice (tts), music, allowed SFX, reactions, accent colour, card spring and the 'look': a real-footage background, grain/vignette, card motion, caption style, and a handwritten hook font. Asset licenses are in media/library/provenance.json. Voices come from the 2026-10-17 audition (whisper WER plus pitch range) and BA research; human listening is still pending.",
+ "presets": {
+  "hai": {
+   "label": "Vui / hài",
+   "music": {
+    "file": "library/music/hai-cute-happy-seth.mp3",
+    "under_voice": 0.11,
+    "between": 0.26,
+    "under_sfx": 0.07
+   },
+   "sfx_allowed": [
+    "whoosh",
+    "pop",
+    "boing",
+    "laugh",
+    "ting",
+    "scratch"
+   ],
+   "card_whoosh": true,
+   "reactions": {
+    "enabled": true,
+    "max": 4,
+    "min_gap_s": 5,
+    "show_s": 1.7
+   },
+   "accent": "#facc15",
+   "spring": {
+    "damping": 12,
+    "stiffness": 170
+   },
+   "tts": {
+    "voice": "Adam bựa",
+    "temperature": 0.9
+   },
+   "look": {
+    "background": "library/backgrounds/hanoi-street-food-32228864.mp4",
+    "bg_brightness": 0.5,
+    "bg_saturate": 1.0,
+    "zoom_to": 1.06,
+    "grain": 0.05,
+    "vignette": 0.5,
+    "card_motion": "punch",
+    "caption_style": "pill",
+    "hook_font": "PatrickHand",
+    "marker": "#ef4444",
+    "bg_seconds": 22.7
+   }
+  },
+  "buon": {
+   "label": "Buồn / tâm sự",
+   "music": {
+    "candidates": [
+     {
+      "title": "Sad Piano Background Music",
+      "creator": "guitarman213",
+      "landing": "https://freesound.org/people/guitarman213/sounds/707060",
+      "license": "CC0 (Openverse metadata)"
+     },
+     {
+      "title": "Komiku - Sad walk with sad piano",
+      "creator": "Komiku",
+      "landing": "https://commons.wikimedia.org/w/index.php?curid=90266649",
+      "license": "CC0 (Openverse metadata)"
+     }
+    ],
+    "under_voice": 0.09,
+    "between": 0.2,
+    "under_sfx": 0.09,
+    "file": "library/music/sad-piano-guitarman213.mp3"
+   },
+   "sfx_allowed": [],
+   "card_whoosh": false,
+   "reactions": {
+    "enabled": false
+   },
+   "accent": "#93c5fd",
+   "spring": {
+    "damping": 26,
+    "stiffness": 70
+   },
+   "tts": {
+    "voice": "Mỹ Duyên",
+    "temperature": 0.7
+   },
+   "look": {
+    "background": "library/backgrounds/rainy-night-window-35621441.mp4",
+    "bg_brightness": 0.45,
+    "bg_saturate": 0.8,
+    "zoom_to": 1.04,
+    "grain": 0.07,
+    "vignette": 0.65,
+    "card_motion": "fade",
+    "caption_style": "fade",
+    "hook_font": "Pangolin",
+    "marker": "#e5e7eb",
+    "bg_seconds": 31.3
+   }
+  },
+  "drama": {
+   "label": "Drama / căng",
+   "music": {
+    "candidates": [
+     {
+      "title": "CINEMATIC BG ATMOSPHERIC #0055H",
+      "creator": "metrostock99",
+      "landing": "https://freesound.org/people/metrostock99/sounds/350955",
+      "license": "CC0 (Openverse metadata)"
+     },
+     {
+      "title": "Exploring Dark Places - Atmosphere",
+      "creator": "TheNordicDawn",
+      "landing": "https://freesound.org/people/TheNordicDawn/sounds/519181",
+      "license": "CC0 (Openverse metadata)"
+     }
+    ],
+    "under_voice": 0.1,
+    "between": 0.24,
+    "under_sfx": 0.06
+   },
+   "sfx_allowed": [
+    "boom",
+    "riser",
+    "scratch"
+   ],
+   "card_whoosh": true,
+   "reactions": {
+    "enabled": true,
+    "max": 1,
+    "min_gap_s": 8,
+    "show_s": 1.4
+   },
+   "accent": "#f87171",
+   "spring": {
+    "damping": 18,
+    "stiffness": 120
+   },
+   "tts": {
+    "voice": "Thiện Minh",
+    "temperature": 0.8
+   },
+   "look": {
+    "background": "library/backgrounds/rainy-night-window-35621441.mp4",
+    "bg_brightness": 0.45,
+    "bg_saturate": 0.6,
+    "zoom_to": 1.04,
+    "grain": 0.07,
+    "vignette": 0.65,
+    "card_motion": "punch",
+    "caption_style": "pill",
+    "hook_font": "Pangolin",
+    "marker": "#f87171",
+    "todo": "own drama background not chosen; reuses rainy night",
+    "bg_seconds": 31.3
+   }
+  },
+  "am_ap": {
+   "label": "Ấm áp / dễ thương",
+   "music": {
+    "candidates": [
+     {
+      "title": "Tender Moments Acoustic Loop C",
+      "creator": "BaDoink",
+      "landing": "https://freesound.org/people/BaDoink/sounds/548174",
+      "license": "CC0 (Openverse metadata)"
+     }
+    ],
+    "under_voice": 0.1,
+    "between": 0.24,
+    "under_sfx": 0.08
+   },
+   "sfx_allowed": [
+    "ting",
+    "pop"
+   ],
+   "card_whoosh": false,
+   "reactions": {
+    "enabled": true,
+    "max": 1,
+    "min_gap_s": 8,
+    "show_s": 1.6,
+    "kinds": [
+     "emoji"
+    ]
+   },
+   "accent": "#fda4af",
+   "spring": {
+    "damping": 20,
+    "stiffness": 100
+   },
+   "tts": {
+    "voice": "Trúc Ly",
+    "temperature": 0.8
+   },
+   "look": {
+    "background": "library/backgrounds/hanoi-street-food-32228864.mp4",
+    "bg_brightness": 0.55,
+    "bg_saturate": 1.0,
+    "zoom_to": 1.06,
+    "grain": 0.05,
+    "vignette": 0.5,
+    "card_motion": "fade",
+    "caption_style": "fade",
+    "hook_font": "Pangolin",
+    "marker": "#fda4af",
+    "todo": "own wholesome background not chosen",
+    "bg_seconds": 22.7
+   }
+  }
+ },
+ "reaction_library": {
+  "rofl": {
+   "kind": "emoji",
+   "file": "library/reactions/rofl.png",
+   "tags": [
+    "cười lăn",
+    "bà cố nội",
+    "lầy"
+   ],
+   "source": "microsoft/fluentui-emoji-animated: Rolling on the floor laughing",
+   "license": "MIT",
+   "commercial_ok": true
+  },
+  "money": {
+   "kind": "emoji",
+   "file": "library/reactions/money.png",
+   "tags": [
+    "tiền",
+    "xin tiền",
+    "ham tiền"
+   ],
+   "source": "microsoft/fluentui-emoji-animated: Money-mouth face",
+   "license": "MIT",
+   "commercial_ok": true
+  },
+  "smirk": {
+   "kind": "emoji",
+   "file": "library/reactions/smirk.png",
+   "tags": [
+    "cà khịa",
+    "nhếch mép"
+   ],
+   "source": "microsoft/fluentui-emoji-animated: Smirking face",
+   "license": "MIT",
+   "commercial_ok": true
+  },
+  "skull": {
+   "kind": "emoji",
+   "file": "library/reactions/skull.png",
+   "tags": [
+    "chết cười",
+    "cringe",
+    "xỉu"
+   ],
+   "source": "microsoft/fluentui-emoji-animated: Skull",
+   "license": "MIT",
+   "commercial_ok": true
+  },
+  "rolleyes": {
+   "kind": "emoji",
+   "file": "library/reactions/rolleyes.png",
+   "tags": [
+    "cạn lời",
+    "đảo mắt"
+   ],
+   "source": "microsoft/fluentui-emoji-animated: Face with rolling eyes",
+   "license": "MIT",
+   "commercial_ok": true
+  },
+  "monkey-puppet": {
+   "kind": "meme",
+   "file": "library/reactions/monkey-puppet.jpg",
+   "tags": [
+    "liếc",
+    "ngại ngùng",
+    "bẻ lái"
+   ],
+   "source": "https://imgflip.com/memetemplate/Monkey-Puppet (reused from media/prototype-05)",
+   "license": "unknown (Imgflip grants no rights; still from TV)",
+   "commercial_ok": false
+  }
+ },
+ "sfx_dir": "library/sfx"
+}

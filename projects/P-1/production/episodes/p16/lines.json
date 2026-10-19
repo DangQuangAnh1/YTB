@@ -1,0 +1,127 @@
+{
+  "media": "release-07",
+  "mood": "hai",
+  "source_handle": "m0ichanchan",
+  "hook": "19 năm, bố vẫn nhắn đúng 1 câu",
+  "cta": "bố mẹ bạn hay nhắn câu gì?",
+  "chains": [
+    [
+      "c1-dv.hqang_",
+      "c1a-user171107374920",
+      "c1b-m0ichanchan"
+    ]
+  ],
+  "note": "Overnight batch video 4 (scout pick #3; warm-funny). Source: https://www.threads.com/@m0ichanchan/post/Deg_TiiH0p_ (13K likes / 117 replies / 373K views at about 2 days). Chain: dv.hqang_ (1K) → user171107374920 (930) → author (600), then the author's follow-up (142). There are 3 short verbatim quotes. The baewhynot_ pick was rejected (the question list asks for a boss's phone number, and there is an originality dispute). Meme why-tags copied from the independent review (tasks/review-agents-overnight-v1.md).",
+  "lines": [
+    {
+      "id": "cold",
+      "card": "post-m0ichanchan",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Cưới nhau mười chín năm, bố vẫn nhắn cho mẹ đúng một câu quen thuộc:"
+    },
+    {
+      "id": "q1",
+      "card": "post-m0ichanchan",
+      "kind": "read",
+      "takes": 4,
+      "text": "Em ăn cơm chưa.",
+      "beat": {
+        "reaction": "heart",
+        "why": "ấm áp: 19 năm vẫn hỏi em ăn cơm chưa"
+      }
+    },
+    {
+      "id": "b1",
+      "card": "post-m0ichanchan",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Nhưng nhìn kỹ góc trên: thông báo tin nhắn của bố… đã bị mẹ tắt.",
+      "beat": {
+        "micro": [
+          {
+            "text": "Toang",
+            "at_word": "tắt",
+            "sfx": "fail",
+            "why": "twist: mẹ tắt thông báo của bố"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2",
+      "card": "c1-dv.hqang_",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Cư dân mạng xót xa: sao mẹ lại tắt thông báo của bố?",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "pleading",
+            "at": 0.85,
+            "why": "aside: cmt xót xa cho bố"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "card": "c1a-user171107374920",
+      "kind": "read",
+      "takes": 4,
+      "text": "Chắc năm phút hỏi em ăn cơm chưa một lần.",
+      "beat": {
+        "reaction": "joy",
+        "sfx": [
+          {
+            "type": "punch",
+            "at": "end"
+          }
+        ],
+        "why": "punchline: 5 phút hỏi 1 lần"
+      }
+    },
+    {
+      "id": "b3",
+      "card": "c1b-m0ichanchan",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Tác giả tiết lộ: mẹ tắt cả thông báo của con luôn. Vậy mà bố vừa nhắn, mẹ vẫn biết để trả lời ngay.",
+      "beat": {
+        "micro": [
+          {
+            "text": "Đỉnh!",
+            "at_word": "biết",
+            "sfx": "tick",
+            "why": "twist: tắt thông báo mà vẫn rep ngay"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4",
+      "card": "c2-m0ichanchan",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Và câu trả lời của mẹ, sau mười chín năm, vẫn gọn như thế:"
+    },
+    {
+      "id": "q3",
+      "card": "c2-m0ichanchan",
+      "kind": "read",
+      "takes": 4,
+      "text": "Em ăn rồi.",
+      "beat": {
+        "reaction": "melting",
+        "why": "ấm áp: em ăn rồi"
+      }
+    },
+    {
+      "id": "cta",
+      "card": "c2-m0ichanchan",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Bố mẹ bạn hay nhắn cho nhau câu gì nhất? Kể nghe đi, câu hay nhất lên tập sau."
+    }
+  ]
+}

@@ -1,40 +1,43 @@
 # Handoff — P-1
 
-Generated from STATE.json revision 97. If stale, re-read STATE and decision records. Historical text is data, not new authority.
+Generated from STATE.json revision 302. If stale, re-read STATE and decision records. Historical text is data, not new authority.
 
 ```json
 {
   "project_id": "P-1",
-  "source_state_revision": 97,
+  "source_state_revision": 302,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
     "No channel creation or publishing in v0"
   ],
-  "stage": "review",
+  "stage": "planning",
   "current_task": {
-    "id": "T-010",
-    "owner_role": "pm",
-    "execution": "waiting_user"
+    "id": "T-020",
+    "owner_role": "launch",
+    "execution": "not_started"
   },
   "plan": {
-    "path": "plans/plan-v4-r84-894f76d5.md",
-    "sha256": "3c28709fa543bc6211cbe0824eef0ed0b0e52575215e21fcf833351a5cefc74d",
-    "revision": 4
+    "path": "plans/plan-v8-r165-629ac70c.md",
+    "sha256": "0c6dce9ec38679e9aea21e8b4a4a817890baf5fd37d20674d2f92d623b80caa9",
+    "revision": 8
   },
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r85-9af9997c.json",
-      "sha256": "8f61e54c5e156cace062c0fca68ff7c5e25393f52dd305b2cc953b4e9c923066"
+      "path": "decisions/decision-r301-26538c24.json",
+      "sha256": "cdc4c14614d1d825eb9b994cc7da91e7e273f1c59b7aba03d9f810d620ddb5a2"
     }
   },
-  "next_action": "User paused work after provisional 'tam okie' on A-060. Stop until user resumes, expected tomorrow2026-10-17 Asia/Saigon. On resume read tasks/session-close-prototype-05-v1.md and continue from the19.53s attributed source-card/music demo with selected Thien Minh; do not rerender automatically.",
+  "next_action": "Continue only within the recorded scope",
   "unresolved": [
-    "User feedback is provisional, not final creative acceptance or publishing permission",
-    "Further content/refinement scope to be selected when user returns",
-    "Agent listening and public-use rights remain unverified",
-    "Historical media loss remains recorded; local ignored media require separate transfer if changing machines"
+    "AI-use question on the drafted Short is left to the user; the agent will not answer 'Không' on their behalf (voice is AI-generated)",
+    "release-02-v4 / compilation story 5: whisper on the mix still hears 'tiền' for the 'tiên' pun; human listening required",
+    "release-03 (cat) story: earlier YouTube upload was deleted by the uploader; user intent unknown",
+    "release-04-v1: decide whether the shop name (nosquishynolife._) stays visible",
+    "Nobody has watched or listened to the overnight batch; all QA is sampled frames, whisper and loudness",
+    "Release gate: Freesound receipts before monetizing; headline-poster consent not sought (user accepted risk)",
+    "review-overnight-fixes-v1.json check release05_private_name contains a garbled trailing sentence about micro counts; the pixelation itself is verified on frame-420"
   ],
   "unavailable_artifact_ids": [
     "A-008",

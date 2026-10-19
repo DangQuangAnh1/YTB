@@ -1,0 +1,60 @@
+{
+  "artifact_ids": [],
+  "reviewer": "Independent Review agent (creator-review role): a model's checks of sampled frames, contact sheet, QA/loudness/whisper JSON and the props timeline; no human viewing or listening",
+  "mode": "independent_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Funny mom Short from scout pick #2. Word captions off, 8 reactions, 57.7s (under 60s, with the least margin in the batch).",
+      "evidence_path": "artifacts/render/release-05-v2/props.json"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "draft.mp4 fully decodes (exit 0): 1080x1920 H.264, 30fps, AAC 48k stereo, 57.7s, peak 0.779.",
+      "evidence_path": "artifacts/render/release-05-v2/technical-qa.json"
+    },
+    {
+      "name": "loudness",
+      "status": "passed",
+      "detail": "final.mp4 measures -14.15 LUFS and -1.43 dBTP.",
+      "evidence_path": "artifacts/render/release-05-v2/loudness.json"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Reviewed 11 sampled frames plus 8 reaction frames. Text is readable, and the person in the stadium photo is pixelated. Minor: in the c1 chain the parent comment scrolls off and leaves its stats row at the top; the chat pans to 'Chả có vẹo gì' before q2 is spoken, but the hook already gives the line away. The privacy issue is recorded under rights_privacy.",
+      "evidence_path": "artifacts/render/release-05-v2/contact-sheet.png"
+    },
+    {
+      "name": "rights_privacy",
+      "status": "failed",
+      "detail": "BLOCKING: Messenger's reply label 'Bạn đã trả lời Nam' shows the mother's first name on the chat card (frame-420 at 14s). The chat header name and avatar are pixelated, but this label is not, although the PM note says the mother's name is pixelated. Pixelate it, then re-render this Short and compilation story 2. Otherwise props.rights.pass is true: 3 quotes, the longest 27 words; verbatim 21%. The political _thaitinhh chain was correctly excluded.",
+      "evidence_path": "media/release-05/cards-fit/chat-_lysl0v3r.png"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "No human listening. Whisper overall WER is 0.255, the highest in the batch. Possible mispronunciations to check by ear: b5 'gật gù' (heard 'cật cụ') and 'sân Bai-ơn' ('sân bay ơn'); b7 'bãi đá' ('bay đá'); b8 'Chùa Bộc' ('chùa bọc') and 'phán' ('phang'); q3 'cù lao' ('củ lau').",
+      "evidence_path": "artifacts/render/release-05-v2/mix-intelligibility.json"
+    },
+    {
+      "name": "meme_beats",
+      "status": "passed",
+      "detail": "8 reactions: 2 hits (joy, skull) and 6 micro (eyes, mindblown, Ủa?, shrug, facepalm, Gắt!), 2 of them text. All land on beats. Engine guardrails pass. The 6 micro reactions sit above the §4.3 band of 3-5 (non-blocking).",
+      "evidence_path": "artifacts/render/release-05-v2/props.json"
+    },
+    {
+      "name": "meme_why_tags",
+      "status": "failed",
+      "detail": "No beat.why in lines.json (research §4.4). Paperwork only. Suggested tags: cold eyes = 'hóng: con khoe ảnh sân cho mẹ'; q1 mindblown = 'turn: VN xây sân to nhất thế giới'; q2 joy = 'punchline: chả có vẹo gì'; b4 Ủa? = 'awkward: đây là sân Bayern mà'; b5 shrug = 'aside: ừ thì sân Bayern'; q3 skull = 'punchline: cmt nhập vai mẹ'; b7 facepalm = 'aside: chán hơn bãi đá sông Hồng'; b8 Gắt! = 'punchline: không bằng ngã tư Chùa Bộc'.",
+      "evidence_path": "production/episodes/p14/lines.json"
+    },
+    {
+      "name": "metadata",
+      "status": "unverified",
+      "detail": "Sheet v3 §S2: the title (43 characters) and description are accurate. The heading names the superseded folder release-05-v1. Whether #mehaihuoc has a landing page is unverified; it is not in the SEO hashtag lists."
+    }
+  ]
+}

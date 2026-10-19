@@ -1,0 +1,61 @@
+{
+ "video": "release-07-v3",
+ "overall_wer": 0.118,
+ "per_line": [
+  {
+   "id": "p1",
+   "wer": 0.231,
+   "script": "Lấy nhau mười chín năm, và bố tao nhắn cho mẹ tao kiểu:",
+   "heard": "Lấy nhau 19 năm và bố tao nhắn cho mẹ tao kiểu \"Em"
+  },
+  {
+   "id": "p2",
+   "wer": 0.5,
+   "script": "Em ăn cơm chưa.",
+   "heard": "ăn cơm chưa?\" \"Nhưng"
+  },
+  {
+   "id": "a1",
+   "wer": 0.273,
+   "script": "Nhưng nhìn kỹ: mẹ tắt thông báo của bố luôn rồi.",
+   "heard": "nhìn kĩ, mẹ tắt thông báo của bố luôn rồi.\" \"Sao"
+  },
+  {
+   "id": "c1",
+   "wer": 0.167,
+   "script": "Sao mẹ bạn lại tắt thông báo tin nhắn của bố thế?",
+   "heard": "mẹ bạn lại tắt thông báo tin nhắn của bố thế?\" \"Trắc"
+  },
+  {
+   "id": "c1a",
+   "wer": 0.3,
+   "script": "Chắc năm phút hỏi em ăn cơm chưa một lần.",
+   "heard": "nằm phút hỏi em ăn cơm chưa một lần.\" \"Ê,"
+  },
+  {
+   "id": "c1b",
+   "wer": 0.389,
+   "script": "Ê, tắt của tao nữa. Mà không hiểu sao, nhắn cái là mẹ vẫn biết mà rep luôn.",
+   "heard": "mà không hiểu sao nhắn cái là mẹ vẫn biết mà rap luôn.\" \"19"
+  },
+  {
+   "id": "a2",
+   "wer": 0.444,
+   "script": "Mười chín năm, vẫn rep trong một nốt nhạc.",
+   "heard": "năm, vẫn rép trong một nốt nhạc.\" \"Lúc"
+  },
+  {
+   "id": "c2",
+   "wer": 0.6,
+   "script": "Lúc sau mẹ tao rep:",
+   "heard": "sau mẹ tao rap, em"
+  },
+  {
+   "id": "c2m",
+   "wer": 0.333,
+   "script": "Em ăn rồi.",
+   "heard": "ăn rồi.\""
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

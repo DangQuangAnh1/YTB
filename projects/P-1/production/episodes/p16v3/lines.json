@@ -1,0 +1,109 @@
+{
+  "format": "v2",
+  "media": "release-07",
+  "mood": "hai_v2",
+  "source_handle": "m0ichanchan",
+  "hook": null,
+  "cta": null,
+  "chains": [
+    [
+      "c1-dv.hqang_",
+      "c1a-user171107374920",
+      "c1b-m0ichanchan"
+    ]
+  ],
+  "cast": {
+    "narrator": "Adam bựa",
+    "m0ichanchan": "Trúc Ly",
+    "bo": "Thiền Tâm Đức",
+    "me": "Mai Anh",
+    "dv.hqang_": "Ngọc Huyền",
+    "user171107374920": "Thiện Minh"
+  },
+  "cast_note": "Multi-voice re-cut of release-07-v2 (tasks/user-feedback-multivoice-v1.md; research/multi-voice-v1.md). The narrator (bridges only) keeps the channel voice. The poster and each commenter get their own preset voice, kept for every line of that handle. The dad and mom quotes are short, clearly cued punchlines, so they get the research's older-character voices. Commenter voice genders are creative guesses (the text gives no cue); they alternate male/female so neighbouring cards sound different. Hải Đăng (same pitch as Adam bựa) and Ngọc Trân (ASR misheard 'phút') were dropped after the research. This uses 5 character voices, above the research's suggested cap of 3, because the user asked for one voice per character. Nobody has listened yet.",
+  "note": "Format v2 (tasks/user-decision-format-v2.md): card text read verbatim, two short narrator bridges, ends on the mother's reply plus one big reaction.",
+  "lines": [
+    {
+      "id": "p1",
+      "card": "post-m0ichanchan",
+      "kind": "read",
+      "takes": 3,
+      "text": "Lấy nhau mười chín năm, và bố tao nhắn cho mẹ tao kiểu:"
+    },
+    {
+      "id": "p2",
+      "card": "post-m0ichanchan",
+      "kind": "read",
+      "speaker": "bo",
+      "takes": 4,
+      "text": "Em ăn cơm chưa."
+    },
+    {
+      "id": "a1",
+      "card": "post-m0ichanchan",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Nhưng nhìn kỹ: mẹ tắt thông báo của bố luôn rồi."
+    },
+    {
+      "id": "c1",
+      "card": "c1-dv.hqang_",
+      "kind": "read",
+      "takes": 3,
+      "text": "Sao mẹ bạn lại tắt thông báo tin nhắn của bố thế?"
+    },
+    {
+      "id": "c1a",
+      "card": "c1a-user171107374920",
+      "kind": "read",
+      "takes": 4,
+      "text": "Chắc năm phút hỏi em ăn cơm chưa một lần.",
+      "beat": {
+        "big": {
+          "reaction": "joy",
+          "sfx": "laugh",
+          "pause": 1.8,
+          "why": "punchline: 5 phút hỏi 1 lần"
+        }
+      }
+    },
+    {
+      "id": "c1b",
+      "card": "c1b-m0ichanchan",
+      "kind": "read",
+      "takes": 3,
+      "text": "Ê, tắt của tao nữa. Mà không hiểu sao, nhắn cái là mẹ vẫn biết mà rep luôn."
+    },
+    {
+      "id": "a2",
+      "card": "c1b-m0ichanchan",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Mười chín năm, vẫn rep trong một nốt nhạc."
+    },
+    {
+      "id": "c2",
+      "card": "c2-m0ichanchan",
+      "kind": "read",
+      "takes": 3,
+      "text": "Lúc sau mẹ tao rep:"
+    },
+    {
+      "id": "c2m",
+      "card": "c2-m0ichanchan",
+      "kind": "read",
+      "speaker": "me",
+      "takes": 4,
+      "text": "Em ăn rồi.",
+      "beat": {
+        "big": {
+          "reaction": "melting",
+          "sfx": "tada",
+          "pause": 2.0,
+          "label": "Iu thật sự",
+          "why": "ending: mẹ rep em ăn rồi"
+        }
+      }
+    }
+  ]
+}

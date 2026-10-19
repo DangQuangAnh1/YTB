@@ -1,0 +1,13 @@
+{
+  "artifact_ids": ["A-083"],
+  "reviewer": "PM consolidation of two simulated reviewer agents (Gen Z audience persona; SEO/marketing) plus automated checks. Not human; agents saw frames and text only.",
+  "mode": "self_review",
+  "checks": [
+    {"name": "media_decode", "status": "passed", "detail": "Full ffmpeg decode exit 0; 1080x1920 H.264/AAC 61.0s; peak 0.810.", "evidence_path": "artifacts/render/prototype-07-v1/technical-qa.json"},
+    {"name": "brief_alignment", "status": "passed", "detail": "This is the new demo from a fresh post. It exercises mood switching: buồn preset, Mỹ Duyên voice, rain footage, fade captions, no SFX or memes.", "evidence_path": "artifacts/render/prototype-07-v1/review-packet.md"},
+    {"name": "visual_review", "status": "failed", "detail": "Inverted hierarchy: quote cards about 22–27px against captions about 60px. Too dark (brightness 0.45 plus vignette 0.65). Half-cut collapsed stack lines.", "evidence_path": "tasks/review-agents-v6.md"},
+    {"name": "audio_review", "status": "unverified", "detail": "No human listening. Final-mix whisper WER is 0.08. Possible tone drift on 'giận hờn', 'Hà cớ' and 'lở đất'."},
+    {"name": "hook_retention", "status": "failed", "detail": "About 8s of narration before the first quote. 61s is too long for the format. The most-liked quote sits 4th.", "evidence_path": "tasks/review-agents-v6.md"},
+    {"name": "monetization_policy", "status": "failed", "detail": "Original narration is about 27% of spoken time (High reused-content risk). At 61s, an active Content ID claim would block the Short worldwide. Literary quotes need attribution.", "evidence_path": "tasks/review-agents-v6.md"}
+  ]
+}

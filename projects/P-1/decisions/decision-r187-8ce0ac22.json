@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-request-release-v1.md",
+  "excerpt": "bỏ phần nguồn ở cuối kia, với lại làm 2 video thật để chuẩn bị đăng nhé, ưu tiên video hài ... bài hài hài về mẹ, làm thử video về nó trc",
+  "plan": {
+    "path": "plans/plan-v8-r165-629ac70c.md",
+    "sha256": "0c6dce9ec38679e9aea21e8b4a4a817890baf5fd37d20674d2f92d623b80caa9",
+    "revision": 8
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-17T04:47:31.685531+00:00"
+}

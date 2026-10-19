@@ -1,0 +1,12 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-019", "owner_role": "launch", "execution": "waiting_user"},
+  "next_action": "The user listens to and reviews release-01-v1, release-02-v1 and the new release-03-v1 (x.pine cat post, 54s; the phone copy and MP3 were sent). Upload files are final.mp4 at -14 LUFS, with packages in artifacts/release/<id>/package.md. The user publishes by hand. The x.pine backlog row is now produced as release-03 (recorded here, because tasks/source-backlog.md is a registered artifact). Optional: recapture the release-01/02 cards at 1080px while the PC screen is on.",
+  "unresolved": [
+    "Human listening pending for release-01/02/03; in release-03 whisper hears 'tang vật' as 'tăng vật' in the cold open",
+    "Release-02 cards are older wide captures (text smaller); release-01 Full HP card is upscaled from 530px",
+    "Chrome screenshots time out intermittently while the PC screen is off or locked (remote session); keep-awake does not prevent display-off",
+    "Release gate OPEN items: takedown email, Freesound receipts, AI disclosure choice, handle claiming",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

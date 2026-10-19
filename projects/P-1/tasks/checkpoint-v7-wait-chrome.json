@@ -1,0 +1,11 @@
+{
+  "stage": "production",
+  "current_task": {"id": "T-014", "owner_role": "production", "execution": "waiting_user"},
+  "next_action": "Waiting for the user to restore the minimized logged-in Chrome window. Once it is visible, capture these cards with blurred avatars (360px clone, zoom 2.15 or higher):\n- p08: c1-oysteroctopusococ, c1a-angelllanguyen (author reply 'Ye nhớ thật'), c1b-oysteroctopusococ, from https://www.threads.com/@oysteroctopusococ/post/Dd4pRPEEqk4. The post card is already captured as media/prototype-08/cards/post-angelllanguyen.raw.png.\n- p09: post-accclonecuaciti, c1-thi.enthien224, c1a-leminhdao158, c2-huyhoang21185.\nThen run fit-cards, build-timeline (rights check), render, verify, mix-intelligibility, and the two reviewer agents.",
+  "unresolved": [
+    "Scout today-coverage partial: Chrome minimized; logged-out search hit a login wall (not bypassed)",
+    "Rights protocol v1: consent from headline posters not requested; handles visible in private drafts pending user decision; Freesound files to re-download manually before any release; VieNeu watermark extra not installed",
+    "Human listening pending for v3/p07; Ngọc Linh chosen by user for buồn/ấm áp",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

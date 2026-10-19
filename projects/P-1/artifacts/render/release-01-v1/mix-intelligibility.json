@@ -1,0 +1,61 @@
+{
+ "video": "release-01-v1",
+ "overall_wer": 0.065,
+ "per_line": [
+  {
+   "id": "q1",
+   "wer": 0.417,
+   "script": "Lũ lên nhà mình có sao không mẹ? Chết ba con gà.",
+   "heard": "nhà mình có sao không mẹ? Chết 3 con gà. 3 con"
+  },
+  {
+   "id": "b1",
+   "wer": 0.143,
+   "script": "Ba con gà ra đi, nghe đã thấy tang thương. Nhưng khoan, câu tiếp theo mới là bản lĩnh của mẹ.",
+   "heard": "con gà ra đi, nghe đã thấy tàng thương nhưng khoan câu tiếp theo mới là bản lĩnh của mẹ. Nước"
+  },
+  {
+   "id": "q2",
+   "wer": 0.3,
+   "script": "Nước ngập vào chuồng hả mẹ? Thịt ra, nấu lẩu!",
+   "heard": "lập vào chuồng hà mẹ, thịt ra, nấu lẩu."
+  },
+  {
+   "id": "b2",
+   "wer": 0.208,
+   "script": "Không có mất mát nào cả, chỉ là đổi thực đơn. Mẹ Việt Nam không để thứ gì phí phạm, kể cả nước lũ.",
+   "heard": "map nào cả, chỉ là đổi thực đơn. Mẹ Việt Nam không để thứ gì phí phạm kể cả nước lũ. Và"
+  },
+  {
+   "id": "b3",
+   "wer": 0.2,
+   "script": "Và hóa ra mẹ nhà ai cũng có một phong cách báo tin rất riêng.",
+   "heard": "hóa ra mẹ nhà ai cũng có một phong cách báo tin rất riêng. Bà ngoại"
+  },
+  {
+   "id": "q3",
+   "wer": 0.25,
+   "script": "Bà ngoại khỏe chưa mẹ? Rồi. Full HP!",
+   "heard": "khỏe chưa mẹ? Rồi, full HP."
+  },
+  {
+   "id": "b4",
+   "wer": 0.278,
+   "script": "Bà ngoại hồi đầy máu, sẵn sàng vào trận. Không biết trận gì, nhưng chắc chắn bà thắng.",
+   "heard": "đầy máu, sẵn sàng vào trận, không biết trận gì nhưng chắc chắn 3 thắng. Cả"
+  },
+  {
+   "id": "b5",
+   "wer": 0.2,
+   "script": "Cả hội con cái kéo vào điểm danh: mẹ tui cũng y chang, gọi điện giọng như báo tin buồn, hóa ra là gà chết.",
+   "heard": "hội con cái kéo vào điểm danh, mẹ tôi cũng y trang, gọi điện rọng như báo tin buồn, hóa ra là gà chết. Mẹ"
+  },
+  {
+   "id": "cta",
+   "wer": 0.05,
+   "script": "Mẹ bạn từng báo tin kiểu gì làm bạn hết hồn? Kể nghe đi, câu hay nhất lên tập sau.",
+   "heard": "bạn từng báo tin kiểu gì làm bạn hết hồn, kể nghe đi, câu hay nhất lên tập sau."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

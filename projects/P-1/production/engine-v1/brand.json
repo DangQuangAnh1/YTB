@@ -1,0 +1,13 @@
+{
+  "id": "D",
+  "name": "Đọc Cmt Giùm",
+  "handle": "@doccmtgium",
+  "font": "TikTok Sans",
+  "weight": 900,
+  "accent": "#FFD43B",
+  "cta": "theo dõi để đọc cmt tiếp",
+  "outro_s": 2.4,
+  "captions": false,
+  "decision": "tasks/user-decision-brand-v1.md",
+  "captions_decision": "tasks/user-feedback-captions-v1.md"
+}

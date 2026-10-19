@@ -1,0 +1,121 @@
+{
+  "format": "v2",
+  "media": "release-12",
+  "mood": "hai_v2",
+  "source_handle": "zannee_luvu",
+  "hook": null,
+  "cta": null,
+  "chains": [
+    [
+      "c1-anla_1012",
+      "c1a-zannee_luvu"
+    ]
+  ],
+  "cast": {
+    "narrator": "Adam bựa",
+    "zannee_luvu": "Trúc Ly",
+    "bacsi": "Thiện Minh",
+    "anla_1012": "Ngọc Huyền"
+  },
+  "cast_note": "The doctor is 'anh bác sĩ' / 'ổng' and calls the poster 'em', so the doctor gets a male voice and the poster the female poster voice. Commenter voices are guesses.",
+  "note": "User-supplied link 2026-10-19. Format v2 with a multi-voice cast: the post is acted as a dialogue between patient and doctor. 'vcl' is blurred on the card and not read. The poster's mild fever is the only health detail, with no diagnosis shown. Trimmed after lint (estimated 50s and verbatim 0.93): the narrator paraphrases the setup and the suspense, and the second comment chain is dropped (its cards are captured but unused).",
+  "lines": [
+    {
+      "id": "a0",
+      "card": "post-zannee_luvu",
+      "kind": "bridge",
+      "text": "Một bạn đi khám vì sốt, gặp ngay anh bác sĩ trẻ, lại còn đẹp trai."
+    },
+    {
+      "id": "p2",
+      "card": "post-zannee_luvu",
+      "kind": "read",
+      "speaker": "bacsi",
+      "text": "Em bị sốt bao lâu rồi?"
+    },
+    {
+      "id": "p3",
+      "card": "post-zannee_luvu",
+      "kind": "read",
+      "text": "Dạ, em bị từ hồi chiều hôm qua."
+    },
+    {
+      "id": "p4",
+      "card": "post-zannee_luvu",
+      "kind": "read",
+      "speaker": "bacsi",
+      "text": "Hồi chiều... hả?"
+    },
+    {
+      "id": "a1",
+      "card": "post-zannee_luvu",
+      "kind": "bridge",
+      "text": "Bác sĩ trầm ngâm hồi lâu. Bệnh nhân bắt đầu run.",
+      "fx": {
+        "type": "push",
+        "strength": 0.07,
+        "why": "suspense before the doctor's line"
+      }
+    },
+    {
+      "id": "p6",
+      "card": "post-zannee_luvu",
+      "kind": "read",
+      "speaker": "bacsi",
+      "text": "Hồi chiều... hồi chiều trời mưa.",
+      "beat": {
+        "big": {
+          "reaction": "grimace",
+          "enter": "slam",
+          "fx": "zoom",
+          "sfx": "scratch",
+          "pause": 1.9,
+          "label": "Đơ luôn",
+          "label_style": "meme",
+          "why": "the doctor sings the trend, the patient freezes"
+        }
+      }
+    },
+    {
+      "id": "p7",
+      "card": "post-zannee_luvu",
+      "kind": "read",
+      "text": "Sau khi thấy tui đơ mặt ra, ổng cười hihi, xong kêu: khám xong rồi, ra lấy thuốc đi em."
+    },
+    {
+      "id": "a2",
+      "card": "c1-anla_1012",
+      "kind": "bridge",
+      "text": "Dân mạng cười muốn xỉu:"
+    },
+    {
+      "id": "c1",
+      "card": "c1-anla_1012",
+      "kind": "read",
+      "text": "Tao mà là bà, chắc tao cười banh phòng khám. Bác sĩ cũng tranh thủ bắt tren tí."
+    },
+    {
+      "id": "a3",
+      "card": "c1a-zannee_luvu",
+      "kind": "bridge",
+      "text": "Và chủ bài kể thêm một chi tiết:"
+    },
+    {
+      "id": "c1a",
+      "card": "c1a-zannee_luvu",
+      "kind": "read",
+      "text": "Đang bệnh, cái đầu lâng lâng nên hơi đơ. Ổng còn ráng nhìn tui ba giây, kiểu: anh đợi em cười đó.",
+      "beat": {
+        "big": {
+          "reaction": "eyes",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 2.1,
+          "label": "Đợi cười",
+          "label_style": "meme",
+          "why": "ending: the doctor waits 3 seconds for a laugh"
+        }
+      }
+    }
+  ]
+}

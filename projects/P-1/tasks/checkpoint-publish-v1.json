@@ -1,0 +1,13 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-019", "owner_role": "launch", "execution": "waiting_user"},
+  "next_action": "The channel is live as Đọc Cmt Giùm (@doccmtgium), repurposed from the user's empty 'Cao Trung Đức' channel. release-01 is public (youtube.com/shorts/yLhRIOp9ja4). release-03 is scheduled for 2026-10-18 08:30 GMT+7 (youtube.com/shorts/TEc_IneYjB0). The log is in artifacts/release/youtube-publish-log-v1.md. Waiting on the user: approve the pinned comments, the playlist and the release-02 slot; then watch early performance in Studio.",
+  "unresolved": [
+    "Human listening was skipped before publishing; whisper flags in release-01 ('ba'→'3') and release-03 ('tang vật'→'tăng vật')",
+    "Pinned comments not posted (public action, needs approval); playlist not created; release-02 not uploaded",
+    "Uploads are HEVC copies at about 9.7 MB because the browser upload tool caps a file at 10 MB (PSNR 42.9 dB vs final.mp4)",
+    "Release gate OPEN items: Freesound receipts before monetizing; the takedown line was removed at the user's request",
+    "Release-02 cards are older wide captures; release-01 Full HP card is upscaled from 530px",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

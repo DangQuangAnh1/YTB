@@ -1,0 +1,89 @@
+{
+  "media": "prototype-08",
+  "mood": "hai",
+  "source_handle": "angelllanguyen",
+  "hook": "mật danh của crush: “dự báo thời tiết” ☀️",
+  "cta": "mật danh crush của bạn là gì?",
+  "note": "Episode p08 (Scout #1). Source https://www.threads.com/@angelllanguyen/post/Dd4EYEYknpA (35.9K likes, 310 replies, 29/09/2026). Rights protocol v1: 3 verbatim quotes of 30 words or fewer, original narration at least 50%, avatars blurred at capture. kind=read is a verbatim QUOTE; kind=bridge is ORIGINAL narration or paraphrase.",
+  "chains": [
+    [
+      "c1-oysteroctopusococ",
+      "c1a-angelllanguyen",
+      "c1b-oysteroctopusococ"
+    ]
+  ],
+  "lines": [
+    {
+      "id": "intro",
+      "card": "post-angelllanguyen",
+      "kind": "bridge",
+      "text": "Hội bạn này đặt mật danh cho crush là dự báo thời tiết. Trời nắng, nghĩa là ổng đang đi ngang qua."
+    },
+    {
+      "id": "q1",
+      "card": "post-angelllanguyen",
+      "kind": "read",
+      "text": "Sáng nay ổng đứng ngay trước bàn, hỏi: hôm nay có nắng không?",
+      "beat": {
+        "reaction": "smirk",
+        "sfx": [
+          {
+            "type": "ting",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2",
+      "card": "post-angelllanguyen",
+      "kind": "bridge",
+      "text": "Mật mã tưởng kín như bưng, ai dè người cần biết thì biết hết. Kiểu này không còn là dự báo, mà là phát sóng trực tiếp."
+    },
+    {
+      "id": "b3",
+      "card": "c1-oysteroctopusococ",
+      "kind": "bridge",
+      "text": "Mà hội đặt biệt danh thì đông lắm, có bạn còn chơi lớn hơn."
+    },
+    {
+      "id": "q2",
+      "card": "c1-oysteroctopusococ",
+      "kind": "read",
+      "text": "Nhóm bạn cấp hai của tui đặt cho mỗi đứa trong trường một cái tên, đông quá đọc nickname xong còn phải mô tả đặc điểm mới nhớ."
+    },
+    {
+      "id": "b4",
+      "card": "c1a-angelllanguyen",
+      "kind": "bridge",
+      "text": "Đến chủ thớt cũng phải thừa nhận là nhớ thật."
+    },
+    {
+      "id": "q3",
+      "card": "c1b-oysteroctopusococ",
+      "kind": "read",
+      "text": "Nhiều khi cười khùng không phải vì câu chuyện, mà vì cùng một cái nickname mà mỗi đứa nghĩ về một người khác nhau.",
+      "beat": {
+        "reaction": "rofl",
+        "sfx": [
+          {
+            "type": "laugh",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5",
+      "card": "c1b-oysteroctopusococ",
+      "kind": "bridge",
+      "text": "Đó mới là đỉnh cao của hội bạn thân: một mật mã, năm cách hiểu, và không ai chịu giải thích."
+    },
+    {
+      "id": "cta",
+      "card": "c1b-oysteroctopusococ",
+      "kind": "bridge",
+      "text": "Hội bạn bạn đặt mật danh cho crush là gì? Kể nghe đi, câu hay nhất lên tập sau."
+    }
+  ]
+}

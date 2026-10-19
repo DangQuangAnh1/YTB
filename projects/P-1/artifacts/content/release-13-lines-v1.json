@@ -1,0 +1,120 @@
+{
+  "format": "v2",
+  "media": "release-13",
+  "mood": "hai_v2",
+  "source_handle": "shaee_0711",
+  "hook": null,
+  "cta": null,
+  "chains": [],
+  "cast": {
+    "narrator": "Adam bựa",
+    "shaee_0711": "Trúc Ly",
+    "ban": "Thiện Minh",
+    "_flora.lynn": "Ngọc Huyền",
+    "bonggg367": "Thiền Tâm Đức",
+    "tambiquechan": "Mai Anh"
+  },
+  "cast_note": "No gender cue for the poster or the friend in the chat: both voices are creative guesses (right bubbles = poster, left bubble 'T bao' = friend). Commenter voices are guesses.",
+  "note": "User-supplied link 2026-10-19. Crude toilet humour: the words 'ỉa' and 'cứt' are on the card as posted but censor-bleeped in the voice (meme style, ad-safety). The 'đ' swear abbreviation in the chat image is pixelated and not read. The comments are weak (best 104 likes) and one hostile thread is skipped.",
+  "lines": [
+    {
+      "id": "p1",
+      "card": "post-shaee_0711",
+      "kind": "read",
+      "text": "Tôi hết tiền. Bạn hết cứt.",
+      "bleep": [
+        "cứt"
+      ]
+    },
+    {
+      "id": "p2",
+      "card": "post-shaee_0711",
+      "kind": "read",
+      "text": "Hết tiền, đi đâu hết."
+    },
+    {
+      "id": "p3",
+      "card": "post-shaee_0711",
+      "kind": "read",
+      "speaker": "ban",
+      "text": "Tao bao."
+    },
+    {
+      "id": "a1",
+      "card": "post-shaee_0711",
+      "kind": "bridge",
+      "text": "Và câu trả lời trong một nốt nhạc:"
+    },
+    {
+      "id": "p4",
+      "card": "post-shaee_0711",
+      "kind": "read",
+      "text": "Đùa. Bạn ỉa bao nhiêu cứt, tôi cũng ăn hết.",
+      "bleep": [
+        "ỉa",
+        "cứt"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "scream",
+          "enter": "shake",
+          "fx": "zoom",
+          "sfx": "boom",
+          "pause": 1.9,
+          "label": "Ăn hết?!",
+          "label_style": "meme",
+          "why": "instant flip when the friend pays"
+        }
+      }
+    },
+    {
+      "id": "a2",
+      "card": "c1-_flora.lynn",
+      "kind": "bridge",
+      "text": "Cõi mạng nhận xét rất thật:"
+    },
+    {
+      "id": "c1",
+      "card": "c1-_flora.lynn",
+      "kind": "read",
+      "text": "Thiếu nước lạy nó một cái."
+    },
+    {
+      "id": "c2",
+      "card": "c2-bonggg367",
+      "kind": "read",
+      "text": "Có tiền vào là cái gì cũng dám làm.",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.7,
+        "strength": 0.7,
+        "sfx": "punch",
+        "why": "money talks"
+      }
+    },
+    {
+      "id": "a3",
+      "card": "c3-tambiquechan",
+      "kind": "bridge",
+      "text": "Và câu chốt:"
+    },
+    {
+      "id": "c3",
+      "card": "c3-tambiquechan",
+      "kind": "read",
+      "text": "Chỉ chờ có thế.",
+      "beat": {
+        "big": {
+          "reaction": "smirk",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 2.0,
+          "label": "Chuẩn bài",
+          "label_style": "meme",
+          "why": "ending"
+        }
+      }
+    }
+  ]
+}

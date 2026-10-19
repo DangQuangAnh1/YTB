@@ -1,0 +1,60 @@
+{
+  "artifact_ids": [],
+  "reviewer": "Independent Review agent (creator-review role): a model's checks of sampled frames, contact sheet, QA/loudness/whisper JSON and the props timeline; no human viewing or listening",
+  "mode": "independent_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Remake as requested: word captions off, 8 reactions, cards freshly recaptured at 1080px (media/release-02b), voice reused from release-02. 46.7s.",
+      "evidence_path": "artifacts/render/release-02-v3/props.json"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "draft.mp4 fully decodes (exit 0): 1080x1920 H.264, 30fps, AAC 48k stereo, 46.7s, peak 0.854. The reviewer probed phone-1080p.mp4 at 46.8s.",
+      "evidence_path": "artifacts/render/release-02-v3/technical-qa.json"
+    },
+    {
+      "name": "loudness",
+      "status": "passed",
+      "detail": "final.mp4 measures -14.18 LUFS and -1.49 dBTP.",
+      "evidence_path": "artifacts/render/release-02-v3/loudness.json"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Reviewed 11 sampled frames plus 8 reaction frames. The new 1080px cards are the cleanest in the batch, and the avatars are blurred. Minor: b2 ('sổ đỏ vừa mất một trang') is narrated over the tn.qang card because the nguyn_h19 card was never captured; collapsed strips clip header text.",
+      "evidence_path": "artifacts/render/release-02-v3/contact-sheet.png"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "BLOCKING until a human listens. Whisper overall WER is 0.093, but whisper hears q3 as 'đẹp như tiền' and the start of b5 as 'Tiền thêm dấu huyền'. Every render since prototype-06 v3 has carried this flag. The joke only works if 'tiên' has no huyền tone, so re-voice q3/b5 if the flag is right. Also heard: 'ca dao' as 'ca rau', 'rep' as 'rap' twice, 'Threads' as 'flash'. The same audio is story 5 of compilation-01-v3.",
+      "evidence_path": "artifacts/render/release-02-v3/mix-intelligibility.json"
+    },
+    {
+      "name": "rights_protocol",
+      "status": "passed",
+      "detail": "props.rights.pass is true: 3 quotes, the longest 14 words; verbatim 19%. Sheet v2 keeps the '(ca dao biến tấu)' credit. Assets are on the allowlist (rule 8 Freesound check open). The source post is from 22/01/2026 (evergreen).",
+      "evidence_path": "artifacts/render/release-02-v3/props.json"
+    },
+    {
+      "name": "meme_beats",
+      "status": "passed",
+      "detail": "8 reactions: 3 hits (smirk, rofl, money) and 5 micro (tea, facepalm, Toang, thinking, mindblown), 1 of them text. All land on beats, and none covers text being read. Guardrails pass.",
+      "evidence_path": "artifacts/render/release-02-v3/props.json"
+    },
+    {
+      "name": "meme_why_tags",
+      "status": "failed",
+      "detail": "No beat.why in lines.json (research §4.4). Paperwork only. Suggested tags: cold tea = 'hóng: lên Threads hỏi rep sao cho ngầu'; q1 smirk = 'punchline: nào rảnh cà phê'; b1 facepalm = 'aside: bà cố nội này'; b2 Toang = 'fail: sổ đỏ mất một trang'; b3 thinking = 'setup: sửa ca dao'; q2 rofl = 'punchline: tiền mẹ con xin'; q3 money = 'punchline: thêm dấu huyền'; b5 mindblown = 'aside: thiên tài ngôn ngữ'.",
+      "evidence_path": "production/episodes/p11/lines.json"
+    },
+    {
+      "name": "metadata",
+      "status": "unverified",
+      "detail": "Sheet v3 §S6 points to youtube-upload-v2.md §2 and names the superseded folder release-02-v2. Update the folder reference. The v2 text was not fully re-read for this review."
+    }
+  ]
+}

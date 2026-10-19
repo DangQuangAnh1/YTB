@@ -1,0 +1,2 @@
+{ "name": "p1-whisper-tools", "private": true, "type": "module",
+  "dependencies": { "@remotion/install-whisper-cpp": "4.0.536" } }

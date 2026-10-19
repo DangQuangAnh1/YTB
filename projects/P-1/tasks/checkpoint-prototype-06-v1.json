@@ -1,0 +1,12 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-011", "owner_role": "pm", "execution": "waiting_user"},
+  "next_action": "User watches artifacts/render/prototype-06-v1/draft.mp4 (46s stacked real Threads cards, whisper.cpp word captions, CC0 music+SFX, Thien Minh). Collect feedback; first listen to the lines whisper misheard (see review-notes.md) and re-voice only confirmed lines via the per-line cache.",
+  "unresolved": [
+    "Human listening and creative acceptance of prototype-06 pending; possible TTS mispronunciations flagged by whisper.cpp",
+    "Public-use rights for Threads screenshots unresolved; private demo only",
+    "CC0 status of music/SFX taken from Openverse metadata; Freesound pages not opened",
+    "Historical media loss remains recorded; use new IDs/paths",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

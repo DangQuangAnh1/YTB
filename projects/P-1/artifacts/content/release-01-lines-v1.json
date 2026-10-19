@@ -1,0 +1,91 @@
+{
+  "media": "release-01",
+  "mood": "hai",
+  "source_handle": "biu_sub70",
+  "hook": "hỏi thăm mẹ mùa lũ, nhận về… thực đơn",
+  "cta": "mẹ bạn báo tin kiểu gì?",
+  "note": "Release video 1 (user-requested mom post). Sources: https://www.threads.com/@biu_sub70/post/DegajokEbO2 (chat screenshot, 14K likes), https://www.threads.com/@nhtp.1907_/post/DegbtOsGB1G ('Full HP' chat image, 519 likes), and a quote post by neyut_136. Chat lines are read verbatim (3 quotes, each 30 words or fewer); everything else is original commentary. The neyut_136 card is not captured (Chrome could not render while the PC screen was locked); b5 is narrated over the Full HP card.",
+  "lines": [
+    {
+      "id": "q1",
+      "card": "post-biu_sub70",
+      "kind": "read",
+      "text": "Lũ lên nhà mình có sao không mẹ? Chết ba con gà.",
+      "takes": 3
+    },
+    {
+      "id": "b1",
+      "card": "post-biu_sub70",
+      "kind": "bridge",
+      "text": "Ba con gà ra đi, nghe đã thấy tang thương. Nhưng khoan, câu tiếp theo mới là bản lĩnh của mẹ.",
+      "takes": 2
+    },
+    {
+      "id": "q2",
+      "card": "post-biu_sub70",
+      "kind": "read",
+      "text": "Nước ngập vào chuồng hả mẹ? Thịt ra, nấu lẩu!",
+      "takes": 5,
+      "beat": {
+        "reaction": "rofl",
+        "sfx": [
+          {
+            "type": "laugh",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2",
+      "card": "post-biu_sub70",
+      "kind": "bridge",
+      "text": "Không có mất mát nào cả, chỉ là đổi thực đơn. Mẹ Việt Nam không để thứ gì phí phạm, kể cả nước lũ.",
+      "takes": 2
+    },
+    {
+      "id": "b3",
+      "card": "c1-nhtp.1907_",
+      "kind": "bridge",
+      "text": "Và hóa ra mẹ nhà ai cũng có một phong cách báo tin rất riêng.",
+      "takes": 2
+    },
+    {
+      "id": "q3",
+      "card": "c1-nhtp.1907_",
+      "kind": "read",
+      "text": "Bà ngoại khỏe chưa mẹ? Rồi. Full HP!",
+      "takes": 5,
+      "beat": {
+        "reaction": "skull",
+        "sfx": [
+          {
+            "type": "boing",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4",
+      "card": "c1-nhtp.1907_",
+      "kind": "bridge",
+      "text": "Bà ngoại hồi đầy máu, sẵn sàng vào trận. Không biết trận gì, nhưng chắc chắn bà thắng.",
+      "takes": 2
+    },
+    {
+      "id": "b5",
+      "card": "c1-nhtp.1907_",
+      "kind": "bridge",
+      "text": "Cả hội con cái kéo vào điểm danh: mẹ tui cũng y chang, gọi điện giọng như báo tin buồn, hóa ra là gà chết.",
+      "takes": 2
+    },
+    {
+      "id": "cta",
+      "card": "c1-nhtp.1907_",
+      "kind": "bridge",
+      "text": "Mẹ bạn từng báo tin kiểu gì làm bạn hết hồn? Kể nghe đi, câu hay nhất lên tập sau.",
+      "takes": 2
+    }
+  ]
+}

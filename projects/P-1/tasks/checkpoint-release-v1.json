@@ -1,0 +1,12 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-019", "owner_role": "launch", "execution": "waiting_user"},
+  "next_action": "The user listens to and reviews release-01-v1 (mom flood chat, biu_sub70) and release-02-v1 ('mẹ chuyển tiền' remake). Upload files are final.mp4 (-14 LUFS); packages are in artifacts/release/<id>/package.md. Optional quality pass when the PC screen stays on: recapture the Full HP card and the release-02 cards at 1080px (360px clone, zoom 3), then rebuild with make-release.sh (audio is cached). The user publishes by hand.",
+  "unresolved": [
+    "Human listening pending; whisper flags q1 'ba' read as '3' and 'hả' as 'hà' in release-01 (meaning intact)",
+    "Release-02 cards are older wide captures (text smaller); release-01 Full HP card is upscaled from 530px",
+    "Chrome screenshots time out intermittently while the PC screen is off or locked (remote session); keep-awake does not prevent display-off",
+    "Release gate OPEN items: takedown email, Freesound receipts, AI disclosure choice, handle claiming",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

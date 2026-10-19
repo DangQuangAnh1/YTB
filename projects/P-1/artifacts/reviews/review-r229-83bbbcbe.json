@@ -1,0 +1,41 @@
+{
+  "artifact_ids": [
+    "A-148",
+    "A-149",
+    "A-150"
+  ],
+  "reviewer": "PM follow-up on the independent review of release-07-v1 (paperwork fix and upload-copy check); no human viewing or listening",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "meme_why_tags",
+      "status": "passed",
+      "detail": "All 6 reactions in p16 now carry beat.why or micro.why, copied from the independent review (tasks/review-overnight-release-07-v1.json). The render is unchanged because why is metadata only.",
+      "evidence_path": "artifacts/content/release-07-lines-v1.json"
+    },
+    {
+      "name": "independent_review",
+      "status": "passed",
+      "detail": "The independent review rated release-07-v1 pass (avg 8.4) and picked it as the best Short to upload today; its only blocking item was the why tags, now closed.",
+      "evidence_path": "tasks/review-agents-overnight-v1.md"
+    },
+    {
+      "name": "upload_copy",
+      "status": "passed",
+      "detail": "upload-hevc-a.mp4 is 9.89 MB HEVC from final.mp4, 37.2s, -14.3 LUFS, -1.4 dBTP (re-measured).",
+      "evidence_path": "artifacts/render/release-07-v1/final.mp4"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "Not listened to by a human. Final-mix whisper WER is 0.068."
+    }
+  ],
+  "artifact_hashes": {
+    "A-148": "487c5be250848ba7c347b82222262053176b397393cca455250e7c148695ebcf",
+    "A-149": "ff7a6b23ec33999926582dd0cc93e39e288989c706d5e1cc0424a974784fbfff",
+    "A-150": "d5ace68df0df5bb216696ed322ee83880797773659cb42e89fb0e1aab3062dfe"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-18T01:42:04.509026+00:00"
+}

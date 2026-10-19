@@ -1,0 +1,127 @@
+{
+  "format": "v2",
+  "media": "release-10",
+  "mood": "hai_v2",
+  "source_handle": "hoangphuc.ig",
+  "hook": null,
+  "cta": null,
+  "chains": [
+    [
+      "c1-_nghilee.zs_",
+      "c1a-hoangphuc.ig"
+    ],
+    [
+      "c3-wn_lein",
+      "c3a-hoangphuc.ig"
+    ]
+  ],
+  "cast": {
+    "narrator": "Adam bựa",
+    "hoangphuc.ig": "Thiện Minh",
+    "_nghilee.zs_": "Ngọc Huyền",
+    "huali_nh": "Mai Anh",
+    "wn_lein": "Trúc Ly"
+  },
+  "cast_note": "The post text gives no gender cue, so every voice is a creative guess. They alternate male and female so neighbouring cards sound different.",
+  "note": "Batch 2026-10-19 #2 (scout run 2, pick #6). Comment-montage format: the question post, then the best answers, ending on the author's own self-own. Text-only cards.",
+  "lines": [
+    {
+      "id": "p1",
+      "card": "post-hoangphuc.ig",
+      "kind": "read",
+      "text": "Tao thật sự thắc mắc, làm thế nào mà bọn mày có người yêu hay vậy?",
+      "fx": {
+        "type": "push",
+        "strength": 0.06
+      }
+    },
+    {
+      "id": "a1",
+      "card": "c1-_nghilee.zs_",
+      "kind": "bridge",
+      "text": "Và câu trả lời được nhiều tim nhất là:"
+    },
+    {
+      "id": "c1",
+      "card": "c1-_nghilee.zs_",
+      "kind": "read",
+      "text": "Độc thân là do gia tiên đang bảo vệ bạn khỏi những điều tệ hại.",
+      "beat": {
+        "big": {
+          "reaction": "clap",
+          "enter": "pop",
+          "sfx": "tada",
+          "pause": 1.6,
+          "label": "Chân lý",
+          "label_style": "meme",
+          "why": "wise answer"
+        }
+      }
+    },
+    {
+      "id": "c1a",
+      "card": "c1a-hoangphuc.ig",
+      "kind": "read",
+      "text": "Nếu đúng vậy thì tuyệt quá nhỉ."
+    },
+    {
+      "id": "a2",
+      "card": "c2-huali_nh",
+      "kind": "bridge",
+      "text": "Có người còn phân tích hẳn hoi:"
+    },
+    {
+      "id": "c2",
+      "card": "c2-huali_nh",
+      "kind": "read",
+      "text": "Hai lí do chủ yếu. Một là gia tiên nhà mình chưa cho yêu. Hai là gia tiên nhà người ta chưa chấm mình. Còn không phải hai cái đó, thì do thực lực. Ế bằng thực lực.",
+      "beat": {
+        "big": {
+          "reaction": "skull",
+          "enter": "slam",
+          "fx": "zoom",
+          "sfx": "boom",
+          "pause": 1.9,
+          "label": "Thực lực",
+          "label_style": "meme",
+          "why": "ế bằng thực lực"
+        }
+      }
+    },
+    {
+      "id": "a3",
+      "card": "c3-wn_lein",
+      "kind": "bridge",
+      "text": "Còn đây là bí kíp của một bạn khác:"
+    },
+    {
+      "id": "c3",
+      "card": "c3-wn_lein",
+      "kind": "read",
+      "text": "Tao ngồi im, nó tự tìm tới tao."
+    },
+    {
+      "id": "a4",
+      "card": "c3a-hoangphuc.ig",
+      "kind": "bridge",
+      "text": "Chủ bài đáp lại một câu đau lòng:"
+    },
+    {
+      "id": "c3a",
+      "card": "c3a-hoangphuc.ig",
+      "kind": "read",
+      "text": "Còn tao ngồi im, nó tự tìm tới người khác.",
+      "beat": {
+        "big": {
+          "reaction": "sob",
+          "enter": "rise",
+          "sfx": "womp",
+          "pause": 2.1,
+          "label": "Đau",
+          "label_style": "meme",
+          "why": "ending self-own"
+        }
+      }
+    }
+  ]
+}

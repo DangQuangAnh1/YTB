@@ -1,0 +1,76 @@
+{
+  "media": "prototype-07",
+  "mood": "buon",
+  "source_handle": "karis.like.sleep7",
+  "hook": "những câu văn đọc xong phải lặng đi một chút",
+  "cta": "câu nào chạm vào bạn nhất?",
+  "note": "Episode p07: https://www.threads.com/@karis.like.sleep7/post/DTccSE6Ei0c (11,6K likes, 1,2K replies, 13/01/2026). bridge = original narration; read = card text with spoken normalization only. Selection by the Content role under plan v6 standing authorization (no separate Giữ/Bỏ gate).",
+  "lines": [
+    {
+      "id": "intro",
+      "card": "post-karis.like.sleep7",
+      "kind": "bridge",
+      "text": "Có một bài đăng xin mọi người để lại những câu văn hay nhất từng đọc. Hơn một nghìn người đã trả lời."
+    },
+    {
+      "id": "c1",
+      "card": "c1-trgmn_.ig",
+      "kind": "read",
+      "text": "Viết cho ta, những người quen thành lạ. Vẫn là mùa hạ, nhưng không còn chúng ta."
+    },
+    {
+      "id": "c1r",
+      "card": "c1r-karis.like.sleep7",
+      "kind": "read",
+      "text": "Văn đẹp mà buồn quá."
+    },
+    {
+      "id": "c2",
+      "card": "c2-_sue.le",
+      "kind": "read",
+      "text": "Hoa cầm trên tay vẫn là của đất. Người giữ trong lòng, long trời lở đất, vẫn là người dưng."
+    },
+    {
+      "id": "b3",
+      "card": "c3-loveislove.197_",
+      "kind": "bridge",
+      "text": "Có người lại nhớ nhà."
+    },
+    {
+      "id": "c3",
+      "card": "c3-loveislove.197_",
+      "kind": "read",
+      "text": "Nỗi nhớ nhà sẽ khiến bạn nhận ra rằng, chúng ta luôn có thể yêu thương từ một nơi rất xa."
+    },
+    {
+      "id": "c4",
+      "card": "c4-_pon.05",
+      "kind": "read",
+      "text": "Chớp mắt một cái thôi, cũng đã qua nửa đời người. Hà cớ gì phải phí thời giờ, giận hờn một điều gì đó xa xôi."
+    },
+    {
+      "id": "c5",
+      "card": "c5-nthtrann20",
+      "kind": "read",
+      "text": "Có những ngày vất vả, tôi và cuộc đời tự tha thứ cho nhau."
+    },
+    {
+      "id": "b6",
+      "card": "c6-thukwon0512",
+      "kind": "bridge",
+      "text": "Và câu cuối, dành cho những ngày bạn thấy mình chạm đáy."
+    },
+    {
+      "id": "c6",
+      "card": "c6-thukwon0512",
+      "kind": "read",
+      "text": "Khi cuộc đời của bạn chạm đáy, thì bước nào cũng là bước lên."
+    },
+    {
+      "id": "cta",
+      "card": "c6-thukwon0512",
+      "kind": "bridge",
+      "text": "Câu nào chạm vào bạn nhất?"
+    }
+  ]
+}

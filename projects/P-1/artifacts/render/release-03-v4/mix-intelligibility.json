@@ -1,0 +1,79 @@
+{
+ "video": "release-03-v4",
+ "overall_wer": 0.056,
+ "per_line": [
+  {
+   "id": "cold",
+   "wer": 0.316,
+   "script": "Giữa ban ngày, một bé mèo bị bắt quả tang trên mái nhà, miệng còn ngậm nguyên tang vật.",
+   "heard": "ban ngày, một bé mèo bị bắt quả tăng trên máy nhà, nguyên còn ngậm nguyên tăng vật. May"
+  },
+  {
+   "id": "q1",
+   "wer": 0.375,
+   "script": "May chụp kịp tấm hình làm bằng chứng.",
+   "heard": "trục kịp tấm hình làm bằng chứng. Vong"
+  },
+  {
+   "id": "b1",
+   "wer": 0.143,
+   "script": "Vòng cổ đỏ, ánh mắt bình thản. Nhìn là biết không phải lần đầu.",
+   "heard": "cổ đỏ, ánh mắt bình thản, nhìn là biết không phải lần đầu. Cứ"
+  },
+  {
+   "id": "b2",
+   "wer": 0.2,
+   "script": "Cư dân mạng lập tức truy ra kẻ chủ mưu.",
+   "heard": "dân mạng lập tức truy ra kẻ chủ mưu. Mày"
+  },
+  {
+   "id": "q2",
+   "wer": 0.222,
+   "script": "Mày huấn luyện mèo trộm đồ lót phải không?",
+   "heard": "huấn luyện mèo trộm đồ lot phải không?"
+  },
+  {
+   "id": "b3",
+   "wer": 0.235,
+   "script": "Rồi nạn nhân xuất hiện: sáng nay vừa phơi xong, quay đi một cái là bốc hơi.",
+   "heard": "xuất hiện, sáng nay vừa phơi xong quay đi một cái là bốc hơi. Nhưng"
+  },
+  {
+   "id": "b4",
+   "wer": 0.158,
+   "script": "Nhưng giả thuyết hay nhất là: mèo không trộm, mèo đang đi mai mối, kiếm người yêu cho chủ.",
+   "heard": "giả thuyết hay nhất là mèo không trộm, mèo đang đi mai mối, kiếm người yêu cho chủ. Vì từng"
+  },
+  {
+   "id": "b5",
+   "wer": 0.087,
+   "script": "Vì từng có bé chó trộm đồ nhà hàng xóm, anh chủ mang sang trả, thế là hai người xin số nhau luôn.",
+   "heard": "từng có bé chó trộm đồ nhà hàng xóm, anh chủ mang sang trả, thế là hai người xin số nhau"
+  },
+  {
+   "id": "b6",
+   "wer": 0.286,
+   "script": "Đúng lúc đó, chủ mưu tự thú.",
+   "heard": "lúc đó chủ mưu tự thú. Mèo"
+  },
+  {
+   "id": "q3",
+   "wer": 0.222,
+   "script": "Mèo nhà tao đấy, sorry nha, tao bảo nó làm thế đấy thôi, xóa ảnh đi hộ tao.",
+   "heard": "nhà tao đấy, saurina, tao bảo nó làm thế đấy thôi, xóa ảnh đi hộ"
+  },
+  {
+   "id": "b7",
+   "wer": 0.143,
+   "script": "Tự thú xong còn đòi xóa bằng chứng. Đúng là mèo nào chủ nấy.",
+   "heard": "thú xong còn đòi xóa bằng chứng, đúng là mèo nào chủ nấy. Boss"
+  },
+  {
+   "id": "cta",
+   "wer": 0.053,
+   "script": "Boss nhà bạn từng tha món gì về nhà chưa? Kể nghe đi, câu hay nhất lên tập sau.",
+   "heard": "nhà bạn từng tha món gì về nhà chưa, kể nghe đi, câu hay nhất lên tập sau."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

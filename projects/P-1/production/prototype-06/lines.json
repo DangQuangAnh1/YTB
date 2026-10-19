@@ -1,0 +1,138 @@
+{
+  "voice": "Thiện Minh",
+  "note": "kind=bridge is original narration; kind=read is the card text with spoken normalization only (t->tui, cf->cà phê, ae->anh em, laughter marks dropped). sfx is a cue placed at the end of the line. beat.sfx entries: {type, at: \"pre\"|\"end\"}; beat.reaction is a key in mood-presets.json reaction_library. Card-entry whoosh and reaction pop come from the preset.",
+  "lines": [
+    {
+      "id": "intro",
+      "card": "post-bittercake_swee",
+      "kind": "bridge",
+      "text": "Mẹ vừa chuyển tiền tiêu tháng này, bạn này lên Threads nhờ cả mạng nghĩ giùm một câu cảm ơn cho ngầu."
+    },
+    {
+      "id": "b1",
+      "card": "c1-benicutexiu_29",
+      "kind": "bridge",
+      "text": "Câu được thả tim nhiều nhất là."
+    },
+    {
+      "id": "c1",
+      "card": "c1-benicutexiu_29",
+      "kind": "read",
+      "text": "Nào rảnh cà phê."
+    },
+    {
+      "id": "c1r",
+      "card": "c1r-tn.qang",
+      "kind": "read",
+      "text": "Bà cố nội này.",
+      "beat": {
+        "reaction": "rofl",
+        "sfx": [
+          {
+            "type": "laugh",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2",
+      "card": "c2-deertomars",
+      "kind": "bridge",
+      "text": "Có người còn sửa luôn ca dao."
+    },
+    {
+      "id": "c2a",
+      "card": "c2-deertomars",
+      "kind": "read",
+      "text": "Công cha như núi Thái Sơn, nghĩa mẹ như nước trong nguồn chảy ra. Một lòng thờ mẹ kính cha."
+    },
+    {
+      "id": "c2b",
+      "card": "c2-deertomars",
+      "kind": "read",
+      "text": "Tiền con con giữ, tiền mẹ con xin.",
+      "pause_before": 0.45,
+      "beat": {
+        "reaction": "monkey-puppet",
+        "sfx": [
+          {
+            "type": "scratch",
+            "at": "pre"
+          },
+          {
+            "type": "ting",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "card": "c3-victoryy01011",
+      "kind": "bridge",
+      "text": "Bản ngắn gọn có vần thì đây."
+    },
+    {
+      "id": "c3",
+      "card": "c3-victoryy01011",
+      "kind": "read",
+      "text": "Tiền đã về ví, lòng cho về nhà, cảm ơn mẹ nha!"
+    },
+    {
+      "id": "b4",
+      "card": "c5-nhincaigi4142",
+      "kind": "bridge",
+      "text": "Phe cổ trang cũng không chịu thua."
+    },
+    {
+      "id": "c5",
+      "card": "c5-nhincaigi4142",
+      "kind": "read",
+      "text": "Tạ ơn mẫu thân đã ban thưởng, hài nhi xin phép cáo lui.",
+      "beat": {
+        "reaction": "skull",
+        "sfx": [
+          {
+            "type": "boing",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5",
+      "card": "c4-myracle404",
+      "kind": "bridge",
+      "text": "Nhưng đỉnh nhất là người không có mẫu cảm ơn, mà có sẵn mẫu xin tiền."
+    },
+    {
+      "id": "c4",
+      "card": "c4-myracle404",
+      "kind": "read",
+      "text": "Mẹ ơi mẹ đẹp như tiên, mẹ thêm dấu huyền mẹ gửi cho con.",
+      "beat": {
+        "reaction": "money",
+        "sfx": [
+          {
+            "type": "laugh",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6",
+      "card": "c6-_ym.art_17",
+      "kind": "read",
+      "text": "Bác đừng xoá post nhé, để mỗi lần xin tiền tui vào lấy một câu."
+    },
+    {
+      "id": "cta",
+      "card": "c6-_ym.art_17",
+      "kind": "bridge",
+      "text": "Còn bạn, sẽ rep mẹ câu nào?"
+    }
+  ],
+  "mood": "hai"
+}

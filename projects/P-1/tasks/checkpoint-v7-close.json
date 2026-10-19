@@ -1,0 +1,12 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-015", "owner_role": "pm", "execution": "waiting_user"},
+  "next_action": "Report the v7 cycle. A-097 prototype-08 (hài, chains, audience 6.5/10) and A-100 prototype-09 (ấm áp, Ngọc Linh, audience 7/10) both have the verdict needs_revision. Proposed v8 (user to choose): cold-open punchline at 0–1s; fix the avatar blur halo, collapsed-strip cut lines, header overlap and caption orphans; topic-fit backgrounds per episode; Scout bank of 15–20 posts with payoff comments of 300+ likes; listen and re-voice the flagged words (có nắng, quen); bring verbatim to 35% or less with real commentary; release gate decisions (handles/consent, channel name).",
+  "unresolved": [
+    "Human listening pending; whisper flags 'có nắng' as 'con nắng' (p08 q1) and 'quen' as 'quên' (p09 b5)",
+    "Rights protocol: verbatim 36%/39% exceeds the 35% cap; handles visible without consent; minors check for p08; Freesound receipts; VieNeu watermark extra; the user accepts copyright risk for private drafts",
+    "Scout today-coverage limited; the Chrome workaround (new window) works; payoff comments in picks have low likes",
+    "Placeholder channel handle @hongthreads contains 'Threads'",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

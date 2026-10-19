@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-feedback-v7.md",
+  "excerpt": "Phần bản quyền hãy lưu ý kĩ ... tạo 1 chức vụ tìm các bài thờ tét hot hôm nay xong gửi link bài để tại video ... Giọng đọc Ngọc linh số 2 ... tăng 0.1 tốc độ ... hãy thử tạo ra 2 video với 2 chủ đề nữa",
+  "plan": {
+    "path": "plans/plan-v7-r136-4a490e00.md",
+    "sha256": "28042007fddf4a5e45904683da816f5b52a5e0be44054616160b3446a30c099e",
+    "revision": 7
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-16T19:08:33.367674+00:00"
+}

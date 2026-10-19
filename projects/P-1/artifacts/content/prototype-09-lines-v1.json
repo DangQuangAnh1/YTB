@@ -1,0 +1,79 @@
+{
+  "media": "prototype-09",
+  "mood": "am_ap",
+  "source_handle": "accclonecuaciti",
+  "hook": "lớn rồi mới hiểu vì sao mẹ “không kén ăn”",
+  "cta": "món nào bạn chỉ ăn khi về nhà?",
+  "note": "Episode p09 (Scout #2). Source https://www.threads.com/@accclonecuaciti/post/DdTJhN-iYBB (36.5K likes, 703 replies, 15/09/2026). Rights protocol v1, as in p08. The q2 quote is cut with an ellipsis but keeps the exact original words.",
+  "chains": [
+    [
+      "c1-thi.enthien224",
+      "c1a-leminhdao158"
+    ]
+  ],
+  "lines": [
+    {
+      "id": "intro",
+      "card": "post-accclonecuaciti",
+      "kind": "bridge",
+      "text": "Có một câu khiến hơn ba mươi sáu nghìn người giật mình nhận ra chính mình."
+    },
+    {
+      "id": "q1",
+      "card": "post-accclonecuaciti",
+      "kind": "read",
+      "text": "Tôi đã hiểu tại sao mẹ tôi không kén ăn. Lớn rồi đi chợ, món gì tôi không ăn thì tôi sẽ không mua."
+    },
+    {
+      "id": "b2",
+      "card": "c1-thi.enthien224",
+      "kind": "bridge",
+      "text": "Hóa ra cả một thế hệ lớn lên mà không biết mình thích ăn gì."
+    },
+    {
+      "id": "q2",
+      "card": "c1-thi.enthien224",
+      "kind": "read",
+      "text": "Tôi đã không rõ lắm tôi thích ăn gì, ghét ăn gì, cho đến khi sống một mình. Đã rất lâu rồi chưa ăn cá."
+    },
+    {
+      "id": "b3",
+      "card": "c1a-leminhdao158",
+      "kind": "bridge",
+      "text": "Hội không ăn cá kéo nhau vào điểm danh đông đủ, có bạn còn tự nhận mình là trai đẹp."
+    },
+    {
+      "id": "b4",
+      "card": "c2-huyhoang21185",
+      "kind": "bridge",
+      "text": "Nhưng rồi có một bình luận làm cả topic chùng xuống."
+    },
+    {
+      "id": "q3",
+      "card": "c2-huyhoang21185",
+      "kind": "read",
+      "text": "Lớn rồi mới hiểu, không phải mẹ không kén ăn, mà hồi xưa mẹ có được quyền lựa đâu.",
+      "beat": {
+        "reaction": "tears",
+        "sfx": [
+          {
+            "type": "ting",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5",
+      "card": "c2-huyhoang21185",
+      "kind": "bridge",
+      "text": "Mẹ không phải không có món ghét. Mẹ chỉ quen đặt khẩu vị của cả nhà lên trước của mình."
+    },
+    {
+      "id": "cta",
+      "card": "c2-huyhoang21185",
+      "kind": "bridge",
+      "text": "Món nào bạn chỉ ăn khi về nhà với mẹ?"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-016", "owner_role": "pm", "execution": "waiting_user"},
+  "next_action": "The user watches A-106 prototype-08-v2 and A-108 prototype-09-v2 (phone-1080p.mp4 copies). Collect feedback by ear: voices, music, 'có nắng' clarity, pacing. Open user decisions before any release: handles/consent, channel name, minors check for p08. Next production ideas: Scout bank of 15–20 posts with strong payoff comments, a series template ('Lớn Rồi Mới Hiểu', 'Mật Mã Hội Bạn'), drama/buồn backgrounds.",
+  "unresolved": [
+    "Human listening pending for all P-1 drafts",
+    "Release gate: consent or anonymized handles; minors check for p08; channel name; Freesound receipts; VieNeu watermark extra",
+    "Simulated reviewers did not re-review v2; v2 fixes self-reviewed from frames and automated checks",
+    "Scout 'today' coverage depends on the logged-in Chrome window being visible (new-window workaround documented)",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

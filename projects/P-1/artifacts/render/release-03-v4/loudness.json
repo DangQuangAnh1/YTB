@@ -1,0 +1,7 @@
+{
+ "file": "artifacts\\render\\release-03-v4\\final.mp4",
+ "before_lufs": -19.62,
+ "after_lufs": -14.21,
+ "after_true_peak_db": -1.49,
+ "target": "I=-14:TP=-1.5:LRA=11"
+}

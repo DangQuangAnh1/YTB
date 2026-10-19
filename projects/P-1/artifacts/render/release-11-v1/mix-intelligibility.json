@@ -1,0 +1,49 @@
+{
+ "video": "release-11-v1",
+ "overall_wer": 0.056,
+ "per_line": [
+  {
+   "id": "p1",
+   "wer": 0.188,
+   "script": "Bó hoa đầu tiên, và bó hoa sau khi đã được đào tạo của anh nhà.",
+   "heard": "Bó hoa đầu tiên và bó hoa sau khi đã được đào tạo của anh Nha Bó đầu"
+  },
+  {
+   "id": "a1",
+   "wer": 0.25,
+   "script": "Bó đầu: giấy đen, hoa vàng hoa đỏ, kèm câu: ưng chưa!",
+   "heard": "giấy đen, hoa vàng, hoa đỏ, kèm câu, ưng chưa? Quan"
+  },
+  {
+   "id": "c1",
+   "wer": 0.125,
+   "script": "Quan trọng là cái sự tự tin, ưng chưa, không lẫn đi đâu được luôn á.",
+   "heard": "trọng là cái sự tự tin ưng chưa, không lẫn đi đâu được luôn á Hành"
+  },
+  {
+   "id": "c2",
+   "wer": 0.6,
+   "script": "Thành quả đào tạo sau vài năm. Mấy bó đầu phải gọi là sến rện.",
+   "heard": "vài năm, bấy bó đầu phải gọi là sinh dậy Nhưng"
+  },
+  {
+   "id": "a2",
+   "wer": 0.5,
+   "script": "Nhưng bình luận nhiều tim nhất lại là:",
+   "heard": "nhiều tim nhất lại là Đây"
+  },
+  {
+   "id": "c3",
+   "wer": 0.154,
+   "script": "Đây là bó hoa sau kết hôn. Mong bạn chấp nhận thực tế.",
+   "heard": "là bó hoa sau kết hôn, mong bạn chấp nhận thực tế Kèm"
+  },
+  {
+   "id": "a3",
+   "wer": 0.111,
+   "script": "Kèm ảnh: một bó hoa gấp toàn bằng tiền.",
+   "heard": "ảnh, một bó hoa gấp toàn bằng tiền"
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

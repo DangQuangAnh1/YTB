@@ -18,3 +18,8 @@ evaluations/runs/
 *.sqlite-*
 auth.json
 cookies.txt
+# encoder temp files (x264/x265 two-pass stats)
+x264pass*
+*.mbtree*
+*.cutree
+projects/**/artifacts/render/**/C

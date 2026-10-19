@@ -1,0 +1,13 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-013", "owner_role": "pm", "execution": "waiting_user"},
+  "next_action": "Report the v6 cycle to the user: A-080 prototype-06 v3 (hài, engine-v1, audience 7/10) and A-083 prototype-07 v1 (buồn, 5.5/10); both review verdicts are needs_revision. Proposed v7, which needs a user decision: cold-open hooks; enlarge key cards and hide half-cut stack lines; listen to and re-voice flagged lines (c4 'tiên', p07 c2/c4); B ≤45s with the 1.4K quote first; replace Monkey Puppet with a Fluent/own sticker; raise original commentary to ≥50% of spoken time; pick a channel name (not 'Threads') and persona; privacy protocol (blur face avatars, credits, takedown).",
+  "unresolved": [
+    "Human listening pending for v3 and p07; whisper flags possible tone errors (tiên/tiền pun, giận hờn, lở đất)",
+    "Monetization blockers per SEO review: reused-content risk (narration 40%/27% original), Monkey Puppet, usernames/avatars under VN Law 91/2025, literary quote attribution",
+    "Music/SFX CC0 per Openverse metadata only; Freesound pages not verified; VieNeu Turbo licence wording conflict (FAQ vs roadmap)",
+    "Channel name/handle @hongthreads is a placeholder; avatar placeholder",
+    "Threads screenshots public-use rights unresolved; private demo only",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

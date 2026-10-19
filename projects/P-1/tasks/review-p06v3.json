@@ -1,0 +1,13 @@
+{
+  "artifact_ids": ["A-080"],
+  "reviewer": "PM consolidation of two simulated reviewer agents (Gen Z audience persona; SEO/marketing) plus automated checks. Not human; agents saw frames and text only.",
+  "mode": "self_review",
+  "checks": [
+    {"name": "media_decode", "status": "passed", "detail": "Full ffmpeg decode exit 0; 1080x1920 H.264/AAC 54.47s; peak 0.764.", "evidence_path": "artifacts/render/prototype-06-v3/technical-qa.json"},
+    {"name": "brief_alignment", "status": "passed", "detail": "The user's v6 brief was a less AI-like look and a per-mood voice. Real Pexels footage, grain, handwritten hook and TikTok Sans pill captions replace the gradient, Arial and yellow-stroke look, and the voice changed to Adam bựa (hài). The audience reviewer judged it much less AI-looking than v2.", "evidence_path": "tasks/review-agents-v6.md"},
+    {"name": "visual_review", "status": "failed", "detail": "Key cards are too small (opening post about 22px, 'nào rảnh cf' about 26px). Collapsed stack cards show half-cut text lines. Captions end on single-word fragments. Placeholder avatar. The handle may sit under the TikTok top UI. Monkey Puppet sticker is a High monetization risk.", "evidence_path": "tasks/review-agents-v6.md"},
+    {"name": "audio_review", "status": "unverified", "detail": "No human listening. Final-mix whisper WER is 0.092 (v2 was 0.135). Possible mispronunciation of 'tiên' as 'tiền' (c4 pun), 'rảnh', 'ca dao' and 'rep'. SFX density (16 cues) is not judged by ear."},
+    {"name": "hook_retention", "status": "failed", "detail": "The first punchline lands at 8.7s and the opening triples the same sentence. Both reviewers recommend a cold open at 0.0s.", "evidence_path": "tasks/review-agents-v6.md"},
+    {"name": "monetization_policy", "status": "failed", "detail": "Original narration is about 40% of spoken time, which the SEO reviewer rates a Med-High YouTube reused-content risk. Usernames and avatars are visible (Vietnam Law 91/2025). Not a release decision; v0 publishes nothing.", "evidence_path": "tasks/review-agents-v6.md"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-012", "owner_role": "pm", "execution": "waiting_user"},
+  "next_action": "User watches artifacts/render/prototype-06-v2/draft.mp4 (49.4s, mood preset 'hai': comic SFX + 4 punchline reactions). Collect feedback on SFX/meme density, music ducking and v1 pronunciation flags. Next options: test a 'buon' video to validate mood switching; build a license-tracked asset library (Kenney CC0 SFX, Incompetech/ACE-Step music, Fluent emoji, own mascot stickers).",
+  "unresolved": [
+    "Human listening and creative acceptance of prototype-06 v2 pending; v1 TTS pronunciation flags still open",
+    "Monkey Puppet meme rights unknown (private only); Fluent emoji MIT",
+    "Public-use rights for Threads screenshots unresolved; private demo only",
+    "Music/SFX CC0 per Openverse metadata; Freesound API commercial terms case-by-case — re-curate before monetizing",
+    "Mood presets buon/drama/am_ap defined but untested; their music not downloaded",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

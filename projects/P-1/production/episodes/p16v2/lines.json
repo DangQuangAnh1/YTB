@@ -1,0 +1,32 @@
+{
+  "format": "v2",
+  "media": "release-07",
+  "mood": "hai_v2",
+  "source_handle": "m0ichanchan",
+  "hook": null,
+  "cta": null,
+  "chains": [
+    ["c1-dv.hqang_", "c1a-user171107374920", "c1b-m0ichanchan"]
+  ],
+  "note": "Format v2 re-cut of release-07 (tasks/user-decision-format-v2.md; research/competitor-shorts-v1.md). The card text is read verbatim (teen-code expanded), with at most one short aside per card placed after the quote. There is no narrator lead-in, no hook strip, no spoken CTA and no outro; the video ends on the mother's reply plus one big reaction. Big beats only.",
+  "lines": [
+    {"id": "p1", "card": "post-m0ichanchan", "kind": "read", "takes": 3,
+     "text": "Lấy nhau mười chín năm, và bố tao nhắn cho mẹ tao kiểu:"},
+    {"id": "p2", "card": "post-m0ichanchan", "kind": "read", "takes": 4,
+     "text": "Em ăn cơm chưa."},
+    {"id": "a1", "card": "post-m0ichanchan", "kind": "bridge", "takes": 3,
+     "text": "Nhưng nhìn kỹ: mẹ tắt thông báo của bố luôn rồi."},
+    {"id": "c1", "card": "c1-dv.hqang_", "kind": "read", "takes": 3,
+     "text": "Sao mẹ bạn lại tắt thông báo tin nhắn của bố thế?"},
+    {"id": "c1a", "card": "c1a-user171107374920", "kind": "read", "takes": 4,
+     "text": "Chắc năm phút hỏi em ăn cơm chưa một lần.",
+     "beat": {"big": {"reaction": "joy", "sfx": "laugh", "pause": 1.8, "why": "punchline: 5 phút hỏi 1 lần"}}},
+    {"id": "c1b", "card": "c1b-m0ichanchan", "kind": "read", "takes": 3,
+     "text": "Ê, tắt của tao nữa. Mà không hiểu sao, nhắn cái là mẹ vẫn biết mà rep luôn."},
+    {"id": "a2", "card": "c1b-m0ichanchan", "kind": "bridge", "takes": 3,
+     "text": "Mười chín năm, vẫn rep trong một nốt nhạc."},
+    {"id": "c2", "card": "c2-m0ichanchan", "kind": "read", "takes": 4,
+     "text": "Lúc sau mẹ tao rep: em ăn rồi.",
+     "beat": {"big": {"reaction": "melting", "sfx": "tada", "pause": 2.0, "label": "Iu thật sự", "why": "ending: mẹ rep em ăn rồi"}}}
+  ]
+}

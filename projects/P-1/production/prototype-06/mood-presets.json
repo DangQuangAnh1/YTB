@@ -1,0 +1,61 @@
+{
+  "note": "The Content role sets lines.json `mood` per video; the user can override it. Each preset drives music, SFX, reactions, accent colour and card motion. Music candidates for buon/drama/am_ap were found on Openverse (CC0 per metadata) but not downloaded yet; fetch and verify on first use. Before monetizing, prefer locally curated assets with verified licenses (Kenney CC0, Incompetech CC-BY 4.0, ACE-Step 1.5 MIT outputs) and add them to the asset library with provenance; the Freesound API terms leave commercial use case by case.",
+  "presets": {
+    "hai": {
+      "label": "Vui / hài",
+      "music": {"file": "audio/music.mp3", "under_voice": 0.11, "between": 0.26, "under_sfx": 0.07},
+      "sfx_allowed": ["whoosh", "pop", "boing", "laugh", "ting", "scratch"],
+      "card_whoosh": true,
+      "reactions": {"enabled": true, "max": 4, "min_gap_s": 5, "show_s": 1.7},
+      "accent": "#facc15",
+      "spring": {"damping": 12, "stiffness": 170},
+      "background": ["#0d1117", "#1a1424", "#0f1a1a"]
+    },
+    "buon": {
+      "label": "Buồn / tâm sự",
+      "music": {"candidates": [
+        {"title": "Sad Piano Background Music", "creator": "guitarman213", "landing": "https://freesound.org/people/guitarman213/sounds/707060", "license": "CC0 (Openverse metadata)"},
+        {"title": "Komiku - Sad walk with sad piano", "creator": "Komiku", "landing": "https://commons.wikimedia.org/w/index.php?curid=90266649", "license": "CC0 (Openverse metadata)"}],
+        "under_voice": 0.09, "between": 0.2, "under_sfx": 0.09},
+      "sfx_allowed": ["whoosh_soft"],
+      "card_whoosh": false,
+      "reactions": {"enabled": false},
+      "accent": "#93c5fd",
+      "spring": {"damping": 26, "stiffness": 70},
+      "background": ["#0b1020", "#141a2a", "#0c1418"]
+    },
+    "drama": {
+      "label": "Drama / căng",
+      "music": {"candidates": [
+        {"title": "CINEMATIC BG ATMOSPHERIC #0055H", "creator": "metrostock99", "landing": "https://freesound.org/people/metrostock99/sounds/350955", "license": "CC0 (Openverse metadata)"},
+        {"title": "Exploring Dark Places - Atmosphere", "creator": "TheNordicDawn", "landing": "https://freesound.org/people/TheNordicDawn/sounds/519181", "license": "CC0 (Openverse metadata)"}],
+        "under_voice": 0.1, "between": 0.24, "under_sfx": 0.06},
+      "sfx_allowed": ["boom", "riser", "scratch"],
+      "card_whoosh": true,
+      "reactions": {"enabled": true, "max": 1, "min_gap_s": 8, "show_s": 1.4},
+      "accent": "#f87171",
+      "spring": {"damping": 18, "stiffness": 120},
+      "background": ["#140b0b", "#1c1012", "#0f0f14"]
+    },
+    "am_ap": {
+      "label": "Ấm áp / dễ thương",
+      "music": {"candidates": [
+        {"title": "Tender Moments Acoustic Loop C", "creator": "BaDoink", "landing": "https://freesound.org/people/BaDoink/sounds/548174", "license": "CC0 (Openverse metadata)"}],
+        "under_voice": 0.1, "between": 0.24, "under_sfx": 0.08},
+      "sfx_allowed": ["ting", "pop"],
+      "card_whoosh": false,
+      "reactions": {"enabled": true, "max": 1, "min_gap_s": 8, "show_s": 1.6, "kinds": ["emoji"]},
+      "accent": "#fda4af",
+      "spring": {"damping": 20, "stiffness": 100},
+      "background": ["#120d14", "#1a1418", "#10140f"]
+    }
+  },
+  "reaction_library": {
+    "rofl": {"kind": "emoji", "file": "reactions/rofl.png", "tags": ["cười lăn", "bà cố nội", "lầy"], "source": "microsoft/fluentui-emoji-animated: Rolling on the floor laughing", "license": "MIT", "commercial_ok": true},
+    "money": {"kind": "emoji", "file": "reactions/money.png", "tags": ["tiền", "xin tiền", "ham tiền"], "source": "microsoft/fluentui-emoji-animated: Money-mouth face", "license": "MIT", "commercial_ok": true},
+    "smirk": {"kind": "emoji", "file": "reactions/smirk.png", "tags": ["cà khịa", "nhếch mép"], "source": "microsoft/fluentui-emoji-animated: Smirking face", "license": "MIT", "commercial_ok": true},
+    "skull": {"kind": "emoji", "file": "reactions/skull.png", "tags": ["chết cười", "cringe", "xỉu"], "source": "microsoft/fluentui-emoji-animated: Skull", "license": "MIT", "commercial_ok": true},
+    "rolleyes": {"kind": "emoji", "file": "reactions/rolleyes.png", "tags": ["cạn lời", "đảo mắt"], "source": "microsoft/fluentui-emoji-animated: Face with rolling eyes", "license": "MIT", "commercial_ok": true},
+    "monkey-puppet": {"kind": "meme", "file": "reactions/monkey-puppet.jpg", "tags": ["liếc", "ngại ngùng", "bẻ lái"], "source": "https://imgflip.com/memetemplate/Monkey-Puppet (reused from media/prototype-05)", "license": "unknown (Imgflip grants no rights; still from TV)", "commercial_ok": false}
+  }
+}

@@ -1,0 +1,8 @@
+{"artifact_ids": ["A-097"], "reviewer": "PM consolidation of two simulated reviewer agents (Gen Z audience persona; SEO/marketing) plus automated checks; not human; agents saw frames and text only", "mode": "self_review",
+ "checks": [
+  {"name": "media_decode", "status": "passed", "detail": "Full decode exit 0; 1080x1920 H.264 (crf 18); 47.7s; peak 0.779.", "evidence_path": "artifacts/render/prototype-08-v1/technical-qa.json"},
+  {"name": "brief_alignment", "status": "passed", "detail": "Plan v7: Scout pick #1; reply-chain format (B then C, D, with scroll); Adam bựa at 1.1x tempo; 1080px cards; avatars blurred; no Monkey Puppet; under 60s.", "evidence_path": "artifacts/render/prototype-08-v1/review-packet.md"},
+  {"name": "visual_review", "status": "failed", "detail": "Collapsed strips cut through text. Avatar blur halos past the circle, plus a white blob by the heart. Parent loses context after scroll. Caption orphans. Sun emoji wraps alone.", "evidence_path": "tasks/review-agents-v7.md"},
+  {"name": "audio_review", "status": "unverified", "detail": "No human listening. Final-mix whisper WER 0.118; key-word risks: 'có nắng' heard as 'con nắng', 'bạn thân' as 'bản thân'."},
+  {"name": "rights_protocol", "status": "failed", "detail": "Verbatim time share 0.36 against the 0.35 cap (pass=false); 3 quotes of 28 words or fewer; original share 0.64, of which part is paraphrase. User accepted copyright risk for private drafts.", "evidence_path": "artifacts/render/prototype-08-v1/props.json"},
+  {"name": "hook_retention", "status": "failed", "detail": "Premise appears three times at 0.5s; laugh at about 8.6s; off-topic chain at 16–29s.", "evidence_path": "tasks/review-agents-v7.md"}]}

@@ -1,0 +1,163 @@
+{
+  "media": "release-02b",
+  "mood": "hai",
+  "source_handle": "bittercake_swee",
+  "hook": "mẹ chuyển tiền, rep sao cho ngầu?",
+  "cta": "bạn sẽ rep mẹ câu nào?",
+  "note": "Release video 2 (remake of the 'mẹ chuyển tiền' post with engine-v1). Source: https://www.threads.com/@bittercake_swee/post/DT0BiaHErtD (20.5K likes, 481 replies). Chains: benicutexiu_29 'nào rảnh cf' (17.6K) with replies tn.qang 'bà cố nội này' and nguyn_h19 'sổ đỏ mất 1 trang'; deertomars poem (15.8K); myracle404 'dấu huyền'. 3 verbatim quotes; reply lines are paraphrased by the narrator while the cards show them. The nguyn_h19 card was never captured; b2 is narrated over the tn.qang reply. Overnight remake 2026-10-18: no word captions (brand default) and more meme beats (micro tier). Cards recaptured at 1080px on 2026-10-18 into media/release-02b (voice copied from release-02). Meme why-tags copied from the independent review (tasks/review-agents-overnight-v1.md). Review fix: q3/b5 re-voiced with more takes for the tiên/tiền pun; human listening still required.",
+  "chains": [
+    [
+      "c1-benicutexiu_29",
+      "c1a-tn.qang"
+    ]
+  ],
+  "lines": [
+    {
+      "id": "cold",
+      "card": "post-bittercake_swee",
+      "kind": "bridge",
+      "text": "Mẹ vừa chuyển tiền tiêu tháng. Bạn này lên Threads hỏi: rep sao cho ngầu? Và cả mạng nhiệt tình hiến kế.",
+      "takes": 2,
+      "beat": {
+        "micro": [
+          {
+            "reaction": "tea",
+            "at_word": "hỏi",
+            "why": "hóng: lên Threads hỏi rep sao cho ngầu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q1",
+      "card": "c1-benicutexiu_29",
+      "kind": "read",
+      "text": "Nào rảnh cà phê.",
+      "takes": 3,
+      "beat": {
+        "reaction": "smirk",
+        "sfx": [
+          {
+            "type": "ting",
+            "at": "end"
+          }
+        ],
+        "why": "punchline: nào rảnh cà phê"
+      }
+    },
+    {
+      "id": "b1",
+      "card": "c1a-tn.qang",
+      "kind": "bridge",
+      "text": "Rủ mẹ cà phê bằng chính tiền mẹ gửi. Người bên dưới chỉ biết thốt lên: bà cố nội này.",
+      "takes": 2,
+      "beat": {
+        "micro": [
+          {
+            "reaction": "facepalm",
+            "at_word": "bà",
+            "why": "aside: bà cố nội này"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2",
+      "card": "c1a-tn.qang",
+      "kind": "bridge",
+      "text": "Có người còn dự đoán: chắc sổ đỏ vừa mất một trang.",
+      "takes": 2,
+      "beat": {
+        "micro": [
+          {
+            "text": "Toang",
+            "at_word": "sổ",
+            "sfx": "fail",
+            "why": "fail: sổ đỏ mất một trang"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "card": "c2-deertomars",
+      "kind": "bridge",
+      "text": "Phe văn chương thì sửa luôn ca dao, mở đầu nghe rất hiếu thảo, cho tới câu cuối.",
+      "takes": 2,
+      "beat": {
+        "micro": [
+          {
+            "reaction": "thinking",
+            "at_word": "ca",
+            "why": "setup: sửa ca dao"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "card": "c2-deertomars",
+      "kind": "read",
+      "text": "Tiền con con giữ, tiền mẹ con xin.",
+      "takes": 3,
+      "beat": {
+        "reaction": "rofl",
+        "sfx": [
+          {
+            "type": "laugh",
+            "at": "end"
+          }
+        ],
+        "why": "punchline: tiền mẹ con xin"
+      }
+    },
+    {
+      "id": "b4",
+      "card": "c3-myracle404",
+      "kind": "bridge",
+      "text": "Nhưng đỉnh nhất là người không có mẫu cảm ơn, mà có sẵn mẫu xin thêm.",
+      "takes": 2
+    },
+    {
+      "id": "q3",
+      "card": "c3-myracle404",
+      "kind": "read",
+      "text": "Mẹ ơi mẹ đẹp như tiên, mẹ thêm dấu huyền mẹ gửi cho con.",
+      "takes": 8,
+      "beat": {
+        "reaction": "money",
+        "sfx": [
+          {
+            "type": "ting",
+            "at": "end"
+          }
+        ],
+        "why": "punchline: thêm dấu huyền"
+      }
+    },
+    {
+      "id": "b5",
+      "card": "c3-myracle404",
+      "kind": "bridge",
+      "text": "Tiên thêm dấu huyền thành tiền. Một dấu thôi mà đổi cả nghĩa, đúng là thiên tài ngôn ngữ.",
+      "takes": 6,
+      "beat": {
+        "micro": [
+          {
+            "reaction": "mindblown",
+            "at_word": "thiên",
+            "sfx": "glitch",
+            "why": "aside: thiên tài ngôn ngữ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "card": "c3-myracle404",
+      "kind": "bridge",
+      "text": "Còn bạn, nhận tiền mẹ gửi thì sẽ rep câu nào? Câu hay nhất lên tập sau.",
+      "takes": 2
+    }
+  ]
+}

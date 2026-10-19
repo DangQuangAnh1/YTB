@@ -1,0 +1,11 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-018", "owner_role": "launch", "execution": "waiting_user"},
+  "next_action": "Brand 'Đọc Cmt Giùm' (@doccmtgium, logo D) is applied: avatar, banner, outro in engine-v1, and identity in the video. p08/p09 v3 have been rendered with the outro and have release packages plus a channel launch kit. The user may: (1) claim the handles and set up the channels by hand from artifacts/release/channel/launch-kit.md; (2) listen and give feedback; (3) ask for the next Scout batch or new episodes. Publishing remains manual.",
+  "unresolved": [
+    "Human listening pending; 'có nắng' may read as 'con nắng' in the p08 mix",
+    "Release gate open items: minors glance for p08 author; Freesound receipts; VieNeu watermark extra; AI-disclosure choice; takedown email",
+    "Handle @doccmtgium checked read-only; not claimed",
+    "Decision r98 was mistakenly bound to plan v4 before plan v5 registered; superseded by decision r100"
+  ]
+}

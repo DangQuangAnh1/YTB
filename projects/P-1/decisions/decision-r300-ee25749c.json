@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-decision-publish-release13-v1.md",
+  "excerpt": "Đăng luôn nhé, thử xem kết quả ra sao (release-13-v3, public now)",
+  "plan": {
+    "path": "plans/plan-v8-r165-629ac70c.md",
+    "sha256": "0c6dce9ec38679e9aea21e8b4a4a817890baf5fd37d20674d2f92d623b80caa9",
+    "revision": 8
+  },
+  "allowed_actions": [
+    "render_draft"
+  ],
+  "decided_at": "2026-10-19T14:13:40.155035+00:00"
+}

@@ -1,0 +1,67 @@
+{
+ "video": "prototype-09-v3",
+ "overall_wer": 0.075,
+ "per_line": [
+  {
+   "id": "cold",
+   "wer": 0.3,
+   "script": "Mẹ không kén ăn, hay mẹ chưa từng được chọn?",
+   "heard": "kén ăn, hay mẹ chưa từng được chọn?\" \"Đớn"
+  },
+  {
+   "id": "q1",
+   "wer": 0.143,
+   "script": "Lớn rồi đi chợ, món gì tôi không ăn thì tôi sẽ không mua.",
+   "heard": "rồi đi chợ, món gì tôi không ăn thì tôi sẽ không mua\" \"Tôi"
+  },
+  {
+   "id": "intro",
+   "wer": 0.444,
+   "script": "Câu này được hơn ba mươi sáu nghìn lượt thích, vì ai đọc cũng thấy mình trong đó.",
+   "heard": "được hơn 36 mình lượt thích, thì ai đọc cũng thấy mình trong đó\" \"Có"
+  },
+  {
+   "id": "b2",
+   "wer": 0.214,
+   "script": "Có người còn nhận ra, lớn lên mà chẳng biết mình thích ăn gì.",
+   "heard": "người có nhận ra lớn lên mà chẳng biết mình thích ăn gì\" \"Tôi"
+  },
+  {
+   "id": "q2",
+   "wer": 0.167,
+   "script": "Tôi đã không rõ lắm tôi thích ăn gì, ghét ăn gì, cho đến khi sống một mình.",
+   "heard": "đã không rõ lắm tôi thích ăn gì, nét ăn gì cho đến khi sống một mình\" \"Rồi"
+  },
+  {
+   "id": "b3",
+   "wer": 0.069,
+   "script": "Rồi giật mình: lâu lắm rồi chưa ăn miếng cá nào. Hội không ăn cá kéo nhau vào điểm danh, có bạn còn tự nhận mình là trai đẹp.",
+   "heard": "mình lâu lắm rồi chưa ăn miếng cá nào, hội không ăn cá kéo nhau vào điểm danh\" \"Có bạn còn tự nhận mình là trai đẹp\""
+  },
+  {
+   "id": "b4",
+   "wer": 0.267,
+   "script": "Và có một bình luận nói đúng điều nhiều người nghĩ mà chưa nói ra.",
+   "heard": "một bình luận nói đúng nhiều nhiều người nghĩ mà chưa nói ra\" \"Đớn"
+  },
+  {
+   "id": "q3",
+   "wer": 0.158,
+   "script": "Lớn rồi mới hiểu, không phải mẹ không kén ăn, mà hồi xưa mẹ có được quyền lựa đâu.",
+   "heard": "rồi lớn hiểu, không phải mẹ không kén ăn mà hồi xưa mẹ có được quyền lựa đâu\" \"Ngày"
+  },
+  {
+   "id": "b5",
+   "wer": 0.192,
+   "script": "Ngày xưa đi chợ, mẹ chọn món cho cả nhà trước. Đến lượt mình cầm giỏ, mới hiểu quyền được kén là thứ mẹ đã nhường.",
+   "heard": "mẹ chọn món cho cả nhà trước, đến lượt mình cầm giỏ, mới hiểu quyền được kén là thứ mẹ đã nhường\" \"Món"
+  },
+  {
+   "id": "cta",
+   "wer": 0.2,
+   "script": "Món nào bạn chỉ ăn khi về nhà với mẹ?",
+   "heard": "bạn chỉ ăn khi về nhà với mẹ?\""
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

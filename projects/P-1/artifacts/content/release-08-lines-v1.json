@@ -1,0 +1,175 @@
+{
+  "format": "v2",
+  "media": "release-08",
+  "mood": "hai_v2",
+  "source_handle": "bikhongprv",
+  "hook": null,
+  "cta": null,
+  "chains": [
+    [
+      "c1-nhatvee__",
+      "c1a-bikhongprv"
+    ]
+  ],
+  "cast": {
+    "narrator": "Adam bựa",
+    "bikhongprv": "Trúc Ly",
+    "chong": "Thiện Minh",
+    "merino0658": "Ngọc Huyền",
+    "tunhaycuoi": "Mai Anh"
+  },
+  "cast_note": "Multi-voice per tasks/user-decision-multivoice-v1.md. The poster writes 'chồng tôi' and 'mẹ bỉm sữa', so she gets the female poster voice (Trúc Ly). In nhatvee__'s comment the 👩 line is the poster's character (same voice) and the 🤦‍♂️ line is the husband (Thiện Minh). merino0658 and tunhaycuoi give no gender cue: their voices are guesses, chosen to differ from the narrator next to them. tunhaycuoi was first cast as Quang Sơn, but ASR heard \"Sherlock Holmes\" as \"Sao lúc hôm\" in every take, so it moved to Mai Anh (heard and accepted) with a phonetic spelling.",
+  "privacy": "The husband's real name (YouTube name 'Minh Hà', full name 'Hà Văn Minh') is a private name. It is blurred on every card. The voice uses an invented reversible pair, YouTube name 'Anh Đào' and full name 'Đào Tuấn Anh'. The description states that the names were changed.",
+  "note": "Scout run 2 pick #1 (tasks/scout-2026-10-18-2.md). Format v2: cards read verbatim except for the name swap, teen-code expanded, one short aside per card, ending on the last punchline. Memes: 3 big beats with matched entrances, plus camera moves (detective push-in, punch-in with boom).",
+  "lines": [
+    {
+      "id": "p1",
+      "card": "post-bikhongprv",
+      "kind": "read",
+      "takes": 3,
+      "text": "Tôi đã mất cả buổi chiều để điều tra xem người con gái nào tên là Anh Đào, mà chồng tôi lại để tên YouTube là Anh Đào.",
+      "fx": {
+        "type": "push",
+        "strength": 0.08,
+        "why": "detective push-in while she investigates"
+      }
+    },
+    {
+      "id": "p2",
+      "card": "post-bikhongprv",
+      "kind": "read",
+      "takes": 4,
+      "text": "Và tôi vừa hốt hoảng nhớ ra, tên chồng mình là Đào Tuấn Anh.",
+      "beat": {
+        "big": {
+          "reaction": "mindblown",
+          "enter": "slam",
+          "fx": "zoom",
+          "sfx": "scratch",
+          "pause": 1.9,
+          "label": "Ủa???",
+          "label_style": "meme",
+          "why": "the reveal: record-scratch, punch-in and exploding head"
+        }
+      }
+    },
+    {
+      "id": "a1",
+      "card": "post-bikhongprv",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Tên chồng đọc ngược thôi mà chị ơi."
+    },
+    {
+      "id": "p3",
+      "card": "post-bikhongprv",
+      "kind": "read",
+      "takes": 5,
+      "text": "Ôi, đầu óc của mẹ bỉm sữa thật là một cái gì đó khó tả. May là chưa có án mạng nào xảy ra."
+    },
+    {
+      "id": "a2",
+      "card": "c1-nhatvee__",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Cư dân mạng lập tức dựng lại hiện trường:"
+    },
+    {
+      "id": "c1w",
+      "card": "c1-nhatvee__",
+      "kind": "read",
+      "speaker": "bikhongprv",
+      "takes": 7,
+      "text": "Con nào là Anh Đào?",
+      "fx": {
+        "type": "shake",
+        "lead": 0.35,
+        "hold": 0.6,
+        "strength": 0.8,
+        "sfx": "punch",
+        "why": "angry wife slams the question"
+      }
+    },
+    {
+      "id": "c1h",
+      "card": "c1-nhatvee__",
+      "kind": "read",
+      "speaker": "chong",
+      "takes": 4,
+      "text": "Con này nè! Đào Tuấn Anh nè!",
+      "beat": {
+        "big": {
+          "reaction": "facepalm",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 1.8,
+          "label": "Chính chủ",
+          "label_style": "meme",
+          "why": "husband points at himself"
+        }
+      }
+    },
+    {
+      "id": "a3",
+      "card": "c1a-bikhongprv",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Chị tác giả thú nhận:"
+    },
+    {
+      "id": "c1a",
+      "card": "c1a-bikhongprv",
+      "kind": "read",
+      "takes": 3,
+      "text": "Đang soạn sẵn kịch bản: ôi trời ơi, không ai khổ được bằng mình, trong đầu, thì nhận ra tên chồng."
+    },
+    {
+      "id": "a4",
+      "card": "c2-merino0658",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Phòng điều tra kết luận:"
+    },
+    {
+      "id": "c2",
+      "card": "c2-merino0658",
+      "kind": "read",
+      "takes": 3,
+      "text": "Khi bạn dành cả buổi chiều phá án ngoại tình, nhưng hung thủ và nạn nhân lại là một người.",
+      "fx": {
+        "type": "zoom",
+        "lead": 0.9,
+        "hold": 1.5,
+        "strength": 0.13,
+        "sfx": "boom",
+        "why": "punch-in on 'là một người'"
+      }
+    },
+    {
+      "id": "a5",
+      "card": "c3-tunhaycuoi",
+      "kind": "bridge",
+      "takes": 5,
+      "text": "Và danh hiệu dành riêng cho chị:"
+    },
+    {
+      "id": "c3",
+      "card": "c3-tunhaycuoi",
+      "kind": "read",
+      "takes": 5,
+      "text": "Sơ lốc Hôm phiên bản thiếu ngủ.",
+      "beat": {
+        "big": {
+          "reaction": "rofl",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 2.2,
+          "label": "Xỉu ngang",
+          "label_style": "meme",
+          "why": "ending punchline"
+        }
+      },
+      "spoken_for": "Sherlock Holmes phiên bản thiếu ngủ (phonetic spelling for the TTS)"
+    }
+  ]
+}

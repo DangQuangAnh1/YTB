@@ -1,0 +1,168 @@
+{
+  "media": "release-06",
+  "mood": "hai",
+  "source_handle": "ilovethreadsxindunggaytoi",
+  "hook": "corgi ốm và sờ lim có thật không?",
+  "cta": "boss nhà bạn từng biến hình chưa?",
+  "chains": [
+    [
+      "c1-mn_sr016",
+      "c1a-eong_eop_ha",
+      "c1b-mn_sr016",
+      "c1c-kimiuvenis"
+    ],
+    [
+      "c2-thanhthuy_113",
+      "c2a-mn_sr016"
+    ]
+  ],
+  "note": "Overnight batch video 3 (scout pick #4). Source: https://www.threads.com/@ilovethreadsxindunggaytoi/post/DelGiJ5ARxk (11.3K likes / 114 replies / 219K views at about 18h). The main chain is the reply thread of mn_sr016 (4.1K), whose photos of their own corgi are shown inside their comment cards. The word 'đíc' is paraphrased as 'mông' in narration. There are 3 short verbatim quotes, all from mn_sr016. Meme why-tags copied from the independent review (tasks/review-agents-overnight-v1.md).",
+  "lines": [
+    {
+      "id": "cold",
+      "card": "post-ilovethreads",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Có người vừa nhận ra một sự thật: chưa từng thấy con co-gi nào ốm và sờ lim.",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "thinking",
+            "at_word": "sự",
+            "why": "aside: corgi ốm có thật không?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1",
+      "card": "c1-mn_sr016",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Thế là một chiếc co-gi sờ lim xuất hiện. Cạo lông xong, lộ nguyên thân hình người mẫu.",
+      "beat": {
+        "reaction": "scream",
+        "sfx": [
+          {
+            "type": "boom",
+            "at": "end"
+          }
+        ],
+        "why": "reveal: corgi cạo lông lộ body"
+      }
+    },
+    {
+      "id": "q1",
+      "card": "c1-mn_sr016",
+      "kind": "read",
+      "takes": 4,
+      "text": "Ganh tị với bo-đi sờ lim phít của anh chưa?",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "melting",
+            "at": 0.9,
+            "why": "aside: ganh tị body slimfit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2",
+      "card": "c1a-eong_eop_ha",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Nhưng mắt cư dân mạng rất tinh: sao cái mông lại mẻ mất một miếng thế kia?",
+      "beat": {
+        "micro": [
+          {
+            "text": "Ủa?",
+            "at_word": "mẻ",
+            "sfx": "question",
+            "why": "turn: mông mẻ một miếng"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "card": "c1b-mn_sr016",
+      "kind": "read",
+      "takes": 4,
+      "text": "Anh bị chó cắn, hu hu.",
+      "beat": {
+        "reaction": "sob",
+        "sfx": [
+          {
+            "type": "womp",
+            "at": "end"
+          }
+        ],
+        "why": "punchline: anh bị chó cắn"
+      }
+    },
+    {
+      "id": "b3",
+      "card": "c1c-kimiuvenis",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Còn ánh mắt kia là ánh mắt uất hận, vì bị cắt khẩu phần phô mai với sữa chua ngày ba cữ.",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "unamused",
+            "at_word": "uất",
+            "why": "aside: ánh mắt uất hận vì mất phô mai"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4",
+      "card": "c2-thanhthuy_113",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Có người còn soi tiếp: anh có gốc hớt-ki à?",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "sus",
+            "at_word": "gốc",
+            "why": "turn: gốc husky?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "card": "c2a-mn_sr016",
+      "kind": "read",
+      "takes": 4,
+      "text": "Chắc tổ tiên anh là hớt-ki, mắt con đậu con bay, hu hu.",
+      "beat": {
+        "reaction": "joy",
+        "sfx": [
+          {
+            "type": "punch",
+            "at": "end"
+          }
+        ],
+        "why": "punchline: mắt con đậu con bay"
+      }
+    },
+    {
+      "id": "b5",
+      "card": "c2a-mn_sr016",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Một mắt xanh, một mắt nâu, đội thêm mũ đỏ. Sờ lim nhưng vẫn cực kỳ tự tin."
+    },
+    {
+      "id": "cta",
+      "card": "c2a-mn_sr016",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Boss nhà bạn từng có pha biến hình nào như này chưa? Kể nghe đi, câu hay nhất lên tập sau."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "format": "v2",
+  "media": "release-13",
+  "mood": "hai_v2",
+  "source_handle": "shaee_0711",
+  "hook": null,
+  "cta": null,
+  "chains": [],
+  "cast": {
+    "narrator": "Adam bựa",
+    "shaee_0711": "Trúc Ly",
+    "ban": "Thiện Minh",
+    "flora": "Ngọc Huyền",
+    "banflora": "Thiền Tâm Đức"
+  },
+  "cast_note": "Post chat: right bubbles = poster (Trúc Ly), left 'T bao' = friend (Thiện Minh). _flora.lynn's chat: right/blue = flora (Ngọc Huyền, also her comment line), left/grey = her friend (Thiền Tâm Đức). All genders are guesses; the text gives no cue.",
+  "note": "v2 after user feedback 2026-10-19 (tasks/user-decision-meme-images-v1.md): better comment, meaning _flora.lynn's own chat screenshot with the same 'instant flip when someone pays' story, voiced as a dialogue; internet meme images replace emoji at both beats; crude words stay bleeped on the voice; 'đ' and 'Dcm' are pixelated on the cards and not read. The three weak comments are dropped.",
+  "lines": [
+    {
+      "id": "p1",
+      "card": "post-shaee_0711",
+      "kind": "read",
+      "text": "Tôi hết tiền. Bạn hết cứt.",
+      "bleep": [
+        "cứt"
+      ]
+    },
+    {
+      "id": "p2",
+      "card": "post-shaee_0711",
+      "kind": "read",
+      "text": "Hết tiền, đi đâu hết."
+    },
+    {
+      "id": "p3",
+      "card": "post-shaee_0711",
+      "kind": "read",
+      "speaker": "ban",
+      "text": "Tao bao."
+    },
+    {
+      "id": "a1",
+      "card": "post-shaee_0711",
+      "kind": "bridge",
+      "text": "Và câu trả lời đến chỉ trong một nốt nhạc:"
+    },
+    {
+      "id": "p4",
+      "card": "post-shaee_0711",
+      "kind": "read",
+      "text": "Đùa. Bạn ỉa bao nhiêu cứt, tôi cũng ăn hết.",
+      "bleep": [
+        "ỉa",
+        "cứt"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "fx": "zoom",
+          "sfx": "boom",
+          "pause": 1.9,
+          "label": "Ăn hết?!",
+          "label_style": "meme",
+          "why": "instant flip when the friend pays"
+        }
+      }
+    },
+    {
+      "id": "a2",
+      "card": "c1-_flora.lynn",
+      "kind": "bridge",
+      "text": "Bình luận nhiều tim nhất còn đưa ra hẳn bằng chứng thép:"
+    },
+    {
+      "id": "c1",
+      "card": "c1-_flora.lynn",
+      "kind": "read",
+      "speaker": "flora",
+      "text": "Thiếu nước lạy nó một cái."
+    },
+    {
+      "id": "f1",
+      "card": "c1-_flora.lynn",
+      "kind": "read",
+      "speaker": "banflora",
+      "text": "Tối đi ăn đi. Tối bác rảnh."
+    },
+    {
+      "id": "f2",
+      "card": "c1-_flora.lynn",
+      "kind": "read",
+      "speaker": "flora",
+      "text": "Tao phải để tiền đi cà phê học."
+    },
+    {
+      "id": "f3",
+      "card": "c1-_flora.lynn",
+      "kind": "read",
+      "speaker": "banflora",
+      "text": "Tiền bác."
+    },
+    {
+      "id": "f4",
+      "card": "c1-_flora.lynn",
+      "kind": "read",
+      "speaker": "flora",
+      "text": "Ô kê!",
+      "fx": {
+        "type": "shake",
+        "lead": 0.25,
+        "hold": 0.5,
+        "strength": 0.7,
+        "sfx": "boing",
+        "why": "instant yes"
+      }
+    },
+    {
+      "id": "f5",
+      "card": "c1-_flora.lynn",
+      "kind": "read",
+      "speaker": "banflora",
+      "text": "Nhanh thế!",
+      "beat": {
+        "big": {
+          "reaction": "cat_thumbsup_cry",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 2.1,
+          "label": "Ok liền",
+          "label_style": "meme",
+          "why": "ending: instant ok"
+        }
+      }
+    }
+  ]
+}

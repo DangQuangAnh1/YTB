@@ -1,0 +1,65 @@
+{
+  "artifact_ids": [],
+  "reviewer": "Independent Review agent (creator-review role): a model's checks of sampled frames, contact sheet, QA/loudness/whisper JSON and the props timeline; no human viewing or listening",
+  "mode": "independent_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Remake as requested: word captions off, 8 reactions, sunny-clouds background. 54.0s.",
+      "evidence_path": "artifacts/render/release-03-v3/props.json"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "draft.mp4 fully decodes (exit 0): 1080x1920 H.264, 30fps, AAC 48k stereo, 54.0s, peak 0.865.",
+      "evidence_path": "artifacts/render/release-03-v3/technical-qa.json"
+    },
+    {
+      "name": "loudness",
+      "status": "passed",
+      "detail": "final.mp4 measures -14.19 LUFS and -1.48 dBTP.",
+      "evidence_path": "artifacts/render/release-03-v3/loudness.json"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Reviewed 11 sampled frames plus 8 reaction frames. Text is readable and the avatars are blurred. Non-blocking story issue: the tall post photo pans past the cat by about 8s, so b1 ('Vòng cổ đỏ, ánh mắt bình thản') describes the cat while it is off screen. Collapsed strips clip header text.",
+      "evidence_path": "artifacts/render/release-03-v3/frame-240.png"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "No human listening. Whisper overall WER is 0.045. As in v1, whisper hears 'tang vật' as 'tăng vật' and 'mái' as 'máy', and 'sorry' as 'Saurina'.",
+      "evidence_path": "artifacts/render/release-03-v3/mix-intelligibility.json"
+    },
+    {
+      "name": "rights_protocol",
+      "status": "passed",
+      "detail": "props.rights.pass is true: 3 quotes, the longest 18 words; verbatim 21%. The underwear topic is kept light. Assets are on the allowlist (rule 8 Freesound check open).",
+      "evidence_path": "artifacts/render/release-03-v3/props.json"
+    },
+    {
+      "name": "meme_beats",
+      "status": "failed",
+      "detail": "BLOCKING: the clown sticker on b7 'Đúng là mèo nào chủ nấy' (44.0s) is aimed at a real commenter, against the research §4.4 hard rule never to imply a real commenter is foolish. Swap it, for example for sweat or eyes, and re-render. It is also in compilation story 4. Non-blocking: 4 hits (smirk, rolleyes, rofl, skull) exceed the §4.3 cap of 3; the clown starts 1.0s before the CTA (2s buffer); the 'Hả???' sticker runs 0.7s into q3 but sits on a strip, not on the quote. The other beats are fine.",
+      "evidence_path": "artifacts/render/release-03-v3/props.json"
+    },
+    {
+      "name": "meme_why_tags",
+      "status": "failed",
+      "detail": "No beat.why in lines.json (research §4.4). Paperwork only. Suggested tags: cold eyes = 'hóng: mèo ngậm tang vật'; q1 smirk = 'aside: chụp kịp làm bằng chứng'; q2 rolleyes = 'punchline: huấn luyện mèo trộm đồ'; b3 Toang = 'fail: đồ phơi bốc hơi'; b5 rofl = 'punchline: chó trộm đồ, hai chủ xin số'; b6 Hả??? = 'turn: chủ mưu tự thú'; q3 skull = 'punchline: xóa ảnh đi hộ tao'; b7 = replace clown with 'sweat' ('aside: mèo nào chủ nấy').",
+      "evidence_path": "production/episodes/p12/lines.json"
+    },
+    {
+      "name": "release_history",
+      "status": "unverified",
+      "detail": "release-03-v1 (same story) was scheduled on YouTube and then deleted (tasks/metrics-2026-10-18-0221.md), and the user has not said whether that was intended. Don't upload this story as a Short until the user confirms."
+    },
+    {
+      "name": "metadata",
+      "status": "unverified",
+      "detail": "Sheet v3 §S5 points to youtube-upload-v2.md §3 and names the superseded folder release-03-v2. Update the reference. The v2 title 'Mèo ăn trộm bị bắt quả tang, cmt truy ra chủ mưu 😭' still matches the voiceover."
+    }
+  ]
+}

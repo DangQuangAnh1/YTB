@@ -1,0 +1,91 @@
+{
+  "media": "prototype-09",
+  "mood": "am_ap",
+  "source_handle": "accclonecuaciti",
+  "hook": "vì sao mẹ “không kén ăn”?",
+  "cta": "món nào bạn chỉ ăn khi về nhà?",
+  "note": "Episode p09 (Scout #2). Source https://www.threads.com/@accclonecuaciti/post/DdTJhN-iYBB (36.5K likes, 703 replies, 15/09/2026). Rights protocol v1, as in p08. The q2 quote is cut with an ellipsis but keeps the exact original words. v2 (2026-10-17): cold-open question; q1 shortened to its second sentence; b4/b5 rewritten to agree with the post and the huyhoang21185 comment (no overclaim about the topic); flagged lines get best-of-N takes.",
+  "chains": [
+    [
+      "c1-thi.enthien224",
+      "c1a-leminhdao158"
+    ]
+  ],
+  "lines": [
+    {
+      "id": "cold",
+      "card": "post-accclonecuaciti",
+      "kind": "bridge",
+      "text": "Mẹ không kén ăn, hay mẹ chưa từng được chọn?",
+      "takes": 2
+    },
+    {
+      "id": "q1",
+      "card": "post-accclonecuaciti",
+      "kind": "read",
+      "text": "Lớn rồi đi chợ, món gì tôi không ăn thì tôi sẽ không mua."
+    },
+    {
+      "id": "intro",
+      "card": "post-accclonecuaciti",
+      "kind": "bridge",
+      "text": "Câu này được hơn ba mươi sáu nghìn lượt thích, vì ai đọc cũng thấy mình trong đó.",
+      "takes": 3
+    },
+    {
+      "id": "b2",
+      "card": "c1-thi.enthien224",
+      "kind": "bridge",
+      "text": "Có người còn nhận ra, lớn lên mà chẳng biết mình thích ăn gì."
+    },
+    {
+      "id": "q2",
+      "card": "c1-thi.enthien224",
+      "kind": "read",
+      "text": "Tôi đã không rõ lắm tôi thích ăn gì, ghét ăn gì, cho đến khi sống một mình."
+    },
+    {
+      "id": "b3",
+      "card": "c1a-leminhdao158",
+      "kind": "bridge",
+      "text": "Rồi giật mình: lâu lắm rồi chưa ăn miếng cá nào. Hội không ăn cá kéo nhau vào điểm danh, có bạn còn tự nhận mình là trai đẹp.",
+      "takes": 3
+    },
+    {
+      "id": "b4",
+      "card": "c2-huyhoang21185",
+      "kind": "bridge",
+      "text": "Và có một bình luận nói đúng điều nhiều người nghĩ mà chưa nói ra.",
+      "takes": 2
+    },
+    {
+      "id": "q3",
+      "card": "c2-huyhoang21185",
+      "kind": "read",
+      "text": "Lớn rồi mới hiểu, không phải mẹ không kén ăn, mà hồi xưa mẹ có được quyền lựa đâu.",
+      "beat": {
+        "reaction": "tears",
+        "sfx": [
+          {
+            "type": "ting",
+            "at": "end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5",
+      "card": "c2-huyhoang21185",
+      "kind": "bridge",
+      "text": "Ngày xưa đi chợ, mẹ chọn món cho cả nhà trước. Đến lượt mình cầm giỏ, mới hiểu quyền được kén là thứ mẹ đã nhường.",
+      "takes": 3
+    },
+    {
+      "id": "cta",
+      "card": "c2-huyhoang21185",
+      "kind": "bridge",
+      "text": "Món nào bạn chỉ ăn khi về nhà với mẹ?"
+    }
+  ],
+  "channel_handle": "@hong.cmt (tên tạm)"
+}

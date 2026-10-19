@@ -1,0 +1,66 @@
+{
+  "artifact_ids": [],
+  "reviewer": "Independent Review agent (creator-review role): a model's checks of sampled frames, part durations, QA/loudness JSON and an independent audio decode; no human viewing or listening",
+  "mode": "independent_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "One long vertical 9:16 video (1080x1920, 30fps) made from the six Shorts, with chapters, for the user to upload. Order: squishy, Bayern mom, corgi, cat, mom's money, dad's 19 years.",
+      "evidence_path": "artifacts/render/compilation-01-v3/compilation.json"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "draft.mp4 fully decodes (exit 0), 293.4s. technical-qa's audio_peak of 1.204 is a measurement artifact of verify-export.py on long files (PM note), not clipping. The PM reports ffmpeg astats on final.mp4 at a maximum of 0.859 and a minimum of -0.841. The reviewer's own 16-bit decodes agree: final.mp4 peaks at 0.858 (L) and 0.859 (R), draft.mp4 at 0.856, with no full-scale samples. phone-1080p.mp4 was still encoding and was not reviewed.",
+      "evidence_path": "artifacts/render/compilation-01-v3/technical-qa.json"
+    },
+    {
+      "name": "loudness",
+      "status": "passed",
+      "detail": "final.mp4 measures -14.02 LUFS and -1.32 dBTP. The reviewer found no clicks at the story joins; the music has faded to about 0 at the 54.8s cut.",
+      "evidence_path": "artifacts/render/compilation-01-v3/loudness.json"
+    },
+    {
+      "name": "outros_removed",
+      "status": "passed",
+      "detail": "The reviewer probed the parts. s01-s05 are each their Short minus the 2.4s outro (52.43, 55.30, 43.70, 51.63 and 44.30s); s06 keeps its outro as the closer (37.10s). A 2.4s intro card and 1.3s chapter cards sit between them.",
+      "evidence_path": "artifacts/render/compilation-01-v3/compilation.json"
+    },
+    {
+      "name": "chapters",
+      "status": "passed",
+      "detail": "chapters.txt matches the part durations: 0:00, 0:54 (54.83s), 1:51 (111.43s), 2:36 (156.43s), 3:29 (209.36s) and 4:14 (254.96s). 6 chapters, the first at 0:00 and each over 10s.",
+      "evidence_path": "artifacts/render/compilation-01-v3/chapters.txt"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "The contact sheet and 7 sampled frames show the intro card, the stories intact with their own hooks, and clean brand chapter cards. Opinion, non-blocking: the 2.4s static black title card is a weak opening for long-form (consider story 1's cold open with the title overlaid); 1.3s chapter cards are too short to read a two-line title (about 2s); the pet stories 3 and 4 run back to back (swap 4 and 5); six identical CTAs repeat.",
+      "evidence_path": "artifacts/render/compilation-01-v3/contact-sheet.png"
+    },
+    {
+      "name": "rights_privacy",
+      "status": "failed",
+      "detail": "BLOCKING, inherited from release-05-v2 (story 2): the mother's first name 'Nam' is visible in the Messenger reply label. Rebuild once the release-05 card is fixed. Other stories inherit their own notes: the release-04 shop-name decision and the release-06 commenter photos. Whether to include the cat story, whose earlier upload was deleted, is the user's call.",
+      "evidence_path": "media/release-05/cards-fit/chat-_lysl0v3r.png"
+    },
+    {
+      "name": "meme_beats",
+      "status": "failed",
+      "detail": "BLOCKING, inherited from release-03-v3 (story 4): the clown sticker is aimed at a real commenter (research §4.4). Rebuild once that Short is fixed.",
+      "evidence_path": "artifacts/render/release-03-v3/props.json"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "No human listening. Inherits each story's whisper flags. Story 5 (release-02-v3) has a blocking listen check on the 'tiên' pun."
+    },
+    {
+      "name": "metadata",
+      "status": "failed",
+      "detail": "Sheet v3 points to compilation-01-v1/chapters.txt, whose timestamps (0:02, 0:56 …) differ from v3. Use compilation-01-v3/chapters.txt. Optional: the title '6 chuyện đọc cmt Threads hài nhất tuần' uses 'Threads' in a brand-like way, while the SEO rules prefer 'trên Threads'.",
+      "evidence_path": "artifacts/release/youtube-upload-v3.md"
+    }
+  ]
+}

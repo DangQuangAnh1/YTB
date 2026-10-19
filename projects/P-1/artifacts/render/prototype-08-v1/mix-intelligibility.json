@@ -1,0 +1,61 @@
+{
+ "video": "prototype-08-v1",
+ "overall_wer": 0.118,
+ "per_line": [
+  {
+   "id": "intro",
+   "wer": 0.136,
+   "script": "Hội bạn này đặt mật danh cho crush là dự báo thời tiết. Trời nắng, nghĩa là ổng đang đi ngang qua.",
+   "heard": "bạn này đặt mật danh cho crush là dự báo thời tiết, trời nắng, nghĩa là ông đang đi ngang qua. Sang"
+  },
+  {
+   "id": "q1",
+   "wer": 0.308,
+   "script": "Sáng nay ổng đứng ngay trước bàn, hỏi: hôm nay có nắng không?",
+   "heard": "nay ông đứng ngay trước bản, hỏi hôm nay con nắng không."
+  },
+  {
+   "id": "b2",
+   "wer": 0.185,
+   "script": "Mật mã tưởng kín như bưng, ai dè người cần biết thì biết hết. Kiểu này không còn là dự báo, mà là phát sóng trực tiếp.",
+   "heard": "kín như bưng, ai dè người cần biết thì biết hết. Kiểu này không còn là dự báo mà là phát sóng trực tiếp. Mà hội"
+  },
+  {
+   "id": "b3",
+   "wer": 0.286,
+   "script": "Mà hội đặt biệt danh thì đông lắm, có bạn còn chơi lớn hơn.",
+   "heard": "đặt biệt danh thì đông lắm, có bạn còn trời lớn hơn. Nhóm"
+  },
+  {
+   "id": "q2",
+   "wer": 0.25,
+   "script": "Nhóm bạn cấp hai của tui đặt cho mỗi đứa trong trường một cái tên, đông quá đọc nickname xong còn phải mô tả đặc điểm mới nhớ.",
+   "heard": "bạn cấp hai của tôi đặt cho mỗi đứa trong trường một cái tên. Đông quá đọc ních nem xong còn phải mô tả đặc biệt mới nhớ. Đến chủ"
+  },
+  {
+   "id": "b4",
+   "wer": 0.3,
+   "script": "Đến chủ thớt cũng phải thừa nhận là nhớ thật.",
+   "heard": "chủ thất cũng phải thừa nhận là nhớ thật. Nhiều"
+  },
+  {
+   "id": "q3",
+   "wer": 0.208,
+   "script": "Nhiều khi cười khùng không phải vì câu chuyện, mà vì cùng một cái nickname mà mỗi đứa nghĩ về một người khác nhau.",
+   "heard": "khi cười khung không phải vì câu chuyện, mà vì cùng một cái ních nem mà mỗi đứa nghĩ về một người khác nhau. Đó"
+  },
+  {
+   "id": "b5",
+   "wer": 0.429,
+   "script": "Đó mới là đỉnh cao của hội bạn thân: một mật mã, năm cách hiểu, và không ai chịu giải thích.",
+   "heard": "cao của hội bản thân, một mật ma 5 cách hiểu và không ai chịu giải thích. Hội bản"
+  },
+  {
+   "id": "cta",
+   "wer": 0.158,
+   "script": "Hội bạn bạn đặt mật danh cho crush là gì? Kể nghe đi, câu hay nhất lên tập sau.",
+   "heard": "bạn đặt mật danh cho crush là dự, kể nghe đi câu hay nhất lên tập sau."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

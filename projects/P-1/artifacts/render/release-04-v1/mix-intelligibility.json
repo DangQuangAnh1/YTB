@@ -1,0 +1,85 @@
+{
+ "video": "release-04-v1",
+ "overall_wer": 0.218,
+ "per_line": [
+  {
+   "id": "cold",
+   "wer": 0.333,
+   "script": "Mua sờ-quít-si thôi mà, shop đã bắt khách chọn… phong cách phục vụ.",
+   "heard": "quỳt si thôi mà, shop đã bắt khách chọn, phong cách phục vụ. Năm rượu"
+  },
+  {
+   "id": "b1",
+   "wer": 0.318,
+   "script": "Năm lựa chọn: tổng tài, ca-oai, mèo, gâu, nghiêm túc. Khách hỏi lại một tiếng dạ, rồi chọn bừa số hai.",
+   "heard": "chọn, tổng tài cao y, mèo, gâu nghiêm túc, khách hỏi lại một tiếng dạ, rồi chọn bước số 2. \"Oha"
+  },
+  {
+   "id": "q1",
+   "wer": 0.321,
+   "script": "Ô ha dô, em chào cô chủ nhỏ ạ, hem biết, cô chủ muốn hỏi sản phẩm nào hãy nói cho em nghe nha, ừm ya, xen xây.",
+   "heard": "zô, em chào cô chủ nhỏ, em biết, cô chủ muốn hỏi sản phẩm nào hãy nói cho em nghe nha. Ý nga, xen xây!\" Và khách"
+  },
+  {
+   "id": "b2",
+   "wer": 0.571,
+   "script": "Và khách quyết định… diễn theo luôn.",
+   "heard": "định diễn theo luôn. Cho"
+  },
+  {
+   "id": "q2",
+   "wer": 0.214,
+   "script": "Cho tôi một bơ rộp và chít dẻo nhé, bé cưng ngoan. Cười khẩy.",
+   "heard": "tôi một bơ dột và chít dẻo nhé, bé cưng ngoan, cười khởi."
+  },
+  {
+   "id": "b3",
+   "wer": 0.5,
+   "script": "Shop đỏ mặt nhận đơn, còn thả thêm mặt cún.",
+   "heard": "nhận đơn, còn thả thêm mặt cuốn. Khách"
+  },
+  {
+   "id": "b4",
+   "wer": 0.4,
+   "script": "Khách chơi lớn: síp hàng, síp luôn cả người bán.",
+   "heard": "chơi lớn, xịp hàng, xịp luôn cả người bán. Chính"
+  },
+  {
+   "id": "b5",
+   "wer": 0.214,
+   "script": "Chính chủ shop vào xác nhận: ai thích kiểu nào, shop chiều kiểu đó.",
+   "heard": "chủ shop vào xác nhận ai thích kiểu nào, shop chiều kiểu đó. Bé ngoan,"
+  },
+  {
+   "id": "q3",
+   "wer": 0.333,
+   "script": "Ừm, bé ngoan, chị không muốn ai phát hiện ra em đâu.",
+   "heard": "chị không muốn ai phát hiện ra em đâu. Cư"
+  },
+  {
+   "id": "b6",
+   "wer": 0.667,
+   "script": "Cư dân mạng kết luận: bà cũng bệnh lắm.",
+   "heard": "luận, bà cũng bệnh lắm. Bạn thân"
+  },
+  {
+   "id": "b7",
+   "wer": 0.833,
+   "script": "Bạn thân thì sốc toàn tập.",
+   "heard": "thì sóc toàn tập. Tác giả"
+  },
+  {
+   "id": "b8",
+   "wer": 0.273,
+   "script": "Tác giả thanh minh: shop kêu chọn thì chọn thử thôi.",
+   "heard": "thanh minh, shop kêu chọn thì chọn thử thôi. Bạn"
+  },
+  {
+   "id": "cta",
+   "wer": 0.125,
+   "script": "Bạn sẽ chọn phong cách số mấy? Kể nghe đi, câu hay nhất lên tập sau.",
+   "heard": "sẽ chọn phong cách số mới, kể nghe đi câu hay nhất lên tập sau."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

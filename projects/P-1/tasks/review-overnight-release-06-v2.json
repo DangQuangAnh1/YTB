@@ -1,0 +1,65 @@
+{
+ "artifact_ids": [
+  "A-154",
+  "A-155",
+  "A-156"
+ ],
+ "reviewer": "Independent Review agent (creator-review role): a model's checks of sampled frames, contact sheet, QA/loudness/whisper JSON and the props timeline; no human viewing or listening",
+ "mode": "independent_review",
+ "checks": [
+  {
+   "name": "brief_alignment",
+   "status": "passed",
+   "detail": "Funny pet Short from scout pick #4. Word captions off, 8 reactions, 46.1s.",
+   "evidence_path": "artifacts/render/release-06-v2/props.json"
+  },
+  {
+   "name": "media_decode",
+   "status": "passed",
+   "detail": "draft.mp4 fully decodes (exit 0): 1080x1920 H.264, 30fps, AAC 48k stereo, 46.1s, peak 0.843.",
+   "evidence_path": "artifacts/render/release-06-v2/technical-qa.json"
+  },
+  {
+   "name": "loudness",
+   "status": "passed",
+   "detail": "final.mp4 measures -14.17 LUFS and -1.45 dBTP.",
+   "evidence_path": "artifacts/render/release-06-v2/loudness.json"
+  },
+  {
+   "name": "visual_review",
+   "status": "passed",
+   "detail": "Reviewed 11 sampled frames plus 8 reaction frames. The photos are clear, the text is readable and the avatars are blurred. Non-blocking: the c1 card pans, so the quoted line 'Ganh tỵ vs body slimfit…' and mn_sr016's handle have scrolled off before q1 is voiced (10.1-12.6s); the scream hit (8.9-10.6s) covers the emoji at the end of that line. Collapsed strips clip header text.",
+   "evidence_path": "artifacts/render/release-06-v2/frame-240.png"
+  },
+  {
+   "name": "audio_review",
+   "status": "unverified",
+   "detail": "No human listening. Whisper overall WER is 0.19. Whisper heard the key word 'co-gi' as 'con' twice (cold open and b1), plus 'chó cắn' as 'cho cắn', 'hớt-ki' as 'hết kỳ'/'hớt kia' and 'uất hận' as 'ớt hận'. Listen for 'corgi'; the hook text does show 'corgi' on screen.",
+   "evidence_path": "artifacts/render/release-06-v2/mix-intelligibility.json"
+  },
+  {
+   "name": "rights_protocol",
+   "status": "passed",
+   "detail": "props.rights.pass is true: 3 quotes, the longest 13 words; verbatim 20%. 'đíc' is paraphrased as 'mông' in the narration. Assets are on the allowlist (rule 8 Freesound check open). Open item: the scout advised describing the commenter's own dog photos or asking permission; they are shown inside mn_sr016's comment cards. This falls within the user's risk stance (tasks/user-risk-stance-v1.md) and is not blocking.",
+   "evidence_path": "artifacts/render/release-06-v2/props.json"
+  },
+  {
+   "name": "meme_beats",
+   "status": "passed",
+   "detail": "8 reactions: 3 hits (scream, sob, joy) and 5 micro (thinking, melting, Ủa?, unamused, sus), 1 of them text. All land on beats. Engine guardrails pass. Minor: the scream hit runs 0.4s into q1 and covers the end-of-line emoji.",
+   "evidence_path": "artifacts/render/release-06-v2/props.json"
+  },
+  {
+   "name": "meme_why_tags",
+   "status": "failed",
+   "detail": "No beat.why in lines.json (research §4.4). Paperwork only. Suggested tags: cold thinking = 'aside: corgi ốm có thật không?'; b1 scream = 'reveal: corgi cạo lông lộ body'; q1 melting = 'aside: ganh tị body slimfit'; b2 Ủa? = 'turn: mông mẻ một miếng'; q2 sob = 'punchline: anh bị chó cắn'; b3 unamused = 'aside: ánh mắt uất hận vì mất phô mai'; b4 sus = 'turn: gốc husky?'; q3 joy = 'punchline: mắt con đậu con bay'.",
+   "evidence_path": "production/episodes/p15/lines.json"
+  },
+  {
+   "name": "metadata",
+   "status": "passed",
+   "detail": "Sheet v3 §S3: the title is 55 characters, accurate, with one emoji at the end. 7 relevant hashtags, 10 tags. The heading names the superseded folder release-06-v1; update it to release-06-v2.",
+   "evidence_path": "artifacts/release/youtube-upload-v3.md"
+  }
+ ]
+}

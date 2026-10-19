@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-decision-names-release08-v1.md",
+  "excerpt": "không cần làm mờ tên trong đoạn chat vậy đầu nhìn hơi khó chịu (release-08: show Minh Hà / Hà Văn Minh unblurred)",
+  "plan": {
+    "path": "plans/plan-v8-r165-629ac70c.md",
+    "sha256": "0c6dce9ec38679e9aea21e8b4a4a817890baf5fd37d20674d2f92d623b80caa9",
+    "revision": 8
+  },
+  "allowed_actions": [
+    "render_draft",
+    "write_content"
+  ],
+  "decided_at": "2026-10-18T16:51:47.094801+00:00"
+}

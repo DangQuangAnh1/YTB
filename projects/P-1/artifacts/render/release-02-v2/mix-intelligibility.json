@@ -1,0 +1,67 @@
+{
+ "video": "release-02-v2",
+ "overall_wer": 0.093,
+ "per_line": [
+  {
+   "id": "cold",
+   "wer": 0.273,
+   "script": "Mẹ vừa chuyển tiền tiêu tháng. Bạn này lên Threads hỏi: rep sao cho ngầu? Và cả mạng nhiệt tình hiến kế.",
+   "heard": "chuyển tiền tiêu tháng, bạn này lên flash hỏi, rap sao cho ngầu và cả mạng nhiên tình hiến kế. Nào"
+  },
+  {
+   "id": "q1",
+   "wer": 0.5,
+   "script": "Nào rảnh cà phê.",
+   "heard": "giảnh cà phê"
+  },
+  {
+   "id": "b1",
+   "wer": 0.2,
+   "script": "Rủ mẹ cà phê bằng chính tiền mẹ gửi. Người bên dưới chỉ biết thốt lên: bà cố nội này.",
+   "heard": "cà phê bằng chính tiền mẹ gửi, người bên dưới chỉ biết thốt lên bà cố nội này. Có người"
+  },
+  {
+   "id": "b2",
+   "wer": 0.417,
+   "script": "Có người còn dự đoán: chắc sổ đỏ vừa mất một trang.",
+   "heard": "còn dự đoán chắc sổ đỏ bữa mất một trang. Phê văn"
+  },
+  {
+   "id": "b3",
+   "wer": 0.333,
+   "script": "Phe văn chương thì sửa luôn ca dao, mở đầu nghe rất hiếu thảo, cho tới câu cuối.",
+   "heard": "trương thì sửa luôn ca rau, mở đầu nghe rất hiêu thảo, cho tới câu cuối. Tiền"
+  },
+  {
+   "id": "q2",
+   "wer": 0.25,
+   "script": "Tiền con con giữ, tiền mẹ con xin.",
+   "heard": "con con giữ, tiền mẹ con xin. Nhưng"
+  },
+  {
+   "id": "b4",
+   "wer": 0.25,
+   "script": "Nhưng đỉnh nhất là người không có mẫu cảm ơn, mà có sẵn mẫu xin thêm.",
+   "heard": "là người không có mẫu cảm ơn mà có sẵn mẫu xin thêm. Mẹ"
+  },
+  {
+   "id": "q3",
+   "wer": 0.214,
+   "script": "Mẹ ơi mẹ đẹp như tiên, mẹ thêm dấu huyền mẹ gửi cho con.",
+   "heard": "ơi mẹ đẹp như tiền, mẹ thêm dấu huyền mẹ gửi cho con. Tiền"
+  },
+  {
+   "id": "b5",
+   "wer": 0.368,
+   "script": "Tiên thêm dấu huyền thành tiền. Một dấu thôi mà đổi cả nghĩa, đúng là thiên tài ngôn ngữ.",
+   "heard": "thành tiền, một dấu thôi mà đổi cả nghĩa đúng là thiên tài ngôn nữ. Còn bạn,"
+  },
+  {
+   "id": "cta",
+   "wer": 0.176,
+   "script": "Còn bạn, nhận tiền mẹ gửi thì sẽ rep câu nào? Câu hay nhất lên tập sau.",
+   "heard": "nhận tiền mẹ gửi thì sẽ rap câu nào, câu hay nhất lên tập sau."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

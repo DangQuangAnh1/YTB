@@ -1,0 +1,67 @@
+{
+ "video": "prototype-08-v3",
+ "overall_wer": 0.079,
+ "per_line": [
+  {
+   "id": "q1",
+   "wer": 0.308,
+   "script": "Sáng nay ổng đứng ngay trước bàn, hỏi: hôm nay có nắng không?",
+   "heard": "ông đứng ngay trước bàn, hỏi hôm nay con nắng không?"
+  },
+  {
+   "id": "intro",
+   "wer": 0.158,
+   "script": "Ổng ở đây là crush. Còn nắng, là mật danh cả hội dùng mỗi khi ổng đi ngang qua.",
+   "heard": "Ông ở đây là Crush, con nắng là mật danh cả hội dùng mỗi khi ông đi ngang qua."
+  },
+  {
+   "id": "b2",
+   "wer": 0.04,
+   "script": "Mật mã tưởng kín như bưng, ai dè người cần biết thì biết hết. Không còn là dự báo, mà là phát sóng trực tiếp.",
+   "heard": "Mật má tưởng kín như bưng, ai dè người cần biết thì biết hết. Không còn là dự báo, mà là phát sóng trực tiếp."
+  },
+  {
+   "id": "b3",
+   "wer": 0,
+   "script": "Mà đặt mật danh là truyền thống của mọi hội bạn. Có hội còn đặt cho cả trường.",
+   "heard": "Mà đặt mật danh là truyền thống của mọi hội bạn, có hội còn đặt cho cả trường."
+  },
+  {
+   "id": "q2",
+   "wer": 0.12,
+   "script": "Nhóm bạn cấp hai của tui đặt cho mỗi đứa trong trường một cái tên, đông quá còn phải mô tả đặc điểm mới nhớ.",
+   "heard": "Nhóm bạn cấp 2 của tôi đặt cho mỗi đứa trong trường một cái tên. Đông quá còn phải mô tả đặc điểm mở nhớ."
+  },
+  {
+   "id": "b4",
+   "wer": 0,
+   "script": "Chủ bài đọc xong cũng phải gật gù: nhớ thật.",
+   "heard": "Chủ bài đọc xong cũng phải gật gù, nhớ thật."
+  },
+  {
+   "id": "q3",
+   "wer": 0.125,
+   "script": "Nhiều khi cười khùng không phải vì câu chuyện, mà vì cùng một cái nickname mà mỗi đứa nghĩ về một người khác nhau.",
+   "heard": "Nhiều khi cười khung không phải vì câu chuyện, mà vì cùng một cái ních nem mà mỗi đứa nghĩ về một người khác nhau."
+  },
+  {
+   "id": "b5",
+   "wer": 0.15,
+   "script": "Đỉnh cao của hội bạn thân là vậy: một mật mã, năm cách hiểu, và không ai chịu giải thích.",
+   "heard": "Đình cao của hội bạn thân là vậy, một mật má 5 cách hiểu và không ai chịu giải thích."
+  },
+  {
+   "id": "b6",
+   "wer": 0,
+   "script": "Còn crush thì sao? Chắc tới giờ vẫn tưởng hội này mê dự báo thời tiết.",
+   "heard": "Còn Crush thì sao? Chắc tới giờ vẫn tưởng hội này mê dự báo thời tiết."
+  },
+  {
+   "id": "cta",
+   "wer": 0,
+   "script": "Hội bạn của bạn đặt mật danh cho crush là gì? Kể nghe đi, câu hay nhất lên tập sau.",
+   "heard": "Hội bạn của bạn đặt mật danh cho Crush là gì? Kể nghe đi, câu hay nhất lên tập sau."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

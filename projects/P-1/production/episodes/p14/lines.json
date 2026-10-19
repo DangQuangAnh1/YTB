@@ -1,0 +1,194 @@
+{
+  "media": "release-05",
+  "mood": "hai",
+  "source_handle": "_lysl0v3r",
+  "hook": "mẹ chê sân Bayern: chả có vẹo gì",
+  "cta": "mẹ bạn từng chê nơi nào chưa?",
+  "look": {
+    "background": "library/backgrounds/sunny-clouds-12222644.mp4",
+    "bg_brightness": 0.8,
+    "bg_saturate": 1.1
+  },
+  "chains": [
+    [
+      "c1-thuyflinh_88",
+      "c1a-_lysl0v3r",
+      "c2-trnhnglm"
+    ],
+    [
+      "c3-kemkem_vani_",
+      "c3a-jssy.ng"
+    ]
+  ],
+  "note": "Overnight batch video 2 (scout pick #2). Source: https://www.threads.com/@_lysl0v3r/post/DehuTv7Dd2c (14K likes / 158 replies / 481K views at about 2 days). In the stadium photo the person is pixelated. In the chat screenshot the mother's name and avatar are pixelated. The _thaitinhh 'cờ Catalunya … cờ cali' chain is excluded as politically sensitive (the comparison alludes to the former South Vietnam flag). There are 3 verbatim quotes (the mother's two chat lines and trnhnglm's imitation); everything else is paraphrased. Names are spelled for the voice: Bai-ơn Muy-ních, A-li-anh A-rê-na, tòa Vũ Khang (Wukang Mansion). Meme why-tags copied from the independent review (tasks/review-agents-overnight-v1.md).",
+  "lines": [
+    {
+      "id": "cold",
+      "card": "post-_lysl0v3r",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Đi du lịch Đức, đứng giữa sân vận động khủng nhất nước, con gái hí hửng chụp ảnh khoe mẹ.",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "eyes",
+            "at_word": "khoe",
+            "why": "hóng: con khoe ảnh sân cho mẹ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1",
+      "card": "photo-_lysl0v3r",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Sân A-li-anh A-rê-na, nhà của Bai-ơn Muy-ních, hơn bảy mươi nghìn chỗ ngồi."
+    },
+    {
+      "id": "b2",
+      "card": "chat-_lysl0v3r",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Con khen sân to đùng. Mẹ đáp ngay một câu đầy tự hào:"
+    },
+    {
+      "id": "q1",
+      "card": "chat-_lysl0v3r",
+      "kind": "read",
+      "takes": 4,
+      "text": "Việt Nam đang xây sân bóng đá to nhất thế giới đấy con ạ.",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "mindblown",
+            "at": 0.92,
+            "sfx": "glitch",
+            "why": "turn: VN xây sân to nhất thế giới"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "card": "chat-_lysl0v3r",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Con hỏi sân đó ở đâu. Mẹ né, rồi chốt hạ một câu xanh rờn:"
+    },
+    {
+      "id": "q2",
+      "card": "chat-_lysl0v3r",
+      "kind": "read",
+      "takes": 5,
+      "text": "Chả có vẹo gì.",
+      "beat": {
+        "reaction": "joy",
+        "sfx": [
+          {
+            "type": "punch",
+            "at": "end"
+          }
+        ],
+        "why": "punchline: chả có vẹo gì"
+      }
+    },
+    {
+      "id": "b4",
+      "card": "c1-thuyflinh_88",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Cư dân mạng vội nhắc mẹ: đây là sân nhà của Bai-ơn Muy-ních đấy ạ.",
+      "beat": {
+        "micro": [
+          {
+            "text": "Ủa?",
+            "at": 0.9,
+            "sfx": "question",
+            "why": "awkward: đây là sân Bayern mà"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5",
+      "card": "c1a-_lysl0v3r",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Tác giả đành gật gù: ừ thì, sân Bai-ơn nhé.",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "shrug",
+            "at": 0.9,
+            "why": "aside: ừ thì sân Bayern"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6",
+      "card": "c2-trnhnglm",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Nhưng có người đã nhập vai mẹ cực chuẩn:"
+    },
+    {
+      "id": "q3",
+      "card": "c2-trnhnglm",
+      "kind": "read",
+      "takes": 4,
+      "text": "À là cái đội mà đá cúp xê một vừa hòa một đội cù lao nào bên Na Uy đó hả? Cũng chả có cái vẹo gì.",
+      "beat": {
+        "reaction": "skull",
+        "sfx": [
+          {
+            "type": "boom",
+            "at": "end"
+          }
+        ],
+        "why": "punchline: cmt nhập vai mẹ"
+      }
+    },
+    {
+      "id": "b7",
+      "card": "c3-kemkem_vani_",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Hóa ra mẹ nhà ai cũng vậy. Có mẹ đi Thượng Hải về, chê còn chán hơn bãi đá sông Hồng.",
+      "beat": {
+        "micro": [
+          {
+            "reaction": "facepalm",
+            "at_word": "chê",
+            "why": "aside: chán hơn bãi đá sông Hồng"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8",
+      "card": "c3a-jssy.ng",
+      "kind": "bridge",
+      "takes": 3,
+      "text": "Có mẹ đứng trước tòa Vũ Khang, phán gọn: không bằng ngã tư Chùa Bộc.",
+      "beat": {
+        "micro": [
+          {
+            "text": "Gắt!",
+            "at_word": "phán",
+            "sfx": "tick",
+            "why": "punchline: không bằng ngã tư Chùa Bộc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "card": "c3a-jssy.ng",
+      "kind": "bridge",
+      "takes": 2,
+      "text": "Mẹ bạn từng chê địa danh nổi tiếng nào chưa? Kể nghe đi, câu hay nhất lên tập sau."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-020", "owner_role": "launch", "execution": "waiting_user"},
+  "next_action": "The user wakes about 12:30. (1) Open YouTube Studio > Nội dung > draft 'yGO8ftp4qMU' (release-07-v1, '19 năm, bố vẫn nhắn mẹ…'), answer the mandatory AI-use question and publish. (2) Upload the compilation compilation-01-v4 (4:52, vertical), using artifacts/release/youtube-upload-v4.md, after listening to story 5 ('đẹp như tiên') and deciding on story 4 (the cat, whose earlier upload was deleted). (3) Optionally schedule the other reviewed Shorts (release-04-v1, release-06-v2, release-05-v3).",
+  "unresolved": [
+    "AI-use question on the drafted Short is left to the user; the agent will not answer 'Không' on their behalf (voice is AI-generated)",
+    "release-02-v4 / compilation story 5: whisper on the mix still hears 'tiền' for the 'tiên' pun; human listening required",
+    "release-03 (cat) story: earlier YouTube upload was deleted by the uploader; user intent unknown",
+    "release-04-v1: decide whether the shop name (nosquishynolife._) stays visible",
+    "Nobody has watched or listened to the overnight batch; all QA is sampled frames, whisper and loudness",
+    "Release gate: Freesound receipts before monetizing; headline-poster consent not sought (user accepted risk)",
+    "review-overnight-fixes-v1.json check release05_private_name contains a garbled trailing sentence about micro counts; the pixelation itself is verified on frame-420"
+  ]
+}

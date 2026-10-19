@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-decision-publish-v1.md",
+  "excerpt": "Mẹ mùa lũ + Mèo | Đăng 1 cái ngay, 1 cái 8:30 mai | Có, đã dùng AI | Đồng ý, đăng và hẹn giờ | Đổi sang logo D",
+  "plan": {
+    "path": "plans/plan-v8-r165-629ac70c.md",
+    "sha256": "0c6dce9ec38679e9aea21e8b4a4a817890baf5fd37d20674d2f92d623b80caa9",
+    "revision": 8
+  },
+  "allowed_actions": [
+    "write_content"
+  ],
+  "decided_at": "2026-10-17T12:42:37.341388+00:00"
+}

@@ -1,0 +1,75 @@
+{
+ "artifact_ids": [
+  "A-151",
+  "A-152",
+  "A-153"
+ ],
+ "reviewer": "Independent Review agent (creator-review role): a model's checks of sampled frames, contact sheet, QA/loudness/whisper JSON and the props timeline; no human viewing or listening",
+ "mode": "independent_review",
+ "checks": [
+  {
+   "name": "brief_alignment",
+   "status": "passed",
+   "detail": "Funny Short from scout pick #1 (the squishy trend). Word captions are off. 8 reactions fall within the approved ~6-8. Adam bựa voice, brand outro, 54.8s. Fallback pick for today's upload.",
+   "evidence_path": "artifacts/render/release-04-v1/props.json"
+  },
+  {
+   "name": "media_decode",
+   "status": "passed",
+   "detail": "draft.mp4 fully decodes (exit 0): 1080x1920 H.264, 30fps, AAC 48k stereo, 54.8s, peak 0.793. The reviewer probed phone-1080p.mp4: 54.9s, about 28.7 MB.",
+   "evidence_path": "artifacts/render/release-04-v1/technical-qa.json"
+  },
+  {
+   "name": "loudness",
+   "status": "passed",
+   "detail": "final.mp4 measures -14.20 LUFS and -1.33 dBTP. The reviewer re-measured phone-1080p.mp4 at -14.25 LUFS and -1.26 dBTP.",
+   "evidence_path": "artifacts/render/release-04-v1/loudness.json"
+  },
+  {
+   "name": "visual_review",
+   "status": "passed",
+   "detail": "Reviewed 11 sampled frames plus 8 reaction frames. Text is readable. Avatars are blurred, and the profanity on the post and nh.tragn_ cards is blurred. Minor, non-blocking: the source screenshot's scrollbar shows as a line at the right edge of the chat cards; the bottom bubble is clipped at about 10s; chat 3 is on screen for only 3s and then shows as a half-bubble strip ('Ok ship đến ulis và cả em nữa'); collapsed strips clip header text.",
+   "evidence_path": "artifacts/render/release-04-v1/frame-960.png"
+  },
+  {
+   "name": "audio_review",
+   "status": "unverified",
+   "detail": "No human listening. Whisper overall WER is 0.218, high; part of it comes from phonetic foreign words (sờ-quít-si, ca-oai, Ô ha dô, xen xây). Listen for possible mispronunciations: q2 'cười khẩy' (heard 'cười khởi'), b3 'mặt cún' ('mặt cuốn'), b1 'chọn bừa' ('chọn bước'), CTA 'số mấy' ('số mới').",
+   "evidence_path": "artifacts/render/release-04-v1/mix-intelligibility.json"
+  },
+  {
+   "name": "rights_protocol",
+   "status": "passed",
+   "detail": "props.rights.pass is true: 3 quotes, the longest 28 words; verbatim 29%, original 71%. Profanity is blurred and not voiced. The shop's anime picture is cropped out. Assets are on the allowlist (Fluent MIT, Kenney CC0, Freesound CC0 with rule 8 open, Pexels, OFL). Unverified: the poster's age (the squishy trend skews young); the role-play is a 'tổng tài' parody that the scout judged not sexual.",
+   "evidence_path": "artifacts/render/release-04-v1/props.json"
+  },
+  {
+   "name": "shop_branding_decision",
+   "status": "unverified",
+   "detail": "The scout said to blur or omit the shop's name because the post may be shop marketing. The render shows 'nosquishynolife._' on the c1 card and the DM-header strip, plus the shop's logo avatar, and upload sheet S1 credits @nosquishynolife._. q1 quotes the shop's own message, so crediting is defensible under rule 7. Needs a PM or user decision; not blocking."
+  },
+  {
+   "name": "meme_beats",
+   "status": "passed",
+   "detail": "8 reactions: 3 hits (scream, joy, sus) and 5 micro (thinking, Hả???, melting, tea, Cạn lời), 2 of them text. All land on beats, and none covers text being read; checked on extracted frames. Engine and research §4.3 guardrails pass.",
+   "evidence_path": "artifacts/render/release-04-v1/props.json"
+  },
+  {
+   "name": "meme_why_tags",
+   "status": "failed",
+   "detail": "No beat.why in lines.json (research §4.4). Paperwork only, no re-render. Suggested tags: cold thinking = 'aside: mua squishy mà phải chọn phong cách phục vụ?'; b1 Hả??? = 'awkward: khách hỏi lại dạ??'; q1 scream = 'reveal: shop chuyển giọng anime'; q2 joy = 'punchline: khách diễn theo, bé cưng ngoan'; b3 melting = 'awkward: shop ngại đỏ mặt'; b5 tea = 'hóng: chính chủ shop xác nhận'; q3 sus = 'turn: tác giả bé ngoan, chị không muốn ai phát hiện'; b6 Cạn lời = 'aside: cmt bà cũng bệnh lắm'.",
+   "evidence_path": "production/episodes/p13/lines.json"
+  },
+  {
+   "name": "metadata",
+   "status": "passed",
+   "detail": "Upload sheet v3 §S1: the title is 46 characters with one emoji at the end and is accurate. 7 relevant hashtags, 11 tags, credits line present. The shop credit depends on the shop_branding_decision.",
+   "evidence_path": "artifacts/release/youtube-upload-v3.md"
+  },
+  {
+   "name": "hook_retention",
+   "status": "unverified",
+   "detail": "Model opinion. A strong, fresh hook on a trending topic; the role menu appears at 4.6s. The funniest dialog in the batch. The CTA 'bạn chọn phong cách số mấy?' invites comments. No audience data."
+  }
+ ]
+}

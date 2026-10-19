@@ -1,0 +1,20 @@
+{
+  "format": "v2", "media": "release-11", "mood": "hai_v2", "source_handle": "wvy.tang", "hook": null, "cta": null,
+  "chains": [],
+  "cast": {"narrator": "Adam bựa", "wvy.tang": "Trúc Ly", "thaodan_ezlabs": "Ngọc Huyền", "jasmine.brz_": "Mai Anh", "ngocsudoll": "Ngọc Linh"},
+  "cast_note": "The poster writes 'anh nhà' and appears in her own photo, so she gets the female poster voice. Commenters' voices are guesses. Ngọc Linh is the user's chosen sad voice and has not been heard in a funny video yet.",
+  "note": "Batch 2026-10-19 #3 (scout run 2, pick #5), timely for 20/10. The boyfriend's face photo is removed from the carousel and the poster's face is pixelated. ngocsudoll's photo (a bouquet folded from banknotes, seen by the PM) is hidden and described by the narrator.",
+  "lines": [
+    {"id": "p1", "card": "post-wvy.tang", "kind": "read", "text": "Bó hoa đầu tiên, và bó hoa sau khi đã được đào tạo của anh nhà."},
+    {"id": "a1", "card": "post-wvy.tang", "kind": "bridge", "text": "Bó đầu: giấy đen, hoa vàng hoa đỏ, kèm câu: ưng chưa!",
+     "fx": {"type": "push", "strength": 0.07}},
+    {"id": "c1", "card": "c1-thaodan_ezlabs", "kind": "read", "text": "Quan trọng là cái sự tự tin, ưng chưa, không lẫn đi đâu được luôn á.",
+     "beat": {"big": {"reaction": "smirk", "enter": "pop", "sfx": "ting", "pause": 1.6, "label": "Ưng chưa?", "label_style": "meme", "why": "the confident 'ưng chưa'"}}},
+    {"id": "c2", "card": "c2-jasmine.brz_", "kind": "read", "text": "Thành quả đào tạo sau vài năm. Mấy bó đầu phải gọi là sến rện.",
+     "beat": {"big": {"reaction": "grimace", "enter": "shake", "sfx": "awkward", "pause": 1.5, "label": "Sến rện", "label_style": "meme", "why": "cringe first bouquets"}}},
+    {"id": "a2", "card": "c3-ngocsudoll", "kind": "bridge", "text": "Nhưng bình luận nhiều tim nhất lại là:"},
+    {"id": "c3", "card": "c3-ngocsudoll", "kind": "read", "text": "Đây là bó hoa sau kết hôn. Mong bạn chấp nhận thực tế."},
+    {"id": "a3", "card": "c3-ngocsudoll", "kind": "bridge", "text": "Kèm ảnh: một bó hoa gấp toàn bằng tiền.",
+     "beat": {"big": {"reaction": "money", "enter": "slam", "fx": "zoom", "sfx": "tada", "pause": 2.1, "label": "Thực tế", "label_style": "meme", "why": "after marriage: money bouquet"}}}
+  ]
+}

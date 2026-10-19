@@ -1,0 +1,121 @@
+{
+ "video": "release-13-v3",
+ "overall_wer": 0.204,
+ "per_line": [
+  {
+   "id": "p1",
+   "wer": 0.333,
+   "script": "Tôi hết tiền. Bạn hết cứt.",
+   "heard": "Tối hết tiền, bạn hết."
+  },
+  {
+   "id": "p2",
+   "wer": 0.2,
+   "script": "Hết tiền, đi đâu hết.",
+   "heard": "Hết tiền đi đâu hết? Tàu"
+  },
+  {
+   "id": "p3",
+   "wer": 1,
+   "script": "Tao bao.",
+   "heard": "bào."
+  },
+  {
+   "id": "p4",
+   "wer": 0.5,
+   "script": "Đùa. Bạn ỉa bao nhiêu cứt, tôi cũng ăn hết.",
+   "heard": "Đùa b*** bao nhiêu b*** cũng ăn hết. Đổi"
+  },
+  {
+   "id": "q1",
+   "wer": 0.625,
+   "script": "Đổi giọng còn nhanh hơn người yêu cũ.",
+   "heard": "hơn người yêu cũ. Thiếu"
+  },
+  {
+   "id": "c1",
+   "wer": 0.5,
+   "script": "Thiếu nước lạy nó một cái.",
+   "heard": "nước lại nó một"
+  },
+  {
+   "id": "f1",
+   "wer": 0.714,
+   "script": "Tối đi ăn đi. Tối bác rảnh.",
+   "heard": "cái. Tối đi ăn đi, tối bác rắn. Tao phải để"
+  },
+  {
+   "id": "f2",
+   "wer": 0.625,
+   "script": "Tao phải để tiền đi cà phê học.",
+   "heard": "tiền đi cà phê học. Tỉnh bác."
+  },
+  {
+   "id": "f3",
+   "wer": 1,
+   "script": "Tiền bác.",
+   "heard": "Ok,"
+  },
+  {
+   "id": "f4",
+   "wer": 1,
+   "script": "Ô kê!",
+   "heard": "ok. Nhân"
+  },
+  {
+   "id": "f5",
+   "wer": 0.5,
+   "script": "Nhanh thế!",
+   "heard": "thế."
+  },
+  {
+   "id": "q2",
+   "wer": 0.75,
+   "script": "Tốc độ ánh sáng cũng phải chào thua.",
+   "heard": "phải chào thua. Bao?"
+  },
+  {
+   "id": "u1",
+   "wer": 3,
+   "script": "Bao!",
+   "heard": "Khúc này tôi"
+  },
+  {
+   "id": "u2",
+   "wer": 0.714,
+   "script": "Khúc này tui cởi áo được chứ?",
+   "heard": "tôi cởi áo được chứ. Ủa, cởi"
+  },
+  {
+   "id": "q3",
+   "wer": 0.75,
+   "script": "Ủa, cởi áo để làm gì vậy trời?",
+   "heard": "áo để làm gì vậy chơi? Ê ơi, huyết"
+  },
+  {
+   "id": "u3",
+   "wer": 1,
+   "script": "Mày ơi. Huyết thống.",
+   "heard": "thống. À,"
+  },
+  {
+   "id": "u4",
+   "wer": 1,
+   "script": "À, ô kê.",
+   "heard": "ok. Vạn bé"
+  },
+  {
+   "id": "q4",
+   "wer": 0.4,
+   "script": "Bạn bè như này, giữ lại để còn được bao.",
+   "heard": "bé như này, giữ lại để còn được bao. Có tiền"
+  },
+  {
+   "id": "c2",
+   "wer": 0.222,
+   "script": "Có tiền vào là cái gì cũng dám làm.",
+   "heard": "vào là cái gì cũng dám làm."
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

@@ -1,0 +1,606 @@
+{
+  "note": "Engine v1 mood presets. The Content role sets `mood` in each episode's lines.json; the user may override it. A preset drives the voice (tts), music, allowed SFX, reactions, accent colour, card spring and the 'look': a real-footage background, grain/vignette, card motion, caption style, and a handwritten hook font. Asset licenses are in media/library/provenance.json. Voices come from the 2026-10-17 audition (whisper WER plus pitch range) and BA research; human listening is still pending. 2026-10-17 v7: the user chose Ngọc Linh for buồn after listening (voice-audition-sad-v1, sample 2). Voice tempo is 1.1× for every mood, applied as a pitch-preserving time-stretch after TTS. Monkey Puppet was removed (High rights risk); reactions are emoji only. The buồn look is brighter after review.",
+  "presets": {
+    "hai": {
+      "label": "Vui / hài",
+      "music": {
+        "file": "library/music/hai-cute-happy-seth.mp3",
+        "under_voice": 0.11,
+        "between": 0.26,
+        "under_sfx": 0.07
+      },
+      "sfx_allowed": [
+        "whoosh",
+        "pop",
+        "boing",
+        "laugh",
+        "ting",
+        "scratch",
+        "boom",
+        "fail",
+        "womp",
+        "punch",
+        "tada",
+        "tick",
+        "question",
+        "nope",
+        "awkward",
+        "glitch"
+      ],
+      "card_whoosh": true,
+      "reactions": {
+        "enabled": true,
+        "max": 8,
+        "min_gap_s": 2.5,
+        "show_s": 1.7,
+        "kinds": [
+          "emoji",
+          "text"
+        ],
+        "hit_gap_s": 6,
+        "micro_show_s": 1.1,
+        "text_max": 3,
+        "decision": "tasks/user-request-overnight-batch-v1.md"
+      },
+      "accent": "#facc15",
+      "spring": {
+        "damping": 12,
+        "stiffness": 170
+      },
+      "tts": {
+        "voice": "Adam bựa",
+        "temperature": 0.9,
+        "tempo": 1.1
+      },
+      "look": {
+        "background": "library/backgrounds/hanoi-street-food-32228864.mp4",
+        "bg_brightness": 0.5,
+        "bg_saturate": 1,
+        "zoom_to": 1.06,
+        "grain": 0.05,
+        "vignette": 0.5,
+        "card_motion": "punch",
+        "caption_style": "pill",
+        "hook_font": "PatrickHand",
+        "marker": "#ef4444",
+        "bg_seconds": 22.7
+      }
+    },
+    "buon": {
+      "label": "Buồn / tâm sự",
+      "music": {
+        "candidates": [
+          {
+            "title": "Sad Piano Background Music",
+            "creator": "guitarman213",
+            "landing": "https://freesound.org/people/guitarman213/sounds/707060",
+            "license": "CC0 (Openverse metadata)"
+          },
+          {
+            "title": "Komiku - Sad walk with sad piano",
+            "creator": "Komiku",
+            "landing": "https://commons.wikimedia.org/w/index.php?curid=90266649",
+            "license": "CC0 (Openverse metadata)"
+          }
+        ],
+        "under_voice": 0.09,
+        "between": 0.2,
+        "under_sfx": 0.09,
+        "file": "library/music/sad-piano-guitarman213.mp3"
+      },
+      "sfx_allowed": [],
+      "card_whoosh": false,
+      "reactions": {
+        "enabled": false
+      },
+      "accent": "#93c5fd",
+      "spring": {
+        "damping": 26,
+        "stiffness": 70
+      },
+      "tts": {
+        "voice": "Ngọc Linh",
+        "temperature": 0.7,
+        "tempo": 1.1
+      },
+      "look": {
+        "background": "library/backgrounds/rainy-night-window-35621441.mp4",
+        "bg_brightness": 0.6,
+        "bg_saturate": 0.8,
+        "zoom_to": 1.04,
+        "grain": 0.07,
+        "vignette": 0.5,
+        "card_motion": "fade",
+        "caption_style": "fade",
+        "hook_font": "Pangolin",
+        "marker": "#e5e7eb",
+        "bg_seconds": 31.3
+      }
+    },
+    "drama": {
+      "label": "Drama / căng",
+      "music": {
+        "candidates": [
+          {
+            "title": "CINEMATIC BG ATMOSPHERIC #0055H",
+            "creator": "metrostock99",
+            "landing": "https://freesound.org/people/metrostock99/sounds/350955",
+            "license": "CC0 (Openverse metadata)"
+          },
+          {
+            "title": "Exploring Dark Places - Atmosphere",
+            "creator": "TheNordicDawn",
+            "landing": "https://freesound.org/people/TheNordicDawn/sounds/519181",
+            "license": "CC0 (Openverse metadata)"
+          }
+        ],
+        "under_voice": 0.1,
+        "between": 0.24,
+        "under_sfx": 0.06
+      },
+      "sfx_allowed": [
+        "boom",
+        "riser",
+        "scratch"
+      ],
+      "card_whoosh": true,
+      "reactions": {
+        "enabled": true,
+        "max": 1,
+        "min_gap_s": 8,
+        "show_s": 1.4
+      },
+      "accent": "#f87171",
+      "spring": {
+        "damping": 18,
+        "stiffness": 120
+      },
+      "tts": {
+        "voice": "Thiện Minh",
+        "temperature": 0.8,
+        "tempo": 1.1
+      },
+      "look": {
+        "background": "library/backgrounds/rainy-night-window-35621441.mp4",
+        "bg_brightness": 0.45,
+        "bg_saturate": 0.6,
+        "zoom_to": 1.04,
+        "grain": 0.07,
+        "vignette": 0.65,
+        "card_motion": "punch",
+        "caption_style": "pill",
+        "hook_font": "Pangolin",
+        "marker": "#f87171",
+        "todo": "own drama background not chosen; reuses rainy night",
+        "bg_seconds": 31.3
+      }
+    },
+    "am_ap": {
+      "label": "Ấm áp / dễ thương",
+      "music": {
+        "candidates": [
+          {
+            "title": "Tender Moments Acoustic Loop C",
+            "creator": "BaDoink",
+            "landing": "https://freesound.org/people/BaDoink/sounds/548174",
+            "license": "CC0 (Openverse metadata)"
+          }
+        ],
+        "under_voice": 0.1,
+        "between": 0.24,
+        "under_sfx": 0.08,
+        "file": "library/music/warm-acoustic-badoink.mp3"
+      },
+      "sfx_allowed": [
+        "ting",
+        "pop"
+      ],
+      "card_whoosh": false,
+      "reactions": {
+        "enabled": true,
+        "max": 1,
+        "min_gap_s": 8,
+        "show_s": 1.6,
+        "kinds": [
+          "emoji"
+        ]
+      },
+      "accent": "#fda4af",
+      "spring": {
+        "damping": 20,
+        "stiffness": 100
+      },
+      "tts": {
+        "voice": "Ngọc Linh",
+        "temperature": 0.8,
+        "tempo": 1.1
+      },
+      "look": {
+        "background": "library/backgrounds/hanoi-street-food-32228864.mp4",
+        "bg_brightness": 0.55,
+        "bg_saturate": 1,
+        "zoom_to": 1.06,
+        "grain": 0.05,
+        "vignette": 0.5,
+        "card_motion": "fade",
+        "caption_style": "fade",
+        "hook_font": "Pangolin",
+        "marker": "#fda4af",
+        "bg_seconds": 22.7
+      }
+    },
+    "hai_v2": {
+      "label": "Vui / hài (format v2: đọc theo card, meme to)",
+      "music_pool": {"decision": "tasks/user-decision-music-v1.md: hài = tracks 1-3 (one per video, rotated), hài tiết tấu chậm = track 4. Set `pace: \"slow\"` in lines.json for slow comedy; `music_track` forces a file.", "fast": ["library/music/hai-sneaky-snitch-macleod.mp3", "library/music/hai-monkeys-spinning-monkeys-macleod.mp3", "library/music/hai-fluffing-a-duck-macleod.mp3"], "slow": ["library/music/hai-cham-investigations-macleod.mp3"], "credit": "Nhạc: Kevin MacLeod (incompetech.com), giấy phép CC BY 4.0"},
+      "cast_pool": {
+        "decision": "tasks/user-decision-multivoice-v1.md: one voice per character; the narrator reads bridges only. The Content role copies picks into the episode's `cast` map.",
+        "narrator": "Adam bựa",
+        "female": ["Trúc Ly", "Ngọc Huyền"],
+        "male": ["Thiện Minh"],
+        "older_male": "Thiền Tâm Đức",
+        "older_female": "Mai Anh",
+        "unheard": ["Quang Sơn", "Thái Sơn", "Thùy Dung", "Ngọc Linh"],
+        "avoid": {"Hải Đăng": "same pitch as Adam bựa", "Quốc Tuấn": "same pitch as Adam bựa", "Thanh Bình": "same pitch as Adam bựa", "Ngọc Trân": "ASR misheard 'phút'", "Xuân Vĩnh": "poor ASR", "Mỹ Duyên": "rejected by the user"}
+      },
+      "music": {
+        "file": "library/music/hai-cute-happy-seth.mp3",
+        "under_voice": 0.11,
+        "between": 0.26,
+        "under_sfx": 0.07
+      },
+      "sfx_allowed": [
+        "whoosh",
+        "pop",
+        "boing",
+        "laugh",
+        "ting",
+        "scratch",
+        "boom",
+        "fail",
+        "womp",
+        "punch",
+        "tada",
+        "tick",
+        "question",
+        "nope",
+        "awkward",
+        "glitch"
+      , "bleep"],
+      "card_whoosh": false,
+      "reactions": {
+        "enabled": true,
+        "max": 3,
+        "beat_max": 3,
+        "min_gap_s": 5,
+        "hit_gap_s": 5,
+        "show_s": 2,
+        "micro_show_s": 1.1,
+        "text_max": 0,
+        "kinds": [
+          "emoji"
+        , "meme"],
+        "decision": "tasks/user-decision-format-v2.md"
+      },
+      "accent": "#facc15",
+      "spring": {
+        "damping": 12,
+        "stiffness": 170
+      },
+      "tts": {
+        "voice": "Adam bựa",
+        "temperature": 0.9,
+        "tempo": 1.1
+      },
+      "look": {
+        "background": "library/backgrounds/hanoi-street-food-32228864.mp4",
+        "bg_brightness": 0.88,
+        "bg_saturate": 1.1,
+        "zoom_to": 1,
+        "grain": 0.03,
+        "vignette": 0.25,
+        "card_motion": "punch",
+        "caption_style": "pill",
+        "hook_font": "PatrickHand",
+        "marker": "#ef4444",
+        "bg_seconds": 22.7,
+        "backgrounds": [
+          "library/backgrounds/noodles-boiling-12837556.mp4",
+          "library/backgrounds/making-dumplings-7361168.mp4",
+          "library/backgrounds/pancake-flip-3704912.mp4",
+          "library/backgrounds/kneading-dough-6942821.mp4",
+          "library/backgrounds/hanoi-street-food-32228864.mp4"
+        ],
+        "cut_s": 5
+      }
+    }
+  },
+  "reaction_library": {
+    "cat_shocked": {"kind": "meme", "file": "library/memes/cat-shocked.png", "dims": [715, 575], "tags": ["sốc", "ngạc nhiên", "ủa gì vậy"], "source": "internet meme image, see library/memes/provenance.json", "license": "unlicensed: user-accepted risk (tasks/user-decision-meme-images-v1.md)", "commercial_ok": false},
+    "cat_thumbsup_cry": {"kind": "meme", "file": "library/memes/cat-thumbsup-cry.png", "dims": [414, 416], "tags": ["ok", "cảm động", "chịu luôn"], "source": "internet meme image, see library/memes/provenance.json", "license": "unlicensed: user-accepted risk (tasks/user-decision-meme-images-v1.md)", "commercial_ok": false},
+    "rofl": {
+      "kind": "emoji",
+      "file": "library/reactions/rofl.png",
+      "tags": [
+        "cười lăn",
+        "bà cố nội",
+        "lầy"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Rolling on the floor laughing",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "money": {
+      "kind": "emoji",
+      "file": "library/reactions/money.png",
+      "tags": [
+        "tiền",
+        "xin tiền",
+        "ham tiền"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Money-mouth face",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "smirk": {
+      "kind": "emoji",
+      "file": "library/reactions/smirk.png",
+      "tags": [
+        "cà khịa",
+        "nhếch mép"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Smirking face",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "skull": {
+      "kind": "emoji",
+      "file": "library/reactions/skull.png",
+      "tags": [
+        "chết cười",
+        "cringe",
+        "xỉu"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Skull",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "rolleyes": {
+      "kind": "emoji",
+      "file": "library/reactions/rolleyes.png",
+      "tags": [
+        "cạn lời",
+        "đảo mắt"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Face with rolling eyes",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "tears": {
+      "kind": "emoji",
+      "file": "library/reactions/tears.png",
+      "tags": [
+        "xúc động",
+        "thương mẹ"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Face holding back tears",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "scream": {
+      "kind": "emoji",
+      "file": "library/reactions/scream.png",
+      "tags": [
+        "sốc",
+        "hú hồn",
+        "kinh hãi"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Face screaming in fear (assets/Face screaming in fear/animated/face_screaming_in_fear_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "facepalm": {
+      "kind": "emoji",
+      "file": "library/reactions/facepalm.png",
+      "tags": [
+        "cạn lời",
+        "bó tay",
+        "lại nữa rồi"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Person facepalming (assets/Person facepalming/Default/animated/person_facepalming_animated_default.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "joy": {
+      "kind": "emoji",
+      "file": "library/reactions/joy.png",
+      "tags": [
+        "cười ra nước mắt",
+        "hài thật"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Face with tears of joy (assets/Face with tears of joy/animated/face_with_tears_of_joy_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "sus": {
+      "kind": "emoji",
+      "file": "library/reactions/sus.png",
+      "tags": [
+        "nghi nghi",
+        "hoài nghi",
+        "soi"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Face with raised eyebrow (assets/Face with raised eyebrow/animated/face_with_raised_eyebrow_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "mindblown": {
+      "kind": "emoji",
+      "file": "library/reactions/mindblown.png",
+      "tags": [
+        "nổ não",
+        "đầu nổ tung"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Exploding head (assets/Exploding head/animated/exploding_head_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "clap": {
+      "kind": "emoji",
+      "file": "library/reactions/clap.png",
+      "tags": [
+        "vỗ tay",
+        "đỉnh",
+        "nể"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Clapping hands (assets/Clapping hands/Default/animated/clapping_hands_animated_default.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "nope": {
+      "kind": "emoji",
+      "file": "library/reactions/nope.png",
+      "tags": [
+        "không nha",
+        "không đời nào"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Person gesturing no (assets/Person gesturing no/Default/animated/person_gesturing_no_animated_default.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "sweat": {
+      "kind": "emoji",
+      "file": "library/reactions/sweat.png",
+      "tags": [
+        "toát mồ hôi",
+        "quê",
+        "ngại"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Downcast face with sweat (assets/Downcast face with sweat/animated/downcast_face_with_sweat_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "eyes": {
+      "kind": "emoji",
+      "file": "library/reactions/eyes.png",
+      "tags": [
+        "liếc",
+        "hóng",
+        "để ý"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Eyes (assets/Eyes/animated/eyes_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "unamused": {
+      "kind": "emoji",
+      "file": "library/reactions/unamused.png",
+      "tags": [
+        "khinh khỉnh",
+        "chán"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Unamused face (assets/Unamused face/animated/unamused_face_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "grimace": {
+      "kind": "emoji",
+      "file": "library/reactions/grimace.png",
+      "tags": [
+        "ngượng",
+        "quê độ"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Grimacing face (assets/Grimacing face/animated/grimacing_face_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "melting": {
+      "kind": "emoji",
+      "file": "library/reactions/melting.png",
+      "tags": [
+        "tan chảy",
+        "xỉu"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Melting face (assets/Melting face/animated/melting_face_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "clown": {
+      "kind": "emoji",
+      "file": "library/reactions/clown.png",
+      "tags": [
+        "hề",
+        "tự hề"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Clown face (assets/Clown face/animated/clown_face_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "thinking": {
+      "kind": "emoji",
+      "file": "library/reactions/thinking.png",
+      "tags": [
+        "suy tư",
+        "ngẫm"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Thinking face (assets/Thinking face/animated/thinking_face_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "sob": {
+      "kind": "emoji",
+      "file": "library/reactions/sob.png",
+      "tags": [
+        "khóc ròng",
+        "toang"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Loudly crying face (assets/Loudly crying face/animated/loudly_crying_face_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "pleading": {
+      "kind": "emoji",
+      "file": "library/reactions/pleading.png",
+      "tags": [
+        "năn nỉ",
+        "mắt cún"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Pleading face (assets/Pleading face/animated/pleading_face_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "tea": {
+      "kind": "emoji",
+      "file": "library/reactions/tea.png",
+      "tags": [
+        "hóng drama",
+        "ngồi hóng"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Hot beverage (assets/Hot beverage/animated/hot_beverage_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "shrug": {
+      "kind": "emoji",
+      "file": "library/reactions/shrug.png",
+      "tags": [
+        "kệ",
+        "chịu"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Person shrugging (assets/Person shrugging/Default/animated/person_shrugging_animated_default.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    },
+    "heart": {
+      "kind": "emoji",
+      "file": "library/reactions/heart.png",
+      "tags": [
+        "thương",
+        "iu"
+      ],
+      "source": "microsoft/fluentui-emoji-animated: Red heart (assets/Red heart/animated/red_heart_animated.png)",
+      "license": "MIT",
+      "commercial_ok": true
+    }
+  },
+  "sfx_dir": "library/sfx"
+}

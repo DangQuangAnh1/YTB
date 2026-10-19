@@ -1,0 +1,76 @@
+{
+  "artifact_ids": [
+    "A-159",
+    "A-160",
+    "A-161",
+    "A-162",
+    "A-163",
+    "A-164",
+    "A-165",
+    "A-166",
+    "A-167",
+    "A-168",
+    "A-169"
+  ],
+  "reviewer": "PM self-review of the fixes for the independent review's blocking items (tasks/review-agents-overnight-v1.md); sampled frames and QA files only; no human viewing or listening",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "release05_private_name",
+      "status": "passed",
+      "detail": "The Messenger reply label 'Bạn đã trả lời Nam' is pixelated in media/release-05/cards-fit/chat-_lysl0v3r.png, and it shows pixelated in release-05-v3 frame-420 (14s). The header name and avatars were pixelated before. Pixelating the rest of release-05-v2's 6 micro reactions (over the 3–5 guideline) was not done; that item was non-blocking.",
+      "evidence_path": "artifacts/render/release-05-v3/frame-420.png"
+    },
+    {
+      "name": "release03_clown_and_hits",
+      "status": "passed",
+      "detail": "The clown reaction aimed at a real commenter is removed. q1 smirk moved to the micro tier, so there are 3 hits and 7 reactions in total, and none sits within 2s of the CTA. The user still has to decide whether this story is used as a Short; its earlier upload was deleted.",
+      "evidence_path": "artifacts/render/release-03-v4/props.json"
+    },
+    {
+      "name": "release02_tien_pun",
+      "status": "unverified",
+      "detail": "q3 and b5 were re-voiced with 8 and 6 takes. At clip level, whisper heard the chosen takes as 'đẹp như tiên' (WER 0.0) and 'Tiên thêm dấu huyền thành tiền'. On the final mix with music, whisper still hears 'tiền' in both places, which may be context bias. A human must listen before release-02-v4 or compilation story 5 is published.",
+      "evidence_path": "artifacts/render/release-02-v4/mix-intelligibility.json"
+    },
+    {
+      "name": "meme_why_tags",
+      "status": "passed",
+      "detail": "Every reaction in p11–p16 carries a why tag, copied from the independent review. Content copies were re-registered with the renders.",
+      "evidence_path": "artifacts/content/release-02-lines-v4.json"
+    },
+    {
+      "name": "loudness_all",
+      "status": "passed",
+      "detail": "release-05-v3 -14.15 LUFS / -1.43 dBTP; release-03-v4 -14.21 / -1.49; release-02-v4 -14.18 / -1.49; compilation-01-v4 -14.03 LUFS / -1.41 dBTP. ffmpeg astats sample peak on the compilation is -1.41 dB; verify-export's audio_peak figure is a known measurement artifact on long files.",
+      "evidence_path": "artifacts/render/compilation-01-v4/loudness.json"
+    },
+    {
+      "name": "compilation_structure",
+      "status": "passed",
+      "detail": "The compilation runs 4:52 with 6 stories (release-04-v1, 05-v3, 06-v2, 03-v4, 02-v4, 07-v1). Outros are removed except the last. Chapter cards and an intro are included, with short fades at cuts and a limiter. YouTube chapters start at 0:00 and each runs 10s or longer (chapters.txt).",
+      "evidence_path": "artifacts/render/compilation-01-v4/chapters.txt"
+    },
+    {
+      "name": "rights_protocol",
+      "status": "passed",
+      "detail": "props.rights.pass is true for all three fixed Shorts. The release-02 cards are a fresh 1080px recapture (media/release-02b) with avatars blurred.",
+      "evidence_path": "artifacts/render/release-02-v4/props.json"
+    }
+  ],
+  "artifact_hashes": {
+    "A-159": "762e182e8a43c5c682a7dc3524cdefef77786d8d7a182b2dcf07cee9b45938ab",
+    "A-160": "21e26fffeb45f7a16cffa6b408758e08915308dc444a59b4a977fc5063acf059",
+    "A-161": "bf54298506f528e8b38140ae050e2818a92f278718b9d6400276d0eee3b67b4c",
+    "A-162": "e801cc5979ae57a9b9113033c8ec573d5fa7d9d1ee4d6da0b218aa035251b427",
+    "A-163": "2deac8ff5a4d7e136e964c7bfd6f4f766d53b64d9821a59d8a090bd599c3adf8",
+    "A-164": "c0464bd2d4fe9c07e17e58ba553e5af6f3b6e220ad299fcf241376b16b2ff0bb",
+    "A-165": "08adc0a6ce07229e2e2bb959d7d92c9d25e0f3d7b2b207c6b2af165c139ea673",
+    "A-166": "a01aa97ac021347f34703aa8d8fef5ee5952d9a2f2fdb36cf29e62f43cea288d",
+    "A-167": "6c8ea1275c49337c31f8d305229fba3af7bad4038e872784e2077a921184c138",
+    "A-168": "234ab8cdb66ab3f5bdee33b5399f97e2086f13b2c6ea1e7f0aad4884ad04f123",
+    "A-169": "5152c953e3028c48de35bfeb9e95a6780b728e5af0b4889dde15552fd6a17b4f"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-18T02:45:02.778475+00:00"
+}

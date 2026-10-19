@@ -1,0 +1,77 @@
+{
+  "artifact_ids": [
+    "A-148",
+    "A-149",
+    "A-150"
+  ],
+  "reviewer": "Independent Review agent (creator-review role): a model's checks of sampled frames, contact sheet, QA/loudness/whisper JSON and the props timeline; no human viewing or listening",
+  "mode": "independent_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Funny-warm Short for the overnight batch. Word captions are off (show_captions false). 6 reactions fall within the approved ~6-8. Adam bựa voice, brand outro, 37.1s. Picked by this review as the best Short to upload today.",
+      "evidence_path": "artifacts/render/release-07-v1/props.json"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "draft.mp4 fully decodes (exit 0): 1080x1920 H.264, 30fps, AAC 48k stereo, 37.1s, peak 0.829. The reviewer probed phone-1080p.mp4: 37.2s, same format, about 28.8 MB. The ≤10 MB upload copy does not exist yet and must be checked once it is made.",
+      "evidence_path": "artifacts/render/release-07-v1/technical-qa.json"
+    },
+    {
+      "name": "loudness",
+      "status": "passed",
+      "detail": "final.mp4 measures -14.25 LUFS and -1.43 dBTP. The reviewer re-measured phone-1080p.mp4 with ffmpeg loudnorm at -14.29 LUFS and -1.42 dBTP.",
+      "evidence_path": "artifacts/render/release-07-v1/loudness.json"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Reviewed the 11 sampled frames plus 6 frames the reviewer extracted at each reaction. Text is readable. The sender's name and avatar on the notification are whited out, and the avatars are blurred. Minor, non-blocking: a stray blue edge and a dark circle at the bottom-left of the notification crop. The b1 twist (notifications muted) rests on a muted-bell icon about 35px wide with no highlight; circling it would help. Sampled frames do not prove every transition.",
+      "evidence_path": "artifacts/render/release-07-v1/contact-sheet.png"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "No human listening. Whisper overall WER on the final mix is 0.068, the lowest of the new videos. The only odd word is the CTA 'câu hay nhất', heard as 'câu 2 nhất'.",
+      "evidence_path": "artifacts/render/release-07-v1/mix-intelligibility.json"
+    },
+    {
+      "name": "rights_protocol",
+      "status": "passed",
+      "detail": "props.rights.pass is true: 3 quotes, the longest 10 words; verbatim 15% of voice time, original 85%. Avatars are blurred and the sender name is hidden. No minors, sexual framing, politics or film/TV stills seen. Assets: Fluent emoji (MIT), Kenney CC0 SFX, Freesound CC0 music and whoosh/pop (landing pages not yet opened, rule 8 open), Pexels background, OFL fonts. Headline-post consent (rule 3) is not done; the user accepted that risk.",
+      "evidence_path": "artifacts/render/release-07-v1/props.json"
+    },
+    {
+      "name": "meme_beats",
+      "status": "passed",
+      "detail": "6 reactions: 3 hits (heart, joy, melting) and 3 micro (Toang, pleading, Đỉnh!), 2 of them text. All land on real beats, and none covers text being read; checked on extracted frames. Engine guardrails pass. Minor §4.3 deviation: the melting hit at 26.9s starts 1.3s before the CTA and overlaps it by 0.4s.",
+      "evidence_path": "artifacts/render/release-07-v1/props.json"
+    },
+    {
+      "name": "meme_why_tags",
+      "status": "failed",
+      "detail": "No reaction in lines.json has a beat.why; research §4.4 says Review fails such drafts. Paperwork only, no re-render. Suggested tags: q1 heart = 'ấm áp: 19 năm vẫn hỏi em ăn cơm chưa'; b1 Toang = 'twist: mẹ tắt thông báo của bố'; b2 pleading = 'aside: cmt xót xa cho bố'; q2 joy = 'punchline: 5 phút hỏi 1 lần'; b3 Đỉnh! = 'twist: tắt thông báo mà vẫn rep ngay'; q3 melting = 'ấm áp: em ăn rồi'.",
+      "evidence_path": "production/episodes/p16/lines.json"
+    },
+    {
+      "name": "metadata",
+      "status": "passed",
+      "detail": "Upload sheet v3 §S4 follows research/youtube-seo-v1.md. Title '19 năm, bố vẫn nhắn mẹ đúng 1 câu: em ăn cơm chưa 🥲' is 51 characters, with the hook in the first 40 and one emoji at the end. The description is accurate and includes credits, 'Trích dẫn để bình luận' and 'Giọng đọc AI'. 7 hashtags, 10 tags. No pinned comment. The AI-use answer is left to the user.",
+      "evidence_path": "artifacts/release/youtube-upload-v3.md"
+    },
+    {
+      "name": "hook_retention",
+      "status": "unverified",
+      "detail": "Model opinion, not audience data. The hook is '19 năm, bố vẫn nhắn đúng 1 câu', and the quote lands at 4.2s. At 37s with a sweet payoff it suits loops and full views. The CTA 'bố mẹ bạn hay nhắn câu gì?' is easy to answer. It has the same parent-chat shape as release-01 (1.5K views)."
+    }
+  ],
+  "artifact_hashes": {
+    "A-148": "487c5be250848ba7c347b82222262053176b397393cca455250e7c148695ebcf",
+    "A-149": "ff7a6b23ec33999926582dd0cc93e39e288989c706d5e1cc0424a974784fbfff",
+    "A-150": "d5ace68df0df5bb216696ed322ee83880797773659cb42e89fb0e1aab3062dfe"
+  },
+  "verdict": "needs_revision",
+  "recorded_at": "2026-10-18T01:41:44.810930+00:00"
+}
