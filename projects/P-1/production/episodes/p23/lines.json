@@ -1,0 +1,118 @@
+{
+  "format": "v2",
+  "media": "release-14",
+  "mood": "hai_v2",
+  "source_handle": "phailamqualo",
+  "hook": null,
+  "cta": null,
+  "chains": [],
+  "cast": {
+    "narrator": "Adam bựa",
+    "phailamqualo": "Thiện Minh",
+    "maisemayman": "Trúc Ly",
+    "pomersum": "Ngọc Huyền",
+    "mohonthichchu": "Mai Anh",
+    "hung171023": "Thiền Tâm Đức"
+  },
+  "cast_note": "The commenters who write 'chị em chúng tôi' get female voices. hung171023 writes 'anh em chúng tôi' and gets a male voice. The poster's voice is a guess.",
+  "note": "Clone of the user's reference Short youtube.com/shorts/QkKA4WOZVrQ ('bí mật của con gái'), done the user's way (tasks/user-decision-clone-v1.md): same topic and a similar layout, with our own cards, cast and memes. It pairs with p24 ('bí mật của con trai'). Comments about sexuality, underwear or bodies are excluded.",
+  "lines": [
+    {
+      "id": "p1",
+      "card": "post-phailamqualo",
+      "kind": "read",
+      "text": "Bí mật của con gái mà con trai không biết. Chúng tôi đọc và không đánh giá."
+    },
+    {
+      "id": "c1",
+      "card": "c1-maisemayman",
+      "kind": "read",
+      "text": "Con gái đi chơi với con gái sẽ ăn diện và make up kì công hơn so với đi cùng người yêu.",
+      "beat": {
+        "big": {
+          "reaction": "eyes",
+          "enter": "slam",
+          "sfx": "scratch",
+          "pause": 1.8,
+          "label": "Thật luôn?",
+          "label_style": "meme",
+          "fx": "zoom",
+          "why": "girls dress up more for girls"
+        }
+      }
+    },
+    {
+      "id": "q1",
+      "card": "c1-maisemayman",
+      "kind": "bridge",
+      "text": "Vậy ra người yêu chỉ được xem bản nháp thôi à."
+    },
+    {
+      "id": "c2",
+      "card": "c2-pomersum",
+      "kind": "read",
+      "text": "Chúng tôi thực sự cần một bạn trai biết chụp ảnh cho chúng tôi!",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.7,
+        "sfx": "punch",
+        "why": "all-caps plea"
+      }
+    },
+    {
+      "id": "q2",
+      "card": "c2-pomersum",
+      "kind": "bridge",
+      "text": "Anh em nào chụp ảnh xấu, tự giác giơ tay."
+    },
+    {
+      "id": "c3",
+      "card": "c3-mohonthichchu",
+      "kind": "read",
+      "text": "Chín mươi phần trăm các anh tán đổ các chị em, là vì chị em chúng tôi cũng có thích thích, bật đèn xanh cho các anh.",
+      "beat": {
+        "big": {
+          "reaction": "cat_thumbsup_cry",
+          "enter": "pop",
+          "sfx": "ting",
+          "pause": 1.8,
+          "label": "Đèn xanh",
+          "label_style": "meme",
+          "why": "girls give the green light"
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "card": "c3-mohonthichchu",
+      "kind": "bridge",
+      "text": "Hóa ra từ trước tới giờ, các anh chưa từng thắng."
+    },
+    {
+      "id": "q4",
+      "card": "c4-hung171023",
+      "kind": "bridge",
+      "text": "Còn một anh thì tiết lộ: các chị đã nhắm sẵn từ trước, rồi mới bật đèn xanh cho anh tưởng mình tán đổ."
+    },
+    {
+      "id": "c4",
+      "card": "c4-hung171023",
+      "kind": "read",
+      "text": "Chứ các chị em mà không chấm, thì mãn kiếp các anh cũng không tán được.",
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "sfx": "boom",
+          "pause": 2.1,
+          "label": "Mãn kiếp",
+          "label_style": "meme",
+          "fx": "zoom",
+          "why": "ending: never without her pick"
+        }
+      }
+    }
+  ]
+}

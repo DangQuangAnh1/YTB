@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-1",
-  "revision": 302,
+  "revision": 332,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "stage": "planning",
   "constraints": [
@@ -21,8 +21,8 @@
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r301-26538c24.json",
-      "sha256": "cdc4c14614d1d825eb9b994cc7da91e7e273f1c59b7aba03d9f810d620ddb5a2"
+      "path": "decisions/decision-r327-50b75422.json",
+      "sha256": "f9829822f786e187b58c355ec50e9ae3a7ed04576dcec4712690eba8e323bacf"
     }
   },
   "decision_records": [
@@ -129,6 +129,22 @@
     {
       "path": "decisions/decision-r301-26538c24.json",
       "sha256": "cdc4c14614d1d825eb9b994cc7da91e7e273f1c59b7aba03d9f810d620ddb5a2"
+    },
+    {
+      "path": "decisions/decision-r303-9946ee7d.json",
+      "sha256": "b140392d993be1e193d9d21307e8aafb0d9dd0142cb61832d24f4c9aa582627a"
+    },
+    {
+      "path": "decisions/decision-r312-b950bf73.json",
+      "sha256": "5bdec1aeadd478fe16ee38b871389390906a0938999731dd2f06f0bbde0a5929"
+    },
+    {
+      "path": "decisions/decision-r325-eda7ef37.json",
+      "sha256": "cf28c6e89e65a65b4fc78cce4c333577041b54c1d9dc7be65efbd7722e6f0411"
+    },
+    {
+      "path": "decisions/decision-r327-50b75422.json",
+      "sha256": "f9829822f786e187b58c355ec50e9ae3a7ed04576dcec4712690eba8e323bacf"
     }
   ],
   "artifacts": [
@@ -2358,6 +2374,282 @@
       ],
       "plan_revision": 8,
       "created_at": "2026-10-19T14:18:40.846346+00:00"
+    },
+    {
+      "path": "artifacts/content/release-14-lines-v1.json",
+      "sha256": "127fc2ad623e5c7481d22e04f09cb7b26ce4ea12689fdf558d006212c3a31796",
+      "id": "A-221",
+      "kind": "script",
+      "inputs": [],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T15:22:12.160397+00:00"
+    },
+    {
+      "path": "artifacts/render/release-14-v1/final.mp4",
+      "sha256": "f29e0cf0df50e85d7ce33e78804783e2bb1bc36083e05c0116edb75184fa65fa",
+      "id": "A-222",
+      "kind": "video",
+      "inputs": [
+        "A-221"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T15:22:16.553542+00:00"
+    },
+    {
+      "path": "artifacts/render/release-14-v1/props.json",
+      "sha256": "3c5a058a4ff365d808eb59104c9cdceef0c1ef97d1394a41c8f340b624d9c215",
+      "id": "A-223",
+      "kind": "metadata",
+      "inputs": [
+        "A-222"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T15:22:20.927794+00:00"
+    },
+    {
+      "path": "artifacts/release/release-14-v1/package.md",
+      "sha256": "34a6adc4f20b9f66cd8da2bd1ca22480ae19450b859712fd08cf4f7355b43169",
+      "id": "A-224",
+      "kind": "metadata",
+      "inputs": [
+        "A-222"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T15:22:25.340743+00:00"
+    },
+    {
+      "path": "artifacts/content/release-15-lines-v1.json",
+      "sha256": "89fe04116200dd1bd74c1c65922e325fc0224201b725647d9fdefda031875316",
+      "id": "A-225",
+      "kind": "script",
+      "inputs": [],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T15:22:29.708528+00:00"
+    },
+    {
+      "path": "artifacts/render/release-15-v1/final.mp4",
+      "sha256": "e93c816eccb1b484dd2a3cc6cb38784f7baf75b5264acce3d99c4e840c5404f9",
+      "id": "A-226",
+      "kind": "video",
+      "inputs": [
+        "A-225"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T15:22:34.317918+00:00"
+    },
+    {
+      "path": "artifacts/render/release-15-v1/props.json",
+      "sha256": "7b72b9a078153bdc79821a06b3d8f261464b9b17b429d7d167ab3365a01fdc28",
+      "id": "A-227",
+      "kind": "metadata",
+      "inputs": [
+        "A-226"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T15:22:38.789463+00:00"
+    },
+    {
+      "path": "artifacts/release/release-15-v1/package.md",
+      "sha256": "0ea8c08ede699b472df0e279ce3854d0647e0a69b33e980b7a5686ddee42cdbe",
+      "id": "A-228",
+      "kind": "metadata",
+      "inputs": [
+        "A-226"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T15:22:43.667586+00:00"
+    },
+    {
+      "path": "artifacts/content/release-15-lines-v2.json",
+      "sha256": "86d40a06651308d7ec12d37db99f9fac29299c7e6ec0fb9f52a72c864f7d7bdc",
+      "id": "A-229",
+      "kind": "script",
+      "inputs": [
+        "A-225"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T16:12:46.728619+00:00"
+    },
+    {
+      "path": "artifacts/render/release-15-v2/final.mp4",
+      "sha256": "c1d642e00044430de58275e3b344f0456612173e86beb9bb542410ddccd33b8f",
+      "id": "A-230",
+      "kind": "video",
+      "inputs": [
+        "A-229"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T16:12:51.232423+00:00"
+    },
+    {
+      "path": "artifacts/render/release-15-v2/props.json",
+      "sha256": "c93f5df6a572e3a47f8b0007f830a64fe2714abe62ebfb9086e7e2af04a18f83",
+      "id": "A-231",
+      "kind": "metadata",
+      "inputs": [
+        "A-230"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T16:12:55.953229+00:00"
+    },
+    {
+      "path": "artifacts/release/release-15-v2/package.md",
+      "sha256": "be33104056549d016e9aa04a7b7e62260cf88c5aaf028acfe0338a0532b35ac6",
+      "id": "A-232",
+      "kind": "metadata",
+      "inputs": [
+        "A-230"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T16:13:00.696281+00:00"
+    },
+    {
+      "path": "artifacts/content/release-15-lines-v3.json",
+      "sha256": "523ff6c88fa5d700ed9349a080e674486e0c9668f44c432455a17a1fe87c5b21",
+      "id": "A-233",
+      "kind": "script",
+      "inputs": [],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T18:14:13.707134+00:00"
+    },
+    {
+      "path": "artifacts/render/release-15-v3/final.mp4",
+      "sha256": "0c2a571d72899f7f9cbfc6cf738a332991f325ca922753aa8f61f2b078ed6571",
+      "id": "A-234",
+      "kind": "video",
+      "inputs": [
+        "A-233"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T18:14:18.415869+00:00"
+    },
+    {
+      "path": "artifacts/render/release-15-v3/props.json",
+      "sha256": "9cb8ee931e4cc5642b2a9443d98410004b415d9bab71eb0bbc05fac3dd94cf18",
+      "id": "A-235",
+      "kind": "metadata",
+      "inputs": [
+        "A-234"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T18:14:23.366513+00:00"
+    },
+    {
+      "path": "artifacts/release/release-15-v3/package.md",
+      "sha256": "eea0fbaa0a06ea057e73ecfa9ad496d601af129c0086a024ecbbec8b43384939",
+      "id": "A-236",
+      "kind": "metadata",
+      "inputs": [
+        "A-234"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T18:14:28.119858+00:00"
+    },
+    {
+      "path": "artifacts/content/release-16-lines-v1.json",
+      "sha256": "eb6d4a5401fb741a8de2eb3360909109fb288037e0805f0d60cc57838c65e4d3",
+      "id": "A-237",
+      "kind": "script",
+      "inputs": [],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T18:14:32.904726+00:00"
+    },
+    {
+      "path": "artifacts/render/release-16-v1/final.mp4",
+      "sha256": "6156df22c5459078781f4e0258615b9f6cbc3510f4850a23c40d8aa7824f0c94",
+      "id": "A-238",
+      "kind": "video",
+      "inputs": [
+        "A-237"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T18:14:37.790738+00:00"
+    },
+    {
+      "path": "artifacts/render/release-16-v1/props.json",
+      "sha256": "b79083fb941966d6383dec25984b2b6bc2c5390dbbeb4d50fa80ad47f93ac982",
+      "id": "A-239",
+      "kind": "metadata",
+      "inputs": [
+        "A-238"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T18:14:42.747021+00:00"
+    },
+    {
+      "path": "artifacts/release/release-16-v1/package.md",
+      "sha256": "97f8b4addc16075fdb0735f6925f1a76f58e821b5834179c70fd56f5aef39276",
+      "id": "A-240",
+      "kind": "metadata",
+      "inputs": [
+        "A-238"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-19T18:14:47.732101+00:00"
+    },
+    {
+      "path": "artifacts/release/youtube-publish-log-v5.md",
+      "sha256": "f5d871dfc2cdf41c4448ba701d6150b13cdae3016c078b48deb81dd17f8aa593",
+      "id": "A-241",
+      "kind": "metadata",
+      "inputs": [
+        "A-234"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-20T02:05:19.105131+00:00"
+    },
+    {
+      "path": "artifacts/content/release-17-lines-v1.json",
+      "sha256": "3657f45e655724e574679a987843b5dc2c98c2e2d8f4c50773b67bb8d7e541b1",
+      "id": "A-242",
+      "kind": "script",
+      "inputs": [],
+      "plan_revision": 8,
+      "created_at": "2026-10-20T02:25:45.665199+00:00"
+    },
+    {
+      "path": "artifacts/render/release-17-v1/final.mp4",
+      "sha256": "6dc48aecac87e688d11a894fc997ae9e35863d6316aa52fbe69c85c792580f50",
+      "id": "A-243",
+      "kind": "video",
+      "inputs": [
+        "A-242"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-20T02:25:51.233197+00:00"
+    },
+    {
+      "path": "artifacts/render/release-17-v1/props.json",
+      "sha256": "4f027963886d8af31ce306c925580c1fcff1a740d89350093473aae2a79515a4",
+      "id": "A-244",
+      "kind": "metadata",
+      "inputs": [
+        "A-243"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-20T02:25:56.977277+00:00"
+    },
+    {
+      "path": "artifacts/release/release-17-v1/package.md",
+      "sha256": "73425fbb028968042b7d6c2dd9a1904dabeae08d5b833d7fba79fd53478a5d32",
+      "id": "A-245",
+      "kind": "metadata",
+      "inputs": [
+        "A-243"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-20T02:26:03.200945+00:00"
+    },
+    {
+      "path": "artifacts/release/youtube-publish-log-v6.md",
+      "sha256": "49f8e8d09ec10e8770535cfaaaac2dff1175fc6989053dede93381e04f27d0dc",
+      "id": "A-246",
+      "kind": "metadata",
+      "inputs": [
+        "A-243"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-20T02:33:11.460190+00:00"
     }
   ],
   "reviews": [
@@ -2929,7 +3221,7 @@
     "available": false
   },
   "created_at": "2026-10-16T07:42:46.989392+00:00",
-  "updated_at": "2026-10-19T14:18:40.846357+00:00",
+  "updated_at": "2026-10-20T02:33:11.460203+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r55-07b5f2fc.json",

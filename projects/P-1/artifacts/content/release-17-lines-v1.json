@@ -1,0 +1,153 @@
+{
+  "format": "v2",
+  "media": "release-17",
+  "mood": "hai_v2",
+  "source_handle": "phailamqualo",
+  "hook": null,
+  "cta": null,
+  "verbatim_accepted": "tasks/user-decision-clone-v2.md",
+  "chains": [],
+  "title_card": {
+    "line": "t0",
+    "lines": [
+      "topic:",
+      "bí mật của",
+      "\"CON GÁI\"",
+      "Pt.1"
+    ],
+    "highlight": 2
+  },
+  "cast": {
+    "narrator": "Adam bựa",
+    "phailamqualo": "Thiện Minh",
+    "maisemayman": "Trúc Ly",
+    "limzimeow": "Ngọc Huyền",
+    "haiba.motkhong": "Mai Anh",
+    "pomersum": "Trúc Ly",
+    "ryanken93": "Thiện Minh",
+    "_oaktr.7t8": "Ngọc Linh",
+    "mohonthichchu": "Ngọc Huyền",
+    "hung171023": "Thiền Tâm Đức"
+  },
+  "cast_note": "Female voices for the girls who speak as 'chúng tôi' or 'chị em'. The posters' voices are guesses. hung171023 writes 'anh em chúng tôi' and gets a male voice.",
+  "note": "Girls Pt.1 v2 (tasks/user-decision-girls-v2.md): real cards from @phailamqualo and @ryanken93 only, funny and longer comments, the same format as the boys' Pt.1.",
+  "lines": [
+    {
+      "id": "t0",
+      "card": "post-phailamqualo",
+      "kind": "bridge",
+      "text": "Bí mật của con gái, phần một!"
+    },
+    {
+      "id": "p1",
+      "card": "post-phailamqualo",
+      "kind": "read",
+      "text": "Bí mật của con gái mà con trai không biết. Chúng tôi đọc và không đánh giá."
+    },
+    {
+      "id": "c1",
+      "card": "c1-maisemayman",
+      "kind": "read",
+      "text": "Con gái đi chơi với con gái sẽ ăn diện và make up kì công hơn so với đi cùng người yêu."
+    },
+    {
+      "id": "c2",
+      "card": "c2-limzimeow",
+      "kind": "read",
+      "text": "Chúng toi thích ngửi đồ của mình sau khi sử dụng các ông ạ. Ngửi gối, ngửi nách, ngửi đồ lót của bản thân. Không hiểu sao mùi những chỗ này nó cuốn vãi.",
+      "bleep": [
+        "vãi"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "sfx": "scratch",
+          "pause": 1.8,
+          "label": "Ngửi gì?!",
+          "label_style": "meme",
+          "fx": "zoom",
+          "why": "sniffing confession"
+        }
+      }
+    },
+    {
+      "id": "c3",
+      "card": "c3-haiba.motkhong",
+      "kind": "read",
+      "text": "Gái thẳng tương tác với nhau gay hơn gái lé. Thẳng lắm mới dám gay như vậy."
+    },
+    {
+      "id": "c4",
+      "card": "c4-pomersum",
+      "kind": "read",
+      "text": "Chúng tôi thực sự cần một bạn trai biết chụp ảnh cho chúng tôi!",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.7,
+        "sfx": "punch",
+        "why": "all-caps plea"
+      }
+    },
+    {
+      "id": "p2",
+      "card": "post-ryanken93",
+      "kind": "read",
+      "text": "Góc khuất mà con gái luôn giấu diếm."
+    },
+    {
+      "id": "c5",
+      "card": "c5-ryanken93",
+      "kind": "read",
+      "text": "Con gái từ chối đi chơi, có thể là do chưa gội đầu kịp.",
+      "beat": {
+        "big": {
+          "reaction": "skull",
+          "enter": "pop",
+          "sfx": "boom",
+          "pause": 1.8,
+          "label": "Chưa gội",
+          "label_style": "meme",
+          "why": "unwashed hair excuse"
+        }
+      }
+    },
+    {
+      "id": "c6",
+      "card": "c6-_oaktr.7t8",
+      "kind": "read",
+      "text": "Chẳng có gì gọi là tán gái ở đây cả, ngay từ khi vừa gặp là mọi thứ đã được quyết định rồi. Người ta chấm ông thì rẽ đường cho ông tới tán, còn đã không ưng thì nói chuyện còn khó ấy chứ."
+    },
+    {
+      "id": "c7",
+      "card": "c7-mohonthichchu",
+      "kind": "read",
+      "text": "Chín mươi phần trăm các anh tán đổ các chị em, là vì chị em chúng tôi cũng có thích thích, bật đèn xanh cho các anh."
+    },
+    {
+      "id": "c8",
+      "card": "c8-hung171023",
+      "kind": "read",
+      "text": "Nghe qua một phen bảo. Thì các chị em đã nhắm anh dai đó sẵn rồi, xong mới ra đèn xanh cho ảnh tán. Hoặc là một chút kí hiệu mà anh em chúng tôi tự huyễn hoặc bản thân là mình đã làm cổ đổ. Chứ các chị em mà không chấm, thì mãn kiếp các anh cũng không tán được.",
+      "beat": {
+        "big": {
+          "reaction": "cat_thumbsup_cry",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 2.0,
+          "label": "Mãn kiếp",
+          "label_style": "meme",
+          "why": "ending: men never win"
+        }
+      }
+    },
+    {
+      "id": "z1",
+      "card": "c8-hung171023",
+      "kind": "bridge",
+      "text": "Phần hai có ngay trên kênh, nhớ theo dõi nha!"
+    }
+  ]
+}

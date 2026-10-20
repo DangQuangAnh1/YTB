@@ -1,0 +1,112 @@
+{
+  "format": "v2",
+  "media": "release-15",
+  "mood": "hai_v2",
+  "source_handle": "_beslynn",
+  "hook": null,
+  "cta": null,
+  "chains": [],
+  "cast": {
+    "narrator": "Adam bựa",
+    "_beslynn": "Trúc Ly",
+    "skytree.1998": "Thiện Minh",
+    "joker_phong": "Thiền Tâm Đức",
+    "cong0098": "Thái Sơn",
+    "2seventh_of_may": "Phạm Tuyên"
+  },
+  "cast_note": "The commenters speak as men: male voices for 'đàn ông nói ra'. The poster's voice is a guess.",
+  "note": "Clone of the user's reference Short youtube.com/shorts/Nl92baeux-Q ('bí mật của con trai'). Same source post, a similar layout, our own cards, cast and memes (tasks/user-decision-clone-v1.md). It pairs with p23. The reference uses many sexual comments; only clean ones are used here. 'éo' is blurred on the card and bleeped in the voice.",
+  "lines": [
+    {
+      "id": "p1",
+      "card": "post-_beslynn",
+      "kind": "read",
+      "text": "Một điều bí mật về đàn ông, nhưng chính đàn ông nói ra:"
+    },
+    {
+      "id": "c1",
+      "card": "c1-skytree.1998",
+      "kind": "read",
+      "text": "Nếu một đứa con trai thân thiết với bạn mà không tỏ tình, thì có khả năng là nó nghèo đấy, éo phải trap đâu. Tiền ăn còn lo không đủ, nó không dám yêu.",
+      "bleep": [
+        "éo"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "sob",
+          "enter": "rise",
+          "sfx": "womp",
+          "pause": 1.8,
+          "label": "Nghèo",
+          "label_style": "meme",
+          "why": "too broke to confess"
+        }
+      }
+    },
+    {
+      "id": "q1",
+      "card": "c1-skytree.1998",
+      "kind": "bridge",
+      "text": "Không phải không yêu đâu, chỉ là cái ví không cho phép."
+    },
+    {
+      "id": "c2",
+      "card": "c2-joker_phong",
+      "kind": "read",
+      "text": "Đàn ông có thể gục ngã vì rất nhiều thứ. Nhưng trước khi gục, phải lết về phòng bằng được. Đóng cửa chốt lại, rồi khóc tu tu.",
+      "beat": {
+        "big": {
+          "reaction": "tears",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 1.8,
+          "label": "Tu tu",
+          "label_style": "meme",
+          "fx": "zoom",
+          "why": "men cry behind a locked door"
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "card": "c2-joker_phong",
+      "kind": "bridge",
+      "text": "Khóc thôi mà cũng phải có quy trình hẳn hoi, chốt cửa trước đã."
+    },
+    {
+      "id": "c3",
+      "card": "c3-cong0098",
+      "kind": "read",
+      "text": "Tuy lúc nào tao cũng ôm người yêu tao ngủ, nhưng tao muốn là người được ôm.",
+      "fx": {
+        "type": "push",
+        "strength": 0.06,
+        "why": "soft confession"
+      }
+    },
+    {
+      "id": "q3",
+      "card": "c3-cong0098",
+      "kind": "bridge",
+      "text": "Ai cũng tưởng mạnh mẽ, hóa ra đàn ông cũng cần được ôm."
+    },
+    {
+      "id": "c4",
+      "card": "c4-2seventh_of_may",
+      "kind": "read",
+      "text": "Quên thở nên thở dài, nhưng lại bị kêu là thái độ lòi lõm.",
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "sfx": "boom",
+          "pause": 2.1,
+          "label": "Oan quá",
+          "label_style": "meme",
+          "fx": "zoom",
+          "why": "ending: a sigh read as attitude"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "format": "v2",
+  "media": "release-16",
+  "mood": "hai_v2",
+  "source_handle": "ryanken93",
+  "hook": null,
+  "cta": null,
+  "verbatim_accepted": "tasks/user-decision-clone-v2.md",
+  "chains": [],
+  "title_card": {
+    "line": "t0",
+    "lines": [
+      "topic:",
+      "bí mật của",
+      "\"CON GÁI\"",
+      "Pt.1"
+    ],
+    "highlight": 2
+  },
+  "cast": {
+    "narrator": "Adam bựa",
+    "ryanken93": "Thiện Minh",
+    "cuzzaihely": "Trúc Ly",
+    "yayii_23": "Ngọc Huyền",
+    "san.s.an": "Mai Anh",
+    "letuoc_3333": "Ngọc Linh",
+    "linweahl_": "Trúc Ly",
+    "nguyenthuydym": "Ngọc Huyền",
+    "htpl_0601": "Mai Anh"
+  },
+  "cast_note": "Female voices for the girls' confessions (they speak as 'chúng tôi', 'tụi t'). ryanken93's voice is a guess. Voices alternate between neighbours.",
+  "note": "Girls video (user 2026-10-20): comments from the reference compilation (youtube.com/shorts/QkKA4WOZVrQ, source not findable) plus @ryanken93's 'Góc khuất mà con gái luôn giấu diếm', all as rebuilt cards. Funny or crude picks, no quips, a title card and one closing line.",
+  "lines": [
+    {
+      "id": "t0",
+      "card": "post-ryanken93",
+      "kind": "bridge",
+      "text": "Bí mật của con gái, phần một!"
+    },
+    {
+      "id": "p1",
+      "card": "post-ryanken93",
+      "kind": "read",
+      "text": "Góc khuất mà con gái luôn giấu diếm."
+    },
+    {
+      "id": "c1",
+      "card": "c1-ryanken93",
+      "kind": "read",
+      "text": "Con gái từ chối đi chơi, có thể là do chưa gội đầu kịp."
+    },
+    {
+      "id": "c2",
+      "card": "c2-cuzzaihely",
+      "kind": "read",
+      "text": "Chúng tôi muốn đàn ông có bầu.",
+      "beat": {
+        "big": {
+          "reaction": "smirk",
+          "enter": "slam",
+          "sfx": "scratch",
+          "pause": 1.8,
+          "label": "Có bầu?!",
+          "label_style": "meme",
+          "fx": "zoom",
+          "why": "wants men pregnant"
+        }
+      }
+    },
+    {
+      "id": "c3",
+      "card": "c3-yayii_23",
+      "kind": "read",
+      "text": "Chúng tôi không chê bạn nghèo, nhưng chúng tôi không thích bạn nhận bản thân mình nghèo."
+    },
+    {
+      "id": "c4",
+      "card": "c4-san.s.an",
+      "kind": "read",
+      "text": "Nếu mà bạn nói gì cô ấy cũng mắc cười, thì là do cô ấy thích bạn, chứ không phải do bạn hài hước.",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.6,
+        "sfx": "punch",
+        "why": "not funny, just liked"
+      }
+    },
+    {
+      "id": "c5",
+      "card": "c5-letuoc_3333",
+      "kind": "read",
+      "text": "Một đứa con gái thân thiện quá mức, có vài cư xử khiến bạn lầm tưởng họ thích bạn. Nhưng không đâu, nó chỉ xã giao một cách chân thành.",
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "sfx": "boom",
+          "pause": 1.8,
+          "label": "Xã giao thôi",
+          "label_style": "meme",
+          "why": "friendzone truth"
+        }
+      }
+    },
+    {
+      "id": "c6",
+      "card": "c6-linweahl_",
+      "kind": "read",
+      "text": "Nếu mà tao rep tin nhắn nhanh hoặc lỡ mấy phút thì do tao bận, còn năm tiếng rồi chưa rep, thì đừng nhắn nữa nha."
+    },
+    {
+      "id": "c7",
+      "card": "c7-nguyenthuydym",
+      "kind": "read",
+      "text": "Có một sự thật là, tụi tao lại thấy dễ bị cuốn hút bởi mấy thằng hay ít nói, lầm lì, hay ngại ngùng về vấn đề a bê xê, kiểu thấy nó vẫn an toàn hơn là mấy thằng vừa vào nhắn tin đã gạ xếp hình."
+    },
+    {
+      "id": "c8",
+      "card": "c8-htpl_0601",
+      "kind": "read",
+      "text": "Chín mươi phần trăm con gái chịu rep tin nhắn nhanh, và ngày nào cũng nhắn với mày, thì nó bật mười cái đèn xanh cho mày rồi đấy, thằng đần ạ.",
+      "beat": {
+        "big": {
+          "reaction": "cat_thumbsup_cry",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 2.0,
+          "label": "Đèn xanh",
+          "label_style": "meme",
+          "why": "ending: green lights"
+        }
+      }
+    },
+    {
+      "id": "z1",
+      "card": "c8-htpl_0601",
+      "kind": "bridge",
+      "text": "Phần hai có ngay trên kênh, nhớ theo dõi nha!"
+    }
+  ]
+}

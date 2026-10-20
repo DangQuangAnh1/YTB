@@ -51,7 +51,7 @@ spec.lines.forEach((l, i) => {
   if (pool.avoid?.[voice]) warns.push(`${l.id}: voice ${voice} is on the avoid list (${pool.avoid[voice]})`);
   const odd = ws.filter((w) => foreign(w) && !ALLOW.has(plain(w)));
   if (odd.length) warns.push(`${l.id}: foreign-looking words ${JSON.stringify(odd)}: spell them phonetically in the voice text (the card stays as is)`);
-  if (l.kind === 'read' && ws.length > 60) errors.push(`${l.id}: quote of ${ws.length} words (max 60)`);
+  if (l.kind === 'read' && ws.length > 60 && !spec.verbatim_accepted) errors.push(`${l.id}: quote of ${ws.length} words (max 60)`);
   const dur = EDGE + ws.length / (RATE[voice] ?? 5.0);
   if (ws.length <= 1) warns.push(`${l.id}: one-word line "${l.text}" — TTS and ASR are unreliable on single syllables; listen to it`);
   allT += dur; if (l.kind === 'read') readT += dur;
@@ -67,7 +67,7 @@ spec.lines.forEach((l, i) => {
   }
 });
 const share = readT / Math.max(allT, 0.01);
-if (V2) {
+if (V2 && !spec.verbatim_accepted) {
   if (share > 0.75) errors.push(`estimated verbatim share ${share.toFixed(2)} > 0.75: add or lengthen a bridge, or trim a read`);
   else if (share > 0.72) warns.push(`estimated verbatim share ${share.toFixed(2)} is close to the 0.75 limit (the estimate is ±0.02)`);
 }

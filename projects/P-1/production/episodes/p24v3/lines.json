@@ -1,0 +1,217 @@
+{
+  "format": "v2",
+  "media": "release-15",
+  "mood": "hai_v2",
+  "source_handle": "_beslynn",
+  "hook": null,
+  "cta": null,
+  "verbatim_accepted": "tasks/user-decision-clone-v2.md",
+  "chains": [
+    [
+      "c5-thienvy1106",
+      "c5a-voidphong1995"
+    ],
+    [
+      "c6-hung_n89",
+      "c6a-ngp_jake",
+      "c6b-peter_khqng",
+      "c6c-leeanhtuaans"
+    ]
+  ],
+  "cast": {
+    "narrator": "Adam bựa",
+    "_beslynn": "Trúc Ly",
+    "thienvy1106": "Ngọc Huyền",
+    "voidphong1995": "Thái Sơn",
+    "hung_n89": "Thiện Minh",
+    "ngp_jake": "Phạm Tuyên",
+    "peter_khqng": "Quốc Tuấn",
+    "leeanhtuaans": "Hải Đăng",
+    "joker_phong": "Thiền Tâm Đức",
+    "trungzin": "Hải Đăng",
+    "skytree.1998": "Thiện Minh",
+    "tran.dinhkhiem": "Thái Sơn",
+    "hieuminh4080": "Phạm Tuyên",
+    "tnlien.o6": "Thiện Minh"
+  },
+  "cast_note": "Male voices for the men answering; the voices of the poster and thienvy1106 are guesses. A handle keeps its voice (peter_khqng appears twice). There is no narrator line in this version.",
+  "note": "Part 1 (user 2026-10-20 ~00:05): p24v2's reference lineup, plus 3 boys' comments from @nhonaytennhi's topic, a 'topic … Pt.1' title card and one closing narrator line. No quips between lines (tasks/user-decision-clone-v2.md).",
+  "lines": [
+    {
+      "id": "t0",
+      "card": "post-_beslynn",
+      "kind": "bridge",
+      "text": "Bí mật của con trai, phần một!"
+    },
+    {
+      "id": "p1",
+      "card": "post-_beslynn",
+      "kind": "read",
+      "text": "Một điều bí mật về đàn ông, nhưng chính đàn ông nói ra:"
+    },
+    {
+      "id": "c5",
+      "card": "c5-thienvy1106",
+      "kind": "read",
+      "text": "Con trai thích skinship với nhau, nhưng mà không thích con gái động vô người nó."
+    },
+    {
+      "id": "c5a",
+      "card": "c5a-voidphong1995",
+      "kind": "read",
+      "text": "Thôi đm, ông bị gay rồi.",
+      "bleep": [
+        "đm"
+      ]
+    },
+    {
+      "id": "c6",
+      "card": "c6-hung_n89",
+      "kind": "read",
+      "text": "Miếng da bọc hai hòn tự lột mỗi tháng."
+    },
+    {
+      "id": "c6a",
+      "card": "c6a-ngp_jake",
+      "kind": "read",
+      "text": "Do ba hong rửa chứ ngày nào mà hong có."
+    },
+    {
+      "id": "c6b",
+      "card": "c6b-peter_khqng",
+      "kind": "read",
+      "text": "Sao lại tiết lộ bí mật quốc gia?"
+    },
+    {
+      "id": "c6c",
+      "card": "c6c-leeanhtuaans",
+      "kind": "read",
+      "text": "Đm, chim ông hoá thạch à?",
+      "bleep": [
+        "đm",
+        "chim"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "sfx": "boom",
+          "pause": 1.9,
+          "label": "Hoá thạch?!",
+          "label_style": "meme",
+          "fx": "zoom",
+          "why": "fossil punchline"
+        }
+      }
+    },
+    {
+      "id": "c2",
+      "card": "c2-joker_phong",
+      "kind": "read",
+      "text": "Đàn ông có thể gục ngã vì rất nhiều thứ. Nhưng trước khi gục, phải lết về phòng bằng được. Đóng cửa chốt lại, rồi có thể ngồi nằm ngay cửa mà khóc tu tu."
+    },
+    {
+      "id": "c7",
+      "card": "c7-trungzin",
+      "kind": "read",
+      "text": "Đi mua đồ về, xong sẽ khai thấp hơn mức tiền thực trả.",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.6,
+        "sfx": "boing",
+        "why": "money lie"
+      }
+    },
+    {
+      "id": "c8",
+      "card": "c8-peter_khqng",
+      "kind": "read",
+      "text": "Có sở thích nuôi lông jimz để cho nó dài dài nghịch đã.",
+      "bleep": [
+        "jimz"
+      ]
+    },
+    {
+      "id": "c9",
+      "card": "c9-tran.dinhkhiem",
+      "kind": "read",
+      "text": "Lọ bốn phát rồi, ráng lên sân cầu lông đánh bốn tiếng, vắt khô.",
+      "bleep": [
+        "lọ"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "skull",
+          "enter": "slam",
+          "sfx": "boom",
+          "pause": 1.8,
+          "label": "Vắt khô",
+          "label_style": "meme",
+          "fx": "zoom",
+          "why": "crude stamina joke"
+        }
+      }
+    },
+    {
+      "id": "c10",
+      "card": "c10-hieuminh4080",
+      "kind": "read",
+      "text": "Hồi bé tao từng chạy lên trường cấp ba chơi, mà lúc đó nhỏ, tưởng bồn đái cho con trai là để ỉa, rồi tao ỉa một bãi to lên đấy.",
+      "bleep": [
+        "ỉa"
+      ]
+    },
+    {
+      "id": "c11",
+      "card": "c11-tnlien.o6",
+      "kind": "read",
+      "text": "Thật ra tao là con trai, xin lỗi đã giấu quả bí mật này quá lâu rồi.",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.7,
+        "sfx": "boing",
+        "why": "plot twist"
+      }
+    },
+    {
+      "id": "c1",
+      "card": "c1-skytree.1998",
+      "kind": "read",
+      "text": "Nếu một đứa con trai thân thiết với bạn mà không tỏ tình, thì có khả năng là nó nghèo đấy, éo phải trap đâu. Tiền ăn còn lo không đủ, nó không dám yêu.",
+      "bleep": [
+        "éo"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "cat_thumbsup_cry",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 2.1,
+          "label": "Nghèo thôi",
+          "label_style": "meme",
+          "why": "ending: too broke to confess"
+        }
+      }
+    },
+    {
+      "id": "z1",
+      "card": "c1-skytree.1998",
+      "kind": "bridge",
+      "text": "Phần hai có ngay trên kênh, nhớ theo dõi nha!"
+    }
+  ],
+  "title_card": {
+    "line": "t0",
+    "lines": [
+      "topic:",
+      "bí mật của",
+      "\"CON TRAI\"",
+      "Pt.1"
+    ],
+    "highlight": 2
+  }
+}

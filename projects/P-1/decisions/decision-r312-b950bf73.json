@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-decision-clone-v2.md",
+  "excerpt": "đừng có thể đoạn giải thích sau mỗi câu | Nhạc quá nhỏ, tăng to lên | Giữ, chữ thô thì bíp",
+  "plan": {
+    "path": "plans/plan-v8-r165-629ac70c.md",
+    "sha256": "0c6dce9ec38679e9aea21e8b4a4a817890baf5fd37d20674d2f92d623b80caa9",
+    "revision": 8
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-19T15:54:22.967680+00:00"
+}

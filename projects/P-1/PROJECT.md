@@ -14,5 +14,7 @@ Tooling update 2026-10-16: người dùng yêu cầu prototype 10–20s rồi y�
 
 Format chuẩn từ 2026-10-18: Short hài theo **format v2**: đọc nguyên văn card từ giây đầu, 1–3 meme to, kết ở câu chốt, nền Pexels sáng, watermark, không phụ đề, không hook strip, CTA hay outro. Xem tasks/user-decision-format-v2.md. Dùng **nhiều giọng**: mỗi nhân vật một giọng VieNeu (`cast` trong lines.json, cast_pool trong preset hai_v2), người dẫn chỉ đọc câu chêm. Xem tasks/user-decision-multivoice-v1.md. Bản mẫu được duyệt nghe: release-07-v3. Từ 2026-10-19: (1) Người dẫn không đọc câu giới thiệu kiểu "bình luận nhiều tim nhất…" vì người dùng thấy chán, chỉ chêm câu đùa ngắn sau câu chốt (vẫn giữ tỷ lệ lời gốc ≥25%). (2) Nhạc nền: video hài dùng bài 1–3 (Sneaky Snitch, Monkeys Spinning Monkeys, Fluffing a Duck), hài tiết tấu chậm dùng bài 4 (Investigations), ghi credit CC BY trong mô tả. Xem tasks/user-decision-music-v1.md. (3) Được dùng ảnh meme trên mạng (không phim/TV/anime) với rủi ro người dùng chấp nhận. Xem tasks/user-decision-meme-images-v1.md. (4) Tên người trong bài hoặc chat là một phần câu đùa thì để nguyên. Xem tasks/user-decision-publish-release08-v1.md.
 
+**Làm video mới:** gõ `/p1-video <link>` (hoặc `clone`/`topic`) trong Claude Code. Quy trình đầy đủ và các quy tắc nằm trong PLAYBOOK.md.
+
 Operational records: STATE.json and generated HANDOFF.md.
 Decisions and source evidence must be linked before claiming approval or results.

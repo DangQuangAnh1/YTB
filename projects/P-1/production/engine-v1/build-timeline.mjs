@@ -208,8 +208,10 @@ const rights = {quotes: quotes.length, max_quote_words: Math.max(0, ...quotes.ma
 rights.protocol = V2 ? 'v2-read-first' : 'v1';
 rights.pass = V2 ? rights.max_quote_words <= 60 && rights.verbatim_time_share <= 0.75 && rights.original_time_share >= 0.25
   : rights.quotes <= 3 && rights.max_quote_words <= 30 && rights.verbatim_time_share <= 0.35 && rights.original_time_share >= 0.5;
+// The user may lift the verbatim cap for an episode (clone videos, tasks/user-decision-clone-v2.md): record it, don't fail.
+if (V2 && spec.verbatim_accepted) { rights.protocol = 'v2-user-accepted-verbatim'; rights.accepted_by = spec.verbatim_accepted; rights.pass = true; }
 const sizes = JSON.parse(fs.readFileSync(path.join(media, 'cards-fit/sizes.json'), 'utf8'));
-const props = {music: spec.music !== false, music_file: preset.music.file, music_credit: musicCredit, footer: spec.footer === true, show_captions: spec.captions ?? brand?.captions ?? true, brand: outro ? brand : null, format: V2 ? 'v2' : 'v1', watermark: V2 ? (brand?.name ?? null) : null,
+const props = {title_card: spec.title_card ?? null, music: spec.music !== false, music_file: preset.music.file, music_credit: musicCredit, footer: spec.footer === true, show_captions: spec.captions ?? brand?.captions ?? true, brand: outro ? brand : null, format: V2 ? 'v2' : 'v1', watermark: V2 ? (brand?.name ?? null) : null,
   hook_strip: V2 ? false : spec.hook_strip !== false, strips: V2 ? 0 : 2, group_top: V2 ? 360 : 560, max_h: V2 ? 1180 : 720, episode: path.basename(episode), mood: spec.mood, preset, media: spec.media, hook: spec.hook, cta: spec.cta,
   handle: spec.channel_handle ?? brand?.handle ?? '@hong.cmt (tên tạm)', source_handle: spec.source_handle, sizes, fps: 30,
   duration: +duration.toFixed(3), frames: Math.ceil(duration * 30), lines, cards, groups, captions, sfx, reactions, camera,

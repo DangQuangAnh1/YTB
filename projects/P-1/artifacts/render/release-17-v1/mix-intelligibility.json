@@ -1,0 +1,79 @@
+{
+ "video": "release-17-v1",
+ "overall_wer": 0.148,
+ "per_line": [
+  {
+   "id": "t0",
+   "wer": 0.143,
+   "script": "Bí mật của con gái, phần một!",
+   "heard": "\"Bí mật của con gái, phần một.\" \"Bí"
+  },
+  {
+   "id": "p1",
+   "wer": 0.176,
+   "script": "Bí mật của con gái mà con trai không biết. Chúng tôi đọc và không đánh giá.",
+   "heard": "mật của con gái mà con trai không biết, chúng tôi độc và không đánh giá.\" \"Con"
+  },
+  {
+   "id": "c1",
+   "wer": 0.182,
+   "script": "Con gái đi chơi với con gái sẽ ăn diện và make up kì công hơn so với đi cùng người yêu.",
+   "heard": "\"Con gái đi chơi với con gái sẽ ăn diện và makeup kỳ công hơn so với đi cùng người yêu.\" \"Chúng"
+  },
+  {
+   "id": "c2",
+   "wer": 0.265,
+   "script": "Chúng toi thích ngửi đồ của mình sau khi sử dụng các ông ạ. Ngửi gối, ngửi nách, ngửi đồ lót của bản thân. Không hiểu sao mùi những chỗ này nó cuốn vãi.",
+   "heard": "tôi thích người đồ của mình sau khi sử dụng các âu mạ, người gối, người nách, người đồ lót của bản thân, không hiểu sao mùi những chỗ này nó cuốn.\""
+  },
+  {
+   "id": "c3",
+   "wer": 0.412,
+   "script": "Gái thẳng tương tác với nhau gay hơn gái lé. Thẳng lắm mới dám gay như vậy.",
+   "heard": "với nhau gai hơn gái lé, thẳng lắm mới xám gai như vậy.\""
+  },
+  {
+   "id": "c4",
+   "wer": 0.071,
+   "script": "Chúng tôi thực sự cần một bạn trai biết chụp ảnh cho chúng tôi!",
+   "heard": "\"Chúng tôi thực sự cần một bạn trai biết chụp ảnh cho chúng"
+  },
+  {
+   "id": "p2",
+   "wer": 0.25,
+   "script": "Góc khuất mà con gái luôn giấu diếm.",
+   "heard": "Bất khuất mà con gái luôn dấu diếm,"
+  },
+  {
+   "id": "c5",
+   "wer": 0.071,
+   "script": "Con gái từ chối đi chơi, có thể là do chưa gội đầu kịp.",
+   "heard": "con gái từ chối đi chơi có thể là do trưa gội đầu kịp."
+  },
+  {
+   "id": "c6",
+   "wer": 0.111,
+   "script": "Chẳng có gì gọi là tán gái ở đây cả, ngay từ khi vừa gặp là mọi thứ đã được quyết định rồi. Người ta chấm ông thì rẽ đường cho ông tới tán, còn đã không ưng thì nói chuyện còn khó ấy chứ.",
+   "heard": "\"Chẳng có gì gọi là tán gái ở đây cả, ngay từ khi vừa gặp là mọi thứ đã được quyết định rồi.\" \"Người ta chăm ông thì dễ đường cho ông tới tán, còn đã không ưng thì nói chuyện còn khó ấy chứ.\" \"90% các anh"
+  },
+  {
+   "id": "c7",
+   "wer": 0.296,
+   "script": "Chín mươi phần trăm các anh tán đổ các chị em, là vì chị em chúng tôi cũng có thích thích, bật đèn xanh cho các anh.",
+   "heard": "tán đổ các chị em, là vì chị em chúng tôi cũng có thích thích, bật đèn xanh cho các anh.\" Nghe qua"
+  },
+  {
+   "id": "c8",
+   "wer": 0.145,
+   "script": "Nghe qua một phen bảo. Thì các chị em đã nhắm anh dai đó sẵn rồi, xong mới ra đèn xanh cho ảnh tán. Hoặc là một chút kí hiệu mà anh em chúng tôi tự huyễn hoặc bản thân là mình đã làm cổ đổ. Chứ các chị em mà không chấm, thì mãn kiếp các anh cũng không tán được.",
+   "heard": "một phen báo thì các chị em đã nhắm anh dai đó sẵn rồi, sông mới ra đèn xanh cho ảnh tán. Hoặc là một chút ký hiệu mà anh em chúng tôi tự huyến hoặc bản thân là mình đã làm cố đổ. Chứ các chị em mà không chấm thì mạng kíp các anh cũng không tán được."
+  },
+  {
+   "id": "z1",
+   "wer": 1,
+   "script": "Phần hai có ngay trên kênh, nhớ theo dõi nha!",
+   "heard": ""
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

@@ -1,0 +1,61 @@
+{
+ "video": "release-14-v1",
+ "overall_wer": 0.059,
+ "per_line": [
+  {
+   "id": "p1",
+   "wer": 0.059,
+   "script": "Bí mật của con gái mà con trai không biết. Chúng tôi đọc và không đánh giá.",
+   "heard": "\"Đí mật của con gái mà con trai không biết. Chúng tôi đọc và không đánh giá.\""
+  },
+  {
+   "id": "c1",
+   "wer": 0.091,
+   "script": "Con gái đi chơi với con gái sẽ ăn diện và make up kì công hơn so với đi cùng người yêu.",
+   "heard": "\"Con gái đi chơi với con gái sẽ ăn diện và make-up kỳ công hơn so với đi cùng người yêu.\" \"Vậy"
+  },
+  {
+   "id": "q1",
+   "wer": 0.455,
+   "script": "Vậy ra người yêu chỉ được xem bản nháp thôi à.",
+   "heard": "được xem bản nháp thôi à?\""
+  },
+  {
+   "id": "c2",
+   "wer": 0.071,
+   "script": "Chúng tôi thực sự cần một bạn trai biết chụp ảnh cho chúng tôi!",
+   "heard": "\"Chúng tôi thực sự cần một bạn trai đứt chụp ảnh cho chúng tôi.\""
+  },
+  {
+   "id": "q2",
+   "wer": 0.1,
+   "script": "Anh em nào chụp ảnh xấu, tự giác giơ tay.",
+   "heard": "\"Anh em nào chụp ảnh xấu? Tự giác dơ tay.\""
+  },
+  {
+   "id": "c3",
+   "wer": 0.148,
+   "script": "Chín mươi phần trăm các anh tán đổ các chị em, là vì chị em chúng tôi cũng có thích thích, bật đèn xanh cho các anh.",
+   "heard": "\"90% các anh tán đổ các chị em, là vì chị em chúng tôi cũng có thích thích, bật đèn xanh cho các anh.\""
+  },
+  {
+   "id": "q3",
+   "wer": 0,
+   "script": "Hóa ra từ trước tới giờ, các anh chưa từng thắng.",
+   "heard": "Hóa ra từ trước tới giờ, các anh chưa từng thắng."
+  },
+  {
+   "id": "q4",
+   "wer": 0,
+   "script": "Còn một anh thì tiết lộ: các chị đã nhắm sẵn từ trước, rồi mới bật đèn xanh cho anh tưởng mình tán đổ.",
+   "heard": "Còn một anh thì tiết lộ. Các chị đã nhắm sẵn từ trước, rồi mới bật đèn xanh cho anh tưởng mình tán đổ."
+  },
+  {
+   "id": "c4",
+   "wer": 0.063,
+   "script": "Chứ các chị em mà không chấm, thì mãn kiếp các anh cũng không tán được.",
+   "heard": "\"Chứ các chị em mà không chấm thì mảng kiếp các anh cũng không tán được.\""
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

@@ -162,6 +162,16 @@ const BeatDim: React.FC<{p: Props}> = ({p}) => {
   }));
   return o > 0 ? <AbsoluteFill style={{background: '#000', opacity: 0.38 * o}}/> : null;
 };
+// Intro title card like the reference topic videos ("topic: bí mật của CON TRAI Pt.1"): a white box over the top
+// half while its line is read. props.title_card = {line, lines: [...], highlight: index}.
+const TitleCard: React.FC<{p: Props}> = ({p}) => {
+  const f = useCurrentFrame(), tc = p.title_card;
+  const pop = spring({frame: f, fps: FPS, config: {damping: 11, stiffness: 170}});
+  return <div style={{position: 'absolute', left: 110, right: 110, top: 150, zIndex: 80, background: '#fff', padding: '34px 30px', textAlign: 'center',
+    transform: `scale(${0.6 + 0.4 * pop})`, boxShadow: '0 24px 60px #000a', fontFamily: 'TikTok Sans', fontWeight: 900, fontStyle: 'italic', lineHeight: 1.18}}>
+    {tc.lines.map((t: string, i: number) => <div key={i} style={{fontSize: i === tc.highlight ? 104 : 82, color: i === tc.highlight ? '#d0141c' : '#111'}}>{t}</div>)}
+  </div>;
+};
 const Stack: React.FC<{p: Props}> = ({p}) => {
   const f = useCurrentFrame(), t = f / FPS, look = p.preset.look;
   const {GROUP_TOP, MAX_H} = dims(p);
@@ -343,6 +353,7 @@ const Short: React.FC<Props> = (p) => {
     {p.hook_strip !== false && <Hook p={p}/>}
     <BeatDim p={p}/>
     <Stack p={p}/>
+    {p.title_card && (() => { const l = p.lines.find((x: Props) => x.id === p.title_card.line); return l ? <Sequence from={Math.round(l.start * FPS)} durationInFrames={Math.ceil((l.end - l.start + 0.35) * FPS)}><TitleCard p={p}/></Sequence> : null; })()}
     {p.reactions.map((r: Props, i: number) => <Sequence key={i} from={Math.round(r.start * FPS)} durationInFrames={Math.round(r.duration * FPS)}>
       <Reaction p={p} r={r}/>
     </Sequence>)}

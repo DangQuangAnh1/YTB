@@ -5,9 +5,9 @@
       "label": "Vui / hài",
       "music": {
         "file": "library/music/hai-cute-happy-seth.mp3",
-        "under_voice": 0.11,
-        "between": 0.26,
-        "under_sfx": 0.07
+        "under_voice": 0.26,
+        "between": 0.42,
+        "under_sfx": 0.16
       },
       "sfx_allowed": [
         "whoosh",
