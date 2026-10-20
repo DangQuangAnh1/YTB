@@ -90,7 +90,7 @@ bash make-episode.sh pNN release-XX-vN
 
 ### 9. Đăng (chỉ khi người dùng duyệt đúng video đó)
 - Viết `artifacts/release/<rel>/package.md` gồm tiêu đề, mô tả có credit, và tag.
-- Tạo `upload-hevc.mp4` <10 MB (HEVC hai lượt, xem lệnh trong `youtube-publish-log-v3.md`).
+- Tạo `upload-hevc.mp4` <10 MB (HEVC hai lượt) bằng python của venv VieNeu: `make-upload.py <render>`. Script chạy được song song nhiều video.
 - YouTube Studio:
   - Điền tiêu đề, mô tả, chọn "không dành cho trẻ em".
   - Bấm "Hiện thêm": câu hỏi AI chọn **"Không"**, nhập tag, chọn thể loại **Hài kịch**.
@@ -98,6 +98,7 @@ bash make-episode.sh pNN release-XX-vN
 - Khung giờ: **12:00** và **19:30**.
 - **Thumbnail:** chạy `make-thumbnail.py <render> <spec>` để có ảnh dọc 9:16: hook 2–3 dòng chữ to ở nửa trên, dòng chính màu vàng, kèm meme hoặc emoji, nhãn Pt.N nếu có. Trong Studio, mở chi tiết video → Hình thu nhỏ → Tải tệp lên.
 - **Video có liên quan:** gắn video sang video cùng series hoặc bản đối (con trai ↔ con gái, Pt.1 → Pt.2). Khi có phần mới thì sửa phần trước trỏ sang phần mới.
+  - Ô chọn chỉ liệt kê video **đã công khai**. Video đang lên lịch thì tạm trỏ về phần trước. Sau giờ đăng, sửa phần trước trỏ sang phần mới, và ghi việc còn lại vào publish log.
 - Ghi vào một `youtube-publish-log-vN.md` mới. **Không sửa file log đã đăng ký.**
 
 ### 10. Lưu

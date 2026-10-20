@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-1",
-  "revision": 343,
+  "revision": 345,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "stage": "planning",
   "constraints": [
@@ -21,8 +21,8 @@
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r343-04ccfc2c.json",
-      "sha256": "4caa7508a15bb1faa9c4bb2abf644e9663f485619db2553b206cc367d0dd97cb"
+      "path": "decisions/decision-r344-402bc73a.json",
+      "sha256": "fd7088b9aa8b54f48d0e5b421ab4ebd3994315032cd6090744ffc7ed5c3f9d71"
     }
   },
   "decision_records": [
@@ -153,6 +153,10 @@
     {
       "path": "decisions/decision-r343-04ccfc2c.json",
       "sha256": "4caa7508a15bb1faa9c4bb2abf644e9663f485619db2553b206cc367d0dd97cb"
+    },
+    {
+      "path": "decisions/decision-r344-402bc73a.json",
+      "sha256": "fd7088b9aa8b54f48d0e5b421ab4ebd3994315032cd6090744ffc7ed5c3f9d71"
     }
   ],
   "artifacts": [
@@ -2751,6 +2755,18 @@
       ],
       "plan_revision": 8,
       "created_at": "2026-10-20T14:34:19.554472+00:00"
+    },
+    {
+      "path": "artifacts/release/youtube-publish-log-v7.md",
+      "sha256": "63a247548c3ce58537ca56fd5e13fad4251866daf775db5026474b6d3c54830a",
+      "id": "A-256",
+      "kind": "metadata",
+      "inputs": [
+        "A-255",
+        "A-251"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-20T15:26:59.231557+00:00"
     }
   ],
   "reviews": [
@@ -3322,7 +3338,7 @@
     "available": false
   },
   "created_at": "2026-10-16T07:42:46.989392+00:00",
-  "updated_at": "2026-10-20T14:49:06.210973+00:00",
+  "updated_at": "2026-10-20T15:26:59.231569+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r55-07b5f2fc.json",
