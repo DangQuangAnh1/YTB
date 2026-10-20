@@ -104,3 +104,8 @@ bash make-episode.sh pNN release-XX-vN
 ### 10. Lưu
 - `agency.py artifact` cho kịch bản (bản sao trong `artifacts/content`), `final.mp4`, `props.json`, `package.md`, kèm `--expected-revision` và `--input A-…`.
 - Commit lên `main`.
+
+### Dọn file cũ
+- Chỉ dọn file **không đăng ký**, ví dụ `draft.mp4`, `phone-1080p.mp4`, `upload-hevc.mp4`, `preview-*.mp4` và các bản render cũ đã có bản mới. Cho vào Thùng rác, không xoá hẳn.
+- **Không xoá file đã đăng ký** (có trong `STATE.json` → `artifacts`). `agency.py` kiểm tra hash từng file mỗi lần chạy, nên thiếu một file là dự án bị khoá.
+- Lần dọn ngày 20/10: 173 file, 6,63 GB.
