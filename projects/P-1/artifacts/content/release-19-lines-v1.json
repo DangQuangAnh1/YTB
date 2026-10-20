@@ -1,0 +1,165 @@
+{
+  "format": "v2",
+  "mood": "hai_v2",
+  "hook": null,
+  "cta": null,
+  "verbatim_accepted": "tasks/user-decision-clone-v2.md",
+  "media": "release-19",
+  "source_handle": "ph.ka.lqc",
+  "chains": [],
+  "title_card": {
+    "line": "t0",
+    "lines": [
+      "topic:",
+      "bí mật của",
+      "\"CON GÁI\"",
+      "Pt.2"
+    ],
+    "highlight": 2
+  },
+  "cast": {
+    "narrator": "Adam bựa",
+    "ph.ka.lqc": "Thiện Minh",
+    "mthwlwss": "Trúc Ly",
+    "anotherttb": "Ngọc Huyền",
+    "lysylver": "Mai Anh",
+    "tnguyn030206": "Ngọc Linh",
+    "debbiexyanua": "Ngọc Huyền",
+    "hiuleon1582": "Thiện Minh",
+    "chinhnguyen_007": "Mai Anh",
+    "raelynn_.pham0.0": "Trúc Ly",
+    "minhmeomeo1138": "Ngọc Huyền",
+    "bin_913242": "Thái Sơn"
+  },
+  "cast_note": "Girls answering get female voices. ph.ka.lqc writes 'anh em tao' and gets a male voice. bin_913242 confessed to the friendzone and gets a male voice. The voice of hiuleon1582 is a guess.",
+  "note": "Girls Pt.2 (tasks/user-request-pt2-v1.md), researched by the PM: @ph.ka.lqc 'Góc tò mò: tín hiệu đèn xanh' and @hiuleon1582 'Bí mật của con gái'. The 'góc thú tội' searches mostly returned mixed childhood confessions and were not used. Real cards only.",
+  "lines": [
+    {
+      "id": "t0",
+      "card": "post-ph.ka.lqc",
+      "kind": "bridge",
+      "text": "Bí mật của con gái, phần hai!"
+    },
+    {
+      "id": "p1",
+      "card": "post-ph.ka.lqc",
+      "kind": "read",
+      "text": "Góc tò mò: những tín hiệu đèn xanh lè xanh lét của con gái dành cho con trai, mà con trai không biết, không nhận ra?"
+    },
+    {
+      "id": "c1",
+      "card": "c1-mthwlwss",
+      "kind": "read",
+      "text": "Chủ động báo cáo lịch trình, chụp hình gửi mỗi khi làm gì đó. Tao mà không có tình cảm, thì tuổi lờ biết được đời sống riêng tư của tao.",
+      "bleep": [
+        "lờ"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "eyes",
+          "enter": "slam",
+          "sfx": "scratch",
+          "pause": 1.8,
+          "label": "Tuổi gì?!",
+          "label_style": "meme",
+          "why": "schedule reports only if she likes you",
+          "fx": "zoom"
+        }
+      }
+    },
+    {
+      "id": "c2",
+      "card": "c2-anotherttb",
+      "kind": "read",
+      "text": "Gửi hình, clíp cho riêng bạn mà cô ấy không up ở bất cứ đâu, hoặc bạn là người đầu tiên được xem trước khi cổ up mạng xã hội."
+    },
+    {
+      "id": "c3",
+      "card": "c3-lysylver",
+      "kind": "read",
+      "text": "Chúng tôi còn nhắn tin với bạn, là còn hứng thú với bạn."
+    },
+    {
+      "id": "c4",
+      "card": "c4-tnguyn030206",
+      "kind": "read",
+      "text": "Chịu nhắn tin với bạn. Đệch, chứ tao lười nhắn vãi, nhưng tao chịu nhắn với ai đó, thì bật luôn đèn hải đăng rồi.",
+      "bleep": [
+        "đệch",
+        "vãi"
+      ],
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.7,
+        "sfx": "boing",
+        "why": "lighthouse level"
+      }
+    },
+    {
+      "id": "c5",
+      "card": "c5-debbiexyanua",
+      "kind": "read",
+      "text": "Thiệt ra, tui thấy mấy dấu hiệu trong comment đúng, nhưng bị một cái, nó hoàn toàn có thể không dành cho duy nhất một người á. Đèn xanh có bật, tất cả cùng đi.",
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "sfx": "boom",
+          "pause": 1.8,
+          "label": "Tất cả?!",
+          "label_style": "meme",
+          "why": "green light for everyone"
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "card": "post-hiuleon1582",
+      "kind": "read",
+      "text": "Bí mật của con gái."
+    },
+    {
+      "id": "c7",
+      "card": "c7-chinhnguyen_007",
+      "kind": "read",
+      "text": "Con gái cũng mê gái xinh, cái này tao con phơm chuẩn một trăm phần trăm nhé."
+    },
+    {
+      "id": "c8",
+      "card": "c8-raelynn_.pham0.0",
+      "kind": "read",
+      "text": "Tin tao đi, khi mày đi trên đường có hai chiếc xe đi ngang qua, một xe gái đẹp một xe trai đẹp, thì sự chú ý của mày sẽ dồn vào gái đẹp. Mày sẽ tự bị thu hút, và sẽ tự nhủ là: uầy, chị này xinh thế."
+    },
+    {
+      "id": "c9",
+      "card": "c9-minhmeomeo1138",
+      "kind": "read",
+      "text": "Mê gái khác yêu gái."
+    },
+    {
+      "id": "c6",
+      "card": "c6-bin_913242",
+      "kind": "read",
+      "text": "Có nhiều lần hiểu nhầm đèn xanh, thế là tỏ tình xong bị từ chối.",
+      "beat": {
+        "big": {
+          "reaction": "sob",
+          "enter": "rise",
+          "sfx": "womp",
+          "pause": 2.0,
+          "label": "Toang",
+          "label_style": "meme",
+          "why": "ending: misread the green light"
+        }
+      }
+    },
+    {
+      "id": "z1",
+      "card": "c6-bin_913242",
+      "kind": "bridge",
+      "text": "Muốn nghe phần ba thì bình luận nha!"
+    }
+  ]
+}

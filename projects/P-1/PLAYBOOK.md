@@ -26,6 +26,7 @@ Bạn cũng có thể nhắn bình thường, ví dụ: "Làm video P-1 từ lin
 - Bỏ: trẻ em, chính trị, dữ liệu riêng tư (số điện thoại, địa chỉ, ngân hàng, biển số), người nổi tiếng.
 - Được giữ: chữ thô và câu 18+. Chữ thô thì **bíp** trong giọng đọc (`tasks/user-decision-clone-v2.md`).
 - Tên người nằm trong câu đùa thì **để nguyên** (`tasks/user-decision-publish-release08-v1.md`).
+- **Từ khoá tìm bài** (Threads search, có thể lọc `after_date`): "bí mật của con gái/con trai", "topic", "góc tò mò", **"góc thú tội"**, "thú tội", "kể bí mật", "sự thật về con trai/con gái", "đèn xanh", "góc khuất". Ưu tiên bài có nhiều trả lời (từ 500 trở lên) và bình luận nhiều tim (từ 1K trở lên).
 - `clone`: xem video mẫu frame-by-frame, ghi đúng tên tài khoản và thứ tự bình luận, rồi mở từng bình luận trên Threads để lấy cả chuỗi trả lời.
 
 ### 2. Chụp card (Claude-in-Chrome, chỉ đọc)
@@ -65,6 +66,12 @@ Bạn cũng có thể nhắn bình thường, ví dụ: "Làm video P-1 từ lin
 - Hài tiết tấu chậm: đặt `"pace": "slow"`, dùng bài 4 (Investigations).
 - Muốn ép một bài cụ thể thì dùng `music_track`.
 - Nhạc đã chỉnh to hơn dưới giọng đọc. Mô tả video **bắt buộc** có dòng credit CC BY của Kevin MacLeod.
+
+### 6b. Nền video phải khác nhau giữa các video (`tasks/user-request-pt2-v1.md`)
+- Engine tự đổi nền theo tên episode. Mỗi video khác nhau ở: **thứ tự clip**, **điểm bắt đầu** mỗi clip, **lật ngang**, **tông màu** (±18°) và **nhịp cắt** (4–6,5 giây).
+- Muốn ép kiểu khác thì đặt `bg_seed`, `backgrounds` (danh sách clip riêng), `cut_s` hoặc `bg_hue` trong lines.json.
+- Hai video đăng cùng ngày (ví dụ cặp con trai/con gái) phải có nền **nhìn khác hẳn nhau**. Xem contact sheet để kiểm tra.
+- Kho nền hiện có 6 clip Pexels. Muốn thêm clip mới (ví dụ kiểu parkour hoặc game như kênh khác) thì phải hỏi người dùng trước khi tải.
 
 ### 7. Dựng
 ```

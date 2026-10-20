@@ -1,0 +1,6 @@
+{
+  "stage": "planning",
+  "current_task": {"id": "T-002", "owner_role": "ba", "execution": "running"},
+  "next_action": "BA researches official anime AI repositories under tasks/ba-anime-repos-v1.md; PM receives report, checks source evidence and registers output before presenting shortlist.",
+  "unresolved": ["Repository shortlist, weights licenses and hardware fit under research", "No anime production plan or paid-service approval", "Current hot Shorts not verified"]
+}

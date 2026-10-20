@@ -22,6 +22,20 @@ const probe = (f) => Math.floor(parseFloat(execFileSync(ffprobe, ['-v', 'error',
 preset.look.bg_seconds = probe(preset.look.background);
 // Format v2 (tasks/user-decision-format-v2.md): a playlist of bright clips cut every few seconds.
 if (preset.look.backgrounds) preset.look.backgrounds = preset.look.backgrounds.map((f) => ({file: f, seconds: probe(f)}));
+// Background variety (user rule 2026-10-20, PLAYBOOK step 6b): every episode gets its own clip order, start points,
+// mirroring, colour tint and cut length, seeded from the episode name (or `bg_seed`), so no two videos look the same.
+{
+  let seed = [...String(spec.bg_seed ?? path.basename(path.resolve(process.argv[2])))].reduce((a, c) => (a * 131 + c.charCodeAt(0)) >>> 0, 2166136261);
+  const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
+  const look = preset.look;
+  if (look.backgrounds) {
+    const pool = (spec.backgrounds ?? look.backgrounds.map((b) => b.file)).map((f) => look.backgrounds.find((b) => b.file === f) ?? {file: f, seconds: probe(f)});
+    for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+    look.backgrounds = pool.map((b) => ({...b, start: +(rnd() * Math.max(0, b.seconds - 6)).toFixed(2), mirror: rnd() < 0.5}));
+    look.cut_s = spec.cut_s ?? +(4 + rnd() * 2.5).toFixed(2);
+    look.bg_hue = spec.bg_hue ?? Math.round(-18 + rnd() * 36);
+  }
+}
 const V2 = spec.format === 'v2';
 // Music pool (user decision 2026-10-19): fast comedy rotates tracks 1-3 by episode name, slow comedy uses track 4.
 const pool = preset.music_pool;

@@ -1,0 +1,187 @@
+{
+  "format": "v2",
+  "mood": "hai_v2",
+  "hook": null,
+  "cta": null,
+  "verbatim_accepted": "tasks/user-decision-clone-v2.md",
+  "media": "release-18",
+  "source_handle": "ghannn_2805",
+  "chains": [
+    [
+      "c1-dang141106",
+      "c1a-t4h1s4",
+      "c1b-_22nd_oct_"
+    ],
+    [
+      "c2-minhpham06123",
+      "c2a-saptoiroinha_hehehe"
+    ],
+    [
+      "c4-alexander.___.ponypawpawsktt",
+      "c4a-_nghkiettt_"
+    ]
+  ],
+  "title_card": {
+    "line": "t0",
+    "lines": [
+      "topic:",
+      "bí mật của",
+      "\"CON TRAI\"",
+      "Pt.2"
+    ],
+    "highlight": 2
+  },
+  "cast": {
+    "narrator": "Adam bựa",
+    "ghannn_2805": "Trúc Ly",
+    "dang141106": "Thiện Minh",
+    "t4h1s4": "Thái Sơn",
+    "_22nd_oct_": "Phạm Tuyên",
+    "minhpham06123": "Thiền Tâm Đức",
+    "saptoiroinha_hehehe": "Ngọc Huyền",
+    "chicovinnythoi": "Thái Sơn",
+    "alexander.___.ponypawpawsktt": "Phạm Tuyên",
+    "_nghkiettt_": "Thiện Minh",
+    "dangloc12122004": "Thiền Tâm Đức",
+    "doranhaki": "Thái Sơn",
+    "gwxmg.__09": "Mai Anh"
+  },
+  "cast_note": "Boys answering get alternating male voices. saptoiroinha writes about her boyfriend, so she gets a female voice. The voices of ghannn_2805 and gwxmg are guesses.",
+  "note": "Boys Pt.2 (tasks/user-request-pt2-v1.md) from @ghannn_2805's topic, which the user gave for Part 2. Reads only, crude words bleeped, title card plus closing line, background varied per episode.",
+  "lines": [
+    {
+      "id": "t0",
+      "card": "post-ghannn_2805",
+      "kind": "bridge",
+      "text": "Bí mật của con trai, phần hai!"
+    },
+    {
+      "id": "p1",
+      "card": "post-ghannn_2805",
+      "kind": "read",
+      "text": "Topic: Muốn nghe sự thật về con trai từ chính miệng con trai ạ."
+    },
+    {
+      "id": "c1",
+      "card": "c1-dang141106",
+      "kind": "read",
+      "text": "Tắm nhanh nhưng ỉa lâu.",
+      "bleep": [
+        "ỉa"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "sfx": "scratch",
+          "pause": 1.8,
+          "label": "Sự thật!",
+          "label_style": "meme",
+          "why": "fast shower, long toilet",
+          "fx": "zoom"
+        }
+      }
+    },
+    {
+      "id": "c1a",
+      "card": "c1a-t4h1s4",
+      "kind": "read",
+      "text": "Mày sắp trĩ rồi đó."
+    },
+    {
+      "id": "c1b",
+      "card": "c1b-_22nd_oct_",
+      "kind": "read",
+      "text": "Tắm thì cầm cái điện thoại đánh điện tử, thế choá nào được mà chả lâu."
+    },
+    {
+      "id": "c2",
+      "card": "c2-minhpham06123",
+      "kind": "read",
+      "text": "Một thằng con trai yêu bạn thật lòng, không nỡ chửi bạn đâu nhé."
+    },
+    {
+      "id": "c2a",
+      "card": "c2a-saptoiroinha_hehehe",
+      "kind": "read",
+      "text": "Này chưa đúng nè. Người yêu tao mỏ hỗn nhưng tâm lành nha. Tao bị ốm, mồm chửi tao như con, nhưng mà lấy khăn lau người cho tao, nhảy cả cái chăn điện của bố sang cho tao nằm, để cái phổi tao không bị lạnh. Chửi nhưng mà phải xem cả hành động như nào nữa nhé. Chứ mà loại chửi sướng mồm, chửi ra oai mà không làm gì, thì nó đúng là không yêu thật đâu. Mấy con vợ tỉnh táo phán đoán nha."
+    },
+    {
+      "id": "c3",
+      "card": "c3-chicovinnythoi",
+      "kind": "read",
+      "text": "Đi đết cầm hai trăm ca có thể không đủ, chứ đi đá bóng bao sân thì được chục đứa gọi bằng bố.",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.7,
+        "sfx": "punch",
+        "why": "called dad"
+      }
+    },
+    {
+      "id": "c4",
+      "card": "c4-alexander.___.ponypawpawsktt",
+      "kind": "read",
+      "text": "Không biết như nào, chứ nhóm bóng đá con trai thú vị hơn grúp chát chị em đấy."
+    },
+    {
+      "id": "c4a",
+      "card": "c4a-_nghkiettt_",
+      "kind": "read",
+      "text": "Mười nhóm chắc được ba nhóm nói về bóng đá, còn lại toàn nói về phụ nữ là nhiều."
+    },
+    {
+      "id": "c5",
+      "card": "c5-dangloc12122004",
+      "kind": "read",
+      "text": "Son: đỏ tươi, đỏ hồng, đỏ đất, đỏ cam. Không! Màu đỏ là màu đỏ!",
+      "beat": {
+        "big": {
+          "reaction": "scream",
+          "enter": "shake",
+          "sfx": "boom",
+          "pause": 1.8,
+          "label": "MÀU ĐỎ!",
+          "label_style": "meme",
+          "why": "red is red",
+          "fx": "zoom"
+        }
+      }
+    },
+    {
+      "id": "c6",
+      "card": "c6-doranhaki",
+      "kind": "read",
+      "text": "Không gì gay hơn cuộc trò chuyện của hai đứa thẳng."
+    },
+    {
+      "id": "c7",
+      "card": "c7-gwxmg.__09",
+      "kind": "read",
+      "text": "Tụi nó nói trong sáng vậy thôi, chứ sự thật là đứa nào tuổi mười sáu đến hai mươi cũng từng xem sếch, và lọ hết rồi đấy.",
+      "bleep": [
+        "sếch",
+        "lọ"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "skull",
+          "enter": "pop",
+          "sfx": "laugh",
+          "pause": 2.0,
+          "label": "Lộ hết",
+          "label_style": "meme",
+          "why": "ending: crude truth"
+        }
+      }
+    },
+    {
+      "id": "z1",
+      "card": "c7-gwxmg.__09",
+      "kind": "bridge",
+      "text": "Muốn nghe phần ba thì bình luận nha!"
+    }
+  ]
+}

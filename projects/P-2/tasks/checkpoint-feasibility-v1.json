@@ -1,0 +1,6 @@
+{
+  "stage": "planning",
+  "current_task": {"id": "T-001", "owner_role": "pm", "execution": "waiting_user"},
+  "next_action": "Present feasibility shortlist: recommend original dialogue comedy, wordplay as fallback; user chooses direction before a pilot production plan. Continue current-trend verification as research when suitable sources are available.",
+  "unresolved": ["No format selected by user", "No P-2 production plan or rendering authorization", "Current 7–30 day hot Shorts not verified", "P-2 runtime adapter and new voice/render test not run", "User willingness to film or appear on camera unknown; assessment assumes no filming"]
+}

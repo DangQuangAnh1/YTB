@@ -1,0 +1,91 @@
+{
+ "video": "release-18-v1",
+ "overall_wer": 0.196,
+ "per_line": [
+  {
+   "id": "t0",
+   "wer": 0.286,
+   "script": "Bí mật của con trai, phần hai!",
+   "heard": "\"Bí mật của con trai phần 2\" \"Popex"
+  },
+  {
+   "id": "p1",
+   "wer": 0.286,
+   "script": "Topic: Muốn nghe sự thật về con trai từ chính miệng con trai ạ.",
+   "heard": "\"Popex muốn nghe sự thật về con trai từ chính niệm con trai à\" \"Tấm"
+  },
+  {
+   "id": "c1",
+   "wer": 0.8,
+   "script": "Tắm nhanh nhưng ỉa lâu.",
+   "heard": "nhân như là lâu\""
+  },
+  {
+   "id": "c1a",
+   "wer": 0.8,
+   "script": "Mày sắp trĩ rồi đó.",
+   "heard": "rồi đó\" Tấm"
+  },
+  {
+   "id": "c1b",
+   "wer": 0.188,
+   "script": "Tắm thì cầm cái điện thoại đánh điện tử, thế choá nào được mà chả lâu.",
+   "heard": "thì cầm cái điện thoại đánh điện tử, thế trò nào được mà trả lâu"
+  },
+  {
+   "id": "c2",
+   "wer": 0.214,
+   "script": "Một thằng con trai yêu bạn thật lòng, không nỡ chửi bạn đâu nhé.",
+   "heard": "\"Một thằng con trai yêu bạn thật lòng, không nở chữ bạn đâu nhé\" \"Mày"
+  },
+  {
+   "id": "c2a",
+   "wer": 0.182,
+   "script": "Này chưa đúng nè. Người yêu tao mỏ hỗn nhưng tâm lành nha. Tao bị ốm, mồm chửi tao như con, nhưng mà lấy khăn lau người cho tao, nhảy cả cái chăn điện của bố sang cho tao nằm, để cái phổi tao không bị lạnh. Chửi nhưng mà phải xem cả hành động như nào nữa nhé. Chứ mà loại chửi sướng mồm, chửi ra oai mà không làm gì, thì nó đúng là không yêu thật đâu. Mấy con vợ tỉnh táo phán đoán nha.",
+   "heard": "chưa đúng này, người yêu tao mỏ hỗn nhưng tâm lạnh nha\" \"Tao bị ốm, mùng chử tao như con, nhưng mà lấy khăn lau người cho tao, nhảy cả cái trăn điện của bố sang cho tao nằm để cái phổi tao không bị lạnh\" \"Chỉ nhưng mà phải xem cả hành động như nào nữa nhé\" \"Chứ mà loại trời sướng mùm, trời giao ai mà không làm gì thì nó đúng là không yêu thật đâu\" \"Mấy con vợ tỉnh táo phan đoán nha\" \"Đi đất cầm"
+  },
+  {
+   "id": "c3",
+   "wer": 0.391,
+   "script": "Đi đết cầm hai trăm ca có thể không đủ, chứ đi đá bóng bao sân thì được chục đứa gọi bằng bố.",
+   "heard": "200 ca có thể không đủ\" \"Chứ đi đá bóng vào sần thì được chục đứa gọi bằng bố\" Không biết"
+  },
+  {
+   "id": "c4",
+   "wer": 0.389,
+   "script": "Không biết như nào, chứ nhóm bóng đá con trai thú vị hơn grúp chát chị em đấy.",
+   "heard": "nào, chứ nhóm bóng đá con trai thú vị hơn đừng giúp chất chị em đấy \"Người"
+  },
+  {
+   "id": "c4a",
+   "wer": 0.105,
+   "script": "Mười nhóm chắc được ba nhóm nói về bóng đá, còn lại toàn nói về phụ nữ là nhiều.",
+   "heard": "nhóm chắc được ba nhóm nói về bóng đá còn lại toàn nói về phụ nữ là nhiều\" \"Xong"
+  },
+  {
+   "id": "c5",
+   "wer": 0.2,
+   "script": "Son: đỏ tươi, đỏ hồng, đỏ đất, đỏ cam. Không! Màu đỏ là màu đỏ!",
+   "heard": "đỏ tươi, đỏ hồng, đỏ đứt, đỏ cam, không, màu đỏ là màu"
+  },
+  {
+   "id": "c6",
+   "wer": 0.818,
+   "script": "Không gì gay hơn cuộc trò chuyện của hai đứa thẳng.",
+   "heard": "đòi chuyện của hai đứa thẳng?\" \"Tôi nó nói"
+  },
+  {
+   "id": "c7",
+   "wer": 0.429,
+   "script": "Tụi nó nói trong sáng vậy thôi, chứ sự thật là đứa nào tuổi mười sáu đến hai mươi cũng từng xem sếch, và lọ hết rồi đấy.",
+   "heard": "trong sáng vậy thôi, chứ sự thật là đứa nào tuổi 16 đến 20 cũng từng xem x*** rồi đấy\" \"Nguồn"
+  },
+  {
+   "id": "z1",
+   "wer": 0.5,
+   "script": "Muốn nghe phần ba thì bình luận nha!",
+   "heard": "thì bình luận nha\""
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

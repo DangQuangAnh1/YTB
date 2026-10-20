@@ -39,8 +39,9 @@ const BgPlaylist: React.FC<{p: Props}> = ({p}) => {
     const c = clips[k % clips.length];
     return <Sequence key={k} from={k * cut} durationInFrames={cut}>
       <Loop durationInFrames={Math.max(1, Math.floor(c.seconds * FPS))}>
-        <OffthreadVideo src={staticFile(c.file)} muted
-          style={{width: W, height: 1920, objectFit: 'cover', filter: `brightness(${look.bg_brightness}) saturate(${look.bg_saturate})`}}/>
+        <OffthreadVideo src={staticFile(c.file)} muted startFrom={Math.round((c.start ?? 0) * FPS)}
+          style={{width: W, height: 1920, objectFit: 'cover', transform: c.mirror ? 'scaleX(-1)' : undefined,
+            filter: `brightness(${look.bg_brightness}) saturate(${look.bg_saturate}) hue-rotate(${look.bg_hue ?? 0}deg)`}}/>
       </Loop>
     </Sequence>;
   })}</>;

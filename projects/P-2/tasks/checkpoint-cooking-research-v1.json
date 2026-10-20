@@ -1,0 +1,6 @@
+{
+  "stage": "planning",
+  "current_task": {"id": "T-003", "owner_role": "ba", "execution": "complete"},
+  "next_action": "Present video-to-video cooking anime research: Diffutoon conditional on GPU and weights; anime keyframes plus EbSynth for motion preservation; DomoAI service as comparison. If testing is requested, inspect source footage and define short pilot/environment first.",
+  "unresolved": ["No source cooking footage inspected", "No local video stylization benchmark on Iris Xe", "Diffutoon weights licenses and compatible GPU unresolved", "Service terms/quota need checking before a test", "No production plan, paid calls or publication authorized"]
+}

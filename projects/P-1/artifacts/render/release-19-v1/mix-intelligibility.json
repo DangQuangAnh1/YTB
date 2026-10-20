@@ -1,0 +1,85 @@
+{
+ "video": "release-19-v1",
+ "overall_wer": 0.184,
+ "per_line": [
+  {
+   "id": "t0",
+   "wer": 0.286,
+   "script": "Bí mật của con gái, phần hai!",
+   "heard": "Bí mật của con gái, phần 2 Góc"
+  },
+  {
+   "id": "p1",
+   "wer": 0.154,
+   "script": "Góc tò mò: những tín hiệu đèn xanh lè xanh lét của con gái dành cho con trai, mà con trai không biết, không nhận ra?",
+   "heard": "tò mò, những tín hiệu đèn xanh lẻ xanh led của con gái dành cho con trai, mà con trai không biết, không nhận ra Chùa"
+  },
+  {
+   "id": "c1",
+   "wer": 0.194,
+   "script": "Chủ động báo cáo lịch trình, chụp hình gửi mỗi khi làm gì đó. Tao mà không có tình cảm, thì tuổi lờ biết được đời sống riêng tư của tao.",
+   "heard": "độc báo cáo lịch trình, chụp hình gửi mỗi khi làm gì đó, tao mà không có tình cảm, thì tuổi x* tụi đời sống riêng tư của tao Gửi"
+  },
+  {
+   "id": "c2",
+   "wer": 0.233,
+   "script": "Gửi hình, clíp cho riêng bạn mà cô ấy không up ở bất cứ đâu, hoặc bạn là người đầu tiên được xem trước khi cổ up mạng xã hội.",
+   "heard": "xe lip cho riêng bạn mà cô ấy không úp ở bất cứ đâu, hoặc bạn là người đầu tiên được xem trước khi cô úp mạng xã hội Chúng"
+  },
+  {
+   "id": "c3",
+   "wer": 0.077,
+   "script": "Chúng tôi còn nhắn tin với bạn, là còn hứng thú với bạn.",
+   "heard": "tôi còn nhắn tin với bạn, là còn hứng thú với bạn"
+  },
+  {
+   "id": "c4",
+   "wer": 0.28,
+   "script": "Chịu nhắn tin với bạn. Đệch, chứ tao lười nhắn vãi, nhưng tao chịu nhắn với ai đó, thì bật luôn đèn hải đăng rồi.",
+   "heard": "Chụ nhắn tin với bạn, đệch, chụt x* nhắn vã, nhưng tao chụ nhắn với ai đó thì bất luôn đèn hải đăng rồi"
+  },
+  {
+   "id": "c5",
+   "wer": 0.143,
+   "script": "Thiệt ra, tui thấy mấy dấu hiệu trong comment đúng, nhưng bị một cái, nó hoàn toàn có thể không dành cho duy nhất một người á. Đèn xanh có bật, tất cả cùng đi.",
+   "heard": "ra, tôi thấy mấy dấu hiệu trong comment đúng, nhưng bị 1 cái, nó hoàn toàn có thể không dành cho duy nhất 1 người á Đèn xanh có bật, tất cả cùng đi Còn"
+  },
+  {
+   "id": "p2",
+   "wer": 0.8,
+   "script": "Bí mật của con gái.",
+   "heard": "mê gái"
+  },
+  {
+   "id": "c7",
+   "wer": 0.706,
+   "script": "Con gái cũng mê gái xinh, cái này tao con phơm chuẩn một trăm phần trăm nhé.",
+   "heard": "sinh, cái này tao con phương chuẩn 100% nhé Tin"
+  },
+  {
+   "id": "c8",
+   "wer": 0.14,
+   "script": "Tin tao đi, khi mày đi trên đường có hai chiếc xe đi ngang qua, một xe gái đẹp một xe trai đẹp, thì sự chú ý của mày sẽ dồn vào gái đẹp. Mày sẽ tự bị thu hút, và sẽ tự nhủ là: uầy, chị này xinh thế.",
+   "heard": "tao đi, khi mày đi trên đường có 2 chiếc xe đi ngang qua, 1 xe gái đẹp 1 xe trai đẹp, thì sự chú ý của mày sẽ dồn vào gái đẹp Mày sẽ tự bị thú hút và sẽ tự nhủ là \"uầy chị này sinh thế\" Mê"
+  },
+  {
+   "id": "c9",
+   "wer": 0.4,
+   "script": "Mê gái khác yêu gái.",
+   "heard": "gái khác yêu gái Có"
+  },
+  {
+   "id": "c6",
+   "wer": 0.133,
+   "script": "Có nhiều lần hiểu nhầm đèn xanh, thế là tỏ tình xong bị từ chối.",
+   "heard": "nhiều lần hiểu nhằm đèn xanh, thế là tỏ tình xong bị từ chối"
+  },
+  {
+   "id": "z1",
+   "wer": 1,
+   "script": "Muốn nghe phần ba thì bình luận nha!",
+   "heard": ""
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}
