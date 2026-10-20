@@ -16,7 +16,7 @@ Then:
 - FMAARXdLTlI "Bí mật con trai Pt.1": release-15-v3/thumbnail.jpg
 - AVS1fIfYGrQ "Bí mật con gái Pt.1" (scheduled 19:30): release-17-v1/thumbnail.jpg
 - The Pt.2 thumbnails are ready in release-18-v1 and release-19-v1 and are not uploaded, because Pt.2 is not published.
-- The lẩu gà thumbnail was already fixed (per the doc) and was left as is.
+- yLhRIOp9ja4 "lẩu gà": the user then sent a screenshot of its old thumbnail (small handwritten hook) and asked "cái này thì sao". Replaced the same day with release-01-v1/thumbnail.jpg in the same style (spec: frame 6.0s, "HỎI MẸ LŨ CÓ SAO KHÔNG" / "MẸ REP:" / "nấu lẩu gà!", highlight line 2, sticker cat-shocked 520). Studio showed "Đã lưu thay đổi".
 
 **"Video có liên quan" (related video)** was set and saved on:
 - yLhRIOp9ja4 (lẩu gà) → KnZgHePZnI0 (Minh Hà)
