@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/pilot-cooking-plan-v1.md",
+  "excerpt": "ví dụ từ thằng này đi, làm video ngắn ngắn thử xem — áp dụng cho một bản thử ngắn riêng tư từ ec15pSXc2Qg, không paid/publish",
+  "plan": {
+    "path": "plans/plan-v1-r13-bf2544b1.md",
+    "sha256": "25ca7bf812f22264d15687a9de51e10785e3a9681189676ec9b3e0ddf8524d7b",
+    "revision": 1
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-20T14:44:39.678994+00:00"
+}

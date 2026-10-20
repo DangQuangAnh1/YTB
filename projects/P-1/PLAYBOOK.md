@@ -96,6 +96,8 @@ bash make-episode.sh pNN release-XX-vN
   - Bấm "Hiện thêm": câu hỏi AI chọn **"Không"**, nhập tag, chọn thể loại **Hài kịch**.
   - Bấm Tiếp ×3, mở "Lên lịch", chọn ngày, gõ giờ rồi Enter, sau đó bấm "Lên lịch".
 - Khung giờ: **12:00** và **19:30**.
+- **Thumbnail:** chạy `make-thumbnail.py <render> <spec>` để có ảnh dọc 9:16: hook 2–3 dòng chữ to ở nửa trên, dòng chính màu vàng, kèm meme hoặc emoji, nhãn Pt.N nếu có. Trong Studio, mở chi tiết video → Hình thu nhỏ → Tải tệp lên.
+- **Video có liên quan:** gắn video sang video cùng series hoặc bản đối (con trai ↔ con gái, Pt.1 → Pt.2). Khi có phần mới thì sửa phần trước trỏ sang phần mới.
 - Ghi vào một `youtube-publish-log-vN.md` mới. **Không sửa file log đã đăng ký.**
 
 ### 10. Lưu

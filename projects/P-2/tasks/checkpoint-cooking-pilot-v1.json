@@ -1,0 +1,6 @@
+{
+ "stage":"review",
+ "current_task":{"id":"T-004","owner_role":"pm","execution":"complete"},
+ "next_action":"Present 4s silent anime prototype and source comparison honestly as needs_revision. If user wants further quality work, evaluate multiple keyframes/occlusion handling or actual vid2vid service/model; do not repeat single-reference flow as a proven solution.",
+ "unresolved":["Sampled visual QA failed hand/knife geometry; not final quality","Continuous playback and listening not performed; prototype silent","No publication or paid services authorized","No Diffutoon/EbSynth run or external footage upload performed"]
+}

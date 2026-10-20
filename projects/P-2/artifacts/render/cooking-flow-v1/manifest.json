@@ -1,0 +1,33 @@
+{
+  "adapter": "CPU DIS optical-flow keyframe propagation v1",
+  "source_url": "https://www.youtube.com/watch?v=ec15pSXc2Qg",
+  "source_range_seconds": [
+    148,
+    152
+  ],
+  "input": "projects/P-2/media/cooking-pilot-v1/input-4s.mp4",
+  "keyframe": "projects/P-2/artifacts/cooking-pilot-v1/anime-keyframe.png",
+  "reference_frame": 50,
+  "width": 640,
+  "height": 360,
+  "fps": 25.0,
+  "frames": 100,
+  "duration_seconds": 4.0,
+  "runtime_seconds": 7.69,
+  "silent": true,
+  "limits": [
+    "No diffusion video generation",
+    "Unseen regions may stretch; one keyframe only",
+    "Sampled visual checks required; no audio"
+  ],
+  "outputs": {
+    "anime-draft.mp4": {
+      "sha256": "87ab0160ba8c9dcb11268864117f77834c2772140b941f86fecbdf297beb41f7",
+      "decode_passed": true
+    },
+    "comparison.mp4": {
+      "sha256": "99896de70a8b83f2392d313994920a49ce1e026b31420ee97ed8d4dc59f9d25d",
+      "decode_passed": true
+    }
+  }
+}

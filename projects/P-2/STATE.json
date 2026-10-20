@@ -1,24 +1,36 @@
 {
   "schema_version": 1,
   "project_id": "P-2",
-  "revision": 12,
+  "revision": 22,
   "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
-  "stage": "planning",
+  "stage": "review",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
     "No channel creation or publishing in v0"
   ],
   "current_task": {
-    "id": "T-003",
-    "owner_role": "ba",
+    "id": "T-004",
+    "owner_role": "pm",
     "execution": "complete"
   },
-  "plan": null,
-  "approval": {
-    "status": "pending",
-    "record": null
+  "plan": {
+    "path": "plans/plan-v1-r13-bf2544b1.md",
+    "sha256": "25ca7bf812f22264d15687a9de51e10785e3a9681189676ec9b3e0ddf8524d7b",
+    "revision": 1
   },
-  "decision_records": [],
+  "approval": {
+    "status": "approved",
+    "record": {
+      "path": "decisions/decision-r14-e7903c1b.json",
+      "sha256": "01fd3c55e79211c3f3ef58a04a4a981cf02c211c9839f752bf9376e0547a1709"
+    }
+  },
+  "decision_records": [
+    {
+      "path": "decisions/decision-r14-e7903c1b.json",
+      "sha256": "01fd3c55e79211c3f3ef58a04a4a981cf02c211c9839f752bf9376e0547a1709"
+    }
+  ],
   "artifacts": [
     {
       "path": "research/source-scout-2026-10-20-v1.md",
@@ -87,18 +99,106 @@
       ],
       "plan_revision": null,
       "created_at": "2026-10-20T14:11:42.051264+00:00"
+    },
+    {
+      "path": "tasks/propagate-keyframe-v1.py",
+      "sha256": "e4f0f7e8e9ae47ff683ef00418535aa690fda637ba650cf26f7e6b5dec7af59d",
+      "id": "A-008",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:11.753196+00:00"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v1/anime-keyframe.png",
+      "sha256": "36f331878f3971fa77e9699257043b701dc101cf7e1d831e3a1ced1a1584bb35",
+      "id": "A-009",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:12.092186+00:00"
+    },
+    {
+      "path": "artifacts/render/cooking-flow-v1/anime-draft.mp4",
+      "sha256": "87ab0160ba8c9dcb11268864117f77834c2772140b941f86fecbdf297beb41f7",
+      "id": "A-010",
+      "kind": "video",
+      "inputs": [
+        "A-008",
+        "A-009"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:12.408472+00:00"
+    },
+    {
+      "path": "artifacts/render/cooking-flow-v1/comparison.mp4",
+      "sha256": "99896de70a8b83f2392d313994920a49ce1e026b31420ee97ed8d4dc59f9d25d",
+      "id": "A-011",
+      "kind": "video",
+      "inputs": [
+        "A-010"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:12.720972+00:00"
+    },
+    {
+      "path": "artifacts/render/cooking-flow-v1/manifest.json",
+      "sha256": "59e497cbc88bea07b138242a6d9dd2c0c8149822be0ed73f881f11476a9f3289",
+      "id": "A-012",
+      "kind": "metadata",
+      "inputs": [
+        "A-010",
+        "A-011"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:13.104148+00:00"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v1/qa-v1.md",
+      "sha256": "092d2338f1bd97e92142940d4c8ab5993b6db912355aa654718d6c7846f4fc2d",
+      "id": "A-013",
+      "kind": "other",
+      "inputs": [
+        "A-010",
+        "A-011"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:13.377313+00:00"
     }
   ],
-  "reviews": [],
-  "acceptance": "not_reviewed",
+  "reviews": [
+    {
+      "path": "artifacts/reviews/review-r21-3c7405e2.json",
+      "sha256": "a78040dbb819d435f37cc4faa788244f8df6fbe16e659d4c6d3986a870f79621",
+      "artifact_ids": [
+        "A-010",
+        "A-011"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/cooking-pilot-v1/qa-v1.md",
+          "sha256": "092d2338f1bd97e92142940d4c8ab5993b6db912355aa654718d6c7846f4fc2d"
+        },
+        {
+          "path": "artifacts/render/cooking-flow-v1/contact.jpg",
+          "sha256": "377c0422ee65960024dc98579f1737ac703c89a7b3c4e99c2811cd2679d5f34c"
+        },
+        {
+          "path": "artifacts/render/cooking-flow-v1/manifest.json",
+          "sha256": "59e497cbc88bea07b138242a6d9dd2c0c8149822be0ed73f881f11476a9f3289"
+        }
+      ],
+      "verdict": "needs_revision"
+    }
+  ],
+  "acceptance": "needs_revision",
   "release": "not_requested",
-  "next_action": "Present video-to-video cooking anime research: Diffutoon conditional on GPU and weights; anime keyframes plus EbSynth for motion preservation; DomoAI service as comparison. If testing is requested, inspect source footage and define short pilot/environment first.",
+  "next_action": "Present 4s silent anime prototype and source comparison honestly as needs_revision. If user wants further quality work, evaluate multiple keyframes/occlusion handling or actual vid2vid service/model; do not repeat single-reference flow as a proven solution.",
   "unresolved": [
-    "No source cooking footage inspected",
-    "No local video stylization benchmark on Iris Xe",
-    "Diffutoon weights licenses and compatible GPU unresolved",
-    "Service terms/quota need checking before a test",
-    "No production plan, paid calls or publication authorized"
+    "Sampled visual QA failed hand/knife geometry; not final quality",
+    "Continuous playback and listening not performed; prototype silent",
+    "No publication or paid services authorized",
+    "No Diffutoon/EbSynth run or external footage upload performed"
   ],
   "usage": {
     "input_tokens": 0,
@@ -109,5 +209,5 @@
     "available": false
   },
   "created_at": "2026-10-20T13:51:37.871764+00:00",
-  "updated_at": "2026-10-20T14:11:43.974973+00:00"
+  "updated_at": "2026-10-20T14:48:28.136333+00:00"
 }

@@ -1,0 +1,11 @@
+{
+  "artifact_ids": ["A-010", "A-011"],
+  "reviewer": "creator-review in same chat",
+  "mode": "self_review",
+  "checks": [
+    {"name":"brief_alignment","status":"passed","detail":"Short 4s private visual conversion prototype from exact supplied video, source148–152s, not a standalone generated scene.","evidence_path":"artifacts/cooking-pilot-v1/qa-v1.md"},
+    {"name":"visual_review","status":"failed","detail":"Five sampled frames show severe hand/knife/board stretching away from midpoint. Continuous playback not reviewed.","evidence_path":"artifacts/render/cooking-flow-v1/contact.jpg"},
+    {"name":"audio_review","status":"unverified","detail":"Deliberately silent visual test; no source audio included or listened to."},
+    {"name":"media_decode","status":"passed","detail":"Both exported MP4 files decoded fully without error; 100 frames, 25fps, 4 seconds.","evidence_path":"artifacts/render/cooking-flow-v1/manifest.json"}
+  ]
+}
