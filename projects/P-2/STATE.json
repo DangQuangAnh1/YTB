@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-2",
-  "revision": 118,
+  "revision": 156,
   "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
   "stage": "review",
   "constraints": [
@@ -9,20 +9,20 @@
     "No channel creation or publishing in v0"
   ],
   "current_task": {
-    "id": "T-018",
+    "id": "T-023",
     "owner_role": "pm",
     "execution": "complete"
   },
   "plan": {
-    "path": "plans/plan-v6-r101-b845f85b.md",
-    "sha256": "adb4de64138df4abfc25afc4f6ed0551d74f3fcd9caa1a47f9bdd490877a544e",
-    "revision": 6
+    "path": "plans/plan-v9-r144-a3d8f221.md",
+    "sha256": "387857297a0d26b6e2a2009c5226b618339253974e7d5276e83612f950f344dd",
+    "revision": 9
   },
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r102-ea5a54bc.json",
-      "sha256": "2ff7edd98340c35119d7d59a4a3e71751e2e14b2d71fd8adf763ef3f6e2f2a18"
+      "path": "decisions/decision-r155-9cffd5ae.json",
+      "sha256": "d9e921c11122a70e92601f11625c6260b7d1faaa213f78fe5f5587a18a61a568"
     }
   },
   "decision_records": [
@@ -57,6 +57,22 @@
     {
       "path": "decisions/decision-r102-ea5a54bc.json",
       "sha256": "2ff7edd98340c35119d7d59a4a3e71751e2e14b2d71fd8adf763ef3f6e2f2a18"
+    },
+    {
+      "path": "decisions/decision-r120-5e9b184f.json",
+      "sha256": "b93cdb30d69f043b2d1beba738bdb84f539673169d56b77e3acc3d231b033b4d"
+    },
+    {
+      "path": "decisions/decision-r135-c4d8e51a.json",
+      "sha256": "fe3b696ef231487920f63b64d81e942ceefbc3043bdef87825cecbe993a2b0c7"
+    },
+    {
+      "path": "decisions/decision-r145-a641fc3f.json",
+      "sha256": "ce8bfdffbc081788caa9d681b3ed8fd77099686f241391d245a422e229ee5e63"
+    },
+    {
+      "path": "decisions/decision-r155-9cffd5ae.json",
+      "sha256": "d9e921c11122a70e92601f11625c6260b7d1faaa213f78fe5f5587a18a61a568"
     }
   ],
   "artifacts": [
@@ -803,6 +819,265 @@
       ],
       "plan_revision": 6,
       "created_at": "2026-10-21T17:48:48.938596+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/character-spec-v1.json",
+      "sha256": "54829a8fbed31c32fe01192076b9b07a9a2d32225d8a99738f1bdd47f16adf2a",
+      "id": "A-076",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:27.607115+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/character-sheet.svg",
+      "sha256": "f0263ddfc5cc1ad1fee5c713fcd7a55e81127296d80c4839564412a4328b703a",
+      "id": "A-077",
+      "kind": "image",
+      "inputs": [
+        "A-076"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:28.060060+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/character-sheet.png",
+      "sha256": "fd5d91f28c30b77e2bee155a1182d4c8debdf74da43f18a109582ce205e2295e",
+      "id": "A-078",
+      "kind": "image",
+      "inputs": [
+        "A-077"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:28.533553+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/cap-character.svg",
+      "sha256": "04e9021fa796fe31e5ad19d787600d742a7e2f4377e28723ca5d5a192424f02d",
+      "id": "A-079",
+      "kind": "image",
+      "inputs": [
+        "A-076"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:28.967629+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/scarf-character.svg",
+      "sha256": "e1503f09924989687badb8ce560d35ecf55998108302a4735f17216e3e5a8f1c",
+      "id": "A-080",
+      "kind": "image",
+      "inputs": [
+        "A-076"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:29.413777+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/technical-qa-v1.json",
+      "sha256": "3ee591d5b9bc947da1549c6b477041d9e81a53fea3b203d27f95c78959b7b061",
+      "id": "A-081",
+      "kind": "other",
+      "inputs": [
+        "A-077",
+        "A-078",
+        "A-079",
+        "A-080"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:29.921186+00:00"
+    },
+    {
+      "path": "tasks/review-character-cast-v1-evidence.md",
+      "sha256": "683e7b225aa5e75be30ef789070716840675cec256a43ccea604337eff9e603e",
+      "id": "A-082",
+      "kind": "other",
+      "inputs": [
+        "A-081"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:30.373708+00:00"
+    },
+    {
+      "path": "tasks/lesson-character-svg-v1.md",
+      "sha256": "326311ba2394073ef89e7c7b813e1d63cef0a1db74f61b22222fdcdb9be74ddb",
+      "id": "A-083",
+      "kind": "other",
+      "inputs": [
+        "A-081"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:30.863894+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/cap-character.png",
+      "sha256": "efa8e3eb87766c546d6705041143d702516326b4df1754a80e244028f206733b",
+      "id": "A-084",
+      "kind": "image",
+      "inputs": [
+        "A-079"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:31.327852+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/scarf-character.png",
+      "sha256": "e2e61852b410f1d1f00c03b35897d8dcf6d032f12b56c0dbaac176095d2db31f",
+      "id": "A-085",
+      "kind": "image",
+      "inputs": [
+        "A-080"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:31.776271+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/character-spec-v2.json",
+      "sha256": "3f52eb40f4ea5efb6a3dd9877dd96e05aef7207a05ea2733a38684e395fa8745",
+      "id": "A-086",
+      "kind": "metadata",
+      "inputs": [
+        "A-076"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:22:59.411391+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/character-sheet.png",
+      "sha256": "e84910fc67179f20fd3da655bb8e8df6fa5536a81d7da73e7583a7dc492fecb9",
+      "id": "A-087",
+      "kind": "image",
+      "inputs": [
+        "A-086",
+        "A-079"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:22:59.906647+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/scarf-character.svg",
+      "sha256": "759dc06ac5ea697183f272d0aceff4e5e361d92e64856eb336418c096b0cec90",
+      "id": "A-088",
+      "kind": "image",
+      "inputs": [
+        "A-086"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:23:00.434714+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/scarf-character.png",
+      "sha256": "730fd14a3f864b9cee3e334ebe42708989a89bccdb9c3151462301865954558a",
+      "id": "A-089",
+      "kind": "image",
+      "inputs": [
+        "A-088"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:23:00.913786+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/technical-qa-v2.json",
+      "sha256": "dea9a8d6b2e78c830fa20d2f1af05d6cdd70f85296906ed6cec16644a4221183",
+      "id": "A-090",
+      "kind": "other",
+      "inputs": [
+        "A-087",
+        "A-088",
+        "A-089"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:23:01.433606+00:00"
+    },
+    {
+      "path": "tasks/review-character-cast-v2-evidence.md",
+      "sha256": "daaaaab57d1699cf156f53a8fc70e6db9613ce24e08e3130fdda0c0ef5280ad9",
+      "id": "A-091",
+      "kind": "other",
+      "inputs": [
+        "A-090"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:23:01.946884+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/character-spec-v3.json",
+      "sha256": "973eed3c271a41a2a82436037eaeabb1dcabbb8e22df150eb2018a0c671f6f9c",
+      "id": "A-092",
+      "kind": "metadata",
+      "inputs": [
+        "A-086"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:38.227628+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/character-sheet.png",
+      "sha256": "2189cd9f33d7fdc5d2034af0f1f382cb3abb53f94ac544f5a311a42f75db6493",
+      "id": "A-093",
+      "kind": "image",
+      "inputs": [
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:38.744214+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/scarf-character.svg",
+      "sha256": "a227b9e1f040741a588929624d1393cc019337cc8f4a3a061d7def709c6afa8c",
+      "id": "A-094",
+      "kind": "image",
+      "inputs": [
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:39.305872+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/scarf-character.png",
+      "sha256": "af706c63d84e98264761c840193fa5506b26e9bc8a77d6497d8c2f82542059e0",
+      "id": "A-095",
+      "kind": "image",
+      "inputs": [
+        "A-094"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:39.793520+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/technical-qa-v3.json",
+      "sha256": "8ac08d58a503cdbd856cfb58a36207a6886200c5d56a1387159905ee9933bd00",
+      "id": "A-096",
+      "kind": "other",
+      "inputs": [
+        "A-093",
+        "A-094",
+        "A-095"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:40.327914+00:00"
+    },
+    {
+      "path": "tasks/review-character-cast-v3-evidence.md",
+      "sha256": "e201fe34ce3e190f135da0b8febb6afef104031e33f2f670b2872e2f253e22ce",
+      "id": "A-097",
+      "kind": "other",
+      "inputs": [
+        "A-096"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:40.848179+00:00"
+    },
+    {
+      "path": "tasks/channel-character-rules-v1.md",
+      "sha256": "f9493019ec7cb5b7a1a396c39dc7d5a61d05ae3d00f1224b85a330c76285802b",
+      "id": "A-098",
+      "kind": "other",
+      "inputs": [
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T19:19:24.696084+00:00"
     }
   ],
   "reviews": [
@@ -1024,16 +1299,89 @@
         }
       ],
       "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r132-6dbc358e.json",
+      "sha256": "668157cdaa32e568cc081b51e904e5ce3599fe5f82b2057c866ebd9a110ddb60",
+      "artifact_ids": [
+        "A-078",
+        "A-079",
+        "A-080",
+        "A-084",
+        "A-085"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-character-cast-v1-evidence.md",
+          "sha256": "683e7b225aa5e75be30ef789070716840675cec256a43ccea604337eff9e603e"
+        },
+        {
+          "path": "tasks/review-character-cast-v1-evidence.md",
+          "sha256": "683e7b225aa5e75be30ef789070716840675cec256a43ccea604337eff9e603e"
+        },
+        {
+          "path": "artifacts/characters/duo-v1/technical-qa-v1.json",
+          "sha256": "3ee591d5b9bc947da1549c6b477041d9e81a53fea3b203d27f95c78959b7b061"
+        }
+      ],
+      "verdict": "passed"
+    },
+    {
+      "path": "artifacts/reviews/review-r142-913ae4b0.json",
+      "sha256": "66743c9c90db3cbeb565d6af5a2aecb8b83806b9b8e2e8570a0dff48fc33a049",
+      "artifact_ids": [
+        "A-087",
+        "A-088",
+        "A-089"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-character-cast-v2-evidence.md",
+          "sha256": "daaaaab57d1699cf156f53a8fc70e6db9613ce24e08e3130fdda0c0ef5280ad9"
+        },
+        {
+          "path": "tasks/review-character-cast-v2-evidence.md",
+          "sha256": "daaaaab57d1699cf156f53a8fc70e6db9613ce24e08e3130fdda0c0ef5280ad9"
+        },
+        {
+          "path": "artifacts/characters/duo-v2/technical-qa-v2.json",
+          "sha256": "dea9a8d6b2e78c830fa20d2f1af05d6cdd70f85296906ed6cec16644a4221183"
+        }
+      ],
+      "verdict": "passed"
+    },
+    {
+      "path": "artifacts/reviews/review-r152-4b934564.json",
+      "sha256": "a355953cb2b70ef0d64f290a2c0f43bf5a9f193167c2a6018bb922b48dca2425",
+      "artifact_ids": [
+        "A-093",
+        "A-094",
+        "A-095"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-character-cast-v3-evidence.md",
+          "sha256": "e201fe34ce3e190f135da0b8febb6afef104031e33f2f670b2872e2f253e22ce"
+        },
+        {
+          "path": "tasks/review-character-cast-v3-evidence.md",
+          "sha256": "e201fe34ce3e190f135da0b8febb6afef104031e33f2f670b2872e2f253e22ce"
+        },
+        {
+          "path": "artifacts/characters/duo-v3/technical-qa-v3.json",
+          "sha256": "8ac08d58a503cdbd856cfb58a36207a6886200c5d56a1387159905ee9933bd00"
+        }
+      ],
+      "verdict": "passed"
     }
   ],
-  "acceptance": "unverified",
+  "acceptance": "not_reviewed",
   "release": "not_requested",
-  "next_action": "Giao artifacts/render/comedy-c1-draft-v2/draft.mp4: pilot hài đầu28s1080x1920. Chờ user đánh giá style/gag rồi sửa version mới theo scene. Chưa đăng. Audio listening và continuous playback review còn unverified; technical/sampled visual checks đã làm.",
+  "next_action": "User chốt duo-v3; tuân thủ tasks/channel-character-rules-v1.md: mỗi kênh có cast cố định. User yêu cầu commit/push P-2. Xoá ảnh gốc bị chính sách công cụ chặn, không được tuyên bố đã xoá; ảnh gốc không đưa vào Git.",
   "unresolved": [
-    "Audio perceptual listening chưa thực hiện, tổng verdict review unverified",
-    "Chưa xem playback liên tục; đã kiểm32frame sampled và full decode840frames",
-    "Chưa có human audience test hoặc market validation",
-    "Commercial eligibility/license cần đối chiếu nếu chuyển sang sử dụng thương mại; hiện evaluation draft"
+    "Chưa gán cast cho channel ID cụ thể",
+    "Chưa walk-cycle/turnaround test",
+    "Ảnh đính kèm gốc chưa xoá được vì công cụ từ chối; không xác nhận xoá khỏi hội thoại"
   ],
   "usage": {
     "input_tokens": 0,
@@ -1044,5 +1392,5 @@
     "available": false
   },
   "created_at": "2026-10-20T13:51:37.871764+00:00",
-  "updated_at": "2026-10-21T17:49:09.728377+00:00"
+  "updated_at": "2026-10-21T19:19:34.270761+00:00"
 }

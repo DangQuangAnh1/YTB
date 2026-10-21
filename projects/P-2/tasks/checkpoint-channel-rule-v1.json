@@ -1,0 +1,6 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-023", "owner_role": "pm", "execution": "complete"},
+  "next_action": "User chốt duo-v3; tuân thủ tasks/channel-character-rules-v1.md: mỗi kênh có cast cố định. User yêu cầu commit/push P-2. Xoá ảnh gốc bị chính sách công cụ chặn, không được tuyên bố đã xoá; ảnh gốc không đưa vào Git.",
+  "unresolved": ["Chưa gán cast cho channel ID cụ thể", "Chưa walk-cycle/turnaround test", "Ảnh đính kèm gốc chưa xoá được vì công cụ từ chối; không xác nhận xoá khỏi hội thoại"]
+}

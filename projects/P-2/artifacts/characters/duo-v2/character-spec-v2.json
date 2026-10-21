@@ -1,0 +1,14 @@
+{
+  "revision": 2,
+  "supersedes": "B hairstyle in duo-v1; A unchanged",
+  "user_source": "Direct user message with new reference image: Bạn nữ đây nhé, thêm khăn là đc",
+  "features": [
+    "long dark brown hair",
+    "voluminous side part, open forehead, no short wispy bangs",
+    "face-framing long locks",
+    "light knitted scarf"
+  ],
+  "style": "minimal round face and stick limbs, consistent with P-2",
+  "reference_privacy": "Original screenshot not copied, account text/background/UI not reproduced",
+  "status": "draft pending user feedback"
+}

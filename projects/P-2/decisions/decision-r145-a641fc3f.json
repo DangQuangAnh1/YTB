@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Tin nhắn trực tiếp user trong cuộc trò chuyện PM ngày2026-10-22; chỉnh tóc ngắn hơn và khăn đỏ; không có message ID",
+  "excerpt": "Tóc ngắn hơn xíu, khăn màu đỏ nhé",
+  "plan": {
+    "path": "plans/plan-v9-r144-a3d8f221.md",
+    "sha256": "387857297a0d26b6e2a2009c5226b618339253974e7d5276e83612f950f344dd",
+    "revision": 9
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T18:29:43.306152+00:00"
+}

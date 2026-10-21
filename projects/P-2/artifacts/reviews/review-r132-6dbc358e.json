@@ -1,0 +1,41 @@
+{
+  "artifact_ids": [
+    "A-078",
+    "A-079",
+    "A-080",
+    "A-084",
+    "A-085"
+  ],
+  "reviewer": "root Content/Production/PM",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Hai mẫu: A ảnh1 giữ mũ/tóc, B ảnh2–3 giữ khăn/tóc; không sao chép background/phone/caption ảnh.",
+      "evidence_path": "tasks/review-character-cast-v1-evidence.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Đã xem PNG sheet và live components; fullbody,3expression/mẫu, không chồng chữ/khăn; likeness cần user đánh giá.",
+      "evidence_path": "tasks/review-character-cast-v1-evidence.md"
+    },
+    {
+      "name": "technical_output",
+      "status": "passed",
+      "detail": "11SVG parse và PNGs render thật; transparent PNG không crop, alpha0..255; component reuse được thử render.",
+      "evidence_path": "artifacts/characters/duo-v1/technical-qa-v1.json"
+    }
+  ],
+  "note": "Draft design review only; chưa human acceptance, turnaround hoặc animation-cycle QA.",
+  "artifact_hashes": {
+    "A-078": "fd5d91f28c30b77e2bee155a1182d4c8debdf74da43f18a109582ce205e2295e",
+    "A-079": "04e9021fa796fe31e5ad19d787600d742a7e2f4377e28723ca5d5a192424f02d",
+    "A-080": "e1503f09924989687badb8ce560d35ecf55998108302a4735f17216e3e5a8f1c",
+    "A-084": "efa8e3eb87766c546d6705041143d702516326b4df1754a80e244028f206733b",
+    "A-085": "e2e61852b410f1d1f00c03b35897d8dcf6d032f12b56c0dbaac176095d2db31f"
+  },
+  "verdict": "passed",
+  "recorded_at": "2026-10-21T18:16:45.753228+00:00"
+}

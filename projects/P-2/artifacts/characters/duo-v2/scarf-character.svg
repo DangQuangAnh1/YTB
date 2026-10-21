@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="480" viewBox="0 0 320 480"><g transform="translate(160 112)"><g stroke-linejoin="round"><path d="M-58,-25Q-61,-75 -22,-81Q9,-89 24,-77Q58,-75 66,-39Q76,-9 63,30Q58,59 66,82Q75,109 62,127L65,141Q43,150 27,134Q11,148 -5,132Q-24,150 -45,140L-61,144Q-73,122 -61,99Q-54,77 -63,56Q-78,25 -65,1Z" fill="#392F38" stroke="#203C47" stroke-width="3"/>
+ <path d="M-43,28Q-54,58 -44,82Q-37,103 -49,120Q-52,128 -46,133M50,29Q42,60 54,82Q64,105 53,127M-29,78Q-19,102 -29,129M33,78Q24,102 33,129" fill="none" stroke="#63515D" stroke-width="2" opacity=".8"/>
+ </g><g stroke="#203C47" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M0,43V155M-8,69H8M0,155L-29,219L-38,278M0,155L29,219L39,278"/><path d="M-7,70L-72,104L-58,164M7,70L72,104L58,164"/><path d="M-53,281H-23M25,281H55" stroke-width="10"/></g><circle r="48" fill="#FFFDF7" stroke="#203C47" stroke-width="3.6"/><g stroke="#203C47" fill="#203C47" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="-17" cy="9" rx="3" ry="5.5"/><ellipse cx="12" cy="9" rx="3" ry="5.5"/><path d="M-25,-6q7,-4 15,-1m14,0q8,-4 16,0" fill="none" stroke-width="2.6"/><path d="M-10,27Q2,35 15,24" fill="none" stroke-width="2.7"/></g><g stroke-linecap="round" stroke-linejoin="round"><path d="M-57,-24Q-48,-72 -13,-69Q9,-78 25,-62Q1,-66 -10,-48Q-23,-33 -28,-8Q-29,9 -39,33Q-36,9 -42,-7Q-48,15 -51,48Q-60,22 -57,-24Z" fill="#392F38"/>
+ <path d="M8,-57Q39,-65 51,-32Q60,-9 47,22Q43,44 50,71Q35,52 34,28Q37,8 27,-15Q17,-35 8,-57Z" fill="#392F38"/>
+ <path d="M8,-66Q-17,-57 -31,-27M24,-54Q44,-34 45,-8M-38,-12Q-48,13 -43,35M40,36Q41,55 48,64" stroke="#63515D" stroke-width="1.9" fill="none"/>
+ </g><g stroke="#203C47" stroke-width="2.6" stroke-linejoin="round">
+ <path d="M-32,68L-32,141Q-17,151 -4,140L0,77Z" fill="#D7D6CE"/>
+ <path d="M10,75L15,123Q28,130 40,117L30,68Z" fill="#AAAFA8"/>
+ <path d="M-45,43Q-27,55 -3,52Q22,53 39,43L45,58Q38,77 9,79Q-21,86 -45,66Z" fill="#D7D6CE"/>
+ <path d="M-42,49Q-5,71 41,50M-39,59Q-4,79 39,60" fill="none" stroke="#AAAFA8" stroke-width="2.5"/>
+ <path d="M-26,84l17,5m-17,6l17,5m-17,6l17,5m-17,6l17,5m-17,6l17,5M20,85l13,-3m-12,13l14,-3m-12,13l14,-3" stroke="#AAAFA8" stroke-width="1.5" fill="none"/>
+ <path d="M-30,143l-1,9m9,-7v10m8,-10l1,8m7,-11l2,8M17,124l1,7m7,-4l1,7m8,-10l2,6" stroke="#AAAFA8" stroke-width="2" stroke-linecap="round"/>
+ </g></g></svg>

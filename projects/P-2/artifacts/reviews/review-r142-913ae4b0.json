@@ -1,0 +1,37 @@
+{
+  "artifact_ids": [
+    "A-087",
+    "A-088",
+    "A-089"
+  ],
+  "reviewer": "root Content/Production/PM",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Tóc B theo reference mới: dài, phồng nhẹ, rẽ lệch; thêm khăn sáng; A giữ SVG không đổi.",
+      "evidence_path": "tasks/review-character-cast-v2-evidence.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Đã xem render sheet và live component sau sửa layering tóc/tay. Likeness và nhận diện cuối chờ user.",
+      "evidence_path": "tasks/review-character-cast-v2-evidence.md"
+    },
+    {
+      "name": "technical_output",
+      "status": "passed",
+      "detail": "11SVG parse, PNG alpha/bounds pass, capSVG unchanged và live components render.",
+      "evidence_path": "artifacts/characters/duo-v2/technical-qa-v2.json"
+    }
+  ],
+  "note": "Draft only; chưa animation-cycle hoặc human acceptance.",
+  "artifact_hashes": {
+    "A-087": "e84910fc67179f20fd3da655bb8e8df6fa5536a81d7da73e7583a7dc492fecb9",
+    "A-088": "759dc06ac5ea697183f272d0aceff4e5e361d92e64856eb336418c096b0cec90",
+    "A-089": "730fd14a3f864b9cee3e334ebe42708989a89bccdb9c3151462301865954558a"
+  },
+  "verdict": "passed",
+  "recorded_at": "2026-10-21T18:23:02.463562+00:00"
+}

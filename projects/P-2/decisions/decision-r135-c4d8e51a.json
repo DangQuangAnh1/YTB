@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Tin nhắn trực tiếp user kèm ảnh tham chiếu tóc nữ mới trong cuộc trò chuyện PM ngày2026-10-22; không có message ID",
+  "excerpt": "Bạn nữ đây nhé, thêm khăn là đc",
+  "plan": {
+    "path": "plans/plan-v8-r134-415f2dde.md",
+    "sha256": "24231f7b0c52abec5b216e7383f3b43646d37dfe98a581b5cf8bb9f5e70ea34b",
+    "revision": 8
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T18:20:33.653305+00:00"
+}

@@ -1,0 +1,94 @@
+{
+  "cap_svg_unchanged_from_v1": true,
+  "svg_parse": [
+    "cap-character.svg",
+    "cap-head-deadpan.svg",
+    "cap-head-happy.svg",
+    "cap-head-neutral.svg",
+    "cap-head-surprised.svg",
+    "character-sheet.svg",
+    "scarf-character.svg",
+    "scarf-head-deadpan.svg",
+    "scarf-head-happy.svg",
+    "scarf-head-neutral.svg",
+    "scarf-head-surprised.svg"
+  ],
+  "pngs": {
+    "character-sheet.png": {
+      "size": [
+        1600,
+        1200
+      ],
+      "mode": "RGB"
+    },
+    "cap-character.png": {
+      "size": [
+        320,
+        480
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "content_bbox": [
+        75,
+        31,
+        220,
+        398
+      ],
+      "uncropped": true
+    },
+    "scarf-character.png": {
+      "size": [
+        320,
+        480
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "content_bbox": [
+        84,
+        26,
+        236,
+        398
+      ],
+      "uncropped": true
+    },
+    "live-components-check.png": {
+      "size": [
+        800,
+        500
+      ],
+      "mode": "RGB"
+    }
+  },
+  "source_hashes": {
+    "build.cjs": "04d969fdc26544f162156b8ec9e735d4477829652427a7ced7a4d241f364bf74",
+    "cast.cjs": "92987272bf9efe741d946352628234fbfb9ae66eb1fa04c449fefa2e7b06834a",
+    "Cast.tsx": "5652d0e403fce93ef67a87284ea16ace83fb2e6a4ad2418e6acf84f24f804b2c",
+    "Preview.tsx": "603c366b2fcea7692f9f19452876a7cdbef745286579f2fe8225c63e71c1ed3d",
+    "README.md": "b37c08228e2ae39efae44b588311105c8d3160c44749c895b3c8e5c903e3cc73",
+    "render.cjs": "b19de6ed60a67bfda5967c4f52bdc60ff5c4b5e3a8f0febb21572e6157d676a6"
+  },
+  "output_hashes": {
+    "cap-character.png": "efa8e3eb87766c546d6705041143d702516326b4df1754a80e244028f206733b",
+    "cap-character.svg": "04e9021fa796fe31e5ad19d787600d742a7e2f4377e28723ca5d5a192424f02d",
+    "cap-head-deadpan.svg": "e67575b2791453f6c987b5cd044ad6490e53d0c4c32294d4bb3a27ac0c85e2c5",
+    "cap-head-happy.svg": "972c62c7fd16db463555a04c1bb7db329ed87bb70190dd09add9b552dd510047",
+    "cap-head-neutral.svg": "e30f160c19628a9c65d59968791c5e9bd07debacd6dbda9f00c8a72c682fcd85",
+    "cap-head-surprised.svg": "ecd131032b5cb953f7e01d8cc95bbbf4fee07d1878b800d6f6dc169594469366",
+    "character-sheet.png": "e84910fc67179f20fd3da655bb8e8df6fa5536a81d7da73e7583a7dc492fecb9",
+    "character-sheet.svg": "4f1bde11cea89c25ce05c362fbb7b0b0c380ed99f0722857c88dccb97c9c38cc",
+    "character-spec-v2.json": "3f52eb40f4ea5efb6a3dd9877dd96e05aef7207a05ea2733a38684e395fa8745",
+    "live-components-check.png": "b319ccc9942a98100b94b17292cb6ba1eefbf84360bc256bf9b9c87d89af059a",
+    "scarf-character.png": "730fd14a3f864b9cee3e334ebe42708989a89bccdb9c3151462301865954558a",
+    "scarf-character.svg": "759dc06ac5ea697183f272d0aceff4e5e361d92e64856eb336418c096b0cec90",
+    "scarf-head-deadpan.svg": "b7fb77c6a7fc03d1443e9293de90873767c8976df26922d214609810f2323f52",
+    "scarf-head-happy.svg": "44f8e9915c192e7cba2503f75064f5677786f521f07c124e42ccab0d2b4f307b",
+    "scarf-head-neutral.svg": "479839829b05b25436c4b05ced2bc8483b8dc8d2467ee2755c3043d878e0a303",
+    "scarf-head-surprised.svg": "7a655ef378aa8410ac6e8827dcb8d90a6ea9b6ff4888d5aa8ac8ecbbce533ce2"
+  }
+}

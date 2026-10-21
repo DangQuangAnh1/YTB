@@ -1,0 +1,36 @@
+{
+  "revision": 1,
+  "purpose": "Two original vector stick-character drafts for P-2 comedy, based on user-selected visible features",
+  "references": "User-provided image1 for A; image2+image3 for B; originals remain only in attachments, not copied into repo",
+  "characters": [
+    {
+      "id": "cap",
+      "label": "A — Mũ ngược",
+      "locked_features": [
+        "backwards khaki/olive cap",
+        "left-projecting adjustment strap and buckle",
+        "ribbed fabric suggested with sparse lines",
+        "black irregular fringe"
+      ],
+      "face": "minimal round face, no photoreal likeness claim"
+    },
+    {
+      "id": "scarf",
+      "label": "B — Khăn len",
+      "locked_features": [
+        "dark face-framing shoulder-length hair",
+        "wispy fringe",
+        "light gray knitted scarf with wrap and hanging tails"
+      ],
+      "face": "minimal round face, no photoreal likeness claim"
+    }
+  ],
+  "expressions": [
+    "neutral",
+    "happy",
+    "surprised",
+    "deadpan"
+  ],
+  "privacy": "No originals/background/phone content/photo caption embedded; no new commit or push performed",
+  "status": "draft for user visual feedback, not final approved series identity"
+}

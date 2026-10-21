@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "User message in current P-2 conversation; acceptance and per-channel character rule, plan v9",
+  "excerpt": "Okie rồi, lưu lại rule chung cho p2 này là cần set nhân vật cố định theo từng kênh nhá",
+  "plan": {
+    "path": "plans/plan-v9-r144-a3d8f221.md",
+    "sha256": "387857297a0d26b6e2a2009c5226b618339253974e7d5276e83612f950f344dd",
+    "revision": 9
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T19:19:33.304997+00:00"
+}

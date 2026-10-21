@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Tin nhắn trực tiếp user kèm3ảnh trong cuộc trò chuyện PM ngày2026-10-22; yêu cầu tạo người que giữ mũ/tóc và khăn/tóc. Không có message ID.",
+  "excerpt": "bạn tạo người que dựa trên đặc điểm đó nhé. Ưu tiên giữ cái mũ và mái tóc thôi. 2 ảnh sau. Ưu tiên giữ cái khăn và mái tóc",
+  "plan": {
+    "path": "plans/plan-v7-r119-2021bfdf.md",
+    "sha256": "a1866964fc6b998f81ad6ff02845695f8531cc2886b52c2f5b7945debb71d7bf",
+    "revision": 7
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T18:11:23.591615+00:00"
+}

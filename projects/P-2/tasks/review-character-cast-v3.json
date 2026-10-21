@@ -1,0 +1,30 @@
+{
+  "artifact_ids": [
+    "A-093",
+    "A-094",
+    "A-095"
+  ],
+  "reviewer": "root Content/Production/PM",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Đúng hai sửa tóc ngắn hơn nhẹ và khăn đỏ; A unchanged; không thay nét mặt.",
+      "evidence_path": "tasks/review-character-cast-v3-evidence.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Đã xem sheet PNG thực, tóc/khăn/biểu cảm và chữ không chồng/crop.",
+      "evidence_path": "tasks/review-character-cast-v3-evidence.md"
+    },
+    {
+      "name": "technical_output",
+      "status": "passed",
+      "detail": "SVG parse, PNG alpha/bounds, cap unchanged hash và render thật.",
+      "evidence_path": "artifacts/characters/duo-v3/technical-qa-v3.json"
+    }
+  ],
+  "note": "Draft self-review only, chưa human approval hoặc animation QA."
+}

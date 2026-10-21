@@ -1,0 +1,32 @@
+{
+  "artifact_ids": [
+    "A-078",
+    "A-079",
+    "A-080",
+    "A-084",
+    "A-085"
+  ],
+  "reviewer": "root Content/Production/PM",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Hai mẫu: A ảnh1 giữ mũ/tóc, B ảnh2–3 giữ khăn/tóc; không sao chép background/phone/caption ảnh.",
+      "evidence_path": "tasks/review-character-cast-v1-evidence.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Đã xem PNG sheet và live components; fullbody,3expression/mẫu, không chồng chữ/khăn; likeness cần user đánh giá.",
+      "evidence_path": "tasks/review-character-cast-v1-evidence.md"
+    },
+    {
+      "name": "technical_output",
+      "status": "passed",
+      "detail": "11SVG parse và PNGs render thật; transparent PNG không crop, alpha0..255; component reuse được thử render.",
+      "evidence_path": "artifacts/characters/duo-v1/technical-qa-v1.json"
+    }
+  ],
+  "note": "Draft design review only; chưa human acceptance, turnaround hoặc animation-cycle QA."
+}

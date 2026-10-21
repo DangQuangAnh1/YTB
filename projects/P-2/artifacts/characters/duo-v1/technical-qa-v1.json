@@ -1,0 +1,94 @@
+{
+  "svg_parse": [
+    "cap-character.svg",
+    "cap-head-deadpan.svg",
+    "cap-head-happy.svg",
+    "cap-head-neutral.svg",
+    "cap-head-surprised.svg",
+    "character-sheet.svg",
+    "scarf-character.svg",
+    "scarf-head-deadpan.svg",
+    "scarf-head-happy.svg",
+    "scarf-head-neutral.svg",
+    "scarf-head-surprised.svg"
+  ],
+  "pngs": {
+    "character-sheet.png": {
+      "size": [
+        1600,
+        1200
+      ],
+      "mode": "RGB"
+    },
+    "cap-character.png": {
+      "size": [
+        320,
+        480
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "content_bbox": [
+        75,
+        31,
+        220,
+        398
+      ],
+      "transparent_and_uncropped": true
+    },
+    "scarf-character.png": {
+      "size": [
+        320,
+        480
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "content_bbox": [
+        101,
+        44,
+        220,
+        398
+      ],
+      "transparent_and_uncropped": true
+    },
+    "live-components-check.png": {
+      "size": [
+        800,
+        500
+      ],
+      "mode": "RGB"
+    }
+  },
+  "source_hashes": {
+    "build.cjs": "46538457c86d9b83712f0271c38566cf2c3bae69669635ea16f34c8741d6d010",
+    "cast.cjs": "13f5e02032be706543579fe726448305bc3b192dc90f55a9ce6cd493c3ad73a9",
+    "Cast.tsx": "afb58ba5b6fdbf54a42b4a0a3d66b1615fb4e38f68d24e348993a9653a167222",
+    "Preview.tsx": "d512f023e75aa0fd319067348f770e91f28c6535819ffb7fa1229a1835e1d065",
+    "README.md": "93ed5b826ad2c35992635123d81abc0982e4c4cada10a543bcd7e08c0afef9a7",
+    "render.cjs": "4daa6e4547bdddc04889b5dc3dff2d7e691be2e07e4e46222e24e7554d4ab269"
+  },
+  "outputs": {
+    "cap-character.png": "efa8e3eb87766c546d6705041143d702516326b4df1754a80e244028f206733b",
+    "cap-character.svg": "04e9021fa796fe31e5ad19d787600d742a7e2f4377e28723ca5d5a192424f02d",
+    "cap-head-deadpan.svg": "e67575b2791453f6c987b5cd044ad6490e53d0c4c32294d4bb3a27ac0c85e2c5",
+    "cap-head-happy.svg": "972c62c7fd16db463555a04c1bb7db329ed87bb70190dd09add9b552dd510047",
+    "cap-head-neutral.svg": "e30f160c19628a9c65d59968791c5e9bd07debacd6dbda9f00c8a72c682fcd85",
+    "cap-head-surprised.svg": "ecd131032b5cb953f7e01d8cc95bbbf4fee07d1878b800d6f6dc169594469366",
+    "character-sheet.png": "fd5d91f28c30b77e2bee155a1182d4c8debdf74da43f18a109582ce205e2295e",
+    "character-sheet.svg": "f0263ddfc5cc1ad1fee5c713fcd7a55e81127296d80c4839564412a4328b703a",
+    "character-spec-v1.json": "54829a8fbed31c32fe01192076b9b07a9a2d32225d8a99738f1bdd47f16adf2a",
+    "live-components-check.png": "ce1964a6b1079848fdff65d2c451b9b3d5c1d0f7947bfeaebc776416783c233e",
+    "scarf-character.png": "e2e61852b410f1d1f00c03b35897d8dcf6d032f12b56c0dbaac176095d2db31f",
+    "scarf-character.svg": "e1503f09924989687badb8ce560d35ecf55998108302a4735f17216e3e5a8f1c",
+    "scarf-head-deadpan.svg": "dd2f822edd4a6ae7e44a77fd952df64c85c447334c84da15d9e7c7b8ea3964d9",
+    "scarf-head-happy.svg": "6dff3c3e064c8ff81213b06e99f50c579397d09b6a47adda870e5d979f1dac20",
+    "scarf-head-neutral.svg": "ae1305215b1298f7d86b660a33d0ec52595dbcb2e4832bb015432d6aff28b087",
+    "scarf-head-surprised.svg": "20eacc1dfc5f18b4fd5d393778c874dbf9807db90413aa0630874f37cef0a04a"
+  },
+  "live_react_components": "rendered successfully with local Remotion; separate scarf component tested"
+}
