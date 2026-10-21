@@ -1,0 +1,98 @@
+{
+  "checked_on": "2026-10-22",
+  "scope": "P-2 action shortlist install and bounded smoke tests",
+  "packages": {
+    "@motion-canvas/core": {
+      "version": "3.17.2",
+      "license": "MIT"
+    },
+    "@motion-canvas/2d": {
+      "version": "3.17.2",
+      "license": "MIT"
+    },
+    "@motion-canvas/ui": {
+      "version": "3.17.2",
+      "license": "MIT"
+    },
+    "@motion-canvas/vite-plugin": {
+      "version": "3.17.2",
+      "license": "MIT"
+    },
+    "@motion-canvas/ffmpeg": {
+      "version": "3.17.2",
+      "license": "MIT"
+    },
+    "matter-js": {
+      "version": "0.20.0",
+      "license": "MIT"
+    },
+    "gsap": {
+      "version": "3.12.5",
+      "license": "Standard 'no charge' license: https://gsap.com/standard-license. Club GSAP members get more: https://gsap.com/licensing/. Why GreenSock doesn't employ an MIT license: https://gsap.com/why-license/"
+    },
+    "fullik": {
+      "version": "1.3.3",
+      "license": "MIT"
+    },
+    "vite": {
+      "version": "4.5.14",
+      "license": "MIT"
+    },
+    "typescript": {
+      "version": "5.8.3",
+      "license": "Apache-2.0"
+    }
+  },
+  "lockfile": "production/action-toolkit/package-lock.json",
+  "lock_sha256": "2418266c00c79e9f860378469acda0e7ffc7253ebe8097e96c0803c0b2c7db89",
+  "repos": {
+    "stick-motion": {
+      "path": "C:\\Users\\vanth\\.codex\\tools\\p2-action\\repos\\stick-motion",
+      "commit": "6315c09c4e5051267806988defa28279b965fe29",
+      "license_sha256": "fd47e73626f6902a67f578d62bf795f7a96d1f05dbb7a469a55111c1cf0e6c68"
+    },
+    "fullik": {
+      "path": "C:\\Users\\vanth\\.codex\\tools\\p2-action\\repos\\fullik",
+      "commit": "3f22da98a0fa0051416b20077af5142aec3dfc2e",
+      "license_sha256": "805d7744921986ff1ac353c14736df01f67f583ffca518093d7a926d562f8ea7"
+    }
+  },
+  "checks": {
+    "motion_canvas": "Vite production build passed:1087 modules,5.29sec; no full MotionCanvas export tested",
+    "motion_canvas_ffmpeg": "Plugin factory loaded; bundled FFmpeg and ffprobe version commands ran; no MC finalvideo export claimed",
+    "matter": "0.20.0 used to bake action cone trajectory,60Hz fixedsubsteps",
+    "fullik": "2D two80unit bones target60,100 fixedbase solveerror0.000005140233698567497; package1.3.3 internalREVISION1.4.0",
+    "stick_motion": "Original npm run verify passed:8screenshots,257stance-phase y640 samples; this assertion is not a full choreography quality test",
+    "opentoonz": "Official v1.8.0 user-local installer succeeded, no reboot; tcomposer -version emitted OpenToonz v1.8.0 (CLI returns1 for info). GUI editing workflow untested"
+  },
+  "opentoonz": {
+    "version": "1.8.0",
+    "source": "https://github.com/opentoonz/opentoonz/releases/download/v1.8.0/OpenToonzSetup.exe",
+    "installer_sha256": "bd678a03d2725522346bf5a055a7bc44ded6537957efb0026bfd875d3ac061d0",
+    "authenticode_status": "NotSigned",
+    "install_directory": "C:\\Users\\vanth\\.codex\\tools\\p2-action\\OpenToonz",
+    "used_in_video": false
+  },
+  "actual_film_stack": [
+    "Remotion4.0.536 reused fromP1 dependency runtime only",
+    "Original fixedlength analytic2boneIK, not copied stick-motion or Fullik code",
+    "Matter0.20.0 cone physics",
+    "Original duo-v3 SVG assets",
+    "Original proceduralSFX and local FFmpeg7.1 mux"
+  ],
+  "available_not_film_engine": [
+    "Motion Canvas3.17.2+exporter",
+    "Fullik",
+    "stick-motion starter+GSAP",
+    "OpenToonz1.8.0"
+  ],
+  "excluded_from_integration": {
+    "hmelberg/stick": "Research had deferred code integration pending verified license grant",
+    "meghamsh738/Stickman-animation-app": "Research had deferred code integration pending verified license grant"
+  },
+  "limitations": [
+    "No full dependency security/license audit claimed",
+    "MC fullvideo export and OpenToonz GUI workflow unverified",
+    "Tools do not supply choreography or guarantee creative quality"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-029", "owner_role": "pm", "execution": "complete"},
+  "next_action": "Giao bảnthử Giành cục sạc A-116 artifacts/render/charger-v1/draft.mp4:19s1080x192030fps,duo-v3,SFXtựtạo khôngthoại. Review độc lập27khunghình xác nhận contest/insert/reveal rõ, full decode0. Gag chưa có phản hồiuser; không tự gọi đã hài hoặc đăng/push.",
+  "unresolved": ["Chờ phản hồiuser về nhịp diễn và độ hài bảnGiành cục sạc", "Chưa kiểm nghe liên tục; audio kỹ thuật đã kiểm hữu hạn/khôngclip", "Chưa gán cast cho channel ID cụ thể", "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối"]
+}

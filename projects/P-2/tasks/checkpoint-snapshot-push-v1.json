@@ -1,0 +1,6 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-033", "owner_role": "pm", "execution": "complete"},
+  "next_action": "User yêu cầu commit tạm và push P-2. Snapshot source/research/toolkitlock/manifest/review cùng phản hồi user ở tasks/snapshot-feedback-v1.md. Bản hành động A-124 chưa đạt sáng tạo theo user; bản hài A-116 tạm gác. Không tự render/cài thêm. Đề xuất sửa đoạn3–5s chưa được user chọn triển khai.",
+  "unresolved": ["Chất lượng sáng tạo/chuyển động action chưa đạt theo phản hồi user", "Bản hài tạm gác, chưa có chốt chất lượng", "Chưa kiểm nghe liên tục/continuousplayback và chưa fullMotionCanvasexport/OpenToonzGUItest", "Chưa gán cast cho channel ID cụ thể", "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối; không đưa Git"]
+}

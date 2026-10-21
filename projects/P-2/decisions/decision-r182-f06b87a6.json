@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Current user feedback rejects creative quality and redirects to YouTube comedy Shorts research",
+  "excerpt": "Nhìn ko hay nhỉ :))) Thôi research mấy video short hài hài trên youtube rồi nghiên cứu nội dung nào",
+  "plan": {
+    "path": "plans/plan-v12-r181-ad185bcf.md",
+    "sha256": "e18e047966e075397f5dfeda2e1d05d8ca3ec6a06f4aa3e61f1cabbe4692683d",
+    "revision": 12
+  },
+  "allowed_actions": [
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T19:50:04.012053+00:00"
+}

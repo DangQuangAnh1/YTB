@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Current user message explicitly delegates PM continuation, review assignment, and final result for original TikTok stick conversion",
+  "excerpt": "Tự tiếp tục đi, bạn là pm mà, ra việc review rồi gửi tôi kq cuối",
+  "plan": {
+    "path": "plans/plan-v11-r171-0094d3b8.md",
+    "sha256": "03009a48e085f2aae760601d7bd91198fe8abdc910cd6e9182a4af4cd2a3882a",
+    "revision": 11
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T19:39:37.587927+00:00"
+}

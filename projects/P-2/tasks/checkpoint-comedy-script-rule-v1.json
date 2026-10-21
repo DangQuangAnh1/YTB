@@ -1,0 +1,6 @@
+{
+  "stage": "content",
+  "current_task": {"id": "T-024", "owner_role": "content", "execution": "complete"},
+  "next_action": "Dùng tasks/comedy-script-rules-v1.md làm bản quy tắc biên tập đề xuất cho kịch bản người que hài tiếp theo; trình user các nguyên tắc chính. Giữ cast cố định theo kênh (A-098). Chưa tạo kịch bản/video mới.",
+  "unresolved": ["User chưa phản hồi chi tiết bộ rule kịch bản v1", "Chưa gán cast cho channel ID cụ thể", "Chưa walk-cycle/turnaround test", "Ảnh đính kèm gốc chưa xoá được vì công cụ từ chối; không xác nhận xoá khỏi hội thoại"]
+}

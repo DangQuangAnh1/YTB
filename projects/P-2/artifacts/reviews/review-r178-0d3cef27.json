@@ -1,0 +1,42 @@
+{
+  "artifact_ids": [
+    "A-106",
+    "A-107",
+    "A-108"
+  ],
+  "reviewer": "independent agent review_tiktok",
+  "mode": "independent_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Final v2 uses approved duo, source major beats, exact original audio; adaptation draft, not exact syllable clone.",
+      "evidence_path": "tasks/review-tiktok-stick-v1-evidence.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "26 actual encoded frames checked incl densely sampled fall. v1 final shoe-over-leg finding corrected in v2; title/cast/ending clear and in bounds.",
+      "evidence_path": "tasks/review-tiktok-stick-v1-evidence.md"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "PCM is independently identical to original, but no continuous listening or word-level sync verification performed."
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "Independent full FFmpeg decode exit0 empty stderr;454frames30fps1080x1920;PCM equal.",
+      "evidence_path": "tasks/review-tiktok-stick-v1-evidence.md"
+    }
+  ],
+  "note": "Deliverable visual draft with preserved audio. Audio preservation checked; listening/semantic timing/lip sync unverified. Final video hash a9bc57934e112fb0a240c8930ce916bebd1c226ce933a51f5ace0560db703318. No publishing permission.",
+  "artifact_hashes": {
+    "A-106": "a9bc57934e112fb0a240c8930ce916bebd1c226ce933a51f5ace0560db703318",
+    "A-107": "d849613a79314d90dadf8fab551192af8320309e3e93042667f7e6c80ab87915",
+    "A-108": "77a86988e17de902fdcb00b00586e4ef799190c9d37ce6397734aff485cd46f6"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-21T19:44:04.553973+00:00"
+}

@@ -1,0 +1,6 @@
+{
+  "stage": "scouting",
+  "current_task": {"id": "T-028", "owner_role": "ba", "execution": "complete"},
+  "next_action": "Giao research/youtube-comedy-content-v1.md: sàng10Shorts, kiểm hình sâu4clip, đề xuất3hướng và9premise; BA ưu tiên Giành cục sạc để Content phát triển khi tiếp tục. User thấy bảncloneA-106 chưa hay nên dừng hướngclone, không tự render mới. Rule kịch bản vẫn tạm gác.",
+  "unresolved": ["User chưa chọn premise mới", "Chưa test animatic hoặc phản ứng khán giả", "Nguồn Shorts kiểm hình mẫu/caption, chưa nghe liên tục; không suy retention/viral", "Chưa xác nhận quyền footage/nhạc nguồn; research không cho phép reuse", "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối"]
+}

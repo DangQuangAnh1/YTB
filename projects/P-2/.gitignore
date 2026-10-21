@@ -1,2 +1,4 @@
 # Transient renderer console output; manifests and QA reports are versioned.
 artifacts/render/**/*.log
+artifacts/audio/reference-*.m4a
+production/action-toolkit/dist/

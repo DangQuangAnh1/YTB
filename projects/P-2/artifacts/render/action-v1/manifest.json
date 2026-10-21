@@ -1,0 +1,105 @@
+{
+  "adapter": "p2-action-two-bone-ik-remotion-v1",
+  "video": "artifacts/render/action-v1/draft.mp4",
+  "video_sha256": "9ccc83eb086f231e4d3edeb726dc371ff1c8666859c260460e10632b73cb9be6",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 720,
+  "durationSeconds": 24,
+  "uniqueDecodedFrames": 711,
+  "fullDecodeExit": 0,
+  "renderTiming": {
+    "seconds": 67.25,
+    "frames": 720,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "sourceHashes": {
+    "production/action-v1/audio.py": "01f0ecccda03b9ce74044e9d2b0b2c30a004be8d4c26da5c63f6d6bc83c04b44",
+    "production/action-v1/bake-physics.cjs": "36b28bf3e6cf6bdf953626713fc839628dd874122ff9c8156bca132d272c5494",
+    "production/action-v1/cone-track.json": "b351b3df46c5e8c4c4fa639b827b53d89069a4671e969981d9367411a4697aac",
+    "production/action-v1/finalize.py": "ad5ef25c13446475ff7601ae1c6454e0d9552eb85480b1098c319662fc8beba9",
+    "production/action-v1/README.md": "fa98be76fc67e2016052d3cd369441901053030474d66ca117ec2a048ed32df6",
+    "production/action-v1/render.cjs": "fecf08b32667ba4b7bfb46c91c39efd2b46aec0b979c5e5591f1b858097bd178",
+    "production/action-v1/rig.cjs": "684e86fe9b8dd6cdfe75ee45c992503a31fade196f527d2dcfe8a7b0498886f3",
+    "production/action-v1/STORYBOARD.md": "ff40f601cfdd2fdbfddc0fb97cc880e775a5d6686a2be77a4a6801733fdbd546",
+    "production/action-v1/validate.cjs": "1dd8d67f9284ce50874422dbf1df13a19f7f29204b57c37c80f01f54f6c727fd",
+    "production/action-v1/Video.tsx": "08a0c21caee39b38addcfcf75f9e0dfa90bdc53d24c6baa896714920cdb322d4",
+    "production/characters-v3/cast.cjs": "833c1159b8747bbc3f996e7fa9dafed004238d74df17139271032a2360086104"
+  },
+  "audio": {
+    "provenance": "original procedural sound effects; no external samples or dialogue",
+    "sourceSha256": "64b6b35f4b83b3faffc662de3827cfe5dac245b20759cb94a3dced1c110b5626",
+    "mux": "video stream copy; originalWAV encoded AAC160kbps",
+    "externalVoiceMusic": false
+  },
+  "rigValidation": {
+    "frames": 720,
+    "characters": 2,
+    "limbSamples": 5760,
+    "lengths": {
+      "thigh": 80,
+      "shin": 80,
+      "upperArm": 61,
+      "forearm": 61,
+      "torso": 100
+    },
+    "maxSegmentError": 1.2789769243681803e-13,
+    "maxTargetError": 2.842170943040401e-14,
+    "maxPlantedDrift": 0,
+    "plantedChecks": [
+      {
+        "id": "A",
+        "from": 15,
+        "to": 17,
+        "maxFootDrift": 0
+      },
+      {
+        "id": "A",
+        "from": 19.5,
+        "to": 20.2,
+        "maxFootDrift": 0
+      },
+      {
+        "id": "B",
+        "from": 22.5,
+        "to": 23.966667,
+        "maxFootDrift": 0
+      }
+    ],
+    "jointBounds": {
+      "minX": 69.30546416893807,
+      "maxX": 532.8305861501685,
+      "minY": 321.76050030534844,
+      "maxY": 740
+    },
+    "matter": {
+      "version": "0.20.0",
+      "frames": 720,
+      "stepMs": 16.666666666666668,
+      "impulseFrame": 209,
+      "finite": true
+    },
+    "passed": true
+  },
+  "actuallyUsed": [
+    "Remotion4.0.536 export",
+    "Original analytic2boneIK",
+    "Matter.js0.20 deterministic loosecone simulation",
+    "Approved duo-v3 vector geometry"
+  ],
+  "notUsedForVideo": [
+    "Motion Canvas",
+    "Fullik",
+    "OpenToonz",
+    "stick-motion code"
+  ],
+  "limitations": [
+    "Stylized keyed character dynamics; Matter only loosecone, not physics-solved combat",
+    "No expert martial-arts validation",
+    "Audio continuous human listening must be checked separately",
+    "Review frames are selected samples; full decode is technical integrity, not proof of choreography quality"
+  ]
+}

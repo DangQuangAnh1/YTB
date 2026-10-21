@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Current user message authorizes trying the proposed Giành cục sạc video after clarifying no render yet",
+  "excerpt": "Dựng thử xem",
+  "plan": {
+    "path": "plans/plan-v13-r187-97ba6d35.md",
+    "sha256": "2b408aa821e58011baed6d8ba1ad4900abbf62d7ae6e12821b751c14964bca9d",
+    "revision": 13
+  },
+  "allowed_actions": [
+    "render_draft",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T19:58:48.840721+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "adapter": "p2-charger-svg-v1",
+  "video": "artifacts/render/charger-v1/draft.mp4",
+  "sha256": "0c8fa1b1e1d8016f468cb8d5c8a6ccd90e282bf12ad996504d9b03adefed5e9e",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 570,
+  "duration_seconds": 19.0,
+  "full_decode_exit": 0,
+  "audio": {
+    "original_procedural_sfx": true,
+    "source_sha256": "ba388f14bafefcdbfa1488c7095850077f6fe3118d099b04c418ba6c1de28191",
+    "decoded_peak": 0.09969538450241089,
+    "decoded_rms": 0.007703838404268026
+  },
+  "render": {
+    "seconds": 56.566,
+    "frames": 570,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "source_sha256": "c8369809298c7e72ffcc570448b929594f2f092eecda4edeccc34f3685e851ca",
+  "cast_sha256": "833c1159b8747bbc3f996e7fa9dafed004238d74df17139271032a2360086104",
+  "limitations": [
+    "No speech or word-level lip sync",
+    "Creative appeal awaits user reaction",
+    "Audio decode checked; no continuous listening claimed"
+  ]
+}

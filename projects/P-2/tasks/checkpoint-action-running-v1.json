@@ -1,0 +1,6 @@
+{
+  "stage": "production",
+  "current_task": {"id": "T-031", "owner_role": "production", "execution": "running"},
+  "next_action": "Action Sàn mới lau24s đang render/sửa theo review độc lập. Toolkit MotionCanvas/exporter/Matter/GSAP/Fullik đã cài; MCbuildpass; stick-motion clone/test257stancepass; OpenToonz1.8installedCLIversionloads. Hoàn tất kiểm plugin/manifestcài đặt rồi giao video và phân biệt công cụ dùng thật/dự phòng. Root là writer agency duy nhất.",
+  "unresolved": ["Chờ bản sửa sau review knee crop/fist occlusion và finalrender", "Chưa nghe kiểm liên tục", "MotionCanvas đã build nhưng chưa fullvideoexport; Remotion là renderer thực tế", "Chưa có userfeedback về pilot hành động", "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối"]
+}

@@ -1,0 +1,6 @@
+{
+  "stage": "production",
+  "current_task": {"id": "T-029", "owner_role": "production", "execution": "running"},
+  "next_action": "Đang render Giành cục sạc19s sau khi xem9stills. Reviewer độc lập kiểm setup/contest/insert/reveal, PM hoàn tất muxSFXtự tạo, đăng ký artifact và giao bảnthử. Audio/footage nguồnYouTube/TikTokkhông dùng.",
+  "unresolved": ["Chờ finalrender và review actual encodedfile", "Chưa có phản hồiuser về gag Giành cục sạc", "Chưa kiểm nghe liên tục", "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối"]
+}

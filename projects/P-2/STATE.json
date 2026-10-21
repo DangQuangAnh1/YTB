@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-2",
-  "revision": 156,
+  "revision": 213,
   "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
   "stage": "review",
   "constraints": [
@@ -9,20 +9,20 @@
     "No channel creation or publishing in v0"
   ],
   "current_task": {
-    "id": "T-023",
+    "id": "T-033",
     "owner_role": "pm",
     "execution": "complete"
   },
   "plan": {
-    "path": "plans/plan-v9-r144-a3d8f221.md",
-    "sha256": "387857297a0d26b6e2a2009c5226b618339253974e7d5276e83612f950f344dd",
-    "revision": 9
+    "path": "plans/plan-v14-r198-0d1be1f7.md",
+    "sha256": "5b9c908e2320fe952dab158439c419d60943b7dc1c02c7068a553b574f93ece0",
+    "revision": 14
   },
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r155-9cffd5ae.json",
-      "sha256": "d9e921c11122a70e92601f11625c6260b7d1faaa213f78fe5f5587a18a61a568"
+      "path": "decisions/decision-r199-c6c25002.json",
+      "sha256": "819ea88b7e9d31bfe168e22df471f20f1fc1fd7d29b125e4f3aa3ad9949b1954"
     }
   },
   "decision_records": [
@@ -73,6 +73,30 @@
     {
       "path": "decisions/decision-r155-9cffd5ae.json",
       "sha256": "d9e921c11122a70e92601f11625c6260b7d1faaa213f78fe5f5587a18a61a568"
+    },
+    {
+      "path": "decisions/decision-r164-c46af404.json",
+      "sha256": "aa1c3978599de5e3988e638d97f3e881822ebec1130f1d68eee31e50e6d1f4f8"
+    },
+    {
+      "path": "decisions/decision-r165-50690d4a.json",
+      "sha256": "d2ec2745755b71eb9200bdb59c779f5fb83799184762bdb8b5e7379e25868408"
+    },
+    {
+      "path": "decisions/decision-r172-3dbfa1f4.json",
+      "sha256": "95cfa423082318ca44df9b160d0b9b112812f2cfdce13877e313b88393faff00"
+    },
+    {
+      "path": "decisions/decision-r182-f06b87a6.json",
+      "sha256": "368074c3d929bc75b2d565a16a4288698b39d2b128a7ab35d94816539f6b0bb6"
+    },
+    {
+      "path": "decisions/decision-r188-d25cbaa4.json",
+      "sha256": "8c5ba48b98e6d5e3a0b8fd17ecbaf9510a4ab66b86565b3c4d4fb2160a70c034"
+    },
+    {
+      "path": "decisions/decision-r199-c6c25002.json",
+      "sha256": "819ea88b7e9d31bfe168e22df471f20f1fc1fd7d29b125e4f3aa3ad9949b1954"
     }
   ],
   "artifacts": [
@@ -1078,6 +1102,362 @@
       ],
       "plan_revision": 9,
       "created_at": "2026-10-21T19:19:24.696084+00:00"
+    },
+    {
+      "path": "tasks/comedy-script-rules-v1.md",
+      "sha256": "673e42ca9e4cf7c6921f8cbe6f1c36ac5fe4b52d84a68da4ac9d47c471598dcf",
+      "id": "A-099",
+      "kind": "other",
+      "inputs": [
+        "A-098",
+        "A-066",
+        "A-061"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T19:21:19.566494+00:00"
+    },
+    {
+      "path": "tasks/tiktok-stick-adaptation-brief-v1.md",
+      "sha256": "cfd8d97ab79f6cccff12b7aafaf358b3bb4e1519ef20221c2435bccca87914a3",
+      "id": "A-100",
+      "kind": "other",
+      "inputs": [
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T19:24:18.982221+00:00"
+    },
+    {
+      "path": "artifacts/content/tiktok-7665223745438485768-storyboard-draft-v1.md",
+      "sha256": "6257cea13d18cd075be46f1e7bcc3870cf915908ddbf784808d94b1b6a748723",
+      "id": "A-101",
+      "kind": "storyboard",
+      "inputs": [
+        "A-100",
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T19:26:51.079182+00:00"
+    },
+    {
+      "path": "artifacts/audio/reference-tiktok-7665223745438485768-original-v1.m4a",
+      "sha256": "55b5ea3aedd6bad04f48dc17040cd9a360cce48d93ae2efed32703c8a82918cf",
+      "id": "A-102",
+      "kind": "audio",
+      "inputs": [
+        "A-100"
+      ],
+      "plan_revision": 10,
+      "created_at": "2026-10-21T19:34:08.161326+00:00"
+    },
+    {
+      "path": "artifacts/audio/reference-tiktok-7665223745438485768-integrity-v1.json",
+      "sha256": "c3bc137f10d8c01bf4d7ae35435fe32cf1ce32a435b5d4bb12fd898f13082f61",
+      "id": "A-103",
+      "kind": "metadata",
+      "inputs": [
+        "A-102"
+      ],
+      "plan_revision": 10,
+      "created_at": "2026-10-21T19:34:08.737057+00:00"
+    },
+    {
+      "path": "artifacts/content/tiktok-7665223745438485768-storyboard-v2.md",
+      "sha256": "e463c9791ea78d16511c8dcf314ae0575f825805eeebb0da23eace64d219bd6e",
+      "id": "A-104",
+      "kind": "storyboard",
+      "inputs": [
+        "A-101",
+        "A-102",
+        "A-092"
+      ],
+      "plan_revision": 10,
+      "created_at": "2026-10-21T19:34:09.310559+00:00"
+    },
+    {
+      "path": "tasks/lesson-reference-audio-import-v1.md",
+      "sha256": "85c5e377ceb76c4878960ff3038085463148441afecfd022fe58a25acb2d68d2",
+      "id": "A-105",
+      "kind": "other",
+      "inputs": [
+        "A-103"
+      ],
+      "plan_revision": 10,
+      "created_at": "2026-10-21T19:34:09.893665+00:00"
+    },
+    {
+      "path": "artifacts/render/tiktok-stick-v2/draft.mp4",
+      "sha256": "a9bc57934e112fb0a240c8930ce916bebd1c226ce933a51f5ace0560db703318",
+      "id": "A-106",
+      "kind": "video",
+      "inputs": [
+        "A-104",
+        "A-102",
+        "A-092"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:43:05.794686+00:00"
+    },
+    {
+      "path": "artifacts/render/tiktok-stick-v2/manifest.json",
+      "sha256": "d849613a79314d90dadf8fab551192af8320309e3e93042667f7e6c80ab87915",
+      "id": "A-107",
+      "kind": "metadata",
+      "inputs": [
+        "A-106"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:43:06.968751+00:00"
+    },
+    {
+      "path": "artifacts/render/tiktok-stick-v2/contact-sheet.jpg",
+      "sha256": "77a86988e17de902fdcb00b00586e4ef799190c9d37ce6397734aff485cd46f6",
+      "id": "A-108",
+      "kind": "image",
+      "inputs": [
+        "A-106"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:43:08.054958+00:00"
+    },
+    {
+      "path": "tasks/review-tiktok-stick-v1-evidence.md",
+      "sha256": "13b2e6172a4e83217c4b396a2650f39d1d7f61b77e3e1cd2d01e2932399bacb8",
+      "id": "A-109",
+      "kind": "other",
+      "inputs": [
+        "A-106",
+        "A-107"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:44:03.938731+00:00"
+    },
+    {
+      "path": "tasks/lesson-tiktok-depth-review-v1.md",
+      "sha256": "24a5a43f5dd4411fb7ed5c0bb6c3e42f79cf379fd3c064afddb8f2723bf532b8",
+      "id": "A-110",
+      "kind": "other",
+      "inputs": [
+        "A-106",
+        "A-109"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:44:05.166710+00:00"
+    },
+    {
+      "path": "research/youtube-comedy-sources-v1.json",
+      "sha256": "8f8f2274ce56eaaad9eae662b3d378896e193defda2fc2abd8e6656f562fbabe",
+      "id": "A-111",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 12,
+      "created_at": "2026-10-21T19:53:04.533012+00:00"
+    },
+    {
+      "path": "research/youtube-comedy-content-v1.md",
+      "sha256": "1f79b6cca73c6732de41ad526513a63395d9bb74ad07293fb3fbf470c9b2fd94",
+      "id": "A-112",
+      "kind": "research",
+      "inputs": [
+        "A-111"
+      ],
+      "plan_revision": 12,
+      "created_at": "2026-10-21T19:53:05.165262+00:00"
+    },
+    {
+      "path": "tasks/lesson-creative-feedback-v1.md",
+      "sha256": "f91439829c658ec53e20398e709daafb60f8296793fb1da2516f98d82de36254",
+      "id": "A-113",
+      "kind": "other",
+      "inputs": [
+        "A-106",
+        "A-112"
+      ],
+      "plan_revision": 12,
+      "created_at": "2026-10-21T19:53:05.762677+00:00"
+    },
+    {
+      "path": "artifacts/content/charger-storyboard-v1.md",
+      "sha256": "531ded8bd8022458a259a0f2a36aadb1240e99b0b29c274afbdf1a9c5038769e",
+      "id": "A-114",
+      "kind": "storyboard",
+      "inputs": [
+        "A-112",
+        "A-092"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T19:58:49.420565+00:00"
+    },
+    {
+      "path": "artifacts/audio/charger-sfx-v1.wav",
+      "sha256": "ba388f14bafefcdbfa1488c7095850077f6fe3118d099b04c418ba6c1de28191",
+      "id": "A-115",
+      "kind": "audio",
+      "inputs": [
+        "A-114"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:02:18.809987+00:00"
+    },
+    {
+      "path": "artifacts/render/charger-v1/draft.mp4",
+      "sha256": "0c8fa1b1e1d8016f468cb8d5c8a6ccd90e282bf12ad996504d9b03adefed5e9e",
+      "id": "A-116",
+      "kind": "video",
+      "inputs": [
+        "A-114",
+        "A-115",
+        "A-092"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:02:19.416485+00:00"
+    },
+    {
+      "path": "artifacts/render/charger-v1/manifest.json",
+      "sha256": "44661fb0c86a04f63bcd51ecba750257f0ecc0130e7b49f27f5f7a34af3eba82",
+      "id": "A-117",
+      "kind": "metadata",
+      "inputs": [
+        "A-116"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:02:20.030652+00:00"
+    },
+    {
+      "path": "artifacts/render/charger-v1/contact-sheet.jpg",
+      "sha256": "b1c6d6b32d92f7a708870f3e07626dc68eb01d0048532ce46c617663590db3e4",
+      "id": "A-118",
+      "kind": "image",
+      "inputs": [
+        "A-116"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:02:20.670890+00:00"
+    },
+    {
+      "path": "tasks/review-charger-v1-evidence.md",
+      "sha256": "4a8beaa6db3ba5ab894f5ad194a1d553a64a4201293951c58ab48687a377988e",
+      "id": "A-119",
+      "kind": "other",
+      "inputs": [
+        "A-116"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:03:29.460270+00:00"
+    },
+    {
+      "path": "tasks/action-toolkit-installed-v1.json",
+      "sha256": "82f6dc81dc4bf79433bfa94f34f7c37ad99f9c4f279b1ce227cf3fce77c5f3c5",
+      "id": "A-120",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:12:37.910160+00:00"
+    },
+    {
+      "path": "tasks/lesson-action-toolkit-v1.md",
+      "sha256": "a5a408871aae8e5a172422c258171c472a84cb1dafb8af1b7d4d8edf75eac72e",
+      "id": "A-121",
+      "kind": "other",
+      "inputs": [
+        "A-120"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:12:38.590916+00:00"
+    },
+    {
+      "path": "artifacts/content/action-slippery-floor-storyboard-v1.md",
+      "sha256": "ff40f601cfdd2fdbfddc0fb97cc880e775a5d6686a2be77a4a6801733fdbd546",
+      "id": "A-122",
+      "kind": "storyboard",
+      "inputs": [
+        "A-054",
+        "A-092"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:13:11.630432+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/original-sfx.wav",
+      "sha256": "64b6b35f4b83b3faffc662de3827cfe5dac245b20759cb94a3dced1c110b5626",
+      "id": "A-123",
+      "kind": "audio",
+      "inputs": [
+        "A-122"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:35.936183+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/draft.mp4",
+      "sha256": "9ccc83eb086f231e4d3edeb726dc371ff1c8666859c260460e10632b73cb9be6",
+      "id": "A-124",
+      "kind": "video",
+      "inputs": [
+        "A-122",
+        "A-123",
+        "A-092"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:36.563243+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/manifest.json",
+      "sha256": "df833c5e8c6706ad7a9a7cc3efdad33853e6819b0bea2a0224a40f1379c38862",
+      "id": "A-125",
+      "kind": "metadata",
+      "inputs": [
+        "A-124",
+        "A-120"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:37.222486+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/rig-physics-validation.json",
+      "sha256": "10f74d862edf9efd5aa463fce4d88a3e3d61165b117f7bbded414691479843eb",
+      "id": "A-126",
+      "kind": "other",
+      "inputs": [
+        "A-124"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:37.858408+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/contact-sheet.jpg",
+      "sha256": "09ce112ffd40f13a0d6d4a11c2b1e98829c7071f0ca509563c3c87d0ad900b04",
+      "id": "A-127",
+      "kind": "image",
+      "inputs": [
+        "A-124"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:38.538292+00:00"
+    },
+    {
+      "path": "tasks/review-action-v1-evidence.md",
+      "sha256": "dc03c7f160845e31fcf4e712ae65761c210840ff1cf83ab2e73085001279272c",
+      "id": "A-128",
+      "kind": "other",
+      "inputs": [
+        "A-124",
+        "A-126"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:15:21.532831+00:00"
+    },
+    {
+      "path": "tasks/snapshot-feedback-v1.md",
+      "sha256": "7b2aaf6adf486382f6a3d9286a8fca400a912e3be8558aa24d97f2d7f07dc7c4",
+      "id": "A-129",
+      "kind": "other",
+      "inputs": [
+        "A-124",
+        "A-116"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:18:06.546084+00:00"
     }
   ],
   "reviews": [
@@ -1373,15 +1753,85 @@
         }
       ],
       "verdict": "passed"
+    },
+    {
+      "path": "artifacts/reviews/review-r178-0d3cef27.json",
+      "sha256": "767280b2d1d3efe5dc5e38c288deb45e74540a8196d8878bd82efad4610d8ed0",
+      "artifact_ids": [
+        "A-106",
+        "A-107",
+        "A-108"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-tiktok-stick-v1-evidence.md",
+          "sha256": "13b2e6172a4e83217c4b396a2650f39d1d7f61b77e3e1cd2d01e2932399bacb8"
+        },
+        {
+          "path": "tasks/review-tiktok-stick-v1-evidence.md",
+          "sha256": "13b2e6172a4e83217c4b396a2650f39d1d7f61b77e3e1cd2d01e2932399bacb8"
+        },
+        {
+          "path": "tasks/review-tiktok-stick-v1-evidence.md",
+          "sha256": "13b2e6172a4e83217c4b396a2650f39d1d7f61b77e3e1cd2d01e2932399bacb8"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r196-04a4a3d5.json",
+      "sha256": "8037bff3932a7b39787f0480a6fec196c66c968954fabb55e2fee91df687252a",
+      "artifact_ids": [
+        "A-116"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-charger-v1-evidence.md",
+          "sha256": "4a8beaa6db3ba5ab894f5ad194a1d553a64a4201293951c58ab48687a377988e"
+        },
+        {
+          "path": "tasks/review-charger-v1-evidence.md",
+          "sha256": "4a8beaa6db3ba5ab894f5ad194a1d553a64a4201293951c58ab48687a377988e"
+        },
+        {
+          "path": "tasks/review-charger-v1-evidence.md",
+          "sha256": "4a8beaa6db3ba5ab894f5ad194a1d553a64a4201293951c58ab48687a377988e"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r210-0dd9164e.json",
+      "sha256": "b0ad1238e35b224e86389a5aa535fcde4f3f5d9d1918d227d562984a9e1bfa39",
+      "artifact_ids": [
+        "A-124"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-action-v1-evidence.md",
+          "sha256": "dc03c7f160845e31fcf4e712ae65761c210840ff1cf83ab2e73085001279272c"
+        },
+        {
+          "path": "tasks/review-action-v1-evidence.md",
+          "sha256": "dc03c7f160845e31fcf4e712ae65761c210840ff1cf83ab2e73085001279272c"
+        },
+        {
+          "path": "tasks/review-action-v1-evidence.md",
+          "sha256": "dc03c7f160845e31fcf4e712ae65761c210840ff1cf83ab2e73085001279272c"
+        }
+      ],
+      "verdict": "unverified"
     }
   ],
   "acceptance": "not_reviewed",
   "release": "not_requested",
-  "next_action": "User chốt duo-v3; tuân thủ tasks/channel-character-rules-v1.md: mỗi kênh có cast cố định. User yêu cầu commit/push P-2. Xoá ảnh gốc bị chính sách công cụ chặn, không được tuyên bố đã xoá; ảnh gốc không đưa vào Git.",
+  "next_action": "User yêu cầu commit tạm và push P-2. Snapshot source/research/toolkitlock/manifest/review cùng phản hồi user ở tasks/snapshot-feedback-v1.md. Bản hành động A-124 chưa đạt sáng tạo theo user; bản hài A-116 tạm gác. Không tự render/cài thêm. Đề xuất sửa đoạn3–5s chưa được user chọn triển khai.",
   "unresolved": [
+    "Chất lượng sáng tạo/chuyển động action chưa đạt theo phản hồi user",
+    "Bản hài tạm gác, chưa có chốt chất lượng",
+    "Chưa kiểm nghe liên tục/continuousplayback và chưa fullMotionCanvasexport/OpenToonzGUItest",
     "Chưa gán cast cho channel ID cụ thể",
-    "Chưa walk-cycle/turnaround test",
-    "Ảnh đính kèm gốc chưa xoá được vì công cụ từ chối; không xác nhận xoá khỏi hội thoại"
+    "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối; không đưa Git"
   ],
   "usage": {
     "input_tokens": 0,
@@ -1392,5 +1842,5 @@
     "available": false
   },
   "created_at": "2026-10-20T13:51:37.871764+00:00",
-  "updated_at": "2026-10-21T19:19:34.270761+00:00"
+  "updated_at": "2026-10-21T20:18:07.229305+00:00"
 }

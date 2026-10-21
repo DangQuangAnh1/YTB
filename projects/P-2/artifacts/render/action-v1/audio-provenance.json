@@ -1,0 +1,9 @@
+{
+  "type": "original procedural Foley",
+  "sampleRate": 48000,
+  "durationSeconds": 24,
+  "seed": 20261023,
+  "externalSamples": false,
+  "peak": 0.39971318924861565,
+  "script": "production/action-v1/audio.py"
+}

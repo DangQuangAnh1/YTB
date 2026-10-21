@@ -1,0 +1,6 @@
+{
+  "stage": "content",
+  "current_task": {"id": "T-025", "owner_role": "content", "execution": "waiting_user"},
+  "next_action": "Clip đã phát trong trình duyệt tích hợp; có storyboard hình sơ bộ artifacts/content/tiktok-7665223745438485768-storyboard-draft-v1.md. Không còn chặn CAPTCHA lượt này. Nguồn blob không tải được, không có phụ đề và model chưa nghe audio: cần source media/audio truy cập được để hoàn thiện thoại và timing. Không tuyên bố đã nghe hay clone hoàn chỉnh.",
+  "unresolved": ["Chưa lấy được audio gốc, chưa xác minh thoại và timing", "Chuyển động mới kiểm các khung mẫu, chưa kiểm liên tục", "Chưa gán cast cho channel ID cụ thể", "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối"]
+}

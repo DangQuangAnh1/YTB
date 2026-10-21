@@ -1,0 +1,38 @@
+{
+  "artifact_ids": [
+    "A-116"
+  ],
+  "reviewer": "independent agent review_tiktok",
+  "mode": "independent_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Original19s connector contest and unplugged-adapter reveal; approved duo retained.",
+      "evidence_path": "tasks/review-charger-v1-evidence.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "27frames independently extracted from final muxed video plus9stills. Prop contest/win/insert/unchanged1%/camera reveal/clear prong-gap/ending readable.",
+      "evidence_path": "tasks/review-charger-v1-evidence.md"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "Independent full decode exit0;570frames1080x192030fps;finite nonzero SFX without clipping.",
+      "evidence_path": "tasks/review-charger-v1-evidence.md"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "Technical decoding/peak checked; no continuous listening or perceptual cue timing verification."
+    }
+  ],
+  "note": "Ready for draft delivery on observed visual/technical checks. Audio listening and continuous playback unverified; no claim audience validation/publication permission.",
+  "artifact_hashes": {
+    "A-116": "0c8fa1b1e1d8016f468cb8d5c8a6ccd90e282bf12ad996504d9b03adefed5e9e"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-21T20:03:30.084209+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Current user request explicitly authorizes doing audio extraction; render_draft action required by agency for registering the resulting audio, limited here to audio import and no new video render",
+  "excerpt": "Tìm thử repo cắt âm thanh từ link video đi, tiktok cũng vậy rồi làm",
+  "plan": {
+    "path": "plans/plan-v10-r163-48e65ce3.md",
+    "sha256": "c862600dfc85e1c8e86a570b9bf79882c0343ed99bb011ce771087b10fb1da19",
+    "revision": 10
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T19:34:07.581799+00:00"
+}

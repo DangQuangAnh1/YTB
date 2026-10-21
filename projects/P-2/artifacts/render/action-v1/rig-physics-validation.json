@@ -1,0 +1,49 @@
+{
+  "frames": 720,
+  "characters": 2,
+  "limbSamples": 5760,
+  "lengths": {
+    "thigh": 80,
+    "shin": 80,
+    "upperArm": 61,
+    "forearm": 61,
+    "torso": 100
+  },
+  "maxSegmentError": 1.2789769243681803e-13,
+  "maxTargetError": 2.842170943040401e-14,
+  "maxPlantedDrift": 0,
+  "plantedChecks": [
+    {
+      "id": "A",
+      "from": 15,
+      "to": 17,
+      "maxFootDrift": 0
+    },
+    {
+      "id": "A",
+      "from": 19.5,
+      "to": 20.2,
+      "maxFootDrift": 0
+    },
+    {
+      "id": "B",
+      "from": 22.5,
+      "to": 23.966667,
+      "maxFootDrift": 0
+    }
+  ],
+  "jointBounds": {
+    "minX": 69.30546416893807,
+    "maxX": 532.8305861501685,
+    "minY": 321.76050030534844,
+    "maxY": 740
+  },
+  "matter": {
+    "version": "0.20.0",
+    "frames": 720,
+    "stepMs": 16.666666666666668,
+    "impulseFrame": 209,
+    "finite": true
+  },
+  "passed": true
+}

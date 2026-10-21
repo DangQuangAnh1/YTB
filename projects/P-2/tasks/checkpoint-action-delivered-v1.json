@@ -1,0 +1,6 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-032", "owner_role": "pm", "execution": "complete"},
+  "next_action": "Giao video hành động Sàn mới lau A-124 artifacts/render/action-v1/draft.mp4:24s1080x192030fps720frames,SFXtựtạo,duo-v3. Review độc lập31frames sửa kneecrop/fistocclusion, full decode0; IK cốđịnhsegment và footdrift0 tại3đoạntrụ đã kiểm. Toolkit cài+test theo A-120: MotionCanvas/exporter/GSAP,Matter,Fullik,stick-motion,OpenToonz. Phim thực dùngRemotion+originalIK+Matter, không báo MCexport hoặc OpenToonzGUI đã test. Chờ userfeedback, không tựđăng/push.",
+  "unresolved": ["Chưa kiểm nghe liên tục hoặc continuousplayback chất lượng chuyển động; review chỉ31frame+mã/decode", "Chưa có userfeedback về pilot hành động", "MotionCanvas fullvideoexport và OpenToonzGUIworkflow chưa kiểm", "Chưa gán cast cho channel ID cụ thể", "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối"]
+}

@@ -1,0 +1,33 @@
+{
+  "adapter": "p2-tiktok-stick-svg-v2",
+  "video": "artifacts/render/tiktok-stick-v2/draft.mp4",
+  "video_sha256": "a9bc57934e112fb0a240c8930ce916bebd1c226ce933a51f5ace0560db703318",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 454,
+  "video_seconds": 15.133333333333333,
+  "audio_seconds": 15.116009,
+  "render_timing": {
+    "seconds": 46.045,
+    "frames": 454,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "full_decode_exit": 0,
+  "source_sha256": "ee17ad8ff6f53472dfb30325fc8f94f2e017413214b6b04b8a0ae9a97df9f163",
+  "cast_sha256": "833c1159b8747bbc3f996e7fa9dafed004238d74df17139271032a2360086104",
+  "audio_integrity": {
+    "audio_original_sha256": "55b5ea3aedd6bad04f48dc17040cd9a360cce48d93ae2efed32703c8a82918cf",
+    "original_pcm_sha256": "7d7d5a0ae9af181808970c894480906b8b1751a018612668b3b4f7f39dc19b54",
+    "draft_pcm_sha256": "7d7d5a0ae9af181808970c894480906b8b1751a018612668b3b4f7f39dc19b54",
+    "pcm_equal": true
+  },
+  "review_fix": "A final lying body moved70 output pixels lower with smooth interpolation to separate from B soles.",
+  "limitations": [
+    "No verified word-level transcript or lip synchronization",
+    "Audio human continuous listening not performed by this adapter",
+    "8 still samples inspected; full decode checks stream integrity only"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Current user message explicitly requests action branch video and installation of previously proposed tools, with standing PM review delegation",
+  "excerpt": "Okie tạm lướt qua cái này vậy. Vậy còn cái hành động thứ 2 thì sao, làm thử luôn 1 video nhé. Nhớ cài hết các cái bạn bảo",
+  "plan": {
+    "path": "plans/plan-v14-r198-0d1be1f7.md",
+    "sha256": "5b9c908e2320fe952dab158439c419d60943b7dc1c02c7068a553b574f93ece0",
+    "revision": 14
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T20:07:05.311962+00:00"
+}

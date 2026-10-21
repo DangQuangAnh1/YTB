@@ -1,0 +1,6 @@
+{
+  "stage": "content",
+  "current_task": {"id": "T-025", "owner_role": "content", "execution": "complete"},
+  "next_action": "Giao audio M4A gốc đã tách và storyboard-v2 cho clip TikTok7665223745438485768 với duo-v3. yt-dlp/curl-cffi tải được link; PCM audio giống nguồn. Không cần user tải hộ. Chưa render video; rule kịch bản vẫn tạm gác.",
+  "unresolved": ["ASR không đáng tin; chưa kiểm nghe và lip-sync từng âm tiết", "Chưa kiểm frame tiếp xúc liên tục; ranh giới cảnh v2 là bản dựng đề xuất", "Chưa gán cast cho channel ID cụ thể", "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối"]
+}

@@ -1,0 +1,6 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-027", "owner_role": "pm", "execution": "complete"},
+  "next_action": "Giao user video A-106 artifacts/render/tiktok-stick-v2/draft.mp4 sau review độc lập và sửa lỗi chồng chân.1080x1920,30fps,454frame15.133s; PCM audio giữ nguyên. Báo cáo tasks/review-tiktok-stick-v1-evidence.md. Chưa có phản hồi user về bản video, chưa đăng hoặc push mới.",
+  "unresolved": ["Review audio nghe liên tục và lip-sync từng chữ chưa xác minh; không báo QA toàn bộ đã pass", "User chưa phản hồi bản video v2", "Chưa gán cast cho channel ID cụ thể", "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối"]
+}

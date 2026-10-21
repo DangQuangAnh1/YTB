@@ -1,0 +1,6 @@
+{
+  "stage": "content",
+  "current_task": {"id": "T-025", "owner_role": "content", "execution": "waiting_user"},
+  "next_action": "Ưu tiên chuyển thể TikTok 7665223745438485768 thành duo-v3, giữ giọng/audio gốc. Rule kịch bản tạm gác theo user. TikTok bị CAPTCHA, chưa nghe/xem đầy đủ; chờ user gửi file video để chia cảnh theo audio, không bịa transcript/timecode. Brief: tasks/tiktok-stick-adaptation-brief-v1.md.",
+  "unresolved": ["Cần file video nguồn vì TikTok bị CAPTCHA; chưa biết thoại và timing", "Chưa gán cast cho channel ID cụ thể", "Chưa walk-cycle/turnaround test", "Ảnh đính kèm gốc chưa xoá được vì công cụ từ chối; không xác nhận xoá khỏi hội thoại"]
+}
