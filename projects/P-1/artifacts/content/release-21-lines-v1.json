@@ -1,0 +1,168 @@
+{
+  "format": "v2",
+  "mood": "hai_v2",
+  "hook": null,
+  "cta": null,
+  "verbatim_accepted": "tasks/user-decision-clone-v2.md",
+  "media": "release-21",
+  "source_handle": "jewy_aa",
+  "chains": [
+    [
+      "c2-chocosweetwnrocinu",
+      "c2a-loveli_zanory"
+    ],
+    [
+      "c5-cheeseakameohoang",
+      "c5a-loveli_zanory",
+      "c5b-cheeseakameohoang",
+      "c5c-loveli_zanory"
+    ]
+  ],
+  "title_card": {
+    "line": "t0",
+    "lines": [
+      "topic:",
+      "bí mật của",
+      "\"CON GÁI\"",
+      "Pt.3"
+    ],
+    "highlight": 2
+  },
+  "cast": {
+    "narrator": "Adam bựa",
+    "jewy_aa": "Ngọc Huyền",
+    "tnhiikhoivu": "Trúc Ly",
+    "hayu.f24": "Mai Anh",
+    "torih2502": "Trúc Ly",
+    "loveli_zanory": "Ngọc Linh",
+    "cmtdaoeiiiiiii": "Mai Anh",
+    "chocosweetwnrocinu": "Trúc Ly",
+    "cheeseakameohoang": "Mai Anh",
+    "camxucmulo": "Ngọc Huyền"
+  },
+  "cast_note": "Girls answering get female voices. loveli_zanory replies 'Ê tui cx giống' to a girls-only point, so the author gets a female voice; that is a guess.",
+  "note": "Girls Pt.3 (tasks/user-request-pt3-v1.md), researched by the PM: @jewy_aa 'muốn nghe các sự thật về con gái từ chính miệng con gái' and @loveli_zanory 'fun fact về các bà'. No post or comment from earlier videos. @lanah11209 'Góc khuất của con gái' was skipped as too sexual for YouTube. Real cards only.",
+  "lines": [
+    {
+      "id": "t0",
+      "card": "post-jewy_aa",
+      "kind": "bridge",
+      "text": "Bí mật của con gái, phần ba!"
+    },
+    {
+      "id": "p1",
+      "card": "post-jewy_aa",
+      "kind": "read",
+      "text": "Topic: Ê, tao muốn nghe các sự thật về con gái, từ chính miệng con gái á."
+    },
+    {
+      "id": "c6",
+      "card": "c6-tnhiikhoivu",
+      "kind": "read",
+      "text": "Top một: muốn đàn ông có bầu. Top hai: muốn mọc chim. Top ba: muốn cặp đôi gay cưới nhau.",
+      "bleep": [
+        "chim"
+      ],
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "sfx": "scratch",
+          "pause": 1.8,
+          "label": "Top 2?!",
+          "label_style": "meme",
+          "why": "wants to grow one",
+          "fx": "zoom"
+        }
+      }
+    },
+    {
+      "id": "c7",
+      "card": "c7-hayu.f24",
+      "kind": "read",
+      "text": "Mua ly trà sữa ba lăm nghìn chê đắt, thấy đồ thần tượng ba trăm năm mươi nghìn khen rẻ. Mua cây son trăm rưỡi suy nghĩ hai tháng, hốt cái vé xem ca nhạc một triệu rưỡi, hai giây."
+    },
+    {
+      "id": "c10",
+      "card": "c10-torih2502",
+      "kind": "read",
+      "text": "Giây trước: tao sẽ không bao giờ yêu ai nữa! Giây sau: đăng bài tuyển người yêu.",
+      "beat": {
+        "big": {
+          "reaction": "clown",
+          "enter": "pop",
+          "sfx": "boing",
+          "pause": 1.8,
+          "label": "Giây sau",
+          "label_style": "meme",
+          "why": "instant relapse"
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "card": "post-loveli_zanory",
+      "kind": "read",
+      "text": "Cho tôi hỏi mấy người con gái, có thể cho tôi tham khảo vài cái sự thật vui về các bà được không?"
+    },
+    {
+      "id": "c1",
+      "card": "c1-cmtdaoeiiiiiii",
+      "kind": "read",
+      "text": "Tâm trạng thất thường của chúng tôi không phải do các anh đâu. Thi thoảng tự nhiên lăn ra ăn vạ, là do hoóc môn ấy. Nên các anh cứ dỗ đại đại đi, rồi chờ chúng tôi bình tĩnh lại, chúng tôi giải thích cho."
+    },
+    {
+      "id": "c2",
+      "card": "c2-chocosweetwnrocinu",
+      "kind": "read",
+      "text": "Mỗi lần đến ngày, tao muốn chuyển giới. Qua đợt đó thì tao lại muốn làm con gái. Lặp lại như vậy mỗi tháng."
+    },
+    {
+      "id": "c2a",
+      "card": "c2a-loveli_zanory",
+      "kind": "read",
+      "text": "Chịu òi."
+    },
+    {
+      "id": "c5",
+      "card": "c5-cheeseakameohoang",
+      "kind": "read",
+      "text": "Việc bạn gái các ông gọi cốt của nó bằng vợ, chồng, không nói lên việc bọn tôi lét đâu. Vì khả năng trước khi yêu các ông, thì cốt đã bị ôm hôn chán chê, vẫn còn thẳng."
+    },
+    {
+      "id": "c5a",
+      "card": "c5a-loveli_zanory",
+      "kind": "read",
+      "text": "Sao vẫn thẳng được, mấy hay đó bạn."
+    },
+    {
+      "id": "c5b",
+      "card": "c5b-cheeseakameohoang",
+      "kind": "read",
+      "text": "Cốt tôi vẫn thẳng, dù tôi sờ đủ chỗ trên người nó. Ô kê, vì nó không khó chịu."
+    },
+    {
+      "id": "c5c",
+      "card": "c5c-loveli_zanory",
+      "kind": "read",
+      "text": "Hừm, nghi vấn.",
+      "beat": {
+        "big": {
+          "reaction": "sus",
+          "enter": "slam",
+          "sfx": "question",
+          "pause": 2.0,
+          "label": "Nghi vấn",
+          "label_style": "meme",
+          "why": "ending: suspicious"
+        }
+      }
+    },
+    {
+      "id": "z1",
+      "card": "c5c-loveli_zanory",
+      "kind": "bridge",
+      "text": "Muốn nghe phần bốn thì bình luận nha!"
+    }
+  ]
+}

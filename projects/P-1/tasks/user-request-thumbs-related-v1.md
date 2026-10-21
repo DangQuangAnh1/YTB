@@ -27,6 +27,12 @@ Then:
 
 When Pt.2 is published, change Pt.1 → Pt.2 for each series.
 
+**Done 21/10 ~21:25 ICT**, after both Pt.2 videos went public (see youtube-publish-log-v7.md):
+- AVS1fIfYGrQ (girls Pt.1) → 3D8kW1N3FvY (girls Pt.2)
+- FMAARXdLTlI (boys Pt.1) → 5_cG1Yta2s0 (boys Pt.2)
+
+Studio saved both changes.
+
 **Review doc:** the thumbnail item is ticked and two "Đã xử lý" items are added.
 
 ## Deferred (user: "phần video ko cần sửa vội")

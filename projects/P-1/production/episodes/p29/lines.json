@@ -1,0 +1,179 @@
+{
+  "format": "v2",
+  "mood": "hai_v2",
+  "hook": null,
+  "cta": null,
+  "verbatim_accepted": "tasks/user-decision-clone-v2.md",
+  "media": "release-20",
+  "source_handle": "contentlonxon",
+  "chains": [
+    [
+      "c5-ldg.3011",
+      "c5a-_vuonhoaxinh_"
+    ]
+  ],
+  "title_card": {
+    "line": "t0",
+    "lines": [
+      "topic:",
+      "bí mật của",
+      "\"CON TRAI\"",
+      "Pt.3"
+    ],
+    "highlight": 2
+  },
+  "cast": {
+    "narrator": "Adam bựa",
+    "contentlonxon": "Trúc Ly",
+    "dvl_0312": "Thiền Tâm Đức",
+    "_vuonhoaxinh_": "Ngọc Huyền",
+    "ldg.3011": "Phạm Tuyên",
+    "th_hungne": "Thái Sơn",
+    "iaoh_man": "Thiện Minh",
+    "little.bunny.little2": "Mai Anh",
+    "quanganh61": "Thiền Tâm Đức",
+    "lf.bosstest": "Thiện Minh",
+    "nhl1107_": "Thiện Minh",
+    "xuan.sanh.204": "Thái Sơn"
+  },
+  "cast_note": "Boys answering get male voices. little.bunny.little2 writes 'tuy tôi cgai' and gets a female voice. contentlonxon and _vuonhoaxinh_ ask boys to talk and get female voices; that is a guess.",
+  "note": "Boys Pt.3 (tasks/user-request-pt3-v1.md), researched by the PM: @contentlonxon 'Muốn nghe sự thật về con trai từ chính miệng của con trai' and @_vuonhoaxinh_ 'Một số bí mật của con trai'. No post or comment from earlier videos. v2 (user 2026-10-21): two bland comments swapped for @nhl1107_ and @xuan.sanh.204, and the second topic read removed. Reads only, crude words bleeped, title card plus closing line, background varied per episode.",
+  "lines": [
+    {
+      "id": "t0",
+      "card": "post-contentlonxon",
+      "kind": "bridge",
+      "text": "Bí mật của con trai, phần ba!"
+    },
+    {
+      "id": "p1",
+      "card": "post-contentlonxon",
+      "kind": "read",
+      "text": "Topic: Muốn nghe sự thật về con trai, từ chính miệng của con trai ạ."
+    },
+    {
+      "id": "c11",
+      "card": "c11-nhl1107_",
+      "kind": "read",
+      "text": "Đang ngồi cà phê hay gì đó, mà thấy bọn tao vắt chéo chân hay gác, là cái kia nó cửng lên rồi. Chắc do thời tiết.",
+      "beat": {
+        "big": {
+          "reaction": "skull",
+          "enter": "slam",
+          "sfx": "scratch",
+          "pause": 1.8,
+          "label": "Do thời tiết?!",
+          "label_style": "meme",
+          "why": "weather excuse",
+          "fx": "zoom"
+        }
+      }
+    },
+    {
+      "id": "c4",
+      "card": "c4-dvl_0312",
+      "kind": "read",
+      "text": "Bị từ chối tình cảm rồi, thì đéo có vụ làm bạn đâu.",
+      "bleep": [
+        "đéo"
+      ]
+    },
+    {
+      "id": "c5",
+      "card": "c5-ldg.3011",
+      "kind": "read",
+      "text": "Chúng tôi mà gặp cô gái tôi thích, là sẽ bị ngu."
+    },
+    {
+      "id": "c5a",
+      "card": "c5a-_vuonhoaxinh_",
+      "kind": "read",
+      "text": "Ai cũng vậy mà."
+    },
+    {
+      "id": "c6",
+      "card": "c6-th_hungne",
+      "kind": "read",
+      "text": "Buồn ngủ là đi ngủ thật. Đói là đói thật, đói sắp chết. Không có gì để mặc, tức là quần áo đéo còn gì để mặc. Gặp người mình thích, thì chỉ số thông minh được tính bằng số âm.",
+      "bleep": [
+        "đéo"
+      ]
+    },
+    {
+      "id": "c7",
+      "card": "c7-iaoh_man",
+      "kind": "read",
+      "text": "Ê, tao mới quen đứa này. Ô kê, tối vô game nhá. Ê, tao chia tay nó rồi. Con gà, tối chơi game nhá.",
+      "beat": {
+        "big": {
+          "reaction": "cat_thumbsup_cry",
+          "enter": "rise",
+          "sfx": "tada",
+          "pause": 1.8,
+          "label": "Anh em tốt",
+          "label_style": "meme",
+          "why": "game buddy never changes",
+          "fx": "zoom"
+        }
+      }
+    },
+    {
+      "id": "c8",
+      "card": "c8-little.bunny.little2",
+      "kind": "read",
+      "text": "Tuy tôi con gái nhưng tôi có người yêu. Người yêu tôi bảo, chị em ngồi sau xe mà áp dú dô lưng, là mấy anh ngại ngại, mà đã đã.",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.7,
+        "sfx": "boing",
+        "why": "awkward but happy"
+      }
+    },
+    {
+      "id": "c9",
+      "card": "c9-quanganh61",
+      "kind": "read",
+      "text": "Nếu trong nhà vệ sinh có năm cái bồn tiểu, lần lượt là một, hai, ba, bốn, năm. Con trai tụi tôi sẽ chọn theo thứ tự là: một, năm, ba, hai, bốn."
+    },
+    {
+      "id": "c12",
+      "card": "c12-xuan.sanh.204",
+      "kind": "read",
+      "text": "Con trai hả? Có thể làm tất cả mọi thứ một mình... Tất cả mọi thứ.",
+      "fx": {
+        "type": "shake",
+        "lead": 0.3,
+        "hold": 0.6,
+        "strength": 0.7,
+        "sfx": "boing",
+        "why": "everything alone"
+      }
+    },
+    {
+      "id": "c10",
+      "card": "c10-lf.bosstest",
+      "kind": "read",
+      "text": "Thích mặc vái, và xoay vái trước gương.",
+      "asr_expect": "Thích mặc váy, và xoay váy trước gương.",
+      "beat": {
+        "big": {
+          "reaction": "cat_shocked",
+          "enter": "slam",
+          "sfx": "boom",
+          "pause": 2.0,
+          "label": "Lộ rồi!",
+          "label_style": "meme",
+          "why": "ending: skirt twirl confession"
+        }
+      }
+    },
+    {
+      "id": "z1",
+      "card": "c10-lf.bosstest",
+      "kind": "bridge",
+      "text": "Muốn nghe phần bốn thì bình luận nha!"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+ "video": "release-21-v1",
+ "overall_wer": 0.216,
+ "per_line": [
+  {
+   "id": "t0",
+   "wer": 0.286,
+   "script": "Bí mật của con gái, phần ba!",
+   "heard": "Bí mật của con gái, phần 3 Tốt"
+  },
+  {
+   "id": "p1",
+   "wer": 0.235,
+   "script": "Topic: Ê, tao muốn nghe các sự thật về con gái, từ chính miệng con gái á.",
+   "heard": "bích E tạo muốn nghe các sự thật về con gái từ chính miệng con gái á Tốt"
+  },
+  {
+   "id": "c6",
+   "wer": 0.55,
+   "script": "Top một: muốn đàn ông có bầu. Top hai: muốn mọc chim. Top ba: muốn cặp đôi gay cưới nhau.",
+   "heard": "1, muốn đàn ông có bầu tốt 2, muốn mộc 3, muốn cặp đôi gây cửa nhau Một"
+  },
+  {
+   "id": "c7",
+   "wer": 0.55,
+   "script": "Mua ly trà sữa ba lăm nghìn chê đắt, thấy đồ thần tượng ba trăm năm mươi nghìn khen rẻ. Mua cây son trăm rưỡi suy nghĩ hai tháng, hốt cái vé xem ca nhạc một triệu rưỡi, hai giây.",
+   "heard": "che đắt thấy đồ thần tượng 350.000 khen rẻ 1 cây son trăm dưỡi suy nghĩ 2 tháng hốt cái bé xem ca nhạc 1 triệu dưỡi 2 giày Dạy"
+  },
+  {
+   "id": "c10",
+   "wer": 0.176,
+   "script": "Giây trước: tao sẽ không bao giờ yêu ai nữa! Giây sau: đăng bài tuyển người yêu.",
+   "heard": "trước tao sẽ không bao giờ yêu ai nữa dây sau đang bài tuyển người yêu"
+  },
+  {
+   "id": "p2",
+   "wer": 0.13,
+   "script": "Cho tôi hỏi mấy người con gái, có thể cho tôi tham khảo vài cái sự thật vui về các bà được không?",
+   "heard": "tôi hỏi mấy người con gái có thể cho tôi tham khảo vài cái sự thật vui về các bà được không? Tâm trạng"
+  },
+  {
+   "id": "c1",
+   "wer": 0.261,
+   "script": "Tâm trạng thất thường của chúng tôi không phải do các anh đâu. Thi thoảng tự nhiên lăn ra ăn vạ, là do hoóc môn ấy. Nên các anh cứ dỗ đại đại đi, rồi chờ chúng tôi bình tĩnh lại, chúng tôi giải thích cho.",
+   "heard": "thất thường của chúng tôi không phải so các anh đâu Khi thoảng tự nhiên làn ra ăn vạ là so hoặc môn ấy Để các anh cứ xấu đại đại đi dầu chờ chúng tôi bình tĩnh lại chúng tôi giải thích cho Mỗi lần"
+  },
+  {
+   "id": "c2",
+   "wer": 0.167,
+   "script": "Mỗi lần đến ngày, tao muốn chuyển giới. Qua đợt đó thì tao lại muốn làm con gái. Lặp lại như vậy mỗi tháng.",
+   "heard": "đến ngày tao muốn chuyển dưới qua đợt đó thì tao lại muốn làm con gái lặp lại như vậy mỗi tháng Chịu"
+  },
+  {
+   "id": "c2a",
+   "wer": 1,
+   "script": "Chịu òi.",
+   "heard": "ối Điều"
+  },
+  {
+   "id": "c5",
+   "wer": 0.128,
+   "script": "Việc bạn gái các ông gọi cốt của nó bằng vợ, chồng, không nói lên việc bọn tôi lét đâu. Vì khả năng trước khi yêu các ông, thì cốt đã bị ôm hôn chán chê, vẫn còn thẳng.",
+   "heard": "bạn gái các ông gọi cốt của nó bằng vợ trồng không nói lên việc bọn tôi lét đâu Vì khả năng trước khi yêu các ông chỉ cốt đã bị ôm hôn tráng chê vấn còn thẳng"
+  },
+  {
+   "id": "c5a",
+   "wer": 0.125,
+   "script": "Sao vẫn thẳng được, mấy hay đó bạn.",
+   "heard": "Sao vấn thẳng được mấy hay đó bạn?"
+  },
+  {
+   "id": "c5b",
+   "wer": 0.211,
+   "script": "Cốt tôi vẫn thẳng, dù tôi sờ đủ chỗ trên người nó. Ô kê, vì nó không khó chịu.",
+   "heard": "Cốt tôi vấn thẳng dù tôi sờ đủ chỗ trên người nó Ok, vì nó không khó chịu Hôm"
+  },
+  {
+   "id": "c5c",
+   "wer": 0.667,
+   "script": "Hừm, nghi vấn.",
+   "heard": "nghi vấn Muốn"
+  },
+  {
+   "id": "z1",
+   "wer": 0.625,
+   "script": "Muốn nghe phần bốn thì bình luận nha!",
+   "heard": "bình luận nha"
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

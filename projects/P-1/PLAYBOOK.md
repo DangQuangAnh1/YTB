@@ -33,6 +33,8 @@ Bạn cũng có thể nhắn bình thường, ví dụ: "Làm video P-1 từ lin
 - Dán `production/engine-v1/capture-card.js` vào trang Threads, rồi gọi `await __cap('cụm chữ duy nhất')`.
 - Chụp bằng `computer zoom`, region `[0,0,882,690]`, scale 1, `save_to_disk`. Kết quả là ảnh 1080×845. Card cao hơn khung thì dùng `__shift(px)` để chụp thêm lát thứ hai.
 - Avatar tự làm mờ. Ảnh có mặt người khác thì ẩn bằng `hidePhotos`/`noPhotos` hoặc pixelate.
+- Script tự làm mờ chữ thô (kể cả chữ có "đ" như đcm, đéo) và tự hiện dòng chữ bị Threads ẩn (opacity 0). Chữ khác cần che thì dùng `hide: ['chữ']`.
+- Bỏ bài quá nặng về tình dục, dễ bị giới hạn độ tuổi. Chữ thô và câu đùa 18+ nhẹ thì vẫn giữ.
 - **Chỉ dùng ảnh chụp thật.** Card dựng lại bằng `rebuild-cards.py` chỉ được dùng khi người dùng đồng ý (`tasks/user-decision-girls-v2.md`).
 - Chrome bị treo thì mở tab mới. Đóng tab khi xong.
 
@@ -46,9 +48,11 @@ Bạn cũng có thể nhắn bình thường, ví dụ: "Làm video P-1 từ lin
 - Video topic hoặc clone:
   - `title_card` = {line: "t0", lines: ["topic:", "bí mật của", "\"CON TRAI\"", "Pt.1"], highlight: 2}.
   - Dòng `t0` do người dẫn đọc: "Bí mật của con trai, phần một!".
+  - Gộp bình luận từ nhiều bài thì **chỉ đọc topic của bài đầu**. Không chèn card bài thứ hai rồi đọc lại topic ở giữa video (`tasks/user-request-pt3-v1.md`).
 - **Không chêm câu giải thích sau mỗi bình luận** (`tasks/user-decision-clone-v2.md`). Chỉ có câu tiêu đề và **một câu dẫn cuối** (`z1`), ví dụ "Phần hai có ngay trên kênh, nhớ theo dõi nha!".
 - Clone hoặc topic thì đặt `verbatim_accepted: "tasks/user-decision-clone-v2.md"`. Video tự chọn bài thì giữ tỷ lệ đọc nguyên văn ≤75%.
 - Chữ thô thì thêm `"bleep": ["chữ"]` cho dòng đó. Tên nước ngoài thì viết phiên âm trong giọng đọc.
+- Từ mà máy đọc sai thì viết phiên âm, kèm `"asr_expect"` là câu người xem phải nghe thấy, để bộ chọn lần tạo chấm đúng. Ví dụ: giọng VieNeu đọc "váy" thành "vấy", nên text ghi "vái", còn `asr_expect` ghi "váy" (p29).
 - Meme: tối đa 3 `beat.big`, cách nhau ít nhất 5 giây. Kiểu: emoji Fluent hoặc **ảnh meme** (`cat_shocked`, `cat_thumbsup_cry`), `label_style: "meme"`, `enter` (pop/slam/shake/rise), `fx: "zoom"`. Dòng không có meme vẫn có thể dùng `fx` shake hoặc push.
 
 ### 5. Giọng (`cast`), quy tắc nhiều giọng (`tasks/user-decision-multivoice-v1.md`)
@@ -71,7 +75,9 @@ Bạn cũng có thể nhắn bình thường, ví dụ: "Làm video P-1 từ lin
 - Engine tự đổi nền theo tên episode. Mỗi video khác nhau ở: **thứ tự clip**, **điểm bắt đầu** mỗi clip, **lật ngang**, **tông màu** (±18°) và **nhịp cắt** (4–6,5 giây).
 - Muốn ép kiểu khác thì đặt `bg_seed`, `backgrounds` (danh sách clip riêng), `cut_s` hoặc `bg_hue` trong lines.json.
 - Hai video đăng cùng ngày (ví dụ cặp con trai/con gái) phải có nền **nhìn khác hẳn nhau**. Xem contact sheet để kiểm tra.
-- Kho nền hiện có 6 clip Pexels. Muốn thêm clip mới (ví dụ kiểu parkour hoặc game như kênh khác) thì phải hỏi người dùng trước khi tải.
+- Kho nền có **26 clip Pexels** từ ngày 21/10: nấu ăn, bầu trời, phố đêm, biển, mèo, trộn màu, thủy cung, đèn neon, sô-cô-la. Nguồn gốc xem `media/library/backgrounds/provenance-*.json`.
+- Một video ~75s chỉ cần khoảng 14–19 cảnh, nên **không clip nào lặp lại trong một video**. Engine cũng tránh để 2 clip cùng loại (cùng tiền tố tên file, ví dụ `cat-`, `paint-`) đứng liền nhau.
+- Muốn thêm clip thì chỉ dùng kho miễn phí bản quyền như Pexels, không có mặt người hoặc trẻ em, không lấy cảnh game hay video của kênh khác. Phải gửi danh sách (tên, nguồn, dung lượng) để người dùng duyệt trước khi tải (`tasks/user-request-backgrounds-v1.md`). Tải xong thì nén lại (30 giây, 30fps, CRF 23).
 
 ### 7. Dựng
 ```
@@ -104,6 +110,19 @@ bash make-episode.sh pNN release-XX-vN
 ### 10. Lưu
 - `agency.py artifact` cho kịch bản (bản sao trong `artifacts/content`), `final.mp4`, `props.json`, `package.md`, kèm `--expected-revision` và `--input A-…`.
 - Commit lên `main`.
+
+### Video dài tổng hợp (YouTube long)
+```
+cd projects/P-1/production/engine-v1
+PYTHONIOENCODING=utf-8 <venv python> make-compilation.py --landscape --no-chapter-cards --plain-chapters compilation-NN-v1 "<tiêu đề mở đầu>" release-15-v3::"Bí mật của con trai Pt.1" release-17-v1::"Bí mật của con gái Pt.1" ...
+PYTHONIOENCODING=utf-8 <venv python> master-audio.py compilation-NN-v1
+```
+- `--landscape`: xuất 16:9, video dọc đặt giữa trên nền mờ.
+- Câu kết "Muốn nghe phần…" tự bị cắt ở mọi phần trừ phần cuối.
+- File `chapters.txt` chứa mốc chương để dán vào mô tả.
+- Thumbnail 16:9 xem `compilation-02-v1/thumbnail.jpg` (1280×720).
+- File thường hơn 10 MB nên **người dùng tự tải lên**. Sau đó PM điền tiêu đề, mô tả, thumbnail trong Studio.
+- Bắt buộc có `PYTHONIOENCODING=utf-8`, nếu không console Windows báo lỗi khi in chữ Việt và các bước sau không chạy.
 
 ### Dọn file cũ
 - Chỉ dọn file **không đăng ký**, ví dụ `draft.mp4`, `phone-1080p.mp4`, `upload-hevc.mp4`, `preview-*.mp4` và các bản render cũ đã có bản mới. Cho vào Thùng rác, không xoá hẳn.

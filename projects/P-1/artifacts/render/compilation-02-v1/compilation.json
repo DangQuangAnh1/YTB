@@ -1,0 +1,43 @@
+{
+ "intro": "Bí mật của con trai & con gái: tổng hợp Pt.1 đến Pt.3",
+ "flags": [
+  "--landscape",
+  "--no-chapter-cards",
+  "--plain-chapters"
+ ],
+ "stories": [
+  {
+   "render": "release-15-v3",
+   "title": "Bí mật của con trai Pt.1"
+  },
+  {
+   "render": "release-17-v1",
+   "title": "Bí mật của con gái Pt.1"
+  },
+  {
+   "render": "release-18-v1",
+   "title": "Bí mật của con trai Pt.2"
+  },
+  {
+   "render": "release-19-v1",
+   "title": "Bí mật của con gái Pt.2"
+  },
+  {
+   "render": "release-20-v2",
+   "title": "Bí mật của con trai Pt.3"
+  },
+  {
+   "render": "release-21-v1",
+   "title": "Bí mật của con gái Pt.3"
+  }
+ ],
+ "duration_s": 412.89,
+ "chapters": [
+  "0:00 Bí mật của con trai Pt.1",
+  "1:08 Bí mật của con gái Pt.1",
+  "2:17 Bí mật của con trai Pt.2",
+  "3:27 Bí mật của con gái Pt.2",
+  "4:34 Bí mật của con trai Pt.3",
+  "5:40 Bí mật của con gái Pt.3"
+ ]
+}

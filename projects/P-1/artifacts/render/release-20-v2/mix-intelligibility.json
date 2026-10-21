@@ -1,0 +1,85 @@
+{
+ "video": "release-20-v2",
+ "overall_wer": 0.142,
+ "per_line": [
+  {
+   "id": "t0",
+   "wer": 0.286,
+   "script": "Bí mật của con trai, phần ba!",
+   "heard": "Bí mặt của con trai, phần ba Tóp"
+  },
+  {
+   "id": "p1",
+   "wer": 0.2,
+   "script": "Topic: Muốn nghe sự thật về con trai, từ chính miệng của con trai ạ.",
+   "heard": "ích, muốn nghe sự thật về con trai từ chính nhận của con trai ạ Đang"
+  },
+  {
+   "id": "c11",
+   "wer": 0.111,
+   "script": "Đang ngồi cà phê hay gì đó, mà thấy bọn tao vắt chéo chân hay gác, là cái kia nó cửng lên rồi. Chắc do thời tiết.",
+   "heard": "ngồi cà phê hay gì đó mà thấy bọn tao vắt chéo chân hay gác là cái kia nó cứng lên rồi, chắc do thời tiết Bị"
+  },
+  {
+   "id": "c4",
+   "wer": 0.615,
+   "script": "Bị từ chối tình cảm rồi, thì đéo có vụ làm bạn đâu.",
+   "heard": "cảm rồi, tíu có vụ làm bản đâu Chúng"
+  },
+  {
+   "id": "c5",
+   "wer": 0.167,
+   "script": "Chúng tôi mà gặp cô gái tôi thích, là sẽ bị ngu.",
+   "heard": "tôi mà gặp cô gái tôi thích là sẽ bị ngù"
+  },
+  {
+   "id": "c5a",
+   "wer": 0.25,
+   "script": "Ai cũng vậy mà.",
+   "heard": "Ai cũng vậy mà Tui"
+  },
+  {
+   "id": "c6",
+   "wer": 0.122,
+   "script": "Buồn ngủ là đi ngủ thật. Đói là đói thật, đói sắp chết. Không có gì để mặc, tức là quần áo đéo còn gì để mặc. Gặp người mình thích, thì chỉ số thông minh được tính bằng số âm.",
+   "heard": "ngủ là đi ngủ thật Đói là đói thật, đói sắp chết Không có gì để mặt, tức là quần áo ***** gì để mặt Gặp người mình thích thì chỉ số thông minh được tính bằng số âm"
+  },
+  {
+   "id": "c7",
+   "wer": 0.167,
+   "script": "Ê, tao mới quen đứa này. Ô kê, tối vô game nhá. Ê, tao chia tay nó rồi. Con gà, tối chơi game nhá.",
+   "heard": "Ê tao mới quên đứa này, ok tối vô game nhá Ê tao chia tay nó rồi, con gà tối chơi game nhá Tuy"
+  },
+  {
+   "id": "c8",
+   "wer": 0.194,
+   "script": "Tuy tôi con gái nhưng tôi có người yêu. Người yêu tôi bảo, chị em ngồi sau xe mà áp dú dô lưng, là mấy anh ngại ngại, mà đã đã.",
+   "heard": "tôi có người yêu Người yêu tôi bảo chị em ngồi sau xe mà áp dũ dô lưng Là mấy anh ngại ngại mà đã đã"
+  },
+  {
+   "id": "c9",
+   "wer": 0.333,
+   "script": "Nếu trong nhà vệ sinh có năm cái bồn tiểu, lần lượt là một, hai, ba, bốn, năm. Con trai tụi tôi sẽ chọn theo thứ tự là: một, năm, ba, hai, bốn.",
+   "heard": "Nếu trong nhà vệ sinh có 5 cái bồn tiểu Lần lượt là 1, 2, 3, 4, 5 Con trai tụi tôi sẽ chọn theo thứ tự là 1, 5, 3, 2, 4"
+  },
+  {
+   "id": "c12",
+   "wer": 0.188,
+   "script": "Con trai hả? Có thể làm tất cả mọi thứ một mình... Tất cả mọi thứ.",
+   "heard": "Còn trai hả? Có thể làm tất cả mọi thứ 1 mình, tất cả mọi"
+  },
+  {
+   "id": "c10",
+   "wer": 0.25,
+   "script": "Thích mặc vái, và xoay vái trước gương.",
+   "heard": "Thích mặc vái và xoay vái trước hương Muốn"
+  },
+  {
+   "id": "z1",
+   "wer": 0.75,
+   "script": "Muốn nghe phần bốn thì bình luận nha!",
+   "heard": "bình luận nhá"
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

@@ -55,7 +55,8 @@ window.__cap = async (txt, opt = {}) => {
     }
   });
   const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const bad = /\b(dcm|dkm|đcm|đkm|vl|vcl|vđ|dm|đm|cc|bcvl|clm|đéo|địt)\b/gi;
+  // \b is ASCII-only in JS, so words that start or end with Vietnamese letters (đcm, đéo) need explicit edges.
+  const bad = /(?<![\p{L}\p{N}])(dcm|dkm|đcm|đkm|vl|vcl|vđ|dm|đm|cc|bcvl|clm|đéo|địt)(?![\p{L}\p{N}])/giu;
   const hide = opt.hide?.length ? new RegExp('(' + opt.hide.map((h) => esc(h.normalize('NFC'))).join('|') + ')', 'g') : null;
   const tw = document.createTreeWalker(c, NodeFilter.SHOW_TEXT);
   const nodes = [];
@@ -82,6 +83,10 @@ window.__cap = async (txt, opt = {}) => {
     while (p && p.parentElement && p.parentElement.getBoundingClientRect().width < 780) p = p.parentElement;
     if (p) p.style.display = 'none';
   }
+  // Long posts render their later lines inside an opacity-0 wrapper (a fade-in that never runs on the clone).
+  ov.querySelectorAll('*').forEach((e) => {
+    if (getComputedStyle(e).opacity === '0' && (e.innerText || '').trim()) e.style.opacity = '1';
+  });
   await new Promise((r) => setTimeout(r, 2200));
   return {realH: Math.ceil(ov.getBoundingClientRect().height)};
 };

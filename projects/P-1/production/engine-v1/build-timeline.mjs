@@ -31,6 +31,14 @@ if (preset.look.backgrounds) preset.look.backgrounds = preset.look.backgrounds.m
   if (look.backgrounds) {
     const pool = (spec.backgrounds ?? look.backgrounds.map((b) => b.file)).map((f) => look.backgrounds.find((b) => b.file === f) ?? {file: f, seconds: probe(f)});
     for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+    // Keep two clips of the same kind (file prefix, e.g. "cat-", "paint-") from playing back to back. The pool
+    // (26 clips from 2026-10-21) is longer than a ~75 s video's cuts, so no clip repeats within one video.
+    const kind = (b) => path.basename(b.file).split('-')[0];
+    for (let i = 1; i < pool.length; i++) {
+      if (kind(pool[i]) !== kind(pool[i - 1])) continue;
+      const j = pool.findIndex((b, k) => k > i && kind(b) !== kind(pool[i - 1]));
+      if (j > 0) [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
     look.backgrounds = pool.map((b) => ({...b, start: +(rnd() * Math.max(0, b.seconds - 6)).toFixed(2), mirror: rnd() < 0.5}));
     look.cut_s = spec.cut_s ?? +(4 + rnd() * 2.5).toFixed(2);
     look.bg_hue = spec.bg_hue ?? Math.round(-18 + rnd() * 36);

@@ -148,11 +148,13 @@ def voiced(line, take):
 records = []
 for line in spec['lines']:
     # Adaptive takes: stop as soon as whisper hears the line well enough (at most one error per 12 words).
-    n_words = len(norm(line['text']))
+    # `asr_expect` scores a phonetic respelling against the words viewers should hear (e.g. "vái" voiced, "váy" heard).
+    expect = line.get('asr_expect', line['text'])
+    n_words = len(norm(expect))
     scored = []
     for k in range(line.get('takes', 3)):
         take = voiced(line, k)
-        scored.append((heard_wer(take, line['text']), take))
+        scored.append((heard_wer(take, expect), take))
         if round(scored[-1][0][0] * n_words) <= n_words // 12:
             break
     (best_wer, best_heard), dest = min(scored, key=lambda s: s[0][0])
