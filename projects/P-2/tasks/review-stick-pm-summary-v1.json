@@ -1,0 +1,22 @@
+{
+  "artifact_ids": [
+    "A-063"
+  ],
+  "reviewer": "root PM, tác giả bản tổng hợp",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Tổng hợp đúng ba dạng và quyết định user; ưu tiên là đề nghị của PM.",
+      "evidence_path": "tasks/review-stick-final-evidence-v1.md"
+    },
+    {
+      "name": "summary_consistency",
+      "status": "passed",
+      "detail": "Đối chiếu priorities/counts/limits với BA/dev; links local được kiểm riêng; không claim playback/build/market đã đạt.",
+      "evidence_path": "tasks/review-stick-final-evidence-v1.md"
+    }
+  ],
+  "note": "Self-review bản tổng hợp; không có human review. Chỉ acceptance nghiên cứu, các gaps được công khai."
+}

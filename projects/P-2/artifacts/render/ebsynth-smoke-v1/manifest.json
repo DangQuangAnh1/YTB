@@ -1,0 +1,55 @@
+{
+  "adapter": "convert-anime-v2",
+  "backend": "official EbSynth sources with serial CPU compatibility build",
+  "input_sha256": "615081e2718b6f66f4d55536d144a33a2744a8fd921b8fbf9f775fd0464c023e",
+  "style_sha256": "36f331878f3971fa77e9699257043b701dc101cf7e1d831e3a1ced1a1584bb35",
+  "binary_sha256": "51279e08984858b90accdc2dc47297522ede47f6f37f8ac70c3c6b4b21bf2dbc",
+  "reference_frame": 50,
+  "width": 320,
+  "height": 180,
+  "source_fps": 25.0,
+  "source_frames": 100,
+  "selected_frames": [
+    0,
+    50,
+    99
+  ],
+  "stride": 1,
+  "silent": true,
+  "args": {
+    "input": "projects/P-2/media/cooking-pilot-v1/input-4s.mp4",
+    "style": "projects/P-2/artifacts/cooking-pilot-v1/anime-keyframe.png",
+    "reference_frame": 50,
+    "output_dir": "projects/P-2/artifacts/render/ebsynth-smoke-v1",
+    "backend": "projects/P-2/media/tools/ebsynth/serial-build/ebsynth.exe",
+    "width": 320,
+    "sample_frames": "0,50,99",
+    "stride": 1,
+    "position_weight": 0.5
+  },
+  "runtime_seconds": 13.465,
+  "frame_timings": [
+    {
+      "frame": 0,
+      "seconds": 5.004,
+      "sha256": "94a759215c2af1868009844176e16b68d8e595e991b4e984a32227c91ddbd785"
+    },
+    {
+      "frame": 50,
+      "seconds": 3.954,
+      "sha256": "e00ccf19f9ce6d605bd7e96fa4b9266a1abdf75344d7f50dcc22a7fe7766ae11"
+    },
+    {
+      "frame": 99,
+      "seconds": 4.371,
+      "sha256": "c5c54fd09aec3b62886293f203d9c7a951d4de6525e05fc0d0a7c2c100eb06af"
+    }
+  ],
+  "outputs": {},
+  "visual_qa": "not_reviewed",
+  "limitations": [
+    "Single keyframe cannot supply all newly visible content",
+    "No generative video model inference",
+    "CPU serial output; framewise synthesis may flicker"
+  ]
+}

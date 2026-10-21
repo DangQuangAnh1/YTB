@@ -1,0 +1,366 @@
+{
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 28,
+  "peak_linear": 0.7199999999999999,
+  "rms": 0.03762486041670632,
+  "all_original_synthesis": true,
+  "seed": 2031,
+  "cues": [
+    {
+      "event": "original_music",
+      "start_seconds": 0.2,
+      "frame": 6,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 0.65,
+      "frame": 20,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 1.1,
+      "frame": 33,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 1.55,
+      "frame": 46,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 2.0,
+      "frame": 60,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 2.45,
+      "frame": 74,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 2.9000000000000004,
+      "frame": 87,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 3.35,
+      "frame": 100,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 3.8000000000000003,
+      "frame": 114,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 4.25,
+      "frame": 128,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 4.7,
+      "frame": 141,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 5.15,
+      "frame": 154,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 5.6000000000000005,
+      "frame": 168,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 6.050000000000001,
+      "frame": 182,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 6.5,
+      "frame": 195,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 6.95,
+      "frame": 208,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 7.4,
+      "frame": 222,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 7.8500000000000005,
+      "frame": 236,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 8.299999999999999,
+      "frame": 249,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 8.75,
+      "frame": 262,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 9.2,
+      "frame": 276,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 9.65,
+      "frame": 290,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 10.1,
+      "frame": 303,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 10.549999999999999,
+      "frame": 316,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 11.0,
+      "frame": 330,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 11.45,
+      "frame": 344,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "original_music",
+      "start_seconds": 11.9,
+      "frame": 357,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "tap",
+      "start_seconds": 1.6666666666666667,
+      "frame": 50,
+      "duration_seconds": 0.065
+    },
+    {
+      "event": "tap",
+      "start_seconds": 6.0,
+      "frame": 180,
+      "duration_seconds": 0.065
+    },
+    {
+      "event": "tap",
+      "start_seconds": 7.5,
+      "frame": 225,
+      "duration_seconds": 0.065
+    },
+    {
+      "event": "tap",
+      "start_seconds": 8.566666666666666,
+      "frame": 257,
+      "duration_seconds": 0.065
+    },
+    {
+      "event": "tap",
+      "start_seconds": 9.633333333333333,
+      "frame": 289,
+      "duration_seconds": 0.065
+    },
+    {
+      "event": "tap",
+      "start_seconds": 21.666666666666668,
+      "frame": 650,
+      "duration_seconds": 0.065
+    },
+    {
+      "event": "tap",
+      "start_seconds": 27.0,
+      "frame": 810,
+      "duration_seconds": 0.065
+    },
+    {
+      "event": "box_land",
+      "start_seconds": 2.533333333333333,
+      "frame": 76,
+      "duration_seconds": 0.22
+    },
+    {
+      "event": "box_flight",
+      "start_seconds": 2.1933333333333334,
+      "frame": 66,
+      "duration_seconds": 0.3
+    },
+    {
+      "event": "box_land",
+      "start_seconds": 6.866666666666666,
+      "frame": 206,
+      "duration_seconds": 0.22
+    },
+    {
+      "event": "box_flight",
+      "start_seconds": 6.526666666666666,
+      "frame": 196,
+      "duration_seconds": 0.3
+    },
+    {
+      "event": "box_land",
+      "start_seconds": 8.366666666666667,
+      "frame": 251,
+      "duration_seconds": 0.22
+    },
+    {
+      "event": "box_flight",
+      "start_seconds": 8.026666666666667,
+      "frame": 241,
+      "duration_seconds": 0.3
+    },
+    {
+      "event": "box_land",
+      "start_seconds": 9.433333333333334,
+      "frame": 283,
+      "duration_seconds": 0.22
+    },
+    {
+      "event": "box_flight",
+      "start_seconds": 9.093333333333334,
+      "frame": 273,
+      "duration_seconds": 0.3
+    },
+    {
+      "event": "box_land",
+      "start_seconds": 10.5,
+      "frame": 315,
+      "duration_seconds": 0.22
+    },
+    {
+      "event": "box_flight",
+      "start_seconds": 10.16,
+      "frame": 305,
+      "duration_seconds": 0.3
+    },
+    {
+      "event": "large_box_land",
+      "start_seconds": 23.833333333333332,
+      "frame": 715,
+      "duration_seconds": 0.55
+    },
+    {
+      "event": "box_flight",
+      "start_seconds": 23.493333333333332,
+      "frame": 705,
+      "duration_seconds": 0.3
+    },
+    {
+      "event": "box_land",
+      "start_seconds": 27.733333333333334,
+      "frame": 832,
+      "duration_seconds": 0.22
+    },
+    {
+      "event": "notification",
+      "start_seconds": 17.0,
+      "frame": 510,
+      "duration_seconds": 0.25
+    },
+    {
+      "event": "notification_tail",
+      "start_seconds": 17.095,
+      "frame": 513,
+      "duration_seconds": 0.32
+    },
+    {
+      "event": "notification",
+      "start_seconds": 26.333333333333332,
+      "frame": 790,
+      "duration_seconds": 0.25
+    },
+    {
+      "event": "notification_tail",
+      "start_seconds": 26.42833333333333,
+      "frame": 793,
+      "duration_seconds": 0.32
+    },
+    {
+      "event": "empty_screen_chime",
+      "start_seconds": 11.333333333333334,
+      "frame": 340,
+      "duration_seconds": 0.5
+    },
+    {
+      "event": "empty_screen_chime",
+      "start_seconds": 11.453333333333333,
+      "frame": 344,
+      "duration_seconds": 0.5
+    },
+    {
+      "event": "empty_screen_chime",
+      "start_seconds": 11.573333333333334,
+      "frame": 347,
+      "duration_seconds": 0.5
+    },
+    {
+      "event": "realization",
+      "start_seconds": 14.0,
+      "frame": 420,
+      "duration_seconds": 0.24
+    },
+    {
+      "event": "hesitation",
+      "start_seconds": 19.266666666666666,
+      "frame": 578,
+      "duration_seconds": 0.3
+    },
+    {
+      "event": "hesitation",
+      "start_seconds": 20.0,
+      "frame": 600,
+      "duration_seconds": 0.3
+    },
+    {
+      "event": "hesitation",
+      "start_seconds": 20.833333333333332,
+      "frame": 625,
+      "duration_seconds": 0.3
+    },
+    {
+      "event": "last_reaction",
+      "start_seconds": 27.9,
+      "frame": 837,
+      "duration_seconds": 0.1
+    }
+  ],
+  "perceptual_listening": "unverified; no audio listening tool available"
+}

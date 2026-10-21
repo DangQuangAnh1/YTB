@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/idea-chinese-cooking-backlog-v1.md",
+  "excerpt": "khoan, đó là ý tưởng. doc lại cho thằng p2 này nhé. còn giờ phải hoàn thiện tool convert anime đã",
+  "plan": {
+    "path": "plans/plan-v2-r27-dac4057b.md",
+    "sha256": "25f579786f604d10779792ec1adb59c86c6dee7ea926cb3b8c20522c6ee133ef",
+    "revision": 2
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-20T14:59:44.073441+00:00"
+}

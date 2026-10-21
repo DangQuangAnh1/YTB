@@ -1,0 +1,37 @@
+{
+  "model": "AnimeGANv3_Hayao_36.onnx",
+  "model_url": "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.1.0/AnimeGANv3_Hayao_36.onnx",
+  "model_bytes": 4232723,
+  "model_sha256": "95ba7b219073fd5b12f569bc38056ffd3019cf4caf15b1feb9f73d1286c9f69d",
+  "license": "Official AnimeGANv3 noncommercial terms; private technical test only, no publishing permission inferred",
+  "runtime": "1.31.0",
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "input": "ec15pSXc2Qg range148–152s, existing private test",
+  "layout": "NHWC RGB float32 [-1,1]",
+  "width": 640,
+  "height": 360,
+  "fps": 25.0,
+  "frames": 100,
+  "duration_seconds": 4.0,
+  "silent": true,
+  "runtime_seconds": 96.22,
+  "median_inference_seconds": 0.9027407999965362,
+  "p95_inference_seconds": 1.1686651099822483,
+  "outputs": {
+    "anime.mp4": {
+      "decode_passed": true,
+      "sha256": "f42070c460748162e05006edb7f1cea01901fd92d15f3f0987f55793217722a3"
+    },
+    "comparison.mp4": {
+      "decode_passed": true,
+      "sha256": "364be79a927c43899bc97431ab9cc9b436cf49979552d41b7851d5c3457eacea"
+    }
+  },
+  "visual_review": "pending",
+  "limits": [
+    "Framewise GAN, no temporal consistency model",
+    "No new cloud upload or paid service"
+  ]
+}

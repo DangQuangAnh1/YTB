@@ -1,0 +1,288 @@
+{
+  "adapter": "compare-framewise-v1",
+  "input": "ec15pSXc2Qg range148–152s, existing private test",
+  "input_sha256": "615081e2718b6f66f4d55536d144a33a2744a8fd921b8fbf9f775fd0464c023e",
+  "frames": [
+    0,
+    25,
+    50,
+    75,
+    99
+  ],
+  "width": 640,
+  "height": 360,
+  "subtitle_rect": [
+    214,
+    294,
+    432,
+    328
+  ],
+  "status": {
+    "hayao36": {
+      "returncode": 0,
+      "stdout": "{\"model\": \"hayao36\", \"median_seconds\": 2.1079, \"peak_mib\": 506.2}",
+      "stderr": ""
+    },
+    "shinkai37": {
+      "returncode": 0,
+      "stdout": "{\"model\": \"shinkai37\", \"median_seconds\": 1.5014, \"peak_mib\": 515.6}",
+      "stderr": ""
+    },
+    "h40": {
+      "returncode": 0,
+      "stdout": "{\"model\": \"h40\", \"median_seconds\": 1.4323, \"peak_mib\": 507.0}",
+      "stderr": ""
+    },
+    "h64": {
+      "returncode": 0,
+      "stdout": "{\"model\": \"h64\", \"median_seconds\": 1.5434, \"peak_mib\": 506.8}",
+      "stderr": ""
+    },
+    "wbc": {
+      "returncode": 0,
+      "stdout": "{\"model\": \"wbc\", \"median_seconds\": 0.6538, \"peak_mib\": 352.6}",
+      "stderr": ""
+    },
+    "dctbg": {
+      "returncode": 0,
+      "stdout": "{\"model\": \"dctbg\", \"median_seconds\": 0.5756, \"peak_mib\": 336.3}",
+      "stderr": ""
+    }
+  },
+  "results": {
+    "hayao36": {
+      "model": "AnimeGANv3_Hayao_36.onnx",
+      "model_url": "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.1.0/AnimeGANv3_Hayao_36.onnx",
+      "model_bytes": 4232723,
+      "model_sha256": "95ba7b219073fd5b12f569bc38056ffd3019cf4caf15b1feb9f73d1286c9f69d",
+      "license": "Official AnimeGANv3 noncommercial terms; private technical test only, no publishing permission inferred",
+      "runtime": "onnxruntime 1.31.0",
+      "provider": [
+        "CPUExecutionProvider"
+      ],
+      "layout": "NHWC RGB float32 [-1,1]",
+      "threads": 2,
+      "width": 640,
+      "height": 360,
+      "frames": [
+        0,
+        25,
+        50,
+        75,
+        99
+      ],
+      "load_seconds": 0.316,
+      "warmup_seconds": 1.167,
+      "frame_seconds": [
+        1.5512,
+        2.1079,
+        2.6023,
+        2.1195,
+        1.799
+      ],
+      "median_seconds": 2.1079,
+      "output_range": [
+        -0.9847584366798401,
+        0.9037783741950989
+      ],
+      "peak_working_set_mib": 506.2
+    },
+    "shinkai37": {
+      "model": "AnimeGANv3_Shinkai_37.onnx",
+      "model_url": "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.1.0/AnimeGANv3_Shinkai_37.onnx",
+      "model_bytes": 4233084,
+      "model_sha256": "8dc4d789c44db472447806583c56809e155280225b991bd79f9e2cb20793dcb9",
+      "license": "Official AnimeGANv3 noncommercial terms; private technical test only, no publishing permission inferred",
+      "runtime": "onnxruntime 1.31.0",
+      "provider": [
+        "CPUExecutionProvider"
+      ],
+      "layout": "NHWC RGB float32 [-1,1]",
+      "threads": 2,
+      "width": 640,
+      "height": 360,
+      "frames": [
+        0,
+        25,
+        50,
+        75,
+        99
+      ],
+      "load_seconds": 0.372,
+      "warmup_seconds": 1.323,
+      "frame_seconds": [
+        1.6427,
+        1.7441,
+        1.5014,
+        1.3867,
+        1.2651
+      ],
+      "median_seconds": 1.5014,
+      "output_range": [
+        -0.9939895272254944,
+        0.9616010785102844
+      ],
+      "peak_working_set_mib": 515.6
+    },
+    "h40": {
+      "model": "animeganv3_H40_model.onnx",
+      "model_url": "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.0.3/animeganv3_H40_model.onnx",
+      "model_bytes": 4232883,
+      "model_sha256": "21dfdf6344fee2de2a18225ee8750bbd95f6740237bcf413142d8aafa7fa32f1",
+      "license": "Official AnimeGANv3 noncommercial terms; private technical test only, no publishing permission inferred",
+      "runtime": "onnxruntime 1.31.0",
+      "provider": [
+        "CPUExecutionProvider"
+      ],
+      "layout": "NHWC RGB float32 [-1,1]",
+      "threads": 2,
+      "width": 640,
+      "height": 360,
+      "frames": [
+        0,
+        25,
+        50,
+        75,
+        99
+      ],
+      "load_seconds": 0.181,
+      "warmup_seconds": 0.99,
+      "frame_seconds": [
+        1.1071,
+        1.4323,
+        1.919,
+        1.4755,
+        1.4066
+      ],
+      "median_seconds": 1.4323,
+      "output_range": [
+        -0.9802869558334351,
+        0.9056814908981323
+      ],
+      "peak_working_set_mib": 507.0
+    },
+    "h64": {
+      "model": "animeganv3_H64_model0.onnx",
+      "model_url": "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.0.3/animeganv3_H64_model0.onnx",
+      "model_bytes": 4232978,
+      "model_sha256": "420d75c3a990769261a5632fd16ded2d2d71c6933409d25380213c742ff90176",
+      "license": "Official AnimeGANv3 noncommercial terms; private technical test only, no publishing permission inferred",
+      "runtime": "onnxruntime 1.31.0",
+      "provider": [
+        "CPUExecutionProvider"
+      ],
+      "layout": "NHWC RGB float32 [-1,1]",
+      "threads": 2,
+      "width": 640,
+      "height": 360,
+      "frames": [
+        0,
+        25,
+        50,
+        75,
+        99
+      ],
+      "load_seconds": 0.206,
+      "warmup_seconds": 0.948,
+      "frame_seconds": [
+        1.1183,
+        1.3949,
+        1.6978,
+        1.5852,
+        1.5434
+      ],
+      "median_seconds": 1.5434,
+      "output_range": [
+        -0.9746952652931213,
+        0.8911216259002686
+      ],
+      "peak_working_set_mib": 506.8
+    },
+    "wbc": {
+      "model": "cartoonizer.onnx",
+      "model_url": "https://huggingface.co/spaces/sayakpaul/cartoonizer-demo-onnx/resolve/main/cartoonizer.onnx",
+      "model_bytes": 5886605,
+      "model_sha256": "c035adb7ce7590680fca3d82941ed5d1f6bcb25a6f61ac3fea06dcfb656c325a",
+      "license": "White-box Cartoonization README: CC BY-NC-SA 4.0, commercial application prohibited; ONNX export from sayakpaul HF space keeps that lineage",
+      "runtime": "onnxruntime 1.31.0",
+      "provider": [
+        "CPUExecutionProvider"
+      ],
+      "layout": "NHWC BGR float32 [-1,1]",
+      "threads": 2,
+      "width": 640,
+      "height": 360,
+      "frames": [
+        0,
+        25,
+        50,
+        75,
+        99
+      ],
+      "load_seconds": 0.166,
+      "warmup_seconds": 0.489,
+      "frame_seconds": [
+        0.6538,
+        0.5123,
+        0.4544,
+        0.6837,
+        1.0112
+      ],
+      "median_seconds": 0.6538,
+      "output_range": [
+        -1.3752691745758057,
+        1.4712743759155273
+      ],
+      "peak_working_set_mib": 352.6
+    },
+    "dctbg": {
+      "model": "cartoon_anime_bg.pb",
+      "model_url": "https://www.modelscope.cn/models/iic/cv_unet_person-image-cartoon_compound-models/resolve/master/cartoon_anime_bg.pb",
+      "model_bytes": 5894895,
+      "model_sha256": "71efec51b4566cce3a3123822fb4e17794ad062c3e324b33f2a65df850c037ad",
+      "license": "ModelScope license field Apache License 2.0; DCT-Net code Apache-2.0; style/training-data rights not audited",
+      "runtime": "openvino 2026.4.1-22982-e213a147257-releases/2026/4",
+      "provider": [
+        "CPU"
+      ],
+      "layout": "HWC BGR float32 0-255 padded to 16 with 255, uint8 output",
+      "threads": 2,
+      "width": 640,
+      "height": 360,
+      "frames": [
+        0,
+        25,
+        50,
+        75,
+        99
+      ],
+      "load_seconds": 0.555,
+      "warmup_seconds": 0.443,
+      "frame_seconds": [
+        0.4887,
+        0.6163,
+        0.4764,
+        0.8699,
+        0.5756
+      ],
+      "median_seconds": 0.5756,
+      "output_range": [
+        28.0,
+        254.0
+      ],
+      "peak_working_set_mib": 336.3
+    }
+  },
+  "outputs": {
+    "contact-full.jpg": "fd7a7812ee2748f47466e7bd203aab6f8bedb47e84fc54b1d5ae8770c09cc992",
+    "contact-hands.jpg": "1aac5bfc6856dc292710890dd130e16d51ce12a9b74613ef7f5563ce3fdd58f6",
+    "subtitle-check.png": "3ab5a29f4e6ce44ada029f64b251beb42ec2a4aef8ae7bbaf098bee9715c54e8",
+    "subtitle.json": "e8918ea3045dde8fdacd85f27e0267673df62d1f4ec59851902940e6fefb6ef2"
+  },
+  "visual_review": "pending",
+  "limits": [
+    "5 still frames only, no playback or flicker evidence",
+    "Timing from 5 frames with 2 threads while other apps run",
+    "No new cloud upload or paid service"
+  ]
+}

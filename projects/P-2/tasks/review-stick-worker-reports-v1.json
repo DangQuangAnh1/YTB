@@ -1,0 +1,41 @@
+{
+  "artifact_ids": [
+    "A-052",
+    "A-061",
+    "A-051",
+    "A-053",
+    "A-062",
+    "A-055",
+    "A-054",
+    "A-056"
+  ],
+  "reviewer": "root PM, khác worker viết báo cáo",
+  "mode": "independent_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Đã đọc đủ tám báo cáo/phiên bản; một P-2, ba dạng, BA+dev theo nhánh.",
+      "evidence_path": "tasks/review-stick-final-evidence-v1.md"
+    },
+    {
+      "name": "source_accuracy_sampled",
+      "status": "passed",
+      "detail": "Kiểm chéo nguồn primary trọng yếu theo mẫu; v2 sửa F1/F2 và không nhận đã playback. Không phải xác minh độc lập mọi URL.",
+      "evidence_path": "tasks/review-stick-final-evidence-v1.md"
+    },
+    {
+      "name": "repo_role_mapping",
+      "status": "passed",
+      "detail": "Đã đọc mapping tool/rig/physics/editor/exporter, pin source và giới hạn host/license; source rig/exporter được PM kiểm mẫu.",
+      "evidence_path": "tasks/review-stick-final-evidence-v1.md"
+    },
+    {
+      "name": "limitations_disclosed",
+      "status": "passed",
+      "detail": "Market validation, playback, build/render/runtime benchmark và dependency audit toàn bộ còn unverified, không thuộc acceptance nghiên cứu shortlist.",
+      "evidence_path": "tasks/review-stick-final-evidence-v1.md"
+    }
+  ],
+  "note": "PASS chỉ cho research shortlist hữu dụng để chọn thử nghiệm. Không pass thị trường, video QA hoặc runtime. F1/F2 đã bổ sung v2; xem evidence limits."
+}

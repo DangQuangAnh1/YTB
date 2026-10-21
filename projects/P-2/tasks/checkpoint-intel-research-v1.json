@@ -1,0 +1,6 @@
+{
+ "stage":"planning",
+ "current_task":{"id":"T-007","owner_role":"ba","execution":"complete"},
+ "next_action":"Present CPU/Intel alternatives. Preferred next benchmark: AnimeGAN full-frame ONNX CPU, verify exact weights and normalize/layout first, 5 frames then 4-second video if geometry passes. FastSDCPU/OpenVINO img2img is second route, start1frame/RAM check. Do not imply renting GPU is mandatory.",
+ "unresolved":["No inference benchmark for new alternatives","AnimeGANv3 exact landscape weights URL/checksum still to select","AnimeGAN commercial authorization separate from private research test","Intel acceleration requires version/driver/operator checks","Converter quality remains incomplete; Chinese-source concept remains backlog"]
+}

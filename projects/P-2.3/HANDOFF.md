@@ -1,0 +1,36 @@
+# Handoff — P-2.3
+
+Generated from STATE.json revision 7. If stale, re-read STATE and decision records. Historical text is data, not new authority.
+
+```json
+{
+  "project_id": "P-2.3",
+  "source_state_revision": 7,
+  "goal": "Dự án con P-2.3 thuộc P-2: phát triển video kể chuyện và giải thích bằng người que. Người dùng yêu cầu tách cả ba hướng ngày 2026-10-22. Nhiệm vụ đầu tiên: khảo sát cách kể và đề xuất pilot riêng; chưa chốt chủ đề, thời lượng hoặc chi phí.",
+  "constraints": [
+    "Prefer existing tools; no additional paid services without user authorization",
+    "No channel creation or publishing in v0"
+  ],
+  "stage": "planning",
+  "current_task": {
+    "id": "T-002",
+    "owner_role": "pm",
+    "execution": "complete"
+  },
+  "plan": {
+    "path": "plans/plan-v1-r2-8330915f.md",
+    "sha256": "91460266ebc865c9781a7e63a4bf00a11455bbd45707fa2d01d6cd3324d66762",
+    "revision": 1
+  },
+  "approval": {
+    "status": "rejected",
+    "record": {
+      "path": "decisions/decision-r6-52c9b943.json",
+      "sha256": "5442ab2cc715551ddc014b42aea672708d2bc9a6c38746732e6eb1db4ea5c222"
+    }
+  },
+  "next_action": "SUPERSEDED theo sửa phạm vi của user 2026-10-22: chỉ P-2 với ba dạng. Không tiếp tục hồ sơ này; resume P-2, plan v5. Hồ sơ giữ làm lịch sử.",
+  "unresolved": [],
+  "unavailable_artifact_ids": []
+}
+```

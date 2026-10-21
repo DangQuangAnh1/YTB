@@ -1,0 +1,2 @@
+# Transient renderer console output; manifests and QA reports are versioned.
+artifacts/render/**/*.log

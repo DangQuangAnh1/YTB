@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Tin nhắn trực tiếp trong cuộc trò chuyện PM ngày 2026-10-22 Asia/Saigon; không có message ID được cung cấp",
+  "excerpt": "Cả 3 đi, mỗi cái một P nhỏ hơn. 2.1 2.2 2.3",
+  "plan": {
+    "path": "plans/plan-v4-r75-c495cda8.md",
+    "sha256": "d838ab2b030d2a349af8d00b744de68eb5f19fb622a51b155c1fa3d1b65ee98d",
+    "revision": 4
+  },
+  "allowed_actions": [
+    "research"
+  ],
+  "decided_at": "2026-10-21T17:06:47.458600+00:00"
+}

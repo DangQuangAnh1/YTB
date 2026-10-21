@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Tin nhắn trực tiếp người dùng trong cuộc trò chuyện PM ngày 2026-10-22 Asia/Saigon; không được cung cấp message ID. Chỉ ghi nhận phạm vi chuyển hướng và khảo sát trong plan v3.",
+  "excerpt": "Uk, P-2 đó, đổi nhiệm vụ task xem sao, làm các viêo liên quan tới người que",
+  "plan": {
+    "path": "plans/plan-v3-r72-b79ffb1a.md",
+    "sha256": "15e2ec6c38ee1054e6a5f119118156bf4456bbfab45311204dedd99d695d585f",
+    "revision": 3
+  },
+  "allowed_actions": [
+    "research"
+  ],
+  "decided_at": "2026-10-21T17:04:56.704395+00:00"
+}

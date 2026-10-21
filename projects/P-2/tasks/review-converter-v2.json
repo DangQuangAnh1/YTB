@@ -1,0 +1,12 @@
+{
+ "artifact_ids":["A-018"],
+ "reviewer":"creator-review in same chat",
+ "mode":"self_review",
+ "checks":[
+  {"name":"brief_alignment","status":"passed","detail":"Implemented actual local CPU repo adapter, retained Chinese sourcing idea as backlog; no sourcing/upload/publishing.","evidence_path":"artifacts/cooking-pilot-v2/qa-converter-v2.md"},
+  {"name":"backend_smoke","status":"passed","detail":"Official EbSynth derived serial CPU build executed on selected source frames; manifests record timings/hashes.","evidence_path":"artifacts/render/ebsynth-multikey-smoke-v1/manifest.json"},
+  {"name":"visual_quality","status":"failed","detail":"Sampled output frames25/75 still distort hands/knife; keyframe99 loses subtitle. Converter quality not complete.","evidence_path":"artifacts/render/ebsynth-multikey-smoke-v1/contact.jpg"},
+  {"name":"unsupported_channels","status":"passed","detail":"After fixing silent-black unsupported dispatch, grayscale style exits2 without output.","evidence_path":"artifacts/render/ebsynth-edge-smoke-v2/regression.json"},
+  {"name":"temporal_playback","status":"unverified","detail":"No new full sequence rendered after sample frames already failed geometry; no continuous playback claimed."}
+ ]
+}

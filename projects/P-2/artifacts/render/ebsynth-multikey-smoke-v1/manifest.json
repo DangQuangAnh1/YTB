@@ -1,0 +1,90 @@
+{
+  "adapter": "convert-anime-v2",
+  "backend": "official EbSynth sources with serial CPU compatibility build",
+  "input_sha256": "615081e2718b6f66f4d55536d144a33a2744a8fd921b8fbf9f775fd0464c023e",
+  "keyframes": [
+    {
+      "frame": 0,
+      "path": "projects/P-2/artifacts/cooking-pilot-v2/anime-000.png",
+      "sha256": "7ad986eefebaa7bb87123ac88d4f6f0f2984c4083256453a9b759cadeefdfe8c"
+    },
+    {
+      "frame": 50,
+      "path": "projects/P-2/artifacts/cooking-pilot-v1/anime-keyframe.png",
+      "sha256": "36f331878f3971fa77e9699257043b701dc101cf7e1d831e3a1ced1a1584bb35"
+    },
+    {
+      "frame": 99,
+      "path": "projects/P-2/artifacts/cooking-pilot-v2/anime-099.png",
+      "sha256": "abf098d921a29674a0cc35a2d6b54373b796aaa55d2831a3d78ed5e25cd88133"
+    }
+  ],
+  "binary_sha256": "51279e08984858b90accdc2dc47297522ede47f6f37f8ac70c3c6b4b21bf2dbc",
+  "width": 320,
+  "height": 180,
+  "source_fps": 25.0,
+  "source_frames": 100,
+  "selected_frames": [
+    0,
+    25,
+    50,
+    75,
+    99
+  ],
+  "stride": 1,
+  "silent": true,
+  "args": {
+    "input": "projects/P-2/media/cooking-pilot-v1/input-4s.mp4",
+    "style": null,
+    "reference_frame": null,
+    "keyframes": "projects/P-2/artifacts/cooking-pilot-v2/keyframes.json",
+    "output_dir": "projects/P-2/artifacts/render/ebsynth-multikey-smoke-v1",
+    "backend": "projects/P-2/media/tools/ebsynth/serial-build/ebsynth.exe",
+    "width": 320,
+    "sample_frames": "0,25,50,75,99",
+    "stride": 1,
+    "position_weight": 0.5,
+    "max_frames": 300
+  },
+  "runtime_seconds": 9.963,
+  "frame_timings": [
+    {
+      "frame": 0,
+      "reference_frame": 0,
+      "seconds": 2.113,
+      "sha256": "c0c5243724c92cdcd0836405ffd9c1ee0499a4492728171e2a39a56a1c71651f"
+    },
+    {
+      "frame": 25,
+      "reference_frame": 0,
+      "seconds": 2.135,
+      "sha256": "b600c13f306edbf1705859a2ab1d4416e7dd27a57837106a67d633281730c705"
+    },
+    {
+      "frame": 50,
+      "reference_frame": 50,
+      "seconds": 1.892,
+      "sha256": "e00ccf19f9ce6d605bd7e96fa4b9266a1abdf75344d7f50dcc22a7fe7766ae11"
+    },
+    {
+      "frame": 75,
+      "reference_frame": 99,
+      "seconds": 1.913,
+      "sha256": "acd03e7abb86639e65554b8066ca9996c8c62145b1cbe9cc42515c41b4aa91d7"
+    },
+    {
+      "frame": 99,
+      "reference_frame": 99,
+      "seconds": 1.799,
+      "sha256": "c0fb8123c4dd4c711c5a1e46ab661141cc16230a4c55330aee8bc6e904d19e19"
+    }
+  ],
+  "outputs": {},
+  "visual_qa": "not_reviewed",
+  "limitations": [
+    "Nearest-keyframe switching may cause appearance jumps",
+    "Missing regions may not be reconstructed faithfully",
+    "No generative video model inference",
+    "CPU serial output; framewise synthesis may flicker"
+  ]
+}

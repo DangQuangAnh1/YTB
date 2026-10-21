@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2.2",
+  "actor": "user",
+  "decision": "reject",
+  "source_ref": "Sửa phạm vi trực tiếp của user trong cuộc trò chuyện PM ngày 2026-10-22, xác nhận chỉ P-2 với ba dạng; xem plan v5 P-2",
+  "excerpt": "Tách nó thành 3 dạng là đc",
+  "plan": {
+    "path": "plans/plan-v1-r2-3b072090.md",
+    "sha256": "fa5a8f0c2210eb94dd5bc94e10e4e1ea1b720a54ba77c564e237919f545a4469",
+    "revision": 1
+  },
+  "allowed_actions": [],
+  "decided_at": "2026-10-21T17:17:02.970126+00:00"
+}

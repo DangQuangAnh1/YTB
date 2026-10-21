@@ -1,0 +1,25 @@
+{
+  "source": "https://github.com/jamriska/ebsynth",
+  "commit": "2f5c97c0c21a86bb7334dee61453623e6a3d41c3",
+  "compiler": "ziglang 0.13.0 via PyPI in .venv-p2",
+  "mode": "serial CPU, OpenMP disabled; dispatch restricted to RGB style and 3/4/6 guide channels with explicit rejection for others; synthesis algorithm unchanged",
+  "derived_source_sha256": "077d48a0fa197d06befd5f6e993d6afd4e9e1962df576498ddcf2b4785e31a7e",
+  "front_source_sha256": "4a85fcd5a3288bd9c39aab47502c09a8ceb991e894e6daaa11c0e6db99d8bb4a",
+  "sha256": "6cf35a6a518a9f86a91591f226343fa50321172b6b18d4f43d7a9bfc0ef4a241",
+  "command": [
+    "C:\\Users\\vanth\\OneDrive\\Documents\\ChatGPT\\MMO\\creator-agency-skills\\.venv-p2\\Lib\\site-packages\\ziglang\\zig.exe",
+    "c++",
+    "-std=c++11",
+    "-O1",
+    "-DNDEBUG",
+    "-Wno-unknown-pragmas",
+    "-IC:\\Users\\vanth\\OneDrive\\Documents\\ChatGPT\\MMO\\creator-agency-skills\\projects\\P-2\\media\\tools\\ebsynth\\serial-build",
+    "-IC:\\Users\\vanth\\OneDrive\\Documents\\ChatGPT\\MMO\\creator-agency-skills\\projects\\P-2\\media\\tools\\ebsynth\\source\\include",
+    "-IC:\\Users\\vanth\\OneDrive\\Documents\\ChatGPT\\MMO\\creator-agency-skills\\projects\\P-2\\media\\tools\\ebsynth\\source\\src",
+    "C:\\Users\\vanth\\OneDrive\\Documents\\ChatGPT\\MMO\\creator-agency-skills\\projects\\P-2\\media\\tools\\ebsynth\\serial-build\\ebsynth_limited.cpp",
+    "C:\\Users\\vanth\\OneDrive\\Documents\\ChatGPT\\MMO\\creator-agency-skills\\projects\\P-2\\media\\tools\\ebsynth\\serial-build\\ebsynth_cpu_limited.cpp",
+    "C:\\Users\\vanth\\OneDrive\\Documents\\ChatGPT\\MMO\\creator-agency-skills\\projects\\P-2\\media\\tools\\ebsynth\\source\\src\\ebsynth_nocuda.cpp",
+    "-o",
+    "C:\\Users\\vanth\\OneDrive\\Documents\\ChatGPT\\MMO\\creator-agency-skills\\projects\\P-2\\media\\tools\\ebsynth\\serial-build\\ebsynth.exe"
+  ]
+}

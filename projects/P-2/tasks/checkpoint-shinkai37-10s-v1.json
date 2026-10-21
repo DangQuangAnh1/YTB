@@ -1,0 +1,6 @@
+{
+ "stage":"review",
+ "current_task":{"id":"T-010","owner_role":"production","execution":"complete"},
+ "next_action":"User to watch artifacts/render/shinkai37-video-10s-v1/comparison.mp4. If hands boil visibly: flow-masked temporal filter on hand region or render wbc on the same 148–158s range for stability comparison. No publishing; footage rights unverified.",
+ "unresolved":["Continuous playback not watched; hand-region boiling likely but unmeasured","Anime look is Shinkai background style, not clean cel shading","AnimeGAN noncommercial; footage rights for ec15pSXc2Qg unverified","animegan-v3-cpu-v1 render outputs still unregistered","Intel GPU acceleration (OpenVINO GPU/DirectML) not benchmarked","Converter quality remains incomplete; Chinese-source concept remains backlog"]
+}

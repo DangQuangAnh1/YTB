@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Tin nhắn trực tiếp user trong cuộc trò chuyện PM ngày2026-10-22 Asia/Saigon, cho triển khai dạng hài sau báo cáo research v5; không có message ID",
+  "excerpt": "Okie khá là hài lòng với kết quả này, bắt đầu triển khai dạng hài đi",
+  "plan": {
+    "path": "plans/plan-v6-r101-b845f85b.md",
+    "sha256": "adb4de64138df4abfc25afc4f6ed0551d74f3fcd9caa1a47f9bdd490877a544e",
+    "revision": 6
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-21T17:36:46.008098+00:00"
+}

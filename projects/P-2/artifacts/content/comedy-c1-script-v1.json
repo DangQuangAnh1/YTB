@@ -1,0 +1,136 @@
+{
+  "adapter": "p2-stick-comedy-svg-v1",
+  "schema_version": 1,
+  "title": "Để sau thành đồ thật",
+  "fps": 30,
+  "frames": 840,
+  "size": [
+    1080,
+    1920
+  ],
+  "language": "vi",
+  "narration": null,
+  "fiction": true,
+  "premise": "Mỗi lần bấm ĐỂ SAU, một việc chờ biến thành hộp ngoài đời.",
+  "scenes": [
+    {
+      "id": "S1",
+      "frames": [
+        0,
+        89
+      ],
+      "action": "Nhân vật bấm để sau một tin nhắn. Hộp việc đầu tiên rơi xuống cạnh chân.",
+      "text": [
+        "Trả lời tin nhắn",
+        "ĐỂ SAU",
+        "Một cái thôi mà."
+      ],
+      "cue_frames": [
+        50,
+        76
+      ]
+    },
+    {
+      "id": "S2",
+      "frames": [
+        90,
+        209
+      ],
+      "action": "Xem hộp, nhún vai rồi để sau việc sửa nhẹ. Hộp thứ hai lớn hơn.",
+      "text": [
+        "Sửa một chút",
+        "ĐỂ SAU"
+      ],
+      "cue_frames": [
+        180,
+        206
+      ]
+    },
+    {
+      "id": "S3",
+      "frames": [
+        210,
+        389
+      ],
+      "action": "Bấm liên tiếp ba lần; hộp tạo thành hai bức tường. Màn hình hết việc khiến nhân vật vui mừng.",
+      "text": [
+        "Gửi file",
+        "Rửa cốc",
+        "Dọn bàn",
+        "Gọn rồi!"
+      ],
+      "cue_frames": [
+        225,
+        251,
+        257,
+        283,
+        289,
+        315,
+        340
+      ]
+    },
+    {
+      "id": "S4",
+      "frames": [
+        390,
+        499
+      ],
+      "action": "Nhìn khỏi màn hình, nhận ra hai bên đều bị hộp chặn. Khoảng lặng và biểu cảm.",
+      "text": [
+        "..."
+      ],
+      "cue_frames": [
+        420
+      ]
+    },
+    {
+      "id": "S5",
+      "frames": [
+        500,
+        669
+      ],
+      "action": "Cận điện thoại nhắc dọn hộp. Ngón tay suýt chọn LÀM NGAY rồi rẽ sang ĐỂ SAU.",
+      "text": [
+        "Dọn mấy hộp này?",
+        "LÀM NGAY",
+        "ĐỂ SAU"
+      ],
+      "cue_frames": [
+        510,
+        650
+      ]
+    },
+    {
+      "id": "S6",
+      "frames": [
+        670,
+        839
+      ],
+      "action": "Hộp DỌN HỘP khổng lồ rơi che nhân vật. Mắt nhìn qua khe hộp, tay vẫn cầm máy. Nhắc nghỉ ngơi cũng bị để sau: hộp NGHỈ nhỏ chốt gag.",
+      "text": [
+        "DỌN HỘP",
+        "Nghỉ chút nhé?",
+        "ĐỂ SAU",
+        "NGHỈ"
+      ],
+      "cue_frames": [
+        715,
+        790,
+        810,
+        832
+      ]
+    }
+  ],
+  "rights": {
+    "visuals": "Original code-native geometry, no reference art copied",
+    "audio": "Original local synthesized tones/noise; no external music/SFX",
+    "font": "System Arial rasterized by browser; font file not redistributed"
+  },
+  "acceptance": [
+    "One box caused by each defer tap",
+    "Contact and anticipation readable",
+    "Vietnamese text legible",
+    "No dialogue/narration promised",
+    "Self-review; no audience validation claim"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+ "artifact_ids":["A-034","A-035","A-036","A-037","A-038","A-039"],
+ "reviewer":"creator-review in same chat",
+ "mode":"self_review",
+ "checks":[
+  {"name":"brief_alignment","status":"passed","detail":"Ran exactly hayao36, shinkai37, h40, h64, wbc, dctbg on frames 0/25/50/75/99 with subtitle pasted back; only the approved small models downloaded; no upload/publishing.","evidence_path":"artifacts/render/framewise-compare-v1/qa-framewise-v1.md"},
+  {"name":"model_provenance","status":"passed","detail":"Sizes match release/HF/ModelScope listings; dctbg sha256 equals ModelScope published value; hashes in result.json.","evidence_path":"artifacts/render/framewise-compare-v1/manifest.json"},
+  {"name":"technical_run","status":"passed","detail":"6/6 subprocesses exit 0, output shape equals input, finite ranges, per-model timing and peak working set recorded.","evidence_path":"artifacts/render/framewise-compare-v1/manifest.json"},
+  {"name":"subtitle_paste","status":"passed","detail":"Raw outputs blur text/emoji; pasted crops read cleanly for all models.","evidence_path":"artifacts/render/framewise-compare-v1/subtitle-check.png"},
+  {"name":"still_geometry","status":"passed","detail":"Hands, knife, tofu and board stay in place on all 5 sampled frames for every model.","evidence_path":"artifacts/render/framewise-compare-v1/contact-hands.jpg"},
+  {"name":"anime_look","status":"unverified","detail":"No model gives clean line art plus cel shading; shinkai37 strongest outlines, wbc/dctbg flattest regions. Needs user choice, not accepted.","evidence_path":"artifacts/render/framewise-compare-v1/contact-full.jpg"},
+  {"name":"temporal_playback","status":"unverified","detail":"Still frames only; no sequence rendered, flicker not measured."}
+ ]
+}

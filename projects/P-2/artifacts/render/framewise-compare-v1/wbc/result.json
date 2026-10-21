@@ -1,0 +1,37 @@
+{
+  "model": "cartoonizer.onnx",
+  "model_url": "https://huggingface.co/spaces/sayakpaul/cartoonizer-demo-onnx/resolve/main/cartoonizer.onnx",
+  "model_bytes": 5886605,
+  "model_sha256": "c035adb7ce7590680fca3d82941ed5d1f6bcb25a6f61ac3fea06dcfb656c325a",
+  "license": "White-box Cartoonization README: CC BY-NC-SA 4.0, commercial application prohibited; ONNX export from sayakpaul HF space keeps that lineage",
+  "runtime": "onnxruntime 1.31.0",
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "layout": "NHWC BGR float32 [-1,1]",
+  "threads": 2,
+  "width": 640,
+  "height": 360,
+  "frames": [
+    0,
+    25,
+    50,
+    75,
+    99
+  ],
+  "load_seconds": 0.166,
+  "warmup_seconds": 0.489,
+  "frame_seconds": [
+    0.6538,
+    0.5123,
+    0.4544,
+    0.6837,
+    1.0112
+  ],
+  "median_seconds": 0.6538,
+  "output_range": [
+    -1.3752691745758057,
+    1.4712743759155273
+  ],
+  "peak_working_set_mib": 352.6
+}

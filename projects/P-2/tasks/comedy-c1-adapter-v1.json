@@ -1,0 +1,22 @@
+{
+  "adapter": "p2-stick-comedy-svg-v1",
+  "revision": "pose-fix-v2",
+  "source_files": {
+    "production/comedy-v1/src/Comedy.tsx": "3eb99fca9e1691ce34f45fb78df200e3696b06e2731ef7d7e473697640c1f97c",
+    "production/comedy-v1/render.cjs": "9261b6eee79863c38c431f97c248fb89af3f20dffa8a2614cded509adb512844",
+    "production/comedy-v1/make_audio.py": "b4d5da3e47b96ad9a2e1913b09814015ba058d2ffde5202bd7f1281511a5d8cd",
+    "production/comedy-v1/verify.py": "d5ae9a56a0f203494f6cc5a4ef558449bb4853125fbbda9f741af0ac2eb19a84",
+    "production/comedy-v1/README.md": "84b9defd623dc10c68a67ea7082b889274894828fd512558ddc45e2e43e2fd50"
+  },
+  "script": "artifacts/content/comedy-c1-script-v1.json",
+  "storyboard": "artifacts/content/comedy-c1-storyboard-v1.md",
+  "runtime": "Remotion4.0.536; Node24.14; local Chromium; Windows i5-1145G7/Iris Xe/RAM16GB",
+  "dependency_policy": "Existing P1 node_modules reused via resolver only; no P1 source/media changes or network installs",
+  "rights": "Original geometry and locally synthesized audio; system Arial rasterized, font not redistributed; evaluation draft",
+  "render": "artifacts/render/comedy-c1-draft-v2/manifest.json",
+  "notes": [
+    "First still review fixed relative shoe path and opaque closeup overlay.",
+    "First full render reviewed; raised arm target was outside reach, changed y479 to y518 in source before v2 render.",
+    "Reduced compositor FFmpeg failed null-output encoder selection; full imageio_ffmpeg decoded correctly; tool build issue documented."
+  ]
+}

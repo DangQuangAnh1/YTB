@@ -1,0 +1,3 @@
+{"event":"bundle_ready","seconds":2.272,"composition":{"id":"ComedyC1","width":1080,"height":1920,"fps":30,"durationInFrames":840}}
+{"event":"still","frame":355,"sha256":"d1f1600732bdd9a384610ce4a509f5b2ebec9a09c5333fe1aa3aded89c7ec3f2"}
+{"event":"still","frame":355,"sha256":"d1f1600732bdd9a384610ce4a509f5b2ebec9a09c5333fe1aa3aded89c7ec3f2"}

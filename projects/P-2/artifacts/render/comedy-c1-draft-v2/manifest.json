@@ -1,0 +1,13 @@
+{
+  "adapter": "p2-stick-comedy-svg-v1",
+  "mode": "full",
+  "remotionVersion": "4.0.536",
+  "video": "artifacts/render/comedy-c1-draft-v2/draft.mp4",
+  "sha256": "ad89c597ab8d73d12a6329a79a9a6057d089d868b634079bd9685f52385ee132",
+  "renderSeconds": 81.986,
+  "concurrency": 2,
+  "scriptSha256": "27bd95d7196f67d20d201aff04065dc67f2eb47343fb3dad54ffe1b4e0da17cb",
+  "sourceSha256": "3eb99fca9e1691ce34f45fb78df200e3696b06e2731ef7d7e473697640c1f97c",
+  "audioSha256": "baaf303e7d2190d1344870e517071e1a48ef58add7ac818ae193ce2ae6c2def2",
+  "note": "All visuals authored in code and all audio synthesized locally. Evaluation draft; no external media or provider."
+}

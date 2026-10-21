@@ -1,0 +1,39 @@
+{
+  "artifact_ids": [
+    "A-069"
+  ],
+  "reviewer": "root Production/PM",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Original C1 hài người que28s theo planv6 và A-065/A-066, đã xem các beat quan trọng qua frame output.",
+      "evidence_path": "tasks/review-comedy-c1-video-v2-evidence.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Đã xem32 frame sampled tại các transition/tap/landing/choice/payoff và sửa lỗi giày/pose. Coverage sampled, chưa playback liên tục hoặc audience test.",
+      "evidence_path": "tasks/review-comedy-c1-video-v2-evidence.md"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "Full decode H264/AAC pass,840frames,1080x1920,30fps,28s; không decoder stderr.",
+      "evidence_path": "artifacts/render/comedy-c1-draft-v2/technical-qa.json"
+    },
+    {
+      "name": "audio_timing_technical",
+      "status": "passed",
+      "detail": "Peak không clipping; decoded audio vs WAV offset0samples tại5 cue. Audio28.011s,video28s. Đây là kiểm kỹ thuật, không nghe.",
+      "evidence_path": "artifacts/render/comedy-c1-draft-v2/technical-qa.json"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "Chưa nghe kiểm trực tiếp: không có audio listening tool trong phiên. Không tuyên bố balance/SFX/music perceptual QA đã đạt."
+    }
+  ],
+  "note": "Draft để user xem và feedback. Overall unverified do listening thiếu, không giả full QA pass, không human/audience approval."
+}

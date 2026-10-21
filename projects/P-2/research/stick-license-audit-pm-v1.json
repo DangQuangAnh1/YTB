@@ -1,0 +1,67 @@
+[
+  {
+    "repo": "motion-canvas/motion-canvas",
+    "sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+    "license_url": "https://raw.githubusercontent.com/motion-canvas/motion-canvas/7b91435c301d530351dcf5ebb91dd139c002e405/LICENSE",
+    "license_header": "MIT License\n\nCopyright (c) 2022 motion-canvas\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and assoc",
+    "signals": {
+      "MIT": true,
+      "Free License": false,
+      "up_to_3_employees": false,
+      "thirdparty": false
+    },
+    "read_entire_file": true
+  },
+  {
+    "repo": "ManimCommunity/manim",
+    "sha": "3e19ee016fe602cbd7dee43e9b44907c7220b5b4",
+    "license_url": "https://raw.githubusercontent.com/ManimCommunity/manim/3e19ee016fe602cbd7dee43e9b44907c7220b5b4/LICENSE",
+    "license_header": "MIT License\n\nCopyright (c) 2018 3Blue1Brown LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and ass",
+    "signals": {
+      "MIT": true,
+      "Free License": false,
+      "up_to_3_employees": false,
+      "thirdparty": false
+    },
+    "read_entire_file": true
+  },
+  {
+    "repo": "remotion-dev/remotion",
+    "sha": "b17f52258972fc1e16c21561d6540e86ede88fb6",
+    "license_url": "https://raw.githubusercontent.com/remotion-dev/remotion/b17f52258972fc1e16c21561d6540e86ede88fb6/LICENSE.md",
+    "license_header": "# Remotion License\n\nIn Remotion 5.0, the license will slightly change. [View the changes here](https://github.com/remotion-dev/remotion/pull/3750).\n\n-",
+    "signals": {
+      "MIT": false,
+      "Free License": true,
+      "up_to_3_employees": true,
+      "thirdparty": false
+    },
+    "read_entire_file": true
+  },
+  {
+    "repo": "opentoonz/opentoonz",
+    "sha": "829d1f4cd4f517b43b191ebee03de65382a07ed9",
+    "license_url": "https://raw.githubusercontent.com/opentoonz/opentoonz/829d1f4cd4f517b43b191ebee03de65382a07ed9/LICENSE.txt",
+    "license_header": "Some of code in this repository is derived from thirdparty libraries.\nFor files in the \"thirdparty\" directory: Please consult with the licenses in the",
+    "signals": {
+      "MIT": false,
+      "Free License": false,
+      "up_to_3_employees": false,
+      "thirdparty": true
+    },
+    "read_entire_file": true
+  },
+  {
+    "repo": "liabru/matter-js",
+    "sha": "b8ee71cd7f9b49f53639ddaedd6254f1929bcbe5",
+    "license_url": "https://raw.githubusercontent.com/liabru/matter-js/b8ee71cd7f9b49f53639ddaedd6254f1929bcbe5/LICENSE",
+    "license_header": "The MIT License (MIT)\n\nCopyright (c) Liam Brummitt and contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof ",
+    "signals": {
+      "MIT": true,
+      "Free License": false,
+      "up_to_3_employees": false,
+      "thirdparty": false
+    },
+    "read_entire_file": true
+  }
+]

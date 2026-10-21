@@ -1,0 +1,70 @@
+{
+  "adapter": "convert-anime-v2",
+  "backend": "official EbSynth sources with serial CPU compatibility build",
+  "input_sha256": "615081e2718b6f66f4d55536d144a33a2744a8fd921b8fbf9f775fd0464c023e",
+  "keyframes": [
+    {
+      "frame": 0,
+      "path": "projects/P-2/artifacts/cooking-pilot-v2/anime-000.png",
+      "sha256": "7ad986eefebaa7bb87123ac88d4f6f0f2984c4083256453a9b759cadeefdfe8c"
+    },
+    {
+      "frame": 50,
+      "path": "projects/P-2/artifacts/cooking-pilot-v1/anime-keyframe.png",
+      "sha256": "36f331878f3971fa77e9699257043b701dc101cf7e1d831e3a1ced1a1584bb35"
+    },
+    {
+      "frame": 99,
+      "path": "projects/P-2/artifacts/cooking-pilot-v2/anime-099.png",
+      "sha256": "abf098d921a29674a0cc35a2d6b54373b796aaa55d2831a3d78ed5e25cd88133"
+    }
+  ],
+  "binary_sha256": "6cf35a6a518a9f86a91591f226343fa50321172b6b18d4f43d7a9bfc0ef4a241",
+  "width": 320,
+  "height": 180,
+  "source_fps": 25.0,
+  "source_frames": 100,
+  "selected_frames": [
+    25,
+    75
+  ],
+  "stride": 1,
+  "silent": true,
+  "args": {
+    "input": "projects/P-2/media/cooking-pilot-v1/input-4s.mp4",
+    "style": null,
+    "reference_frame": null,
+    "keyframes": "projects/P-2/artifacts/cooking-pilot-v2/keyframes.json",
+    "output_dir": "projects/P-2/artifacts/render/ebsynth-edge-smoke-v2",
+    "backend": "projects/P-2/media/tools/ebsynth/serial-build/ebsynth.exe",
+    "width": 320,
+    "sample_frames": "25,75",
+    "stride": 1,
+    "position_weight": 3.0,
+    "guide_mode": "edges",
+    "max_frames": 300
+  },
+  "runtime_seconds": 3.426,
+  "frame_timings": [
+    {
+      "frame": 25,
+      "reference_frame": 0,
+      "seconds": 1.743,
+      "sha256": "80b989b16f40c4a40e7921e253e363975922f79da3484912d0bda0b5f83ef428"
+    },
+    {
+      "frame": 75,
+      "reference_frame": 99,
+      "seconds": 1.624,
+      "sha256": "2111601add8b500dccebb9681ff0118f24cb2fedc7e5e972dd8ed3b7d7803314"
+    }
+  ],
+  "outputs": {},
+  "visual_qa": "not_reviewed",
+  "limitations": [
+    "Nearest-keyframe switching may cause appearance jumps",
+    "Missing regions may not be reconstructed faithfully",
+    "No generative video model inference",
+    "CPU serial output; framewise synthesis may flicker"
+  ]
+}

@@ -1,0 +1,18 @@
+# P-2 — Plan v6: triển khai pilot hài người que C1
+
+## Quyền người dùng
+Nguồn: tin nhắn trực tiếp trong cuộc trò chuyện PM ngày 2026-10-22 Asia/Saigon, không được cung cấp message ID.
+Trích: “Okie khá là hài lòng với kết quả này, bắt đầu triển khai dạng hài đi”.
+Kế thừa lựa chọn một P-2 ba dạng. User cho triển khai dạng hài sau báo cáo v5; PM chọn pilot C1 đã đề nghị. Không đổi thành dự án con hoặc triển khai hai dạng còn lại.
+
+## Deliverable và lựa chọn thực hiện
+Một video nháp original “Để sau thành đồ thật”, dọc 1080x1920, 30fps, khoảng28giây. Một người que có biểu cảm, phòng tối giản, điện thoại và hộp việc. Không voice; gag hình kèm chữ Việt ngắn và SFX/nhạc tối giản tự tổng hợp local. Đây là lựa chọn cho pilot để đánh giá style, không quyết định định vị toàn kênh.
+Câu chuyện: mỗi lần bấm ĐỂ SAU, việc chờ thành hộp thật; phone trống nhưng phòng chật. Máy nhắc dọn hộp; nhân vật suýt chọn làm ngay rồi lại để sau, hộp khổng lồ che người, tay vẫn giơ điện thoại. Rule nhất quán, có anticipation/hold/payoff.
+
+## Tasks
+T-016 Content: script JSON riêng và storyboard thời gian, chữ/cue/visual; review trước render, nguồn A-052/A-055/A-061/A-063. Nội dung hư cấu, không factual claims cần nguồn.
+T-017 Production/dev: adapter SVG/React Remotion tối thiểu, pose theo frame, không làm app/editor mới. Tận dụng dependency local4.0.536 đã đọc license cho evaluation. Source/project/output riêng P-2; không sửa asset/state/source P-1. Thử frame still và clip kỹ thuật dùng chính pilot trước full render.
+T-018 Production/Review: render draft, manifest và đo decode/dimensions/framecount/audio/cue/determinism; inspect frame transitions có ý nghĩa. Nếu không có nghe/xem playback trực tiếp, ghi rõ audio/perceptual coverage chưa đủ, không giả pass. Sửa into phiên bản mới khi đã đăng ký artifact. Báo cho user bản video cùng khoảng trống QA.
+
+## Chấp nhận và giới hạn
+Nhìn được mục tiêu ngay, mỗi box có nguyên nhân là tap, text tiếng Việt đọc được, tay cầm phone/contact hợp lý, không xuyên floor/đạo cụ ngoài chủ ý, payoff đọc được, audio tự tạo không clip, duration/fps/decode hợp lệ. Lưu versions/hashes/lineage bằng agency.py. Self-review phải gắn nhãn rõ; không coi thử5 người đã làm. No paid calls, publishing, channel creation hoặc automation. Không lấy clip/font/media ngoài có quyền không rõ. Font hệ thống local chỉ rasterize; không phân phối font.

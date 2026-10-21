@@ -1,0 +1,12 @@
+{
+  "stage": "scouting",
+  "current_task": {"id": "T-011", "owner_role": "ba", "execution": "not_started"},
+  "next_action": "P-2 pivot theo plan v3: khảo sát video người que; ưu tiên câu trả lời thể loại của người dùng, nếu chưa có thì so sánh hài đời thường, hành động, kể chuyện/giải thích. Đầu ra research/stick-figure-directions-v1.md. Tạm gác converter anime; chưa render pilot.",
+  "unresolved": [
+    "Chưa chọn thể loại người que; câu hỏi đã gửi người dùng ngày 2026-10-22",
+    "Chưa chốt đối tượng, ngôn ngữ, độ dài và số video",
+    "Chưa kiểm chứng công cụ chuyển động người que hoặc nguồn tham khảo mới",
+    "Goal khởi tạo và PROJECT.md còn mô tả khảo sát Shorts; mục tiêu hiện hành được ghi trong plan v3",
+    "Các vấn đề QA anime cũ được lưu tại packet r71, không phải blocker của hướng mới"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "artifact_ids": [
+    "A-040",
+    "A-041",
+    "A-042",
+    "A-043",
+    "A-044",
+    "A-045"
+  ],
+  "reviewer": "creator-review in same chat",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Chose shinkai37 from the 5-frame comparison and rendered 10s (148–158s, one scene) as asked; silent, private, no upload.",
+      "evidence_path": "artifacts/render/shinkai37-video-10s-v1/qa-shinkai37-10s-v1.md"
+    },
+    {
+      "name": "decode",
+      "status": "passed",
+      "detail": "250 frames; anime.mp4 and comparison.mp4 decode with ffmpeg null muxer.",
+      "evidence_path": "artifacts/render/shinkai37-video-10s-v1/manifest.json"
+    },
+    {
+      "name": "subtitle_paste",
+      "status": "passed",
+      "detail": "Box detected frames 0–117, source drops it at 118; crops 114–120 show clean text then no leftover.",
+      "evidence_path": "artifacts/render/shinkai37-video-10s-v1/qa-shinkai37-10s-v1.md"
+    },
+    {
+      "name": "sample_geometry",
+      "status": "passed",
+      "detail": "Hands, knife, tofu cuts and board correct on 6 sampled frames.",
+      "evidence_path": "artifacts/render/shinkai37-video-10s-v1/contact.jpg"
+    },
+    {
+      "name": "static_flicker",
+      "status": "passed",
+      "detail": "Still-pixel frame difference 0.30/255 pre-encode vs source 0.07; background stable.",
+      "evidence_path": "artifacts/render/shinkai37-video-10s-v1/manifest.json"
+    },
+    {
+      "name": "moving_region_stability",
+      "status": "unverified",
+      "detail": "Posterize patches on hands change between consecutive frames 180–183; likely mild boiling, not measured by the static metric."
+    },
+    {
+      "name": "temporal_playback",
+      "status": "unverified",
+      "detail": "Continuous playback not watched by a person; user viewing required."
+    }
+  ],
+  "artifact_hashes": {
+    "A-040": "3e4feeca4edc9a560598818d14ce4a34b8eaac19267abeece1c4578985fff209",
+    "A-041": "9ca04e5589001175167db1047bdff0b84fb798aa8f31f3ef3aa859113b0f88a3",
+    "A-042": "7de9fe3705e8672affe80246dec568120688dcad8c5d2e976880667949aba05a",
+    "A-043": "d81f5dad7bf901e904b4b358b1d88213ade601b6acc16809082dafeb49a95d8f",
+    "A-044": "a168fe9a6a6d736508d45d8b372c87cf461394e1d4ab7c9b9b03bd97cc97b98c",
+    "A-045": "2cae118efd4ecb00a0051400c9e00449da46d36a950331e774a5ef6b9eef2e76"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-20T17:09:44.947699+00:00"
+}

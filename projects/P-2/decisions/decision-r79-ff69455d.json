@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Tin nhắn trực tiếp người dùng trong cuộc trò chuyện PM 2026-10-22 Asia/Saigon; sửa về một P-2 ba dạng và cho phép ba BA, dev, review; không có message ID",
+  "excerpt": "Đúng rồi, chỉnh lại theo hướng đó, phân việc cho 3 BA nghiên cứu 3 ngách từng chủ đề đi. Càng chi tiết càng tốt, bạn review kết quả xem có hài lòng ko rồi mới đưa cho tôi. Phân việc cho các dev tìm repo trên github cõ thể hỗ trợ làm viêo dạng này tương ứng",
+  "plan": {
+    "path": "plans/plan-v5-r78-4269718c.md",
+    "sha256": "a602577701906ddac424abcdf4ddda393ffb6374431bc627af40fe2847d05302",
+    "revision": 5
+  },
+  "allowed_actions": [
+    "research"
+  ],
+  "decided_at": "2026-10-21T17:12:26.750284+00:00"
+}

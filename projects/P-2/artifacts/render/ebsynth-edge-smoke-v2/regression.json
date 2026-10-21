@@ -1,0 +1,6 @@
+{
+  "test": "unsupported grayscale style must reject, not silently return black",
+  "exit_code": 2,
+  "stderr": "Unsupported channel configuration in P2 CPU build\n",
+  "output_exists": false
+}

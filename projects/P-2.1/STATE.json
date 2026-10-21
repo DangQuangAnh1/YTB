@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2.1",
+  "revision": 7,
+  "goal": "Dự án con P-2.1 thuộc P-2: phát triển video người que hài đời thường, cốt truyện ngắn. Người dùng yêu cầu tách cả ba hướng ngày 2026-10-22. Nhiệm vụ đầu tiên: khảo sát và đề xuất pilot riêng; chưa chốt kịch bản, thời lượng hoặc chi phí.",
+  "stage": "planning",
+  "constraints": [
+    "Prefer existing tools; no additional paid services without user authorization",
+    "No channel creation or publishing in v0"
+  ],
+  "current_task": {
+    "id": "T-002",
+    "owner_role": "pm",
+    "execution": "complete"
+  },
+  "plan": {
+    "path": "plans/plan-v1-r2-d9615307.md",
+    "sha256": "6e13e58d110ea4f0dcdffa412fd29356db1e881abc3549ab55a0fd9a710f1a05",
+    "revision": 1
+  },
+  "approval": {
+    "status": "rejected",
+    "record": {
+      "path": "decisions/decision-r6-c0a7bd12.json",
+      "sha256": "72eb9ac6b285011892f52b61d427d1cb0f1262e83367f8bfad163cd92e48071c"
+    }
+  },
+  "decision_records": [
+    {
+      "path": "decisions/decision-r3-ab638d0e.json",
+      "sha256": "61dcbc3c5a93b935cc14cd1fa9a6b19169a9a5fe2f18358a8233ae8da359c6b9"
+    },
+    {
+      "path": "decisions/decision-r6-c0a7bd12.json",
+      "sha256": "72eb9ac6b285011892f52b61d427d1cb0f1262e83367f8bfad163cd92e48071c"
+    }
+  ],
+  "artifacts": [],
+  "reviews": [],
+  "acceptance": "not_reviewed",
+  "release": "not_requested",
+  "next_action": "SUPERSEDED theo sửa phạm vi của user 2026-10-22: chỉ P-2 với ba dạng. Không tiếp tục hồ sơ này; resume P-2, plan v5. Hồ sơ giữ làm lịch sử.",
+  "unresolved": [],
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0,
+    "samples": {},
+    "baselines": {},
+    "available": false
+  },
+  "created_at": "2026-10-21T17:06:07.989370+00:00",
+  "updated_at": "2026-10-21T17:17:02.824705+00:00"
+}

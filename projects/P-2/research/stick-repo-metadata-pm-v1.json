@@ -1,0 +1,195 @@
+[
+  {
+    "repo": "motion-canvas/motion-canvas",
+    "checked_at": "2026-10-21T17:13:07.249304+00:00",
+    "html_url": "https://github.com/motion-canvas/motion-canvas",
+    "archived": false,
+    "pushed_at": "2026-07-02T20:01:32Z",
+    "updated_at": "2026-10-21T17:13:04Z",
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Visualize Your Ideas With Code",
+    "head_sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+    "license_html_url": "https://github.com/motion-canvas/motion-canvas/blob/main/LICENSE",
+    "license_download_url": "https://raw.githubusercontent.com/motion-canvas/motion-canvas/main/LICENSE"
+  },
+  {
+    "repo": "motion-canvas/exporters",
+    "checked_at": "2026-10-21T17:13:09.017300+00:00",
+    "html_url": "https://github.com/motion-canvas/exporters",
+    "archived": false,
+    "pushed_at": "2023-05-13T12:58:08Z",
+    "updated_at": "2026-09-03T22:30:04Z",
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "The official exporters for Motion Canvas",
+    "head_sha": "f08e8e30d6bfb69da4b65d63c6acc3f209f98a4f",
+    "license_html_url": "https://github.com/motion-canvas/exporters/blob/main/LICENSE",
+    "license_download_url": "https://raw.githubusercontent.com/motion-canvas/exporters/main/LICENSE"
+  },
+  {
+    "repo": "ManimCommunity/manim",
+    "checked_at": "2026-10-21T17:13:10.552563+00:00",
+    "html_url": "https://github.com/ManimCommunity/manim",
+    "archived": false,
+    "pushed_at": "2026-10-20T14:37:33Z",
+    "updated_at": "2026-10-21T16:08:03Z",
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "A community-maintained Python framework for creating mathematical animations. ",
+    "head_sha": "3e19ee016fe602cbd7dee43e9b44907c7220b5b4",
+    "license_html_url": "https://github.com/ManimCommunity/manim/blob/main/LICENSE",
+    "license_download_url": "https://raw.githubusercontent.com/ManimCommunity/manim/main/LICENSE"
+  },
+  {
+    "repo": "remotion-dev/remotion",
+    "checked_at": "2026-10-21T17:13:11.904140+00:00",
+    "html_url": "https://github.com/remotion-dev/remotion",
+    "archived": false,
+    "pushed_at": "2026-10-21T17:08:11Z",
+    "updated_at": "2026-10-21T17:08:38Z",
+    "default_branch": "main",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "description": "🎥      Make videos programmatically with React",
+    "head_sha": "b17f52258972fc1e16c21561d6540e86ede88fb6",
+    "license_html_url": "https://github.com/remotion-dev/remotion/blob/main/LICENSE.md",
+    "license_download_url": "https://raw.githubusercontent.com/remotion-dev/remotion/main/LICENSE.md"
+  },
+  {
+    "repo": "Wicklets/wick-editor",
+    "checked_at": "2026-10-21T17:13:13.249927+00:00",
+    "html_url": "https://github.com/Wicklets/wick-editor",
+    "archived": false,
+    "pushed_at": "2023-03-06T16:32:41Z",
+    "updated_at": "2026-10-18T03:21:07Z",
+    "default_branch": "master",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "description": "A free and open-source tool for creating games, animations and everything in-between!",
+    "head_sha": "f34f0d9512d7165e74c1910ea1aba9173ab8dec2",
+    "license_html_url": "https://github.com/Wicklets/wick-editor/blob/master/LICENSE.md",
+    "license_download_url": "https://raw.githubusercontent.com/Wicklets/wick-editor/master/LICENSE.md"
+  },
+  {
+    "repo": "synfig/synfig",
+    "checked_at": "2026-10-21T17:13:15.037186+00:00",
+    "html_url": "https://github.com/synfig/synfig",
+    "archived": false,
+    "pushed_at": "2026-10-18T11:49:37Z",
+    "updated_at": "2026-10-21T14:41:31Z",
+    "default_branch": "master",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "description": "This is the Official source code repository of Synfig Studio animation software",
+    "head_sha": "029b45e4275c6356f1b698b5bb3bc4c323787cc9",
+    "license_html_url": "https://github.com/synfig/synfig/blob/master/LICENSE",
+    "license_download_url": "https://raw.githubusercontent.com/synfig/synfig/master/LICENSE"
+  },
+  {
+    "repo": "opentoonz/opentoonz",
+    "checked_at": "2026-10-21T17:13:16.607662+00:00",
+    "html_url": "https://github.com/opentoonz/opentoonz",
+    "archived": false,
+    "pushed_at": "2026-10-19T00:35:59Z",
+    "updated_at": "2026-10-21T12:24:43Z",
+    "default_branch": "master",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "description": "OpenToonz - An open-source full-featured 2D animation creation software",
+    "head_sha": "829d1f4cd4f517b43b191ebee03de65382a07ed9",
+    "license_html_url": "https://github.com/opentoonz/opentoonz/blob/master/LICENSE.txt",
+    "license_download_url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/LICENSE.txt"
+  },
+  {
+    "repo": "pencil2d/pencil",
+    "checked_at": "2026-10-21T17:13:18.058898+00:00",
+    "html_url": "https://github.com/pencil2d/pencil",
+    "archived": false,
+    "pushed_at": "2026-10-19T10:36:43Z",
+    "updated_at": "2026-10-21T00:47:50Z",
+    "default_branch": "master",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "description": "Pencil2D is an easy, intuitive tool to make 2D hand-drawn animations. Pencil2D is open source and cross-platform.",
+    "head_sha": "f953043ec2e6d6f393255718ac42c023958f8885",
+    "license_html_url": "https://github.com/pencil2d/pencil/blob/master/LICENSE.TXT",
+    "license_download_url": "https://raw.githubusercontent.com/pencil2d/pencil/master/LICENSE.TXT"
+  },
+  {
+    "repo": "matplotlib/matplotlib",
+    "checked_at": "2026-10-21T17:13:20.432773+00:00",
+    "html_url": "https://github.com/matplotlib/matplotlib",
+    "archived": false,
+    "pushed_at": "2026-10-21T03:51:16Z",
+    "updated_at": "2026-10-21T14:38:41Z",
+    "default_branch": "main",
+    "license": null,
+    "description": "matplotlib: plotting with Python",
+    "head_sha": "98dd0357aa1e6b9fd87148234d34c129167bb1cb",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repo": "liabru/matter-js",
+    "checked_at": "2026-10-21T17:13:21.785333+00:00",
+    "html_url": "https://github.com/liabru/matter-js",
+    "archived": false,
+    "pushed_at": "2026-09-30T17:14:46Z",
+    "updated_at": "2026-10-21T06:19:10Z",
+    "default_branch": "master",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "a 2D rigid body physics engine for the web ▲● ■",
+    "head_sha": "b8ee71cd7f9b49f53639ddaedd6254f1929bcbe5",
+    "license_html_url": "https://github.com/liabru/matter-js/blob/master/LICENSE",
+    "license_download_url": "https://raw.githubusercontent.com/liabru/matter-js/master/LICENSE"
+  }
+]

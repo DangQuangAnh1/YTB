@@ -1,0 +1,6 @@
+{
+ "stage":"scouting",
+ "current_task":{"id":"T-014","owner_role":"production","execution":"running"},
+ "next_action":"Ba nhiệm vụ dev đang tìm/đọc repo GitHub tương ứng comedy/action/explainer. Ba worker đã hoàn tất BA v1 và chuyển vai dev tuần tự, không phải sáu agent đồng thời. PM đã review BA v1 và yêu cầu comedy/explainer bổ sung v2. PM đăng ký artifact sau khi hoàn tất.",
+ "unresolved":["Comedic BA evidence còn metadata; chờ v2 bổ sung primary pages","Explainer BA cần tách video benchmark và interactive/comic; chờ v2","Repo chưa install/benchmark trên host; không coi đề xuất smoke-test là kết quả","Chưa có corpus đủ xác nhận nhu cầu VN hoặc video playback teardown"]
+}

@@ -1,0 +1,6 @@
+{
+ "stage":"planning",
+ "current_task":{"id":"T-009","owner_role":"production","execution":"complete"},
+ "next_action":"Present 5-frame comparison (artifacts/render/framewise-compare-v1/qa-framewise-v1.md). Recommended: render 100 frames for shinkai37 and wbc with subtitle paste, review playback and frame-difference flicker; then try flow-masked temporal blend. dctbg kept as the Apache-licensed option if colour can be corrected.",
+ "unresolved":["Anime look not accepted: no model gives clean line art plus cel shading","Temporal flicker not measured; no sequence rendered for new models","animegan-v3-cpu-v1 render: visual review and playback pending, outputs not registered","AnimeGAN/White-box noncommercial; DCT-Net bg Apache-2.0 but training-style rights not audited","Footage rights for ec15pSXc2Qg unverified; test is private technical only","Intel GPU acceleration (OpenVINO GPU/DirectML) not benchmarked","Converter quality remains incomplete; Chinese-source concept remains backlog"]
+}

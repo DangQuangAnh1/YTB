@@ -1,0 +1,6 @@
+{
+ "stage":"planning",
+ "current_task":{"id":"T-008","owner_role":"ba","execution":"complete"},
+ "next_action":"Present repo scan (research/repo-scan-after-animegan-v1.md). If user agrees: try AnimeGANv3 Shinkai_37/H40/H64 on 5 frames with existing script, then White-box Cartoonization ONNX and DCT-Net bg on the same 5 frames; subtitle masked and pasted back. Then flow-masked temporal blend on the winner. stable-diffusion.cpp CPU 1-frame test is the high-quality branch. Each model download needs confirmation.",
+ "unresolved":["animegan-v3-cpu-v1 render: visual review and playback pending, outputs not registered","No benchmark yet for White-box, DCT-Net bg, Scenimefy, temporal filters or stable-diffusion.cpp","AnimeGAN/White-box/Scenimefy noncommercial; DVP/Few-Shot have no license; only DCT-Net, vs_temporalfix, stable-diffusion.cpp code permit commercial","Footage rights for ec15pSXc2Qg unverified; test is private technical only","Intel acceleration (DirectML/OpenVINO/Vulkan) not verified on this machine","Converter quality remains incomplete; Chinese-source concept remains backlog"]
+}

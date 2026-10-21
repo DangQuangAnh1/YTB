@@ -1,0 +1,37 @@
+{
+  "model": "cartoon_anime_bg.pb",
+  "model_url": "https://www.modelscope.cn/models/iic/cv_unet_person-image-cartoon_compound-models/resolve/master/cartoon_anime_bg.pb",
+  "model_bytes": 5894895,
+  "model_sha256": "71efec51b4566cce3a3123822fb4e17794ad062c3e324b33f2a65df850c037ad",
+  "license": "ModelScope license field Apache License 2.0; DCT-Net code Apache-2.0; style/training-data rights not audited",
+  "runtime": "openvino 2026.4.1-22982-e213a147257-releases/2026/4",
+  "provider": [
+    "CPU"
+  ],
+  "layout": "HWC BGR float32 0-255 padded to 16 with 255, uint8 output",
+  "threads": 2,
+  "width": 640,
+  "height": 360,
+  "frames": [
+    0,
+    25,
+    50,
+    75,
+    99
+  ],
+  "load_seconds": 0.555,
+  "warmup_seconds": 0.443,
+  "frame_seconds": [
+    0.4887,
+    0.6163,
+    0.4764,
+    0.8699,
+    0.5756
+  ],
+  "median_seconds": 0.5756,
+  "output_range": [
+    28.0,
+    254.0
+  ],
+  "peak_working_set_mib": 336.3
+}

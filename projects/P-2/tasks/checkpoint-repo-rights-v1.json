@@ -1,0 +1,6 @@
+{
+ "stage":"planning",
+ "current_task":{"id":"T-005","owner_role":"pm","execution":"complete"},
+ "next_action":"Present repo comparison and copyright/reused-content distinctions. Next candidate test: official ebsynth CPU 3-image smoke test, prerequisite verified build/binary not yet available. Prefer owned or properly licensed source footage for a production direction.",
+ "unresolved":["No permission/license verified for ec15pSXc2Qg; no publication scope","No alternative repo inference benchmark yet","CPU EbSynth route requires verified executable/build prerequisites","Local diffusion CUDA hardware unavailable in verified host configuration","v1 visual QA remains failed"]
+}

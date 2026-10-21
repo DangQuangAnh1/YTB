@@ -1,0 +1,415 @@
+{
+  "adapter": "convert-anime-v2",
+  "backend": "official EbSynth sources with serial CPU compatibility build",
+  "input_sha256": "615081e2718b6f66f4d55536d144a33a2744a8fd921b8fbf9f775fd0464c023e",
+  "keyframes": [
+    {
+      "frame": 0,
+      "path": "projects/P-2/artifacts/cooking-pilot-v2/anime-000.png",
+      "sha256": "7ad986eefebaa7bb87123ac88d4f6f0f2984c4083256453a9b759cadeefdfe8c"
+    },
+    {
+      "frame": 50,
+      "path": "projects/P-2/artifacts/cooking-pilot-v1/anime-keyframe.png",
+      "sha256": "36f331878f3971fa77e9699257043b701dc101cf7e1d831e3a1ced1a1584bb35"
+    },
+    {
+      "frame": 99,
+      "path": "projects/P-2/artifacts/cooking-pilot-v2/anime-099.png",
+      "sha256": "abf098d921a29674a0cc35a2d6b54373b796aaa55d2831a3d78ed5e25cd88133"
+    }
+  ],
+  "binary_sha256": "6cf35a6a518a9f86a91591f226343fa50321172b6b18d4f43d7a9bfc0ef4a241",
+  "width": 320,
+  "height": 180,
+  "source_fps": 25.0,
+  "source_frames": 100,
+  "selected_frames": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96,
+    98
+  ],
+  "stride": 2,
+  "silent": true,
+  "args": {
+    "input": "projects/P-2/media/cooking-pilot-v1/input-4s.mp4",
+    "style": null,
+    "reference_frame": null,
+    "keyframes": "projects/P-2/artifacts/cooking-pilot-v2/keyframes.json",
+    "output_dir": "projects/P-2/artifacts/render/ebsynth-video-v2",
+    "backend": "projects/P-2/media/tools/ebsynth/serial-build/ebsynth.exe",
+    "width": 320,
+    "sample_frames": "",
+    "stride": 2,
+    "position_weight": 0.5,
+    "guide_mode": "position",
+    "max_frames": 300
+  },
+  "runtime_seconds": 114.988,
+  "frame_timings": [
+    {
+      "frame": 0,
+      "reference_frame": 0,
+      "seconds": 2.052,
+      "sha256": "c0c5243724c92cdcd0836405ffd9c1ee0499a4492728171e2a39a56a1c71651f"
+    },
+    {
+      "frame": 2,
+      "reference_frame": 0,
+      "seconds": 2.081,
+      "sha256": "e28b3f3af09ca28c213581cb6be476a848f620cf981f1dff5247841a04463ee2"
+    },
+    {
+      "frame": 4,
+      "reference_frame": 0,
+      "seconds": 1.964,
+      "sha256": "3aecc4ed7bb027273fff13b6e773b2e54d0289434cb55dd611e3c99f46141cfb"
+    },
+    {
+      "frame": 6,
+      "reference_frame": 0,
+      "seconds": 2.396,
+      "sha256": "acbe72a82cc8251962d60493c13b8bbed4ed312f60a0abe729ff2650346180f3"
+    },
+    {
+      "frame": 8,
+      "reference_frame": 0,
+      "seconds": 3.052,
+      "sha256": "1f7a5fb3d0941a6e39b20a5e993ca2d3007b50eebbe692e7fd74c87ea693f977"
+    },
+    {
+      "frame": 10,
+      "reference_frame": 0,
+      "seconds": 3.17,
+      "sha256": "bf994165919c85bd75f29648fec8a8bf4972e3ca97e93d8c8a2656a1bf73bab4"
+    },
+    {
+      "frame": 12,
+      "reference_frame": 0,
+      "seconds": 2.381,
+      "sha256": "87e4ad2324609ac8d70e2c44a3910b0a4c612f6c3c71dbe4c7b308e039effa52"
+    },
+    {
+      "frame": 14,
+      "reference_frame": 0,
+      "seconds": 2.604,
+      "sha256": "325d848f1ac506a18c5d7cb93d08687997df5a024e69182546814457e7bdf370"
+    },
+    {
+      "frame": 16,
+      "reference_frame": 0,
+      "seconds": 2.193,
+      "sha256": "67253fd359477d3c58bf861b08a9ce8d7e270befda0746c16cef7abebbf7d3f6"
+    },
+    {
+      "frame": 18,
+      "reference_frame": 0,
+      "seconds": 2.124,
+      "sha256": "c9fea8bde896d6a292fd8f8760c8391d325fbd297f6a59a8d9de4c7db0dc3f7c"
+    },
+    {
+      "frame": 20,
+      "reference_frame": 0,
+      "seconds": 2.148,
+      "sha256": "f7377e2ba311a05b954c21fbc09f1ab72dfda720e2a0560973b15a897424fa34"
+    },
+    {
+      "frame": 22,
+      "reference_frame": 0,
+      "seconds": 2.183,
+      "sha256": "74ebc49bd165649d91eed42d132eadcbb7055eee8f814fb2415ab83403e4ee1b"
+    },
+    {
+      "frame": 24,
+      "reference_frame": 0,
+      "seconds": 2.026,
+      "sha256": "bba830295ff50d7321ea797bc7a40a443d44db1f22056f1adea80bbe47e85ee6"
+    },
+    {
+      "frame": 26,
+      "reference_frame": 50,
+      "seconds": 1.86,
+      "sha256": "1bc0347f5f76f4456d7bdc74b22fcc92d2c1d61eb0674c70903e07c1ef227cb1"
+    },
+    {
+      "frame": 28,
+      "reference_frame": 50,
+      "seconds": 1.915,
+      "sha256": "d39c26984e92e25e57ed7ebce11c6d19da9bb6fb4fcca3c4fda387d127857f77"
+    },
+    {
+      "frame": 30,
+      "reference_frame": 50,
+      "seconds": 1.94,
+      "sha256": "8eff05c5436fdb524dcf366ed893e548058f57d1e1b753d7b91fc8188a398cb9"
+    },
+    {
+      "frame": 32,
+      "reference_frame": 50,
+      "seconds": 1.861,
+      "sha256": "ca11f76593eebb1e7552474c0085048a8401297c4b7775d2df077fb284ced42b"
+    },
+    {
+      "frame": 34,
+      "reference_frame": 50,
+      "seconds": 1.873,
+      "sha256": "fe8762eccdab9c471c2dbb792f016ad6ec5682b87aa26cb8441548c9394e5545"
+    },
+    {
+      "frame": 36,
+      "reference_frame": 50,
+      "seconds": 1.947,
+      "sha256": "934d739df612308c6c8bae2e60967f2a9b34d33c39197213569e0bb34cfa3056"
+    },
+    {
+      "frame": 38,
+      "reference_frame": 50,
+      "seconds": 1.899,
+      "sha256": "2263cf57b7bdf34b65d7b3950726814fe1fc97900e042310832a884ea73bf94e"
+    },
+    {
+      "frame": 40,
+      "reference_frame": 50,
+      "seconds": 1.841,
+      "sha256": "d2538bb29d5ce1d125fde09a2d53357928af070e9b3cbba1acf9784a6e45aabc"
+    },
+    {
+      "frame": 42,
+      "reference_frame": 50,
+      "seconds": 1.826,
+      "sha256": "b409d84ebfc05ae31caac9fa3cf3c99f48bf3f30de5fbea089017a143ccd23d5"
+    },
+    {
+      "frame": 44,
+      "reference_frame": 50,
+      "seconds": 1.901,
+      "sha256": "0ab6f773e4ff2c0ed86a3dc7bdf3c1f76d5987db6dda52acff7655957c2efb74"
+    },
+    {
+      "frame": 46,
+      "reference_frame": 50,
+      "seconds": 1.936,
+      "sha256": "9a3a2d189f62ebf7f981dafa14a41cef540dd5d284dce57cfc812f816a6a7d75"
+    },
+    {
+      "frame": 48,
+      "reference_frame": 50,
+      "seconds": 2.677,
+      "sha256": "7b7d3a982058750fef5bda79731230aea8a6fe8505424f99da91ecfc23676e75"
+    },
+    {
+      "frame": 50,
+      "reference_frame": 50,
+      "seconds": 2.143,
+      "sha256": "e00ccf19f9ce6d605bd7e96fa4b9266a1abdf75344d7f50dcc22a7fe7766ae11"
+    },
+    {
+      "frame": 52,
+      "reference_frame": 50,
+      "seconds": 1.956,
+      "sha256": "fb99097cacfc86599f93cbab1338cd873236a2e0a8c1056ef8fbf598ab1134c1"
+    },
+    {
+      "frame": 54,
+      "reference_frame": 50,
+      "seconds": 1.987,
+      "sha256": "91970517bf9d4e1d4aba1741ac1e2da15a19083b741d4c4fb60debb4133c70a5"
+    },
+    {
+      "frame": 56,
+      "reference_frame": 50,
+      "seconds": 1.915,
+      "sha256": "0b2bea2607c42c8a7c29d2890e7a0d04ba0c717f5d966d3eb16b0187f7038706"
+    },
+    {
+      "frame": 58,
+      "reference_frame": 50,
+      "seconds": 1.847,
+      "sha256": "6d8e71a0892b371034d0d8c2c14c4ae1e7600bdb3914d76fc44daa915ed860e5"
+    },
+    {
+      "frame": 60,
+      "reference_frame": 50,
+      "seconds": 2.107,
+      "sha256": "ea8b6d8f6c53c80ace8f0e75ca6305cb9730a3fb8e41a6cd062627fdace2a75e"
+    },
+    {
+      "frame": 62,
+      "reference_frame": 50,
+      "seconds": 1.952,
+      "sha256": "5adb12aa58b0beda6d10efa0e246a76e387d6124d84fbce34df40bb3452de019"
+    },
+    {
+      "frame": 64,
+      "reference_frame": 50,
+      "seconds": 1.969,
+      "sha256": "b0365af185dfb9a2fe2b928cbb28a981ed61930919f8c7239f37ffea2d286bf4"
+    },
+    {
+      "frame": 66,
+      "reference_frame": 50,
+      "seconds": 1.915,
+      "sha256": "c394a934889cbf5a77c451e1ba88bda9e8056b56937e5e659488aed809a4919f"
+    },
+    {
+      "frame": 68,
+      "reference_frame": 50,
+      "seconds": 1.961,
+      "sha256": "7a42948c5cc110efb76e8bfdbaf72c9a1610bd93c602ef98023ab69eae655dd1"
+    },
+    {
+      "frame": 70,
+      "reference_frame": 50,
+      "seconds": 2.315,
+      "sha256": "1d4abf8cb19a03e73c48101392f3e63bfe1ca3899e92e1000c2edad48532722f"
+    },
+    {
+      "frame": 72,
+      "reference_frame": 50,
+      "seconds": 2.738,
+      "sha256": "fcf7ea2a7cf7b9a70c6faa5c65e1419df09adde1598a69ba5e85bcdae0304b3c"
+    },
+    {
+      "frame": 74,
+      "reference_frame": 50,
+      "seconds": 2.152,
+      "sha256": "32374bbe0fdf3924d2e55f6b14e07d14eb5124cc6e794e5c519823a1a93b1116"
+    },
+    {
+      "frame": 76,
+      "reference_frame": 99,
+      "seconds": 2.037,
+      "sha256": "fbd0f9cb7bfd1368534a7702c41c1598b7c88c38f3a052691775ad7044718c32"
+    },
+    {
+      "frame": 78,
+      "reference_frame": 99,
+      "seconds": 1.993,
+      "sha256": "2a49d349d41ee26f98c51f36802c890926b88a56419bf1a9fc3bc6daee7c8380"
+    },
+    {
+      "frame": 80,
+      "reference_frame": 99,
+      "seconds": 2.428,
+      "sha256": "59cd93648f70c763d1388df5abaa2d835df8bb2d0285a5459942ff5ed51509e2"
+    },
+    {
+      "frame": 82,
+      "reference_frame": 99,
+      "seconds": 3.87,
+      "sha256": "61f4cd93274a1b403ba0c3a57d2ef535107b8f027a4eb4b81c8da1a98e0cd8cf"
+    },
+    {
+      "frame": 84,
+      "reference_frame": 99,
+      "seconds": 3.148,
+      "sha256": "eb5534f6b75181081dd7c2f7a06a3d53e1093e59ff7e2502044a2bc594ac1ffc"
+    },
+    {
+      "frame": 86,
+      "reference_frame": 99,
+      "seconds": 3.154,
+      "sha256": "a3513e1fd2a80ce119043b460f339982517405efa077f062dcb458e13b091f9f"
+    },
+    {
+      "frame": 88,
+      "reference_frame": 99,
+      "seconds": 2.617,
+      "sha256": "0700829345a886e6a1647dcce335b1deb8003221b1dc6d0e18f1ab0ead979b3d"
+    },
+    {
+      "frame": 90,
+      "reference_frame": 99,
+      "seconds": 2.471,
+      "sha256": "40d4870154de61bb975cb7ae322c96e51ccc116c84012c37fdd4df0d54b04ccd"
+    },
+    {
+      "frame": 92,
+      "reference_frame": 99,
+      "seconds": 2.457,
+      "sha256": "f095fc7f7fd475fd099859f61cfbcf58dae5ffa7079b0b3ed0271cdf099184c6"
+    },
+    {
+      "frame": 94,
+      "reference_frame": 99,
+      "seconds": 2.125,
+      "sha256": "76b26056b168126dc29c2c6e4276d02de80dc8f6a2a8343115c8aeba09195bb4"
+    },
+    {
+      "frame": 96,
+      "reference_frame": 99,
+      "seconds": 2.432,
+      "sha256": "311bf41f451359e9a59720540244adb04ecd2a583ca523bab5d535356d630664"
+    },
+    {
+      "frame": 98,
+      "reference_frame": 99,
+      "seconds": 2.116,
+      "sha256": "a58b94ba3bc18d80643416c831a4c122d7bb263309bfce0696a633e09c14ffce"
+    }
+  ],
+  "outputs": {
+    "anime.mp4": {
+      "decode_passed": true,
+      "sha256": "4b9ba6e21f8a1e22f9aac68f152a33a76b06a9962580f5031083919de33f43cc"
+    },
+    "comparison.mp4": {
+      "decode_passed": true,
+      "sha256": "abe8d6e1306843722c5e110c5917d561f99bb580021d8054dc4f54a0b2f78001"
+    }
+  },
+  "visual_qa": "not_reviewed",
+  "limitations": [
+    "Nearest-keyframe switching may cause appearance jumps",
+    "Missing regions may not be reconstructed faithfully",
+    "No generative video model inference",
+    "CPU serial output; framewise synthesis may flicker"
+  ]
+}

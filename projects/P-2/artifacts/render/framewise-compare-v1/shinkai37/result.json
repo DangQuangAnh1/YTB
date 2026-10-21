@@ -1,0 +1,37 @@
+{
+  "model": "AnimeGANv3_Shinkai_37.onnx",
+  "model_url": "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.1.0/AnimeGANv3_Shinkai_37.onnx",
+  "model_bytes": 4233084,
+  "model_sha256": "8dc4d789c44db472447806583c56809e155280225b991bd79f9e2cb20793dcb9",
+  "license": "Official AnimeGANv3 noncommercial terms; private technical test only, no publishing permission inferred",
+  "runtime": "onnxruntime 1.31.0",
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "layout": "NHWC RGB float32 [-1,1]",
+  "threads": 2,
+  "width": 640,
+  "height": 360,
+  "frames": [
+    0,
+    25,
+    50,
+    75,
+    99
+  ],
+  "load_seconds": 0.372,
+  "warmup_seconds": 1.323,
+  "frame_seconds": [
+    1.6427,
+    1.7441,
+    1.5014,
+    1.3867,
+    1.2651
+  ],
+  "median_seconds": 1.5014,
+  "output_range": [
+    -0.9939895272254944,
+    0.9616010785102844
+  ],
+  "peak_working_set_mib": 515.6
+}

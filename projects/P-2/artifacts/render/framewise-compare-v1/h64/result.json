@@ -1,0 +1,37 @@
+{
+  "model": "animeganv3_H64_model0.onnx",
+  "model_url": "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.0.3/animeganv3_H64_model0.onnx",
+  "model_bytes": 4232978,
+  "model_sha256": "420d75c3a990769261a5632fd16ded2d2d71c6933409d25380213c742ff90176",
+  "license": "Official AnimeGANv3 noncommercial terms; private technical test only, no publishing permission inferred",
+  "runtime": "onnxruntime 1.31.0",
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "layout": "NHWC RGB float32 [-1,1]",
+  "threads": 2,
+  "width": 640,
+  "height": 360,
+  "frames": [
+    0,
+    25,
+    50,
+    75,
+    99
+  ],
+  "load_seconds": 0.206,
+  "warmup_seconds": 0.948,
+  "frame_seconds": [
+    1.1183,
+    1.3949,
+    1.6978,
+    1.5852,
+    1.5434
+  ],
+  "median_seconds": 1.5434,
+  "output_range": [
+    -0.9746952652931213,
+    0.8911216259002686
+  ],
+  "peak_working_set_mib": 506.8
+}

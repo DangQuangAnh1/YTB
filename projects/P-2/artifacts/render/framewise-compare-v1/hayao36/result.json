@@ -1,0 +1,37 @@
+{
+  "model": "AnimeGANv3_Hayao_36.onnx",
+  "model_url": "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.1.0/AnimeGANv3_Hayao_36.onnx",
+  "model_bytes": 4232723,
+  "model_sha256": "95ba7b219073fd5b12f569bc38056ffd3019cf4caf15b1feb9f73d1286c9f69d",
+  "license": "Official AnimeGANv3 noncommercial terms; private technical test only, no publishing permission inferred",
+  "runtime": "onnxruntime 1.31.0",
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "layout": "NHWC RGB float32 [-1,1]",
+  "threads": 2,
+  "width": 640,
+  "height": 360,
+  "frames": [
+    0,
+    25,
+    50,
+    75,
+    99
+  ],
+  "load_seconds": 0.316,
+  "warmup_seconds": 1.167,
+  "frame_seconds": [
+    1.5512,
+    2.1079,
+    2.6023,
+    2.1195,
+    1.799
+  ],
+  "median_seconds": 2.1079,
+  "output_range": [
+    -0.9847584366798401,
+    0.9037783741950989
+  ],
+  "peak_working_set_mib": 506.2
+}

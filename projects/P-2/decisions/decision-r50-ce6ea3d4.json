@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "research/repo-scan-after-animegan-v1.md",
+  "excerpt": "Thử AnimeGANv3 Shinkai/H40/H64, White-box ONNX và DCT-Net bg trên 5 frame 0/25/50/75/99, mask và dán lại phụ đề, so contact với Hayao_36. Cho phép tải các model nhỏ này.",
+  "plan": {
+    "path": "plans/plan-v2-r27-dac4057b.md",
+    "sha256": "25f579786f604d10779792ec1adb59c86c6dee7ea926cb3b8c20522c6ee133ef",
+    "revision": 2
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-20T16:53:35.471863+00:00"
+}

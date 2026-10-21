@@ -1,0 +1,35 @@
+{
+  "artifact_ids": [
+    "A-065",
+    "A-066"
+  ],
+  "reviewer": "root Content/PM",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Pilot C1 hài người que original, 28s, có escalation và payoff; chỉ triển khai dạng hài theo plan v6.",
+      "evidence_path": "artifacts/content/comedy-c1-storyboard-v1.md"
+    },
+    {
+      "name": "source_accuracy",
+      "status": "passed",
+      "detail": "Nội dung hư cấu, không claim factual hoặc sao chép tác phẩm; inputs BA được ghi lineage.",
+      "evidence_path": "artifacts/content/comedy-c1-script-v1.json"
+    },
+    {
+      "name": "story_coherence",
+      "status": "passed",
+      "detail": "Mỗi lần defer tạo hộp; dọn hộp và nghỉ ngơi trở thành việc bị defer cuối. Có hai khoảng hesitation/reaction; video output cần kiểm lại timing thực.",
+      "evidence_path": "artifacts/content/comedy-c1-storyboard-v1.md"
+    }
+  ],
+  "note": "Chỉ self-review script/storyboard, không video QA hoặc audience test.",
+  "artifact_hashes": {
+    "A-065": "27bd95d7196f67d20d201aff04065dc67f2eb47343fb3dad54ffe1b4e0da17cb",
+    "A-066": "d52123f48e6a5fe44f65dc08e0399efb2d1c46fa425409da7fe4d9a3cdc04147"
+  },
+  "verdict": "passed",
+  "recorded_at": "2026-10-21T17:41:42.624337+00:00"
+}

@@ -1,0 +1,6 @@
+{
+ "stage":"production",
+ "current_task":{"id":"T-006","owner_role":"production","execution":"running"},
+ "next_action":"Continue converter quality work from actual EbSynth CPU baseline and failed smoke tests; need geometry/occlusion strategy before more full sequence renders. Chinese source idea remains backlog; do not scout or publish.",
+ "unresolved":["Converter not quality-complete: intermediate poses still smear hands/knife","Nearest-keyframe switches and inconsistent subtitle not solved","No new temporal playback benchmark","GPU diffusion route not available in verified local host; no paid/cloud scope","Backend executable needs rebuild from provenance on another machine"]
+}

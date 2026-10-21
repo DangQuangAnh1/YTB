@@ -1,0 +1,62 @@
+{
+  "adapter": "render-framewise-video-v1",
+  "model": "AnimeGANv3_Shinkai_37.onnx",
+  "model_url": "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.1.0/AnimeGANv3_Shinkai_37.onnx",
+  "model_sha256": "8dc4d789c44db472447806583c56809e155280225b991bd79f9e2cb20793dcb9",
+  "license": "Official AnimeGANv3 noncommercial terms; private technical test only, no publishing permission inferred",
+  "runtime": "onnxruntime 1.31.0",
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "layout": "NHWC RGB float32 [-1,1]",
+  "threads": 4,
+  "input": "ec15pSXc2Qg 148.0–158.0s, existing private test source",
+  "source_sha256": "0b3afd12044187b6de5cdce37627ad2bd0f57168bc8d572631734c24a50cdbad",
+  "first_frame": 3700,
+  "width": 640,
+  "height": 360,
+  "fps": 25.0,
+  "frames": 250,
+  "duration_seconds": 10.0,
+  "silent": true,
+  "runtime_seconds": 202.46,
+  "median_inference_seconds": 0.7794160000048578,
+  "p95_inference_seconds": 0.8866832149913535,
+  "subtitle": {
+    "frames_with_box": 118,
+    "first": 0,
+    "last": 117,
+    "rule": "per-frame G-R>12, G-B>35, lower third, wide filled box, margin 2px, 5px feather"
+  },
+  "static_flicker": {
+    "output_mean": 0.30396068395380993,
+    "output_p95": 0.5401718616485593,
+    "source_mean": 0.06901237592250707,
+    "still_fraction_mean": 0.8691462028670236,
+    "definition": "mean |gray(t)-gray(t-1)| (0-255) over pixels where source changes <2, subtitle boxes excluded"
+  },
+  "samples": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    249
+  ],
+  "outputs": {
+    "anime.mp4": {
+      "decode_passed": true,
+      "sha256": "9ca04e5589001175167db1047bdff0b84fb798aa8f31f3ef3aa859113b0f88a3"
+    },
+    "comparison.mp4": {
+      "decode_passed": true,
+      "sha256": "7de9fe3705e8672affe80246dec568120688dcad8c5d2e976880667949aba05a"
+    }
+  },
+  "visual_review": "pending",
+  "limits": [
+    "Framewise GAN, no temporal consistency model",
+    "Static-pixel metric does not measure flicker on moving hands",
+    "No new cloud upload or paid service"
+  ]
+}
