@@ -23,6 +23,21 @@ class Records(unittest.TestCase):
     def state(self):
         return agency.load_state(self.project)
 
+    def test_child_projects_are_independent_and_do_not_break_allocation(self):
+        first = agency.initialize(self.root, "Comedy", "Child scope", parent=self.id)
+        second = agency.initialize(self.root, "Action", "Other scope", parent=self.id)
+        self.assertEqual(first['project_id'], "P-1.1")
+        self.assertEqual(second['project_id'], "P-1.2")
+        child = agency.project_path(self.root, first['project_id'])
+        self.assertEqual(agency.load_state(child)['approval']['status'], "pending")
+        self.assertEqual(agency.context_pack(self.root, first['project_id'])['required']['project_id'], "P-1.1")
+        self.assertEqual(agency.initialize(self.root, "Next", "Top level")['project_id'], "P-2")
+        with self.assertRaises(agency.AgencyError):
+            agency.initialize(self.root, "Nested", "Unsupported", parent="P-1.1")
+        with self.assertRaises(agency.AgencyError):
+            agency.initialize(self.root, "Missing", "Unsupported", parent="P-99")
+        self.assertEqual(self.state()['revision'], 1)
+
     def write(self, relative, content):
         path = self.project / relative
         path.parent.mkdir(parents=True, exist_ok=True)

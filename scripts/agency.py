@@ -99,7 +99,7 @@ def inside(project, relative):
 
 
 def project_path(root, project_id):
-    require(isinstance(project_id, str) and re.fullmatch(r"P-[1-9][0-9]*", project_id), "Invalid project ID")
+    require(isinstance(project_id, str) and re.fullmatch(r"P-[1-9][0-9]*(?:\.[1-9][0-9]*)?", project_id), "Invalid project ID")
     project = root / "projects" / project_id
     require(not (root / "projects").is_symlink(), "Registry directory must not be a symlink")
     require(project.is_dir() and not project.is_symlink(), "Project does not exist or is a symlink")
@@ -261,7 +261,7 @@ def commit_state(project, state):
     return {"state_committed": True, "handoff_updated": True}
 
 
-def initialize(root, name, description):
+def initialize(root, name, description, parent=None):
     text(name, "name", 200)
     text(description, "description")
     projects = root / "projects"
@@ -271,8 +271,16 @@ def initialize(root, name, description):
         index_path = projects / "INDEX.json"
         index = read_json(index_path) if index_path.exists() else {"schema_version": 1, "projects": []}
         numbers = [int(p.name[2:]) for p in projects.iterdir() if re.fullmatch(r"P-[1-9][0-9]*", p.name)]
-        numbers += [int(r["id"][2:]) for r in index["projects"]]
-        project_id = "P-" + str(max(numbers, default=0) + 1)
+        numbers += [int(r["id"][2:]) for r in index["projects"] if re.fullmatch(r"P-[1-9][0-9]*", r["id"])]
+        if parent is not None:
+            require(re.fullmatch(r"P-[1-9][0-9]*", parent), "Parent must be a top-level project")
+            load_state(project_path(root, parent))
+            child_pattern = re.escape(parent) + r"\.([1-9][0-9]*)"
+            child_ids = [p.name for p in projects.iterdir()] + [r["id"] for r in index["projects"]]
+            children = [int(m.group(1)) for value in child_ids if (m := re.fullmatch(child_pattern, value))]
+            project_id = parent + "." + str(max(children, default=0) + 1)
+        else:
+            project_id = "P-" + str(max(numbers, default=0) + 1)
         project = projects / project_id
         project.mkdir()
         state = {
@@ -517,6 +525,7 @@ def main():
     init = commands.add_parser("init")
     init.add_argument("--name", required=True)
     init.add_argument("--description", required=True)
+    init.add_argument("--parent", help="Create a child of an existing top-level project, e.g. P-2.1")
     for name in ("check", "resume", "context", "checkpoint", "plan", "decision", "artifact", "review", "usage", "recover"):
         sub = commands.add_parser(name)
         sub.add_argument("project")
