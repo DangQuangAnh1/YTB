@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-1",
-  "revision": 362,
+  "revision": 363,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "stage": "planning",
   "constraints": [
@@ -2938,6 +2938,15 @@
       ],
       "plan_revision": 8,
       "created_at": "2026-10-21T17:07:54.794866+00:00"
+    },
+    {
+      "path": "research/scout-2026-10-22-20-10-v1.md",
+      "sha256": "d386480ffc527a6300f44ef4d172b8b27c08ab57d95777120b14e52137d31868",
+      "id": "A-272",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T13:45:01.687892+00:00"
     }
   ],
   "reviews": [
@@ -3509,7 +3518,7 @@
     "available": false
   },
   "created_at": "2026-10-16T07:42:46.989392+00:00",
-  "updated_at": "2026-10-21T17:07:54.794880+00:00",
+  "updated_at": "2026-10-22T13:45:01.687926+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r55-07b5f2fc.json",
