@@ -1,0 +1,27 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "frames": 900,
+  "fps": "60/1",
+  "duration": "15.000000",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate": "48000",
+  "audio": "original procedural SFX and music; levels checked numerically only",
+  "fullDecodePassed": true,
+  "encodedFramesSampled": [
+    0,
+    60,
+    135,
+    205,
+    300,
+    480,
+    567,
+    590,
+    650,
+    700,
+    800,
+    899
+  ],
+  "review": "self-review; user acceptance pending"
+}

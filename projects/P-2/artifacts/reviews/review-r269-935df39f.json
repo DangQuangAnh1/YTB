@@ -1,0 +1,39 @@
+{
+  "artifact_ids": [
+    "A-162"
+  ],
+  "reviewer": "Separate Codex review agent; sampled encoded-output inspection",
+  "mode": "independent_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "3s original black/red silent curve-motion technical proof; no reference-parity claim.",
+      "evidence_path": "tasks/agent-review-soft-line-motion-v1.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "failed",
+      "detail": "Curved stroke visible but hip continuity, guard silhouette, repetitive extension and weight/head action need correction; sampled45 ordered frames, continuous playback unverified.",
+      "evidence_path": "tasks/agent-review-soft-line-motion-v1.md"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "Independent full FFmpeg decode exit0/empty stderr;90frames,3s,30fps,1280x720.",
+      "evidence_path": "tasks/agent-review-soft-line-motion-v1.md"
+    },
+    {
+      "name": "audio_review",
+      "status": "passed",
+      "detail": "Intentional silence verified by actual ffprobe video-only stream; no audio mix/listening judgment.",
+      "evidence_path": "tasks/agent-review-soft-line-motion-v1.md"
+    }
+  ],
+  "note": "Independent means separate agent only, not human acceptance. Review only, no repairs. Revise3s proof before extending15s. Prior reference research read; YouTube not newly inspected.",
+  "artifact_hashes": {
+    "A-162": "7281c9e8d03c7f4236fdb2b3aa40d57af05647a9b96aefc12c7c3158cf672798"
+  },
+  "verdict": "needs_revision",
+  "recorded_at": "2026-10-22T06:39:50.632257+00:00"
+}

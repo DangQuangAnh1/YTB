@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
   "project_id": "P-2",
-  "revision": 256,
+  "revision": 299,
   "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
-  "stage": "scouting",
+  "stage": "review",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
     "No channel creation or publishing in v0"
   ],
   "current_task": {
-    "id": "T-036",
-    "owner_role": "ba",
+    "id": "T-038",
+    "owner_role": "review",
     "execution": "complete"
   },
   "plan": {
-    "path": "plans/plan-v16-r236-0f4f2004.md",
-    "sha256": "ee09d06d4ccdaeb6503e6c1ed58b43af9af3afa3415ac7ef34193f44853da0c8",
-    "revision": 16
+    "path": "plans/plan-v20-r285-8683d79a.md",
+    "sha256": "3debc3f732318e7f264a5ed310086c7f94f2942691abddef1ab79d901a5636ad",
+    "revision": 20
   },
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r237-a6d99047.json",
-      "sha256": "69e91a95382f1b90e912b38743d5c0910b5f9b123d47d5f20eebdf6d64d2ff2c"
+      "path": "decisions/decision-r286-29c1bde6.json",
+      "sha256": "49e81a835f94b89b5edfe7abe75f69ef73f50a1b68bc11ef12d9e9c7d6814510"
     }
   },
   "decision_records": [
@@ -105,6 +105,22 @@
     {
       "path": "decisions/decision-r237-a6d99047.json",
       "sha256": "69e91a95382f1b90e912b38743d5c0910b5f9b123d47d5f20eebdf6d64d2ff2c"
+    },
+    {
+      "path": "decisions/decision-r258-f29c2691.json",
+      "sha256": "59cbeac9a3d21816db0bad04b03a638388b0b75f9439efabf2dcd8d68b757266"
+    },
+    {
+      "path": "decisions/decision-r272-9e2cafb5.json",
+      "sha256": "f6b59bd5d1e5655bef60553648f78d2bb915f2907eea168c319225d9da3dd3eb"
+    },
+    {
+      "path": "decisions/decision-r274-1edf36ec.json",
+      "sha256": "50fc67aa7658333b151b9fa0f16e510f50eb71bab09c00f5b376f5eb4c9f6deb"
+    },
+    {
+      "path": "decisions/decision-r286-29c1bde6.json",
+      "sha256": "49e81a835f94b89b5edfe7abe75f69ef73f50a1b68bc11ef12d9e9c7d6814510"
     }
   ],
   "artifacts": [
@@ -1806,6 +1822,266 @@
       ],
       "plan_revision": 16,
       "created_at": "2026-10-22T05:24:09.025373+00:00"
+    },
+    {
+      "path": "artifacts/content/soft-line-motion-storyboard-v1.md",
+      "sha256": "9f5e6eefb4b379c417c339267abaf68add6225abe97ec71430d3ac123661b9e0",
+      "id": "A-161",
+      "kind": "storyboard",
+      "inputs": [
+        "A-158",
+        "A-150"
+      ],
+      "plan_revision": 17,
+      "created_at": "2026-10-22T05:28:23.842042+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v1/draft.mp4",
+      "sha256": "7281c9e8d03c7f4236fdb2b3aa40d57af05647a9b96aefc12c7c3158cf672798",
+      "id": "A-162",
+      "kind": "video",
+      "inputs": [
+        "A-161"
+      ],
+      "plan_revision": 17,
+      "created_at": "2026-10-22T05:29:46.111886+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v1/manifest.json",
+      "sha256": "161b658fb59b359a1cd0500186deb30df9c7b4afca38f3dc62bd5b62a56b554a",
+      "id": "A-163",
+      "kind": "metadata",
+      "inputs": [
+        "A-161"
+      ],
+      "plan_revision": 17,
+      "created_at": "2026-10-22T05:29:46.311844+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v1/curve-validation.json",
+      "sha256": "c7d5902344727aed5ce321a5dc88b370718b15ebebe8b57d0ed3d5bb2a2316ee",
+      "id": "A-164",
+      "kind": "other",
+      "inputs": [
+        "A-161"
+      ],
+      "plan_revision": 17,
+      "created_at": "2026-10-22T05:29:46.505984+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v1/technical-qa.json",
+      "sha256": "8f3fec641ffbfc48103c33b30818d576b8e3d83a3a0ff77e9bd040718dc47c2b",
+      "id": "A-165",
+      "kind": "other",
+      "inputs": [
+        "A-161"
+      ],
+      "plan_revision": 17,
+      "created_at": "2026-10-22T05:29:46.706270+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v1/contact-sheet.jpg",
+      "sha256": "28244f8ddb2c78e9a76d19250b4aab252843d205d2b1e093e3075ed0009f2749",
+      "id": "A-166",
+      "kind": "image",
+      "inputs": [
+        "A-161"
+      ],
+      "plan_revision": 17,
+      "created_at": "2026-10-22T05:29:46.900973+00:00"
+    },
+    {
+      "path": "tasks/review-soft-line-motion-v1.md",
+      "sha256": "40a5260d27390ba20b9b2b54a4a9664a790100654cf38d7a06f1bcc303a09793",
+      "id": "A-167",
+      "kind": "other",
+      "inputs": [
+        "A-161"
+      ],
+      "plan_revision": 17,
+      "created_at": "2026-10-22T05:29:47.096318+00:00"
+    },
+    {
+      "path": "tasks/agent-review-soft-line-motion-v1.md",
+      "sha256": "97e65c1c46b9e4ae7e2c1cc9a162ec6a95ff124b769b9c2bc4bca37b56091c59",
+      "id": "A-168",
+      "kind": "other",
+      "inputs": [
+        "A-162"
+      ],
+      "plan_revision": 17,
+      "created_at": "2026-10-22T06:39:50.428374+00:00"
+    },
+    {
+      "path": "artifacts/content/soft-line-motion-storyboard-v2.md",
+      "sha256": "bc8b71853f951a82f7ef48cf1b334451a1cebae8bcdae453fb35e8bb38852712",
+      "id": "A-169",
+      "kind": "storyboard",
+      "inputs": [],
+      "plan_revision": 19,
+      "created_at": "2026-10-22T07:23:58.154454+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v2/draft.mp4",
+      "sha256": "5a6554563035b755b0379339f5f890d4bf557afd9837fce0027a47906523649b",
+      "id": "A-170",
+      "kind": "video",
+      "inputs": [],
+      "plan_revision": 19,
+      "created_at": "2026-10-22T07:23:58.360264+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v2/manifest.json",
+      "sha256": "dde01d842c6ee479b7289023a13f4f00806160e1ead5ba70b9f8ad372a293f91",
+      "id": "A-171",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 19,
+      "created_at": "2026-10-22T07:23:58.566069+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v2/curve-validation.json",
+      "sha256": "0d8eaf3bd58b81c15e572064f53f5d7991702ba4536a3c279be069b3d34663f1",
+      "id": "A-172",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 19,
+      "created_at": "2026-10-22T07:23:58.772795+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v2/technical-qa.json",
+      "sha256": "8f3fec641ffbfc48103c33b30818d576b8e3d83a3a0ff77e9bd040718dc47c2b",
+      "id": "A-173",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 19,
+      "created_at": "2026-10-22T07:23:58.982461+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v2/contact-sheet.jpg",
+      "sha256": "9c3e5f0824783919867e22d6e5fde2e1ab55febccd1e281d3cb267f2c5229c59",
+      "id": "A-174",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 19,
+      "created_at": "2026-10-22T07:23:59.190822+00:00"
+    },
+    {
+      "path": "artifacts/render/soft-line-motion-v2/sequence-sheet.jpg",
+      "sha256": "1b2d5af6e8a0490452d57ebf9fa710c56f1bdfaf95d112fab621066ff0dab8db",
+      "id": "A-175",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 19,
+      "created_at": "2026-10-22T07:23:59.403133+00:00"
+    },
+    {
+      "path": "tasks/review-soft-line-motion-v2.md",
+      "sha256": "593b973fa13228e65059fe9b73e53a828c4fe8d92a70086559fd7190e9ac5b34",
+      "id": "A-176",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 19,
+      "created_at": "2026-10-22T07:23:59.621536+00:00"
+    },
+    {
+      "path": "artifacts/content/final-counter-script-v2.md",
+      "sha256": "908dd04c5d0a79c71f4f8aa716f13521f10db92954a0b6f385f63d6a762bf926",
+      "id": "A-177",
+      "kind": "storyboard",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:13.699827+00:00"
+    },
+    {
+      "path": "artifacts/content/final-counter-storyboard-v1.md",
+      "sha256": "8727cdae1065c2a0b395de8efd36c2c2585263d9aa437422e69061ae4a7652a3",
+      "id": "A-178",
+      "kind": "storyboard",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:13.902370+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/final-counter.mp4",
+      "sha256": "1069cb61a15094dbeb87c176fbc1b928a3c1b7f64625db6a81198245cb572983",
+      "id": "A-179",
+      "kind": "video",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:14.126456+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/original-audio.wav",
+      "sha256": "5eb5757dfe3caad96e761302551cb790790bf1fb8dc273fc2929097b40e513be",
+      "id": "A-180",
+      "kind": "audio",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:14.398441+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/manifest.json",
+      "sha256": "2de60753ea5a43dc659fc6c0701e03e8a2c84aa6ada4a2fda809490ff1a91930",
+      "id": "A-181",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:14.650575+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/audio-provenance.json",
+      "sha256": "6b3df665c5d21ae22c3d3bb3c19c5a7acbf834683ab2c821950740ced51f02cb",
+      "id": "A-182",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:14.902196+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/curve-validation.json",
+      "sha256": "6e4f7431b6ae32aea670da9ef1cced59c67a0d2cafa9d3a330d6c34a34483a2a",
+      "id": "A-183",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:15.157539+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/technical-qa.json",
+      "sha256": "fdbfe66f15b848b2503574b4dd7687d4aa74907c4026f44f314fe99c35c6000a",
+      "id": "A-184",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:15.412250+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/contact-sheet.jpg",
+      "sha256": "a84168c2aca7ec647859957224ba36127c443a28cabb3c77431d84a10f58db54",
+      "id": "A-185",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:15.665544+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/sequence-sheet.jpg",
+      "sha256": "d9ee5008ab17f044a6e0964dda447845f2882ea5064da8747cc535ad748e6345",
+      "id": "A-186",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:15.919916+00:00"
+    },
+    {
+      "path": "tasks/review-final-counter-v1.md",
+      "sha256": "44fd7cbdab303a82af92bda0e2ec07f8b3e7ad465e64dde08c0efa64b1fa7aa4",
+      "id": "A-187",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 20,
+      "created_at": "2026-10-22T08:42:16.173643+00:00"
     }
   ],
   "reviews": [
@@ -2213,17 +2489,83 @@
         }
       ],
       "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r269-935df39f.json",
+      "sha256": "75bfdaef58a55e2ce1f8a314e8a1e453f9608c6a84ca45521a6a64a174b09d50",
+      "artifact_ids": [
+        "A-162"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/agent-review-soft-line-motion-v1.md",
+          "sha256": "97e65c1c46b9e4ae7e2c1cc9a162ec6a95ff124b769b9c2bc4bca37b56091c59"
+        },
+        {
+          "path": "tasks/agent-review-soft-line-motion-v1.md",
+          "sha256": "97e65c1c46b9e4ae7e2c1cc9a162ec6a95ff124b769b9c2bc4bca37b56091c59"
+        },
+        {
+          "path": "tasks/agent-review-soft-line-motion-v1.md",
+          "sha256": "97e65c1c46b9e4ae7e2c1cc9a162ec6a95ff124b769b9c2bc4bca37b56091c59"
+        },
+        {
+          "path": "tasks/agent-review-soft-line-motion-v1.md",
+          "sha256": "97e65c1c46b9e4ae7e2c1cc9a162ec6a95ff124b769b9c2bc4bca37b56091c59"
+        }
+      ],
+      "verdict": "needs_revision"
+    },
+    {
+      "path": "artifacts/reviews/review-r283-11c27461.json",
+      "sha256": "37d7753e3b22b27ba73ac03b582b2695840711714a8064405124cf3c24524c5e",
+      "artifact_ids": [
+        "A-170"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-soft-line-motion-v2.md",
+          "sha256": "593b973fa13228e65059fe9b73e53a828c4fe8d92a70086559fd7190e9ac5b34"
+        },
+        {
+          "path": "artifacts/render/soft-line-motion-v2/technical-qa.json",
+          "sha256": "8f3fec641ffbfc48103c33b30818d576b8e3d83a3a0ff77e9bd040718dc47c2b"
+        },
+        {
+          "path": "artifacts/render/soft-line-motion-v2/technical-qa.json",
+          "sha256": "8f3fec641ffbfc48103c33b30818d576b8e3d83a3a0ff77e9bd040718dc47c2b"
+        }
+      ],
+      "verdict": "needs_revision"
+    },
+    {
+      "path": "artifacts/reviews/review-r298-ff5bd70f.json",
+      "sha256": "99fadb22262e69e69fd038c8e106572d5ad585a47892a5771d6fe3a4efdaa737",
+      "artifact_ids": [
+        "A-179"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-final-counter-v1.md",
+          "sha256": "44fd7cbdab303a82af92bda0e2ec07f8b3e7ad465e64dde08c0efa64b1fa7aa4"
+        },
+        {
+          "path": "artifacts/render/final-counter-v1/technical-qa.json",
+          "sha256": "fdbfe66f15b848b2503574b4dd7687d4aa74907c4026f44f314fe99c35c6000a"
+        }
+      ],
+      "verdict": "unverified"
     }
   ],
-  "acceptance": "not_reviewed",
+  "acceptance": "unverified",
   "release": "not_requested",
-  "next_action": "Research delivered in A-158 with executable static source proof A-159 and project lesson A-160. Proposed next step is a 2-3 second original soft-linework motion proof before a new 15-second draft; latest request authorized research after push, so no new film rendered.",
+  "next_action": "final-counter-v1 (A-179, 15s 9:16 60fps with procedural music/SFX) delivered to the user with a self-review verdict unverified. Wait for the user's viewing, listening and feedback. Optional next steps they may choose: swap in better music in Canva or CapCut (uploading to Canva needs their per-action OK), restore the cut sweep kick or combo, make a horizontal version, or move to the per-scene script format. No publishing or channel action.",
   "unresolved": [
-    "V2 not creatively accepted: user finds linework stiff",
-    "Reference authoring software and exact original workflow are unverified",
-    "Static curve proof verifies source integration only; animation, contact and temporal contour stability remain untested",
-    "Continuous human listening of v2 unverified",
-    "Historical missing media remains under recovery receipt; ignored media/runtimes do not travel with Git"
+    "User creative acceptance of final-counter-v1 pending; continuous playback and listening unverified",
+    "Sweep kick and four-hit combo from the user's script were cut; roundhouse reads as a high front kick; close exchanges overlap",
+    "Procedural music and SFX are basic; user may replace them with licensed tracks",
+    "OpenMontage is AGPL-3.0 (external ignored checkout only); CMU terms read via mirror; user plans to monetize in 6-12 months, so re-check Remotion, GSAP and CMU terms before earning",
+    "All P-2 work since commit a968eaf is uncommitted on branch p2/soft-line-motion-v2; commit a968eaf itself is still unpushed"
   ],
   "usage": {
     "input_tokens": 0,
@@ -2234,7 +2576,7 @@
     "available": false
   },
   "created_at": "2026-10-20T13:51:37.871764+00:00",
-  "updated_at": "2026-10-22T05:25:17.076573+00:00",
+  "updated_at": "2026-10-22T08:42:47.681340+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r214-9325629d.json",

@@ -1,0 +1,46 @@
+{
+  "frames": 900,
+  "fps": 60,
+  "allFinite": true,
+  "reverseSeekDeterminism": true,
+  "outDurationSeconds": 15,
+  "contacts": [
+    {
+      "kind": "punch",
+      "outT": 2.25,
+      "distanceToNearestVictimJoint": 12.6
+    },
+    {
+      "kind": "block",
+      "outT": 3.417,
+      "distanceToNearestVictimJoint": 24.7
+    },
+    {
+      "kind": "block",
+      "outT": 4.967,
+      "distanceToNearestVictimJoint": 12
+    },
+    {
+      "kind": "final",
+      "outT": 9.45,
+      "distanceToNearestVictimJoint": 12.5
+    }
+  ],
+  "nearMisses": [
+    {
+      "name": "jab1",
+      "fistToHeadSurface": 14.9
+    },
+    {
+      "name": "jab2",
+      "fistToHeadSurface": 111.7
+    },
+    {
+      "name": "slowmo lunge",
+      "fistToHeadSurface": 13.9
+    }
+  ],
+  "largestJointStepWorldUnitsPerFrame": 53.5,
+  "largestStepFrame": 570,
+  "note": "The largest step is expected at the launch; numeric checks only, no combat realism or user acceptance."
+}

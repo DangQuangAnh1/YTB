@@ -31,3 +31,9 @@ projects/**/artifacts/render/**/C
 /.cache/
 /projects/P-2/production/black-red-duel-v2/node_modules
 /projects/P-2/production/black-red-duel-v2/.cache/
+/projects/P-2/production/soft-line-motion-v1/node_modules
+/projects/P-2/production/soft-line-motion-v1/.cache/
+/projects/P-2/production/soft-line-motion-v2/node_modules
+/projects/P-2/production/soft-line-motion-v2/.cache/
+/projects/P-2/production/final-counter-v1/node_modules
+/projects/P-2/production/final-counter-v1/.cache/

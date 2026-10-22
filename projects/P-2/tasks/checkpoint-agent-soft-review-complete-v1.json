@@ -1,0 +1,15 @@
+{
+  "stage": "review",
+  "current_task": {
+    "id": "T-038",
+    "owner_role": "review",
+    "execution": "complete"
+  },
+  "next_action": "One separate review agent inspected A-162 via45 ordered encoded frames and independent full decode. Report tasks/agent-review-soft-line-motion-v1.md registered; formal visual_review failed. Deliver prioritized correction proposal: soft hip tangent, readable guard, one jab/block/counter-dodge beat, planted support and head/chest overlap. No repairs performed in review-only request.",
+  "unresolved": [
+    "Visual corrections required before extending15s",
+    "Continuous perceptual playback unverified; review was sampled45frames",
+    "User creative acceptance pending",
+    "Intentional silent3s proof; no sound design assessment"
+  ]
+}

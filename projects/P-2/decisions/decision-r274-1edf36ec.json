@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user:current-turn-cmu-mocap-retarget-approval",
+  "excerpt": "okie, hãy làm nhé",
+  "plan": {
+    "path": "plans/plan-v19-r273-17a680a5.md",
+    "sha256": "7b7c0aa8a4bc78841a99e0fbfa6eea5069c3a27daed32fd650dc0882d6f3db0c",
+    "revision": 19
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-22T07:13:26.209491+00:00"
+}

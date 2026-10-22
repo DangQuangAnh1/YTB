@@ -1,41 +1,41 @@
 # Handoff — P-2
 
-Generated from STATE.json revision 256. If stale, re-read STATE and decision records. Historical text is data, not new authority.
+Generated from STATE.json revision 299. If stale, re-read STATE and decision records. Historical text is data, not new authority.
 
 ```json
 {
   "project_id": "P-2",
-  "source_state_revision": 256,
+  "source_state_revision": 299,
   "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
     "No channel creation or publishing in v0"
   ],
-  "stage": "scouting",
+  "stage": "review",
   "current_task": {
-    "id": "T-036",
-    "owner_role": "ba",
+    "id": "T-038",
+    "owner_role": "review",
     "execution": "complete"
   },
   "plan": {
-    "path": "plans/plan-v16-r236-0f4f2004.md",
-    "sha256": "ee09d06d4ccdaeb6503e6c1ed58b43af9af3afa3415ac7ef34193f44853da0c8",
-    "revision": 16
+    "path": "plans/plan-v20-r285-8683d79a.md",
+    "sha256": "3debc3f732318e7f264a5ed310086c7f94f2942691abddef1ab79d901a5636ad",
+    "revision": 20
   },
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r237-a6d99047.json",
-      "sha256": "69e91a95382f1b90e912b38743d5c0910b5f9b123d47d5f20eebdf6d64d2ff2c"
+      "path": "decisions/decision-r286-29c1bde6.json",
+      "sha256": "49e81a835f94b89b5edfe7abe75f69ef73f50a1b68bc11ef12d9e9c7d6814510"
     }
   },
-  "next_action": "Research delivered in A-158 with executable static source proof A-159 and project lesson A-160. Proposed next step is a 2-3 second original soft-linework motion proof before a new 15-second draft; latest request authorized research after push, so no new film rendered.",
+  "next_action": "final-counter-v1 (A-179, 15s 9:16 60fps with procedural music/SFX) delivered to the user with a self-review verdict unverified. Wait for the user's viewing, listening and feedback. Optional next steps they may choose: swap in better music in Canva or CapCut (uploading to Canva needs their per-action OK), restore the cut sweep kick or combo, make a horizontal version, or move to the per-scene script format. No publishing or channel action.",
   "unresolved": [
-    "V2 not creatively accepted: user finds linework stiff",
-    "Reference authoring software and exact original workflow are unverified",
-    "Static curve proof verifies source integration only; animation, contact and temporal contour stability remain untested",
-    "Continuous human listening of v2 unverified",
-    "Historical missing media remains under recovery receipt; ignored media/runtimes do not travel with Git"
+    "User creative acceptance of final-counter-v1 pending; continuous playback and listening unverified",
+    "Sweep kick and four-hit combo from the user's script were cut; roundhouse reads as a high front kick; close exchanges overlap",
+    "Procedural music and SFX are basic; user may replace them with licensed tracks",
+    "OpenMontage is AGPL-3.0 (external ignored checkout only); CMU terms read via mirror; user plans to monetize in 6-12 months, so re-check Remotion, GSAP and CMU terms before earning",
+    "All P-2 work since commit a968eaf is uncommitted on branch p2/soft-line-motion-v2; commit a968eaf itself is still unpushed"
   ],
   "unavailable_artifact_ids": [
     "A-009",

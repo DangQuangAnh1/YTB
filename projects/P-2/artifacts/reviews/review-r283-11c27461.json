@@ -1,0 +1,39 @@
+{
+  "artifact_ids": [
+    "A-170"
+  ],
+  "reviewer": "Producing agent self-review; sampled encoded frames and full-size stills",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "failed",
+      "detail": "Delivers a 3s silent CMU-mocap jab/block proof with continuous body stroke, but plan 19 also named counter and slip; black never strikes back and nobody slips. Scope reduced pending further clips and a new plan revision.",
+      "evidence_path": "tasks/review-soft-line-motion-v2.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "unverified",
+      "detail": "Inspected 9 encoded frames, a 45-frame ordered sheet and full-size stills; no continuous playback and no human review. Torso S-curve, collapsed far guard arm and stance mismatch noted.",
+      "evidence_path": "tasks/review-soft-line-motion-v2.md"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "finalize.py full FFmpeg decode of draft.mp4 passed; 90 frames, 30fps, 1280x720, 3.000s.",
+      "evidence_path": "artifacts/render/soft-line-motion-v2/technical-qa.json"
+    },
+    {
+      "name": "audio_review",
+      "status": "passed",
+      "detail": "Intentionally silent; container has no audio stream. No sound design assessed.",
+      "evidence_path": "artifacts/render/soft-line-motion-v2/technical-qa.json"
+    }
+  ],
+  "note": "Self-review only, not independent or human acceptance. Numeric checks in curve-validation.json cover finite outlines, reverse-seek determinism, foot slide and contact distances, not combat realism.",
+  "artifact_hashes": {
+    "A-170": "5a6554563035b755b0379339f5f890d4bf557afd9837fce0027a47906523649b"
+  },
+  "verdict": "needs_revision",
+  "recorded_at": "2026-10-22T07:24:21.026348+00:00"
+}

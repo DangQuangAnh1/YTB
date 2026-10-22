@@ -1,0 +1,8 @@
+{
+  "frames": 90,
+  "strokePaths": 900,
+  "allFinite": true,
+  "curveEndpointErrorMax": 1e-9,
+  "reverseSeekDeterminism": true,
+  "scope": "centerline endpoint preservation; no independent combat-contact acceptance"
+}

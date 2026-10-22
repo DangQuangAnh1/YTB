@@ -1,0 +1,39 @@
+{
+  "artifact_ids": [
+    "A-179"
+  ],
+  "reviewer": "Producing agent self-review; sampled encoded frames of the final render",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "15s 9:16 1080x1920 60fps stickman fight edited from the user's script with recorded cuts (sweep kick, four-hit combo), neon style, slow motion, hit-stop, HUD, BLUE WINS, music and SFX included.",
+      "evidence_path": "tasks/review-final-counter-v1.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "unverified",
+      "detail": "Inspected 12 encoded frames, a 45-frame ordered sheet and full-size stills; no continuous playback and no human review.",
+      "evidence_path": "tasks/review-final-counter-v1.md"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "finalize.py full FFmpeg decode of final-counter.mp4 passed; 900 frames, 60fps, 1080x1920, 15.000s, H.264 plus AAC.",
+      "evidence_path": "artifacts/render/final-counter-v1/technical-qa.json"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "Audio is original procedural synthesis checked numerically only (peak 0.89, RMS 0.125, no clipped samples); never listened to and not assessed for quality.",
+      "evidence_path": "artifacts/render/final-counter-v1/audio-provenance.json"
+    }
+  ],
+  "note": "Self-review only, not independent or human acceptance. Numeric checks cover finite outlines, reverse-seek determinism and contact distances, not quality.",
+  "artifact_hashes": {
+    "A-179": "1069cb61a15094dbeb87c176fbc1b928a3c1b7f64625db6a81198245cb572983"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-22T08:42:47.424030+00:00"
+}

@@ -1,0 +1,11 @@
+# The Final Counter (final-counter-v1)
+
+15s 9:16 1080x1920 60fps stickman fight short, RED vs BLUE, edited from the user's own script (see artifacts/content/final-counter-script-v2.md for what changed and why). Motion is captured data from the CMU Graphics Lab Motion Capture Database (trials 09_01 run, 144_20 jab, 144_14 left punches, 76_03 duck, 135_07 roundhouse kick, 13_11 jump, 02_01 walk), obtained through the una-dinosauria/cmu-mocap BVH mirror. CMU asks for this acknowledgement when results are published: "The data used in this project was obtained from mocap.cs.cmu.edu." Audio is original procedural synthesis, no external samples.
+
+Pipeline (all run from repo root): `make-clips.sh` (uses soft-line-motion-v2/mocap2d.cjs, side-view projection) -> `fight.cjs` (segment timeline with crossfades, contact solver, hit recoil, ballistic launch, slow-motion and hit-stop remap) -> `figure.cjs` (curve strokes from joints via soft-line-motion-v2/curves.cjs and Perfect Freehand) -> `Video.tsx` (Remotion 4.0.536: neon look, motion trails, impact effects, camera, HUD, text) -> `audio.py` -> `finalize.py`.
+
+Run: `CONC=6 node projects/P-2/production/final-counter-v1/render.cjs` (about 10 minutes), `~/.cache/creator-agency/p1-runtime-bundled/bin/python3 .../audio.py`, `node .../check.cjs`, `python3 .../finalize.py`. `render.cjs stills 135,300` renders single frames. Output artifacts/render/final-counter-v1.
+
+Reuse record: soft-line-motion-v2 pipeline, CMU mocap, Perfect Freehand, Remotion. Concrete gaps filled with new code: contact solver and clip sequencing, hit reaction and launch (no mocap), IK overrides for the X-block and the axe kick, effects layer, vertical 60fps framing. OpenMontage was only used earlier as an unmodified external baseline (AGPL-3.0) and nothing from it is copied here.
+
+Numeric checks cover finite outlines, reverse-seek determinism and contact distances. They do not establish quality, and no listening judgment is claimed for the audio.

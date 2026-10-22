@@ -1,0 +1,25 @@
+{
+  "project": "P-2",
+  "scope": "3s curve motion proof",
+  "upstream": {
+    "perfect-freehand": "176e00f2399f4969e1b0965c5921d96a3e50ce9f; MIT; original getStroke bundled locally",
+    "motion": "immutable black-red-duel-v2/motion.cjs frames44-133; stick-motion6315c09 FK/IK + GSAP3.12.5",
+    "renderer": "Remotion4.0.536"
+  },
+  "referenceFootageUsed": false,
+  "files": {
+    "projects/P-2/production/soft-line-motion-v1/package.json": "139cfb88b94e9ee3455675fa52e6ed937235d49a6544f66adc64a16281af5550",
+    "projects/P-2/production/soft-line-motion-v1/render.cjs": "82127c951090e4e1252d9b8cdd459864b136a0bfc0339a2366d2a9b3e297a90c",
+    "projects/P-2/production/soft-line-motion-v1/Video.tsx": "6af2d158d88fb7f95bdfd3770881fb7fd246195400b291dfbd60762d20bccccd",
+    "projects/P-2/production/soft-line-motion-v1/prepare.cjs": "c64600e710186a1244c441793b3344cf2c97f2d3c83b6d38620b566ca8326d5a",
+    "projects/P-2/production/soft-line-motion-v1/finalize.py": "8ef10e3821df56f5898e1ad00c75e102a3f32c52655c2f477bb651ba658799bf",
+    "projects/P-2/production/soft-line-motion-v1/check.cjs": "487dccf757ac45e0d0b913a8680f6db7e61b69d2551b3bae8591ab05a58fda43",
+    "projects/P-2/production/soft-line-motion-v1/README.md": "99e8f8ac5b3995e969fa2d9de70b2ea896fd3510204b5f5a63b50284e24146c6",
+    "projects/P-2/production/soft-line-motion-v1/curves.cjs": "54c0450360fcec9a0f493be1f195bd1c4f82e7de4d8fadb113ae2c7d3890daa1",
+    "projects/P-2/production/soft-line-motion-v1/PERFECT_FREEHAND_LICENSE.txt": "6a5ac82b42ce0af6a1e5fe39b46f0b52f1368e81e437175e8d9ae21569c8688e",
+    "projects/P-2/artifacts/render/soft-line-motion-v1/draft.mp4": "7281c9e8d03c7f4236fdb2b3aa40d57af05647a9b96aefc12c7c3158cf672798",
+    "projects/P-2/artifacts/render/soft-line-motion-v1/curve-validation.json": "c7d5902344727aed5ce321a5dc88b370718b15ebebe8b57d0ed3d5bb2a2316ee",
+    "projects/P-2/artifacts/render/soft-line-motion-v1/technical-qa.json": "8f3fec641ffbfc48103c33b30818d576b8e3d83a3a0ff77e9bd040718dc47c2b",
+    "projects/P-2/artifacts/render/soft-line-motion-v1/contact-sheet.jpg": "28244f8ddb2c78e9a76d19250b4aab252843d205d2b1e093e3075ed0009f2749"
+  }
+}
