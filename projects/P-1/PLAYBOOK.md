@@ -37,6 +37,9 @@ Bạn cũng có thể nhắn bình thường, ví dụ: "Làm video P-1 từ lin
 - Bỏ bài quá nặng về tình dục, dễ bị giới hạn độ tuổi. Chữ thô và câu đùa 18+ nhẹ thì vẫn giữ.
 - **Chỉ dùng ảnh chụp thật.** Card dựng lại bằng `rebuild-cards.py` chỉ được dùng khi người dùng đồng ý (`tasks/user-decision-girls-v2.md`).
 - Chrome bị treo thì mở tab mới. Đóng tab khi xong.
+- **Chụp màn hình bị treo:** thường là do cửa sổ Chrome đang bị che, Windows ngừng vẽ nó. Có 2 cách:
+  - nhờ người dùng để Chrome hiện trên màn hình;
+  - dùng trình duyệt trong app Claude với `capture-card-tiled.js` (khung 800×780, chụp 2 mảnh x=0 và x=280), rồi ghép bằng `stitch-tiles.py`. Người dùng tự đăng nhập Threads ở đó.
 
 ### 3. Ghép card
 - Viết spec JSON (xem mẫu ở scratchpad hoặc trong provenance của `media/release-17/cards`).

@@ -43,3 +43,9 @@ These come from the review doc and are kept for the next video revision:
 - an on-screen question in the last 3s, plus a pinned question comment;
 - Pt.1 currently promises a Pt.2 that is not yet published. The Pt.2 drafts are ready and wait for the user's go-ahead;
 - the AI label: the doc suggests labelling every AI-voice video, which conflicts with the user's standing "Không" answer. Left for the user to decide.
+
+**Done 22/10 ~22:00 ICT**, after both Pt.3 videos went public (see youtube-publish-log-v8.md):
+- 5_cG1Yta2s0 (boys Pt.2) → WIJay-r75Vk (boys Pt.3)
+- 3D8kW1N3FvY (girls Pt.2) → izDGzY_riP8 (girls Pt.3)
+
+Studio showed "Đã lưu thay đổi" for both. The chain now runs Pt.1 → Pt.2 → Pt.3 in each series. Each Pt.3 points back to its Pt.2.
