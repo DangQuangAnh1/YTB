@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-2",
-  "revision": 299,
+  "revision": 307,
   "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
   "stage": "review",
   "constraints": [
@@ -14,15 +14,15 @@
     "execution": "complete"
   },
   "plan": {
-    "path": "plans/plan-v20-r285-8683d79a.md",
-    "sha256": "3debc3f732318e7f264a5ed310086c7f94f2942691abddef1ab79d901a5636ad",
-    "revision": 20
+    "path": "plans/plan-v21-r300-496845bb.md",
+    "sha256": "9117b1ff1d1be187604ea3a6d027c672482f0e3c5c89080eb206ff4cfd6d1a0c",
+    "revision": 21
   },
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r286-29c1bde6.json",
-      "sha256": "49e81a835f94b89b5edfe7abe75f69ef73f50a1b68bc11ef12d9e9c7d6814510"
+      "path": "decisions/decision-r301-78c56eaf.json",
+      "sha256": "e647b0bd1b73d4db94b1c9bfe14f9050e2be776cb3f1c2932912725d0cbe1415"
     }
   },
   "decision_records": [
@@ -121,6 +121,10 @@
     {
       "path": "decisions/decision-r286-29c1bde6.json",
       "sha256": "49e81a835f94b89b5edfe7abe75f69ef73f50a1b68bc11ef12d9e9c7d6814510"
+    },
+    {
+      "path": "decisions/decision-r301-78c56eaf.json",
+      "sha256": "e647b0bd1b73d4db94b1c9bfe14f9050e2be776cb3f1c2932912725d0cbe1415"
     }
   ],
   "artifacts": [
@@ -2082,6 +2086,51 @@
       "inputs": [],
       "plan_revision": 20,
       "created_at": "2026-10-22T08:42:16.173643+00:00"
+    },
+    {
+      "path": "research/animation-repos-research-v1.md",
+      "sha256": "51bf08685eb3c47ee6aeb03af4b614533c2be14b5569567cbc06fc1cdbdf63a3",
+      "id": "A-188",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 21,
+      "created_at": "2026-10-22T09:10:44.581817+00:00"
+    },
+    {
+      "path": "research/render-gl-benchmark-v1.json",
+      "sha256": "c32e8855f19a80090d3ae99f6f44c22369a28881b53526bea47d401abfbce9aa",
+      "id": "A-189",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 21,
+      "created_at": "2026-10-22T09:10:44.896060+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/final-counter-kenney-sfx.mp4",
+      "sha256": "0ee94804163681e6c7ccf2f23420a1764ee02b7e2d2e91a97cfb4a7d1cdc9d17",
+      "id": "A-190",
+      "kind": "video",
+      "inputs": [],
+      "plan_revision": 21,
+      "created_at": "2026-10-22T09:10:45.258703+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/original-audio-kenney.wav",
+      "sha256": "0bee3b98606d7c59dedcb59ea305142e8d0ab8a404524a5df522cf011fbcfec5",
+      "id": "A-191",
+      "kind": "audio",
+      "inputs": [],
+      "plan_revision": 21,
+      "created_at": "2026-10-22T09:10:45.592721+00:00"
+    },
+    {
+      "path": "artifacts/render/final-counter-v1/audio-provenance-kenney.json",
+      "sha256": "28e5cca9683d100034f3c50e78f2e6db302fa23160c58958d6fb2c68845fdf97",
+      "id": "A-192",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 21,
+      "created_at": "2026-10-22T09:10:45.980512+00:00"
     }
   ],
   "reviews": [
@@ -2557,15 +2606,15 @@
       "verdict": "unverified"
     }
   ],
-  "acceptance": "unverified",
+  "acceptance": "not_reviewed",
   "release": "not_requested",
-  "next_action": "final-counter-v1 (A-179, 15s 9:16 60fps with procedural music/SFX) delivered to the user with a self-review verdict unverified. Wait for the user's viewing, listening and feedback. Optional next steps they may choose: swap in better music in Canva or CapCut (uploading to Canva needs their per-action OK), restore the cut sweep kick or combo, make a horizontal version, or move to the per-scene script format. No publishing or channel action.",
+  "next_action": "Animation repo research (plan 21) is delivered: report research/animation-repos-research-v1.md, GPU render integrated (900 frames in 97.7 s versus 583-643 s), optional CC0 Kenney SFX layer adapted with an A/B variant video, Revideo and planck.js cloned only. Wait for the user to listen to variant A (procedural) versus B (Kenney layer) and to choose next steps: Blender plus Quaternius UAL2 for combos and sweep, planck.js ragdoll proof, preview mode with per-scene render, scene-script format.",
   "unresolved": [
-    "User creative acceptance of final-counter-v1 pending; continuous playback and listening unverified",
-    "Sweep kick and four-hit combo from the user's script were cut; roundhouse reads as a high front kick; close exchanges overlap",
-    "Procedural music and SFX are basic; user may replace them with licensed tracks",
-    "OpenMontage is AGPL-3.0 (external ignored checkout only); CMU terms read via mirror; user plans to monetize in 6-12 months, so re-check Remotion, GSAP and CMU terms before earning",
-    "All P-2 work since commit a968eaf is uncommitted on branch p2/soft-line-motion-v2; commit a968eaf itself is still unpushed"
+    "User creative acceptance pending for final-counter-v1 and for the Kenney SFX variant; neither was listened to by the agent",
+    "GPU gain measured only on an Intel UHD 630; angle may leak memory on long renders (Remotion docs); only two frames compared visually",
+    "Revideo, planck.js, Theatre.js, MediaPipe, Quaternius UAL2 and Blender are recorded but not integrated or tested",
+    "Remotion is free for individuals but a company with more than 3 employees needs a Company License; re-check before earning",
+    "All work from plan 21 is uncommitted on branch p2/animation-repos-research"
   ],
   "usage": {
     "input_tokens": 0,
@@ -2576,7 +2625,7 @@
     "available": false
   },
   "created_at": "2026-10-20T13:51:37.871764+00:00",
-  "updated_at": "2026-10-22T08:42:47.681340+00:00",
+  "updated_at": "2026-10-22T09:10:46.393335+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r214-9325629d.json",

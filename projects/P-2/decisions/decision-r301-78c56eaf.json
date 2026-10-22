@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user:current-turn-animation-repos-research",
+  "excerpt": "giờ nghiên cứu các repo animation để bổ trợ cho phần làm video sau này đi. hãy nhớ là thấy nó hữu dụng thì clone về nhúng vào source của chúng ta nhé",
+  "plan": {
+    "path": "plans/plan-v21-r300-496845bb.md",
+    "sha256": "9117b1ff1d1be187604ea3a6d027c672482f0e3c5c89080eb206ff4cfd6d1a0c",
+    "revision": 21
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-22T09:01:20.501351+00:00"
+}

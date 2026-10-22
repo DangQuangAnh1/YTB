@@ -1,0 +1,122 @@
+{
+ "source": "procedural synthesis (numpy) plus a CC0 Kenney Impact Sounds subset",
+ "seed": 20261022,
+ "sample_rate": 48000,
+ "duration": 15.0,
+ "bpm": 140,
+ "external_samples": true,
+ "sample_source": "Kenney Impact Sounds 1.0, CC0, subset in sfx/",
+ "peak": 0.89,
+ "rms": 0.12360446594222214,
+ "events": {
+  "hits": [
+   {
+    "t": 2.25,
+    "kind": "punch",
+    "power": 1
+   },
+   {
+    "t": 3.416666666666667,
+    "kind": "block",
+    "power": 0.8
+   },
+   {
+    "t": 4.966666666666667,
+    "kind": "block",
+    "power": 1.3
+   },
+   {
+    "t": 9.45,
+    "kind": "final",
+    "power": 2
+   }
+  ],
+  "whoosh": [
+   {
+    "t": 0.08,
+    "len": 0.4,
+    "gain": 0.9,
+    "kind": "dash"
+   },
+   {
+    "t": 0.72,
+    "len": 0.22,
+    "gain": 0.6,
+    "kind": "w"
+   },
+   {
+    "t": 1.2199999999999998,
+    "len": 0.22,
+    "gain": 0.6,
+    "kind": "w"
+   },
+   {
+    "t": 2.1,
+    "len": 0.2,
+    "gain": 0.7,
+    "kind": "w"
+   },
+   {
+    "t": 3.166666666666667,
+    "len": 0.3,
+    "gain": 0.8,
+    "kind": "w"
+   },
+   {
+    "t": 4.516666666666667,
+    "len": 0.4,
+    "gain": 0.8,
+    "kind": "w"
+   },
+   {
+    "t": 7.633333333333335,
+    "len": 2,
+    "gain": 0.7,
+    "kind": "w"
+   },
+   {
+    "t": 9.233333333333333,
+    "len": 0.2,
+    "gain": 0.9,
+    "kind": "w"
+   },
+   {
+    "t": 9.5,
+    "len": 0.55,
+    "gain": 0.8,
+    "kind": "fly"
+   }
+  ],
+  "foley": [
+   {
+    "t": 4.716666666666667,
+    "kind": "jump",
+    "power": 0.8,
+    "len": 0
+   },
+   {
+    "t": 5.2333333333333325,
+    "kind": "land",
+    "power": 0.7,
+    "len": 0
+   },
+   {
+    "t": 10.12,
+    "kind": "land",
+    "power": 1.2,
+    "len": 0
+   },
+   {
+    "t": 10.25,
+    "kind": "slide",
+    "power": 1,
+    "len": 0.45
+   }
+  ],
+  "slow": [
+   7.033333333333333,
+   9.033333333333333
+  ]
+ },
+ "note": "Levels checked numerically only; no listening judgment."
+}
