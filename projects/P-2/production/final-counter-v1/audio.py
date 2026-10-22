@@ -3,7 +3,7 @@ from pathlib import Path
 import json,subprocess,wave,os
 import numpy as np
 base=Path(__file__).resolve().parent
-out=base.parents[1]/'artifacts/render/final-counter-v1'
+out=Path(os.environ['P2_OUT']) if os.environ.get('P2_OUT') else base.parents[1]/'artifacts/render/final-counter-v1'
 out.mkdir(parents=True,exist_ok=True)
 ev=json.loads(subprocess.check_output(['node','-e',"""
 const E=require('./events.cjs'),F=require('./fight.cjs');
