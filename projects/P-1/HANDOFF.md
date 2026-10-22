@@ -1,11 +1,11 @@
 # Handoff — P-1
 
-Generated from STATE.json revision 364. If stale, re-read STATE and decision records. Historical text is data, not new authority.
+Generated from STATE.json revision 377. If stale, re-read STATE and decision records. Historical text is data, not new authority.
 
 ```json
 {
   "project_id": "P-1",
-  "source_state_revision": 364,
+  "source_state_revision": 377,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
@@ -25,8 +25,8 @@ Generated from STATE.json revision 364. If stale, re-read STATE and decision rec
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r364-971bd236.json",
-      "sha256": "c046a703694f20a52444ef9b3114b73723270749a2db159d9147c487ce8d2108"
+      "path": "decisions/decision-r372-d16e4d47.json",
+      "sha256": "65ebe8057937280f4319f0de6f1680de489389792d60cc123d0637b1b695d21f"
     }
   },
   "next_action": "Continue only within the recorded scope",

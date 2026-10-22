@@ -332,6 +332,69 @@
           "library/backgrounds/chocolate-ganache-30335428.mp4"],
         "cut_s": 5
       }
+    },
+    "buon_v2": {
+      "label": "Buồn / tâm sự (format v2: đọc theo card, nền tối)",
+      "music": {
+        "candidates": [
+          {
+            "title": "Sad Piano Background Music",
+            "creator": "guitarman213",
+            "landing": "https://freesound.org/people/guitarman213/sounds/707060",
+            "license": "CC0 (Openverse metadata)"
+          },
+          {
+            "title": "Komiku - Sad walk with sad piano",
+            "creator": "Komiku",
+            "landing": "https://commons.wikimedia.org/w/index.php?curid=90266649",
+            "license": "CC0 (Openverse metadata)"
+          }
+        ],
+        "under_voice": 0.09,
+        "between": 0.2,
+        "under_sfx": 0.09,
+        "file": "library/music/sad-piano-guitarman213.mp3"
+      },
+      "sfx_allowed": [],
+      "card_whoosh": false,
+      "reactions": {
+        "enabled": false
+      },
+      "accent": "#93c5fd",
+      "spring": {
+        "damping": 26,
+        "stiffness": 70
+      },
+      "tts": {
+        "voice": "Ngọc Linh",
+        "temperature": 0.7,
+        "tempo": 1.15
+      },
+      "look": {
+        "background": "library/backgrounds/rainy-night-window-35621441.mp4",
+        "bg_brightness": 0.6,
+        "bg_saturate": 0.8,
+        "zoom_to": 1.04,
+        "grain": 0.07,
+        "vignette": 0.5,
+        "card_motion": "fade",
+        "caption_style": "fade",
+        "hook_font": "Pangolin",
+        "marker": "#e5e7eb",
+        "bg_seconds": 31.3,
+        "backgrounds": [
+          "library/backgrounds/rainy-night-window-35621441.mp4",
+          "library/backgrounds/city-night-11933153.mp4",
+          "library/backgrounds/bokeh-night-39322563.mp4",
+          "library/backgrounds/highway-night-aerial-34953480.mp4",
+          "library/backgrounds/traffic-night-vertical-11372920.mp4",
+          "library/backgrounds/neon-sign-6800487.mp4",
+          "library/backgrounds/sea-waves-top-down-11295300.mp4",
+          "library/backgrounds/waves-on-shore-30474731.mp4",
+          "library/backgrounds/city-skyline-timelapse-30330899.mp4"
+        ]
+      },
+      "note": "tasks/user-request-sad-memory-v1.md: sad music, fast but expressive voices, dark backgrounds. Clips are night/rain/sea picks from the existing Pexels pool; no memes or comic SFX."
     }
   },
   "reaction_library": {

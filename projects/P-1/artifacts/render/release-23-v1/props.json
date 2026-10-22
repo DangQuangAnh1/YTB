@@ -1,0 +1,2249 @@
+{
+ "title_card": {
+  "line": "t0",
+  "lines": [
+   "topic:",
+   "một ngày",
+   "\"NHỚ MÃI\"",
+   "trong đời"
+  ],
+  "highlight": 2
+ },
+ "music": true,
+ "music_file": "library/music/sad-piano-guitarman213.mp3",
+ "music_credit": null,
+ "footer": false,
+ "show_captions": false,
+ "brand": null,
+ "format": "v2",
+ "watermark": "Đọc Cmt Giùm",
+ "hook_strip": false,
+ "strips": 0,
+ "group_top": 360,
+ "max_h": 1180,
+ "episode": "p32",
+ "mood": "buon_v2",
+ "preset": {
+  "label": "Buồn / tâm sự (format v2: đọc theo card, nền tối)",
+  "music": {
+   "candidates": [
+    {
+     "title": "Sad Piano Background Music",
+     "creator": "guitarman213",
+     "landing": "https://freesound.org/people/guitarman213/sounds/707060",
+     "license": "CC0 (Openverse metadata)"
+    },
+    {
+     "title": "Komiku - Sad walk with sad piano",
+     "creator": "Komiku",
+     "landing": "https://commons.wikimedia.org/w/index.php?curid=90266649",
+     "license": "CC0 (Openverse metadata)"
+    }
+   ],
+   "under_voice": 0.09,
+   "between": 0.2,
+   "under_sfx": 0.09,
+   "file": "library/music/sad-piano-guitarman213.mp3"
+  },
+  "sfx_allowed": [],
+  "card_whoosh": false,
+  "reactions": {
+   "enabled": false
+  },
+  "accent": "#93c5fd",
+  "spring": {
+   "damping": 26,
+   "stiffness": 70
+  },
+  "tts": {
+   "voice": "Ngọc Linh",
+   "temperature": 0.7,
+   "tempo": 1.15
+  },
+  "look": {
+   "background": "library/backgrounds/rainy-night-window-35621441.mp4",
+   "bg_brightness": 0.6,
+   "bg_saturate": 0.8,
+   "zoom_to": 1.04,
+   "grain": 0.07,
+   "vignette": 0.5,
+   "card_motion": "fade",
+   "caption_style": "fade",
+   "hook_font": "Pangolin",
+   "marker": "#e5e7eb",
+   "bg_seconds": 31.3,
+   "backgrounds": [
+    {
+     "file": "library/backgrounds/waves-on-shore-30474731.mp4",
+     "seconds": 7.8,
+     "start": 0.47,
+     "mirror": true
+    },
+    {
+     "file": "library/backgrounds/city-skyline-timelapse-30330899.mp4",
+     "seconds": 19.6,
+     "start": 4.27,
+     "mirror": true
+    },
+    {
+     "file": "library/backgrounds/highway-night-aerial-34953480.mp4",
+     "seconds": 11.9,
+     "start": 0.75,
+     "mirror": true
+    },
+    {
+     "file": "library/backgrounds/city-night-11933153.mp4",
+     "seconds": 13.4,
+     "start": 4.12,
+     "mirror": true
+    },
+    {
+     "file": "library/backgrounds/neon-sign-6800487.mp4",
+     "seconds": 9.5,
+     "start": 3.07,
+     "mirror": true
+    },
+    {
+     "file": "library/backgrounds/traffic-night-vertical-11372920.mp4",
+     "seconds": 30,
+     "start": 0.89,
+     "mirror": true
+    },
+    {
+     "file": "library/backgrounds/sea-waves-top-down-11295300.mp4",
+     "seconds": 12.3,
+     "start": 3.03,
+     "mirror": true
+    },
+    {
+     "file": "library/backgrounds/bokeh-night-39322563.mp4",
+     "seconds": 13.9,
+     "start": 7.62,
+     "mirror": false
+    },
+    {
+     "file": "library/backgrounds/rainy-night-window-35621441.mp4",
+     "seconds": 31.3,
+     "start": 20.98,
+     "mirror": false
+    }
+   ],
+   "cut_s": 7.5,
+   "bg_hue": 14
+  },
+  "note": "tasks/user-request-sad-memory-v1.md: sad music, fast but expressive voices, dark backgrounds. Clips are night/rain/sea picks from the existing Pexels pool; no memes or comic SFX."
+ },
+ "media": "release-23",
+ "hook": null,
+ "cta": null,
+ "handle": "@doccmtgium",
+ "source_handle": "d.thyu._",
+ "sizes": {
+  "c1-aries_with_a_brave_heart": [
+   1000,
+   437
+  ],
+  "c2-trongtfixer": [
+   1080,
+   977
+  ],
+  "c3-dulcieeejadeeee_": [
+   1080,
+   1103
+  ],
+  "post-d.thyu._": [
+   1064,
+   500
+  ]
+ },
+ "fps": 30,
+ "duration": 62.235,
+ "frames": 1868,
+ "lines": [
+  {
+   "id": "t0",
+   "card": "post-d.thyu._",
+   "kind": "bridge",
+   "text": "Điều gì khiến mày nhớ mãi một ngày nào đó trong cuộc đời mày?",
+   "file": "release-23/voice/t0-545720d4ead3-t1.15-L20.wav",
+   "speaker": "narrator",
+   "voice": "Phạm Tuyên",
+   "start": 0.1,
+   "end": 2.966
+  },
+  {
+   "id": "c1",
+   "card": "c1-aries_with_a_brave_heart",
+   "kind": "read",
+   "text": "Chưa quên người yêu cũ. Ảnh bị ung thư máu, mất năm hai không hai hai.",
+   "file": "release-23/voice/c1-686e24045dbc-t1.15-L20.wav",
+   "speaker": "aries_with_a_brave_heart",
+   "voice": "Trúc Ly",
+   "start": 3.516,
+   "end": 6.581
+  },
+  {
+   "id": "c2",
+   "card": "c2-trongtfixer",
+   "kind": "read",
+   "text": "Lúc mà tui xuống thăm vợ hụt lần cuối. Ẻm bị bệnh viện trả về vì ung thư di căn vào xương. Hôm đó trên xe xuống mà lòng buồn kinh khủng, ghé trạm dừng cũng chẳng buồn xuống xe, chỉ mong xe đi thật nhanh. Xuống tới nhà ẻm thì thấy ẻm nằm đó với mớ ống truyền nước, ống ô xi thì đã được rút ra rồi, nhưng ẻm cứ nằm chảy nước mắt, mạch thì vẫn còn. Vội vàng chạy lại đeo nhẫn cưới cho ẻm, nói với ẻm: nhẫn cưới anh đeo cho em rồi nè, em chính thức thành vợ anh rồi nghen, yên tâm ngủ nè, anh thương. Nói xong thì năm phút sau, ẻm đi.",
+   "file": "release-23/voice/c2-8d1ae43e4b79-t1.15-L20.wav",
+   "speaker": "trongtfixer",
+   "voice": "Thiện Minh",
+   "start": 7.131,
+   "end": 32.963
+  },
+  {
+   "id": "c3",
+   "card": "c3-dulcieeejadeeee_",
+   "kind": "read",
+   "text": "Mười hai tháng năm, mình hí hửng khoe bố và cả nhà, con đi xem Nhà Gia Tiên, khóc nức nở thương nhân vật người ba trong phim, còn chụp ảnh đăng lên để khen bố. Ba giờ sáng mười ba tháng năm, mẹ gọi báo: bố mất rồi con. Lục tung phòng, soạn gấp hai cái vali chả có gì bên trong, gấp bay về với bố. Bảy rưỡi sáng, ra sân bay một mình, khóc ở sân bay như đứa trẻ lên ba. Mười bốn tháng năm, bốn rưỡi chiều giờ Việt Nam, em gái nhắn: bố trút hơi thở cuối cùng lúc bốn rưỡi chiều. Gia đình mình mãi hạnh phúc nha các chị.",
+   "file": "release-23/voice/c3-e49f9c72b5fb-k1-t1.15-L20.wav",
+   "speaker": "dulcieeejadeeee_",
+   "voice": "Ngọc Huyền",
+   "start": 33.513,
+   "end": 58.675
+  },
+  {
+   "id": "z1",
+   "card": "c3-dulcieeejadeeee_",
+   "kind": "bridge",
+   "text": "Còn bạn, ngày nào khiến bạn nhớ mãi? Kể mình nghe nha.",
+   "file": "release-23/voice/z1-689f0ea90357-t1.15-L20.wav",
+   "speaker": "narrator",
+   "voice": "Phạm Tuyên",
+   "start": 59.225,
+   "end": 61.885
+  }
+ ],
+ "cards": [
+  {
+   "card": "post-d.thyu._",
+   "start": 0,
+   "end": 2.966
+  },
+  {
+   "card": "c1-aries_with_a_brave_heart",
+   "start": 3.366,
+   "end": 6.581
+  },
+  {
+   "card": "c2-trongtfixer",
+   "start": 6.981,
+   "end": 32.963
+  },
+  {
+   "card": "c3-dulcieeejadeeee_",
+   "start": 33.363,
+   "end": 61.885
+  }
+ ],
+ "groups": [
+  [
+   "post-d.thyu._"
+  ],
+  [
+   "c1-aries_with_a_brave_heart"
+  ],
+  [
+   "c2-trongtfixer"
+  ],
+  [
+   "c3-dulcieeejadeeee_"
+  ]
+ ],
+ "captions": [
+  {
+   "text": " Điều",
+   "startMs": 220,
+   "endMs": 400,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " gì",
+   "startMs": 400,
+   "endMs": 530,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " khiến",
+   "startMs": 530,
+   "endMs": 830,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mày",
+   "startMs": 830,
+   "endMs": 1000,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhớ",
+   "startMs": 1000,
+   "endMs": 1210,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mãi",
+   "startMs": 1210,
+   "endMs": 1380,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " một",
+   "startMs": 1380,
+   "endMs": 1650,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ngày",
+   "startMs": 1650,
+   "endMs": 1800,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nào",
+   "startMs": 1800,
+   "endMs": 1970,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đó",
+   "startMs": 1970,
+   "endMs": 2140,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " trong",
+   "startMs": 2140,
+   "endMs": 2350,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cuộc",
+   "startMs": 2350,
+   "endMs": 2610,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đời",
+   "startMs": 2610,
+   "endMs": 2960,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mày?",
+   "startMs": 2960,
+   "endMs": 2966,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Chưa",
+   "startMs": 3566,
+   "endMs": 3756,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " quên",
+   "startMs": 3566,
+   "endMs": 3756,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " người",
+   "startMs": 3756,
+   "endMs": 3876,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " yêu",
+   "startMs": 3876,
+   "endMs": 4176,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cũ.",
+   "startMs": 4176,
+   "endMs": 4326,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Ảnh",
+   "startMs": 4326,
+   "endMs": 4386,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bị",
+   "startMs": 4326,
+   "endMs": 4496,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ung",
+   "startMs": 4496,
+   "endMs": 4676,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thư",
+   "startMs": 4676,
+   "endMs": 4826,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " máu,",
+   "startMs": 4826,
+   "endMs": 5066,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mất",
+   "startMs": 5066,
+   "endMs": 5126,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " năm",
+   "startMs": 5066,
+   "endMs": 5346,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hai",
+   "startMs": 5346,
+   "endMs": 5486,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " không",
+   "startMs": 5486,
+   "endMs": 5666,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hai",
+   "startMs": 5666,
+   "endMs": 5856,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hai.",
+   "startMs": 5856,
+   "endMs": 6396,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Lúc",
+   "startMs": 7151,
+   "endMs": 7361,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mà",
+   "startMs": 7151,
+   "endMs": 7361,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " tui",
+   "startMs": 7361,
+   "endMs": 7421,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xuống",
+   "startMs": 7421,
+   "endMs": 7611,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thăm",
+   "startMs": 7611,
+   "endMs": 7931,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " vợ",
+   "startMs": 7931,
+   "endMs": 8191,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hụt",
+   "startMs": 8191,
+   "endMs": 8331,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " lần",
+   "startMs": 8331,
+   "endMs": 8571,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cuối.",
+   "startMs": 8571,
+   "endMs": 8751,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Ẻm",
+   "startMs": 8751,
+   "endMs": 9211,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bị",
+   "startMs": 9211,
+   "endMs": 9291,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bệnh",
+   "startMs": 9291,
+   "endMs": 9461,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " viện",
+   "startMs": 9461,
+   "endMs": 9701,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " trả",
+   "startMs": 9701,
+   "endMs": 9951,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " về",
+   "startMs": 9951,
+   "endMs": 10151,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " vì",
+   "startMs": 10151,
+   "endMs": 10441,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ung",
+   "startMs": 10441,
+   "endMs": 10891,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thư",
+   "startMs": 10891,
+   "endMs": 11141,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " di",
+   "startMs": 11141,
+   "endMs": 11291,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " căn",
+   "startMs": 11291,
+   "endMs": 11371,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " vào",
+   "startMs": 11371,
+   "endMs": 11501,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xương.",
+   "startMs": 11501,
+   "endMs": 11651,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Hôm",
+   "startMs": 11651,
+   "endMs": 11931,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đó",
+   "startMs": 11931,
+   "endMs": 12161,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " trên",
+   "startMs": 12161,
+   "endMs": 12251,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xe",
+   "startMs": 12251,
+   "endMs": 12501,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xuống",
+   "startMs": 12501,
+   "endMs": 12561,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mà",
+   "startMs": 12541,
+   "endMs": 12831,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " lòng",
+   "startMs": 12831,
+   "endMs": 12991,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " buồn",
+   "startMs": 12991,
+   "endMs": 13151,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " kinh",
+   "startMs": 13151,
+   "endMs": 13391,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " khủng,",
+   "startMs": 13391,
+   "endMs": 13551,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ghé",
+   "startMs": 13551,
+   "endMs": 14011,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " trạm",
+   "startMs": 14011,
+   "endMs": 14161,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " dừng",
+   "startMs": 14161,
+   "endMs": 14381,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cũng",
+   "startMs": 14381,
+   "endMs": 14661,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chẳng",
+   "startMs": 14661,
+   "endMs": 14841,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " buồn",
+   "startMs": 14841,
+   "endMs": 15141,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xuống",
+   "startMs": 15141,
+   "endMs": 15281,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xe,",
+   "startMs": 15281,
+   "endMs": 15581,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chỉ",
+   "startMs": 15581,
+   "endMs": 15771,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mong",
+   "startMs": 15771,
+   "endMs": 16041,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xe",
+   "startMs": 16041,
+   "endMs": 16301,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đi",
+   "startMs": 16301,
+   "endMs": 16361,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thật",
+   "startMs": 16351,
+   "endMs": 16621,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhanh.",
+   "startMs": 16621,
+   "endMs": 16841,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Xuống",
+   "startMs": 16841,
+   "endMs": 17171,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " tới",
+   "startMs": 17171,
+   "endMs": 17451,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhà",
+   "startMs": 17451,
+   "endMs": 17651,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ẻm",
+   "startMs": 17651,
+   "endMs": 17811,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thì",
+   "startMs": 17811,
+   "endMs": 17971,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thấy",
+   "startMs": 17971,
+   "endMs": 18091,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ẻm",
+   "startMs": 18091,
+   "endMs": 18371,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nằm",
+   "startMs": 18371,
+   "endMs": 18431,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đó",
+   "startMs": 18411,
+   "endMs": 18611,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " với",
+   "startMs": 18611,
+   "endMs": 18771,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mớ",
+   "startMs": 18771,
+   "endMs": 19011,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ống",
+   "startMs": 19011,
+   "endMs": 19091,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " truyền",
+   "startMs": 19091,
+   "endMs": 19291,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nước,",
+   "startMs": 19291,
+   "endMs": 19611,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ống",
+   "startMs": 19611,
+   "endMs": 20021,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ô",
+   "startMs": 20021,
+   "endMs": 20251,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xi",
+   "startMs": 20251,
+   "endMs": 20461,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thì",
+   "startMs": 20461,
+   "endMs": 20561,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đã",
+   "startMs": 20561,
+   "endMs": 20741,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " được",
+   "startMs": 20741,
+   "endMs": 21151,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " rút",
+   "startMs": 21151,
+   "endMs": 21281,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ra",
+   "startMs": 21281,
+   "endMs": 21371,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " rồi,",
+   "startMs": 21371,
+   "endMs": 21951,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhưng",
+   "startMs": 21951,
+   "endMs": 22031,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ẻm",
+   "startMs": 22031,
+   "endMs": 22091,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cứ",
+   "startMs": 22061,
+   "endMs": 22191,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nằm",
+   "startMs": 22191,
+   "endMs": 22441,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chảy",
+   "startMs": 22441,
+   "endMs": 22591,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nước",
+   "startMs": 22591,
+   "endMs": 22861,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mắt,",
+   "startMs": 22861,
+   "endMs": 23221,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mạch",
+   "startMs": 23221,
+   "endMs": 23511,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thì",
+   "startMs": 23511,
+   "endMs": 23681,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " vẫn",
+   "startMs": 23681,
+   "endMs": 24091,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " còn.",
+   "startMs": 24091,
+   "endMs": 24211,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Vội",
+   "startMs": 24211,
+   "endMs": 24441,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " vàng",
+   "startMs": 24441,
+   "endMs": 24631,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chạy",
+   "startMs": 24631,
+   "endMs": 24881,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " lại",
+   "startMs": 24881,
+   "endMs": 25091,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đeo",
+   "startMs": 25091,
+   "endMs": 25281,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhẫn",
+   "startMs": 25281,
+   "endMs": 25501,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cưới",
+   "startMs": 25501,
+   "endMs": 25791,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cho",
+   "startMs": 25791,
+   "endMs": 26001,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ẻm,",
+   "startMs": 26001,
+   "endMs": 26221,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nói",
+   "startMs": 26221,
+   "endMs": 26281,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " với",
+   "startMs": 26251,
+   "endMs": 26461,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ẻm:",
+   "startMs": 26461,
+   "endMs": 26731,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhẫn",
+   "startMs": 26731,
+   "endMs": 26971,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cưới",
+   "startMs": 26971,
+   "endMs": 27251,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " anh",
+   "startMs": 27251,
+   "endMs": 27451,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đeo",
+   "startMs": 27451,
+   "endMs": 27531,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cho",
+   "startMs": 27531,
+   "endMs": 27681,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " em",
+   "startMs": 27681,
+   "endMs": 27741,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " rồi",
+   "startMs": 27731,
+   "endMs": 27941,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nè,",
+   "startMs": 27941,
+   "endMs": 28221,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " em",
+   "startMs": 28221,
+   "endMs": 28281,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chính",
+   "startMs": 28271,
+   "endMs": 28561,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thức",
+   "startMs": 28561,
+   "endMs": 28711,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thành",
+   "startMs": 28711,
+   "endMs": 28921,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " vợ",
+   "startMs": 28921,
+   "endMs": 29101,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " anh",
+   "startMs": 29101,
+   "endMs": 29181,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " rồi",
+   "startMs": 29181,
+   "endMs": 29361,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nghen,",
+   "startMs": 29361,
+   "endMs": 29611,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " yên",
+   "startMs": 29621,
+   "endMs": 29851,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " tâm",
+   "startMs": 29851,
+   "endMs": 30061,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ngủ",
+   "startMs": 30061,
+   "endMs": 30361,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nè,",
+   "startMs": 30361,
+   "endMs": 30461,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " anh",
+   "startMs": 30461,
+   "endMs": 30611,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thương.",
+   "startMs": 30611,
+   "endMs": 31251,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Nói",
+   "startMs": 31251,
+   "endMs": 31511,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xong",
+   "startMs": 31511,
+   "endMs": 31671,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thì",
+   "startMs": 31671,
+   "endMs": 31831,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " năm",
+   "startMs": 31831,
+   "endMs": 31991,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " phút",
+   "startMs": 31991,
+   "endMs": 32261,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " sau,",
+   "startMs": 32261,
+   "endMs": 32531,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ẻm",
+   "startMs": 32531,
+   "endMs": 32641,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đi.",
+   "startMs": 32641,
+   "endMs": 32963,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Mười",
+   "startMs": 33553,
+   "endMs": 33783,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hai",
+   "startMs": 33783,
+   "endMs": 33943,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " tháng",
+   "startMs": 33943,
+   "endMs": 34133,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " năm,",
+   "startMs": 34133,
+   "endMs": 34423,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mình",
+   "startMs": 34423,
+   "endMs": 34553,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hí",
+   "startMs": 34553,
+   "endMs": 34663,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hửng",
+   "startMs": 34663,
+   "endMs": 34973,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " khoe",
+   "startMs": 34973,
+   "endMs": 35163,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bố",
+   "startMs": 35163,
+   "endMs": 35313,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " và",
+   "startMs": 35313,
+   "endMs": 35443,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cả",
+   "startMs": 35443,
+   "endMs": 35593,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhà,",
+   "startMs": 35593,
+   "endMs": 36023,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " con",
+   "startMs": 36023,
+   "endMs": 36113,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đi",
+   "startMs": 36113,
+   "endMs": 36353,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " xem",
+   "startMs": 36353,
+   "endMs": 36453,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Nhà",
+   "startMs": 36453,
+   "endMs": 36693,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Gia",
+   "startMs": 36693,
+   "endMs": 36853,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Tiên,",
+   "startMs": 36853,
+   "endMs": 37293,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " khóc",
+   "startMs": 37293,
+   "endMs": 37373,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nức",
+   "startMs": 37373,
+   "endMs": 37623,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nở",
+   "startMs": 37623,
+   "endMs": 37873,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thương",
+   "startMs": 37873,
+   "endMs": 38013,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhân",
+   "startMs": 38013,
+   "endMs": 38163,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " vật",
+   "startMs": 38163,
+   "endMs": 38283,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " người",
+   "startMs": 38283,
+   "endMs": 38483,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ba",
+   "startMs": 38483,
+   "endMs": 38553,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " trong",
+   "startMs": 38553,
+   "endMs": 38713,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " phim,",
+   "startMs": 38713,
+   "endMs": 39273,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " còn",
+   "startMs": 39273,
+   "endMs": 39393,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chụp",
+   "startMs": 39393,
+   "endMs": 39633,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ảnh",
+   "startMs": 39633,
+   "endMs": 39833,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đăng",
+   "startMs": 39833,
+   "endMs": 40033,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " lên",
+   "startMs": 40033,
+   "endMs": 40193,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " để",
+   "startMs": 40193,
+   "endMs": 40393,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " khen",
+   "startMs": 40393,
+   "endMs": 40553,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bố.",
+   "startMs": 40553,
+   "endMs": 40753,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Ba",
+   "startMs": 40753,
+   "endMs": 40853,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " giờ",
+   "startMs": 40853,
+   "endMs": 41073,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " sáng",
+   "startMs": 41073,
+   "endMs": 41303,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mười",
+   "startMs": 41303,
+   "endMs": 41663,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ba",
+   "startMs": 41663,
+   "endMs": 41723,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " tháng",
+   "startMs": 41713,
+   "endMs": 41993,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " năm,",
+   "startMs": 41993,
+   "endMs": 42273,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mẹ",
+   "startMs": 42273,
+   "endMs": 42453,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " gọi",
+   "startMs": 42453,
+   "endMs": 42683,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " báo:",
+   "startMs": 42683,
+   "endMs": 42953,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bố",
+   "startMs": 42953,
+   "endMs": 43173,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mất",
+   "startMs": 43173,
+   "endMs": 43363,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " rồi",
+   "startMs": 43363,
+   "endMs": 43593,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " con.",
+   "startMs": 43593,
+   "endMs": 44053,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Lục",
+   "startMs": 44053,
+   "endMs": 44193,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " tung",
+   "startMs": 44193,
+   "endMs": 44473,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " phòng,",
+   "startMs": 44473,
+   "endMs": 44793,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " soạn",
+   "startMs": 44793,
+   "endMs": 45113,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " gấp",
+   "startMs": 45113,
+   "endMs": 45303,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hai",
+   "startMs": 45303,
+   "endMs": 45443,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cái",
+   "startMs": 45443,
+   "endMs": 45633,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " vali",
+   "startMs": 45633,
+   "endMs": 45923,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chả",
+   "startMs": 45923,
+   "endMs": 46143,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " có",
+   "startMs": 46143,
+   "endMs": 46423,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " gì",
+   "startMs": 46423,
+   "endMs": 46503,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bên",
+   "startMs": 46503,
+   "endMs": 46613,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " trong,",
+   "startMs": 46613,
+   "endMs": 46993,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " gấp",
+   "startMs": 46993,
+   "endMs": 47203,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bay",
+   "startMs": 47203,
+   "endMs": 47323,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " về",
+   "startMs": 47323,
+   "endMs": 47543,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " với",
+   "startMs": 47543,
+   "endMs": 47733,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bố.",
+   "startMs": 47733,
+   "endMs": 48073,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Bảy",
+   "startMs": 48073,
+   "endMs": 48293,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " rưỡi",
+   "startMs": 48293,
+   "endMs": 48603,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " sáng,",
+   "startMs": 48603,
+   "endMs": 48983,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ra",
+   "startMs": 48983,
+   "endMs": 49043,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " sân",
+   "startMs": 49013,
+   "endMs": 49193,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bay",
+   "startMs": 49193,
+   "endMs": 49333,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " một",
+   "startMs": 49333,
+   "endMs": 49563,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mình,",
+   "startMs": 49563,
+   "endMs": 49883,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " khóc",
+   "startMs": 49883,
+   "endMs": 50113,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ở",
+   "startMs": 50113,
+   "endMs": 50253,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " sân",
+   "startMs": 50253,
+   "endMs": 50573,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bay",
+   "startMs": 50573,
+   "endMs": 50633,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " như",
+   "startMs": 50583,
+   "endMs": 50763,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đứa",
+   "startMs": 50763,
+   "endMs": 51033,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " trẻ",
+   "startMs": 51033,
+   "endMs": 51263,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " lên",
+   "startMs": 51263,
+   "endMs": 51453,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ba.",
+   "startMs": 51453,
+   "endMs": 51883,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Mười",
+   "startMs": 51883,
+   "endMs": 52123,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bốn",
+   "startMs": 52123,
+   "endMs": 52313,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " tháng",
+   "startMs": 52313,
+   "endMs": 52543,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " năm,",
+   "startMs": 52543,
+   "endMs": 52843,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bốn",
+   "startMs": 52843,
+   "endMs": 52983,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " rưỡi",
+   "startMs": 52983,
+   "endMs": 53243,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chiều",
+   "startMs": 53243,
+   "endMs": 53453,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " giờ",
+   "startMs": 53453,
+   "endMs": 53823,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Việt",
+   "startMs": 53823,
+   "endMs": 53883,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Nam,",
+   "startMs": 53833,
+   "endMs": 54063,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " em",
+   "startMs": 54063,
+   "endMs": 54163,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " gái",
+   "startMs": 54163,
+   "endMs": 54323,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhắn:",
+   "startMs": 54323,
+   "endMs": 54663,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bố",
+   "startMs": 54663,
+   "endMs": 54863,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " trút",
+   "startMs": 54863,
+   "endMs": 54963,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hơi",
+   "startMs": 54963,
+   "endMs": 55093,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " thở",
+   "startMs": 55093,
+   "endMs": 55313,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cuối",
+   "startMs": 55313,
+   "endMs": 55523,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cùng",
+   "startMs": 55523,
+   "endMs": 55613,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " lúc",
+   "startMs": 55613,
+   "endMs": 55743,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bốn",
+   "startMs": 55743,
+   "endMs": 55933,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " rưỡi",
+   "startMs": 55933,
+   "endMs": 56123,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chiều.",
+   "startMs": 56123,
+   "endMs": 56573,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Gia",
+   "startMs": 56573,
+   "endMs": 56703,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " đình",
+   "startMs": 56703,
+   "endMs": 57003,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mình",
+   "startMs": 57003,
+   "endMs": 57203,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mãi",
+   "startMs": 57203,
+   "endMs": 57413,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hạnh",
+   "startMs": 57413,
+   "endMs": 57643,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " phúc",
+   "startMs": 57643,
+   "endMs": 57863,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nha",
+   "startMs": 57863,
+   "endMs": 58043,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " các",
+   "startMs": 58043,
+   "endMs": 58223,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " chị.",
+   "startMs": 58223,
+   "endMs": 58573,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Còn",
+   "startMs": 59265,
+   "endMs": 59405,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bạn,",
+   "startMs": 59405,
+   "endMs": 59725,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " ngày",
+   "startMs": 59725,
+   "endMs": 59865,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nào",
+   "startMs": 59865,
+   "endMs": 60135,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " khiến",
+   "startMs": 60135,
+   "endMs": 60385,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " bạn",
+   "startMs": 60385,
+   "endMs": 60615,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nhớ",
+   "startMs": 60615,
+   "endMs": 60985,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mãi?",
+   "startMs": 60985,
+   "endMs": 61065,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Kể",
+   "startMs": 61065,
+   "endMs": 61195,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mình",
+   "startMs": 61195,
+   "endMs": 61425,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nghe",
+   "startMs": 61425,
+   "endMs": 61595,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " nha.",
+   "startMs": 61595,
+   "endMs": 61885,
+   "timestampMs": null,
+   "confidence": null
+  }
+ ],
+ "sfx": [],
+ "reactions": [],
+ "camera": [],
+ "rights": {
+  "quotes": 3,
+  "max_quote_words": 122,
+  "verbatim_time_share": 0.91,
+  "original_time_share": 0.09,
+  "protocol": "v2-user-accepted-verbatim",
+  "pass": true,
+  "accepted_by": "tasks/user-decision-clone-v2.md"
+ },
+ "caption_timing": "whisper.cpp 1.7.6 small (vi) token timestamps per clip, mapped onto exact script words",
+ "voice": {
+  "name": "Phạm Tuyên",
+  "temperature": 0.7,
+  "tempo": 1.15,
+  "cast": {
+   "narrator": "Phạm Tuyên",
+   "aries_with_a_brave_heart": "Trúc Ly",
+   "trongtfixer": "Thiện Minh",
+   "dulcieeejadeeee_": "Ngọc Huyền"
+  },
+  "level": "I=-20:TP=-2:LRA=11"
+ }
+}

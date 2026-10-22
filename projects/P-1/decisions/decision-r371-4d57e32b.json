@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-1",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "tasks/user-request-sad-memory-v1.md",
+  "excerpt": "giờ làm video cho 7hpm mai với bài trong ảnh, tự tìm bài nhé. Bài này sẽ trên nền nhạc buồn xíu. Kiểu tâm sự buồn. Giọng đọc nhanh nhưng truyền cảm nhé. Video nền màu tối tối và buồn nếu có",
+  "plan": {
+    "path": "plans/plan-v8-r165-629ac70c.md",
+    "sha256": "0c6dce9ec38679e9aea21e8b4a4a817890baf5fd37d20674d2f92d623b80caa9",
+    "revision": 8
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-22T17:06:51.528144+00:00"
+}

@@ -1,0 +1,37 @@
+{
+ "video": "release-23-v1",
+ "overall_wer": 0.238,
+ "per_line": [
+  {
+   "id": "t0",
+   "wer": 0,
+   "script": "Điều gì khiến mày nhớ mãi một ngày nào đó trong cuộc đời mày?",
+   "heard": "\"Điều gì khiến mày nhớ mãi một ngày nào đó trong cuộc đời mày?\""
+  },
+  {
+   "id": "c1",
+   "wer": 0.375,
+   "script": "Chưa quên người yêu cũ. Ảnh bị ung thư máu, mất năm hai không hai hai.",
+   "heard": "quên người yêu cũ, ảnh bị ung thương máu mất năm 2022.\""
+  },
+  {
+   "id": "c2",
+   "wer": 0.197,
+   "script": "Lúc mà tui xuống thăm vợ hụt lần cuối. Ẻm bị bệnh viện trả về vì ung thư di căn vào xương. Hôm đó trên xe xuống mà lòng buồn kinh khủng, ghé trạm dừng cũng chẳng buồn xuống xe, chỉ mong xe đi thật nhanh. Xuống tới nhà ẻm thì thấy ẻm nằm đó với mớ ống truyền nước, ống ô xi thì đã được rút ra rồi, nhưng ẻm cứ nằm chảy nước mắt, mạch thì vẫn còn. Vội vàng chạy lại đeo nhẫn cưới cho ẻm, nói với ẻm: nhẫn cưới anh đeo cho em rồi nè, em chính thức thành vợ anh rồi nghen, yên tâm ngủ nè, anh thương. Nói xong thì năm phút sau, ẻm đi.",
+   "heard": "mà tôi xuống thăm vợ hút lần cuối, ảnh bị bệnh viện trả về vì ung thư gì canh vào sương. Hôm đó trên xe xuống mà lòng buồn kinh khủng, ghé chạm dừng cũng chẳng buồn xuống xe, chỉ mong xe đi thật nhanh. xuống tới nhà ảnh thì thấy ảnh nằm đó với mơ ống chuyển nước, ống oxy thì đã được rút ra rồi. Nhưng ảnh cứ nằm chảy nước mắt, mạch thì vẫn còn. Vội vàng chạy lại đeo những cưới cho em, nói với em, những cưới anh đeo cho em rồi nè, em chính khức thành vợ anh rồi ngen, yên tâm ngủ nè, anh thương. Nói xong thì 5 phút sau, em đi.\" \"12"
+  },
+  {
+   "id": "c3",
+   "wer": 0.239,
+   "script": "Mười hai tháng năm, mình hí hửng khoe bố và cả nhà, con đi xem Nhà Gia Tiên, khóc nức nở thương nhân vật người ba trong phim, còn chụp ảnh đăng lên để khen bố. Ba giờ sáng mười ba tháng năm, mẹ gọi báo: bố mất rồi con. Lục tung phòng, soạn gấp hai cái vali chả có gì bên trong, gấp bay về với bố. Bảy rưỡi sáng, ra sân bay một mình, khóc ở sân bay như đứa trẻ lên ba. Mười bốn tháng năm, bốn rưỡi chiều giờ Việt Nam, em gái nhắn: bố trút hơi thở cuối cùng lúc bốn rưỡi chiều. Gia đình mình mãi hạnh phúc nha các chị.",
+   "heard": "tháng 5, mình hít hủng khoe bố và cả nhà, con đi xem nhà gia tiên, khóc nước nở thương nhân vật người ba trong phim, con chụp ảnh đang lên để khen bố. 3 giờ sáng 13 tháng 5, mẹ gọi báo, bố mất rồi con. Lúc tung phòng, soạn gấp 2 cái va ly trả có gì bên trong, gấp bay về với bố. 7 dưỡi sáng, ra sân bay một mình, khóc ở sân bay như đứa trẻ lên ba. 14 tháng 5, 4,5 chiều giờ Việt Nam, em gái nhắn bố chút hơi thở cuối cùng lúc 4,5 chiều, gia đình mình mãi hạnh phúc nhà các chị.\""
+  },
+  {
+   "id": "z1",
+   "wer": 1,
+   "script": "Còn bạn, ngày nào khiến bạn nhớ mãi? Kể mình nghe nha.",
+   "heard": ""
+  }
+ ],
+ "method": "whisper.cpp 1.7.6 small vi on final mix; proxy only, not human listening"
+}

@@ -1,0 +1,33 @@
+{
+  "format": "v2",
+  "mood": "buon_v2",
+  "hook": null,
+  "cta": null,
+  "verbatim_accepted": "tasks/user-decision-clone-v2.md",
+  "media": "release-23",
+  "source_handle": "d.thyu._",
+  "cut_s": 7.5,
+  "title_card": {
+    "line": "t0",
+    "lines": ["topic:", "một ngày", "\"NHỚ MÃI\"", "trong đời"],
+    "highlight": 2
+  },
+  "cast": {
+    "narrator": "Phạm Tuyên",
+    "aries_with_a_brave_heart": "Trúc Ly",
+    "trongtfixer": "Thiện Minh",
+    "dulcieeejadeeee_": "Ngọc Huyền"
+  },
+  "cast_note": "Fast, warm voices only (user note 22/10: avoid slow voices). trongtfixer is male (vợ). dulcieeejadeeee_ is female from 'các chị'. aries_with_a_brave_heart: gender not stated; a female voice, chosen to alternate with the male neighbours. The narrator reads the topic and the closing line only.",
+  "note": "Sad 'tâm sự' Short (tasks/user-request-sad-memory-v1.md). One post: @d.thyu._ DV_ajSlkyYi. Three illness/loss stories from the top replies. The two suicide stories near the top (@itslucknotfound, @trung.tan.luong) are left out on purpose: graphic method detail, YouTube self-harm policy and safe-messaging practice. The voice text tidies slang ('xún', 'ẽm', 'bv', 'UT') and drops dulcie's parenthetical and the visa line for length; cards stay as posted. aries' card has its photo of two people removed. Real cards only.",
+  "lines": [
+    {"id": "t0", "card": "post-d.thyu._", "kind": "bridge", "text": "Điều gì khiến mày nhớ mãi một ngày nào đó trong cuộc đời mày?"},
+    {"id": "c1", "card": "c1-aries_with_a_brave_heart", "kind": "read",
+     "text": "Chưa quên người yêu cũ. Ảnh bị ung thư máu, mất năm hai không hai hai."},
+    {"id": "c2", "card": "c2-trongtfixer", "kind": "read",
+     "text": "Lúc mà tui xuống thăm vợ hụt lần cuối. Ẻm bị bệnh viện trả về vì ung thư di căn vào xương. Hôm đó trên xe xuống mà lòng buồn kinh khủng, ghé trạm dừng cũng chẳng buồn xuống xe, chỉ mong xe đi thật nhanh. Xuống tới nhà ẻm thì thấy ẻm nằm đó với mớ ống truyền nước, ống ô xi thì đã được rút ra rồi, nhưng ẻm cứ nằm chảy nước mắt, mạch thì vẫn còn. Vội vàng chạy lại đeo nhẫn cưới cho ẻm, nói với ẻm: nhẫn cưới anh đeo cho em rồi nè, em chính thức thành vợ anh rồi nghen, yên tâm ngủ nè, anh thương. Nói xong thì năm phút sau, ẻm đi."},
+    {"id": "c3", "card": "c3-dulcieeejadeeee_", "kind": "read",
+     "text": "Mười hai tháng năm, mình hí hửng khoe bố và cả nhà, con đi xem Nhà Gia Tiên, khóc nức nở thương nhân vật người ba trong phim, còn chụp ảnh đăng lên để khen bố. Ba giờ sáng mười ba tháng năm, mẹ gọi báo: bố mất rồi con. Lục tung phòng, soạn gấp hai cái vali chả có gì bên trong, gấp bay về với bố. Bảy rưỡi sáng, ra sân bay một mình, khóc ở sân bay như đứa trẻ lên ba. Mười bốn tháng năm, bốn rưỡi chiều giờ Việt Nam, em gái nhắn: bố trút hơi thở cuối cùng lúc bốn rưỡi chiều. Gia đình mình mãi hạnh phúc nha các chị."},
+    {"id": "z1", "card": "c3-dulcieeejadeeee_", "kind": "bridge", "text": "Còn bạn, ngày nào khiến bạn nhớ mãi? Kể mình nghe nha."}
+  ]
+}

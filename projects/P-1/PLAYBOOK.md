@@ -65,7 +65,8 @@ Bạn cũng có thể nhắn bình thường, ví dụ: "Làm video P-1 từ lin
 - Hai giọng liền nhau phải khác nhau: xen kẽ nam và nữ.
 - Bộ giọng đã duyệt:
   - Nữ: Trúc Ly, Ngọc Huyền, Mai Anh, Ngọc Linh.
-  - Nam: Thiện Minh, Thiền Tâm Đức, Thái Sơn, Phạm Tuyên.
+  - Nam: Thiện Minh, Thái Sơn, Phạm Tuyên.
+- **Hạn chế giọng đọc chậm** (`tasks/user-decision-publish-release22-v1.md`): Thiền Tâm Đức chỉ ~3,4 âm tiết/giây (các giọng khác 4,0–4,9), nên không dùng nữa. Ưu tiên Trúc Ly, Thiện Minh, Ngọc Huyền, Phạm Tuyên.
 - **Tránh:** Ngọc Trân, Xuân Vĩnh (máy nghe sai), Mỹ Duyên (bị người dùng loại), Quang Sơn (máy nghe sai). Hải Đăng và Quốc Tuấn không đặt cạnh Adam bựa vì giọng gần giống nhau.
 
 ### 6. Nhạc nền (`tasks/user-decision-music-v1.md`)
@@ -98,7 +99,7 @@ bash make-episode.sh pNN release-XX-vN
 - Báo người dùng những câu máy nghe chưa chắc.
 
 ### 9. Đăng (chỉ khi người dùng duyệt đúng video đó)
-- Viết `artifacts/release/<rel>/package.md` gồm tiêu đề, mô tả có credit, và tag.
+- Viết `artifacts/release/<rel>/package.md` gồm tiêu đề, mô tả và tag. Mô tả chỉ có câu hook và hashtag, **không dẫn nguồn hay thông tin** (Giọng đọc AI, nền, không liên kết Meta…) (`tasks/user-decision-publish-release22-v1.md`). Riêng dòng credit nhạc Kevin MacLeod giữ lại vì giấy phép CC BY yêu cầu.
 - Tạo `upload-hevc.mp4` <10 MB (HEVC hai lượt) bằng python của venv VieNeu: `make-upload.py <render>`. Script chạy được song song nhiều video.
 - YouTube Studio:
   - Điền tiêu đề, mô tả, chọn "không dành cho trẻ em".

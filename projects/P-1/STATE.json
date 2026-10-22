@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-1",
-  "revision": 364,
+  "revision": 377,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "stage": "planning",
   "constraints": [
@@ -21,8 +21,8 @@
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r364-971bd236.json",
-      "sha256": "c046a703694f20a52444ef9b3114b73723270749a2db159d9147c487ce8d2108"
+      "path": "decisions/decision-r372-d16e4d47.json",
+      "sha256": "65ebe8057937280f4319f0de6f1680de489389792d60cc123d0637b1b695d21f"
     }
   },
   "decision_records": [
@@ -169,6 +169,18 @@
     {
       "path": "decisions/decision-r364-971bd236.json",
       "sha256": "c046a703694f20a52444ef9b3114b73723270749a2db159d9147c487ce8d2108"
+    },
+    {
+      "path": "decisions/decision-r365-6d3f4650.json",
+      "sha256": "0e910ce6d22fbbf5af3218662584be3f42b8d4580453859dd4c98b28d01d0492"
+    },
+    {
+      "path": "decisions/decision-r371-4d57e32b.json",
+      "sha256": "db08507fbae772d6408b2d1760cdf7511b585048a2cb0156d4667a3c0ea831ab"
+    },
+    {
+      "path": "decisions/decision-r372-d16e4d47.json",
+      "sha256": "65ebe8057937280f4319f0de6f1680de489389792d60cc123d0637b1b695d21f"
     }
   ],
   "artifacts": [
@@ -2951,6 +2963,114 @@
       "inputs": [],
       "plan_revision": 8,
       "created_at": "2026-10-22T13:45:01.687892+00:00"
+    },
+    {
+      "path": "artifacts/content/release-22-lines-v1.json",
+      "sha256": "a06900b19676d1e2c8ffe2a01b5b8e29c2abff255bc782a137cab76b6d935188",
+      "id": "A-273",
+      "kind": "script",
+      "inputs": [
+        "A-272"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T16:43:53.915301+00:00"
+    },
+    {
+      "path": "artifacts/render/release-22-v1/final.mp4",
+      "sha256": "96d943c8d1e9d0346196981d079262e227892b326d463c2642cd394312335f5d",
+      "id": "A-274",
+      "kind": "video",
+      "inputs": [
+        "A-273"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T16:44:14.479559+00:00"
+    },
+    {
+      "path": "artifacts/render/release-22-v1/props.json",
+      "sha256": "6936e3e2c2f201c1300b2311a3ee93e7d9dee63f7633e09a8dcdda837db24967",
+      "id": "A-275",
+      "kind": "metadata",
+      "inputs": [
+        "A-273"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T16:44:25.178808+00:00"
+    },
+    {
+      "path": "artifacts/release/release-22-v1/package.md",
+      "sha256": "cff014cba6120d094a321855522cebfde5ce723359c87dba61a94d02d845e94f",
+      "id": "A-276",
+      "kind": "metadata",
+      "inputs": [
+        "A-274"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T16:44:34.237730+00:00"
+    },
+    {
+      "path": "artifacts/release/youtube-publish-log-v10.md",
+      "sha256": "f8e335221b58439cc4330042be25709bd99a98503e7a4a44cb94fa39bb62cdcc",
+      "id": "A-277",
+      "kind": "metadata",
+      "inputs": [
+        "A-276"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T16:44:43.674112+00:00"
+    },
+    {
+      "path": "artifacts/content/release-23-lines-v1.json",
+      "sha256": "cbf2eaadc469fe2032c29502b7b882df7bbc039db047587d5b486337c2f8722e",
+      "id": "A-278",
+      "kind": "script",
+      "inputs": [],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T17:41:57.360733+00:00"
+    },
+    {
+      "path": "artifacts/render/release-23-v1/final.mp4",
+      "sha256": "4c702a9f9e5843253270389a64bab7d0831efc3f9491f2ef4f3f63ecf4314a40",
+      "id": "A-279",
+      "kind": "video",
+      "inputs": [
+        "A-278"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T17:42:06.210158+00:00"
+    },
+    {
+      "path": "artifacts/render/release-23-v1/props.json",
+      "sha256": "c0b659b2ceb362febd2f7b67471b9cadf50a66b88f8e618113afd0162d88964b",
+      "id": "A-280",
+      "kind": "metadata",
+      "inputs": [
+        "A-278"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T17:42:14.686170+00:00"
+    },
+    {
+      "path": "artifacts/release/release-23-v1/package.md",
+      "sha256": "53a71e08e220c52a8131873452ea7889546d6b09091dab0f0fe911ea32a687c6",
+      "id": "A-281",
+      "kind": "metadata",
+      "inputs": [
+        "A-279"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T17:42:23.042477+00:00"
+    },
+    {
+      "path": "artifacts/release/youtube-publish-log-v11.md",
+      "sha256": "03dc8db283557731d846a92b74e1e36181dc6064236844df8d0a932966114b5b",
+      "id": "A-282",
+      "kind": "metadata",
+      "inputs": [
+        "A-281"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-22T17:42:32.202515+00:00"
     }
   ],
   "reviews": [
@@ -3522,7 +3642,7 @@
     "available": false
   },
   "created_at": "2026-10-16T07:42:46.989392+00:00",
-  "updated_at": "2026-10-22T13:52:54.633440+00:00",
+  "updated_at": "2026-10-22T17:42:32.202533+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r55-07b5f2fc.json",
