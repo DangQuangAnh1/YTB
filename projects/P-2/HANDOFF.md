@@ -1,11 +1,11 @@
 # Handoff — P-2
 
-Generated from STATE.json revision 252. If stale, re-read STATE and decision records. Historical text is data, not new authority.
+Generated from STATE.json revision 256. If stale, re-read STATE and decision records. Historical text is data, not new authority.
 
 ```json
 {
   "project_id": "P-2",
-  "source_state_revision": 252,
+  "source_state_revision": 256,
   "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
@@ -15,7 +15,7 @@ Generated from STATE.json revision 252. If stale, re-read STATE and decision rec
   "current_task": {
     "id": "T-036",
     "owner_role": "ba",
-    "execution": "running"
+    "execution": "complete"
   },
   "plan": {
     "path": "plans/plan-v16-r236-0f4f2004.md",
@@ -29,10 +29,11 @@ Generated from STATE.json revision 252. If stale, re-read STATE and decision rec
       "sha256": "69e91a95382f1b90e912b38743d5c0910b5f9b123d47d5f20eebdf6d64d2ff2c"
     }
   },
-  "next_action": "Current user says v2 linework looks stiff. First commit/push current source and records, then directly inspect https://youtube.com/shorts/PvIbWtRJAzA and research closer line/motion method. No new render yet. Feedback source tasks/feedback-push-and-new-reference-v1.md.",
+  "next_action": "Research delivered in A-158 with executable static source proof A-159 and project lesson A-160. Proposed next step is a 2-3 second original soft-linework motion proof before a new 15-second draft; latest request authorized research after push, so no new film rendered.",
   "unresolved": [
-    "V2 not creatively accepted: current user finds linework stiff",
-    "New reference inspection/research pending after requested code push",
+    "V2 not creatively accepted: user finds linework stiff",
+    "Reference authoring software and exact original workflow are unverified",
+    "Static curve proof verifies source integration only; animation, contact and temporal contour stability remain untested",
     "Continuous human listening of v2 unverified",
     "Historical missing media remains under recovery receipt; ignored media/runtimes do not travel with Git"
   ],

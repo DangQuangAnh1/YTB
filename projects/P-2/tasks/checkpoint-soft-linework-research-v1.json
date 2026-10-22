@@ -1,0 +1,16 @@
+{
+  "stage": "scouting",
+  "current_task": {
+    "id": "T-036",
+    "owner_role": "ba",
+    "execution": "complete"
+  },
+  "next_action": "Research delivered in A-158 with executable static source proof A-159 and project lesson A-160. Proposed next step is a 2-3 second original soft-linework motion proof before a new 15-second draft; latest request authorized research after push, so no new film rendered.",
+  "unresolved": [
+    "V2 not creatively accepted: user finds linework stiff",
+    "Reference authoring software and exact original workflow are unverified",
+    "Static curve proof verifies source integration only; animation, contact and temporal contour stability remain untested",
+    "Continuous human listening of v2 unverified",
+    "Historical missing media remains under recovery receipt; ignored media/runtimes do not travel with Git"
+  ]
+}
