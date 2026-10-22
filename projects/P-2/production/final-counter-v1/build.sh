@@ -9,7 +9,9 @@ HERE="$(cd "$(dirname "$0")" && pwd)"; ROOT="$(cd "$HERE/../../../.." && pwd)"; 
 MODE="${1:-smoke}"
 export P2_OUT="${P2_OUT:-$HOME/p2-out/final-counter-v1}"
 mkdir -p "$P2_OUT"
-PY="${PYTHON:-$ROOT/.venv/bin/python}"; [ -x "$PY" ] || PY=python3
+PY="${PYTHON:-}"
+if [ -z "$PY" ]; then for c in "$ROOT/.venv/bin/python" "$ROOT/.venv/Scripts/python.exe"; do [ -x "$c" ] && { PY="$c"; break; }; done; fi
+[ -n "$PY" ] || PY=python3
 CPUS="$(nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 4)"
 export CONC="${CONC:-$(( CPUS > 1 ? CPUS - 1 : 1 ))}"
 B=projects/P-2/production/final-counter-v1

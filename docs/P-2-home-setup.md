@@ -1,6 +1,6 @@
 # Chạy dự án P-2 (video người que) trên máy khác
 
-Áp dụng cho Linux hoặc macOS. Windows: dùng WSL2 (Ubuntu) rồi làm y như Linux; chưa thử trên Windows thuần. Máy ở nhà chỉ cần Git, Node.js 18 trở lên (khuyên dùng 20+), Python 3.10+ và khoảng 3 GB ổ đĩa trống (runtime Remotion khoảng 1,4 GB).
+Áp dụng cho Linux, macOS, và Windows chạy trong Git Bash (xem mục 1b). WSL2 (Ubuntu) làm y như Linux nhưng chưa thử. Máy ở nhà chỉ cần Git, Node.js 18 trở lên (khuyên dùng 20+), Python 3.10+ và khoảng 3 GB ổ đĩa trống (runtime Remotion khoảng 1,4 GB).
 
 ## 1. Cài đặt một lần
 
@@ -21,6 +21,20 @@ Chạy lại script không sao (không làm hỏng gì).
 
 Đã kiểm chứng ngày 22/10/2026: copy đúng các file Git có sang thư mục trống rồi chạy `setup-p2.sh` từ đầu (đặt `PYTHON=` vì máy thử thiếu `python3-venv`). Kết quả: dựng được video, file âm thanh giống từng byte với máy chính, `curve-validation.json` giống hệt, frame hình lệch trung bình 0,46/255. Chưa thử trên macOS, Windows/WSL hay máy có card rời.
 
+## 1b. Windows (Git Bash)
+
+Đã chạy được ngày 22/10/2026 trên Windows 11, Git Bash, Node 24, Python 3.13 (cài từ python.org, có lệnh `py`). Mở Git Bash ở thư mục repo rồi chạy y như mục 1. Những điểm khác Linux, script đã tự xử lý:
+- `python3` trên Windows thường chỉ là lối tắt mở Microsoft Store; script tự thử `python3`, `python`, rồi `py -3`. venv nằm ở `.venv/Scripts/python.exe` và `build.sh` tự tìm.
+- Nếu máy đã có sẵn một bộ `node_modules` cùng Remotion 4.0.536 (ví dụ của P-1), dùng lại thay cho bản tải 1,4 GB. Script sẽ tạo junction, không cần quyền admin:
+  ```bash
+  REMOTION_NODE_MODULES=projects/P-1/production/prototype-03/node_modules ./scripts/setup-p2.sh
+  ```
+  Khi `node_modules` đã đúng phiên bản thì script bỏ qua `npm ci`, vì `npm ci` sẽ xóa sạch thư mục được liên kết.
+- `render.cjs` tự dùng trình duyệt headless có sẵn trong `node_modules/.remotion`, nên Remotion không tải thêm bản thứ hai vào thư mục đang chạy.
+- Repo nằm trong OneDrive thì nên để runtime nặng ở ngoài hoặc dùng junction như trên, để tránh đồng bộ hàng GB file.
+
+Kết quả trên máy này (Intel 8 nhân, GPU tích hợp, `GL=angle`): smoke khoảng 1 phút; render 900 frame mất 69–84 giây; toàn bộ `build.sh full` khoảng 2,5 phút. `original-audio.wav` và `original-audio-kenney.wav` giống từng byte với hash đã đăng ký trên máy chính; `curve-validation.json` giống hệt.
+
 ## 2. Dựng video The Final Counter
 
 ```bash
@@ -38,7 +52,7 @@ Biến môi trường hữu ích:
 | `GL` | Chế độ đồ họa của Chrome. Mặc định `angle` (dùng GPU, tự lùi về phần mềm nếu không có). `GL=swangle` ép phần mềm; thử `GL=angle-egl` nếu card rời bị lỗi |
 | `CONC` | Số luồng render (mặc định số nhân trừ 1) |
 | `CHROME` | Đường dẫn Chrome nếu Remotion không tự tìm thấy |
-| `PYTHON` | Python có numpy, pillow, imageio-ffmpeg (mặc định `.venv/bin/python`) |
+| `PYTHON` | Python có numpy, pillow, imageio-ffmpeg (mặc định `.venv/bin/python`, trên Windows là `.venv/Scripts/python.exe`) |
 | `SFX_SET=kenney` | Thêm lớp tiếng mẫu CC0 của Kenney vào âm thanh (bản B) |
 
 Thời gian tham khảo trên máy chính (Intel UHD 630, 8 nhân): 900 frame mất 97,7 giây với GPU, khoảng 583–643 giây với phần mềm. Card rời chưa thử. Với video dài, Remotion cảnh báo rò bộ nhớ ở chế độ GPU, nên chia theo cảnh.
@@ -71,6 +85,8 @@ Không cần cho việc dựng thường ngày, vì các clip 2D đã commit s�
 | `ModuleNotFoundError: numpy` | Dùng Python trong `.venv` (script `build.sh` tự chọn); hoặc `./.venv/bin/pip install numpy pillow imageio-ffmpeg`; hoặc `PYTHON=/đường/dẫn/python` |
 | `Cannot create a virtualenv` khi cài đặt | `sudo apt install python3-venv` rồi chạy lại, hoặc cài `uv`, hoặc đặt `PYTHON=` |
 | `agency.py check P-2` báo thiếu file media | Bình thường trên máy mới (xem mục 3) |
+| Windows: `Python was not found; run without arguments to install from the Microsoft Store` | Đó là lối tắt của Store; dùng `py -3`, hoặc tắt nó trong Settings > Apps > Advanced app settings > App execution aliases |
+| Windows: `syntax error near unexpected token` giữa chừng | Bash đọc script dần dần trong lúc chạy; đừng sửa `build.sh` khi nó đang chạy, chạy lại là được |
 
 ## 6. Giấy phép cần nhớ (nay là sở thích, sau này kiếm tiền)
 

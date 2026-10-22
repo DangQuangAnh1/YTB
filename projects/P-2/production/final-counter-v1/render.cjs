@@ -5,7 +5,9 @@ const root=path.resolve(__dirname,'../../../..'),deps=path.join(root,'third_part
 const {bundle}=require(path.join(deps,'@remotion/bundler'));
 const {selectComposition,renderStill,renderMedia}=require(path.join(deps,'@remotion/renderer'));
 const out=process.env.P2_OUT||path.join(root,'projects/P-2/artifacts/render/final-counter-v1');fs.mkdirSync(out,{recursive:true});
-const chrome=process.env.CHROME||(fs.existsSync('/usr/bin/google-chrome')?'/usr/bin/google-chrome':undefined);
+// Without CHROME, reuse a headless shell already downloaded next to the runtime (Remotion would otherwise download another copy into the current directory).
+const shell=['win64/chrome-headless-shell-win64/chrome-headless-shell.exe','linux64/chrome-headless-shell-linux64/chrome-headless-shell'].map(p=>path.join(deps,'.remotion/chrome-headless-shell',p)).find(p=>fs.existsSync(p));
+const chrome=process.env.CHROME||(fs.existsSync('/usr/bin/google-chrome')?'/usr/bin/google-chrome':shell);
 const range=process.env.FRAMES?process.env.FRAMES.split('-').map(Number):null;
 (async()=>{
  const start=Date.now();
