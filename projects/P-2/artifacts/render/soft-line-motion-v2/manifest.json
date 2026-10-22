@@ -1,0 +1,29 @@
+{
+  "project": "P-2",
+  "scope": "3s CMU mocap retarget curve proof",
+  "upstream": {
+    "perfect-freehand": "176e00f2399f4969e1b0965c5921d96a3e50ce9f; MIT; original getStroke bundled locally",
+    "motion": "CMU Graphics Lab Motion Capture Database trials 144_20 and 144_26 via una-dinosauria/cmu-mocap BVH mirror; side-view projection by original mocap2d.cjs",
+    "baseline_run": "OpenMontage c8066452325cb57c8fc1ba8c2a71b6e8842e6b65 ink-theater/mocap/bvh2clip.mjs executed unmodified (AGPL-3.0, not copied into Git)",
+    "renderer": "Remotion4.0.536"
+  },
+  "referenceFootageUsed": false,
+  "files": {
+    "projects/P-2/production/soft-line-motion-v2/mocap2d.cjs": "9c00f2f0f5cbf497d3f22062d5b4c46875ffbe8f7698e20f90898367d86be75d",
+    "projects/P-2/production/soft-line-motion-v2/package.json": "139cfb88b94e9ee3455675fa52e6ed937235d49a6544f66adc64a16281af5550",
+    "projects/P-2/production/soft-line-motion-v2/compose.cjs": "8bef4850b11d52d2d42f124a8666b09a9d0e21f154c524624cdc1625d0aeaa97",
+    "projects/P-2/production/soft-line-motion-v2/render.cjs": "2ab780dc2be844da6d9cfb2687ec28dd13ffc025846175f31ba398caa7f4fae5",
+    "projects/P-2/production/soft-line-motion-v2/Video.tsx": "d77f00b417b008fe31f55d8b1db1415984590ec3f62e6dae99890d71da525cb5",
+    "projects/P-2/production/soft-line-motion-v2/finalize.py": "907a684552d028eef993fd2562f275a5c0ad70615b0f22fefa6ad3d124297cfc",
+    "projects/P-2/production/soft-line-motion-v2/check.cjs": "400780b589264493f3be15acbc5a9b2b6d50fac474d9b93142b5c1a0fc9debdc",
+    "projects/P-2/production/soft-line-motion-v2/curves.cjs": "6c21221bb521d70a4edd524f84c0ec6b0e86e5906c07fa057223caf82befd3b8",
+    "projects/P-2/production/soft-line-motion-v2/PERFECT_FREEHAND_LICENSE.txt": "6a5ac82b42ce0af6a1e5fe39b46f0b52f1368e81e437175e8d9ae21569c8688e",
+    "projects/P-2/production/soft-line-motion-v2/clips/cmu-144_20-jab.json": "d4701d0bb26c924171b4c17e9ae1fdc86b752922e2f423c6bd3c476cd98624da",
+    "projects/P-2/production/soft-line-motion-v2/clips/cmu-144_26-block-mirror.json": "1437f3d45f1cc06c10b891c7198e47a4c8bc0dbdf1b0a5e692080813f671a1c7",
+    "projects/P-2/artifacts/render/soft-line-motion-v2/draft.mp4": "5a6554563035b755b0379339f5f890d4bf557afd9837fce0027a47906523649b",
+    "projects/P-2/artifacts/render/soft-line-motion-v2/curve-validation.json": "0d8eaf3bd58b81c15e572064f53f5d7991702ba4536a3c279be069b3d34663f1",
+    "projects/P-2/artifacts/render/soft-line-motion-v2/technical-qa.json": "8f3fec641ffbfc48103c33b30818d576b8e3d83a3a0ff77e9bd040718dc47c2b",
+    "projects/P-2/artifacts/render/soft-line-motion-v2/contact-sheet.jpg": "9c3e5f0824783919867e22d6e5fde2e1ab55febccd1e281d3cb267f2c5229c59",
+    "projects/P-2/artifacts/render/soft-line-motion-v2/sequence-sheet.jpg": "1b2d5af6e8a0490452d57ebf9fa710c56f1bdfaf95d112fab621066ff0dab8db"
+  }
+}

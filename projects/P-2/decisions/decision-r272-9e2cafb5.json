@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user:current-turn-soft-line-v2-approval",
+  "excerpt": "okie sửa thử xem sao",
+  "plan": {
+    "path": "plans/plan-v18-r271-890b11c9.md",
+    "sha256": "6b2c1b47400a0cd25b294cce8c3d2fa211bddcb61c15449816afc48235ea82f0",
+    "revision": 18
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-22T06:59:39.594313+00:00"
+}

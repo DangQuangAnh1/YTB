@@ -1,0 +1,30 @@
+{
+  "frames": 90,
+  "strokePaths": 720,
+  "allFinite": true,
+  "reverseSeekDeterminism": true,
+  "groundedFootSlide": {
+    "red": {
+      "worstGroundedFootSlidePxPerFrame": 1,
+      "framesOver0_6px": 32
+    },
+    "black": {
+      "worstGroundedFootSlidePxPerFrame": 0.9,
+      "framesOver0_6px": 3
+    }
+  },
+  "closestRedHandToBlackHand": {
+    "d": 33.7,
+    "f": 26
+  },
+  "closestRedHandToBlackArmSegment": {
+    "d": 12.3,
+    "f": 25
+  },
+  "closestRedHandToBlackHeadSurface": {
+    "d": 64.6,
+    "f": 25
+  },
+  "source": "CMU 144_20 (red jab) and 144_26 mirrored (black block), side view via mocap2d.cjs",
+  "scope": "numeric checks only; no combat realism or user acceptance"
+}
