@@ -4,6 +4,7 @@ Dùng khi người dùng đưa một video mẫu (ví dụ "làm được video 
 
 ## Quy tắc
 
+0. **Cách nhanh nhất (từ 23/10/2026):** skill `.claude/skills/video-study`. Một lệnh `scripts/video-study.py` chạy claude-video (khung tổng quát), `analyze-video.py` (số đo), `video-detail.py` (frame dày ở đoạn bận nhất và phân tích tiếng đòn, có so sánh với tiếng của ta).
 1. **Công cụ chính:** plugin `claude-video-vision` (MIT, https://github.com/jordanrendric/claude-video-vision). Nó trích khung hình bằng ffmpeg và âm thanh/phụ đề, rồi đưa cho Claude xem như ảnh có mốc thời gian. Lệnh: `/watch-video <đường dẫn hoặc link> [câu hỏi]`. Nhận cả link YouTube (tải bằng yt-dlp).
 2. **Không có plugin hoặc cần số đo:** chạy `scripts/analyze-video.py` (xem bên dưới). Nó cho số liệu mà plugin không có: cắt cảnh, đường cong chuyển động, chớp sáng, nhịp âm thanh, bảng màu, bảng khung hình.
 3. **Hỏi trước khi tải.** Tải video của người khác có thể vi phạm điều khoản nền tảng và đụng bản quyền. Chỉ tải khi người dùng đồng ý rõ.
