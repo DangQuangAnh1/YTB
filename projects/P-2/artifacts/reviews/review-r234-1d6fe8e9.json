@@ -1,0 +1,38 @@
+{
+  "artifact_ids": [
+    "A-140"
+  ],
+  "reviewer": "Codex author — self-review",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "Original15s two-person black/red sparring, exact dimensions/framecount measured; content delegated by user.",
+      "evidence_path": "tasks/review-black-red-duel-v1-evidence.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Actual encoded20frame sheet inspected; fullbody contact poses and ending legible in sampled coverage; not continuous creative validation.",
+      "evidence_path": "tasks/review-black-red-duel-v1-evidence.md"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "Full MP4 decode exit0 with empty stderr; 450frames,15.0s,30fps,1280x720.",
+      "evidence_path": "artifacts/render/black-red-duel-v1/technical-qa.json"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "Non-silent finite PCM and no numeric clipping verified; continuous human listening and perceptual sync/mix not performed."
+    }
+  ],
+  "note": "Technical/sample self-review only. Creative user acceptance pending; no release.",
+  "artifact_hashes": {
+    "A-140": "c7920cbbc2ba2230240ca0e0b01d11eaa9802b06ea94f148e4585ee34fa2c953"
+  },
+  "verdict": "unverified",
+  "recorded_at": "2026-10-22T04:55:33.193374+00:00"
+}

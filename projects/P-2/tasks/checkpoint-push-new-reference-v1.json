@@ -1,0 +1,15 @@
+{
+  "stage": "scouting",
+  "current_task": {
+    "id": "T-036",
+    "owner_role": "ba",
+    "execution": "running"
+  },
+  "next_action": "Current user says v2 linework looks stiff. First commit/push current source and records, then directly inspect https://youtube.com/shorts/PvIbWtRJAzA and research closer line/motion method. No new render yet. Feedback source tasks/feedback-push-and-new-reference-v1.md.",
+  "unresolved": [
+    "V2 not creatively accepted: current user finds linework stiff",
+    "New reference inspection/research pending after requested code push",
+    "Continuous human listening of v2 unverified",
+    "Historical missing media remains under recovery receipt; ignored media/runtimes do not travel with Git"
+  ]
+}

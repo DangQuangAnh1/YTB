@@ -1,0 +1,37 @@
+{
+  "frames": 450,
+  "limbs": 3600,
+  "maxReachError": 2.5421149729252077e-13,
+  "maxSegmentLengthError": 1.1368683772161603e-13,
+  "jointBounds": [
+    274.95377602210124,
+    176.73088142750035,
+    1080.3367781904833,
+    610.0000000000001
+  ],
+  "contactDistances": [
+    {
+      "frame": 74,
+      "distance": 0
+    },
+    {
+      "frame": 148,
+      "distance": 0
+    },
+    {
+      "frame": 244,
+      "distance": 0
+    },
+    {
+      "frame": 286,
+      "distance": 0
+    },
+    {
+      "frame": 380,
+      "distance": 0
+    }
+  ],
+  "deterministic": true,
+  "scope": "numeric geometry/seek only; not visual or continuous playback approval",
+  "pass": true
+}

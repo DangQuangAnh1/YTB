@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "Current user message in this chat directly requests a new 15-second black/red fight draft and delegates content idea",
+  "excerpt": "dựng thử phim mới, content phim bạn tự lên ý tưởng nhé. ngắn thôi về cảnh 2 người đánh nhau 1 đen 1 đỏ là đc, tầm 15s",
+  "plan": {
+    "path": "plans/plan-v15-r215-4427b006.md",
+    "sha256": "42cbf18e8ac6937b6eb2a581586d1633a73ef32a2ec42a47681c7ef9452ccc26",
+    "revision": 15
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-22T04:46:04.846399+00:00"
+}

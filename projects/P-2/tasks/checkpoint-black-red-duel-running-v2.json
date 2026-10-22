@@ -1,0 +1,9 @@
+{
+  "stage": "production",
+  "current_task": {
+    "id": "T-035",
+    "owner_role": "production",
+    "execution": "running"
+  },
+  "next_action": "Rendering corrected grounded v2 with actual stick-motion gait/FK and GSAP timeline reuse, kneeSign visually adapted; inspect final encoded output and register new version. v1 rejected creatively by current user; never overwrite A-140."
+}

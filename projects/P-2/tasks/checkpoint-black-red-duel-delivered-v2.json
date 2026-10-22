@@ -1,0 +1,12 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-035", "owner_role": "pm", "execution": "complete"},
+  "next_action": "Delivered revised A-150 black/red duel v2:15s,1280x720/30fps,actual stick-motion FK-arm/IK-leg/gait reuse plus GSAP3.12.5 poseTween-style timelines. Guard and knee bend visually corrected; grounded combat, no long airborne kick or handshake. Await user feedback; next repairs need new version. Preserve v1 A-140 and source.",
+  "unresolved": [
+    "User said v1 looks funny and requested revision; v2 creative acceptance remains pending",
+    "Continuous human listening/perceptual sync and full real-time creative judgment remain unverified;20encoded frames,decode and geometry/gait/seek checks completed",
+    "Historical missing media retains original IDs/hashes under recovery r214",
+    "Black/red cast is a standalone user-requested test; duo-v3 channel cast not replaced",
+    "MotionCanvas/Fullik are researched alternatives, not claimed integrated into this video"
+  ]
+}

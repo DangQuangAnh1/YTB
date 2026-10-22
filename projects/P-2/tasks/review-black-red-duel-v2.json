@@ -1,0 +1,33 @@
+{
+  "artifact_ids": [
+    "A-150"
+  ],
+  "reviewer": "Codex author — self-review",
+  "mode": "self_review",
+  "checks": [
+    {
+      "name": "brief_alignment",
+      "status": "passed",
+      "detail": "New15s black/red two-person duel revision; current user asks revision and upstream reuse; source explicitly records FK/gait/GSAP behavior actually used.",
+      "evidence_path": "tasks/review-black-red-duel-v2-evidence.md"
+    },
+    {
+      "name": "visual_review",
+      "status": "passed",
+      "detail": "Actual encoded20frame sheet inspected chronologically; knees/guard/grounded moves and no handshake/long flight; limited to listed sample coverage.",
+      "evidence_path": "tasks/review-black-red-duel-v2-evidence.md"
+    },
+    {
+      "name": "media_decode",
+      "status": "passed",
+      "detail": "Full final MP4 decode exit0, empty stderr;450frames/15.0s/30fps/1280x720.",
+      "evidence_path": "artifacts/render/black-red-duel-v2/technical-qa.json"
+    },
+    {
+      "name": "audio_review",
+      "status": "unverified",
+      "detail": "Numeric PCM finite/non-silent/no clipping; continuous human listening and perceptual mix/sync not checked."
+    }
+  ],
+  "note": "v1 creatively rejected by user. v2 needs user judgment; no release approval."
+}

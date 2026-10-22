@@ -1,0 +1,12 @@
+{
+  "stage": "review",
+  "current_task": {"id": "T-034", "owner_role": "pm", "execution": "complete"},
+  "next_action": "Delivered A-140: new original15s black/red sparring draft,1280x720/30fps, procedural Foley. Await user creative feedback; revise only into a new version. Source/provenance and self-review retained. Do not publish.",
+  "unresolved": [
+    "New black/red film user creative acceptance pending; prior action/comedy feedback remains historical",
+    "Continuous human listening and full real-time motion-quality judgment unverified; sampled encoded frames and numeric/decode checks completed",
+    "Historical media unavailable under explicit recovery receipt r214; preserve old IDs/hashes and do not invent replacements",
+    "Old duo-v3 cast remains unassigned to a channel; black/red is a standalone test requested by current user",
+    "Full MotionCanvas export/OpenToonz GUI checks remain historical gaps; neither is used by the new film"
+  ]
+}

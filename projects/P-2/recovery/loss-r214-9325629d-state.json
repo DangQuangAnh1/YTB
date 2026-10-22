@@ -1,0 +1,1846 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "revision": 213,
+  "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
+  "stage": "review",
+  "constraints": [
+    "Prefer existing tools; no additional paid services without user authorization",
+    "No channel creation or publishing in v0"
+  ],
+  "current_task": {
+    "id": "T-033",
+    "owner_role": "pm",
+    "execution": "complete"
+  },
+  "plan": {
+    "path": "plans/plan-v14-r198-0d1be1f7.md",
+    "sha256": "5b9c908e2320fe952dab158439c419d60943b7dc1c02c7068a553b574f93ece0",
+    "revision": 14
+  },
+  "approval": {
+    "status": "approved",
+    "record": {
+      "path": "decisions/decision-r199-c6c25002.json",
+      "sha256": "819ea88b7e9d31bfe168e22df471f20f1fc1fd7d29b125e4f3aa3ad9949b1954"
+    }
+  },
+  "decision_records": [
+    {
+      "path": "decisions/decision-r14-e7903c1b.json",
+      "sha256": "01fd3c55e79211c3f3ef58a04a4a981cf02c211c9839f752bf9376e0547a1709"
+    },
+    {
+      "path": "decisions/decision-r28-356624a6.json",
+      "sha256": "cfad20b2ca95f438fde368e9f3d6745af6cc3d7df11d737494ba4a50bb2e8de1"
+    },
+    {
+      "path": "decisions/decision-r50-ce6ea3d4.json",
+      "sha256": "f22dbafc725202936af2581d35137ab64622c863071297fbfa3b74beaaa14abb"
+    },
+    {
+      "path": "decisions/decision-r59-dcb795e5.json",
+      "sha256": "119a515d38d230d34f05f5353debd9be10a877ac1b27cce93c705cec4ba5ba4f"
+    },
+    {
+      "path": "decisions/decision-r73-f6fd3b6e.json",
+      "sha256": "f9c4e54cbbf77435158b8eedd71dfb222fb163aac38c957c90ef1d92d29d1d7d"
+    },
+    {
+      "path": "decisions/decision-r76-67afd07f.json",
+      "sha256": "4903f303f746f3e265a579ccb10f5aaaad5607c8c8249ab9a840c9791541d3a1"
+    },
+    {
+      "path": "decisions/decision-r79-ff69455d.json",
+      "sha256": "544c82870ff7f57e73d9034b718ed5003788ad78481ea73b8f91e90d5a6236a1"
+    },
+    {
+      "path": "decisions/decision-r102-ea5a54bc.json",
+      "sha256": "2ff7edd98340c35119d7d59a4a3e71751e2e14b2d71fd8adf763ef3f6e2f2a18"
+    },
+    {
+      "path": "decisions/decision-r120-5e9b184f.json",
+      "sha256": "b93cdb30d69f043b2d1beba738bdb84f539673169d56b77e3acc3d231b033b4d"
+    },
+    {
+      "path": "decisions/decision-r135-c4d8e51a.json",
+      "sha256": "fe3b696ef231487920f63b64d81e942ceefbc3043bdef87825cecbe993a2b0c7"
+    },
+    {
+      "path": "decisions/decision-r145-a641fc3f.json",
+      "sha256": "ce8bfdffbc081788caa9d681b3ed8fd77099686f241391d245a422e229ee5e63"
+    },
+    {
+      "path": "decisions/decision-r155-9cffd5ae.json",
+      "sha256": "d9e921c11122a70e92601f11625c6260b7d1faaa213f78fe5f5587a18a61a568"
+    },
+    {
+      "path": "decisions/decision-r164-c46af404.json",
+      "sha256": "aa1c3978599de5e3988e638d97f3e881822ebec1130f1d68eee31e50e6d1f4f8"
+    },
+    {
+      "path": "decisions/decision-r165-50690d4a.json",
+      "sha256": "d2ec2745755b71eb9200bdb59c779f5fb83799184762bdb8b5e7379e25868408"
+    },
+    {
+      "path": "decisions/decision-r172-3dbfa1f4.json",
+      "sha256": "95cfa423082318ca44df9b160d0b9b112812f2cfdce13877e313b88393faff00"
+    },
+    {
+      "path": "decisions/decision-r182-f06b87a6.json",
+      "sha256": "368074c3d929bc75b2d565a16a4288698b39d2b128a7ab35d94816539f6b0bb6"
+    },
+    {
+      "path": "decisions/decision-r188-d25cbaa4.json",
+      "sha256": "8c5ba48b98e6d5e3a0b8fd17ecbaf9510a4ab66b86565b3c4d4fb2160a70c034"
+    },
+    {
+      "path": "decisions/decision-r199-c6c25002.json",
+      "sha256": "819ea88b7e9d31bfe168e22df471f20f1fc1fd7d29b125e4f3aa3ad9949b1954"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "research/source-scout-2026-10-20-v1.md",
+      "sha256": "7915badef785573a2fb26cd482f317dec3ede6a8df2c346a73962774d1f4125f",
+      "id": "A-001",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": null,
+      "created_at": "2026-10-20T13:52:48.778528+00:00"
+    },
+    {
+      "path": "research/feasibility-v1.md",
+      "sha256": "feff86815d3629a7b6873ae8ae905c8d6e6832a4a83c378353cb55661d354503",
+      "id": "A-002",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": null,
+      "created_at": "2026-10-20T13:52:58.913602+00:00"
+    },
+    {
+      "path": "research/anime-ai-feasibility-v1.md",
+      "sha256": "308d7b88e7f4fd1318c2cb266785d66ebea93b30069df5d90af4acce871db76b",
+      "id": "A-003",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": null,
+      "created_at": "2026-10-20T14:01:30.056629+00:00"
+    },
+    {
+      "path": "tasks/ba-anime-repos-v1.md",
+      "sha256": "23b0766c1d9d9c5d253b7fe5ffd2e915ebe610de4c0e83ff29417b7fd71b11f0",
+      "id": "A-004",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": null,
+      "created_at": "2026-10-20T14:02:50.982317+00:00"
+    },
+    {
+      "path": "research/ba-anime-repos-v1.md",
+      "sha256": "000e02bb2166c078253dec6fdf6633aa87134f1370e7dce422fb20e58e0330fc",
+      "id": "A-005",
+      "kind": "research",
+      "inputs": [
+        "A-003",
+        "A-004"
+      ],
+      "plan_revision": null,
+      "created_at": "2026-10-20T14:06:26.700962+00:00"
+    },
+    {
+      "path": "tasks/ba-cooking-video-to-anime-v1.md",
+      "sha256": "e6adaf20ed3ed7dce9440b265c8e0098a8b21620b51f1cbc670b9428f18b3a47",
+      "id": "A-006",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": null,
+      "created_at": "2026-10-20T14:08:16.671707+00:00"
+    },
+    {
+      "path": "research/cooking-video-to-anime-v1.md",
+      "sha256": "b75832d8f6bbcb057714f5c2023a2db1f18800b6ca21d729acd9e9a02860ca0a",
+      "id": "A-007",
+      "kind": "research",
+      "inputs": [
+        "A-006"
+      ],
+      "plan_revision": null,
+      "created_at": "2026-10-20T14:11:42.051264+00:00"
+    },
+    {
+      "path": "tasks/propagate-keyframe-v1.py",
+      "sha256": "e4f0f7e8e9ae47ff683ef00418535aa690fda637ba650cf26f7e6b5dec7af59d",
+      "id": "A-008",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:11.753196+00:00"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v1/anime-keyframe.png",
+      "sha256": "36f331878f3971fa77e9699257043b701dc101cf7e1d831e3a1ced1a1584bb35",
+      "id": "A-009",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:12.092186+00:00"
+    },
+    {
+      "path": "artifacts/render/cooking-flow-v1/anime-draft.mp4",
+      "sha256": "87ab0160ba8c9dcb11268864117f77834c2772140b941f86fecbdf297beb41f7",
+      "id": "A-010",
+      "kind": "video",
+      "inputs": [
+        "A-008",
+        "A-009"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:12.408472+00:00"
+    },
+    {
+      "path": "artifacts/render/cooking-flow-v1/comparison.mp4",
+      "sha256": "99896de70a8b83f2392d313994920a49ce1e026b31420ee97ed8d4dc59f9d25d",
+      "id": "A-011",
+      "kind": "video",
+      "inputs": [
+        "A-010"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:12.720972+00:00"
+    },
+    {
+      "path": "artifacts/render/cooking-flow-v1/manifest.json",
+      "sha256": "59e497cbc88bea07b138242a6d9dd2c0c8149822be0ed73f881f11476a9f3289",
+      "id": "A-012",
+      "kind": "metadata",
+      "inputs": [
+        "A-010",
+        "A-011"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:13.104148+00:00"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v1/qa-v1.md",
+      "sha256": "092d2338f1bd97e92142940d4c8ab5993b6db912355aa654718d6c7846f4fc2d",
+      "id": "A-013",
+      "kind": "other",
+      "inputs": [
+        "A-010",
+        "A-011"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:48:13.377313+00:00"
+    },
+    {
+      "path": "research/copyright-anime-conversion-v1.md",
+      "sha256": "a914872f1137c413e5debb9591a3f7af590c8fbbd555a5287ca343b43f270748",
+      "id": "A-014",
+      "kind": "research",
+      "inputs": [
+        "A-013"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:53:54.439177+00:00"
+    },
+    {
+      "path": "research/repo-followup-flow-failure-v1.md",
+      "sha256": "e46190ea181fab588ef4d5bc4e19d9e049d04677e4de72dc64eb354b5d808c8e",
+      "id": "A-015",
+      "kind": "research",
+      "inputs": [
+        "A-013"
+      ],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:56:03.669981+00:00"
+    },
+    {
+      "path": "tasks/idea-chinese-cooking-backlog-v1.md",
+      "sha256": "0c3fe43b5da81e0e5bb47e52fdf6ea32da5b6aa85c195447c1166f70f34c36e7",
+      "id": "A-016",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 1,
+      "created_at": "2026-10-20T14:59:42.583957+00:00"
+    },
+    {
+      "path": "tasks/build-ebsynth-cpu-v1.py",
+      "sha256": "4d31fee523d10f6329f5ccb2f5d9c5428b00c77f7739d4f2e6e7963685577570",
+      "id": "A-017",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:18:37.210758+00:00"
+    },
+    {
+      "path": "tasks/convert-anime-v2.py",
+      "sha256": "63a25dccb95da2a1cb50d0600722dae73145f5ae06e48d9eb536f7c5fff5c9f2",
+      "id": "A-018",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:18:37.526839+00:00"
+    },
+    {
+      "path": "tasks/CONVERTER.md",
+      "sha256": "4ec6c27691effadce1aeb4b9751283574778552b615cd2b936d96ddcf31d34e2",
+      "id": "A-019",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:18:37.843142+00:00"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v2/qa-converter-v2.md",
+      "sha256": "c1e57925519e6550d6b6aa4b2db7a274074b7e8ca4cae22112f532c12f4a393e",
+      "id": "A-020",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:18:38.157090+00:00"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v2/backend-provenance.json",
+      "sha256": "80f77660f5d0f1519eaa6d327c0543e7001db59c48d48ce304cd0599fe2907f8",
+      "id": "A-021",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:18:38.479208+00:00"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v2/anime-000.png",
+      "sha256": "7ad986eefebaa7bb87123ac88d4f6f0f2984c4083256453a9b759cadeefdfe8c",
+      "id": "A-022",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:19:04.010779+00:00"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v2/anime-099.png",
+      "sha256": "abf098d921a29674a0cc35a2d6b54373b796aaa55d2831a3d78ed5e25cd88133",
+      "id": "A-023",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:19:04.327465+00:00"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v2/keyframes.json",
+      "sha256": "36a1e5e36c3ef9736a822eb4c30d36f2a7b6721ef5ddaa332f9564e5c9ca2299",
+      "id": "A-024",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:19:04.626365+00:00"
+    },
+    {
+      "path": "artifacts/render/ebsynth-multikey-smoke-v1/manifest.json",
+      "sha256": "4689bc0e6ea690ccc487ba99776f30d8ce587d284d12f26d8084617abacf02a8",
+      "id": "A-025",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:19:04.928970+00:00"
+    },
+    {
+      "path": "artifacts/render/ebsynth-edge-smoke-v2/manifest.json",
+      "sha256": "f72fd5cf3f926dde84c80ccca08647a41751518829f0097e379238c9c5625869",
+      "id": "A-026",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:19:05.258383+00:00"
+    },
+    {
+      "path": "artifacts/render/ebsynth-video-v2/anime.mp4",
+      "sha256": "4b9ba6e21f8a1e22f9aac68f152a33a76b06a9962580f5031083919de33f43cc",
+      "id": "A-027",
+      "kind": "video",
+      "inputs": [
+        "A-018",
+        "A-024"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:25:33.420289+00:00"
+    },
+    {
+      "path": "artifacts/render/ebsynth-video-v2/comparison.mp4",
+      "sha256": "abe8d6e1306843722c5e110c5917d561f99bb580021d8054dc4f54a0b2f78001",
+      "id": "A-028",
+      "kind": "video",
+      "inputs": [
+        "A-027"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:25:33.913935+00:00"
+    },
+    {
+      "path": "artifacts/render/ebsynth-video-v2/manifest.json",
+      "sha256": "ac361d2b5f15d769d6af457c1dafbf0fe4abcc9827176ae8747f6c5372326656",
+      "id": "A-029",
+      "kind": "metadata",
+      "inputs": [
+        "A-027",
+        "A-028"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:25:34.380215+00:00"
+    },
+    {
+      "path": "tasks/ba-intel-alternatives-v1.md",
+      "sha256": "7192516f2d8eccba94ab8e9193953339123d0355e4cb04141e5b579de3f96cc9",
+      "id": "A-030",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:32:59.686890+00:00"
+    },
+    {
+      "path": "research/intel-cpu-alternatives-v1.md",
+      "sha256": "87403d355f15dad17704054df2b15357263ec02cc6d08c2cb815105fda8a36ce",
+      "id": "A-031",
+      "kind": "research",
+      "inputs": [
+        "A-030"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:34:58.944725+00:00"
+    },
+    {
+      "path": "tasks/render-animegan-v3-cpu-v1.py",
+      "sha256": "4166d4eee3af1eb2ca2ea6b76f162571828e2eb58618918aea3e63a066837cd5",
+      "id": "A-032",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T15:42:35.371815+00:00"
+    },
+    {
+      "path": "research/repo-scan-after-animegan-v1.md",
+      "sha256": "7dc9f59ca0a16427c94208f9564b0f49735f2425127038e511211a491ab51481",
+      "id": "A-033",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T16:49:48.198596+00:00"
+    },
+    {
+      "path": "tasks/compare-framewise-v1.py",
+      "sha256": "08646f9fd4c115b9ac1aef1b3321e3afc02fa869590110d50fe5c6157f2b77f9",
+      "id": "A-034",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:00:04.074717+00:00"
+    },
+    {
+      "path": "artifacts/render/framewise-compare-v1/manifest.json",
+      "sha256": "1dce552139b1e5acf735aeb603e44f6ffaf2326cae5d8eabc675c8e0e1d3342f",
+      "id": "A-035",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:00:04.460984+00:00"
+    },
+    {
+      "path": "artifacts/render/framewise-compare-v1/contact-full.jpg",
+      "sha256": "fd7a7812ee2748f47466e7bd203aab6f8bedb47e84fc54b1d5ae8770c09cc992",
+      "id": "A-036",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:00:04.839068+00:00"
+    },
+    {
+      "path": "artifacts/render/framewise-compare-v1/contact-hands.jpg",
+      "sha256": "1aac5bfc6856dc292710890dd130e16d51ce12a9b74613ef7f5563ce3fdd58f6",
+      "id": "A-037",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:00:05.239888+00:00"
+    },
+    {
+      "path": "artifacts/render/framewise-compare-v1/subtitle-check.png",
+      "sha256": "3ab5a29f4e6ce44ada029f64b251beb42ec2a4aef8ae7bbaf098bee9715c54e8",
+      "id": "A-038",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:00:05.769727+00:00"
+    },
+    {
+      "path": "artifacts/render/framewise-compare-v1/qa-framewise-v1.md",
+      "sha256": "2a7b223880d80a632a5c99ee476ea6c39e7b196a189b1843b682ff956fe38ac0",
+      "id": "A-039",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:00:06.653110+00:00"
+    },
+    {
+      "path": "tasks/render-framewise-video-v1.py",
+      "sha256": "3e4feeca4edc9a560598818d14ce4a34b8eaac19267abeece1c4578985fff209",
+      "id": "A-040",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:09:25.799958+00:00"
+    },
+    {
+      "path": "artifacts/render/shinkai37-video-10s-v1/anime.mp4",
+      "sha256": "9ca04e5589001175167db1047bdff0b84fb798aa8f31f3ef3aa859113b0f88a3",
+      "id": "A-041",
+      "kind": "video",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:09:26.189660+00:00"
+    },
+    {
+      "path": "artifacts/render/shinkai37-video-10s-v1/comparison.mp4",
+      "sha256": "7de9fe3705e8672affe80246dec568120688dcad8c5d2e976880667949aba05a",
+      "id": "A-042",
+      "kind": "video",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:09:26.607305+00:00"
+    },
+    {
+      "path": "artifacts/render/shinkai37-video-10s-v1/contact.jpg",
+      "sha256": "d81f5dad7bf901e904b4b358b1d88213ade601b6acc16809082dafeb49a95d8f",
+      "id": "A-043",
+      "kind": "image",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:09:27.090100+00:00"
+    },
+    {
+      "path": "artifacts/render/shinkai37-video-10s-v1/manifest.json",
+      "sha256": "a168fe9a6a6d736508d45d8b372c87cf461394e1d4ab7c9b9b03bd97cc97b98c",
+      "id": "A-044",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:09:27.782847+00:00"
+    },
+    {
+      "path": "artifacts/render/shinkai37-video-10s-v1/qa-shinkai37-10s-v1.md",
+      "sha256": "2cae118efd4ecb00a0051400c9e00449da46d36a950331e774a5ef6b9eef2e76",
+      "id": "A-045",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-20T17:09:28.587244+00:00"
+    },
+    {
+      "path": "artifacts/render/animegan-v3-cpu-v1/anime.mp4",
+      "sha256": "f42070c460748162e05006edb7f1cea01901fd92d15f3f0987f55793217722a3",
+      "id": "A-046",
+      "kind": "video",
+      "inputs": [
+        "A-032"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-21T15:25:18.676230+00:00"
+    },
+    {
+      "path": "artifacts/render/animegan-v3-cpu-v1/comparison.mp4",
+      "sha256": "364be79a927c43899bc97431ab9cc9b436cf49979552d41b7851d5c3457eacea",
+      "id": "A-047",
+      "kind": "video",
+      "inputs": [
+        "A-046"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-21T15:25:22.097805+00:00"
+    },
+    {
+      "path": "artifacts/render/animegan-v3-cpu-v1/manifest.json",
+      "sha256": "1689f841bffacc5ec2d76770546d0bcfe439e0b7d33cd4783538658bfa1bf6fd",
+      "id": "A-048",
+      "kind": "metadata",
+      "inputs": [
+        "A-046",
+        "A-047"
+      ],
+      "plan_revision": 2,
+      "created_at": "2026-10-21T15:25:25.818132+00:00"
+    },
+    {
+      "path": "research/history-battles-direction-v1.md",
+      "sha256": "0a1c4cd9c03a10128ed043f3e73d81269a42d59113df6527437f0e6d56c045d5",
+      "id": "A-049",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 2,
+      "created_at": "2026-10-21T15:46:15.590998+00:00"
+    },
+    {
+      "path": "tasks/lesson-three-formats-v1.md",
+      "sha256": "d7d211841c31c8b9696b34233f9d20aa23ca2b63314ebac994f1fb3510e38bc9",
+      "id": "A-050",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:13:27.382706+00:00"
+    },
+    {
+      "path": "research/stick-action-ba-v1.md",
+      "sha256": "682519cee658f1467f7e426e5a68a661b658de5e3673b6a954bcc95ad80ad625",
+      "id": "A-051",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:42.021465+00:00"
+    },
+    {
+      "path": "research/stick-comedy-ba-v1.md",
+      "sha256": "c485301154c952323d35c78e078ff5676c98100b98e37c7fddac3bce352b7d2b",
+      "id": "A-052",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:42.352147+00:00"
+    },
+    {
+      "path": "research/stick-explainer-ba-v1.md",
+      "sha256": "aad3a03e62ea2ac25585b472b567156efb7ff8b04b6bb1bd3ce80a3bbc8e7a3c",
+      "id": "A-053",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:42.685216+00:00"
+    },
+    {
+      "path": "research/stick-action-dev-v1.md",
+      "sha256": "219c95b18b5eef46415557c1a9a3eb2f9888a032c133378d69bfa55caf4f062b",
+      "id": "A-054",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:43.062727+00:00"
+    },
+    {
+      "path": "research/stick-comedy-dev-v1.md",
+      "sha256": "4220a1c9efdb01de05891e92ff6998219e2f96f96dbb48ae9ddd3eebf5cd372d",
+      "id": "A-055",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:43.423999+00:00"
+    },
+    {
+      "path": "research/stick-explainer-dev-v1.md",
+      "sha256": "b39d08c65629e24f421bc7fd8b2b0089f4c93828b18ca2345fb97839b35fdd62",
+      "id": "A-056",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:43.777519+00:00"
+    },
+    {
+      "path": "research/stick-host-capabilities-pm-v1.md",
+      "sha256": "31229b43b47cd2afc0084e87b1168f9f10b404923a2c7052db7fd30484a56313",
+      "id": "A-057",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:44.136875+00:00"
+    },
+    {
+      "path": "research/stick-repo-metadata-pm-v1.json",
+      "sha256": "49983ca5a0ed6c85bff5e6294732fa5dd77ff530881ad9fff8857c63949a268d",
+      "id": "A-058",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:44.487180+00:00"
+    },
+    {
+      "path": "research/stick-license-audit-pm-v1.json",
+      "sha256": "df857e517018ebeb65a14ec1eb5a2d3af62cc6ae0eb279363f5b1cdd0b309b06",
+      "id": "A-059",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:44.823038+00:00"
+    },
+    {
+      "path": "tasks/review-stick-initial-findings-v1.md",
+      "sha256": "0a810cd94f28815f4e5a16552793d8ca71f920d2498916289f32d177b0acf6f4",
+      "id": "A-060",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:18:45.185882+00:00"
+    },
+    {
+      "path": "research/stick-comedy-ba-v2.md",
+      "sha256": "8eb03a92d724c34779b2125a156e5688d88577bc92739bc4f2591ad3d9a86039",
+      "id": "A-061",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:21:46.206909+00:00"
+    },
+    {
+      "path": "research/stick-explainer-ba-v2.md",
+      "sha256": "0b120a53f010e35f1507533349e79992b27ccbdd66649ea88cedd8194c08054e",
+      "id": "A-062",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:21:46.545231+00:00"
+    },
+    {
+      "path": "research/stick-three-formats-pm-summary-v1.md",
+      "sha256": "9ea8011f0591f271e43d2c486551ee839464251e721aca09554652c5b4f4b6fa",
+      "id": "A-063",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:21:46.890385+00:00"
+    },
+    {
+      "path": "tasks/review-stick-final-evidence-v1.md",
+      "sha256": "65fa0c4b6eef763bd47bb1dd8edf2667ceb2a65d18ce10fd5472d3e4843cd768",
+      "id": "A-064",
+      "kind": "other",
+      "inputs": [],
+      "plan_revision": 5,
+      "created_at": "2026-10-21T17:21:47.276398+00:00"
+    },
+    {
+      "path": "artifacts/content/comedy-c1-script-v1.json",
+      "sha256": "27bd95d7196f67d20d201aff04065dc67f2eb47343fb3dad54ffe1b4e0da17cb",
+      "id": "A-065",
+      "kind": "script",
+      "inputs": [
+        "A-052",
+        "A-055",
+        "A-061",
+        "A-063"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:37:55.839457+00:00"
+    },
+    {
+      "path": "artifacts/content/comedy-c1-storyboard-v1.md",
+      "sha256": "d52123f48e6a5fe44f65dc08e0399efb2d1c46fa425409da7fe4d9a3cdc04147",
+      "id": "A-066",
+      "kind": "storyboard",
+      "inputs": [
+        "A-065"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:37:56.245340+00:00"
+    },
+    {
+      "path": "tasks/comedy-c1-adapter-v1.json",
+      "sha256": "53054e56f26be1552c31ee8e7c74d318c19bc303e4fa1e81bd8ebcec7415d6e7",
+      "id": "A-067",
+      "kind": "other",
+      "inputs": [
+        "A-065",
+        "A-066"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:48:45.444815+00:00"
+    },
+    {
+      "path": "artifacts/audio/comedy-c1-soundtrack-v1.wav",
+      "sha256": "baaf303e7d2190d1344870e517071e1a48ef58add7ac818ae193ce2ae6c2def2",
+      "id": "A-068",
+      "kind": "audio",
+      "inputs": [
+        "A-065",
+        "A-066"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:48:45.865233+00:00"
+    },
+    {
+      "path": "artifacts/render/comedy-c1-draft-v2/draft.mp4",
+      "sha256": "ad89c597ab8d73d12a6329a79a9a6057d089d868b634079bd9685f52385ee132",
+      "id": "A-069",
+      "kind": "video",
+      "inputs": [
+        "A-065",
+        "A-066",
+        "A-067",
+        "A-068"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:48:46.299896+00:00"
+    },
+    {
+      "path": "artifacts/render/comedy-c1-draft-v2/manifest.json",
+      "sha256": "add7b2187f4c82768e61f67783dee5261a3f552ed7a4b75e8c54ecd5c1640bb3",
+      "id": "A-070",
+      "kind": "metadata",
+      "inputs": [
+        "A-069"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:48:46.736018+00:00"
+    },
+    {
+      "path": "artifacts/render/comedy-c1-draft-v2/technical-qa.json",
+      "sha256": "9d238eead0b7b6731a50f8269f38a72ca8f1b0a094b85fbf1f02a301927dbc59",
+      "id": "A-071",
+      "kind": "other",
+      "inputs": [
+        "A-069"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:48:47.165770+00:00"
+    },
+    {
+      "path": "artifacts/render/comedy-c1-draft-v2/contact-sheet.jpg",
+      "sha256": "b70db965eeb8f33e35ecd23e60e617cf41f95ad96f099bedb403dd20094e7453",
+      "id": "A-072",
+      "kind": "image",
+      "inputs": [
+        "A-069"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:48:47.602400+00:00"
+    },
+    {
+      "path": "tasks/review-comedy-c1-video-v2-evidence.md",
+      "sha256": "258692336a93497ddf8bedaf132b0481ee1930ac1197659f9583584d29242b18",
+      "id": "A-073",
+      "kind": "other",
+      "inputs": [
+        "A-069",
+        "A-071",
+        "A-072"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:48:48.035698+00:00"
+    },
+    {
+      "path": "tasks/lesson-comedy-local-adapter-v1.md",
+      "sha256": "547c5319ff9ba342bba6f3ffd2b4b7dc8607aa5a3b2deef787f34799ec6d7459",
+      "id": "A-074",
+      "kind": "other",
+      "inputs": [
+        "A-069"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:48:48.465442+00:00"
+    },
+    {
+      "path": "artifacts/render/comedy-c1-draft-v2/determinism.json",
+      "sha256": "a7e7123e4937f1c0c922db3714287155b07b603366475826e1864d62cc5105d1",
+      "id": "A-075",
+      "kind": "other",
+      "inputs": [
+        "A-067"
+      ],
+      "plan_revision": 6,
+      "created_at": "2026-10-21T17:48:48.938596+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/character-spec-v1.json",
+      "sha256": "54829a8fbed31c32fe01192076b9b07a9a2d32225d8a99738f1bdd47f16adf2a",
+      "id": "A-076",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:27.607115+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/character-sheet.svg",
+      "sha256": "f0263ddfc5cc1ad1fee5c713fcd7a55e81127296d80c4839564412a4328b703a",
+      "id": "A-077",
+      "kind": "image",
+      "inputs": [
+        "A-076"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:28.060060+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/character-sheet.png",
+      "sha256": "fd5d91f28c30b77e2bee155a1182d4c8debdf74da43f18a109582ce205e2295e",
+      "id": "A-078",
+      "kind": "image",
+      "inputs": [
+        "A-077"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:28.533553+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/cap-character.svg",
+      "sha256": "04e9021fa796fe31e5ad19d787600d742a7e2f4377e28723ca5d5a192424f02d",
+      "id": "A-079",
+      "kind": "image",
+      "inputs": [
+        "A-076"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:28.967629+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/scarf-character.svg",
+      "sha256": "e1503f09924989687badb8ce560d35ecf55998108302a4735f17216e3e5a8f1c",
+      "id": "A-080",
+      "kind": "image",
+      "inputs": [
+        "A-076"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:29.413777+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/technical-qa-v1.json",
+      "sha256": "3ee591d5b9bc947da1549c6b477041d9e81a53fea3b203d27f95c78959b7b061",
+      "id": "A-081",
+      "kind": "other",
+      "inputs": [
+        "A-077",
+        "A-078",
+        "A-079",
+        "A-080"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:29.921186+00:00"
+    },
+    {
+      "path": "tasks/review-character-cast-v1-evidence.md",
+      "sha256": "683e7b225aa5e75be30ef789070716840675cec256a43ccea604337eff9e603e",
+      "id": "A-082",
+      "kind": "other",
+      "inputs": [
+        "A-081"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:30.373708+00:00"
+    },
+    {
+      "path": "tasks/lesson-character-svg-v1.md",
+      "sha256": "326311ba2394073ef89e7c7b813e1d63cef0a1db74f61b22222fdcdb9be74ddb",
+      "id": "A-083",
+      "kind": "other",
+      "inputs": [
+        "A-081"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:30.863894+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/cap-character.png",
+      "sha256": "efa8e3eb87766c546d6705041143d702516326b4df1754a80e244028f206733b",
+      "id": "A-084",
+      "kind": "image",
+      "inputs": [
+        "A-079"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:31.327852+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/scarf-character.png",
+      "sha256": "e2e61852b410f1d1f00c03b35897d8dcf6d032f12b56c0dbaac176095d2db31f",
+      "id": "A-085",
+      "kind": "image",
+      "inputs": [
+        "A-080"
+      ],
+      "plan_revision": 7,
+      "created_at": "2026-10-21T18:16:31.776271+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/character-spec-v2.json",
+      "sha256": "3f52eb40f4ea5efb6a3dd9877dd96e05aef7207a05ea2733a38684e395fa8745",
+      "id": "A-086",
+      "kind": "metadata",
+      "inputs": [
+        "A-076"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:22:59.411391+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/character-sheet.png",
+      "sha256": "e84910fc67179f20fd3da655bb8e8df6fa5536a81d7da73e7583a7dc492fecb9",
+      "id": "A-087",
+      "kind": "image",
+      "inputs": [
+        "A-086",
+        "A-079"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:22:59.906647+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/scarf-character.svg",
+      "sha256": "759dc06ac5ea697183f272d0aceff4e5e361d92e64856eb336418c096b0cec90",
+      "id": "A-088",
+      "kind": "image",
+      "inputs": [
+        "A-086"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:23:00.434714+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/scarf-character.png",
+      "sha256": "730fd14a3f864b9cee3e334ebe42708989a89bccdb9c3151462301865954558a",
+      "id": "A-089",
+      "kind": "image",
+      "inputs": [
+        "A-088"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:23:00.913786+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/technical-qa-v2.json",
+      "sha256": "dea9a8d6b2e78c830fa20d2f1af05d6cdd70f85296906ed6cec16644a4221183",
+      "id": "A-090",
+      "kind": "other",
+      "inputs": [
+        "A-087",
+        "A-088",
+        "A-089"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:23:01.433606+00:00"
+    },
+    {
+      "path": "tasks/review-character-cast-v2-evidence.md",
+      "sha256": "daaaaab57d1699cf156f53a8fc70e6db9613ce24e08e3130fdda0c0ef5280ad9",
+      "id": "A-091",
+      "kind": "other",
+      "inputs": [
+        "A-090"
+      ],
+      "plan_revision": 8,
+      "created_at": "2026-10-21T18:23:01.946884+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/character-spec-v3.json",
+      "sha256": "973eed3c271a41a2a82436037eaeabb1dcabbb8e22df150eb2018a0c671f6f9c",
+      "id": "A-092",
+      "kind": "metadata",
+      "inputs": [
+        "A-086"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:38.227628+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/character-sheet.png",
+      "sha256": "2189cd9f33d7fdc5d2034af0f1f382cb3abb53f94ac544f5a311a42f75db6493",
+      "id": "A-093",
+      "kind": "image",
+      "inputs": [
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:38.744214+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/scarf-character.svg",
+      "sha256": "a227b9e1f040741a588929624d1393cc019337cc8f4a3a061d7def709c6afa8c",
+      "id": "A-094",
+      "kind": "image",
+      "inputs": [
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:39.305872+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/scarf-character.png",
+      "sha256": "af706c63d84e98264761c840193fa5506b26e9bc8a77d6497d8c2f82542059e0",
+      "id": "A-095",
+      "kind": "image",
+      "inputs": [
+        "A-094"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:39.793520+00:00"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/technical-qa-v3.json",
+      "sha256": "8ac08d58a503cdbd856cfb58a36207a6886200c5d56a1387159905ee9933bd00",
+      "id": "A-096",
+      "kind": "other",
+      "inputs": [
+        "A-093",
+        "A-094",
+        "A-095"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:40.327914+00:00"
+    },
+    {
+      "path": "tasks/review-character-cast-v3-evidence.md",
+      "sha256": "e201fe34ce3e190f135da0b8febb6afef104031e33f2f670b2872e2f253e22ce",
+      "id": "A-097",
+      "kind": "other",
+      "inputs": [
+        "A-096"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T18:30:40.848179+00:00"
+    },
+    {
+      "path": "tasks/channel-character-rules-v1.md",
+      "sha256": "f9493019ec7cb5b7a1a396c39dc7d5a61d05ae3d00f1224b85a330c76285802b",
+      "id": "A-098",
+      "kind": "other",
+      "inputs": [
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T19:19:24.696084+00:00"
+    },
+    {
+      "path": "tasks/comedy-script-rules-v1.md",
+      "sha256": "673e42ca9e4cf7c6921f8cbe6f1c36ac5fe4b52d84a68da4ac9d47c471598dcf",
+      "id": "A-099",
+      "kind": "other",
+      "inputs": [
+        "A-098",
+        "A-066",
+        "A-061"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T19:21:19.566494+00:00"
+    },
+    {
+      "path": "tasks/tiktok-stick-adaptation-brief-v1.md",
+      "sha256": "cfd8d97ab79f6cccff12b7aafaf358b3bb4e1519ef20221c2435bccca87914a3",
+      "id": "A-100",
+      "kind": "other",
+      "inputs": [
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T19:24:18.982221+00:00"
+    },
+    {
+      "path": "artifacts/content/tiktok-7665223745438485768-storyboard-draft-v1.md",
+      "sha256": "6257cea13d18cd075be46f1e7bcc3870cf915908ddbf784808d94b1b6a748723",
+      "id": "A-101",
+      "kind": "storyboard",
+      "inputs": [
+        "A-100",
+        "A-092"
+      ],
+      "plan_revision": 9,
+      "created_at": "2026-10-21T19:26:51.079182+00:00"
+    },
+    {
+      "path": "artifacts/audio/reference-tiktok-7665223745438485768-original-v1.m4a",
+      "sha256": "55b5ea3aedd6bad04f48dc17040cd9a360cce48d93ae2efed32703c8a82918cf",
+      "id": "A-102",
+      "kind": "audio",
+      "inputs": [
+        "A-100"
+      ],
+      "plan_revision": 10,
+      "created_at": "2026-10-21T19:34:08.161326+00:00"
+    },
+    {
+      "path": "artifacts/audio/reference-tiktok-7665223745438485768-integrity-v1.json",
+      "sha256": "c3bc137f10d8c01bf4d7ae35435fe32cf1ce32a435b5d4bb12fd898f13082f61",
+      "id": "A-103",
+      "kind": "metadata",
+      "inputs": [
+        "A-102"
+      ],
+      "plan_revision": 10,
+      "created_at": "2026-10-21T19:34:08.737057+00:00"
+    },
+    {
+      "path": "artifacts/content/tiktok-7665223745438485768-storyboard-v2.md",
+      "sha256": "e463c9791ea78d16511c8dcf314ae0575f825805eeebb0da23eace64d219bd6e",
+      "id": "A-104",
+      "kind": "storyboard",
+      "inputs": [
+        "A-101",
+        "A-102",
+        "A-092"
+      ],
+      "plan_revision": 10,
+      "created_at": "2026-10-21T19:34:09.310559+00:00"
+    },
+    {
+      "path": "tasks/lesson-reference-audio-import-v1.md",
+      "sha256": "85c5e377ceb76c4878960ff3038085463148441afecfd022fe58a25acb2d68d2",
+      "id": "A-105",
+      "kind": "other",
+      "inputs": [
+        "A-103"
+      ],
+      "plan_revision": 10,
+      "created_at": "2026-10-21T19:34:09.893665+00:00"
+    },
+    {
+      "path": "artifacts/render/tiktok-stick-v2/draft.mp4",
+      "sha256": "a9bc57934e112fb0a240c8930ce916bebd1c226ce933a51f5ace0560db703318",
+      "id": "A-106",
+      "kind": "video",
+      "inputs": [
+        "A-104",
+        "A-102",
+        "A-092"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:43:05.794686+00:00"
+    },
+    {
+      "path": "artifacts/render/tiktok-stick-v2/manifest.json",
+      "sha256": "d849613a79314d90dadf8fab551192af8320309e3e93042667f7e6c80ab87915",
+      "id": "A-107",
+      "kind": "metadata",
+      "inputs": [
+        "A-106"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:43:06.968751+00:00"
+    },
+    {
+      "path": "artifacts/render/tiktok-stick-v2/contact-sheet.jpg",
+      "sha256": "77a86988e17de902fdcb00b00586e4ef799190c9d37ce6397734aff485cd46f6",
+      "id": "A-108",
+      "kind": "image",
+      "inputs": [
+        "A-106"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:43:08.054958+00:00"
+    },
+    {
+      "path": "tasks/review-tiktok-stick-v1-evidence.md",
+      "sha256": "13b2e6172a4e83217c4b396a2650f39d1d7f61b77e3e1cd2d01e2932399bacb8",
+      "id": "A-109",
+      "kind": "other",
+      "inputs": [
+        "A-106",
+        "A-107"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:44:03.938731+00:00"
+    },
+    {
+      "path": "tasks/lesson-tiktok-depth-review-v1.md",
+      "sha256": "24a5a43f5dd4411fb7ed5c0bb6c3e42f79cf379fd3c064afddb8f2723bf532b8",
+      "id": "A-110",
+      "kind": "other",
+      "inputs": [
+        "A-106",
+        "A-109"
+      ],
+      "plan_revision": 11,
+      "created_at": "2026-10-21T19:44:05.166710+00:00"
+    },
+    {
+      "path": "research/youtube-comedy-sources-v1.json",
+      "sha256": "8f8f2274ce56eaaad9eae662b3d378896e193defda2fc2abd8e6656f562fbabe",
+      "id": "A-111",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 12,
+      "created_at": "2026-10-21T19:53:04.533012+00:00"
+    },
+    {
+      "path": "research/youtube-comedy-content-v1.md",
+      "sha256": "1f79b6cca73c6732de41ad526513a63395d9bb74ad07293fb3fbf470c9b2fd94",
+      "id": "A-112",
+      "kind": "research",
+      "inputs": [
+        "A-111"
+      ],
+      "plan_revision": 12,
+      "created_at": "2026-10-21T19:53:05.165262+00:00"
+    },
+    {
+      "path": "tasks/lesson-creative-feedback-v1.md",
+      "sha256": "f91439829c658ec53e20398e709daafb60f8296793fb1da2516f98d82de36254",
+      "id": "A-113",
+      "kind": "other",
+      "inputs": [
+        "A-106",
+        "A-112"
+      ],
+      "plan_revision": 12,
+      "created_at": "2026-10-21T19:53:05.762677+00:00"
+    },
+    {
+      "path": "artifacts/content/charger-storyboard-v1.md",
+      "sha256": "531ded8bd8022458a259a0f2a36aadb1240e99b0b29c274afbdf1a9c5038769e",
+      "id": "A-114",
+      "kind": "storyboard",
+      "inputs": [
+        "A-112",
+        "A-092"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T19:58:49.420565+00:00"
+    },
+    {
+      "path": "artifacts/audio/charger-sfx-v1.wav",
+      "sha256": "ba388f14bafefcdbfa1488c7095850077f6fe3118d099b04c418ba6c1de28191",
+      "id": "A-115",
+      "kind": "audio",
+      "inputs": [
+        "A-114"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:02:18.809987+00:00"
+    },
+    {
+      "path": "artifacts/render/charger-v1/draft.mp4",
+      "sha256": "0c8fa1b1e1d8016f468cb8d5c8a6ccd90e282bf12ad996504d9b03adefed5e9e",
+      "id": "A-116",
+      "kind": "video",
+      "inputs": [
+        "A-114",
+        "A-115",
+        "A-092"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:02:19.416485+00:00"
+    },
+    {
+      "path": "artifacts/render/charger-v1/manifest.json",
+      "sha256": "44661fb0c86a04f63bcd51ecba750257f0ecc0130e7b49f27f5f7a34af3eba82",
+      "id": "A-117",
+      "kind": "metadata",
+      "inputs": [
+        "A-116"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:02:20.030652+00:00"
+    },
+    {
+      "path": "artifacts/render/charger-v1/contact-sheet.jpg",
+      "sha256": "b1c6d6b32d92f7a708870f3e07626dc68eb01d0048532ce46c617663590db3e4",
+      "id": "A-118",
+      "kind": "image",
+      "inputs": [
+        "A-116"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:02:20.670890+00:00"
+    },
+    {
+      "path": "tasks/review-charger-v1-evidence.md",
+      "sha256": "4a8beaa6db3ba5ab894f5ad194a1d553a64a4201293951c58ab48687a377988e",
+      "id": "A-119",
+      "kind": "other",
+      "inputs": [
+        "A-116"
+      ],
+      "plan_revision": 13,
+      "created_at": "2026-10-21T20:03:29.460270+00:00"
+    },
+    {
+      "path": "tasks/action-toolkit-installed-v1.json",
+      "sha256": "82f6dc81dc4bf79433bfa94f34f7c37ad99f9c4f279b1ce227cf3fce77c5f3c5",
+      "id": "A-120",
+      "kind": "metadata",
+      "inputs": [],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:12:37.910160+00:00"
+    },
+    {
+      "path": "tasks/lesson-action-toolkit-v1.md",
+      "sha256": "a5a408871aae8e5a172422c258171c472a84cb1dafb8af1b7d4d8edf75eac72e",
+      "id": "A-121",
+      "kind": "other",
+      "inputs": [
+        "A-120"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:12:38.590916+00:00"
+    },
+    {
+      "path": "artifacts/content/action-slippery-floor-storyboard-v1.md",
+      "sha256": "ff40f601cfdd2fdbfddc0fb97cc880e775a5d6686a2be77a4a6801733fdbd546",
+      "id": "A-122",
+      "kind": "storyboard",
+      "inputs": [
+        "A-054",
+        "A-092"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:13:11.630432+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/original-sfx.wav",
+      "sha256": "64b6b35f4b83b3faffc662de3827cfe5dac245b20759cb94a3dced1c110b5626",
+      "id": "A-123",
+      "kind": "audio",
+      "inputs": [
+        "A-122"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:35.936183+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/draft.mp4",
+      "sha256": "9ccc83eb086f231e4d3edeb726dc371ff1c8666859c260460e10632b73cb9be6",
+      "id": "A-124",
+      "kind": "video",
+      "inputs": [
+        "A-122",
+        "A-123",
+        "A-092"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:36.563243+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/manifest.json",
+      "sha256": "df833c5e8c6706ad7a9a7cc3efdad33853e6819b0bea2a0224a40f1379c38862",
+      "id": "A-125",
+      "kind": "metadata",
+      "inputs": [
+        "A-124",
+        "A-120"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:37.222486+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/rig-physics-validation.json",
+      "sha256": "10f74d862edf9efd5aa463fce4d88a3e3d61165b117f7bbded414691479843eb",
+      "id": "A-126",
+      "kind": "other",
+      "inputs": [
+        "A-124"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:37.858408+00:00"
+    },
+    {
+      "path": "artifacts/render/action-v1/contact-sheet.jpg",
+      "sha256": "09ce112ffd40f13a0d6d4a11c2b1e98829c7071f0ca509563c3c87d0ad900b04",
+      "id": "A-127",
+      "kind": "image",
+      "inputs": [
+        "A-124"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:14:38.538292+00:00"
+    },
+    {
+      "path": "tasks/review-action-v1-evidence.md",
+      "sha256": "dc03c7f160845e31fcf4e712ae65761c210840ff1cf83ab2e73085001279272c",
+      "id": "A-128",
+      "kind": "other",
+      "inputs": [
+        "A-124",
+        "A-126"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:15:21.532831+00:00"
+    },
+    {
+      "path": "tasks/snapshot-feedback-v1.md",
+      "sha256": "7b2aaf6adf486382f6a3d9286a8fca400a912e3be8558aa24d97f2d7f07dc7c4",
+      "id": "A-129",
+      "kind": "other",
+      "inputs": [
+        "A-124",
+        "A-116"
+      ],
+      "plan_revision": 14,
+      "created_at": "2026-10-21T20:18:06.546084+00:00"
+    }
+  ],
+  "reviews": [
+    {
+      "path": "artifacts/reviews/review-r21-3c7405e2.json",
+      "sha256": "a78040dbb819d435f37cc4faa788244f8df6fbe16e659d4c6d3986a870f79621",
+      "artifact_ids": [
+        "A-010",
+        "A-011"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/cooking-pilot-v1/qa-v1.md",
+          "sha256": "092d2338f1bd97e92142940d4c8ab5993b6db912355aa654718d6c7846f4fc2d"
+        },
+        {
+          "path": "artifacts/render/cooking-flow-v1/contact.jpg",
+          "sha256": "377c0422ee65960024dc98579f1737ac703c89a7b3c4e99c2811cd2679d5f34c"
+        },
+        {
+          "path": "artifacts/render/cooking-flow-v1/manifest.json",
+          "sha256": "59e497cbc88bea07b138242a6d9dd2c0c8149822be0ed73f881f11476a9f3289"
+        }
+      ],
+      "verdict": "needs_revision"
+    },
+    {
+      "path": "artifacts/reviews/review-r39-990fd763.json",
+      "sha256": "4412c462fa82f4c1bb2e61e4a0485f39ee9c3b36573de03d6d56d6bb57b545f8",
+      "artifact_ids": [
+        "A-018"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/cooking-pilot-v2/qa-converter-v2.md",
+          "sha256": "c1e57925519e6550d6b6aa4b2db7a274074b7e8ca4cae22112f532c12f4a393e"
+        },
+        {
+          "path": "artifacts/render/ebsynth-multikey-smoke-v1/manifest.json",
+          "sha256": "4689bc0e6ea690ccc487ba99776f30d8ce587d284d12f26d8084617abacf02a8"
+        },
+        {
+          "path": "artifacts/render/ebsynth-multikey-smoke-v1/contact.jpg",
+          "sha256": "366d636f6ec67496394c4e2de4924b61c87f7724bffdcfa529fc2bda15fb3de0"
+        },
+        {
+          "path": "artifacts/render/ebsynth-edge-smoke-v2/regression.json",
+          "sha256": "716632cb5e75e17b08da0852913b5e8e401a6118a8d13c7322f5606bf30e60d5"
+        }
+      ],
+      "verdict": "needs_revision"
+    },
+    {
+      "path": "artifacts/reviews/review-r57-b18f9da0.json",
+      "sha256": "3b217f90acaf8f32974a7ad4a6786cdd9db2d3218b17416877eb44282d0efa61",
+      "artifact_ids": [
+        "A-034",
+        "A-035",
+        "A-036",
+        "A-037",
+        "A-038",
+        "A-039"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/render/framewise-compare-v1/qa-framewise-v1.md",
+          "sha256": "2a7b223880d80a632a5c99ee476ea6c39e7b196a189b1843b682ff956fe38ac0"
+        },
+        {
+          "path": "artifacts/render/framewise-compare-v1/manifest.json",
+          "sha256": "1dce552139b1e5acf735aeb603e44f6ffaf2326cae5d8eabc675c8e0e1d3342f"
+        },
+        {
+          "path": "artifacts/render/framewise-compare-v1/manifest.json",
+          "sha256": "1dce552139b1e5acf735aeb603e44f6ffaf2326cae5d8eabc675c8e0e1d3342f"
+        },
+        {
+          "path": "artifacts/render/framewise-compare-v1/subtitle-check.png",
+          "sha256": "3ab5a29f4e6ce44ada029f64b251beb42ec2a4aef8ae7bbaf098bee9715c54e8"
+        },
+        {
+          "path": "artifacts/render/framewise-compare-v1/contact-hands.jpg",
+          "sha256": "1aac5bfc6856dc292710890dd130e16d51ce12a9b74613ef7f5563ce3fdd58f6"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r66-c4cb2583.json",
+      "sha256": "fd61b0583b38b0fb6d758dcfb666051467f4d5c578a8d533a82ceaa188437d13",
+      "artifact_ids": [
+        "A-040",
+        "A-041",
+        "A-042",
+        "A-043",
+        "A-044",
+        "A-045"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/render/shinkai37-video-10s-v1/qa-shinkai37-10s-v1.md",
+          "sha256": "2cae118efd4ecb00a0051400c9e00449da46d36a950331e774a5ef6b9eef2e76"
+        },
+        {
+          "path": "artifacts/render/shinkai37-video-10s-v1/manifest.json",
+          "sha256": "a168fe9a6a6d736508d45d8b372c87cf461394e1d4ab7c9b9b03bd97cc97b98c"
+        },
+        {
+          "path": "artifacts/render/shinkai37-video-10s-v1/qa-shinkai37-10s-v1.md",
+          "sha256": "2cae118efd4ecb00a0051400c9e00449da46d36a950331e774a5ef6b9eef2e76"
+        },
+        {
+          "path": "artifacts/render/shinkai37-video-10s-v1/contact.jpg",
+          "sha256": "d81f5dad7bf901e904b4b358b1d88213ade601b6acc16809082dafeb49a95d8f"
+        },
+        {
+          "path": "artifacts/render/shinkai37-video-10s-v1/manifest.json",
+          "sha256": "a168fe9a6a6d736508d45d8b372c87cf461394e1d4ab7c9b9b03bd97cc97b98c"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r98-e2647101.json",
+      "sha256": "687280e7609f09ea90e6e32ed4c60a6970b38e4b9b640ea1d1c1c852fc3a1046",
+      "artifact_ids": [
+        "A-052",
+        "A-061",
+        "A-051",
+        "A-053",
+        "A-062",
+        "A-055",
+        "A-054",
+        "A-056"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-stick-final-evidence-v1.md",
+          "sha256": "65fa0c4b6eef763bd47bb1dd8edf2667ceb2a65d18ce10fd5472d3e4843cd768"
+        },
+        {
+          "path": "tasks/review-stick-final-evidence-v1.md",
+          "sha256": "65fa0c4b6eef763bd47bb1dd8edf2667ceb2a65d18ce10fd5472d3e4843cd768"
+        },
+        {
+          "path": "tasks/review-stick-final-evidence-v1.md",
+          "sha256": "65fa0c4b6eef763bd47bb1dd8edf2667ceb2a65d18ce10fd5472d3e4843cd768"
+        },
+        {
+          "path": "tasks/review-stick-final-evidence-v1.md",
+          "sha256": "65fa0c4b6eef763bd47bb1dd8edf2667ceb2a65d18ce10fd5472d3e4843cd768"
+        }
+      ],
+      "verdict": "passed"
+    },
+    {
+      "path": "artifacts/reviews/review-r99-095aee52.json",
+      "sha256": "ca1176782a5895a30b16e882840523a2abe5f440fa08226d29ae7c6795914925",
+      "artifact_ids": [
+        "A-063"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-stick-final-evidence-v1.md",
+          "sha256": "65fa0c4b6eef763bd47bb1dd8edf2667ceb2a65d18ce10fd5472d3e4843cd768"
+        },
+        {
+          "path": "tasks/review-stick-final-evidence-v1.md",
+          "sha256": "65fa0c4b6eef763bd47bb1dd8edf2667ceb2a65d18ce10fd5472d3e4843cd768"
+        }
+      ],
+      "verdict": "passed"
+    },
+    {
+      "path": "artifacts/reviews/review-r106-20a87474.json",
+      "sha256": "67d6e2aa428245f9769f7d45cc677aac7b5416b801a6e6265e823b2cd311bcfa",
+      "artifact_ids": [
+        "A-065",
+        "A-066"
+      ],
+      "evidence": [
+        {
+          "path": "artifacts/content/comedy-c1-storyboard-v1.md",
+          "sha256": "d52123f48e6a5fe44f65dc08e0399efb2d1c46fa425409da7fe4d9a3cdc04147"
+        },
+        {
+          "path": "artifacts/content/comedy-c1-script-v1.json",
+          "sha256": "27bd95d7196f67d20d201aff04065dc67f2eb47343fb3dad54ffe1b4e0da17cb"
+        },
+        {
+          "path": "artifacts/content/comedy-c1-storyboard-v1.md",
+          "sha256": "d52123f48e6a5fe44f65dc08e0399efb2d1c46fa425409da7fe4d9a3cdc04147"
+        }
+      ],
+      "verdict": "passed"
+    },
+    {
+      "path": "artifacts/reviews/review-r117-1f2286a1.json",
+      "sha256": "3e8396c22041cab31ad15e7ee3d9ce6623f20be3aa26a92511a626190d5123eb",
+      "artifact_ids": [
+        "A-069"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-comedy-c1-video-v2-evidence.md",
+          "sha256": "258692336a93497ddf8bedaf132b0481ee1930ac1197659f9583584d29242b18"
+        },
+        {
+          "path": "tasks/review-comedy-c1-video-v2-evidence.md",
+          "sha256": "258692336a93497ddf8bedaf132b0481ee1930ac1197659f9583584d29242b18"
+        },
+        {
+          "path": "artifacts/render/comedy-c1-draft-v2/technical-qa.json",
+          "sha256": "9d238eead0b7b6731a50f8269f38a72ca8f1b0a094b85fbf1f02a301927dbc59"
+        },
+        {
+          "path": "artifacts/render/comedy-c1-draft-v2/technical-qa.json",
+          "sha256": "9d238eead0b7b6731a50f8269f38a72ca8f1b0a094b85fbf1f02a301927dbc59"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r132-6dbc358e.json",
+      "sha256": "668157cdaa32e568cc081b51e904e5ce3599fe5f82b2057c866ebd9a110ddb60",
+      "artifact_ids": [
+        "A-078",
+        "A-079",
+        "A-080",
+        "A-084",
+        "A-085"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-character-cast-v1-evidence.md",
+          "sha256": "683e7b225aa5e75be30ef789070716840675cec256a43ccea604337eff9e603e"
+        },
+        {
+          "path": "tasks/review-character-cast-v1-evidence.md",
+          "sha256": "683e7b225aa5e75be30ef789070716840675cec256a43ccea604337eff9e603e"
+        },
+        {
+          "path": "artifacts/characters/duo-v1/technical-qa-v1.json",
+          "sha256": "3ee591d5b9bc947da1549c6b477041d9e81a53fea3b203d27f95c78959b7b061"
+        }
+      ],
+      "verdict": "passed"
+    },
+    {
+      "path": "artifacts/reviews/review-r142-913ae4b0.json",
+      "sha256": "66743c9c90db3cbeb565d6af5a2aecb8b83806b9b8e2e8570a0dff48fc33a049",
+      "artifact_ids": [
+        "A-087",
+        "A-088",
+        "A-089"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-character-cast-v2-evidence.md",
+          "sha256": "daaaaab57d1699cf156f53a8fc70e6db9613ce24e08e3130fdda0c0ef5280ad9"
+        },
+        {
+          "path": "tasks/review-character-cast-v2-evidence.md",
+          "sha256": "daaaaab57d1699cf156f53a8fc70e6db9613ce24e08e3130fdda0c0ef5280ad9"
+        },
+        {
+          "path": "artifacts/characters/duo-v2/technical-qa-v2.json",
+          "sha256": "dea9a8d6b2e78c830fa20d2f1af05d6cdd70f85296906ed6cec16644a4221183"
+        }
+      ],
+      "verdict": "passed"
+    },
+    {
+      "path": "artifacts/reviews/review-r152-4b934564.json",
+      "sha256": "a355953cb2b70ef0d64f290a2c0f43bf5a9f193167c2a6018bb922b48dca2425",
+      "artifact_ids": [
+        "A-093",
+        "A-094",
+        "A-095"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-character-cast-v3-evidence.md",
+          "sha256": "e201fe34ce3e190f135da0b8febb6afef104031e33f2f670b2872e2f253e22ce"
+        },
+        {
+          "path": "tasks/review-character-cast-v3-evidence.md",
+          "sha256": "e201fe34ce3e190f135da0b8febb6afef104031e33f2f670b2872e2f253e22ce"
+        },
+        {
+          "path": "artifacts/characters/duo-v3/technical-qa-v3.json",
+          "sha256": "8ac08d58a503cdbd856cfb58a36207a6886200c5d56a1387159905ee9933bd00"
+        }
+      ],
+      "verdict": "passed"
+    },
+    {
+      "path": "artifacts/reviews/review-r178-0d3cef27.json",
+      "sha256": "767280b2d1d3efe5dc5e38c288deb45e74540a8196d8878bd82efad4610d8ed0",
+      "artifact_ids": [
+        "A-106",
+        "A-107",
+        "A-108"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-tiktok-stick-v1-evidence.md",
+          "sha256": "13b2e6172a4e83217c4b396a2650f39d1d7f61b77e3e1cd2d01e2932399bacb8"
+        },
+        {
+          "path": "tasks/review-tiktok-stick-v1-evidence.md",
+          "sha256": "13b2e6172a4e83217c4b396a2650f39d1d7f61b77e3e1cd2d01e2932399bacb8"
+        },
+        {
+          "path": "tasks/review-tiktok-stick-v1-evidence.md",
+          "sha256": "13b2e6172a4e83217c4b396a2650f39d1d7f61b77e3e1cd2d01e2932399bacb8"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r196-04a4a3d5.json",
+      "sha256": "8037bff3932a7b39787f0480a6fec196c66c968954fabb55e2fee91df687252a",
+      "artifact_ids": [
+        "A-116"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-charger-v1-evidence.md",
+          "sha256": "4a8beaa6db3ba5ab894f5ad194a1d553a64a4201293951c58ab48687a377988e"
+        },
+        {
+          "path": "tasks/review-charger-v1-evidence.md",
+          "sha256": "4a8beaa6db3ba5ab894f5ad194a1d553a64a4201293951c58ab48687a377988e"
+        },
+        {
+          "path": "tasks/review-charger-v1-evidence.md",
+          "sha256": "4a8beaa6db3ba5ab894f5ad194a1d553a64a4201293951c58ab48687a377988e"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r210-0dd9164e.json",
+      "sha256": "b0ad1238e35b224e86389a5aa535fcde4f3f5d9d1918d227d562984a9e1bfa39",
+      "artifact_ids": [
+        "A-124"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-action-v1-evidence.md",
+          "sha256": "dc03c7f160845e31fcf4e712ae65761c210840ff1cf83ab2e73085001279272c"
+        },
+        {
+          "path": "tasks/review-action-v1-evidence.md",
+          "sha256": "dc03c7f160845e31fcf4e712ae65761c210840ff1cf83ab2e73085001279272c"
+        },
+        {
+          "path": "tasks/review-action-v1-evidence.md",
+          "sha256": "dc03c7f160845e31fcf4e712ae65761c210840ff1cf83ab2e73085001279272c"
+        }
+      ],
+      "verdict": "unverified"
+    }
+  ],
+  "acceptance": "not_reviewed",
+  "release": "not_requested",
+  "next_action": "User yêu cầu commit tạm và push P-2. Snapshot source/research/toolkitlock/manifest/review cùng phản hồi user ở tasks/snapshot-feedback-v1.md. Bản hành động A-124 chưa đạt sáng tạo theo user; bản hài A-116 tạm gác. Không tự render/cài thêm. Đề xuất sửa đoạn3–5s chưa được user chọn triển khai.",
+  "unresolved": [
+    "Chất lượng sáng tạo/chuyển động action chưa đạt theo phản hồi user",
+    "Bản hài tạm gác, chưa có chốt chất lượng",
+    "Chưa kiểm nghe liên tục/continuousplayback và chưa fullMotionCanvasexport/OpenToonzGUItest",
+    "Chưa gán cast cho channel ID cụ thể",
+    "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối; không đưa Git"
+  ],
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0,
+    "samples": {},
+    "baselines": {},
+    "available": false
+  },
+  "created_at": "2026-10-20T13:51:37.871764+00:00",
+  "updated_at": "2026-10-21T20:18:07.229305+00:00"
+}

@@ -1,0 +1,13 @@
+# Self-review — Black / Red duel v2
+
+Current user rejected v1 creatively: “nhìn hài quá, đọc và chỉnh sửa lại video -> nhớ phải tái sử dụng các repo mình bảo và dadx nghiên cứu njhé”. This review is by the author, **self_review**, not an independent or human creative approval.
+
+Actual final encoded MP4:15.000s,450frames,30fps,1280×720,H.264/AAC. Full decode exits0, empty stderr. Final PCM decoded720896mono samples at48kHz; finite, peak0.44563,RMS0.02631. Numeric audio has no clipping/non-silent; continuous human listening/perceptual sync/mix remains unverified.
+
+Viewed actual encoded contact sheet in image tool: frames0,24,44,59,86,113,145,151,170,193,212,240,250,275,300,327,347,365,401,449 in chronological order. Final poses have smaller heads, tightened guards, knees bending toward the opponent, support feet during kicks and recovery stance. No long airborne kick, whole-body ghosts or handshake ending. Contact events show jab/cross blocks, torso hit, grounded kicks and final punch/block. Bodies, heads and feet stay in frame. Close overlap around body shot151 is intentional contact, not identity swap; this sample review cannot verify every transition or real-time motion quality.
+
+Actual reuse differs from v1: pinned stick-motion FK-arm/IK-leg render architecture and original gaitFoot are executed for approach/retreat, while GSAP3.12.5 provides the persistent-state poseTween-style timelines and explicit seek. Source extracts retain MIT notices, GSAP package terms remain separate; Remotion4.0.536 remains the tested exporter. No new solver, no claim MC/Fullik produced the film. Combat poses/beat decisions remain authored gaps. Upstream exposed kneeSign−1 selected after full-size silhouette checks; exact endpoints alone were insufficient to choose knee direction.
+
+All450frames/3600limbs checked finite, maximum reach residual2.55e-13, length error9.95e-14.132 adjacent pure gait stance pairs have world foot drift2.55e-13; blend/replant windows are not included in the pure-stance claim. Seven contact distances to actual guard/body span0.16–7.65units, within rendered stroke coverage. Backward/random timeline seeks reproduce joint snapshots. These prove numeric constraints, not a convincing fight.
+
+V1 source/output preserved, verified against stored source hashes; all new outputs live under v2 paths. Source snapshot hashes match. User creative acceptance of v2 remains pending. Ready to deliver revised draft for viewing; overall review remains unverified because continuous audiovisual judgment is missing. Do not call technical/sample passes evidence that this version satisfies the user.

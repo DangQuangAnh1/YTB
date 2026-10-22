@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
   "project_id": "P-2",
-  "revision": 213,
+  "revision": 252,
   "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
-  "stage": "review",
+  "stage": "scouting",
   "constraints": [
     "Prefer existing tools; no additional paid services without user authorization",
     "No channel creation or publishing in v0"
   ],
   "current_task": {
-    "id": "T-033",
-    "owner_role": "pm",
-    "execution": "complete"
+    "id": "T-036",
+    "owner_role": "ba",
+    "execution": "running"
   },
   "plan": {
-    "path": "plans/plan-v14-r198-0d1be1f7.md",
-    "sha256": "5b9c908e2320fe952dab158439c419d60943b7dc1c02c7068a553b574f93ece0",
-    "revision": 14
+    "path": "plans/plan-v16-r236-0f4f2004.md",
+    "sha256": "ee09d06d4ccdaeb6503e6c1ed58b43af9af3afa3415ac7ef34193f44853da0c8",
+    "revision": 16
   },
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r199-c6c25002.json",
-      "sha256": "819ea88b7e9d31bfe168e22df471f20f1fc1fd7d29b125e4f3aa3ad9949b1954"
+      "path": "decisions/decision-r237-a6d99047.json",
+      "sha256": "69e91a95382f1b90e912b38743d5c0910b5f9b123d47d5f20eebdf6d64d2ff2c"
     }
   },
   "decision_records": [
@@ -97,6 +97,14 @@
     {
       "path": "decisions/decision-r199-c6c25002.json",
       "sha256": "819ea88b7e9d31bfe168e22df471f20f1fc1fd7d29b125e4f3aa3ad9949b1954"
+    },
+    {
+      "path": "decisions/decision-r216-4bf53b2f.json",
+      "sha256": "1793f6d29464fe3083cdff288776974507ec313fef62429dd85b05434f266671"
+    },
+    {
+      "path": "decisions/decision-r237-a6d99047.json",
+      "sha256": "69e91a95382f1b90e912b38743d5c0910b5f9b123d47d5f20eebdf6d64d2ff2c"
     }
   ],
   "artifacts": [
@@ -1458,6 +1466,314 @@
       ],
       "plan_revision": 14,
       "created_at": "2026-10-21T20:18:06.546084+00:00"
+    },
+    {
+      "path": "artifacts/content/black-red-duel-storyboard-v1.md",
+      "sha256": "dd88dc5c43dac63cf91934f20be6189f9ffa681d2d6762fa6e5faedf2f65623a",
+      "id": "A-130",
+      "kind": "storyboard",
+      "inputs": [],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:51:38.128168+00:00"
+    },
+    {
+      "path": "research/action-reference-brief-v1.md",
+      "sha256": "bf8ff8f456955641de7b2ffa1c13a1db2c9fe5f27943cb0247558bb34754a573",
+      "id": "A-131",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:53:04.050423+00:00"
+    },
+    {
+      "path": "research/action-reference-dev-assets-v1.md",
+      "sha256": "455ebd6abecf9824afcd3683f587dc7bff2476c38e7ffa7ea56906a6dc0f9a31",
+      "id": "A-132",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:53:04.294045+00:00"
+    },
+    {
+      "path": "research/action-reference-dev-camera-v1.md",
+      "sha256": "8b4f385b654567a1ac2f8cafe1869a10c6dcfbfdd794ff3acc55f1b0d6f3d992",
+      "id": "A-133",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:53:04.604892+00:00"
+    },
+    {
+      "path": "research/action-reference-dev-contacts-v1.md",
+      "sha256": "704c727e11c01988ea25a666f2f8b9de98f8ca664832fd4d9e9c931c74d719df",
+      "id": "A-134",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:53:04.828095+00:00"
+    },
+    {
+      "path": "research/action-reference-dev-timing-v1.md",
+      "sha256": "2e5ab68cba1bc74e49c2277b30d78c858d464c1e0d24702d257c981b52167d49",
+      "id": "A-135",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:53:05.050125+00:00"
+    },
+    {
+      "path": "research/action-reference-ba-simplified-v1.md",
+      "sha256": "1c4e0d7413c310ad47f82414d0c66b0db9dce30fe5b20e508ff8fe46c4cc2804",
+      "id": "A-136",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:53:05.260528+00:00"
+    },
+    {
+      "path": "research/action-reference-pm-summary-v1.md",
+      "sha256": "97095a66465899bbe1d3fb7cbcefa5405df905419e62670021535f7309c358e0",
+      "id": "A-137",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:53:05.411636+00:00"
+    },
+    {
+      "path": "tasks/black-red-duel-source-provenance-v1.json",
+      "sha256": "58a4c58064536f76def9102fac08436dc65ad4725a84968b44e89db49aed6748",
+      "id": "A-138",
+      "kind": "metadata",
+      "inputs": [
+        "A-130"
+      ],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:55:25.906057+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v1/original-sfx.wav",
+      "sha256": "53f2942eaf172e1fbe31d6b2535afb269569d97dadb36e897234a067eaf61252",
+      "id": "A-139",
+      "kind": "audio",
+      "inputs": [
+        "A-130",
+        "A-138"
+      ],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:55:26.062101+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v1/draft.mp4",
+      "sha256": "c7920cbbc2ba2230240ca0e0b01d11eaa9802b06ea94f148e4585ee34fa2c953",
+      "id": "A-140",
+      "kind": "video",
+      "inputs": [
+        "A-130",
+        "A-138",
+        "A-139"
+      ],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:55:26.222892+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v1/manifest.json",
+      "sha256": "cbe620254fb541645b28541c9e297766c0a32ec32bd168dd65e0815abe7bfe17",
+      "id": "A-141",
+      "kind": "metadata",
+      "inputs": [
+        "A-140"
+      ],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:55:26.388908+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v1/contact-sheet.jpg",
+      "sha256": "fb3b5f40d4886ecdf5a90e8c86dde496ca8564e9779716cf852b86b36a211bec",
+      "id": "A-142",
+      "kind": "image",
+      "inputs": [
+        "A-140"
+      ],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:55:26.552512+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v1/technical-qa.json",
+      "sha256": "eab6ac448796d0bcc3ef198d1e1d4d10b6600fada8ee82f3b2d0112035fc4703",
+      "id": "A-143",
+      "kind": "other",
+      "inputs": [
+        "A-140"
+      ],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:55:26.715901+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v1/rig-validation.json",
+      "sha256": "6b17c9ec1be028a92519906fff66aff6a6587b1e9601aa276989f34049885e51",
+      "id": "A-144",
+      "kind": "other",
+      "inputs": [
+        "A-138"
+      ],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:55:26.905767+00:00"
+    },
+    {
+      "path": "tasks/review-black-red-duel-v1-evidence.md",
+      "sha256": "bb544dc09d0ac4c5b18405852bdfc9cc200e322befe991e71053dc1228da6c8f",
+      "id": "A-145",
+      "kind": "other",
+      "inputs": [
+        "A-140",
+        "A-143",
+        "A-142",
+        "A-144"
+      ],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:55:27.126488+00:00"
+    },
+    {
+      "path": "tasks/lesson-black-red-duel-v1.md",
+      "sha256": "fc6b09252bafd718434b6f0d1b8ac44b4689ca8a05f0ebb8272fc5f37af496e1",
+      "id": "A-146",
+      "kind": "other",
+      "inputs": [
+        "A-140",
+        "A-143"
+      ],
+      "plan_revision": 15,
+      "created_at": "2026-10-22T04:55:27.327853+00:00"
+    },
+    {
+      "path": "artifacts/content/black-red-duel-storyboard-v2.md",
+      "sha256": "91f994e5dfe1c2c728c192cfbda5ea04958ab2c525926940c034af7896a19d78",
+      "id": "A-147",
+      "kind": "storyboard",
+      "inputs": [
+        "A-130"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:06:57.980526+00:00"
+    },
+    {
+      "path": "tasks/black-red-duel-source-provenance-v2.json",
+      "sha256": "0808ad113206ad8cc8cbf3337899e948c290c63a31fbaea5819e656b67e49926",
+      "id": "A-148",
+      "kind": "metadata",
+      "inputs": [
+        "A-147",
+        "A-140"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:11:28.021603+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v2/original-sfx.wav",
+      "sha256": "019c1d3e21bb052606e1098dfccb814a732fa6901d94277c90257ef927091e1a",
+      "id": "A-149",
+      "kind": "audio",
+      "inputs": [
+        "A-147",
+        "A-148"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:13:58.188482+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v2/draft.mp4",
+      "sha256": "8ebe13762a08173507c749a9309da44190ba89328e6b9332ee4d66cdc19d8f8a",
+      "id": "A-150",
+      "kind": "video",
+      "inputs": [
+        "A-147",
+        "A-148",
+        "A-149",
+        "A-140"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:13:58.374119+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v2/manifest.json",
+      "sha256": "397e36a94a136b57b04af35bb6d1e55ea666ec7ca15b22b590ce53b5048a9f9f",
+      "id": "A-151",
+      "kind": "metadata",
+      "inputs": [
+        "A-150"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:13:58.562520+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v2/contact-sheet.jpg",
+      "sha256": "27c119248f8aabf9c6c04ce7c50c79e491ef2fabd7d6af2358647de1e3bb48b2",
+      "id": "A-152",
+      "kind": "image",
+      "inputs": [
+        "A-150"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:13:58.750831+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v2/technical-qa.json",
+      "sha256": "88cf0faec50aa418240d3b4d8977d2bb6c9cd8b653ee8f93bd180124411615f7",
+      "id": "A-153",
+      "kind": "other",
+      "inputs": [
+        "A-150"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:13:58.951979+00:00"
+    },
+    {
+      "path": "artifacts/render/black-red-duel-v2/rig-validation.json",
+      "sha256": "fc747b45211b7f0905903e18206717e9fa2ac7f166d64c77ba5fcc5d58a7e3c2",
+      "id": "A-154",
+      "kind": "other",
+      "inputs": [
+        "A-148"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:13:59.152607+00:00"
+    },
+    {
+      "path": "tasks/review-black-red-duel-v2-evidence.md",
+      "sha256": "bcacb1f9a5a8c29c370a4654f391935d7784921fa22b18c05f8489f915763ff7",
+      "id": "A-155",
+      "kind": "other",
+      "inputs": [
+        "A-150",
+        "A-153",
+        "A-152",
+        "A-154"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:13:59.352713+00:00"
+    },
+    {
+      "path": "tasks/lesson-black-red-reuse-correction-v2.md",
+      "sha256": "4e482c2c2988d624bd14b1d8103eaea5bae45c2372e7238942d4142ca0ade647",
+      "id": "A-156",
+      "kind": "other",
+      "inputs": [
+        "A-150",
+        "A-148"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:13:59.558562+00:00"
+    },
+    {
+      "path": "tasks/feedback-push-and-new-reference-v1.md",
+      "sha256": "7a5f38ed1183156228d4ded8ab63cb2473ccc09abfa9671126505d63f4e1f1c7",
+      "id": "A-157",
+      "kind": "other",
+      "inputs": [
+        "A-150"
+      ],
+      "plan_revision": 16,
+      "created_at": "2026-10-22T05:15:57.219388+00:00"
     }
   ],
   "reviews": [
@@ -1821,17 +2137,60 @@
         }
       ],
       "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r234-1d6fe8e9.json",
+      "sha256": "18f5e353295d73a1a9760d927e9657b66f0395aff6d2557f427a573e55997213",
+      "artifact_ids": [
+        "A-140"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-black-red-duel-v1-evidence.md",
+          "sha256": "bb544dc09d0ac4c5b18405852bdfc9cc200e322befe991e71053dc1228da6c8f"
+        },
+        {
+          "path": "tasks/review-black-red-duel-v1-evidence.md",
+          "sha256": "bb544dc09d0ac4c5b18405852bdfc9cc200e322befe991e71053dc1228da6c8f"
+        },
+        {
+          "path": "artifacts/render/black-red-duel-v1/technical-qa.json",
+          "sha256": "eab6ac448796d0bcc3ef198d1e1d4d10b6600fada8ee82f3b2d0112035fc4703"
+        }
+      ],
+      "verdict": "unverified"
+    },
+    {
+      "path": "artifacts/reviews/review-r249-f77e0bad.json",
+      "sha256": "af41ee775c73fc8c26232bffd3c41270672143521def1f1f7c8082758185aff8",
+      "artifact_ids": [
+        "A-150"
+      ],
+      "evidence": [
+        {
+          "path": "tasks/review-black-red-duel-v2-evidence.md",
+          "sha256": "bcacb1f9a5a8c29c370a4654f391935d7784921fa22b18c05f8489f915763ff7"
+        },
+        {
+          "path": "tasks/review-black-red-duel-v2-evidence.md",
+          "sha256": "bcacb1f9a5a8c29c370a4654f391935d7784921fa22b18c05f8489f915763ff7"
+        },
+        {
+          "path": "artifacts/render/black-red-duel-v2/technical-qa.json",
+          "sha256": "88cf0faec50aa418240d3b4d8977d2bb6c9cd8b653ee8f93bd180124411615f7"
+        }
+      ],
+      "verdict": "unverified"
     }
   ],
   "acceptance": "not_reviewed",
   "release": "not_requested",
-  "next_action": "User yêu cầu commit tạm và push P-2. Snapshot source/research/toolkitlock/manifest/review cùng phản hồi user ở tasks/snapshot-feedback-v1.md. Bản hành động A-124 chưa đạt sáng tạo theo user; bản hài A-116 tạm gác. Không tự render/cài thêm. Đề xuất sửa đoạn3–5s chưa được user chọn triển khai.",
+  "next_action": "Current user says v2 linework looks stiff. First commit/push current source and records, then directly inspect https://youtube.com/shorts/PvIbWtRJAzA and research closer line/motion method. No new render yet. Feedback source tasks/feedback-push-and-new-reference-v1.md.",
   "unresolved": [
-    "Chất lượng sáng tạo/chuyển động action chưa đạt theo phản hồi user",
-    "Bản hài tạm gác, chưa có chốt chất lượng",
-    "Chưa kiểm nghe liên tục/continuousplayback và chưa fullMotionCanvasexport/OpenToonzGUItest",
-    "Chưa gán cast cho channel ID cụ thể",
-    "Ảnh gốc trước đây chưa xoá được vì công cụ từ chối; không đưa Git"
+    "V2 not creatively accepted: current user finds linework stiff",
+    "New reference inspection/research pending after requested code push",
+    "Continuous human listening of v2 unverified",
+    "Historical missing media remains under recovery receipt; ignored media/runtimes do not travel with Git"
   ],
   "usage": {
     "input_tokens": 0,
@@ -1842,5 +2201,11 @@
     "available": false
   },
   "created_at": "2026-10-20T13:51:37.871764+00:00",
-  "updated_at": "2026-10-21T20:18:07.229305+00:00"
+  "updated_at": "2026-10-22T05:16:13.189619+00:00",
+  "recovery_records": [
+    {
+      "path": "recovery/loss-r214-9325629d.json",
+      "sha256": "9fb95c8f7927245fee26fe0adc7e60f4664b8602ab1ade0631a235628f54a62a"
+    }
+  ]
 }

@@ -1,0 +1,1 @@
+{"name":"p2-black-red-duel-v1","private":true,"version":"1.0.0","scripts":{"studio":"remotion studio Video.tsx --port=3002 --no-open"},"dependencies":{"remotion":"4.0.536","react":"19.2.3","react-dom":"19.2.3"}}

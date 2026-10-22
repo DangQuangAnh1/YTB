@@ -1,0 +1,50 @@
+{
+  "revision": "v2",
+  "user_correction": "nhìn hài quá, đọc và chỉnh sửa lại video -> nhớ phải tái sử dụng các repo mình bảo và dadx nghiên cứu njhé",
+  "upstream_reuse": [
+    {
+      "repo": "https://github.com/cafermutluozkan/stick-motion",
+      "sha": "6315c09c4e5051267806988defa28279b965fe29",
+      "executed": [
+        "solveLegIK",
+        "chain2",
+        "upVec",
+        "gaitFoot",
+        "POSES.STAND"
+      ],
+      "adapted": "original renderWalk FK-arm/IK-leg architecture; distance-driven gait clock; exposed kneeSign=-1 chosen after visual silhouette check",
+      "license": "MIT, notice retained"
+    },
+    {
+      "repo": "https://github.com/greensock/GSAP",
+      "version": "3.12.5",
+      "executed": "paused persistent-flat-state timelines, to and seek; starter poseTween pattern reused",
+      "npm_integrity": "sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==",
+      "license": "package metadata standard no-charge terms, not MIT; local evaluation"
+    },
+    {
+      "repo": "https://github.com/remotion-dev/remotion",
+      "version": "4.0.536",
+      "executed": "existing P-2 frame render pipeline and Linux Chrome; finalizer/Foley adapted",
+      "license": "custom Remotion license; local evaluation"
+    }
+  ],
+  "not_integrated": [
+    "MotionCanvas",
+    "Fullik"
+  ],
+  "authored_gap": "combat guard and attack poses, scene, two-actor choreography/contact and reaction timing; upstream has no finished fight clip",
+  "v1_preserved": true,
+  "source_sha256": {
+    "projects/P-2/production/black-red-duel-v2/THIRD_PARTY_LICENSE.txt": "9f7c15dd05cd29ef9129c5347655bce305ec98e76b953dc3f599993e98c6b7c5",
+    "projects/P-2/production/black-red-duel-v2/audio.py": "2068a892834b57bc76642dd68f5d166f86843adbe4a636a836270723c4082b1e",
+    "projects/P-2/production/black-red-duel-v2/package.json": "139cfb88b94e9ee3455675fa52e6ed937235d49a6544f66adc64a16281af5550",
+    "projects/P-2/production/black-red-duel-v2/render.cjs": "dcfafe8e98a79d042bc0ab92147b399b2aa8ab5d6abc007d3b8d53ce300e03e4",
+    "projects/P-2/production/black-red-duel-v2/Video.tsx": "c14a7965ce07c13779ce796c8872c59596c1b150a963584c7cc683ecd33edece",
+    "projects/P-2/production/black-red-duel-v2/finalize.py": "6440a12a72fd86036b7e5cb6bdcb2aadff049d553bd55a8a5a9d1457d897426c",
+    "projects/P-2/production/black-red-duel-v2/check.cjs": "ae2cbce2a953020153bc641d21f29700b9231d3c717dc40d776d3fc3d4c49733",
+    "projects/P-2/production/black-red-duel-v2/README.md": "4ccb99bd4dc5d573e339216ef370a0126e1a57fa32c38a7f0c26898a2a19d579",
+    "projects/P-2/production/black-red-duel-v2/motion.cjs": "8f695abe9534502000517db2d14df3f2d21f3e9a373a83465f24eabf9cc5a45b",
+    "projects/P-2/production/black-red-duel-v2/upstream.cjs": "975d831143a663e9cdd5bd74e4d04fd51199290363c65d016011e5d5f7e51b3f"
+  }
+}

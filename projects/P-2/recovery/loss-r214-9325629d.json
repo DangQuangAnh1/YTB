@@ -1,0 +1,156 @@
+{
+  "project_id": "P-2",
+  "source_ref": "Current user requests a new draft after disclosure that Git snapshot lacks historical media; local audit and action-reference-pm-summary-v1.md identify unavailable files",
+  "excerpt": "dựng thử phim mới, content phim bạn tự lên ý tưởng nhé. ngắn thôi về cảnh 2 người đánh nhau 1 đen 1 đỏ là đc, tầm 15s",
+  "snapshot": {
+    "path": "recovery/loss-r214-9325629d-state.json",
+    "sha256": "56f17a8580958bddc7e362322e4959ef42584eae51f36988e188cc8868c03dc3"
+  },
+  "missing": [
+    {
+      "path": "artifacts/cooking-pilot-v1/anime-keyframe.png",
+      "sha256": "36f331878f3971fa77e9699257043b701dc101cf7e1d831e3a1ced1a1584bb35"
+    },
+    {
+      "path": "artifacts/render/cooking-flow-v1/anime-draft.mp4",
+      "sha256": "87ab0160ba8c9dcb11268864117f77834c2772140b941f86fecbdf297beb41f7"
+    },
+    {
+      "path": "artifacts/render/cooking-flow-v1/comparison.mp4",
+      "sha256": "99896de70a8b83f2392d313994920a49ce1e026b31420ee97ed8d4dc59f9d25d"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v2/anime-000.png",
+      "sha256": "7ad986eefebaa7bb87123ac88d4f6f0f2984c4083256453a9b759cadeefdfe8c"
+    },
+    {
+      "path": "artifacts/cooking-pilot-v2/anime-099.png",
+      "sha256": "abf098d921a29674a0cc35a2d6b54373b796aaa55d2831a3d78ed5e25cd88133"
+    },
+    {
+      "path": "artifacts/render/ebsynth-video-v2/anime.mp4",
+      "sha256": "4b9ba6e21f8a1e22f9aac68f152a33a76b06a9962580f5031083919de33f43cc"
+    },
+    {
+      "path": "artifacts/render/ebsynth-video-v2/comparison.mp4",
+      "sha256": "abe8d6e1306843722c5e110c5917d561f99bb580021d8054dc4f54a0b2f78001"
+    },
+    {
+      "path": "artifacts/render/framewise-compare-v1/contact-full.jpg",
+      "sha256": "fd7a7812ee2748f47466e7bd203aab6f8bedb47e84fc54b1d5ae8770c09cc992"
+    },
+    {
+      "path": "artifacts/render/framewise-compare-v1/contact-hands.jpg",
+      "sha256": "1aac5bfc6856dc292710890dd130e16d51ce12a9b74613ef7f5563ce3fdd58f6"
+    },
+    {
+      "path": "artifacts/render/framewise-compare-v1/subtitle-check.png",
+      "sha256": "3ab5a29f4e6ce44ada029f64b251beb42ec2a4aef8ae7bbaf098bee9715c54e8"
+    },
+    {
+      "path": "artifacts/render/shinkai37-video-10s-v1/anime.mp4",
+      "sha256": "9ca04e5589001175167db1047bdff0b84fb798aa8f31f3ef3aa859113b0f88a3"
+    },
+    {
+      "path": "artifacts/render/shinkai37-video-10s-v1/comparison.mp4",
+      "sha256": "7de9fe3705e8672affe80246dec568120688dcad8c5d2e976880667949aba05a"
+    },
+    {
+      "path": "artifacts/render/shinkai37-video-10s-v1/contact.jpg",
+      "sha256": "d81f5dad7bf901e904b4b358b1d88213ade601b6acc16809082dafeb49a95d8f"
+    },
+    {
+      "path": "artifacts/render/animegan-v3-cpu-v1/anime.mp4",
+      "sha256": "f42070c460748162e05006edb7f1cea01901fd92d15f3f0987f55793217722a3"
+    },
+    {
+      "path": "artifacts/render/animegan-v3-cpu-v1/comparison.mp4",
+      "sha256": "364be79a927c43899bc97431ab9cc9b436cf49979552d41b7851d5c3457eacea"
+    },
+    {
+      "path": "artifacts/audio/comedy-c1-soundtrack-v1.wav",
+      "sha256": "baaf303e7d2190d1344870e517071e1a48ef58add7ac818ae193ce2ae6c2def2"
+    },
+    {
+      "path": "artifacts/render/comedy-c1-draft-v2/draft.mp4",
+      "sha256": "ad89c597ab8d73d12a6329a79a9a6057d089d868b634079bd9685f52385ee132"
+    },
+    {
+      "path": "artifacts/render/comedy-c1-draft-v2/contact-sheet.jpg",
+      "sha256": "b70db965eeb8f33e35ecd23e60e617cf41f95ad96f099bedb403dd20094e7453"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/character-sheet.png",
+      "sha256": "fd5d91f28c30b77e2bee155a1182d4c8debdf74da43f18a109582ce205e2295e"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/cap-character.png",
+      "sha256": "efa8e3eb87766c546d6705041143d702516326b4df1754a80e244028f206733b"
+    },
+    {
+      "path": "artifacts/characters/duo-v1/scarf-character.png",
+      "sha256": "e2e61852b410f1d1f00c03b35897d8dcf6d032f12b56c0dbaac176095d2db31f"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/character-sheet.png",
+      "sha256": "e84910fc67179f20fd3da655bb8e8df6fa5536a81d7da73e7583a7dc492fecb9"
+    },
+    {
+      "path": "artifacts/characters/duo-v2/scarf-character.png",
+      "sha256": "730fd14a3f864b9cee3e334ebe42708989a89bccdb9c3151462301865954558a"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/character-sheet.png",
+      "sha256": "2189cd9f33d7fdc5d2034af0f1f382cb3abb53f94ac544f5a311a42f75db6493"
+    },
+    {
+      "path": "artifacts/characters/duo-v3/scarf-character.png",
+      "sha256": "af706c63d84e98264761c840193fa5506b26e9bc8a77d6497d8c2f82542059e0"
+    },
+    {
+      "path": "artifacts/audio/reference-tiktok-7665223745438485768-original-v1.m4a",
+      "sha256": "55b5ea3aedd6bad04f48dc17040cd9a360cce48d93ae2efed32703c8a82918cf"
+    },
+    {
+      "path": "artifacts/render/tiktok-stick-v2/draft.mp4",
+      "sha256": "a9bc57934e112fb0a240c8930ce916bebd1c226ce933a51f5ace0560db703318"
+    },
+    {
+      "path": "artifacts/render/tiktok-stick-v2/contact-sheet.jpg",
+      "sha256": "77a86988e17de902fdcb00b00586e4ef799190c9d37ce6397734aff485cd46f6"
+    },
+    {
+      "path": "artifacts/audio/charger-sfx-v1.wav",
+      "sha256": "ba388f14bafefcdbfa1488c7095850077f6fe3118d099b04c418ba6c1de28191"
+    },
+    {
+      "path": "artifacts/render/charger-v1/draft.mp4",
+      "sha256": "0c8fa1b1e1d8016f468cb8d5c8a6ccd90e282bf12ad996504d9b03adefed5e9e"
+    },
+    {
+      "path": "artifacts/render/charger-v1/contact-sheet.jpg",
+      "sha256": "b1c6d6b32d92f7a708870f3e07626dc68eb01d0048532ce46c617663590db3e4"
+    },
+    {
+      "path": "artifacts/render/action-v1/original-sfx.wav",
+      "sha256": "64b6b35f4b83b3faffc662de3827cfe5dac245b20759cb94a3dced1c110b5626"
+    },
+    {
+      "path": "artifacts/render/action-v1/draft.mp4",
+      "sha256": "9ccc83eb086f231e4d3edeb726dc371ff1c8666859c260460e10632b73cb9be6"
+    },
+    {
+      "path": "artifacts/render/action-v1/contact-sheet.jpg",
+      "sha256": "09ce112ffd40f13a0d6d4a11c2b1e98829c7071f0ca509563c3c87d0ad900b04"
+    },
+    {
+      "path": "artifacts/render/cooking-flow-v1/contact.jpg",
+      "sha256": "377c0422ee65960024dc98579f1737ac703c89a7b3c4e99c2811cd2679d5f34c"
+    },
+    {
+      "path": "artifacts/render/ebsynth-multikey-smoke-v1/contact.jpg",
+      "sha256": "366d636f6ec67496394c4e2de4924b61c87f7724bffdcfa529fc2bda15fb3de0"
+    }
+  ],
+  "recorded_at": "2026-10-22T04:45:21.501660+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "source_directory": "projects/P-2/production/black-red-duel-v1",
+  "upstream": "https://github.com/cafermutluozkan/stick-motion",
+  "sha": "6315c09c4e5051267806988defa28279b965fe29",
+  "used_functions": [
+    "solveLegIK",
+    "chain2"
+  ],
+  "unused_retained_function": "gaitFoot",
+  "upstream_browser_example": "http://localhost:8765/assets/starter.html opened; walking pose visibly verified",
+  "authored_gap": "two-character combat poses, world targets, beat-specific timing, scene and contacts; offline export adapted from P-2 action-v1",
+  "files_sha256": {
+    "projects/P-2/production/black-red-duel-v1/THIRD_PARTY_LICENSE.txt": "9f7c15dd05cd29ef9129c5347655bce305ec98e76b953dc3f599993e98c6b7c5",
+    "projects/P-2/production/black-red-duel-v1/upstream-math.cjs": "20c32418801002db712eb59f0b022b2f7cc18e2a3db86dc002d9c8ce5af8a3e0",
+    "projects/P-2/production/black-red-duel-v1/audio.py": "fc9283a7367f9dff1d079f11c99b59aab8c105dbeed309a5fbf6ef182189f856",
+    "projects/P-2/production/black-red-duel-v1/package.json": "bb9fa52e7bf357c03ab269465ab3c2a7e3b06a65718a6c836e83a28d12ce6442",
+    "projects/P-2/production/black-red-duel-v1/render.cjs": "e45fe12c64023014a4bbc562b663482c74a61ab653cb5e9f14feb29882a6b105",
+    "projects/P-2/production/black-red-duel-v1/Video.tsx": "c28f7f572846b2f17375ece0bf1e6df05f27c4f5c05ba99d1a61145e31cd3540",
+    "projects/P-2/production/black-red-duel-v1/finalize.py": "c5e92cb4e9f4a47ff674756334b382260005a4b1cc6926893993e3cef3c15cb1",
+    "projects/P-2/production/black-red-duel-v1/check.cjs": "5393ea832a4a018044948adf28ec25df7eadcbe0b57c34fae927c156b9ee7547",
+    "projects/P-2/production/black-red-duel-v1/README.md": "8e010a34d229c34148da8a3fcaa6ddc44bcfbda96d0aa99b3b43fcf15886b3fe",
+    "projects/P-2/production/black-red-duel-v1/motion.cjs": "a4e95c1c823244b6ee44cab4a703531fcc3b5014fddcaf3a324ed5d99459640e"
+  },
+  "host": "Linux; Google Chrome; Remotion 4.0.536",
+  "dependency_versions": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "runtime_ignored": true
+}

@@ -1,0 +1,37 @@
+{
+  "project": "P-2",
+  "title": "Black \u00d7 Red \u2014 friendly sparring",
+  "frames": 450,
+  "fps": 30,
+  "resolution": [
+    1280,
+    720
+  ],
+  "duration_seconds": 15,
+  "provenance": {
+    "upstream_math": "https://github.com/cafermutluozkan/stick-motion/tree/6315c09c4e5051267806988defa28279b965fe29",
+    "reuse": "solveLegIK and chain2 executed for all limbs; authored combat poses/scene/timing; gait retained but unused",
+    "renderer": "Remotion 4.0.536 Linux Chrome; adapted prior P-2 render script",
+    "audio": "original synthesized Foley, no external samples",
+    "reference_footage_used": false
+  },
+  "files": {
+    "projects/P-2/production/black-red-duel-v1/upstream-math.cjs": "20c32418801002db712eb59f0b022b2f7cc18e2a3db86dc002d9c8ce5af8a3e0",
+    "projects/P-2/production/black-red-duel-v1/render.cjs": "e45fe12c64023014a4bbc562b663482c74a61ab653cb5e9f14feb29882a6b105",
+    "projects/P-2/production/black-red-duel-v1/check.cjs": "5393ea832a4a018044948adf28ec25df7eadcbe0b57c34fae927c156b9ee7547",
+    "projects/P-2/production/black-red-duel-v1/motion.cjs": "a4e95c1c823244b6ee44cab4a703531fcc3b5014fddcaf3a324ed5d99459640e",
+    "projects/P-2/production/black-red-duel-v1/Video.tsx": "c28f7f572846b2f17375ece0bf1e6df05f27c4f5c05ba99d1a61145e31cd3540",
+    "projects/P-2/production/black-red-duel-v1/audio.py": "fc9283a7367f9dff1d079f11c99b59aab8c105dbeed309a5fbf6ef182189f856",
+    "projects/P-2/production/black-red-duel-v1/THIRD_PARTY_LICENSE.txt": "9f7c15dd05cd29ef9129c5347655bce305ec98e76b953dc3f599993e98c6b7c5",
+    "projects/P-2/artifacts/render/black-red-duel-v1/draft.mp4": "c7920cbbc2ba2230240ca0e0b01d11eaa9802b06ea94f148e4585ee34fa2c953",
+    "projects/P-2/artifacts/render/black-red-duel-v1/original-sfx.wav": "53f2942eaf172e1fbe31d6b2535afb269569d97dadb36e897234a067eaf61252",
+    "projects/P-2/artifacts/render/black-red-duel-v1/rig-validation.json": "6b17c9ec1be028a92519906fff66aff6a6587b1e9601aa276989f34049885e51",
+    "projects/P-2/artifacts/render/black-red-duel-v1/technical-qa.json": "eab6ac448796d0bcc3ef198d1e1d4d10b6600fada8ee82f3b2d0112035fc4703",
+    "projects/P-2/artifacts/render/black-red-duel-v1/contact-sheet.jpg": "fb3b5f40d4886ecdf5a90e8c86dde496ca8564e9779716cf852b86b36a211bec"
+  },
+  "limits": [
+    "sampled encoded-frame self-review does not establish continuous-playback motion quality",
+    "continuous human listening unverified",
+    "user creative acceptance pending"
+  ]
+}

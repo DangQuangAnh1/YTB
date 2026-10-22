@@ -1,0 +1,63 @@
+{
+  "frames": 450,
+  "limbs": 3600,
+  "maxReachError": 2.5421149729252077e-13,
+  "maxSegmentLengthError": 9.947598300641403e-14,
+  "finite": true,
+  "jointBounds": [
+    325.18,
+    275.43584380072076,
+    1007,
+    610.0000000000001
+  ],
+  "upstreamGaitStancePairs": 132,
+  "maxGaitStanceWorldDrift": 2.5421149729252077e-13,
+  "contactDistances": [
+    {
+      "frame": 59,
+      "distance": 3.8513499741153847,
+      "meaning": "distance to actual authored guard/body; visible strokes have thickness"
+    },
+    {
+      "frame": 86,
+      "distance": 3.0201787510857727,
+      "meaning": "distance to actual authored guard/body; visible strokes have thickness"
+    },
+    {
+      "frame": 151,
+      "distance": 1.7130130037161055,
+      "meaning": "distance to actual authored guard/body; visible strokes have thickness"
+    },
+    {
+      "frame": 193,
+      "distance": 7.646156434268979,
+      "meaning": "distance to actual authored guard/body; visible strokes have thickness"
+    },
+    {
+      "frame": 240,
+      "distance": 7.257160868148707,
+      "meaning": "distance to actual authored guard/body; visible strokes have thickness"
+    },
+    {
+      "frame": 327,
+      "distance": 2.9041217655392018,
+      "meaning": "distance to actual authored guard/body; visible strokes have thickness"
+    },
+    {
+      "frame": 365,
+      "distance": 0.16189747625684575,
+      "meaning": "distance to actual authored guard/body; visible strokes have thickness"
+    }
+  ],
+  "seekDeterministic": true,
+  "executedUpstream": [
+    "solveLegIK",
+    "chain2",
+    "upVec",
+    "gaitFoot",
+    "POSES.STAND baseline",
+    "GSAP3.12.5 paused timeline seek"
+  ],
+  "scope": "numeric constraints/seek/contact proximity only; not creative quality",
+  "pass": true
+}

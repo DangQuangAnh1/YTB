@@ -1,0 +1,11 @@
+# P-2 — Plan v15: black/red 15-second duel draft
+
+Direct user request: “dựng thử phim mới, content phim bạn tự lên ý tưởng nhé. ngắn thôi về cảnh 2 người đánh nhau 1 đen 1 đỏ là đc, tầm 15s”. User delegates the original idea and requests an actual new short draft. The black/red simplified cast overrides duo-v3 styling for this standalone test only; no channel cast replacement is implied.
+
+Deliver one original 15s/450-frame, 30fps, 1280×720 landscape action MP4, prioritizing readable full-body two-person choreography like the landscape action area of the reference. One neutral sparring arena, black and red stick figures, no dialogue, no source footage/audio, original synthetic effects. Friendly non-graphic exchange: red rushes/jabs, black slips and blocks, black counters with a sweep, red hops over it and lands a controlled kick into black's guard, black slides back, both reset and bump fists. No weapons or injury detail. Full body/feet visible; separate anticipation, attack, impact hold and recovery. No publishing or paid calls.
+
+Use Remotion 4.0.536 pinned runtime and source pipeline already in repo, adapting platform path handling for Linux. First execute smallest upstream stick-motion example (source and browser) before building the duel; reuse its two-bone math and gait where useful. Its full clip cannot supply combat poses or two-person contact: record these precise gaps, author only the choreography/adapter. Preserve MIT notice and SHA. No new solver/engine. Share impact cue times between visual effects and procedural Foley.
+
+Workflow: make explicit recovery receipt preserving unavailable historical media IDs/hashes and snapshot (done r214 after current continuation request); create this versioned plan and bind direct user request through decision helper. Register new research/content/source/output paths only, never overwrite registered old media. Self-review actual encoded frames, full decode, duration/frame count, audio numeric properties, and continuity; disclose missing continuous human listening and creative acceptance. Pass technical checks do not establish user satisfaction.
+
+Expected output: source, storyboard, upstream reuse provenance, MP4, contact sheet, technical report, manifest, self-review and durable checkpoint. No new autonomous delegation is assumed from prior research-role authorization.

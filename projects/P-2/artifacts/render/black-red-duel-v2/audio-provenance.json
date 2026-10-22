@@ -1,0 +1,46 @@
+{
+  "source": "original procedural Foley adapted from P-2 action-v1/audio.py",
+  "seed": 20261022,
+  "sample_rate": 48000,
+  "duration": 15,
+  "external_samples": false,
+  "shared_impact_frames": [
+    {
+      "f": 59,
+      "x": 712,
+      "y": 338
+    },
+    {
+      "f": 86,
+      "x": 722,
+      "y": 338
+    },
+    {
+      "f": 151,
+      "x": 715,
+      "y": 434
+    },
+    {
+      "f": 193,
+      "x": 645,
+      "y": 414
+    },
+    {
+      "f": 240,
+      "x": 757,
+      "y": 414
+    },
+    {
+      "f": 327,
+      "x": 674,
+      "y": 340
+    },
+    {
+      "f": 365,
+      "x": 850,
+      "y": 340
+    }
+  ],
+  "peak": 0.44855391499148534,
+  "rms": 0.026425212602759506
+}

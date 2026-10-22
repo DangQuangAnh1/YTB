@@ -1,0 +1,14 @@
+# Video source catalog
+
+This catalog records sources inspected for the P-2 action-reference research on 2026-10-22. It is not an inventory or license audit of every pre-existing directory. Source checkouts, runtimes, models, binary outputs and raw media must stay outside parent Git; retain each upstream LICENSE/NOTICE in its checkout. See RESTORE.md.
+
+| Source | Canonical URL | Local directory / exact revision | License / provenance | Research status |
+|---|---|---|---|---|
+| Motion Canvas | https://github.com/motion-canvas/motion-canvas.git | `sources/motion-canvas`, `7b91435c301d530351dcf5ebb91dd139c002e405` | MIT, `LICENSE` SHA256 `b3f12201916c5d478263cd210cf17f3d0c007d03bd574e0b77cac6307953068e` | Existing sparse source reused; camera/source inspected. Current Linux install/export not proven. |
+| Stick Motion | https://github.com/cafermutluozkan/stick-motion.git | `sources/stick-motion`, `6315c09c4e5051267806988defa28279b965fe29` | MIT, `LICENSE` SHA256 `9f7c15dd05cd29ef9129c5347655bce305ec98e76b953dc3f599993e98c6b7c5` | Browser starter verified during v1. v1 uses solver/chain only; v2 actually executes FK arms + leg IK + gaitFoot, adapted renderWalk architecture and STAND baseline. Source is not a finished combat library. |
+| Fullik | https://github.com/lo-th/fullik.git | `sources/fullik`, `3f22da98a0fa0051416b20077af5142aec3dfc2e` | MIT, `LICENSE` SHA256 `551f06ddc3dc36b56610aa23db680826ba9d9a02e8f89f7bec05d7fa27401a2b`; retain bundled `build/fik.js` MIT header as well | Shallow source clone and bundled solver numeric check. Optional longer-chain solver; not an integrated character/contact system. |
+| GSAP | https://github.com/greensock/GSAP.git | Existing installed npm source `runtime/p2-remotion/node_modules/gsap`, version3.12.5; registry does not report gitHead | Pinned package standard no-charge license metadata, not MIT. npm integrity `sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==`; preserve package source banners. | v2 uses paused persistent-state timelines and explicit seek, adapting starter poseTween pattern. Local evaluation only; no new commercial license conclusion. Reuse installed source instead of duplicating a checkout. |
+
+The locked P-2 toolkit specifies Motion Canvas packages 3.17.2 and project source uses Remotion 4.0.536. A research checkout SHA does not change those package versions. Remotion has its own license; do not label it MIT or infer commercial eligibility. Kenney resources, Spine runtimes, PixiJS, Godot and exporters are screened in role reports, not claimed installed here.
+
+Detailed evidence and limitations: `projects/P-2/research/action-reference-dev-*.md` from repository root. Existing source directories for other investigations (DepthFlow, ComfyUI, LTX variants, Wan and others) are outside this scoped audit; their presence is not evidence of current readiness or license clearance.
