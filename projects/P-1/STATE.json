@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-1",
-  "revision": 363,
+  "revision": 364,
   "goal": "Tiếp nhận ý tưởng kênh tổng hợp và bình luận bài đăng viral trên Threads: làm rõ khán giả, ngôn ngữ, định dạng; nghiên cứu nguồn, quyền sử dụng, công cụ và tính bền vững; trình 2–3 hướng cùng thử nghiệm nhỏ để người dùng duyệt. Ưu tiên công cụ sẵn có, chưa trả thêm; chưa sản xuất hoặc đăng video.",
   "stage": "planning",
   "constraints": [
@@ -21,8 +21,8 @@
   "approval": {
     "status": "approved",
     "record": {
-      "path": "decisions/decision-r348-f8b8c0fe.json",
-      "sha256": "dc7d7eb8c234945d966522e06cb66442fa6f394631ff3f43a44d6e5552fdb690"
+      "path": "decisions/decision-r364-971bd236.json",
+      "sha256": "c046a703694f20a52444ef9b3114b73723270749a2db159d9147c487ce8d2108"
     }
   },
   "decision_records": [
@@ -165,6 +165,10 @@
     {
       "path": "decisions/decision-r348-f8b8c0fe.json",
       "sha256": "dc7d7eb8c234945d966522e06cb66442fa6f394631ff3f43a44d6e5552fdb690"
+    },
+    {
+      "path": "decisions/decision-r364-971bd236.json",
+      "sha256": "c046a703694f20a52444ef9b3114b73723270749a2db159d9147c487ce8d2108"
     }
   ],
   "artifacts": [
@@ -3518,7 +3522,7 @@
     "available": false
   },
   "created_at": "2026-10-16T07:42:46.989392+00:00",
-  "updated_at": "2026-10-22T13:45:01.687926+00:00",
+  "updated_at": "2026-10-22T13:52:54.633440+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r55-07b5f2fc.json",
