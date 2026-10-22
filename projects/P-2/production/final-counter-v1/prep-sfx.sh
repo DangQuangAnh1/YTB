@@ -1,7 +1,7 @@
 #!/bin/sh
 # Converts a selected subset of the CC0 Kenney Impact Sounds pack (third_party/video/sources/kenney-impact-sounds/pack/Audio) to 48 kHz mono WAV in sfx/.
 cd "$(dirname "$0")/../../../.." || exit 1
-FF="$HOME/.cache/creator-agency/p1-runtime-bundled/lib/python3.12/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2"
+FF="${FFMPEG:-ffmpeg}"
 A=third_party/video/sources/kenney-impact-sounds/pack/Audio
 O=projects/P-2/production/final-counter-v1/sfx
 while read out src; do "$FF" -y -v error -i "$A/$src.ogg" -ar 48000 -ac 1 -c:a pcm_s16le "$O/$out.wav"; done <<LIST

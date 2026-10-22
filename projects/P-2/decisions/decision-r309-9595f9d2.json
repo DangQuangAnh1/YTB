@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user:current-turn-home-setup",
+  "excerpt": "bạn merge hộ luôn đi, với lại hướng dẫn tập lệnh để chạy dự án p-2 trên máy khác ở nhà",
+  "plan": {
+    "path": "plans/plan-v22-r308-b161454d.md",
+    "sha256": "ecc199367c9b0ad867f6c9909297e4deaafa015bf40d4fed77f2d6a1e1d98555",
+    "revision": 22
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-22T09:27:05.772206+00:00"
+}
