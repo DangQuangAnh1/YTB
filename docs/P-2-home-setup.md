@@ -50,7 +50,7 @@ Chỉ xem một vài frame: `node projects/P-2/production/final-counter-v1/rende
 - **Chỉ ghi trạng thái dự án trên một máy (máy chính).** Các lệnh `python3 scripts/agency.py plan|decision|artifact|review|checkpoint|usage|recover` ghi vào `STATE.json`; AGENTS.md quy định mỗi lúc chỉ một máy ghi. Máy ở nhà nên chỉ dựng, thử code và commit.
 - **Video, âm thanh, ảnh không nằm trong Git.** Bản clone mới không có chúng, nên `python3 scripts/agency.py check P-2` sẽ báo thiếu file (ví dụ `black-red-duel-v1/original-sfx.wav`). Đây là hành vi có từ trước, không phải lỗi cài đặt. Muốn có các file đó ở nhà, copy từ máy chính (USB, scp, ổ đám mây) vào đúng đường dẫn trong `projects/P-2/artifacts/render/...`.
 - **Không dựng đè lên thư mục `projects/P-2/artifacts/render/final-counter-v1`** của máy chính, vì hash đã đăng ký sẽ lệch. `build.sh` mặc định ghi ra `~/p2-out` để tránh việc này.
-- Đồng bộ code bằng nhánh Git và pull request như đang làm (`git pull` trước khi bắt đầu, push nhánh khi xong).
+- Đồng bộ code bằng nhánh Git và pull request như đang làm (`git pull` trước khi bắt đầu, push nhánh khi xong). Các lệnh cụ thể và ai làm bước nào: xem `docs/P-2-git-workflow.md`.
 
 ## 4. Tùy chọn: tạo lại clip chuyển động và SFX từ nguồn
 

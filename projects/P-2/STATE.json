@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "P-2",
-  "revision": 310,
+  "revision": 311,
   "goal": "Dự án độc lập tách từ khảo sát ngày 20/10/2026 theo yêu cầu người dùng: nghiên cứu Shorts Việt Nam, phân nhóm và đánh giá dạng nào có thể tự sản xuất với công cụ hiện có. Giai đoạn hiện tại là nghiên cứu tính khả thi và đề xuất thử nghiệm; chưa chọn format, chưa sản xuất hoặc đăng, chưa phê duyệt chi phí mới. Không kế thừa quyền sản xuất hoặc quyết định sáng tạo của P-1.",
   "stage": "review",
   "constraints": [
@@ -2135,6 +2135,15 @@
       "inputs": [],
       "plan_revision": 21,
       "created_at": "2026-10-22T09:10:45.980512+00:00"
+    },
+    {
+      "path": "research/scriptwriter-design-v1.md",
+      "sha256": "657e0d839bbb25ea2a247d83189332ac655f8970eab6842197d6dda2f1edf214",
+      "id": "A-193",
+      "kind": "research",
+      "inputs": [],
+      "plan_revision": 22,
+      "created_at": "2026-10-22T09:45:50.801132+00:00"
     }
   ],
   "reviews": [
@@ -2628,7 +2637,7 @@
     "available": false
   },
   "created_at": "2026-10-20T13:51:37.871764+00:00",
-  "updated_at": "2026-10-22T09:27:06.259262+00:00",
+  "updated_at": "2026-10-22T09:45:50.801147+00:00",
   "recovery_records": [
     {
       "path": "recovery/loss-r214-9325629d.json",
