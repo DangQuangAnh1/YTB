@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "P-2",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user:current-turn-soft-line-implementation",
+  "excerpt": "triển khai thử vớt nét xong đi",
+  "plan": {
+    "path": "plans/plan-v17-r257-c9d73d97.md",
+    "sha256": "9065fbadc918c4156d5e183125bad4df595b469329a05d28037fa7a3465a01dc",
+    "revision": 17
+  },
+  "allowed_actions": [
+    "render_draft",
+    "research",
+    "write_content"
+  ],
+  "decided_at": "2026-10-22T05:26:42.526130+00:00"
+}
