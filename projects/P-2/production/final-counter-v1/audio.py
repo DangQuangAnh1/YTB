@@ -1,6 +1,6 @@
 """Original procedural SFX and music for The Final Counter; no external samples or music."""
 from pathlib import Path
-import json,subprocess,wave
+import json,subprocess,wave,os
 import numpy as np
 base=Path(__file__).resolve().parent
 out=base.parents[1]/'artifacts/render/final-counter-v1'
@@ -11,6 +11,9 @@ console.log(JSON.stringify({hits:E.HITS.map(h=>({t:h.outT,kind:h.kind,power:h.po
  whoosh:E.WHOOSH.map(w=>({t:F.outAt(w.simT),len:w.len*(w.simT>6.9&&w.simT<7.4?4:1),gain:w.gain,kind:w.kind||'w'})),
  foley:E.FOLEY.map(f=>({t:F.outAt(f.simT),kind:f.kind,power:f.power||1,len:f.len||0})),
  slow:[F.outAt(F.SLOW.t0),F.outAt(F.SLOW.t1)]}))"""],cwd=base))
+KEN=os.environ.get('SFX_SET')=='kenney';SUF='-kenney' if KEN else ''
+def smp(name):
+    w=wave.open(str(base/'sfx'/(name+'.wav')));x=np.frombuffer(w.readframes(w.getnframes()),'<i2').astype(float)/32768;return x
 SR=48000;DUR=15.0;N=int(SR*DUR);SEED=20261022
 rng=np.random.default_rng(SEED)
 sfx=np.zeros(N);mus=np.zeros(N)
@@ -57,11 +60,14 @@ def heartbeat(at,gain):
 # --- SFX from events ---
 for h in ev['hits']:
     p=h['power'];k=h['kind']
+    if KEN:
+        put(sfx,h['t'],smp({'punch':'punch_medium','block':'metal_medium' if p<1 else 'metal_heavy','final':'punch_heavy'}[k]),.8 if k=='block' else 1.0);p*=.5
     if k=='punch':thump(h['t'],.7*p,150,50,.3,.7);put(sfx,h['t'],hp(rng.normal(0,1,int(SR*.07)),1500)*np.exp(-t_(.07)*55),.5)
     elif k=='block':clang(h['t'],.5*p);thump(h['t'],.4*p,120,55)
     elif k=='final':boom(h['t'],.95);thump(h['t'],.8,140,40,.5,.9);clang(h['t'],.25)
 for w in ev['whoosh']:whoosh(w['t'],w['len']*(1.4 if w['kind']=='dash' else 1),w['gain'],rising=w['kind']!='fly')
 for f in ev['foley']:
+    if KEN and f['kind']=='land':put(sfx,f['t'],smp('soft_heavy' if f['power']>1 else 'step'),.7)
     if f['kind']=='jump':dust(f['t'],.18,.12);thump(f['t'],.2,110,60,.2,.1)
     elif f['kind']=='land':thump(f['t'],.5*f['power'],100,45,.35,.2);dust(f['t'],.3,.18*f['power'])
     elif f['kind']=='slide':dust(f['t'],f['len'],.22)
@@ -122,9 +128,9 @@ mix=(mus*.8+sfx)*fade
 rms0=np.sqrt(np.mean(mix**2));mix=np.tanh(mix*(.15/max(rms0,1e-9)))
 mix*=.89/np.max(np.abs(mix))
 pcm=(mix*32767).astype('<i2')
-wav=out/'original-audio.wav'
+wav=out/('original-audio'+SUF+'.wav')
 with wave.open(str(wav),'wb') as w:
     w.setnchannels(1);w.setsampwidth(2);w.setframerate(SR);w.writeframes(pcm.tobytes())
 rms=float(np.sqrt(np.mean(mix**2)))
-(out/'audio-provenance.json').write_text(json.dumps({'source':'original procedural synthesis (numpy); no external samples or music','seed':SEED,'sample_rate':SR,'duration':DUR,'bpm':BPM,'external_samples':False,'peak':float(np.max(np.abs(mix))),'rms':rms,'events':ev,'note':'Levels checked numerically only; no listening judgment.'},indent=1))
+(out/('audio-provenance'+SUF+'.json')).write_text(json.dumps({'source':('procedural synthesis (numpy) plus a CC0 Kenney Impact Sounds subset' if KEN else 'original procedural synthesis (numpy); no external samples or music'),'seed':SEED,'sample_rate':SR,'duration':DUR,'bpm':BPM,'external_samples':KEN,'sample_source':'Kenney Impact Sounds 1.0, CC0, subset in sfx/' if KEN else None,'peak':float(np.max(np.abs(mix))),'rms':rms,'events':ev,'note':'Levels checked numerically only; no listening judgment.'},indent=1))
 print('wrote',wav,'peak %.3f rms %.3f'%(np.max(np.abs(mix)),rms))

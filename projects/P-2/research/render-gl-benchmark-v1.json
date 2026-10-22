@@ -1,0 +1,13 @@
+{
+  "measured_on": "2026-10-22",
+  "machine": "8 cores, 15 GB RAM, Intel UHD 630 integrated GPU (no NVIDIA), Chrome at /usr/bin/google-chrome, Remotion 4.0.536",
+  "composition": "final-counter-v1 FinalCounter (1080x1920, 60fps, SVG with feGaussianBlur glow, trails, HUD)",
+  "sixty_frames_130_to_189_concurrency_6": {
+    "run_order_1": {"swangle_s": 59.1, "angle_s": 9.6, "egl_s": 9.9},
+    "run_order_2": {"angle_s": 10.0, "swangle_s": 57.1, "angle_again_s": 10.0},
+    "note": "Times include browser start-up; angle and egl were about 5.7x faster than swangle in both orders."
+  },
+  "visual_difference_angle_vs_swangle": {"mean_abs_diff_of_255": [1.03, 0.53], "pixels_differing_over_24_percent": [0.03, 0.06], "sampled_frames": 2},
+  "full_900_frames": {"angle_s": 97.7, "swangle_s_three_earlier_full_renders": [623.8, 643.3, 583.4], "speedup_vs_mean_swangle": 6.2},
+  "caveats": ["Remotion docs warn of memory leaks with angle on long renders; split long videos into parts or per-scene renders.", "Only two frames compared visually and numerically; full output not frame-compared.", "A dedicated NVIDIA/AMD GPU was not available, so any gain beyond this integrated GPU is untested."]
+}
