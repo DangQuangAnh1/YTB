@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-4",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user-chat-2026-10-23",
+  "excerpt": "Các chi tiết phụ xung quanh cũng cần có tương tự không chỉ mỗi hình ảnh của mình",
+  "plan": {
+    "path": "plans/plan-v4-r8-c3adcf92.md",
+    "sha256": "e7de763a898628a30349dc6151201da48655cafd59d66ab01365d15777bde47a",
+    "revision": 4
+  },
+  "allowed_actions": [
+    "write_content"
+  ],
+  "decided_at": "2026-10-23T07:12:45.432406+00:00"
+}

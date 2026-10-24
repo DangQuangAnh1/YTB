@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-4",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user-chat-2026-10-23",
+  "excerpt": "Prompt việt thật hay + thành 1 đoạn văn thay vì xuống dòng",
+  "plan": {
+    "path": "plans/plan-v3-r6-67aa4fdc.md",
+    "sha256": "c15a1f87b4d81cb76bd4ffe753950a819e2bed79732bf9976ddddc9209c9a351",
+    "revision": 3
+  },
+  "allowed_actions": [
+    "write_content"
+  ],
+  "decided_at": "2026-10-23T07:10:37.173188+00:00"
+}

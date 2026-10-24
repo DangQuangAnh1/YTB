@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-4",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user-chat-2026-10-23",
+  "excerpt": "Nếu tạo nv nữ thì cần cute + sexy tương tự các prompt này đã tạo thử",
+  "plan": {
+    "path": "plans/plan-v5-r10-1ef90992.md",
+    "sha256": "60cbcb370b885f0bbb138512c4cbab0075d858d3df35de21ecec38f17c596aa6",
+    "revision": 5
+  },
+  "allowed_actions": [
+    "write_content"
+  ],
+  "decided_at": "2026-10-23T07:14:50.423982+00:00"
+}

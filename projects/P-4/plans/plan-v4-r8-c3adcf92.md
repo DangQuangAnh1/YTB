@@ -1,0 +1,436 @@
+Plan phát triển Facebook Page Morphix 3D VN --- Bản cập nhật
+Phiên bản: 2.0
+Định hướng: Video 3D transformation 15 giây, từ mô hình xám kiểu
+Blender sang hình ảnh CGI chân thực, fantasy hoặc cinematic.
+1. Mục tiêu
+Xây dựng Morphix 3D VN thành thương hiệu video ngắn có nhận diện rõ
+ràng, tập trung vào khoảnh khắc biến đổi thị giác từ mô hình 3D xám sang
+thành phẩm ấn tượng.
+
+Mục tiêu trong giai đoạn đầu:
+- Tạo phong cách hình ảnh nhất quán giữa các video.
+- Thử nghiệm nhiều nhóm chủ thể để tìm định dạng có hiệu quả tốt nhất.
+- Tăng lượt xem, thời gian xem, lượt xem hết, chia sẻ, bình luận và
+  người theo dõi.
+- Tái sử dụng quy trình sản xuất phù hợp cho Facebook Reels, TikTok và
+  YouTube Shorts.
+- Đánh giá kết quả bằng dữ liệu thực tế thay vì giả định rằng một chủ
+  đề chắc chắn viral.
+2. Định vị thương hiệu
+Tên trang: Morphix 3D VN
+Thông điệp: From Grey to Extraordinary.
+Mô tả ngắn: AI-powered 3D transformations, surreal worlds, and
+cinematic visual effects.
+Nhận diện hình ảnh
+- Giai đoạn đầu: mô hình đất sét màu xám, giao diện dựng hình 3D tối,
+  lưới, trục XYZ, wireframe và con trỏ chuột.
+- Giai đoạn biến đổi: chuyển cảnh rõ ràng, có điểm nhấn và đồng bộ
+  chuyển động.
+- Giai đoạn cuối: vật liệu chân thực, ánh sáng điện ảnh, chuyển động
+  môi trường và hiệu ứng được thiết kế riêng cho từng chủ thể.
+- Màu sắc, ánh sáng neon và hiệu ứng fantasy chỉ xuất hiện sau mốc
+  biến đổi đã định.
+- Giữ cách dựng, nhịp điệu và bố cục tương tự giữa các tập, nhưng thay
+  đổi chủ thể, màu sắc và hiệu ứng để tránh cảm giác lặp lại.
+3. Bốn trụ cột nội dung
+Series A --- Grey to Glow: Hình khối và lõi năng lượng
+Mục tiêu: Tạo format dễ nhận diện, dễ phát triển thành nhiều tập.
+
+Chủ đề gợi ý: - Khối lập phương biến thành lõi năng lượng vũ trụ. - Quả
+cầu biến thành hành tinh hoặc quả cầu năng lượng. - Tam giác biến thành
+tinh thể phát sáng. - Hoa mô hình xám nở thành hoa chân thực hoặc hoa
+fantasy. - Robot xám biến thành robot kim loại chi tiết. - Kiếm fantasy
+biến thành vũ khí phát sáng. - Tinh thể, viên đá hoặc vật phẩm cổ đại
+thức tỉnh.
+
+Hiệu ứng phù hợp: chất lỏng năng lượng, vết nứt phát sáng, hạt bụi, vòng
+quỹ đạo, phản chiếu trên đá, tinh thể và ánh sáng thể tích. Không dùng
+tất cả hiệu ứng trong mọi video; chọn hiệu ứng phù hợp với chủ thể.
+Series B --- Creature Realism: Động vật chân thực
+Mục tiêu: Tạo cảm giác dễ thương, bất ngờ hoặc thỏa mãn khi mô hình
+chuyển thành sinh vật hoàn chỉnh.
+
+Chủ đề gợi ý: - Mèo tam thể từ mô hình xám thành mèo có lông chi tiết. -
+Hồ ly fantasy với đuôi chuyển động và ánh sáng huyền ảo. - Rồng nhỏ với
+vảy, cánh và hơi thở có hiệu ứng. - Bướm hoặc chim với cánh và chuyển
+động tự nhiên. - Sói hoặc hổ với vật liệu lông chân thực.
+
+Hiệu ứng phù hợp: lông, vảy, chuyển động mắt, tai, đầu, đuôi, cánh và
+tương tác với môi trường. Ưu tiên chuyển động sinh học hợp lý; không ép
+mọi sinh vật thành hiệu ứng năng lượng vũ trụ.
+Series C --- Character Awakening: Nhân vật 3D và fantasy
+Mục tiêu: Tạo hình ảnh có cá tính, tăng khả năng ghi nhớ nhân vật và
+phát triển thành chuỗi nội dung.
+
+Chủ đề gợi ý: - Nhân vật anime chuyển từ clay model thành nhân vật hoàn
+thiện. - Nữ chiến binh hoặc pháp sư fantasy. - Kiếm khách, nhân vật cổ
+phong hoặc tu tiên. - Nhân vật khoa học viễn tưởng với trang phục công
+nghệ. - Nhân vật nhỏ dễ thương trong thế giới điện ảnh.
+
+Hiệu ứng phù hợp: tóc và vải chuyển động, trang phục hiện rõ chi tiết,
+phụ kiện xuất hiện, ánh sáng viền và môi trường tương ứng. Duy trì khuôn
+mặt, tỷ lệ cơ thể, trang phục và danh tính nhân vật giữa các giai đoạn.
+Series D --- Object & Vehicle Transformation: Vật thể, xe và kiến trúc
+Mục tiêu: Mở rộng chủ đề nhưng vẫn giữ cấu trúc chuyển đổi từ mô
+hình xám sang thành phẩm.
+
+Chủ đề gợi ý: - Xe thể thao xám thành xe CGI chân thực. - Phi thuyền mô
+hình thành phương tiện vũ trụ. - Ngôi nhà low-poly thành kiến trúc điện
+ảnh. - Cỗ máy hoặc robot công nghiệp. - Cổng dịch chuyển, phòng giả
+tưởng hoặc thành phố thu nhỏ.
+
+Hiệu ứng phù hợp: kim loại, kính, sơn bóng, đèn, bụi, phản chiếu, các bộ
+phận chuyển động và ánh sáng môi trường. Đối với xe hoặc kiến trúc, ưu
+tiên vật liệu và chi tiết hoàn thiện thay vì hiệu ứng phép thuật không
+cần thiết.
+4. Cấu trúc video chuẩn 15 giây
+Tất cả series dùng chung khung thời gian dưới đây. Có thể tinh chỉnh
+nhịp chuyển động theo chủ thể, nhưng cần giữ mốc chuyển đổi rõ ràng.
+00:00--00:03 --- Hook: Mô hình xám từ xa
+- Mở bằng góc rộng có chủ thể dễ nhận biết, bố cục mạnh và môi trường
+  tạo chiều sâu.
+- Hiển thị giao diện Blender-style tối màu, lưới, trục XYZ và mô hình
+  clay xám.
+- Camera bắt đầu tiến chậm về chủ thể.
+- Có chuyển động nhẹ của bụi, mảnh vỡ hoặc thành phần môi trường nếu
+  phù hợp.
+- Không có ánh sáng neon hoặc màu sắc của thành phẩm.
+00:03--00:07 --- Dựng hình và tạo kỳ vọng
+- Camera tiến gần dần, giữ chủ thể ở vị trí trung tâm.
+- Con trỏ chọn mô hình, hiển thị viền cam và thực hiện thao tác kiểm
+  tra hợp lý.
+- Có thể dùng wireframe, xoay nhẹ hoặc zoom để tạo cảm giác đang chỉnh
+  sửa mô hình.
+- Thanh timeline có thể xuất hiện và tiến về phía trước.
+- Toàn bộ cảnh vẫn đơn sắc màu xám; không để màu thành phẩm xuất hiện
+  sớm.
+00:07--00:10 --- Transformation Reveal
+- Bắt đầu biến đổi dứt khoát tại đúng 00:07.
+- Chuyển từ viewport xám sang môi trường render hoàn chỉnh.
+- Giữ nguyên danh tính, hình dáng đặc trưng, tỷ lệ và vị trí tương đối
+  của chủ thể.
+- Thể hiện rõ màu sắc, vật liệu và hiệu ứng đặc trưng của chủ đề.
+- Tạo điểm nhấn thị giác mạnh nhưng tránh làm chủ thể biến dạng đến
+  mức không thể nhận ra.
+00:10--00:14 --- Cinematic Showcase
+- Camera tiếp tục tiến về phía trước trong một cú máy liên tục.
+- Cho người xem đủ thời gian quan sát thành phẩm.
+- Bổ sung chuyển động chính và chuyển động môi trường có chủ đích.
+- Dùng ánh sáng thể tích, phản chiếu, chiều sâu trường ảnh và thị sai
+  tự nhiên khi phù hợp.
+- Chủ thể vẫn là điểm nhìn chính; tránh quá nhiều hạt hoặc hiệu ứng
+  che khuất chi tiết.
+00:14--00:15 --- Kết thúc
+- Camera hướng tới điểm nhấn cuối cùng.
+- Giảm dần ánh sáng và hiệu ứng, fade mượt về màn hình đen hoàn toàn
+  tại 00:15.
+- Với video thử nghiệm vòng lặp, có thể tạo một phiên bản kết thúc nối
+  được với khung hình đầu; không bắt buộc nếu làm giảm chất lượng.
+- Trong phiên bản tiêu chuẩn của plan này, ưu tiên kết thúc bằng màn
+  hình đen theo template cinematic.
+5. Quy tắc nhất quán hình ảnh
+1. Nhất quán chủ thể: Giữ cùng hình dáng, đặc điểm nhận diện, tỷ lệ
+   và kích thước tương đối trước và sau biến đổi.
+2. Nhất quán camera: Ưu tiên một cú máy tiến về phía trước, không
+   cắt cảnh đột ngột hoặc đổi góc vô cớ.
+3. Mốc biến đổi: Không dùng ánh sáng màu/neon trước 00:07 nếu video
+   đang theo template chuẩn.
+4. Hiệu ứng theo chủ đề: Chỉ chọn hiệu ứng phù hợp; động vật cần
+   chuyển động tự nhiên, xe cần vật liệu và phản chiếu, nhân vật cần
+   tóc/vải/biểu cảm, vật thể fantasy có thể dùng năng lượng.
+5. Không lạm dụng giao diện: Giao diện Blender-style nên đủ nhận
+   biết nhưng không chiếm hết khung hình hoặc làm chủ thể khó quan sát.
+6. Kiểm soát lỗi AI: Kiểm tra lỗi hình thể, vật thể tự nhân đôi,
+   chi tiết nhấp nháy, vật liệu biến dạng, chuyển động phi vật lý và
+   thay đổi bố cục.
+7. Không chữ thừa: Không chèn logo, watermark hoặc phụ đề tự động
+   vào hình ảnh nếu không có chủ đích rõ ràng.
+8. Định dạng: Video dọc 9:16, mục tiêu 15 giây; xuất ở độ phân giải
+   tốt nhất mà công cụ hỗ trợ.
+9. Đa dạng màu sắc: Mỗi video dùng một bảng màu chủ đạo khác với các
+   video đã làm trong chuỗi gần nhất. Ghi lại bảng màu trước khi viết
+   prompt; không lặp nguyên tổ hợp màu hoặc hiệu ứng ánh sáng của ngày
+   trước. Có thể giữ nhận diện cinematic nhưng phải thay đổi màu chủ đạo,
+   màu nhấn và nhiệt độ ánh sáng.
+10. Biến đổi toàn cảnh: Không chỉ chủ thể chính mà mọi chi tiết phụ có
+    chủ đích trong khung hình cũng phải có đối ứng trước và sau biến đổi.
+    Ví dụ: nền viewport xám thành bối cảnh render, mảnh đá xám thành đá
+    phát sáng hoặc thiên thạch, bụi xám thành hạt năng lượng, bục đỡ xám
+    thành địa hình/công trình phù hợp. Giữ vị trí, tỷ lệ và hướng chuyển
+    động tương đối của các chi tiết này để cảnh cuối là sự tiếp nối hợp lý
+    của cảnh đầu, không phải một nền ngẫu nhiên thay thế.
+6. Prompt template dùng chung
+Thay các phần trong dấu ngoặc vuông theo chủ đề. Không cần giữ những
+hiệu ứng không phù hợp.
+English template
+Create a 15-second vertical 9:16 cinematic 3D transformation video
+featuring \(MAIN SUBJECT\), evolving from a monochromatic grey
+Blender-style modeling viewport into an ultra-realistic \(FINAL VISUAL
+STYLE\) scene. Maintain consistent subject identity, recognizable
+silhouette, proportions, scale, central composition, environmental
+continuity, and a forward-moving camera throughout.
+
+00:00--00:03 --- INITIAL GREY MODEL: Show a distant wide shot of
+\(MAIN SUBJECT\) in \(ENVIRONMENT\). Use monochromatic grey clay
+materials, visible polygonal geometry, soft neutral shadows, a dark
+Blender-style interface, grid lines, XYZ axes, transform gizmos, and a
+visible mouse cursor. The camera begins a slow forward dolly. \(SUBTLE
+ENVIRONMENT MOVEMENT\). No colored lighting or neon effects.
+
+00:03--00:07 --- MODELING AND INSPECTION: Gradually move closer to
+\(MAIN SUBJECT\). The cursor selects the subject, briefly displays an
+orange selection outline, and performs a believable inspection or
+editing action. Add subtle wireframe overlays, a slight rotation or
+viewport zoom, and a visible timeline advancing smoothly. Keep the
+entire scene monochromatic grey with neutral lighting.
+
+00:07--00:10 --- TRANSFORMATION REVEAL: At exactly 00:07, transition
+decisively into a fully rendered cinematic environment. Transform \(MAIN
+SUBJECT\) into \(FINAL SUBJECT APPEARANCE\), preserving its recognizable
+identity, silhouette, and proportions. Introduce \(COLOR PALETTE\),
+\(SIGNATURE MATERIALS OR EFFECTS\), and \(TRANSFORMATION ANIMATION\).
+Transform each intentional surrounding element into its corresponding final
+form: \(ENVIRONMENTAL DETAILS\). Preserve the relative layout, scale and motion
+of these elements so the rendered world is a logical continuation of the grey
+viewport, with realistic lighting and reflections.
+
+00:10--00:14 --- CINEMATIC SHOWCASE: Continue the smooth forward
+camera dolly without changing the central composition. Showcase \(MAIN
+SUBJECT\) with detailed materials, convincing textures, realistic
+reflections, and \(NATURAL OR STYLIZED MOVEMENT\). Add \(SECONDARY
+ANIMATION\) and subtle environmental movement. Use cinematic depth,
+controlled bloom, volumetric lighting, and natural parallax where
+appropriate. Keep the subject clearly visible and visually dominant.
+
+00:14--00:15 --- FINAL FADE: Guide the camera toward \(FINAL FOCAL
+POINT\). Gradually reduce the lighting and atmospheric effects, fading
+smoothly to a completely black frame at 00:15.
+
+STYLE AND CONTINUITY: High-end cinematic CGI, detailed materials,
+polished rendering, smooth animation, stable subject identity, coherent
+environment, one continuous forward-moving camera shot, no abrupt cuts.
+
+NEGATIVE CONSTRAINTS: No text overlays, subtitles, logos,
+watermarks, duplicate subjects, random scene changes, or colored neon
+lighting before 00:07. Do not distort the subject beyond recognition.
+End on a completely black frame.
+Template tiếng Việt
+Khi dùng template này để giao prompt hằng ngày, viết lại toàn bộ prompt thành
+một đoạn văn tiếng Việt duy nhất, tự nhiên và giàu hình ảnh; không xuống dòng,
+không dùng tiêu đề hoặc danh sách. Giữ đủ các mốc thời gian, yêu cầu về chủ
+thể, camera, ánh sáng, tính liên tục và điều kiện loại trừ trong cùng đoạn.
+
+Tạo video biến đổi 3D điện ảnh dài 15 giây, tỷ lệ dọc 9:16, với chủ thể
+\(CHỦ THỂ CHÍNH\), chuyển từ mô hình đất sét đơn sắc màu xám trong
+giao diện dựng hình kiểu Blender sang khung cảnh \(PHONG CÁCH HÌNH ẢNH
+CUỐI\) chân thực. Duy trì danh tính, hình dáng đặc trưng, tỷ lệ, kích
+thước tương đối, bố cục trung tâm, môi trường nhất quán và camera tiến
+về phía trước trong toàn bộ video.
+
+00:00--00:03 --- MÔ HÌNH XÁM: Góc rộng nhìn từ xa vào \(CHỦ THỂ
+CHÍNH\) trong \(MÔI TRƯỜNG\). Dùng vật liệu clay xám đơn sắc, hình học
+đa giác rõ ràng, bóng mềm trung tính và giao diện Blender-style tối màu
+với lưới, trục XYZ, công cụ biến đổi và con trỏ chuột. Camera bắt đầu
+tiến chậm. \(CHUYỂN ĐỘNG MÔI TRƯỜNG NHẸ\). Không dùng ánh sáng màu hoặc
+neon.
+
+00:03--00:07 --- DỰNG HÌNH VÀ KIỂM TRA: Camera tiến gần \(CHỦ THỂ
+CHÍNH\). Con trỏ chọn chủ thể, hiển thị viền cam trong chốc lát và thực
+hiện thao tác chỉnh sửa hợp lý. Bổ sung wireframe tinh tế, xoay nhẹ hoặc
+zoom góc nhìn, cùng thanh timeline chạy mượt. Toàn bộ cảnh vẫn đơn sắc
+màu xám và ánh sáng trung tính.
+
+00:07--00:10 --- BIẾN ĐỔI: Chính xác tại 00:07, chuyển dứt khoát
+sang môi trường điện ảnh được render hoàn chỉnh. Biến đổi \(CHỦ THỂ
+CHÍNH\) thành \(DIỆN MẠO CUỐI\), giữ nguyên danh tính, hình dáng nhận
+diện và tỷ lệ. Đưa vào \(BẢNG MÀU\), \(VẬT LIỆU HOẶC HIỆU ỨNG ĐẶC
+TRƯNG\) và \(HOẠT ẢNH BIẾN ĐỔI\). Bổ sung \(CHI TIẾT MÔI TRƯỜNG\) với
+ánh sáng và phản chiếu chân thực; mọi chi tiết phụ có chủ đích trong cảnh xám
+phải biến đổi thành phiên bản cuối tương ứng, giữ bố cục, tỷ lệ và hướng
+chuyển động tương đối để thế giới render là phần tiếp nối hợp lý của viewport.
+
+00:10--00:14 --- TRÌNH DIỄN ĐIỆN ẢNH: Camera tiếp tục tiến mượt về
+phía trước mà không thay đổi bố cục trung tâm. Làm nổi bật \(CHỦ THỂ
+CHÍNH\) với vật liệu chi tiết, kết cấu thuyết phục, phản chiếu chân thực
+và \(CHUYỂN ĐỘNG TỰ NHIÊN HOẶC CÁCH ĐIỆU\). Thêm \(HOẠT ẢNH PHỤ\) và
+chuyển động môi trường tinh tế. Sử dụng chiều sâu điện ảnh, bloom có
+kiểm soát, ánh sáng thể tích và hiệu ứng thị sai tự nhiên khi phù hợp.
+Chủ thể luôn rõ ràng và nổi bật.
+
+00:14--00:15 --- KẾT THÚC: Camera hướng đến \(ĐIỂM NHẤN CUỐI\). Giảm
+dần ánh sáng và hiệu ứng khí quyển, chuyển mượt về khung hình đen hoàn
+toàn tại 00:15.
+
+PHONG CÁCH VÀ TÍNH LIÊN TỤC: CGI điện ảnh cao cấp, vật liệu chi
+tiết, render hoàn thiện, hoạt ảnh mượt, chủ thể nhất quán, môi trường
+đồng bộ và một cú máy camera tiến liên tục, không cắt cảnh đột ngột.
+
+ĐIỀU KIỆN LOẠI TRỪ: Không chữ chèn, phụ đề, logo, watermark, chủ thể
+trùng lặp, thay đổi cảnh ngẫu nhiên hoặc ánh sáng neon màu trước 00:07.
+Không làm biến dạng chủ thể đến mức không thể nhận ra. Kết thúc bằng
+khung hình đen hoàn toàn.
+7. Kế hoạch thử nghiệm 14 ngày
+Đề xuất bắt đầu với 1 video chất lượng tốt mỗi ngày. Tăng lên 2
+video/ngày chỉ khi vẫn giữ được chất lượng và khả năng kiểm tra thành
+phẩm.
+  Ngày                    Chủ đề                  Mục tiêu thử nghiệm
+  1                       Khối lập phương năng    Thiết lập format Grey
+                          lượng                   to Glow
+
+  2                       Mèo tam thể             Kiểm tra sức hút của
+                                                  động vật chân thực
+
+  3                       Nhân vật fantasy        Kiểm tra sức hút của
+                                                  nhân vật
+
+  4                       Xe thể thao             Kiểm tra vật thể có bề
+                                                  mặt phản chiếu
+
+  5                       Quả cầu năng lượng      Thử màu sắc và hiệu ứng
+                                                  hạt
+
+  6                       Hồ ly hoặc rồng         Thử sinh vật fantasy
+
+  7                       Robot                   Thử biến đổi vật liệu
+                                                  kim loại
+
+  8                       Biến thể tốt nhất tuần  Giữ chủ đề, thay hook
+                          1                       hoặc hiệu ứng
+
+  9                       Biến thể tốt thứ hai    Kiểm tra tính lặp lại
+                                                  của kết quả
+
+  10                      Hoa hoặc tinh thể       Thử chủ đề có chuyển
+                                                  động nở/phát triển
+
+  11                      Nhân vật phiên bản mới  Giữ format, đổi thiết
+                                                  kế
+
+  12                      Xe, máy móc hoặc kiến   Mở rộng trụ cột vật thể
+                          trúc                    
+
+  13                      Chủ đề có tín hiệu tốt  Tối ưu nhịp chuyển đổi
+                          nhất                    và phần reveal
+
+  14                      Phiên bản cải tiến      So sánh với video gốc
+                                              cùng chủ đề
+Lịch trên là một kế hoạch thử nghiệm, không phải dự đoán kết quả. Có thể
+đổi thứ tự theo thời gian sản xuất và chất lượng đầu ra.
+8. Quy trình sản xuất từng video
+1. Chọn một ý tưởng duy nhất: xác định chủ thể, diện mạo cuối, bảng
+   màu và một hiệu ứng đặc trưng. Kiểm tra palette log để chọn bảng màu
+   chưa trùng với các video gần nhất.
+   Liệt kê cả các chi tiết phụ trong cảnh xám và phiên bản cuối tương ứng
+   của chúng trước khi tạo video.
+2. Viết prompt: dùng template chung, thay phần chủ thể, môi trường,
+   vật liệu và chuyển động.
+3. Tạo video: ưu tiên tính liên tục, mốc biến đổi 00:07 và chủ thể
+   dễ nhận biết.
+4. Kiểm tra đầu ra: xem lại hình dáng, chuyển động, chi tiết lỗi,
+   ánh sáng, khung hình cuối và thời lượng.
+5. Chọn âm thanh: nhạc và hiệu ứng âm thanh phải có quyền sử dụng
+   phù hợp trên từng nền tảng; lưu lại thông tin giấy phép.
+6. Xuất bản: dùng video dọc 9:16, caption ngắn, hashtag liên quan
+   và không có watermark nền tảng khác.
+7. Ghi số liệu: theo dõi kết quả sau 24 giờ và 7 ngày để so sánh.
+9. Caption mẫu
+Grey to Glow - "From grey to extraordinary. ✨ Which version do you
+like most?" - "A simple model... or something more? Which object should
+transform next?"
+
+Creature Realism - "From a grey model to a lifelike creature. 🐾
+What should I create next?" - "Would you keep this little creature?"
+
+Character Awakening - "A new character awakens. Which fantasy design
+should come next?" - "Grey model to cinematic character. Rate the
+transformation."
+
+Object & Vehicle - "From a basic model to a cinematic machine. Which
+design wins?" - "What should I transform next: a car, robot, or
+spaceship?"
+
+Có thể dùng tiếng Anh để hướng tới người xem quốc tế hoặc tiếng Việt nếu
+muốn ưu tiên khán giả Việt Nam. Chỉ đặt câu hỏi khi nó thực sự liên quan
+đến nội dung.
+10. Hashtag và âm thanh
+Hashtag gợi ý
+Chọn một nhóm ngắn phù hợp với từng video thay vì dùng toàn bộ hashtag
+cho mọi bài.
+- Nhóm chung: #3DTransformation #3DAnimation #CGI #Blender #VFX
+- Nhóm nhân vật: #CharacterDesign #3DCharacter #DigitalArt
+- Nhóm hiệu ứng: #MotionDesign #VisualEffects #SatisfyingAnimation
+- Nhóm fantasy: #FantasyArt #CosmicEnergy #CinematicCGI
+Các hashtag là gợi ý, không bảo đảm tăng lượt tiếp cận. Loại bỏ hashtag
+không liên quan trực tiếp đến video.
+Âm thanh
+- Ưu tiên nhạc có giấy phép rõ ràng và kiểm tra điều kiện sử dụng
+  thương mại nếu cần.
+- Kiểm tra quyền sử dụng riêng cho Facebook, TikTok và YouTube; quyền
+  trên một nền tảng không tự động có nghĩa là được phép dùng trên nền
+  tảng khác.
+- Lưu giấy phép hoặc thông tin nguồn tải.
+- Không mặc định rằng nhãn "no copyright" bảo đảm không bị hệ thống
+  nhận diện âm thanh gắn cờ.
+11. Checklist trước khi đăng
+- [ ] Video dọc 9:16 và thời lượng mục tiêu 15 giây.
+- [ ] 2 giây đầu có chủ thể và bố cục gây tò mò.
+- [ ] Giai đoạn 00:00--00:06 giữ màu xám đơn sắc.
+- [ ] Biến đổi bắt đầu đúng 00:07.
+- [ ] Chủ thể giữ được hình dáng và danh tính xuyên suốt.
+- [ ] Camera mượt, không có cú cắt hoặc dịch chuyển bất ngờ.
+- [ ] Phần thành phẩm có đủ thời gian để người xem quan sát.
+- [ ] Không có lỗi hình thể, vật thể trùng lặp hoặc chi tiết nhấp nháy
+  rõ rệt.
+- [ ] Kết thúc bằng màn hình đen hoàn toàn ở 00:15.
+- [ ] Nhạc và hiệu ứng âm thanh có quyền sử dụng phù hợp.
+- [ ] Không có watermark hoặc logo ngoài ý muốn.
+- [ ] Caption và hashtag đúng chủ đề.
+- [ ] Đã kiểm tra tài khoản đăng là Trang Morphix 3D VN, không phải hồ
+  sơ cá nhân.
+- [ ] Đã kiểm tra các yêu cầu gắn nhãn nội dung AI áp dụng trên nền
+  tảng.
+12. Đo lường và tối ưu
+Ghi lại số liệu cho từng video sau 24 giờ và 7 ngày.
+
+  Chỉ số                     Dùng để đánh giá
+  Lượt xem/lượt phát         Khả năng phân phối ban đầu
+  Thời gian xem trung bình   Mức độ giữ chân người xem
+  Tỷ lệ xem hết, nếu có      Khả năng giữ người xem đến cuối
+  Lượt chia sẻ               Mức độ muốn chia sẻ video
+  Bình luận                  Khả năng khơi gợi phản hồi
+  Người theo dõi mới         Khả năng chuyển người xem thành khán giả
+  Chủ đề và hook             Tìm nhóm nội dung có tín hiệu tốt
+  Lỗi tạo video              Đánh giá thời gian sản xuất và độ ổn định
+
+So sánh các video có điều kiện tương đối tương đồng. Không kết luận từ
+một video đơn lẻ. Nếu một chủ đề cho tín hiệu tốt qua nhiều lần thử, hãy
+tạo biến thể mới thay vì đăng lại nguyên bản.
+13. Bảo mật và phát triển bền vững
+- Quản lý Trang qua tài khoản cá nhân hiện có nếu phù hợp; tạo Trang
+  thông thường không đồng nghĩa hồ sơ cá nhân trở thành công khai hoàn
+  toàn hoặc ẩn danh tuyệt đối.
+- Chuyển sang tư cách Trang trước khi đăng hoặc bình luận với tư cách
+  thương hiệu.
+- Bật xác thực hai yếu tố và không chia sẻ mật khẩu.
+- Ưu tiên nội dung tự tạo, có ý tưởng và dấu ấn riêng.
+- Không mua lượt xem, người theo dõi hoặc tương tác giả.
+- Không spam hashtag hoặc đăng lặp cùng một nội dung với số lượng lớn.
+- Kiểm tra định kỳ trạng thái Trang và điều kiện kiếm tiền trên bảng
+  điều khiển chuyên nghiệp nếu có.
+14. Việc cần làm ngay
+1. Hoàn thiện thông tin, username, ảnh đại diện và ảnh bìa Morphix 3D
+   VN.
+2. Chuẩn bị ít nhất 5 video đầu tiên, mỗi video thuộc một chủ đề hoặc
+   trụ cột khác nhau.
+3. Dùng cùng template 15 giây để tạo nền so sánh tương đối công bằng.
+4. Kiểm tra kỹ chuyển đổi tại 00:07 và khung hình đen cuối video.
+5. Bắt đầu lịch thử nghiệm 14 ngày.
+6. Ghi số liệu sau 24 giờ và 7 ngày.
+7. Chọn chủ đề có tín hiệu tốt qua nhiều video để phát triển thành
+   series dài hạn.
+Định hướng cốt lõi
+Morphix 3D VN không chỉ là những video đổi màu mô hình. Điểm nhận diện
+cần giữ là quá trình dựng hình xám dễ nhận ra, khoảnh khắc biến đổi rõ
+ràng và thành phẩm CGI đủ ấn tượng. Đa dạng chủ thể --- hình khối,
+động vật, nhân vật, phương tiện và môi trường --- nhưng thống nhất cách
+kể chuyện và chất lượng hình ảnh để người xem nhận ra thương hiệu.

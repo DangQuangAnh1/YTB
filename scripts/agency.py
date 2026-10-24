@@ -73,6 +73,15 @@ def write_json(path, value):
     atomic_write(path, json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
+def is_within(path, parent):
+    """Return whether path resolves inside parent (compatible with Python < 3.9)."""
+    try:
+        path.resolve().relative_to(parent.resolve())
+        return True
+    except ValueError:
+        return False
+
+
 @contextmanager
 def lock(path):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -94,7 +103,7 @@ def inside(project, relative):
     require(not pure.is_absolute() and ".." not in pure.parts and "\\" not in relative,
             "Path must be project-relative without parent traversal")
     result = project.joinpath(*pure.parts)
-    require(result.resolve().is_relative_to(project.resolve()), "Path escapes project through a symlink")
+    require(is_within(result, project), "Path escapes project through a symlink")
     return result
 
 
@@ -103,7 +112,7 @@ def project_path(root, project_id):
     project = root / "projects" / project_id
     require(not (root / "projects").is_symlink(), "Registry directory must not be a symlink")
     require(project.is_dir() and not project.is_symlink(), "Project does not exist or is a symlink")
-    require(project.resolve().is_relative_to((root / "projects").resolve()), "Project escapes registry")
+    require(is_within(project, root / "projects"), "Project escapes registry")
     return project
 
 

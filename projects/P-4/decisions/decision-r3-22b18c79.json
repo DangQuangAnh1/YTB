@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-4",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user-chat-2026-10-23",
+  "excerpt": "Ok sửa trực tiếp plan + tạo thành project p4 của repo đi + video tôi sẽ tự làm bạn sẽ viết prompt hằng ngày cho tôi + tôi sẽ có 1 folder nhạc 15s để bạn ghép âm thanh vào nữa là xong",
+  "plan": {
+    "path": "plans/plan-v1-r2-86d9adc9.md",
+    "sha256": "0e3393d484cf9baf8bf7f44aad381a846d8d85af25edf2d819c362f3de986e6c",
+    "revision": 1
+  },
+  "allowed_actions": [
+    "write_content"
+  ],
+  "decided_at": "2026-10-23T07:07:31.735636+00:00"
+}

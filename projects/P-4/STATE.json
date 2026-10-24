@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project_id": "P-4",
+  "revision": 13,
+  "goal": "Morphix 3D VN: daily 15-second transformation-video prompt workflow and licensed audio assembly.",
+  "stage": "planning",
+  "constraints": [
+    "Prefer existing tools; no additional paid services without user authorization",
+    "No channel creation or publishing in v0"
+  ],
+  "current_task": {
+    "id": "T-001",
+    "owner_role": "pm",
+    "execution": "not_started"
+  },
+  "plan": {
+    "path": "plans/plan-v6-r12-855131c0.md",
+    "sha256": "7947399ce3abcd2924890f049f85b33b3f125f7c2e909be7a9765ae4e605aac0",
+    "revision": 6
+  },
+  "approval": {
+    "status": "approved",
+    "record": {
+      "path": "decisions/decision-r13-ceaa9695.json",
+      "sha256": "bf04ef242522d151ade1a01e4ad9e3a99f90d787f42f1856d2b2714c08a8abe8"
+    }
+  },
+  "decision_records": [
+    {
+      "path": "decisions/decision-r3-22b18c79.json",
+      "sha256": "6693e447604ee1ab54d0e05b5862291a2ea1f961a4f1fb7def814042b890922c"
+    },
+    {
+      "path": "decisions/decision-r5-0c2a5c90.json",
+      "sha256": "95c284a8125f8dbb2f3239d904851c2cffe20050378f498f73f26d532a3961cd"
+    },
+    {
+      "path": "decisions/decision-r7-742cae52.json",
+      "sha256": "ee5dd37b4aaa6512c94d59d0ff75e0f9ac711318115d13d2b3c56be031b52162"
+    },
+    {
+      "path": "decisions/decision-r9-6fa767df.json",
+      "sha256": "93d33f105036c1039c096b71c72acd03862baf02c522e7fc72146cfb4f50815a"
+    },
+    {
+      "path": "decisions/decision-r11-77eaf833.json",
+      "sha256": "e672bfbb86b069370329b9f9ebce00cd232607d683254eb218b035ee3e7d1a99"
+    },
+    {
+      "path": "decisions/decision-r13-ceaa9695.json",
+      "sha256": "bf04ef242522d151ade1a01e4ad9e3a99f90d787f42f1856d2b2714c08a8abe8"
+    }
+  ],
+  "artifacts": [],
+  "reviews": [],
+  "acceptance": "not_reviewed",
+  "release": "not_requested",
+  "next_action": "Continue only within the recorded scope",
+  "unresolved": [],
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_input_tokens": 0,
+    "samples": {},
+    "baselines": {},
+    "available": false
+  },
+  "created_at": "2026-10-23T07:05:25.260452+00:00",
+  "updated_at": "2026-10-23T07:37:49.792977+00:00"
+}

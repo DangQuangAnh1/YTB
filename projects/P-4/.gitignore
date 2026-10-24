@@ -1,0 +1,7 @@
+# Source media, licensed music and exports remain local/private.
+media/source-video/*
+media/music-15s/*
+media/output/*
+!media/source-video/.gitkeep
+!media/music-15s/.gitkeep
+!media/output/.gitkeep

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "P-4",
+  "actor": "user",
+  "decision": "approve",
+  "source_ref": "user-chat-2026-10-23",
+  "excerpt": "Sửa lại prompt tạo vodeo đi viết bằng tiếng anh + nhiều chi tiết hơn + vũ trụ hơn hiện tại xấu quá",
+  "plan": {
+    "path": "plans/plan-v6-r12-855131c0.md",
+    "sha256": "7947399ce3abcd2924890f049f85b33b3f125f7c2e909be7a9765ae4e605aac0",
+    "revision": 6
+  },
+  "allowed_actions": [
+    "write_content"
+  ],
+  "decided_at": "2026-10-23T07:37:49.788393+00:00"
+}
